@@ -1,4 +1,4 @@
-# llm-book-summarization
+# How to use LLM \ GPT for book summarization
 
 In this repository I will describe my methods for book summarization using [PrivateGPT](https://docs.privategpt.dev/overview), including a comparison of 6 different models using these methods.
 
@@ -224,7 +224,7 @@ Our first answer complete in two seconds!
 }
 ```
 
-### Step Six - Analysis and Prepare for Consumption.
+### Step Six - Prepare for Consumption and Analysis.
 
 I'll save you the nitty gritty of it, but be assured this is the longest part of the process.
 
