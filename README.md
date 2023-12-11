@@ -2,7 +2,7 @@
 
 In this repository I will describe my methods for book summarization using [PrivateGPT](https://docs.privategpt.dev/overview), including a comparison of 6 different models using these methods.
 
-I've searched quite a bit on this topic, and there doesn't seem to be any guide written describing how to use LLM for book summarization. I've found tools and determined methods to do this, and felt like i could fill that gap, by documenting my efforts.
+I've searched quite a bit on this topic, and there doesn't seem to be any guide written describing how to use LLM for book summarization, and felt that i could fill a gap, by documenting my efforts.
 
 ## Models
 
@@ -10,7 +10,7 @@ I've searched quite a bit on this topic, and there doesn't seem to be any guide 
 
 While I've tried 50+ different LLM for this same task, Mistral-7B-Instruct is still among the best.
 
-### Ranking
+### Q/A Ranking
 1. [**Hermes Trismegistus Mistral 7b**](https://huggingface.co/TheBloke/Hermes-Trismegistus-Mistral-7B-GGUF) is my overall choice. It's verbose, with some filler, and its a good bullshitter. I can use these results.
 2. [**SynthIA 7B**](https://huggingface.co/TheBloke/SynthIA-7B-v2.0-GGUF) is very impressive. I think if you want a little less filler, go here. Some of it was just a little too short and not on target enough for my taste.
 3. [**Mistral 7b Instruct v0.1**](https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.1-GGUF) is an excellent model and surprised its not higher on this list. Only real complaint is the answers are just too short.
@@ -37,6 +37,8 @@ Find the full data and rankings on [Google Docs](https://docs.google.com/spreads
   - Short   (Too short, not enough to work with.)
   - BS      (Not from this book and not helpful.)
   - Good BS (Not from the targeted section but valid.)
+
+### Summary Ranking [Coming Soon]
 
 ## Disclaimer
 
