@@ -88,7 +88,7 @@ I'm running this project at home using an RTX 3060. Each answer typically takes 
 
 Rather than feed a 400 page book into any LLM model, splitting it into chapters makes the task more managable. Using [PrivateGPT](https://github.com/imartinez/privateGPT), I've found a number of models that produce good results when asking questions on a 60 page book-chapter.
 
-In this project, I'll prepare a whole chapter for query\summarization, and then use a shell script to submit the same queries to 6 models I've selected for comparison.
+In this project, I'll prepare a whole chapter for query\summarization, and then use a shell script to submit the same queries to the models selected for comparison.
 
 #### Backend
 Roughly speaking, PrivateGPT splits your document into chunks which are "tagged" and stored in a database. 
@@ -101,8 +101,6 @@ I've edited PrivateGPT source:
 - to use 4 chuncks, per query, vs 2 which is default.
 - to generate up to 512 tokens per query, vs 256 which is default
 
-Some sections aren't easy to formulate a question for, and i decided to also chunk the chapter manually and have summaries prepared based on the specific context I'm targeting.
-
 #### Objective
 Our results will show the difference between asking questions to a database, vs to specific sections of text. Each has its strengths, and different models will likely show strengths in one vs the other.
 
@@ -110,8 +108,6 @@ I want to learn the personality of these models which have stood out among the r
 
 ### Walkthrough
 #### Step One - Chapterize Book
-
-Well, I was using a hacky script to pull page ranges of bookmarks from PDF, and then use [pdftk](https://www.pdflabs.com/tools/pdftk-the-pdf-toolkit/) with that information.. but I lost that script in the shuffle, and then found this neat tool, Sejda.
 
 https://github.com/torakiki/sejda
 
@@ -121,19 +117,17 @@ https://www.sejda.com/split-pdf-by-outline
 
 #### Step Two - Prepare book for query and summarization.
 
-I'm using Calibre and VS Code.
+I'm using [Calibre](https://calibre-ebook.com/) and [VS Code](https://code.visualstudio.com/).
 
 `ebook-convert file.pdf file.txt`
 
 For this demonstration I'm using a chapter from a book that comparing the chakra system with western psychology: Eastern Body, Western Mind: Psychology and the Chakra System, by Anodea Judith.
 
-Now I've pulled into VSCode, the text version of the chapter and am selecting sections I want summarized, compressing them to one line by selecting sections of text using regex search replace, changing new lines into a space (`\n` -> ` ` ).
+Now I've pulled into VSCode, the text version of the chapter and am selecting sections I want summarized. I compressing them to a single line by selecting sections and using regex search replace to change new lines into a space (`\n` -> ` ` ).
 
-I've also written questions for each sub-heading within the chapter.
+All in all I've split a 73 page, 30k token, book chapter into 31 chunks of text, leaving an average of 850 tokens per query.
 
-In all I've split a 73 page, 30k token, book chapter into 35 lines of text, and written 30 questions. Leaving an average of 850 tokens per query.
-
-This is going to be a lot of data for comparison, so perhaps we'll only compare a sub-seection of results... but ultimately I am demonstrating the level of precision used for this task.
+I've also written 30 questions, one for each sub-heading within the chapter.
 
 #### Step Three - Prepare data for automation.
 
