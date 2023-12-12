@@ -20,7 +20,9 @@ I've searched quite a bit on this topic, and there doesn't seem to be any guide 
 
 While I've tried 50+ different LLM for this same task, Mistral-7B-Instruct is still among the best.
 
-1. Asking the same 30 questions to a 70 page book chapter, using 5 different LLM.
+For this analysis we will be testing out 5 different LLM for the following tasks:
+
+1. Asking the same 30 questions to a 70 page book chapter.
 2. Summarizing that same 70 page book chapter divided into 30 chunks.
 
 #### Find the full data and rankings on [Google Docs](https://docs.google.com/spreadsheets/d/1u3BgDx6IsJSbRz3uNmud1sDtO4WvWsH6ION3J-fhoGw/edit?usp=sharing) or here in this repository [QA Scores](Scores-QA.csv), [Summary Scores](Scores-Summary.csv).
