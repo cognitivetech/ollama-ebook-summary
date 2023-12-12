@@ -4,20 +4,33 @@ In this repository I will describe my methods for book summarization using [Priv
 
 I've searched quite a bit on this topic, and there doesn't seem to be any guide written describing how to use LLM for book summarization, and felt that i could fill a gap, by documenting my efforts.
 
-## Models
+## Contents
+
+- [Rankings](#rankings)
+  - [Question / Answer Ranking](#question--answer-ranking)
+  - [Summary Rankings](#summary-ranking)
+- [Guide](#guide)
+  - [Disclaimer](#disclaimer)
+  - [Background](#background)
+  - [Walkthrough](#walkthrough)
+
+## Rankings
 
 `mistral-7b-instruct-v0.1.Q4_K_M` comes as part of PrivateGPT's default setup. Here, I've preferred the 8_0 variants.
 
 While I've tried 50+ different LLM for this same task, Mistral-7B-Instruct is still among the best.
 
-### Q/A Ranking
+1. Asking the same 30 questions to a 70 page book chapter, using 5 different LLM.
+2. Summarizing that same 70 page book chapter divided into 30 chunks.
+
+#### Find the full data and rankings on [Google Docs](https://docs.google.com/spreadsheets/d/1u3BgDx6IsJSbRz3uNmud1sDtO4WvWsH6ION3J-fhoGw/edit?usp=sharing) or here in this repository [QA Scores](Scores-QA.csv), [Summary Scores](Scores-Summary.csv).
+
+### Question / Answer Ranking
 1. [**Hermes Trismegistus Mistral 7b**](https://huggingface.co/TheBloke/Hermes-Trismegistus-Mistral-7B-GGUF) is my overall choice. It's verbose, with some filler, and its a good bullshitter. I can use these results.
 2. [**SynthIA 7B**](https://huggingface.co/TheBloke/SynthIA-7B-v2.0-GGUF) is very impressive. I think if you want a little less filler, go here. Some of it was just a little too short and not on target enough for my taste.
 3. [**Mistral 7b Instruct v0.1**](https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.1-GGUF) is an excellent model and surprised its not higher on this list. Only real complaint is the answers are just too short.
 4. [**CollectiveCognition v1.1 Mistral 7b**](https://huggingface.co/TheBloke/CollectiveCognition-v1.1-Mistral-7B-GGUF) is quite good. However there is a lot of filler and took the longest amount of time of them all. It scored a bit higher than mistral on quality\usefulness, I think the amount of filler just made it less enjoyable to read.
 5. [**KAI 7b Instruct**](https://huggingface.co/TheBloke/KAI-7B-Instruct-GGUF) the answers were too short, and made its BS stand out a little more. A good model, but not for summarizing books, I'm afraid.
-
-Find the full data and rankings on [Google Docs](https://docs.google.com/spreadsheets/d/1u3BgDx6IsJSbRz3uNmud1sDtO4WvWsH6ION3J-fhoGw/edit?usp=sharing) or here [in this repository](QA.csv).
 
 | Model | Rating | Search Accuracy | Characters | Seconds | BS | Filler | Short | Good BS |
 | ----- | ------ | --------------- | ---------- | ------- | -- | ------ | ----- | ------- |
@@ -38,27 +51,42 @@ Find the full data and rankings on [Google Docs](https://docs.google.com/spreads
   - BS      (Not from this book and not helpful.)
   - Good BS (Not from the targeted section but valid.)
 
-### Summary Ranking [Coming Soon]
+### Summary Ranking
 
-## Disclaimer
+1. [**Hermes Trismegistus Mistral 7b**](https://huggingface.co/TheBloke/Hermes-Trismegistus-Mistral-7B-GGUF) - Still in the lead. It's verbose, with some filler. I can use these results.
+2. [**SynthIA 7B**](https://huggingface.co/TheBloke/SynthIA-7B-v2.0-GGUF) - Pretty good, but too concise. Many of the answers were perfect, but 7 were too short\incomplete for use.
+3. [**Mistral 7b Instruct v0.1**](https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.1-GGUF) - Just too short.
+4. [**KAI 7b Instruct**](https://huggingface.co/TheBloke/KAI-7B-Instruct-GGUF) - Just too short.
+5. [**CollectiveCognition v1.1 Mistral 7b**](https://huggingface.co/TheBloke/CollectiveCognition-v1.1-Mistral-7B-GGUF) - Lots of garbage. Some of the summaries were super detailed and perfect, but over half of the responses were a set of questions based on the text, not a summary.
+
+| Name | Score |  Characters Generated | % Diff from OG | Seconds to Generate | Short | Garbage | BS | Fill | Questions | Detailed |
+| ---- | ----- | -------------------- | -------------- | ------------------- | ----- | ------- | -- | ---- | --------- | -------- | 
+| hermes-trismegistus-mistral-7b | 74 | 45870 | -61 | 274 | 0 | 1 | 1 | 3 | 0 | 0 |
+| synthia-7b-v2.0 | 60 | 26849 | -77 | 171 | 7 | 1 | 0 | 0 | 0 | 1 |
+| mistral-7b-instruct-v0.1 | 58 | 25797 | -78 | 174 | 7 | 2 | 0 | 0 | 0 | 0 |
+| kai-7b-instruct | 59 | 25057 | -79 | 168 | 5 | 1 | 0 | 0 | 0 | 0 |
+| collectivecognition-v1.1-mistral-7b | 31 | 29509 | -75 | 214 | 0 | 1 | 1 | 2 | 17 | 8 |
+
+## Guide
+### Disclaimer
 
 These models are not deterministic, and may provide unpredictable results.
 
 If you are running privateGPT from the UX, these same queries will take longer because of the chat history is included in the context.
 
-## Background
-### System
+### Background
+#### System
 If you have a good CPU, some of these models will work using Q4_K_M or Q5_K_M variants. But can take a few minutes per query.
 
 I'm running this project at home using an RTX 3060. Each answer typically takes a minute or less from the GUI.
 
-### Overview
+#### Overview
 
 Rather than feed a 400 page book into any LLM model, splitting it into chapters makes the task more managable. Using [PrivateGPT](https://github.com/imartinez/privateGPT), I've found a number of models that produce good results when asking questions on a 60 page book-chapter.
 
 In this project, I'll prepare a whole chapter for query\summarization, and then use a shell script to submit the same queries to 6 models I've selected for comparison.
 
-### Backend
+#### Backend
 Roughly speaking, PrivateGPT splits your document into chunks which are "tagged" and stored in a database. 
 
 Based upon your query, the LLM searches through those chunks to find the most relevant content, and elaborates upon that. 
@@ -71,13 +99,13 @@ I've edited PrivateGPT source:
 
 Some sections aren't easy to formulate a question for, and i decided to also chunk the chapter manually and have summaries prepared based on the specific context I'm targeting.
 
-### Objective
+#### Objective
 Our results will show the difference between asking questions to a database, vs to specific sections of text. Each has its strengths, and different models will likely show strengths in one vs the other.
 
 I want to learn the personality of these models which have stood out among the rest, and find out which are best suited to which tasks.
 
-## Walkthrough
-### Step One - Chapterize Book
+### Walkthrough
+#### Step One - Chapterize Book
 
 Well, I was using a hacky script to pull page ranges of bookmarks from PDF, and then use [pdftk](https://www.pdflabs.com/tools/pdftk-the-pdf-toolkit/) with that information.. but I lost that script in the shuffle, and then found this neat tool, Sejda.
 
@@ -87,7 +115,7 @@ Great thing about Sejda is that its open source, and has a free web version avai
 
 https://www.sejda.com/split-pdf-by-outline
 
-### Step Two - Prepare book for query and summarization.
+#### Step Two - Prepare book for query and summarization.
 
 I'm using Calibre and VS Code.
 
@@ -103,11 +131,11 @@ In all I've split a 73 page, 30k token, book chapter into 35 lines of text, and 
 
 This is going to be a lot of data for comparison, so perhaps we'll only compare a sub-seection of results... but ultimately I am demonstrating the level of precision used for this task.
 
-### Step Three - Prepare data for automation.
+#### Step Three - Prepare data for automation.
 
 I will make two different type of JSON objects, depending on the type of query.
 
-#### Question
+##### Question
 Note I have set Include Sources, as well as Use Context so the questions are asked to the document already ingested, and we learn which sources were used.
 
 ```json
@@ -118,7 +146,7 @@ Note I have set Include Sources, as well as Use Context so the questions are ask
   "use_context": true
 }
 ```
-#### Summary
+##### Summary
 I've also made a file that breaks the entire chapter into 31 json objects just like shown below.
 
 ```json
@@ -127,11 +155,11 @@ I've also made a file that breaks the entire chapter into 31 json objects just l
 }
 ```
 
-### Step Four - Write Shell Script
+#### Step Four - Write Shell Script
 
-I've minified those json objects [so they are on one line each](q.json), and will now submit them to my models for testing and analysis.
+I've minified those json objects [so they are on one line each](script/q.json), and will now submit them to my models for testing and analysis.
  
-#### Questions
+##### Questions
 ```bash
 cat q.json | while read line
 do
@@ -140,7 +168,7 @@ do
 done
 ```
 
-#### Summaries
+##### Summaries
 
 ```bash
 cat sum.json | while read line
@@ -150,11 +178,15 @@ do
 done
 ```
 
-### Step Five - Start PrivateGPT and Begin Testing
+#### Step Five - Start PrivateGPT and Begin Testing
 
 `PGPT_PROFILES=local make run`
 
-#### mistral-7b-instruct-v0.1.Q8_0.gguf 
+In another window I run my [script](script):
+
+`./bash.sh`
+
+##### mistral-7b-instruct-v0.1.Q8_0.gguf 
 
 Our first answer complete in two seconds!
 
