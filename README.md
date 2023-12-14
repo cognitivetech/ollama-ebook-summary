@@ -5,14 +5,18 @@ In this repository I will describe my methods for book summarization using [Priv
 I've searched quite a bit on this topic, and there doesn't seem to be any guide written describing how to use LLM for book summarization, and felt that i could fill a gap by documenting my efforts.
 
 ## Contents
-
+- [Contents](#contents)
 - [Rankings](#rankings)
   - [Question / Answer Ranking](#question--answer-ranking)
-  - [Summary Rankings](#summary-ranking)
+  - [Summary Ranking](#summary-ranking)
 - [Guide](#guide)
   - [Disclaimer](#disclaimer)
   - [Background](#background)
   - [Walkthrough](#walkthrough)
+- [Making my first complete book summary](#making-my-first-complete-book-summary)
+  - [Prompting](#prompting)
+- [Result](#result)
+  - [Check out my First Summary](#check-out-my-summary)
 
 ## Rankings
 
@@ -119,9 +123,19 @@ https://www.sejda.com/split-pdf-by-outline
 
 I'm using [Calibre](https://calibre-ebook.com/) and [VS Code](https://code.visualstudio.com/).
 
-`ebook-convert file.pdf file.txt`
+`ebook-convert file.epub file.txt --enable-heuristics --disable-markup-chapter-headings --disable-delete-blank-paragraphs  --disable-unwrap-lines`
 
-For this demonstration I'm using a chapter from a book that comparing the chakra system with western psychology: Eastern Body, Western Mind: Psychology and the Chakra System, by Anodea Judith.
+The above command performs much better on the `epub` vs `pdf` for producing a clean output preserving formating and not adding tons of line-breaks. 
+
+All the same, I'm still building up an array of regex commands to run in a sed script, because that won't always be an option.
+
+Check this link, you might do better than me, even.
+
+https://manual.calibre-ebook.com/conversion.html#heuristic-processing
+
+##### For this demonstration 
+
+I'm using a chapter from a book that comparing the chakra system with western psychology: [Eastern body, Western mind : psychology and the chakra system as a path to the self](https://www.amazon.com/Eastern-Body-Western-Mind-Psychology/dp/1587612259/?&tag=cognitivetech-20), by Anodea Judith.
 
 Now I've pulled into VSCode, the text version of the chapter and am selecting sections I want summarized. I compressing them to a single line by selecting sections and using the "join lines" function, that I've mapped to a convenient key combo.
 
@@ -281,3 +295,55 @@ Our first answer complete in two seconds!
   ]
 }
 ```
+
+## Making my first complete book summary
+
+Using above methods I learned how each model responds and began to do my first complete summary.
+
+Initially I thought I would prefer [Hermes Trismegistus Mistral 7b](https://huggingface.co/TheBloke/Hermes-Trismegistus-Mistral-7B-GGUF), because it made the most verbose output giving me something to work with. 
+
+Ultimately, I decided to use [SynthIA 7B](https://huggingface.co/TheBloke/SynthIA-7B-v2.0-GGUF) because it is _less_ verbose, but still quite detailed. I also noticed that it always created less output than given, compared to Hermes Trismegistus, that will sometimes generate more content than given.
+
+I would like to create summaries that contain 20% or less textual volume vs the original.
+
+I also decided to be more particular about how sections are grouped, but I try to not group less than 3500 characters, preferring 7000-9000 characters per selection.
+
+### Prompting
+
+My first round of testing used a quite naive instruction: "Summarize the following: ", with whatever is the llama2 default system prompt.
+
+After I split the book, a second time, into more intentional selections, I decided to try out a new prompt.
+
+#### System Prompt
+
+PrivateGPT just exposed the ability to change its system prompt, so now I'm using this:
+
+```yaml
+You are Loved. Act as an expert on summarization, outlining and structuring. 
+Your style of writing should be informative and logical.
+```
+#### Instructions 
+
+```yaml
+Create bullet-point notes summarizing the important parts of the following text. Vocabulary terms and key concepts should be marked in bold. Focus only on essential information, without adding any extra thoughts. TEXT: ```{content}```
+```
+
+## Result
+
+I didn't time myself perfectly, but I will guess I created this summary of a 539 page book in 5-6 hours!!! That was my first time. Incredible. 
+
+A few of the api calls didn't go through, but I had my first run with the naive prompting to back up this run. I will say, bullet-point notes are a lot easier to read when editing. 
+
+Some of that run of api calls didn't go perfectly. When necessary I found a missing section in my original summary, and ran it through the bullet point prompting, so I wasn't missing any sections, but could maintain readability.
+
+When I was going to do this manually, it would have taken me over a month.
+
+One thing I was worried about too is plagarism. With the final text containing around 25% of the characters as original, was this going to take me far beyond "fair use" into plagarism land?
+
+![](https://i.imgur.com/xqWNToN.png)
+
+According to [CopyLeaks](https://app.copyleaks.com/) it says my text is only 5.4% plagiarized!!! Considering that this is not for profit, but for educational purposes, I'm going to call that a victory.
+
+### Check out my summary
+
+#### [Summary of Anodea Judith's Eastern Body Western Mind](Eastern-Body_Western-Mind_Synthia.md), by CognitiveTech
