@@ -82,7 +82,7 @@ If you are running privateGPT from the UX, these same queries will take longer b
 #### System
 If you have a good CPU, some of these models will work using Q4_K_M or Q5_K_M variants. But can take a few minutes per query.
 
-I'm running this project at home using an RTX 3060. Each answer typically takes a minute or less from the GUI.
+I'm running this project at home using an RTX 3060 12GB. Each answer typically takes a minute or less from the GUI.
 
 #### Overview
 
