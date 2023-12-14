@@ -123,7 +123,7 @@ I'm using [Calibre](https://calibre-ebook.com/) and [VS Code](https://code.visua
 
 For this demonstration I'm using a chapter from a book that comparing the chakra system with western psychology: Eastern Body, Western Mind: Psychology and the Chakra System, by Anodea Judith.
 
-Now I've pulled into VSCode, the text version of the chapter and am selecting sections I want summarized. I compressing them to a single line by selecting sections and using regex search replace to change new lines into a space (`\n` -> ` ` ).
+Now I've pulled into VSCode, the text version of the chapter and am selecting sections I want summarized. I compressing them to a single line by selecting sections and using the "join lines" function, that I've mapped to a convenient key combo.
 
 All in all I've split a 73 page, 30k token, book chapter into 31 chunks of text, leaving an average of 850 tokens per query.
 
