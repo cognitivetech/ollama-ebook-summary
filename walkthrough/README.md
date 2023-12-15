@@ -1,4 +1,13 @@
 # Walkthrough
+- [Disclaimer](#disclaimer)
+- [System](#system)
+- [Step One - Chapterize Book](#step-one---chapterize-book)
+- [Step Two - Prepare book for query and summarization.](#step-two---prepare-book-for-query-and-summarization)
+- [Step Three - Prepare data for automation.](#step-three---prepare-data-for-automation)
+- [Step Four - Write Shell Script](#step-four---write-shell-script)
+- [Step Five - Start PrivateGPT and Begin Testing](#step-five---start-privategpt-and-begin-testing)
+- [Making my first complete book summary](#making-my-first-complete-book-summary)
+- [Prompting](#prompting)
 
 ## Disclaimer
 
