@@ -9,8 +9,10 @@ I've searched quite a bit on this topic, and there doesn't seem to be any guide 
 - [Rankings](#rankings)
   - [Question / Answer Ranking](#question--answer-ranking)
   - [Summary Ranking](#summary-ranking)
+- [Overview](#overview)
 - [Result](#result)
 - [Check out my first complete book summary](#check-out-my-first-complete-book-summary)
+- [Walkthrough](#walkthrough)
 
 ## Rankings
 
@@ -70,7 +72,7 @@ Not surprisingly, summaries performed better than Q/A, but they also had a more 
 | collectivecognition-v1.1-mistral-7b | 31 | 29509 | -75 | 214 | 0 | 1 | 1 | 2 | 17 | 8 |
 
 
-## Overview
+## Method
 
 Rather than feed a 400 page book into any LLM model, splitting it into chapters makes the task more managable. Using [PrivateGPT](https://github.com/imartinez/privateGPT), I've found a number of models that produce good results, and first ran tests with a few models on a single book chapter.
 
