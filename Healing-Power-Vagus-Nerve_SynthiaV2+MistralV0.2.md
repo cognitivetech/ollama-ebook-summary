@@ -5,9 +5,97 @@
 
 It is meant to provide a detailed overview of the topics and materials presented in the book, but does not replace it.
 
-**If you appreciate this work, feel free to buy the original on Amazon using my ref-link**
+**If you appreciate this work, feel free to buy the original on Amazon using my referral-link**
 
 * [Accessing the Healing Power of the Vagus Nerve: Self-Help Exercises for Anxiety, Depression, Trauma, and Autism](https://www.amazon.com/Accessing-Healing-Power-Vagus-Nerve/dp/1623170249/?&tag=cognitivetech-20)
+
+## Contents
+- [Preface](#preface)
+- [Introduction: The Autonomic Nervous System](#introduction-the-autonomic-nervous-system)
+  - [The brain-body barrier](#the-brain-body-barrier)
+  - [The neurology of social engagement](#the-neurology-of-social-engagement)
+  - [Restoring social engagement](#restoring-social-engagement)
+- [PART ONE](#part-one)
+- [Chapter 1](#chapter-1)
+  - [The various functions of cranial nerves](#the-various-functions-of-cranial-nerves)
+  - [Major Functions of the Cranial Nerves.](#major-functions-of-the-cranial-nerves)
+  - [Cranial Nerve Dysfunction and Social Engagement](#cranial-nerve-dysfunction-and-social-engagement)
+  - [The fifth and seventh cranial nerves](#the-fifth-and-seventh-cranial-nerves)
+  - [The ninth, tenth, and eleventh cranial nerves](#the-ninth-tenth-and-eleventh-cranial-nerves)
+  - [The Vagus CNX has two branches with different functions.](#the-vagus-cnx-has-two-branches-with-different-functions)
+  - [Treating the Cranial Nerves](#treating-the-cranial-nerves)
+  - [The Spinal Nerves](#the-spinal-nerves)
+  - [The spinal sympathetic chain](#the-spinal-sympathetic-chain)
+- [Chapter 2](#chapter-2)
+  - [Goldilocks and the Three ANS States](#goldilocks-and-the-three-ans-states)
+  - [Homeostasis and the ANS](#homeostasis-and-the-ans)
+  - [The Five States of the Autonomic Nervous System](#the-five-states-of-the-autonomic-nervous-system)
+  - [Historical Recognition](#historical-recognition)
+  - [Two Branches of the Nerve Called “Vagus”](#two-branches-of-the-nerve-called-vagus)
+  - [Effects of activity in the dorsal vagus circuit](#effects-of-activity-in-the-dorsal-vagus-circuit)
+  - [Symptoms of a dorsal vagal state](#symptoms-of-a-dorsal-vagal-state)
+  - [Effects of ventral vagus activity](#effects-of-ventral-vagus-activity)
+  - [Stress and the Sympathetic Nervous System](#stress-and-the-sympathetic-nervous-system)
+  - [The fight-or-flight response](#the-fight-or-flight-response)
+  - [A new understanding of stress](#a-new-understanding-of-stress)
+- [Chapter 3](#chapter-3)
+  - [Neuroception and Faulty Neuroception](#neuroception-and-faulty-neuroception)
+  - [Other Causes of Faulty Neuroception](#other-causes-of-faulty-neuroception)
+- [Chapter 4](#chapter-4)
+  - [Testing the Ventral Branch of the Vagus Nerve](#testing-the-ventral-branch-of-the-vagus-nerve)
+  - [Other tests of vagal function](#other-tests-of-vagal-function)
+  - [Testing for Vagal Function: Early Experiences](#testing-for-vagal-function-early-experiences)
+  - [Discovering the Polyvagal Theory](#discovering-the-polyvagal-theory)
+  - [Testing for Vagal Function: Cottingham, Porges, and Lyon](#testing-for-vagal-function-cottingham-porges-and-lyon)
+  - [A Simple Test of the Pharyngeal Vagus Branch](#a-simple-test-of-the-pharyngeal-vagus-branch)
+  - [How to Test for Pharyngeal Ventral Branch Function](#how-to-test-for-pharyngeal-ventral-branch-function)
+  - [Therapists Can Test for Vagal Function without Touching](#therapists-can-test-for-vagal-function-without-touching)
+  - [Building on Stephen Porges’s success](#building-on-stephen-porgess-success)
+  - [Relieving COPD and Hiatal Hernia](#relieving-copd-and-hiatal-hernia)
+  - [COPD and hiatal hernia: a case study](#copd-and-hiatal-hernia-a-case-study)
+  - [Treating a Hiatal Hernia](#treating-a-hiatal-hernia)
+  - [Diaphragmatic Breathing](#diaphragmatic-breathing)
+  - [The Levator Scapulae Muscle](#the-levator-scapulae-muscle)
+  - [Trapezius and SCM muscles in action on the Serengeti Plain](#trapezius-and-scm-muscles-in-action-on-the-serengeti-plain)
+  - [Asymmetry in trapezius muscle tension](#asymmetry-in-trapezius-muscle-tension)
+  - [The Trap Squeeze Test for Shoulder and Neck Problems](#the-trap-squeeze-test-for-shoulder-and-neck-problems)
+  - [Health Problems Related to Forward Head Posture](#health-problems-related-to-forward-head-posture)
+  - [Scar tissue as a contributor to FHP](#scar-tissue-as-a-contributor-to-fhp)
+  - [Relieving Migraine Headaches](#relieving-migraine-headaches)
+  - [All muscles have trigger points](#all-muscles-have-trigger-points)
+  - [Migraines: a case study](#migraines-a-case-study)
+- [Chapter 6 Somatopsychological Problems](#chapter-6-somatopsychological-problems)
+  - [Emotions and the autonomic nervous](#emotions-and-the-autonomic-nervous)
+  - [Anxiety and Panic Attacks](#anxiety-and-panic-attacks)
+  - [Case study: anxiety and panic attacks](#case-study-anxiety-and-panic-attacks)
+  - [Social regulation of anxiety states](#social-regulation-of-anxiety-states)
+  - [Antisocial Behavior and Domestic Violence](#antisocial-behavior-and-domestic-violence)
+  - [Domestic Violence: Not Just Men Beating Wives](#domestic-violence-not-just-men-beating-wives)
+  - [Post-Traumatic Stress Disorder (PTSD)](#post-traumatic-stress-disorder-ptsd)
+  - [Dorsal branch Activity and PTSD](#dorsal-branch-activity-and-ptsd)
+  - [Depression and the Autonomic Nervous System](#depression-and-the-autonomic-nervous-system)
+  - [Bipolar Disorder Bipolar](#bipolar-disorder-bipolar)
+  - [ADHD and Hyperactivity](#adhd-and-hyperactivity)
+- [Chapter 7 Autism Spectrum Disorders](#chapter-7-autism-spectrum-disorders)
+  - [Hope for Autism: The Listening Project](#hope-for-autism-the-listening-project)
+  - [The Role of Hearing in Autism Spectrum Disorders](#the-role-of-hearing-in-autism-spectrum-disorders)
+  - [The evolution of hearing](#the-evolution-of-hearing)
+  - [Treating hearing in autistic children](#treating-hearing-in-autistic-children)
+  - [Autism: a case study](#autism-a-case-study)
+  - [Special considerations in treating autistic children](#special-considerations-in-treating-autistic-children)
+- [Part Two](#part-two)
+  - [Exercises to Restore Social Engagement](#exercises-to-restore-social-engagement)
+  - [The Basic Exercise](#the-basic-exercise)
+  - [Cervical vertebrae and ventral vagal dysfunction](#cervical-vertebrae-and-ventral-vagal-dysfunction)
+  - [Why do we move our eyes in the Basic Exercise?](#why-do-we-move-our-eyes-in-the-basic-exercise)
+  - [Neuro-Fascial Release Technique for Social Engagement](#neuro-fascial-release-technique-for-social-engagement)
+  - [The Salamander Exercises](#the-salamander-exercises)
+  - [Level 1: the Half-Salamander Exercise](#level-1-the-half-salamander-exercise)
+  - [Level 2: the Full Salamander Exercise](#level-2-the-full-salamander-exercise)
+  - [Massage for Migraines](#massage-for-migraines)
+  - [SCM Exercise for a Stiff Neck](#scm-exercise-for-a-stiff-neck)
+  - [Twist and Turn Exercise for Trapezius:](#twist-and-turn-exercise-for-trapezius)
+  - [A Four-Minute Natural Facelift, Part 1](#a-four-minute-natural-facelift-part-1)
 
 ## Preface 
 
@@ -127,7 +215,7 @@ The Polyvagal Theory, introduced by Stephen Porges, provides a new understanding
 8. In mammals, some cranial nerves work together to promote social behavior.
 9. Each cranial nerve is numbered with a Roman numeral, starting from the topmost nerve (CN I).
 
-### The various functions of cranial nerves As the fibers within a conduit often have 
+### The various functions of cranial nerves
 
 Cranial nerves have multiple functions related to finding food, chewing, swallowing, and digestion.
 
@@ -385,7 +473,7 @@ Three circuits of the autonomic nervous system are **a hierarchical with a step-
   - A person might react to a safe situation as if it were threatening or dangerous, or react to a dangerous situation as if it were safe. There can be countless reasons for faulty neuroception.
 - Faulty neuroception can even come from very positive experiences like falling in love and bonding with the partner. We sometimes hear that a person’s judgment was impaired because they were "blinded by love," so that they failed to be aware of a possibly destructive situation.
 
-### Other Causes of Faulty Neuroception Earlier
+### Other Causes of Faulty Neuroception
 1. **Shutdown State**: A survival mechanism where the autonomic nervous system goes into a state of shutdown when an animal is threatened, leading to loss of interest from the predator.
 2. **Modern Life Challenges**: Humans face emotional or mental challenges that require action and cannot always be resolved quickly.
 3. **Trauma and Memory**: Traumatic experiences can leave lasting effects on the nervous system, causing recurring inappropriate behaviors and ongoing physical symptoms of stress and shutdown.
@@ -429,7 +517,7 @@ Three circuits of the autonomic nervous system are **a hierarchical with a step-
 5. Today, the author tests every patient's autonomic nervous system before and after sessions to ensure they leave in a calm but alert state.
 6. Testing for vagal function is beneficial for body therapists, psychologists, and other healthcare providers.
 
-### Discovering the Polyvagal Theory In the early 1980s, I began to notice that many of my clinical 
+### Discovering the Polyvagal Theory
 1. In the early 1980s, the author noticed a correlation between asthma symptoms and vagal dysfunction.
 2. The author used a method to test vagal function based on heart rate variability, observing breath and pulse patterns.
 3. This method was inspired by studies from the late 1800s on autonomic nervous system function and variability in blood pressure.
@@ -705,7 +793,7 @@ Three circuits of the autonomic nervous system are **a hierarchical with a step-
 5. Somatic component exists in various psychological issues like post-traumatic stress, anxiety, phobias, and autism spectrum disorders.
 6. Treating physical manifestations of ANS at the beginning of psychiatric/psychological treatments can be beneficial.
 
-### Anxiety and Panic Attacks Since the beginnings of psychiatry at the end of the nineteenth 
+### Anxiety and Panic Attacks
 1. Normal anxiety is temporary worry or fear, but anxiety disorders persist and interfere with daily life.
 2. Anxiety involves physical symptoms like rapid heartbeat, increased respiration, stress hormone release, etc., even without an actual threat.
 3. Panic attacks are brief episodes of intense terror and apprehension, peaking in less than ten minutes but symptoms can last hours.
