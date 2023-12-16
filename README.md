@@ -1,31 +1,33 @@
 # LLM for Book Summarization & Q\A : Walkthrough and Rankings
 
-In this repository I will describe my methods for book summarization using [PrivateGPT](https://docs.privategpt.dev/overview), including a comparison of 6 different models using these methods.
-
-I've searched quite a bit on this topic, and there doesn't seem to be any guide written describing how to use LLM for book summarization, and felt that i could fill a gap by documenting my efforts.
+In this repository I will describe book summarization using [PrivateGPT](https://docs.privategpt.dev/overview), including a description and comparison of various methods and models.
 
 ## Contents
-- [Contents](#contents)
 - [Rankings](#rankings)
-  - [Question / Answer Ranking](#question--answer-ranking)
-  - [Summary Ranking](#summary-ranking)
-- [Overview](#overview)
+  - [Round 1](#round-1)
+    - [Question / Answer Ranking](#question--answer-ranking)
+    - [Summary Ranking](#summary-ranking)
+  - [Round 2](#round-2)
+    - [Summary Ranking](#summary-ranking-1)
+- [Method](#method)
 - [Result](#result)
-  - [My first complete book summary](#my-first-complete-book-summary)
+  - [Completed Book Summaries](#completed-book-summaries)
 - [Walkthrough](#walkthrough)
 
 ## Rankings
 
-`mistral-7b-instruct-v0.1.Q4_K_M` comes as part of PrivateGPT's default setup. Here, I've preferred the 8_0 variants.
+`mistral-7b-instruct-v0.1.Q4_K_M` comes as part of PrivateGPT's default setup. Here, I've preferred the Q8_0 variants.
 
 While I've tried 50+ different LLM for this same task, Mistral-7B-Instruct is still among the best.
 
+
+## Round 1
 For this analysis we will be testing out 5 different LLM for the following tasks:
 
 1. Asking the same 30 questions to a 70 page book chapter.
 2. Summarizing that same 70 page book chapter divided into 30 chunks.
 
-#### Find the full data and rankings on [Google Docs](https://docs.google.com/spreadsheets/d/1u3BgDx6IsJSbRz3uNmud1sDtO4WvWsH6ION3J-fhoGw/edit?usp=sharing) or here in this repository [QA Scores](Rankings-QA.csv), [Summary Rankings](Rankings-Summary.csv).
+**Find the full data and rankings on [Google Docs](https://docs.google.com/spreadsheets/d/1u3BgDx6IsJSbRz3uNmud1sDtO4WvWsH6ION3J-fhoGw/edit?usp=sharing) or here in this repository [QA Scores](ranking-data/Round-1_QA.csv), [Summary Rankings](ranking-data/Round-1_Summary.csv).**
 
 ### Question / Answer Ranking
 1. [**Hermes Trismegistus Mistral 7b**](https://huggingface.co/TheBloke/Hermes-Trismegistus-Mistral-7B-GGUF) is my overall choice. It's verbose, with some filler, and its a good bullshitter. I can use these results.
@@ -71,12 +73,41 @@ Not surprisingly, summaries performed better than Q/A, but they also had a more 
 | kai-7b-instruct | 59 | 25057 | -79 | 168 | 5 | 1 | 0 | 0 | 0 | 0 |
 | collectivecognition-v1.1-mistral-7b | 31 | 29509 | -75 | 214 | 0 | 1 | 1 | 2 | 17 | 8 |
 
+## Round 2
+
+Again, I've preferred the Q8_0 variants.
+
+Finding Mistral 7B v0.2 was well worth a new round of testing. This time, less intense. I didn't record speed of query, and only judged 12 summarization tasks, but I tried a number of models and saved the most interesting results.
+
+One thing I tested this time was prompts, because Mistral is supposed to take Llama2 Prompt, but seems to perform better with the default (llama-index) prompt. As for Llama 2, it performed really bad with the Llama 2 prompt, but decent with the Default prompt.
+
+- [SynthIA-7B-v2.0-GGUF](https://huggingface.co/TheBloke/SynthIA-7B-v2.0-GGUF) -  This model had become my favorite, so I used it as a benchmark.
+- [Mistral-7B-Instruct-v0.2](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.2) (Llama-index) Star of the show here, quite impressive.
+- [Mistral-7B-Instruct-v0.2](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.2) (Llama2) Still good, but not _as_ good as using llama-index prompt
+- [Tess-7B-v1.4](https://huggingface.co/migtissera/Tess-7B-v1.4) - Another by the same creator as Synthia. Good, but not _as_ good.
+- [Llama-2-7B-32K-Instruct-GGUF](https://huggingface.co/TheBloke/Llama-2-7B-32K-Instruct-GGUF) - worked ok, but slowly, with llama-index prompt, just bad with llama2 prompt. 
+
+### Summary Ranking
+
+This time I only did summaries. Q/A is just less efficient for book summarization.
+
+| Model | % Difference | Score | Comment | 
+| ----- | ------------ | ----- | ------- | 
+| Synthia 7b V2 | -64.43790093 | 28 | Good | 
+| Mistral 7b v0.2 (Default Prompt) | -60.81878508 | 33 | VGood | 
+| Mistral 7b v0.2 (Llama2 Prompt) | -64.5871483 | 28 | Good | 
+| Tess 7b v1.4 | -62.12938978 | 29 | Less Structured | 
+| Llama 2 7b 32k Instruct (Default) | -61.39890553 | 27 | Less Structured. Slow | 
+
+**Find the full data and rankings on [Google Docs](https://docs.google.com/spreadsheets/d/1u3BgDx6IsJSbRz3uNmud1sDtO4WvWsH6ION3J-fhoGw/edit?usp=sharing) or here in this repository [Summary Rankings](ranking-data/Round-2_Summaries.csv).**
 
 ## Method
 
-Rather than feed a 400 page book into any LLM model, splitting it into chapters makes the task more managable. Using [PrivateGPT](https://github.com/imartinez/privateGPT), I've found a number of models that produce good results, and first ran tests with a few models on a single book chapter.
+Rather than feed a 400 page book into any LLM model, splitting it into chapters makes the task more managable. 
 
-Then I used that information to summarize a complete book, making one run with Hermes Trismegistus Mistral 7B, with a "detailed summary" prompt, and a second run with Synthia 7B v2, using a "Bullet Point" prompt.
+Using [PrivateGPT](https://github.com/imartinez/privateGPT), I've found a number of models that produce good results, and first ran tests using a few models on a single book chapter.
+
+Then I used the knowledge gained from that exercise to summarize a complete book, making one run with Hermes Trismegistus Mistral 7B, with a "detailed summary" prompt (which I decided was overly loquacious), and a second run with Synthia 7B v2, using a "Bullet Point" prompt.
 
 ## Result
 
@@ -86,7 +117,7 @@ A few of the api calls didn't go through, but I had my first run with a summary 
 
 Some of that run of api calls didn't go perfectly. When necessary I found a missing section in my original summary, and ran it through the bullet point prompting, so I wasn't missing any sections, but could maintain readability.
 
-When I was going to do this manually, it would have taken me over a month.
+When I was going to do this manually, it was going to take weeks for each summary.
 
 One thing I was worried about too is plagarism. With the final text containing around 25% of the characters as original, was this going to take me far beyond "fair use" into plagarism land?
 
@@ -94,9 +125,9 @@ One thing I was worried about too is plagarism. With the final text containing a
 
 According to [CopyLeaks](https://app.copyleaks.com/) it says my text is only 5.4% plagiarized!!! Considering that this is not for profit, but for educational purposes, I'm going to call that a victory.
 
-## My first complete book summary
+## Completed Book Summaries
 
-* [**Summary of Anodea Judith's Eastern Body Western Mind**](Eastern-Body_Western-Mind_Synthia.md)
+1. [**Summary of Anodea Judith's Eastern Body Western Mind**](Eastern-Body_Western-Mind_Synthia.md) (Mostly Synthia 7B V2)
   > **Adult Development**
   >  
   > The process of individuation involves becoming a single, homogeneous being and embracing one's innermost uniqueness. This journey begins in early adulthood when individuals leave home and start living independently.
@@ -108,6 +139,8 @@ According to [CopyLeaks](https://app.copyleaks.com/) it says my text is only 5.4
   > 5. Chakra Five: Creative and personal expression is emphasized in this stage, where individuals make their personal contribution to the community. It often occurs around midlife and may precede or dominate other activities for more creative personalities.
   > 6. Chakra Six: This introverted stage involves reflection and study of patterns through exploration of mythology, religion, and philosophy. It is a time of searching and spiritual interest, which intensifies when children are grown and adults have more freedom for contemplation and spiritual practice.
   > 7. Chakra Seven: The final stage is characterized by wisdom, spiritual understanding, knowledge, and teaching. Individuals bring together information gathered throughout life to pass it on to others or pursue a spiritual path.
+2. [**Healing Power of the Vagus Nerve, by Stanley Rosenberg**](Healing-Power-Vagus-Nerve_SynthiaV2+MistralV0.2.md) (Mostly Mistral 7B V0.2)
+
 
 ## Walkthrough
 
