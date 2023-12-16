@@ -11,7 +11,7 @@ I've searched quite a bit on this topic, and there doesn't seem to be any guide 
   - [Summary Ranking](#summary-ranking)
 - [Overview](#overview)
 - [Result](#result)
-- [Check out my first complete book summary](#check-out-my-first-complete-book-summary)
+  - [My first complete book summary](#my-first-complete-book-summary)
 - [Walkthrough](#walkthrough)
 
 ## Rankings
@@ -94,7 +94,7 @@ One thing I was worried about too is plagarism. With the final text containing a
 
 According to [CopyLeaks](https://app.copyleaks.com/) it says my text is only 5.4% plagiarized!!! Considering that this is not for profit, but for educational purposes, I'm going to call that a victory.
 
-## Check out my first complete book summary
+## My first complete book summary
 
 * [**Summary of Anodea Judith's Eastern Body Western Mind**](Eastern-Body_Western-Mind_Synthia.md)
   > **Adult Development**
