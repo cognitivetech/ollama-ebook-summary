@@ -150,6 +150,13 @@ According to [CopyLeaks](https://app.copyleaks.com/) it says my text is only 5.4
   >   - **Ventral Vagal State**: This state is characterized by social engagement and safety. It is associated with feelings of calmness, connection, and trust.
   >   - **Dorsal Vagal State**: This state is characterized by immobilization or shutdown. It is associated with feelings of fear, helplessness, and hopelessness.
   >   - **Sympathetic Nervous System (SNS)**: This system is responsible for the fight-or-flight response. It is associated with feelings of anxiety, stress, and tension.
+* [Summary of Dr. David Frawley's Ayurveda and the Mind](AyurvedaMind_mistral-7b-instruct-v0.2.Q8+synthia-7b-v2.md) (Mistral-7B-Instruct-v0.2 and SynthIA-7B-v2.0)
+  > 1. *Section 1*: Explores Ayurvedic view of mind-body relationship, including gunas (Sattva, Rajas, Tamas), doshas (Vata, Pitta, Kapha), and five elements.
+  > 2. *Section 2*: In-depth examination of functions of awareness through consciousness, intelligence, mind, ego, and self.
+  > 3. *Section 3*: Ayurvedic therapies for the mind: outer (diet, herbs, massage) and inner (color, aroma, mantra).
+  > 4. *Section 4*: Spiritual and yogic practices from an Ayurvedic perspective, integrating all therapies.
+  > 5. *Appendix*: Contains tables on functions of the mind and their correspondences.
+  > 6. *Goals*: To provide sufficient knowledge for personal use and relevant to psychologists/therapists.
 
 ## Walkthrough
 
