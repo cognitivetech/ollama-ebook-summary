@@ -1,5 +1,97 @@
 # Ayurveda and the Mind - Mistral Instruct V0.2
 
+## Contents
+- [FOREWORD](#foreword)
+- [PREFACE](#preface)
+- [PLAN OF THE BOOK](#plan-of-the-book)
+- [Part I - AYURVEDIC PSYCHOLOGY: YOGIC MIND-BODY MEDICINE](#part-i---ayurvedic-psychology-yogic-mind-body-medicine)
+- [1. A New Journey Into Consciousness](#1-a-new-journey-into-consciousness)
+  - [Levels of Ayurvedic Healing](#levels-of-ayurvedic-healing)
+- [2. Ayurvedic Constitutional Types: The Biological Humors of Vata, Pitta](#2-ayurvedic-constitutional-types-the-biological-humors-of-vata-pitta)
+  - [Constitutional Types](#constitutional-types)
+  - [Constitutional Examination](#constitutional-examination)
+- [3. The Three Gunas: How to Balance Your Consciousness.](#3-the-three-gunas-how-to-balance-your-consciousness)
+  - [CORRESPONDENCES OF THE THREE GUNAS](#correspondences-of-the-three-gunas)
+  - [The Three Gunas and Therapy](#the-three-gunas-and-therapy)
+- [4. The Nature of the Mind](#4-the-nature-of-the-mind)
+  - [Mind as an Object.](#mind-as-an-object)
+  - [Awareness and the Mind.](#awareness-and-the-mind)
+  - [Atomic Nature of the Mind.](#atomic-nature-of-the-mind)
+  - [Difficulty in Controlling the Mind.](#difficulty-in-controlling-the-mind)
+- [5. The Five Elements and the Mind](#5-the-five-elements-and-the-mind)
+  - [Three Layers of the Mind: Causal, subtle, gross (physical) levels.](#three-layers-of-the-mind-causal-subtle-gross-physical-levels)
+  - [The Two Levels of the Self](#the-two-levels-of-the-self)
+  - [Workings of the Levels of the Mind.](#workings-of-the-levels-of-the-mind)
+  - [Action.](#action)
+- [6. Conditioned Consciousness: The Greater Mental Field.](#6-conditioned-consciousness-the-greater-mental-field)
+  - [Chitta, the Body of Consciousness.](#chitta-the-body-of-consciousness)
+  - [The Superconscious](#the-superconscious)
+  - [Energy/Will.](#energywill)
+  - [Additional Functions.](#additional-functions)
+- [7. Intelligence: The Power of Perception.](#7-intelligence-the-power-of-perception)
+  - [Each of us possesses an inherent ethical sense](#each-of-us-possesses-an-inherent-ethical-sense)
+  - [Energy/Awakened Prana](#energyawakened-prana)
+  - [ADDITIONAL FUNCTIONS](#additional-functions-1)
+- [8. The Outer Mind: The Field of the Senses.](#8-the-outer-mind-the-field-of-the-senses)
+  - [Emotion](#emotion)
+  - [Composition.](#composition)
+  - [ADDITIONAL FUNCTIONS](#additional-functions-2)
+- [9. Ego and Self: The Quest For Identity.](#9-ego-and-self-the-quest-for-identity)
+  - [Ego arises from a failure of intelligence (Buddhi)](#ego-arises-from-a-failure-of-intelligence-buddhi)
+  - [Composition.](#composition-1)
+  - [Energy.](#energy)
+  - [The Self and Functions of the Mind.](#the-self-and-functions-of-the-mind)
+  - [How TO PROPERLY DEVELOP THE FUNCTIONS OF THE MIND.](#how-to-properly-develop-the-functions-of-the-mind)
+- [Part III - AYURVEDIC THERAPIES FOR THE MIND.](#part-iii---ayurvedic-therapies-for-the-mind)
+  - [Right Association a Key to Mental Health.](#right-association-a-key-to-mental-health)
+  - [Psychological Disorders and the Biological Humors](#psychological-disorders-and-the-biological-humors)
+  - [Ayurvedic Counseling Profiles.](#ayurvedic-counseling-profiles)
+  - [Vata-Pitta.](#vata-pitta)
+  - [The Ayurvedic method of treatment](#the-ayurvedic-method-of-treatment)
+- [11. The Cycle of Nutrition for the Mind: The Role of Impressions](#11-the-cycle-of-nutrition-for-the-mind-the-role-of-impressions)
+  - [Mental Digestion](#mental-digestion)
+  - [The Three States of Waking, Dream, and Deep Sleep.](#the-three-states-of-waking-dream-and-deep-sleep)
+  - [Cultivating the Field of Consciousness.](#cultivating-the-field-of-consciousness)
+  - [Signs of Proper Intake of Impressions](#signs-of-proper-intake-of-impressions)
+  - [Impressions to Reduce the Three Doshas](#impressions-to-reduce-the-three-doshas)
+- [12. Outer Treatment Modalities: Diet, Herbs, Massage and Paneha Karma.](#12-outer-treatment-modalities-diet-herbs-massage-and-paneha-karma)
+  - [Sattvic Diet](#sattvic-diet)
+  - [Rajasic and Tamasic Diets.](#rajasic-and-tamasic-diets)
+  - [The Six Tastes and the Mind.](#the-six-tastes-and-the-mind)
+  - [Cleansing and Tonic Nervines.](#cleansing-and-tonic-nervines)
+  - [Pancha Karma](#pancha-karma)
+- [13. Subtle Therapies: Colors, Gems and Aromas.](#13-subtle-therapies-colors-gems-and-aromas)
+  - [Colors and the Gunas.](#colors-and-the-gunas)
+  - [Gem Therapy.](#gem-therapy)
+  - [Gems and the Planets](#gems-and-the-planets)
+  - [Usage](#usage)
+- [14. The Healing Power of Mantra.](#14-the-healing-power-of-mantra)
+  - [Sound and Emotion.](#sound-and-emotion)
+  - [Energetics of Sound.](#energetics-of-sound)
+  - [Prime Mantras.](#prime-mantras)
+  - [Mantras and the Elements](#mantras-and-the-elements)
+- [Part IV - SPIRITUAL APPLICATIONS OF AYURVEDIC PSYCHOLOGY](#part-iv---spiritual-applications-of-ayurvedic-psychology)
+  - [Devotion and the Place of God.](#devotion-and-the-place-of-god)
+  - [Surrender](#surrender)
+  - [Developing Devotion](#developing-devotion)
+  - [Formless Devotion](#formless-devotion)
+- [16. The Eightfold Method of Yoga I: Outer Practices](#16-the-eightfold-method-of-yoga-i-outer-practices)
+  - [Eight Limbs of Yoga: Ashtanga Yoga.](#eight-limbs-of-yoga-ashtanga-yoga)
+  - [Niyama - the Second Limb of Yoga](#niyama---the-second-limb-of-yoga)
+  - [So'ham Pranayama.](#soham-pranayama)
+- [17. The Eightfold Method of Yoga II Inner Practices](#17-the-eightfold-method-of-yoga-ii-inner-practices)
+  - [Dharana the Sixth Limb of Yoga.](#dharana-the-sixth-limb-of-yoga)
+  - [OTHER MEDITATION TECHNIQUES](#other-meditation-techniques)
+  - [Samadhi the Eighth Limb of Yoga](#samadhi-the-eighth-limb-of-yoga)
+  - [Samadhis of the Deluded Mind](#samadhis-of-the-deluded-mind)
+  - [Schizophrenia](#schizophrenia)
+  - [Samadhi and Ayurvedic Psychology. Ayurvedic psychology examines the lower](#samadhi-and-ayurvedic-psychology-ayurvedic-psychology-examines-the-lower)
+- [APPENDIX](#appendix)
+  - [TABLE B](#table-b)
+  - [TABLE C](#table-c)
+  - [TABLE D. THE SEVEN CHAKRAS.](#table-d--the-seven-chakras)
+  - [TABLE E. THE FIVE PRANAS AND THE MIND.](#table-e---the-five-pranas-and-the-mind)
+
 ## FOREWORD
 
 1. Western culture's fascination with change has left many feeling disconnected from traditional guidance.
@@ -120,7 +212,7 @@ Vata, Pitta, and Kapha can be felt through the conditions of nature:
    b. **Emotional Characteristics**: Easy sleepers, often excessive, hard time staying awake late into the night, low discharges of urine, sweat, and feces, accumulate and discharge mucus, particularly in the morning.
    c. **Psychological Characteristics**: Emotional in temperament, romantic, sentimental, cry easily, slower learning but retain what they learn, not creative or inventive, better at finishing things than starting them, traditional or conventional behavior and beliefs, good followers, content with things as they are, stable but sometimes stagnate."
    
-### Constitutional Examination. How To Determine Your Unique Psycho-physical
+### Constitutional Examination
 
 1. Constitutional Examination: Determining Psycho-physical Nature
    - Each individual has all three biological humors (Vata, Pitta, Kapha) in varying proportions.
@@ -153,7 +245,7 @@ Vata, Pitta, and Kapha can be felt through the conditions of nature:
    - **Tejas**: Lack of clarity and determination
    - **Ojas**: Anxiety and mental fatigue
    
-### 3. The Three Gunas: How to Balance Your Consciousness. 
+## 3. The Three Gunas: How to Balance Your Consciousness. 
 
 1. Three primal qualities (gunas) of Nature: Sattva, Rajas, Tamas.
 2. **Sattva**: Intelligence, virtue, goodness; creates harmony, balance, stability. Light, luminous, inward and upward motion. Brings about soul's awakening.
@@ -227,7 +319,7 @@ The three gunas are one of the prime themes of Ayurvedic thought.
 8. *Solution to Psychological Problems*: Learning to use the mind properly is the key to solving psychological problems and realizing one's higher potential.
 9. *Spiritual Life*: Understanding the mind leads to spiritual growth and transcending its limitations, ultimately reaching Pure Awareness.
 
-### Mind as an Object. Though we have always had a mind, most of us have never
+### Mind as an Object. 
 1. Mind as an Object:
    - We have always had a mind but never observed it.
    - To observe the mind, take the role of the observer and witness its functions.
@@ -255,8 +347,7 @@ The three gunas are one of the prime themes of Ayurvedic thought.
 8. *Mind and Body are not the Same*: Mind can function apart from body consciousness; mind is object of perception for the mind.
 9. *True Awareness Transcends Both Mind and Body*.
 
-### Atomic Nature of the Mind. Having discussed the basic nature of the mind,
-
+### Atomic Nature of the Mind. 
 1. *Atomic Nature*: The mind is atomic or point-like, consisting of shifting points of thought, feeling, and sensation. It has no fixed shape or size, pervading the body and field of perception.
 2. *Limitations*: The mind can only focus on one object at a time, leading to a tendency to construct reality from limited perspectives. This process is inherently limiting as it presents only one side of reality.
 3. *Mobile Nature*: The mind is constantly changing and in motion, impossible to still. It functions through rapid series of mental actions.
@@ -289,8 +380,6 @@ The three gunas are one of the prime themes of Ayurvedic thought.
 
 ### Three Layers of the Mind: Causal, subtle, gross (physical) levels.
 
-### The mind has three basic layers
-
 1. **Inner Mind** or Deeper Consciousness - Air: underlying mental sensitivity, deeper feeling nature, background vibratory field of energies, capacity for change, response, and transformation.
 2. **Intermediate Mind** or Intelligence - Fire: rational or discriminating faculty, allows us to perceive and judge things, mediates between inner core consciousness and outer sensory functions.
 3. **Outer Mind**, Sensation-Emotion Water: emotional nature, capacity to gather sensory impressions and respond to them, formative aspect of mind, basis of will, motivation, and action in the external world.
@@ -307,8 +396,7 @@ The three gunas are one of the prime themes of Ayurvedic thought.
 - Water - Sense Mind
 - Earth - Ego. (Outer Self) Connects us to physical body; seeks acquisition or achievement; consciousness objectified.
 
-### Workings of the Levels of the Mind. The outer mind is the doorway by which
-
+### Workings of the Levels of the Mind.
 1. *Outer Mind*: Doorway for external impressions from senses.
 2. *Intelligence (Intermediate Mind)*: Determines which impressions enter based on dualistic emotions.
 3. *Consciousness (Inner Mind)*: Interior room where deposited memories and tendencies form.
@@ -376,8 +464,7 @@ The three gunas are one of the prime themes of Ayurvedic thought.
 14. Our potential field of consciousness extends to all consciousness in the universe, including God.
 15. Yogic psychology focuses on the higher Self and the field of pure consciousness, which is the Absolute truth.
 
-### Chitta, the Body of Consciousness. Chitta is our core consciousness the
-
+### Chitta, the Body of Consciousness.
 1. Consciousness is a quickly vibrating subtle energy field, basis of material manifestation.
 2. Chitta is the substance of consciousness, constituting its body or bulk.
 3. Mind and senses are limbs or organs of consciousness.
@@ -434,7 +521,6 @@ The three gunas are one of the prime themes of Ayurvedic thought.
 *Intuition vs Imagination/Psychic Perception*: Intuition is direct feeling of consciousness, more vivid than sensory knowledge; imagination and psychic perception are functions of the outer mind and subtle senses.
 
 ## 7. Intelligence: The Power of Perception.
-
 1. **Intelligence**: A central focus in Ayurveda and psychology, it's the power that illuminates life with truth. Misused, it leads to errors; used properly, it enhances self-awareness and respect for the world.
 2. **Buddhi**: Sanskrit term for intelligence, derived from "bud" meaning "to perceive" or "awake." It discerns truth and reveals reality beyond appearances.
 3. **Abstract and Concrete**: Intelligence's abstract side comprehends ideas, creating philosophy and spirituality; concrete side grasps external objects, producing science.
@@ -442,8 +528,7 @@ The three gunas are one of the prime themes of Ayurvedic thought.
 5. **Intellect's Limitations**: It constructs an external reality, leading to materialism and a mechanistic universe view. It focuses on outer goals and distinctions, often trapped in surface information.
 6. **True Intelligence**: Reveals the nature of things beyond appearances; perceives the eternal as real and transient forms as unreal; frees us from external belief structures.
 
-### Each of us possesses an inherent ethical sense, which we call “conscience“
-
+### Each of us possesses an inherent ethical sense
 1. Conscience is an inherent ethical sense, causing us not to wish harm and feeling others' pain as our own. It's a part of intelligence.
 2. The more intelligent we are, the stronger our conscience and less desire to interfere or impose will.
 3. Intelligence creates morality outwardly (societal customs) and universal ethics inwardly (non-violence).
@@ -788,12 +873,10 @@ Kapha types need stimulation, have difficulty implementing changes, and respond 
 6. *Improper Mental Digestion*: Inability to break down names and forms into truth energies; accumulation in mind, blocking perception.
 7. *Impact on Consciousness (Chitta)*: Properly digested experiences leave peace and clarity; improperly digested experiences damage the substance of the mind and influence current state until resolved.
 
-### The Three States of Waking, Dream, and Deep Sleep. In the waking state we
-
+### The Three States of Waking, Dream, and Deep Sleep. 
 1. *Waking State*: Impressions gathered through outer mind (Manas) and senses.
 2. *Dream State*: Mental digestion of impressions through inner intelligence (Buddhi). Reflected in various dreams.
 3. *Deep Sleep*: Residue of digested impressions becomes part of deeper consciousness (Chitta). Good deep sleep indicates well-developed body of consciousness.
-
 
 #### Detoxification for the Mind
 
@@ -803,8 +886,7 @@ Prevent wrong impressions, develop strong intelligence to digest properly. Stop 
 - *Subtle Level Detoxification*: Pranayama eliminates negative impressions (subtle elements) through special sweating and fasting from emotions.
 - *Causal Level Detoxification*: Mantras change Rajasic and Tamasic patterns in deeper consciousness, making it receptive to higher influences. No release of gunas but they can be transformed with Sattvic mantras like OM.
 
-### Cultivating the Field of Consciousness. Consciousness (Chitta) is a field
-
+### Cultivating the Field of Consciousness.
 1. *Consciousness (Chitta)* is a field that can be cultivated based on what we put into it.
 2. If cultivated with good experiences, bad habits will not thrive. Conversely, if filled with bad experiences, even good thoughts may struggle.
 3. The mind is like a deep well; whatever we put in grows and eventually influences our actions.
@@ -976,8 +1058,7 @@ Prevent wrong impressions, develop strong intelligence to digest properly. Stop 
   - Pitta: Does best with cool, mild, calming colors; avoids hot, sharp, stimulating colors.
   - Kapha: Does best with warm, dry, stimulating colors; avoids too much white or cool colors, round shapes.
 
-### Colors and the Gunas. Not only does the specific color matter, its qwility
-
+### Colors and the Gunas. 
 1. Colors affect mental nature more than biological humors.
 2. Importance of guna quality in color usage:
    * Sattvic: subtle, pleasant, harmonious, mild, natural
@@ -996,8 +1077,7 @@ Prevent wrong impressions, develop strong intelligence to digest properly. Stop 
    * Tamasic: black, gray, dull, dark
 9. Color therapy can be used to balance the doshas (Vata, Pitta, Kapha) and improve overall well-being.
 
-### Gem Therapy. Gems are more than wonderfully beautiful creations of Nature.
-
+### Gem Therapy.
 1. Gem Therapy:
    - Gems have healing and energizing properties in Vedic sciences.
    - Used for long-term protection and vitalization of body and mind.
@@ -1184,7 +1264,7 @@ Any sensation we take personally produces an emotion, with sound being the most 
 6. Background of Yoga: outer practices (ethics, Asana, Pranayama).
 7. Inner and deeper practices of Yoga take us beyond ordinary psychology to spiritual psychology.
 
-### Devotion and the Place of God. How can there be a system of healing that
+### Devotion and the Place of God.
 
 1. Ayurveda emphasizes the role of God (Ishvara), the creator and ultimate healer.
 2. God is the manifest aspect of Brahman, ruling time-space creation.
@@ -1209,7 +1289,7 @@ Any sensation we take personally produces an emotion, with sound being the most 
 5. *Forms of Devotion*: God can be worshipped in various forms based on personal preference, often as the Divine Mother for her love and grace.
 6. *Devotion and Self-Realization*: Devotion is part of seeking to know our true inner Self, which is God. Once realized, we transcend Nature and God as external realities.
 
-### Developing 
+### Developing Devotion
 1. **Devotion Development**: Choose a specific form of God for worship to cultivate devotion.
 2. **Relationship with God**: Decide on a relationship with God (father, mother, friend, etc.) and choose a corresponding form.
 3. **Form of Divinity**: Select a particular form like Shiva, Krishna, Buddha, etc., or an image of a guru or teacher.
@@ -1286,7 +1366,7 @@ Any sensation we take personally produces an emotion, with sound being the most 
 8. Asana (Third Limb): performance of physical postures that release stress and tension, increase vital force, and calm the mind.
 9. Pranayama (Fourth Limb): control of breath, energizing the vital force beyond its ordinary limitations. Calms disturbed breathing and senses.
 
-### So'ham Pranayama. So'ham is the natural sound of the breath.
+### So'ham Pranayama.
 1. **So'ham Pranayama**: Natural breath sound, "so'ham" means "I am He". Inhale (Sa) and exhale (Ha), leading to self-realization and awareness.
 2. **Sushumna**: Central and most important nadi, corresponds to the central spinal canal. Controls chakras and mental functions. Balanced in terms of humors and Pranas.
 3. **Kundalini/Prana Shakti**: Fire-predominant force for developing higher consciousness levels. Aroused by uniting energy of breath, senses, and mind into Sushumna.
@@ -1395,7 +1475,7 @@ Any sensation we take personally produces an emotion, with sound being the most 
    - Dhyana: Deep reflection.
    - Samadhi: Absorption in the object of our deepest desire or true nature.
    
-### APPENDIX 1. 
+## APPENDIX
 
 1. Three Bodies:
    - Physical Body: Made of gross elements, functions during waking state. Needs food for existence.
