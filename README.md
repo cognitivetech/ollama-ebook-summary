@@ -139,7 +139,7 @@ According to [CopyLeaks](https://app.copyleaks.com/) it says my text is only 5.4
   > 5. Chakra Five: Creative and personal expression is emphasized in this stage, where individuals make their personal contribution to the community. It often occurs around midlife and may precede or dominate other activities for more creative personalities.
   > 6. Chakra Six: This introverted stage involves reflection and study of patterns through exploration of mythology, religion, and philosophy. It is a time of searching and spiritual interest, which intensifies when children are grown and adults have more freedom for contemplation and spiritual practice.
   > 7. Chakra Seven: The final stage is characterized by wisdom, spiritual understanding, knowledge, and teaching. Individuals bring together information gathered throughout life to pass it on to others or pursue a spiritual path.
-2. [**Healing Power of the Vagus Nerve, by Stanley Rosenberg**](Healing-Power-Vagus-Nerve_SynthiaV2+MistralV0.2.md) (Mostly Mistral 7B V0.2)
+2. [**Summary of Healing Power of the Vagus Nerve, by Stanley Rosenberg**](Healing-Power-Vagus-Nerve_SynthiaV2+MistralV0.2.md) (Mostly Mistral 7B V0.2)
   > The ANS is an integral part of the human nervous system, monitoring and regulating the activity of visceral organs such as heart, lungs, liver, gall bladder, stomach, intestines, kidneys, and sexual organs. Problems with any of these organs can arise from dysfunction of the ANS.
   > 
   > - **Old understanding of the ANS**: The ANS functioned in two states - stress and relaxation. 
