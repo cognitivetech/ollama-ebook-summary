@@ -3,20 +3,17 @@
 In this repository I will describe book summarization using [PrivateGPT](https://docs.privategpt.dev/overview), including a description and comparison of various methods and models.
 
 ## Contents
-- [LLM for Book Summarization \& Q\\A : Walkthrough and Rankings](#llm-for-book-summarization--qa--walkthrough-and-rankings)
-  - [Contents](#contents)
-  - [Rankings](#rankings)
-  - [Round 1](#round-1)
-    - [Question / Answer Ranking](#question--answer-ranking)
-    - [Summary Ranking](#summary-ranking)
-  - [Round 2](#round-2)
-    - [Summary Ranking](#summary-ranking-1)
-  - [Method](#method)
-  - [Result](#result)
-    - [Plagiarism](#plagiarism)
-    - [Completed Book Summaries](#completed-book-summaries)
+- [Rankings](#rankings)
+- [Round 1](#round-1)
+  - [Question / Answer Ranking](#question--answer-ranking)
+  - [Summary Ranking](#summary-ranking)
+- [Round 2](#round-2)
+  - [Summary Ranking](#summary-ranking-1)
+- [Method](#method)
   - [Walkthrough](#walkthrough)
-
+- [Result](#result)
+  - [Plagiarism](#plagiarism)
+  - [Completed Book Summaries](#completed-book-summaries)
 
 ## Rankings
 
@@ -113,6 +110,10 @@ Using [PrivateGPT](https://github.com/imartinez/privateGPT), I've found a number
 
 Then I used the knowledge gained from that exercise to summarize a complete book, making one run with Hermes Trismegistus Mistral 7B, with a "detailed summary" prompt (which I decided was overly loquacious), and a second run with Synthia 7B v2, using a "Bullet Point" prompt.
 
+### Walkthrough
+
+If you are interested in following my steps, in more detail, check out the [walkthrough](walkthrough).
+
 ## Result
 
 I got my first summary of a 539 page book in 5-6 hours!!! (not including first run with Hermes) Incredible!
@@ -163,8 +164,4 @@ Considering that this is not for profit, but for educational purposes, I believe
   > 4. *Section 4*: Spiritual and yogic practices from an Ayurvedic perspective, integrating all therapies.
   > 5. *Appendix*: Contains tables on functions of the mind and their correspondences.
   > 6. *Goals*: To provide sufficient knowledge for personal use and relevant to psychologists/therapists.
-
-### Walkthrough
-
-If you are interested in following my steps, in more detail, check out the [walkthrough](walkthrough).
 
