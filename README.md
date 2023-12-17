@@ -145,7 +145,7 @@ Considering that this is not for profit, but for educational purposes, I believe
   > 5. Chakra Five: Creative and personal expression is emphasized in this stage, where individuals make their personal contribution to the community. It often occurs around midlife and may precede or dominate other activities for more creative personalities.
   > 6. Chakra Six: This introverted stage involves reflection and study of patterns through exploration of mythology, religion, and philosophy. It is a time of searching and spiritual interest, which intensifies when children are grown and adults have more freedom for contemplation and spiritual practice.
   > 7. Chakra Seven: The final stage is characterized by wisdom, spiritual understanding, knowledge, and teaching. Individuals bring together information gathered throughout life to pass it on to others or pursue a spiritual path.
-2. [**Summary of Healing Power of the Vagus Nerve, by Stanley Rosenberg**](Healing-Power-Vagus-Nerve_SynthiaV2+MistralV0.2.md)
+2. [**Summary of Stanley Rosenberg's Healing Power of the Vagus Nerve**](Healing-Power-Vagus-Nerve_SynthiaV2+MistralV0.2.md)
   > The ANS is an integral part of the human nervous system, monitoring and regulating the activity of visceral organs such as heart, lungs, liver, gall bladder, stomach, intestines, kidneys, and sexual organs. Problems with any of these organs can arise from dysfunction of the ANS.
   > 
   > - **Old understanding of the ANS**: The ANS functioned in two states - stress and relaxation. 
@@ -156,7 +156,7 @@ Considering that this is not for profit, but for educational purposes, I believe
   >   - **Ventral Vagal State**: This state is characterized by social engagement and safety. It is associated with feelings of calmness, connection, and trust.
   >   - **Dorsal Vagal State**: This state is characterized by immobilization or shutdown. It is associated with feelings of fear, helplessness, and hopelessness.
   >   - **Sympathetic Nervous System (SNS)**: This system is responsible for the fight-or-flight response. It is associated with feelings of anxiety, stress, and tension.
-* [Summary of Dr. David Frawley's Ayurveda and the Mind](AyurvedaMind_mistral-7b-instruct-v0.2.Q8+synthia-7b-v2.md)
+3. [**Summary of Dr. David Frawley's Ayurveda and the Mind**](AyurvedaMind_mistral-7b-instruct-v0.2.Q8+synthia-7b-v2.md)
   > 1. *Section 1*: Explores Ayurvedic view of mind-body relationship, including gunas (Sattva, Rajas, Tamas), doshas (Vata, Pitta, Kapha), and five elements.
   > 2. *Section 2*: In-depth examination of functions of awareness through consciousness, intelligence, mind, ego, and self.
   > 3. *Section 3*: Ayurvedic therapies for the mind: outer (diet, herbs, massage) and inner (color, aroma, mantra).
