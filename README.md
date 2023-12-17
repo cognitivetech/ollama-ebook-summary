@@ -3,16 +3,20 @@
 In this repository I will describe book summarization using [PrivateGPT](https://docs.privategpt.dev/overview), including a description and comparison of various methods and models.
 
 ## Contents
-- [Rankings](#rankings)
+- [LLM for Book Summarization \& Q\\A : Walkthrough and Rankings](#llm-for-book-summarization--qa--walkthrough-and-rankings)
+  - [Contents](#contents)
+  - [Rankings](#rankings)
   - [Round 1](#round-1)
     - [Question / Answer Ranking](#question--answer-ranking)
     - [Summary Ranking](#summary-ranking)
   - [Round 2](#round-2)
     - [Summary Ranking](#summary-ranking-1)
-- [Method](#method)
-- [Result](#result)
-  - [Completed Book Summaries](#completed-book-summaries)
-- [Walkthrough](#walkthrough)
+  - [Method](#method)
+  - [Result](#result)
+    - [Plagiarism](#plagiarism)
+    - [Completed Book Summaries](#completed-book-summaries)
+  - [Walkthrough](#walkthrough)
+
 
 ## Rankings
 
@@ -111,23 +115,25 @@ Then I used the knowledge gained from that exercise to summarize a complete book
 
 ## Result
 
-I my first summary of a 539 page book in 5-6 hours!!! (not including first run with Hermes) Incredible!
-
-A few of the api calls didn't go through, but I had my first run with a summary prompt prompting to back up this run. I will say, bullet-point notes are a lot easier to read while editing. 
-
-Some of that run of api calls didn't go perfectly. When necessary I found a missing section in my original summary, and ran it through the bullet point prompting, so I wasn't missing any sections, but could maintain readability.
+I got my first summary of a 539 page book in 5-6 hours!!! (not including first run with Hermes) Incredible!
 
 When I was going to do this manually, it was going to take weeks for each summary.
 
-One thing I was worried about too is plagarism. With the final text containing around 25% of the characters as original, was this going to take me far beyond "fair use" into plagarism land?
+### Plagiarism 
 
-![](https://i.imgur.com/xqWNToN.png)
+You can see the results from [CopyLeaks](https://app.copyleaks.com/) below for each of the texts published, here. 
 
-According to [CopyLeaks](https://app.copyleaks.com/) it says my text is only 5.4% plagiarized!!! Considering that this is not for profit, but for educational purposes, I'm going to call that a victory.
+Considering that this is not for profit, but for educational purposes, I believe these numbers are acceptable.
 
-## Completed Book Summaries
+| Book | Models | Character Difference | Identical | Minor changes | Paraphrased | plagiarism |
+| ---- | ----- | ---------------- | --------- | ------------- | ----------- | ---------- |
+| Eastern Body Western Mind | Synthia 7Bv2 | -75% | 3.5% | 1.1% | 0.8% | 5.4% |
+| Healing Power Vagus Nerve | Mistral-7B-Instruct-v0.2; SynthIA-7B-v2.0 | -81% | 1.2% | 0.8% | 2.5% | 4.5% |
+| Ayurveda and the Mind | Mistral-7B-Instruct-v0.2; SynthIA-7B-v2.0 | -77% | 0.5% | 0.3% | 1.2% | 2% |
 
-1. [**Summary of Anodea Judith's Eastern Body Western Mind**](Eastern-Body_Western-Mind_Synthia.md) (Mostly Synthia 7B V2; **25% volume vs original**)
+### Completed Book Summaries
+
+1. [**Summary of Anodea Judith's Eastern Body Western Mind**](Eastern-Body_Western-Mind_Synthia.md)
   > **Adult Development**
   >  
   > The process of individuation involves becoming a single, homogeneous being and embracing one's innermost uniqueness. This journey begins in early adulthood when individuals leave home and start living independently.
@@ -139,7 +145,7 @@ According to [CopyLeaks](https://app.copyleaks.com/) it says my text is only 5.4
   > 5. Chakra Five: Creative and personal expression is emphasized in this stage, where individuals make their personal contribution to the community. It often occurs around midlife and may precede or dominate other activities for more creative personalities.
   > 6. Chakra Six: This introverted stage involves reflection and study of patterns through exploration of mythology, religion, and philosophy. It is a time of searching and spiritual interest, which intensifies when children are grown and adults have more freedom for contemplation and spiritual practice.
   > 7. Chakra Seven: The final stage is characterized by wisdom, spiritual understanding, knowledge, and teaching. Individuals bring together information gathered throughout life to pass it on to others or pursue a spiritual path.
-2. [**Summary of Healing Power of the Vagus Nerve, by Stanley Rosenberg**](Healing-Power-Vagus-Nerve_SynthiaV2+MistralV0.2.md) (Mostly Mistral 7B V0.2; **19% Volume vs Original**)
+2. [**Summary of Healing Power of the Vagus Nerve, by Stanley Rosenberg**](Healing-Power-Vagus-Nerve_SynthiaV2+MistralV0.2.md)
   > The ANS is an integral part of the human nervous system, monitoring and regulating the activity of visceral organs such as heart, lungs, liver, gall bladder, stomach, intestines, kidneys, and sexual organs. Problems with any of these organs can arise from dysfunction of the ANS.
   > 
   > - **Old understanding of the ANS**: The ANS functioned in two states - stress and relaxation. 
@@ -150,7 +156,7 @@ According to [CopyLeaks](https://app.copyleaks.com/) it says my text is only 5.4
   >   - **Ventral Vagal State**: This state is characterized by social engagement and safety. It is associated with feelings of calmness, connection, and trust.
   >   - **Dorsal Vagal State**: This state is characterized by immobilization or shutdown. It is associated with feelings of fear, helplessness, and hopelessness.
   >   - **Sympathetic Nervous System (SNS)**: This system is responsible for the fight-or-flight response. It is associated with feelings of anxiety, stress, and tension.
-* [Summary of Dr. David Frawley's Ayurveda and the Mind](AyurvedaMind_mistral-7b-instruct-v0.2.Q8+synthia-7b-v2.md) (Mistral-7B-Instruct-v0.2 and SynthIA-7B-v2.0; **23% volume vs original**)
+* [Summary of Dr. David Frawley's Ayurveda and the Mind](AyurvedaMind_mistral-7b-instruct-v0.2.Q8+synthia-7b-v2.md)
   > 1. *Section 1*: Explores Ayurvedic view of mind-body relationship, including gunas (Sattva, Rajas, Tamas), doshas (Vata, Pitta, Kapha), and five elements.
   > 2. *Section 2*: In-depth examination of functions of awareness through consciousness, intelligence, mind, ego, and self.
   > 3. *Section 3*: Ayurvedic therapies for the mind: outer (diet, herbs, massage) and inner (color, aroma, mantra).
@@ -158,6 +164,7 @@ According to [CopyLeaks](https://app.copyleaks.com/) it says my text is only 5.4
   > 5. *Appendix*: Contains tables on functions of the mind and their correspondences.
   > 6. *Goals*: To provide sufficient knowledge for personal use and relevant to psychologists/therapists.
 
-## Walkthrough
+### Walkthrough
 
 If you are interested in following my steps, in more detail, check out the [walkthrough](walkthrough).
+
