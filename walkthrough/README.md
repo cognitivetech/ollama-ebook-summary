@@ -1,13 +1,22 @@
 # Walkthrough
+
+Check out Private GPT [Repository](https://github.com/imartinez/privateGPT) and [Docs](https://docs.privategpt.dev/) for more information.
+
+## Contents 
 - [Disclaimer](#disclaimer)
 - [System](#system)
-- [Step One - Chapterize Book](#step-one---chapterize-book)
-- [Step Two - Prepare book for query and summarization.](#step-two---prepare-book-for-query-and-summarization)
-- [Step Three - Prepare data for automation.](#step-three---prepare-data-for-automation)
-- [Step Four - Write Shell Script](#step-four---write-shell-script)
-- [Step Five - Start PrivateGPT and Begin Testing](#step-five---start-privategpt-and-begin-testing)
-- [Making my first complete book summary](#making-my-first-complete-book-summary)
-- [Prompting](#prompting)
+- [Process Document](#process-document)
+  - [Chapterize Book](#chapterize-book)
+  - [Convert to text](#convert-to-text)
+  - [Process Text](#process-text)
+- [Automation](#automation)
+  - [Prepare data](#prepare-data)
+  - [Bash Script](#bash-script)
+- [Start PrivateGPT and Begin Testing](#start-privategpt-and-begin-testing)
+  - [Example output](#example-output)
+- [Making a complete book summary](#making-a-complete-book-summary)
+  - [Prompting](#prompting)
+- [That's all!](#thats-all)
 
 ## Disclaimer
 
@@ -20,7 +29,13 @@ If you have a good CPU, some of these models will work using Q4_K_M or Q5_K_M va
 
 I'm running this project at home using an RTX 3060 12GB. Each answer typically takes a minute or less from the GUI.
 
-## Step One - Chapterize Book
+I'm using [Calibre](https://calibre-ebook.com/) and [VS Code](https://code.visualstudio.com/).
+
+## Process Document
+
+### Chapterize Book
+
+This is for Document Q/A. Skip this step if you are doing summarization.
 
 https://github.com/torakiki/sejda
 
@@ -28,41 +43,43 @@ Great thing about Sejda is that its open source, and has a free web version avai
 
 https://www.sejda.com/split-pdf-by-outline
 
-## Step Two - Prepare book for query and summarization.
-
-I'm using [Calibre](https://calibre-ebook.com/) and [VS Code](https://code.visualstudio.com/).
+### Convert to text
 
 `ebook-convert file.epub file.txt --enable-heuristics --disable-markup-chapter-headings --disable-delete-blank-paragraphs  --disable-unwrap-lines`
 
 The above command performs much better on the `epub` vs `pdf` for producing a clean output preserving formating and not adding tons of line-breaks. 
 
-All the same, I'm still building up an array of regex commands to run in a sed script, because that won't always be an option.
+Check the options here: [Calibre Docs: Heuristic Processing](https://manual.calibre-ebook.com/conversion.html#heuristic-processing).
 
-Check this link, you might do better than me, even.
+### Process Text
 
-https://manual.calibre-ebook.com/conversion.html#heuristic-processing
+I've used a chapter from [Eastern body, Western mind : psychology and the chakra system as a path to the self](https://www.amazon.com/Eastern-Body-Western-Mind-Psychology/dp/1587612259/?&tag=cognitivetech-20), by Anodea Judith, to test out summarization and Q/A for a few LLM.
 
-### For this demonstration 
+You may find, when converting PDF to text that there may be a lot of junk characters, especially if the text was generated with OCR.
 
-I'm using a chapter from a book that comparing the chakra system with western psychology: [Eastern body, Western mind : psychology and the chakra system as a path to the self](https://www.amazon.com/Eastern-Body-Western-Mind-Psychology/dp/1587612259/?&tag=cognitivetech-20), by Anodea Judith.
+Ask your favorite LLM for help with regex to remove that stuff.
 
-Now I've pulled into VSCode, the text version of the chapter and am selecting sections I want summarized. I compressing them to a single line by selecting sections and using the "join lines" function, that I've mapped to a convenient key combo.
+Luckily, I began with a mostly clean document, so I just select as much text as I want (using a character counter extension, for guidance), and VS Code function, "join lines," that I've mapped to a convenient key combo.
 
-All in all I've split a 73 page, 30k token, book chapter into 31 chunks of text, leaving an average of 850 tokens per query.
+All in all I split a 73 page, 30k token, book chapter into 31 chunks of text, leaving an average of 850 tokens per query.
 
-I've also written 30 questions, one for each sub-heading within the chapter.
+I also wrote 30 questions, one for each sub-heading within the chapter.
 
-## Step Three - Prepare data for automation.
+## Automation
+
+### Prepare data
 
 I will make two different type of JSON objects, depending on the type of query.
 
 #### Question
 Note I have set Include Sources, as well as Use Context so the questions are asked to the document already ingested, and we learn which sources were used.
 
+I've turned on `use_context`, to search the single chapter pdf ingested, and `include_sources` so I know where in the chapter answers came from.
+
 ```json
 {
   "include_sources": true,
-  "prompt": "What are the basic issues of the fourth chakra",
+  "prompt": "What are the basic issues of the fourth chakra?",
   "stream": false,
   "use_context": true
 }
@@ -70,15 +87,17 @@ Note I have set Include Sources, as well as Use Context so the questions are ask
 #### Summary
 I've also made a file that breaks the entire chapter into 31 json objects just like shown below.
 
+Here, no need for sources or context.
+
 ```json
 {
   "include_sources": false, "prompt": "Write a paragraph based on the following: Finding the Balance in Love FOURTH CHAKRA AT A GLANCE ELEMENT Air NAME Anahata (unstruck) PURPOSES Love Balance ISSUES Love Balance Self-love Relationship Intimacy Anima/animus Devotion Reaching out and taking in COLOR Green LOCATION Chest, heart, cardiac plexus IDENTITY Social ORIENTATION Self-acceptance Acceptance of others DEMON Grief DEVELOPMENTAL STAGE 4 to 7 years DEVELOPMENTAL TASKS Forming peer and family relationships Developing persona BASIC RIGHTS To love and be loved BALANCED CHARACTERISTICS Compassionate Loving Empathetic Self-loving Altruistic Peaceful, balanced Good immune system TRAUMAS AND ABUSES Rejection, abandonment, loss Shaming, constant criticism Abuses to any other chakras, especially lower chakras Unacknowledged grief, including parents’ grief Divorce, death of loved one Loveless, cold environment Conditional love Sexual or physical abuse Betrayal DEFICIENCY Antisocial, withdrawn, cold Critical, judgmental, intolerant of self or others Loneliness, isolation Depression Fear of intimacy, fear of relationships Lack of empathy Narcissism EXCESS Codependency Poor boundaries Demanding Clinging Jealousy Overly sacri cing PHYSICAL MALFUNCTIONS Disorders of the heart, lungs, thymus, breasts, arms Shortness of breath Sunken chest Circulation problems Asthma Immune system de ciency Tension between shoulder blades, pain in chest HEALING PRACTICES Breathing exercises, pranayama Work with arms, reaching out, taking in Journaling, self-discovery Psychotherapy Examine assumptions about relationships Emotional release of grief Forgiveness when appropriate Inner child work Codependency work Self-acceptance Anima-animus integration AFFIRMATIONS I am worthy of love. I am loving to myself and others. There is an in nite supply of love. I live in balance with others.", "stream": false, "use_context": false
 }
 ```
 
-## Step Four - Write Shell Script
+### Bash Script
 
-I've minified those json objects [so they are on one line each](script/q.json), and will now submit them to my models for testing and analysis.
+I've minified those json objects [so they are on one line each](q.json), and will now submit them to my models for testing and analysis.
  
 #### Questions
 ```bash
@@ -99,17 +118,19 @@ do
 done
 ```
 
-## Step Five - Start PrivateGPT and Begin Testing
+## Start PrivateGPT and Begin Testing
 
 `PGPT_PROFILES=local make run`
 
-In another window I run my [script](script):
+In another window I run [bash.sh](bash.sh):
 
+`chmod +x bash.sh`
 `./bash.sh`
 
-### mistral-7b-instruct-v0.1.Q8_0.gguf 
+### Example output
+My first answer complete in two seconds!
 
-Our first answer complete in two seconds!
+#### mistral-7b-instruct-v0.1.Q8_0
 
 ```json
 {
@@ -205,19 +226,21 @@ Our first answer complete in two seconds!
 }
 ```
 
-## Making my first complete book summary
+## Making a complete book summary
 
-Using above methods I learned how each model responds and began to do my first complete summary.
+Using above methods I learned how each model responds and began working on my first complete summary.
 
 I chopped a 535 page book, into 199 sections, most less than 10000 characters, and surrounded those sections in JSON objects.
 
 Initially I thought I would prefer [Hermes Trismegistus Mistral 7b](https://huggingface.co/TheBloke/Hermes-Trismegistus-Mistral-7B-GGUF), because it made the most verbose output giving me something to work with. 
 
-Ultimately, I decided to use [SynthIA 7B](https://huggingface.co/TheBloke/SynthIA-7B-v2.0-GGUF) because it is _less_ verbose, but still quite detailed. I also noticed that it always created less output than given, compared to Hermes Trismegistus, that will sometimes generate more content than given.
+Ultimately, I decided to use [SynthIA 7B](https://huggingface.co/TheBloke/SynthIA-7B-v2.0-GGUF) because it is _less_ verbose, but still quite detailed. I also noticed that it always created less output than given. Hermes Trismegistus, on the other hand, will sometimes generate more content than given.
 
 I would like to create summaries that contain 20% or less textual volume vs the original.
 
 I also decided to be more particular about how sections are grouped, but I try to not group less than 3500 characters, preferring 7000-9000 characters per selection.
+
+(maybe that's wrong, and i just just smaller sections by themselves)
 
 ### Prompting
 
@@ -238,3 +261,7 @@ Your style of writing should be informative and logical.
 ```yaml
 Create bullet-point notes summarizing the important parts of the following text. Vocabulary terms and key concepts should be marked in bold. Focus only on essential information, without adding any extra thoughts. TEXT: ```{content}```
 ```
+
+## That's all!
+
+Check out Private GPT [Repository](https://github.com/imartinez/privateGPT) and [Docs](https://docs.privategpt.dev/) for more information.
