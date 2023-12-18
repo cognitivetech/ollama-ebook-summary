@@ -2615,11 +2615,11 @@
 2. **Child's fundamental concern**: no place was safe anymore after seeing abusive grownups at home and dangerous germs outside.
 3. **Translating child communication**: facilitated suggestion of "taking over" the boy's hypervigilance, allowing him to rest.
 4. **Different needs for repair** based on age, developmental stage, experiences of trauma/neglect, and animal defense.
-  1. **Fight part**: needs sense of purpose, control, and mastery.
-  2. **Attach part**: yearns for protection, love, and safety from abandonment.
-  3. **Freeze or fear part**: craves safety from harm or threat of death.
-  4. **Submit parts**: need to feel worth, autonomy, and initiative.
-  5. **Flight part**: wishes freedom from entrapment.
+  - **Fight part**: needs sense of purpose, control, and mastery.
+  - **Attach part**: yearns for protection, love, and safety from abandonment.
+  - **Freeze or fear part**: craves safety from harm or threat of death.
+  - **Submit parts**: need to feel worth, autonomy, and initiative.
+  - **Flight part**: wishes freedom from entrapment.
 5. Work of emotional connection, communication, and repair of dysregulated memory states can deepen attachment bonds.
 6. Repeated experiences of attunement build secure attachment.
 7. Infants' calming into parent's arms generates shared felt sense of closeness, safety, and warmth (attunement).
