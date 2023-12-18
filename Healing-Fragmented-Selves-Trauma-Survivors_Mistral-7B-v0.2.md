@@ -6,72 +6,72 @@
 - Lack of understanding about fragmented selves and dissociative splitting in mental health field.
    
 1. **Background**
-  - Ihe idea of this book came from witnessing the struggles faced by therapists in understanding and treating traumatized clients. 
-  - Author mentions experience working at Bessel van der Kolk's Trauma Center, which influenced her perspective on trauma-related disorders.
+   - Ihe idea of this book came from witnessing the struggles faced by therapists in understanding and treating traumatized clients. 
+   - Author mentions experience working at Bessel van der Kolk's Trauma Center, which influenced her perspective on trauma-related disorders.
 
 3. **Neurobiological Lens**
-  - Trauma disorders seen as disorders of body, brain, and nervous system.
-  - Symptoms are adaptations to dangerous world rather than evidence of pathology.
-  - Each symptom is an ingenious solution for creating safety.
+   - Trauma disorders seen as disorders of body, brain, and nervous system.
+   - Symptoms are adaptations to dangerous world rather than evidence of pathology.
+   - Each symptom is an ingenious solution for creating safety.
 
 3. **The Structural Dissociation Model**: 
-  - explains how individuals with trauma-related disorders have fragmented their selves to adapt and survive
-  - This model helps clients understand their struggles and provides them with a language to describe their experiences.
+   - explains how individuals with trauma-related disorders have fragmented their selves to adapt and survive
+   - This model helps clients understand their struggles and provides them with a language to describe their experiences.
 
 4. **Healing through Bonding**
-  - Healing means reclaiming lives or transforming internal states.
-  - Clients form loving attachment bonds to their young selves.
-  - Shame and self-hatred melt away as left brain "adult" side relates to right brain "child" side.
+   - Healing means reclaiming lives or transforming internal states.
+   - Clients form loving attachment bonds to their young selves.
+   - Shame and self-hatred melt away as left brain "adult" side relates to right brain "child" side.
 
 5. **Book's Intended Audience**
-  - Chronically traumatized individuals, high-risk patients, stable clients with internal pain despite external success.
-  - Not limited to any particular diagnosis.
-  - For anyone failed, attacked, threatened, abandoned, or terrorized by human beings and carrying emotional/physical trauma legacy.
+   - Chronically traumatized individuals, high-risk patients, stable clients with internal pain despite external success.
+   - Not limited to any particular diagnosis.
+   - For anyone failed, attacked, threatened, abandoned, or terrorized by human beings and carrying emotional/physical trauma legacy.
    
 ### Fragmentation and Internal Struggles Ten years ago, in the context
 
 1. **Fragmentation and Internal Struggles**
-  - Ten years ago, I observed a common pattern among traumatized clients: internal fragmentation.
-  - Clients appeared integrated but showed signs of conflict between trauma-related perceptions and impulses versus present assessments.
-  - They experienced paradoxical symptoms, such as the desire for kindness and spirituality alongside intense rage or violence.
+   - Ten years ago, I observed a common pattern among traumatized clients: internal fragmentation.
+   - Clients appeared integrated but showed signs of conflict between trauma-related perceptions and impulses versus present assessments.
+   - They experienced paradoxical symptoms, such as the desire for kindness and spirituality alongside intense rage or violence.
 
 2. **Observable Patterns**
-  - Describing these conflicts made them more observable and meaningful.
-  - Each side represented a different way of surviving traumatic experiences.
+   - Describing these conflicts made them more observable and meaningful.
+   - Each side represented a different way of surviving traumatic experiences.
 
 3. **Theoretical Model: Structural Dissociation**
-  - The [Structural Dissociation model by Onno van der Hart, Ellert Nijenhuis, and Kathy Steele](https://link.springer.com/article/10.1007/BF03379560) explained these phenomena.
-  - Rooted in neuroscience, it was accepted in Europe as a trauma model.
+   - The [Structural Dissociation model by Onno van der Hart, Ellert Nijenhuis, and Kathy Steele](https://link.springer.com/article/10.1007/BF03379560) explained these phenomena.
+   - Rooted in neuroscience, it was accepted in Europe as a trauma model.
 
 4. **Brain's Innate Structure**
-  - The brain's innate physical structure facilitates left-right brain disconnection under threat.
-  - The left brain stays focused on daily tasks, while the right brain fosters an implicit self in survival mode.
+   - The brain's innate physical structure facilitates left-right brain disconnection under threat.
+   - The left brain stays focused on daily tasks, while the right brain fosters an implicit self in survival mode.
 
 5. **Identifying and Owning Parts**
-  - Some parts were easier to identify with or "own," while others were dismissed as "not me.
-  - The internal relationships between fragmented aspects of self reflected traumatic environments.
-  - The left-brain-dominant present-oriented self avoided or judged right-brain-dominant survival-oriented parts.
-  - Both sides felt alienated from each other.
+   - Some parts were easier to identify with or "own," while others were dismissed as "not me.
+   - The internal relationships between fragmented aspects of self reflected traumatic environments.
+   - The left-brain-dominant present-oriented self avoided or judged right-brain-dominant survival-oriented parts.
+   - Both sides felt alienated from each other.
 
 6. **Functioning Self**
-  - The functioning self carried on, trying to be "normal," but at the cost of feeling alienated or invaded by intrusive communications from parts.
+   - The functioning self carried on, trying to be "normal," but at the cost of feeling alienated or invaded by intrusive communications from parts.
     
 ### The Price of Self-Alienation: A “False Self” 
 
 1. **Self-Alienation** and its Consequences
-  - Survivors of trauma report improved functioning but later suffer from feelings of fraudulence or "pretending" (compartmentalization).
-  - Maintaining self-alienation leads to increased self-loathing, disconnection from emotion, addictive or self-destructive behavior, internal struggles.
-  - Symptoms include anxiety, chronic depression, low self-esteem, stuckness in life, PTSD, bipolar disorder, borderline personality disorder, dissociative disorders.
+   - Survivors of trauma report improved functioning but later suffer from feelings of fraudulence or "pretending" (compartmentalization).
+   - Maintaining self-alienation leads to increased self-loathing, disconnection from emotion, addictive or self-destructive behavior, internal struggles.
+   - Symptoms include anxiety, chronic depression, low self-esteem, stuckness in life, PTSD, bipolar disorder, borderline personality disorder, dissociative disorders.
 
 2. **Traumatic Attachment** as a Complication in Trauma Therapy
-  - Clients are vulnerable to being triggered by seemingly innocuous stimuli and overwhelmed with painful emotions.
-  - Each new treatment method helps some clients but not all, or brings relief in some symptoms but not others.
-  - Some clients' trauma-related wishes and fears of relationship evoke painful yearning, mistrust, hypervigilance, anger, fear, and shame rather than safety and comfort.
+   - Clients are vulnerable to being triggered by seemingly innocuous stimuli and overwhelmed with painful emotions.
+   - Each new treatment method helps some clients but not all, or brings relief in some symptoms but not others.
+   - Some clients' trauma-related wishes and fears of relationship evoke painful yearning, mistrust, hypervigilance, anger, fear, and shame rather than safety and comfort.
 
 3. **The Quest for Effective Trauma Treatment**
-  - Therapists have been seeking new methods to help clients free from the insidious impact of the traumatic past.
-  - Each new understanding or treatment method helps some clients but not all, or brings relief in some symptoms while not alleviating others.
-  - Some clients' trauma-related wishes and fears make therapy and the therapist evoke intense emotions and responses.
+   - Therapists have been seeking new methods to help clients free from the insidious impact of the traumatic past.
+   - Each new understanding or treatment method helps some clients but not all, or brings relief in some symptoms while not alleviating others.
+   - Some clients' trauma-related wishes and fears make therapy and the therapist evoke intense emotions and responses.
    
 ### Stuckness: Trauma-Related Internal Conflicts 
 
@@ -97,35 +97,35 @@
 ### How This Book Is Organized
 
 1. **Theoretical Background**
-  - The author's clinical experience is rooted in neuroscience and attachment research.
-  - The book integrates a theoretical understanding of trauma, dissociation, neurobiology, and attachment with practical interventions.
-  - Interventions drawn from Sensorimotor Psychotherapy, Internal Family Systems, mindfulness-based approaches, and clinical hypnosis are used.
+   - The author's clinical experience is rooted in neuroscience and attachment research.
+   - The book integrates a theoretical understanding of trauma, dissociation, neurobiology, and attachment with practical interventions.
+   - Interventions drawn from Sensorimotor Psychotherapy, Internal Family Systems, mindfulness-based approaches, and clinical hypnosis are used.
 
 2. **Integrating Sensorimotor Psychotherapy and Internal Family Systems**
-  - The author's understanding of the body and nervous system is integrated with parts theory from IFS.
-  - Both models are mindfulness-based and help in speaking the language of parts and becoming mindful of one's own parts.
-  - They provide a foundation for working with complex PTSD clients and those who are stuck, in crisis, or ambivalent.
+   - The author's understanding of the body and nervous system is integrated with parts theory from IFS.
+   - Both models are mindfulness-based and help in speaking the language of parts and becoming mindful of one's own parts.
+   - They provide a foundation for working with complex PTSD clients and those who are stuck, in crisis, or ambivalent.
 
 3. **Understanding Dissociative Splitting and Fragmentation**
-  - Dissociative splitting and fragmentation is an adaptive response to overwhelming experience.
-  - Individuals disown self-states that are intimidated, ashamed, or not-me, allowing them to function without awareness of having been traumatized.
-  - The Structural Dissociation model (2000) provides a neuroscientific understanding of dissociative splitting and compartmentalization.
+   - Dissociative splitting and fragmentation is an adaptive response to overwhelming experience.
+   - Individuals disown self-states that are intimidated, ashamed, or not-me, allowing them to function without awareness of having been traumatized.
+   - The Structural Dissociation model (2000) provides a neuroscientific understanding of dissociative splitting and compartmentalization.
 
 4. **Understanding Parts and Traumatic Responses**
-  - Neuroscience research on traumatic memory is explored to understand and recognize signs of fragmented parts.
-  - The emergency stress response to threat is presented, including how the legacy of trauma becomes encoded in the body.
-  - The role of implicit memory in trauma treatment is emphasized, requiring therapists to make a paradigm shift from focusing on traumatic events to understanding and helping clients work with their trauma-related parts.
+   - Neuroscience research on traumatic memory is explored to understand and recognize signs of fragmented parts.
+   - The emergency stress response to threat is presented, including how the legacy of trauma becomes encoded in the body.
+   - The role of implicit memory in trauma treatment is emphasized, requiring therapists to make a paradigm shift from focusing on traumatic events to understanding and helping clients work with their trauma-related parts.
   
 ### Working with Changing Roles for Client and Therapist
 
 1. **Neuroscientific Perspective on Trauma**: Therapy begins with educating therapists about trauma and dissociation, empowering clients as informed consumers in their treatments.
-  - Most therapists lack experience in multi-consciousness paradigm.
-  - Psychoeducation equalizes power differential and provides reassurance.
+   - Most therapists lack experience in multi-consciousness paradigm.
+   - Psychoeducation equalizes power differential and provides reassurance.
 2. **Role of Therapist**: Therapist's role shifts from less directive to more attuned, resonant, and mindfulness-focused.
-  - Attunement and resonance are crucial in trauma treatment.
-  - Mindfulness skills must be explicitly taught for observing feelings and reactions without judgment or identification.
+   - Attunement and resonance are crucial in trauma treatment.
+   - Mindfulness skills must be explicitly taught for observing feelings and reactions without judgment or identification.
 3. **Building a Collaboration**: Therapist's role is to create a new story about the client based on their needs, not just wants.
-  - Clients need help in acquiring skills of mindful observation and discovery.
+   - Clients need help in acquiring skills of mindful observation and discovery.
 
 ### Understanding Parts
 
@@ -143,307 +143,307 @@
 ### Complications of Treatment
 
 1. **Traumatic Attachment**
-  - Reversal of roles: parent figure becomes object of fear and life threat
-  - Intimate relationships or therapy evoke danger signals
-  - Growing closeness can convey threat or promise of comfort, triggering emotional memories
-  - Internal struggle between hunger for closeness and fear of abandonment versus defensive responses
-  - Therapist's role: ally for both sides, facilitator of "earned secure attachment
+   - Reversal of roles: parent figure becomes object of fear and life threat
+   - Intimate relationships or therapy evoke danger signals
+   - Growing closeness can convey threat or promise of comfort, triggering emotional memories
+   - Internal struggle between hunger for closeness and fear of abandonment versus defensive responses
+   - Therapist's role: ally for both sides, facilitator of "earned secure attachment
    
 2. **Earned Secure Attachment**
-  - Outcome of resolving insecure or disorganized childhood attachment
-  - Individuals can reflect on early attachment relationships without becoming disregulated
-  - Emphasis on building empathy and attunement to parts, not attachment to therapist
+   - Outcome of resolving insecure or disorganized childhood attachment
+   - Individuals can reflect on early attachment relationships without becoming disregulated
+   - Emphasis on building empathy and attunement to parts, not attachment to therapist
 
 3. **Unsafe Behaviors**
-  - Manifestations of parts-related animal defense survival responses
-  - Addictive, eating disordered, suicidal, self-injurious behaviors reinterpreted through neurobiological lens
-  - Episodes follow relational disappointments, shame, and intrusive memories or flashbacks
-  - Post-traumatic unsafe behavior: exhaustion, loss of energy, intense feelings of needing rest
-  - Neurobiologically informed approach: help patients reframe impulses as communications from a part
+   - Manifestations of parts-related animal defense survival responses
+   - Addictive, eating disordered, suicidal, self-injurious behaviors reinterpreted through neurobiological lens
+   - Episodes follow relational disappointments, shame, and intrusive memories or flashbacks
+   - Post-traumatic unsafe behavior: exhaustion, loss of energy, intense feelings of needing rest
+   - Neurobiologically informed approach: help patients reframe impulses as communications from a part
 
 4. **Dissociative Disorders**
-  - More extreme degree of compartmentalization affecting consciousness, choices, decisions, and memory
-  - Underdiagnosed or misdiagnosed despite dissociative symptomatology
-  - Treatment approach: mindfulness-based, effective for DID and DDNOS clients with adjustments
-  - Therapist's role: hold in mind that client is one physical individual while appreciating fragmented parts
-  - Engage left brain-driven part to help solve issues raised by right brain-trauma related parts
+   - More extreme degree of compartmentalization affecting consciousness, choices, decisions, and memory
+   - Underdiagnosed or misdiagnosed despite dissociative symptomatology
+   - Treatment approach: mindfulness-based, effective for DID and DDNOS clients with adjustments
+   - Therapist's role: hold in mind that client is one physical individual while appreciating fragmented parts
+   - Engage left brain-driven part to help solve issues raised by right brain-trauma related parts
    
 ### Distorted cognitions
 
 1. **Shame and self-loathing** interfere with clients' ability to connect with their strengths due to potential unsafe conditions in childhood.
-  - Distorted cognitions hinder the normal life self from handling normal activities.
-  - Internal conflicts between parts debilitate or destabilize the normal life self.
+   - Distorted cognitions hinder the normal life self from handling normal activities.
+   - Internal conflicts between parts debilitate or destabilize the normal life self.
 
 2. **Therapist's role**: Foster compassion of the normal life self towards wounded child parts.
-  - Use clinical examples to illustrate the process of building internal acceptance.
-  - Draw on clients' strengths and life experiences as resources for young child selves.
+   - Use clinical examples to illustrate the process of building internal acceptance.
+   - Draw on clients' strengths and life experiences as resources for young child selves.
 
 3. **Left brain vs. right brain selves**: Competencies learned by left brain self not available to right brain selves.
-  - Interventions bring the two sides into contact, evoking moments of attunement and togetherness.
+   - Interventions bring the two sides into contact, evoking moments of attunement and togetherness.
 
 4. **Healing process**: Clients must earn parts' trust before deepening connection to young selves.
-  - Consistently ask clients to communicate, collaborate, and extend compassion to parts.
-  - Build up a felt sense of an internal attachment figure.
+   - Consistently ask clients to communicate, collaborate, and extend compassion to parts.
+   - Build up a felt sense of an internal attachment figure.
 
 5. **Emotional healing**: Healing traumatic wounds requires attachment-based approach.
-  - Invite disowned parts into the heart and mind and arms of the client.
-  - Overcome fear of self-compassion to welcome all parts "home".
+   - Invite disowned parts into the heart and mind and arms of the client.
+   - Overcome fear of self-compassion to welcome all parts "home".
 
 6. **Earned secure attachment**: Childhood attachment wounds can be modified through life experiences.
-  - Raising children, healthy friendships, intimate relationships, or creating secure attachment relationships with parts.
-  - Brain's ability to grow new neural networks and encode new feeling states.
+   - Raising children, healthy friendships, intimate relationships, or creating secure attachment relationships with parts.
+   - Brain's ability to grow new neural networks and encode new feeling states.
 
 7. **Healing story**: Clients create a new story of safety, closeness, and compassion by evoking states of well-being.
-  - Neuroplastic brain change requires clients to inhibit old patterns, practice new patterns, and maintain the felt connection to their bodies and child selves.
+   - Neuroplastic brain change requires clients to inhibit old patterns, practice new patterns, and maintain the felt connection to their bodies and child selves.
     
 ## CHAPTER 1 The Neurobiological Legacy of Trauma
 
 1. **Neurobiological Legacy of Trauma**
-  - Trauma memories are deeply engraved due to stress hormones (Van der Kolk, 2014).
-  - Ordinary life becomes less compelling and harder to concentrate on (Van der Kolk, 2014).
-  - **Splitting or Fragmenting** as a survival strategy:
-    - Children disconnect from traumatic experiences to survive psychologically.
-    - They create a "good child" persona for acceptance and safety.
-    - Rejected "not me" child is kept out of consciousness through dissociation, denial, or self-hatred.
-  - **Surviving trauma involves mastering normal developmental tasks**:
-    - "Good" part of the child develops normally while "not me" part bears emotional and physical imprint of past.
-  - **Complications**:
-    - Neither self has well-developed chronological memories of traumatic events.
-    - Traumatic memory appears as intrusive images, emotions, and physical reactions (Van der Kolk, 2006; 2014).
+   - Trauma memories are deeply engraved due to stress hormones (Van der Kolk, 2014).
+   - Ordinary life becomes less compelling and harder to concentrate on (Van der Kolk, 2014).
+   - **Splitting or Fragmenting** as a survival strategy:
+      - Children disconnect from traumatic experiences to survive psychologically.
+      - They create a "good child" persona for acceptance and safety.
+      - Rejected "not me" child is kept out of consciousness through dissociation, denial, or self-hatred.
+   - **Surviving trauma involves mastering normal developmental tasks**:
+      - "Good" part of the child develops normally while "not me" part bears emotional and physical imprint of past.
+   - **Complications**:
+      - Neither self has well-developed chronological memories of traumatic events.
+      - Traumatic memory appears as intrusive images, emotions, and physical reactions (Van der Kolk, 2006; 2014).
 
 2. **Impact of Childhood Abuse**
-  - Children need psychological distance to survive traumatic experiences.
-  - Splitting or fragmenting self is an adaptive strategy but comes with a cost.
-  - Individuals continue to rely on dissociation, denial, and/or self-hatred for enforcing disconnection.
-  - Struggling with feelings of fraudulence, resentment, shame, or self-doubt.
-  - Trauma remains alive rather than resolved.
-  - Mastering normal developmental tasks supports survival: learning, peer relationships, interests.
-  - "Good" part develops normally while "not me" part bears emotional and physical imprint of past.
-  - Neither self has clear-cut narrative memories of traumatic events.
-  - Traumatic memory appears as intrusive images, emotions, and physical reactions.
+   - Children need psychological distance to survive traumatic experiences.
+   - Splitting or fragmenting self is an adaptive strategy but comes with a cost.
+   - Individuals continue to rely on dissociation, denial, and/or self-hatred for enforcing disconnection.
+   - Struggling with feelings of fraudulence, resentment, shame, or self-doubt.
+   - Trauma remains alive rather than resolved.
+   - Mastering normal developmental tasks supports survival: learning, peer relationships, interests.
+   - "Good" part develops normally while "not me" part bears emotional and physical imprint of past.
+   - Neither self has clear-cut narrative memories of traumatic events.
+   - Traumatic memory appears as intrusive images, emotions, and physical reactions.
    
 ### The “Living Legacy” of the Past 
 
 1. **Trauma Legacy**: Individuals carry symptoms and reactions without clear context from past traumatic experiences.
-  - Anxiety, depression, shame, low self-esteem, loneliness, alienation, problems with anger, impulsivity or acting out.
-  - Chronic expectations of danger: intrusive fear and dread, hypervigilance, chronic shame and self-hatred, conviction that the worst is about to happen, hopelessness and helplessness, fear of abandonment, numbing and disconnection from emotions.
-  - Self-destructive impulses: addiction, self-harming impulses, eating disorders, or a longing or determination to die.
+   - Anxiety, depression, shame, low self-esteem, loneliness, alienation, problems with anger, impulsivity or acting out.
+   - Chronic expectations of danger: intrusive fear and dread, hypervigilance, chronic shame and self-hatred, conviction that the worst is about to happen, hopelessness and helplessness, fear of abandonment, numbing and disconnection from emotions.
+   - Self-destructive impulses: addiction, self-harming impulses, eating disorders, or a longing or determination to die.
 
 2. **Early Trauma Treatment Approaches**:
-  - "Talking cure": therapists encouraged clients to retrieve memories of traumatic events until they had a detailed narrative.
-  - Resulted in overwhelming implicit memories and traumatic reactions, increasing symptoms rather than resolving past trauma.
+   - "Talking cure": therapists encouraged clients to retrieve memories of traumatic events until they had a detailed narrative.
+   - Resulted in overwhelming implicit memories and traumatic reactions, increasing symptoms rather than resolving past trauma.
 
 3. **Addressing the Effects of Trauma**:
-  - Focus on feeling safe and reassuring oneself instead of remembering horrific experiences.
-  - Reclaim lost children and disowned parts of self, creating safety for them and making them feel wanted, needed, and valued.
+   - Focus on feeling safe and reassuring oneself instead of remembering horrific experiences.
+   - Reclaim lost children and disowned parts of self, creating safety for them and making them feel wanted, needed, and valued.
 
 4. **Acceptance of Child Abuse and Dissociation**:
-  - Scientific research has shown that child abuse is an epidemic, not a rare occurrence.
-  - Untreated post-traumatic stress results in significant social costs, not just individual suffering.
-  - Concepts of implicit memory and bodily-driven responses to trauma have become more widespread but still controversial.
+   - Scientific research has shown that child abuse is an epidemic, not a rare occurrence.
+   - Untreated post-traumatic stress results in significant social costs, not just individual suffering.
+   - Concepts of implicit memory and bodily-driven responses to trauma have become more widespread but still controversial.
 
 5. **Disowning Parts of the Self**:
-  - Disowning parts of one's self and over-identifying with other parts does not facilitate integration and a sense of being whole.
-  - Mental health world has had a history of disowning prevalence of child abuse, dissociation, and fragmentation of personality.
-  - Pressure on therapists to "un-see" signs of dissociation and treat fragmented clients as if they were whole integrated human beings.
+   - Disowning parts of one's self and over-identifying with other parts does not facilitate integration and a sense of being whole.
+   - Mental health world has had a history of disowning prevalence of child abuse, dissociation, and fragmentation of personality.
+   - Pressure on therapists to "un-see" signs of dissociation and treat fragmented clients as if they were whole integrated human beings.
     
 ### Parallel Lives: The Disowning of Dissociation 
 
 1. **Dissociation** and **splitting** have been observed in trauma cases but rejected due to lack of scientific validation.
-  - Difficulty gaining acceptance for dissociative disorders due to absence of brain-based studies.
-  - Theories are metaphorical, not biologically or brain-based.
+   - Difficulty gaining acceptance for dissociative disorders due to absence of brain-based studies.
+   - Theories are metaphorical, not biologically or brain-based.
 2. **Dissociative Disorders**:
-  - Historically explained as stress-related, exceeding brain's capacity to process traumatic events.
-  - Memories are compartmentalized among dissociated parts.
-  - Parts viewed as repositories of memory, representing client's history at a specific time.
+   - Historically explained as stress-related, exceeding brain's capacity to process traumatic events.
+   - Memories are compartmentalized among dissociated parts.
+   - Parts viewed as repositories of memory, representing client's history at a specific time.
 3. **Alternative Theory**: Multiplicity is normal, all human beings have multi-consciousness.
-  - Mindfulness-based approach: Internal Family Systems (IFS).
+   - Mindfulness-based approach: Internal Family Systems (IFS).
 4. **IFS Model**:
-  - Depends on metaphorical theory based on intrapsychic defenses.
-  - "Exiles" are hidden from conscious awareness by "managers".
-  - "Firefighters" create distraction and crisis when exiles are not protected.
+   - Depends on metaphorical theory based on intrapsychic defenses.
+   - "Exiles" are hidden from conscious awareness by "managers".
+   - "Firefighters" create distraction and crisis when exiles are not protected.
 5. **Healing in IFS Model**:
-  - Exiled parts are reclaimed and share memories with "self", the higher self of the client.
+   - Exiled parts are reclaimed and share memories with "self", the higher self of the client.
 6. **Lack of Scientific Validity for Dissociation**:
-  - Good clinical models without a theoretical basis are insufficient to overcome skepticism.
+   - Good clinical models without a theoretical basis are insufficient to overcome skepticism.
 7. **Neuroscience Revolution**:
-  - Provided scientific explanation for concept of "splitting" and "parts of the self".
+   - Provided scientific explanation for concept of "splitting" and "parts of the self".
 8. **Challenging Fixed Negative Beliefs about Dissociation**:
-  - Took years of research to challenge prevalent negative beliefs in the field.
+   - Took years of research to challenge prevalent negative beliefs in the field.
     
 ### Compartmentalization under Stress: Exploiting the Fault Lines
 
 1. **Compartmentalization under Stress** 
-  - Biological basis in brain's "fault lines
+   - Biological basis in brain's "fault lines
 2. **Right Hemisphere-Left Hemisphere Split**
-  - Children are right brain dominant in early childhood
-  - Left brain development is gradual and dependent on corpus callosum development
-  - Trauma can lead to independent development of right and left hemispheres
+   - Children are right brain dominant in early childhood
+   - Left brain development is gradual and dependent on corpus callosum development
+   - Trauma can lead to independent development of right and left hemispheres
      * Deficits in communication between the two brains may hinder integration
 3. **Split-Brain Research**
-  - Shows independence and differences between left and right hemispheres
-  - Left hemisphere uses language, right hemisphere is more visual and better at recognizing differences
-  - Right hemisphere remembers episodically and implicitly, left specialized for autobiographical memory and acquired knowledge
-  - Emotions experienced on both sides but only verbalized by left hemisphere
+   - Shows independence and differences between left and right hemispheres
+   - Left hemisphere uses language, right hemisphere is more visual and better at recognizing differences
+   - Right hemisphere remembers episodically and implicitly, left specialized for autobiographical memory and acquired knowledge
+   - Emotions experienced on both sides but only verbalized by left hemisphere
 4. **Attachment Research**
-  - Children with disorganized attachment status at age one are more likely to exhibit dissociative symptoms or borderline personality disorder in adulthood
-  - Abusive attachment figures can leave children caught between attachment and defense instincts, necessitating dissociative splitting
+   - Children with disorganized attachment status at age one are more likely to exhibit dissociative symptoms or borderline personality disorder in adulthood
+   - Abusive attachment figures can leave children caught between attachment and defense instincts, necessitating dissociative splitting
 5. **Action Systems or Drives**
-  - Children have innate propensity for attachment, exploration, play, and social engagement
-  - Equally, they depend on animal defenses to ensure self-protection
-  - For children raised in unsafe environments, both types of action system are necessary
+   - Children have innate propensity for attachment, exploration, play, and social engagement
+   - Equally, they depend on animal defenses to ensure self-protection
+   - For children raised in unsafe environments, both types of action system are necessary
      * Ability to shift from state to state as needed to deal with different threats is essential
 6. **Trauma-Related Procedural Learning**
-  - Safer to adapt using a system of selves rather than becoming fully integrated "self"
-  - **Parts of the Personality**
-  - Controversial term in mental health world
-  - Advantages: suggests whole person, easily adopted by clients, and neural networks hold related neural pathways that encode complex systems of traits or systems representing aspects of personalities.
+   - Safer to adapt using a system of selves rather than becoming fully integrated "self"
+   - **Parts of the Personality**
+   - Controversial term in mental health world
+   - Advantages: suggests whole person, easily adopted by clients, and neural networks hold related neural pathways that encode complex systems of traits or systems representing aspects of personalities.
   
 ### Recognizing the Signs of Structurally Dissociated Parts
 
 1. **Structurally Dissociated Personality Systems**
-  - Unique to each individual
-  - Clients with complex trauma histories may have a well-developed normal self and several parts driven by survival responses
-  - Fragmentation can be subtle or dramatic
-  - Clients with PTSD, bipolar II, or borderline personality disorder might exhibit clear-cut states or compartmentalization
-  - Mild to moderate *dissociative disorder not otherwise specified* (DDNOS) clients might have compartmentalization and difficulty with memory.
+   - Unique to each individual
+   - Clients with complex trauma histories may have a well-developed normal self and several parts driven by survival responses
+   - Fragmentation can be subtle or dramatic
+   - Clients with PTSD, bipolar II, or borderline personality disorder might exhibit clear-cut states or compartmentalization
+   - Mild to moderate *dissociative disorder not otherwise specified* (DDNOS) clients might have compartmentalization and difficulty with memory.
 
 2. **Dissociative Identity Disorder (DID)**
-  - More complex structural dissociation
-  - Greater number of trauma-related parts
-  - Subparts serving priorities associated with the normal self
-  - Neural systems governing each part become more autonomous, leading to switching and time loss
+   - More complex structural dissociation
+   - Greater number of trauma-related parts
+   - Subparts serving priorities associated with the normal self
+   - Neural systems governing each part become more autonomous, leading to switching and time loss
 
 3. **Signs of Dissociative Disorders**
-  - Difficulties carrying on with normal life while other parts are activated
-  - Hypervigilance and mistrust
-  - Overwhelming emotions
-  - Incapacitating depression or anxiety
-  - Self-destructive behavior
-  - Fear or hopelessness about the future
+   - Difficulties carrying on with normal life while other parts are activated
+   - Hypervigilance and mistrust
+   - Overwhelming emotions
+   - Incapacitating depression or anxiety
+   - Self-destructive behavior
+   - Fear or hopelessness about the future
 
 4. **Evidence of Dissociative Hijacking**
-  - Celia: Surprised by a memory loss related to an award she won in 1990
-  - Annie: Received a letter from her oldest friend asking her never to contact him again due to something she said, but couldn't recall the incident.
+   - Celia: Surprised by a memory loss related to an award she won in 1990
+   - Annie: Received a letter from her oldest friend asking her never to contact him again due to something she said, but couldn't recall the incident.
    
 ### Symptoms as Communications from Parts
 
 1. **Structural Dissociation**
-  - Clients may present with seemingly straightforward symptoms like PTSD, anxiety, mood disorders, or personality disorders, but underlying structural dissociation can be present.
+   - Clients may present with seemingly straightforward symptoms like PTSD, anxiety, mood disorders, or personality disorders, but underlying structural dissociation can be present.
    
 2. **Signs of Internal Splitting**
-  - Client functions highly at work due to positive triggers but regresses in personal relationships due to trauma triggers.
-  - Alternating fears of abandonment and pushing away others.
-  - Paradoxical behavior: intense fears but lack of appropriate fears for real threats, planning a vacation while ruminating on suicide.
+   - Client functions highly at work due to positive triggers but regresses in personal relationships due to trauma triggers.
+   - Alternating fears of abandonment and pushing away others.
+   - Paradoxical behavior: intense fears but lack of appropriate fears for real threats, planning a vacation while ruminating on suicide.
 
 3. **Treatment History**
-  - Previous treatments have resulted in little progress or clarity.
-  - Therapists report feeling overwhelmed or inadequate.
-  - Client reports fearing therapist abandonment more than therapeutic inadequacy.
+   - Previous treatments have resulted in little progress or clarity.
+   - Therapists report feeling overwhelmed or inadequate.
+   - Client reports fearing therapist abandonment more than therapeutic inadequacy.
 
 4. **Somatic Symptoms**
-  - Unusual pain sensitivity or high pain tolerance.
-  - Stress-related headaches, eye blinking or drooping, narcoleptic symptoms, physical symptoms with no diagnosable medical cause.
-  - Non-responsiveness to psychopharmacological medications.
+   - Unusual pain sensitivity or high pain tolerance.
+   - Stress-related headaches, eye blinking or drooping, narcoleptic symptoms, physical symptoms with no diagnosable medical cause.
+   - Non-responsiveness to psychopharmacological medications.
 
 5. **Regressive Behavior or Thinking**
-  - Client's body language and verbal style reveal presence of younger parts.
-  - Inability to make small everyday decisions, patterns of indecision or self-sabotage.
+   - Client's body language and verbal style reveal presence of younger parts.
+   - Inability to make small everyday decisions, patterns of indecision or self-sabotage.
 
 6. **Memory Symptoms**
-  - Difficulty remembering how time was spent in a day, conversations, focus of therapy sessions, "black outs," forgetting well-learned skills.
+   - Difficulty remembering how time was spent in a day, conversations, focus of therapy sessions, "black outs," forgetting well-learned skills.
 
 7. **Patterns of Self-Destructive and Addictive Behavior**
-  - Activation of fight and flight-driven parts by trauma triggers.
-  - Fight parts engage in high-risk behavior or attempt to harm the body or end life.
-  - Flight parts engage in eating disorders, self-harm, suicidal behavior.
+   - Activation of fight and flight-driven parts by trauma triggers.
+   - Fight parts engage in high-risk behavior or attempt to harm the body or end life.
+   - Flight parts engage in eating disorders, self-harm, suicidal behavior.
 
 8. **Neurobiological and Psychological Effects**
-  - Unconsciously driven by post-traumatic implicit procedural learning activated by trauma-related triggers.
-  - Symptoms feel familiar and automatic, a history held by different parts of the personality with different perspectives, triggers, and survival responses.
+   - Unconsciously driven by post-traumatic implicit procedural learning activated by trauma-related triggers.
+   - Symptoms feel familiar and automatic, a history held by different parts of the personality with different perspectives, triggers, and survival responses.
    
 ### Helping Clients and Their Parts “Be Here” Now
 
  1. **Symptoms as communications from trauma-related parts**:
-  - Trauma responses are misinterpreted as current danger or proof of defectiveness.
-  - Therapists need to counteract the triggered danger signals by calling attention to reactions as communications from parts.
-  - Clients can build capacity for self-regulation and "being here now" through psychoeducation, mindfulness, and new responses to triggers.
+   - Trauma responses are misinterpreted as current danger or proof of defectiveness.
+   - Therapists need to counteract the triggered danger signals by calling attention to reactions as communications from parts.
+   - Clients can build capacity for self-regulation and "being here now" through psychoeducation, mindfulness, and new responses to triggers.
  
  2. **Post-traumatic implicit memory and structural dissociation**:
-  - Clients interpret fear, shame, and anger as signs of imminent danger or deep-seated inadequacy without this understanding.
-  - Discovering that stuckness, resistance, chronic depression, etc., are communications from parts who fear for their lives can be a relief.
-  - Trauma-related implicit memories evoke parts that hold them, even when the dangers are now in the past.
+   - Clients interpret fear, shame, and anger as signs of imminent danger or deep-seated inadequacy without this understanding.
+   - Discovering that stuckness, resistance, chronic depression, etc., are communications from parts who fear for their lives can be a relief.
+   - Trauma-related implicit memories evoke parts that hold them, even when the dangers are now in the past.
  
  3. **Become curious and interested in their symptoms**:
-  - Learning to identify the voices that speak through reactions can change their relationship from shame and dread to compassion.
-  - Understanding how each part participated in survival increases the sense of "we, together" and challenges the sense of being abandoned and alone.
-  - Feeling warmth and empathy for young wounded selves feels healing and comforting."
+   - Learning to identify the voices that speak through reactions can change their relationship from shame and dread to compassion.
+   - Understanding how each part participated in survival increases the sense of "we, together" and challenges the sense of being abandoned and alone.
+   - Feeling warmth and empathy for young wounded selves feels healing and comforting."
 
 ## CHAPTER 2 Understanding Parts, Understanding Traumatic Responses
 
 1. **Implicit-only memories**: Memories that remain in unassembled neural disarray and continue to shape our perception of reality without being accessible to awareness (Siegel, 2010).
-  - Trauma survivors may not be able to remember or generalize new learning outside of therapy.
-  - They may feel ashamed, mistrustful, or exposed instead of relieved after disclosing secrets.
-  - Their experiences may shift from week to week, making it difficult for therapists to understand their clients' states of mind.
+   - Trauma survivors may not be able to remember or generalize new learning outside of therapy.
+   - They may feel ashamed, mistrustful, or exposed instead of relieved after disclosing secrets.
+   - Their experiences may shift from week to week, making it difficult for therapists to understand their clients' states of mind.
 
 2. **Trauma and survival responses**:
-  - The brain instinctively mobilizes the emergency stress response when faced with potential threat.
+   - The brain instinctively mobilizes the emergency stress response when faced with potential threat.
         * **Activation of the amygdala triggers a chain reaction leading to an adrenaline release and sympathetic nervous system activation.**
         * This results in feelings of braced strength, slow motion perception, and icy calm.
-  - The **parasympathetic nervous system also plays a role** in preparing the body for potential danger by activating the freeze response or facilitating recovery from the energy expended during fight-flight responses.
+   - The **parasympathetic nervous system also plays a role** in preparing the body for potential danger by activating the freeze response or facilitating recovery from the energy expended during fight-flight responses.
 
 3. **Impact of traumatic environments**:
-  - Children and adults living in traumatogenic environments may develop automatic patterns of response, which can be sympathetically activated (hypervigilance, high arousal) or parasympathetically dominant (passivity, slowed thinking, depression).
-  - The lack of opportunity to develop a "window of tolerance" in such environments makes it difficult for individuals to tolerate intense emotions or recover from stress.
+   - Children and adults living in traumatogenic environments may develop automatic patterns of response, which can be sympathetically activated (hypervigilance, high arousal) or parasympathetically dominant (passivity, slowed thinking, depression).
+   - The lack of opportunity to develop a "window of tolerance" in such environments makes it difficult for individuals to tolerate intense emotions or recover from stress.
 
 4. **Characteristics of traumatic memory**:
-  - Traumatic memories are not easily retrievable through deliberate recall and can be activated by triggers, even decades after the event.
-  - The hippocampus, responsible for putting experiences into chronological order and perspective, is often suppressed in traumatic memory, leaving individuals with unintegrated sensory elements of the experience.
+   - Traumatic memories are not easily retrievable through deliberate recall and can be activated by triggers, even decades after the event.
+   - The hippocampus, responsible for putting experiences into chronological order and perspective, is often suppressed in traumatic memory, leaving individuals with unintegrated sensory elements of the experience.
 
 5. **Brain scan research on traumatic memory**:
-  - Research using brain scans has revealed that when subjects recall a traumatic event, the language and narrative areas of the prefrontal cortex become inactive while emotional memory centers in the right hemisphere limbic system, especially the amygdala, become highly activated.
-  - This inhibition of the left hemisphere language centers allows the amygdala to "fire" unchecked, potentially leading to re-enactment behavior and other symptoms associated with PTSD.
+   - Research using brain scans has revealed that when subjects recall a traumatic event, the language and narrative areas of the prefrontal cortex become inactive while emotional memory centers in the right hemisphere limbic system, especially the amygdala, become highly activated.
+   - This inhibition of the left hemisphere language centers allows the amygdala to "fire" unchecked, potentially leading to re-enactment behavior and other symptoms associated with PTSD.
     
 ### Uninvited Remembering 
 
 1. **Negativity Bias** and Long-Term Sensitivity
-  - Brain's tendency to perceive negative stimuli more quickly than positive ones
-  - Subtle cues can trigger implicit memories, leading to body responses as if in immediate danger
+   - Brain's tendency to perceive negative stimuli more quickly than positive ones
+   - Subtle cues can trigger implicit memories, leading to body responses as if in immediate danger
 
 2. **Uninvited "Remembering"**
-  - Trauma survivors have unique and fragmented memories
-  - Explicit, implicit, procedural, and conditioned learning memories
-  - Triggers can reactivate memory and defense responses
+   - Trauma survivors have unique and fragmented memories
+   - Explicit, implicit, procedural, and conditioned learning memories
+   - Triggers can reactivate memory and defense responses
 
 3. **Impact of Triggers**
-  - Many traumatized individuals isolate or withdraw due to fear of triggers
-  - Some function but avoid living life fully to reduce exposure
-  - Others engage in self-destructive behavior to manage feelings
+   - Many traumatized individuals isolate or withdraw due to fear of triggers
+   - Some function but avoid living life fully to reduce exposure
+   - Others engage in self-destructive behavior to manage feelings
 
 4. **Understanding Traumatic Memory**
-  - Fragmented and unintegrated memories
-  - Unique encoding of traumatic past for each individual
-  - Procedural memory system encodes function, action, and habit
+   - Fragmented and unintegrated memories
+   - Unique encoding of traumatic past for each individual
+   - Procedural memory system encodes function, action, and habit
 
 5. **Survival "Habits" Encoded as Procedural Learning**
-  - Tendencies to disconnect from strong emotion or feel overwhelmed by it
-  - Difficulty making eye contact, need for physical proximity or distance
-  - Withdrawal or isolation, difficulty asking for help or disclosing feelings
-  - Phobias of emotions or emotional expression, avoidance of having one's back to others
+   - Tendencies to disconnect from strong emotion or feel overwhelmed by it
+   - Difficulty making eye contact, need for physical proximity or distance
+   - Withdrawal or isolation, difficulty asking for help or disclosing feelings
+   - Phobias of emotions or emotional expression, avoidance of having one's back to others
 
 6. **Reality-Testing and Self-Triggering**
-  - Difficulty identifying implicit memories as "memory" can compromise reality-testing
-  - Particular people or situations can become "demonized" and experienced as dangerous
+   - Difficulty identifying implicit memories as "memory" can compromise reality-testing
+   - Particular people or situations can become "demonized" and experienced as dangerous
 
 7. **Fear of Helping Professionals**
-  - Innocuous stimuli can become associated with a sense of threat
-  - Difficulty connecting implicit memory states to young parts of the self
+   - Innocuous stimuli can become associated with a sense of threat
+   - Difficulty connecting implicit memory states to young parts of the self
 
 8. **Integrating Past and Present for Effective Trauma Treatment**
-  - Education about traumatic memory, triggers, and labeling triggered states
-  - Connecting implicit memory states to young parts of the self
-  - Reframing triggered sensations as "the child part's feelings
-    - Feeling compassion or protectiveness for younger selves to appreciate one's "big-ness" and safety.
+   - Education about traumatic memory, triggers, and labeling triggered states
+   - Connecting implicit memory states to young parts of the self
+   - Reframing triggered sensations as "the child part's feelings
+      - Feeling compassion or protectiveness for younger selves to appreciate one's "big-ness" and safety.
    
 ### Finding “Now,” Not “Then”
 
@@ -460,25 +460,25 @@
 ## CHAPTER 3 Changing Roles for Client and Therapist
 
 1. **Adaptive Strategies as Survival Resources**
-  - Trauma survivors' symptoms are adaptive strategies to cope with dangerous circumstances (Ogden et al., 2006).
-  - These strategies include numbing, depression, hypervigilance, and anger.
-  - They served a purpose in the past but become liabilities during recovery.
+   - Trauma survivors' symptoms are adaptive strategies to cope with dangerous circumstances (Ogden et al., 2006).
+   - These strategies include numbing, depression, hypervigilance, and anger.
+   - They served a purpose in the past but become liabilities during recovery.
 
 2. **Impact of Trauma on Individuals**
-  - Trauma survivors may disown aspects of themselves to cope with their experiences (shame, hopelessness, fear).
-  - Over-identification with these feelings can constrict their lives and make them smaller than they need to be.
+   - Trauma survivors may disown aspects of themselves to cope with their experiences (shame, hopelessness, fear).
+   - Over-identification with these feelings can constrict their lives and make them smaller than they need to be.
 
 3. **Misunderstanding Trauma Reactions**
-  - Clients may assume the worst about themselves due to lack of understanding about trauma reactions.
-  - Therapists, without specialized training, might not recognize these reactions as adaptive strategies or survival resources.
+   - Clients may assume the worst about themselves due to lack of understanding about trauma reactions.
+   - Therapists, without specialized training, might not recognize these reactions as adaptive strategies or survival resources.
 
 4. **Interpreting Client Behavior**
-  - Misinterpretations of client behavior can hinder effective therapy for trauma.
-  - Labeling clients as "help-rejecting complainers," "passive-aggressive," "borderline," "attention-seeking," or "manipulative" is not helpful.
+   - Misinterpretations of client behavior can hinder effective therapy for trauma.
+   - Labeling clients as "help-rejecting complainers," "passive-aggressive," "borderline," "attention-seeking," or "manipulative" is not helpful.
 
 5. **Understanding Depression and Low Self-Esteem**
-  - Depression and low self-esteem can be adaptive responses to trauma, not just mental disorders.
-  - Understanding their origins in the past can provide insight into their role and purpose.
+   - Depression and low self-esteem can be adaptive responses to trauma, not just mental disorders.
+   - Understanding their origins in the past can provide insight into their role and purpose.
    
 ### Working with the Neurobiological Legacy of Trauma
 
@@ -512,43 +512,43 @@
 ### Pathogenic Kernels of Memory
 
 1. **Pathogenic Kernels of Memory**
-  - Concept: Focus of modern trauma therapy should be on effects or "pathogenic kernels" of trauma, not the traumatic events themselves.
-  - Example: Annie's fear to leave her house despite hating isolation.
+   - Concept: Focus of modern trauma therapy should be on effects or "pathogenic kernels" of trauma, not the traumatic events themselves.
+   - Example: Annie's fear to leave her house despite hating isolation.
 
 2. **Implicit Memory vs Factual Reality**
-  - Issue: Implicit memory held by a dissociated part of Annie preventing her from leaving the house.
-  - Solution: Identifying and addressing the fear causing the issue.
+   - Issue: Implicit memory held by a dissociated part of Annie preventing her from leaving the house.
+   - Solution: Identifying and addressing the fear causing the issue.
 
 3. **Pathogenic Kernel: Fear of Being Away from Home Alone**
-  - Origin: Experience leading up to kidnapping.
-  - Impact: Continued effect on Annie's life, distorting her reality.
+   - Origin: Experience leading up to kidnapping.
+   - Impact: Continued effect on Annie's life, distorting her reality.
 
 4. **Another Pathogenic Kernel: Absence of a Protective Adult**
-  - Issue: Lack of feeling cared for and safe.
-  - Solution: Addressing the need for someone to care for and watch over her parts.
+   - Issue: Lack of feeling cared for and safe.
+   - Solution: Addressing the need for someone to care for and watch over her parts.
 
 5. **Quandary for Therapists**
-  - Dilemma: Balancing between asking clients to avoid telling their stories (risk of empathic failure) and meeting their "need to 'get it out'" (risk of destabilization).
+   - Dilemma: Balancing between asking clients to avoid telling their stories (risk of empathic failure) and meeting their "need to 'get it out'" (risk of destabilization).
     
 ### Acknowledging the Past Without Exploring It
 
 1. **Neurobiological Perspective of Traumatic Memory**
-  - Client memories don't need to be avoided or discharged.
-  - Develop a different relationship with explicit and implicit memories.
+   - Client memories don't need to be avoided or discharged.
+   - Develop a different relationship with explicit and implicit memories.
 2. **Impact of Memory Details**
-  - Detailed retelling activates implicit memories, dysregulates nervous system.
-  - Acknowledgment in a general way validates clients.
+   - Detailed retelling activates implicit memories, dysregulates nervous system.
+   - Acknowledgment in a general way validates clients.
 3. **Choices of Focus during Trauma Discussion**
-  - Experience of horror likely to trigger implicit memories.
-  - Victimization and objectification likely to trigger shame.
-  - Survival techniques and adaptations can be focused on instead.
+   - Experience of horror likely to trigger implicit memories.
+   - Victimization and objectification likely to trigger shame.
+   - Survival techniques and adaptations can be focused on instead.
 4. **Annie's Fear and Survival**
-  - Fear of leaving house, need for proximity to protective figure.
-  - Defensive avoidance dictated by frightened 7-year-old.
+   - Fear of leaving house, need for proximity to protective figure.
+   - Defensive avoidance dictated by frightened 7-year-old.
 5. **Working with "Agoraphobia"**
-  - Interpreting fear as communication from a frightened child.
-  - Praising the child part for survival techniques.
-  - Reassuring the child that they are safe in the present.
+   - Interpreting fear as communication from a frightened child.
+   - Praising the child part for survival techniques.
+   - Reassuring the child that they are safe in the present.
    
 ### A Different Approach to Traumatic Memory
 
@@ -562,63 +562,63 @@
 ### Witnessing Being Witnessed
 
 1. **Witnessing** and Being Heard:
-  - Crucial for witnessing that longing to be heard is an implicit memory for those who didn't tell their secrets during abuse.
-  - Clients desperate to tell may not fully remain present due to intrusive traumatic reactions.
+   - Crucial for witnessing that longing to be heard is an implicit memory for those who didn't tell their secrets during abuse.
+   - Clients desperate to tell may not fully remain present due to intrusive traumatic reactions.
 2. **Post-Traumatic Stress Disorder (PTSD)**:
-  - Trauma-related stimuli, including narratives, can trigger alarm responses, animal defense reactions, and inhibition of prefrontal activity.
+   - Trauma-related stimuli, including narratives, can trigger alarm responses, animal defense reactions, and inhibition of prefrontal activity.
 3. **Sensorimotor Psychotherapy**:
-  - Therapist directs client's attention back to the present moment during narrative sharing.
-  - Asks clients about their experience in the present while listening to their story.
+   - Therapist directs client's attention back to the present moment during narrative sharing.
+   - Asks clients about their experience in the present while listening to their story.
 4. **Recognition and Change**:
-  - Moments of recognition allow clients to feel the difference between past and present, leading to a changed ending for the story.
-  - Being heard without shock or horror can significantly alter feelings inside.
+   - Moments of recognition allow clients to feel the difference between past and present, leading to a changed ending for the story.
+   - Being heard without shock or horror can significantly alter feelings inside.
    
 ### The Therapist as “Auxiliary Cortex” and Educator
 
 1. **Neurobiologically Informed Treatment Approach**
-  - Trauma issues stem from dysregulated autonomic arousal, implicit memories, disorganized attachment, and structural dissociation.
-  - Traditional models assume individuals have words to describe traumatic experiences but this is being re-examined.
+   - Trauma issues stem from dysregulated autonomic arousal, implicit memories, disorganized attachment, and structural dissociation.
+   - Traditional models assume individuals have words to describe traumatic experiences but this is being re-examined.
 
 2. **Impact of Trauma on Memory**
-  - Traumatic memory evokes "speechless terror" and experiences "beyond words.
-    - Brain scan studies show inhibited cortical activity, especially expressive language centers, leaving subjects "speechless".
-    - Prefrontal cortex inhibition cuts off clients from language areas of the brain.
+   - Traumatic memory evokes "speechless terror" and experiences "beyond words.
+      - Brain scan studies show inhibited cortical activity, especially expressive language centers, leaving subjects "speechless".
+      - Prefrontal cortex inhibition cuts off clients from language areas of the brain.
 
 3. **Role of Therapist**
-  - Therapist acts as an educator and temporary "auxiliary cortex".
-    - Provides a template for understanding trauma-related symptoms and the phenomenon of triggering.
-  - Reinterprets client's "self-defeating story" with psychoeducationally informed meaning.
+   - Therapist acts as an educator and temporary "auxiliary cortex".
+      - Provides a template for understanding trauma-related symptoms and the phenomenon of triggering.
+   - Reinterprets client's "self-defeating story" with psychoeducationally informed meaning.
 
 ### Illustration
 1. **Lillian's Story**:
-  - Lillian, a recently retired pediatrician, experiences intense fear and becomes unable to leave her house alone.
-  - Fear emerges after retirement when she no longer has goals or people to help.
-  - Therapist explains that the fear is a memory of feeling hopeless, unlovable, alone, and scared as a child.
-  - Therapist uses motherly reassurance to help Lillian understand and cope with her fear.
+   - Lillian, a recently retired pediatrician, experiences intense fear and becomes unable to leave her house alone.
+   - Fear emerges after retirement when she no longer has goals or people to help.
+   - Therapist explains that the fear is a memory of feeling hopeless, unlovable, alone, and scared as a child.
+   - Therapist uses motherly reassurance to help Lillian understand and cope with her fear.
 
 2. **Lillian's Africa Experience**
-  - Triggered implicit memories of terror, loneliness, shame, fears of abandonment.
-  - Transformed from confident globe-trotter to quivering child.
-  - Couldn't explain her transformation with words.
+   - Triggered implicit memories of terror, loneliness, shame, fears of abandonment.
+   - Transformed from confident globe-trotter to quivering child.
+   - Couldn't explain her transformation with words.
 
 3. **Therapist/Educator's Role**
-  - Made psychoeducational meaning of symptoms and story.
-  - Introduced terms like "trigger," "part," "feeling memory," "dysregulation.
-    - Provided concrete information and experimentation opportunities.
+   - Made psychoeducational meaning of symptoms and story.
+   - Introduced terms like "trigger," "part," "feeling memory," "dysregulation.
+      - Provided concrete information and experimentation opportunities.
 
 4. **Lillian's Symptoms**
-  - Frightened part had "hijacked the body," inhibiting prefrontal cortex.
-  - Question "What do I do?" opened discussion of autonomic dysregulation, implicit memory, structural dissociation.
+   - Frightened part had "hijacked the body," inhibiting prefrontal cortex.
+   - Question "What do I do?" opened discussion of autonomic dysregulation, implicit memory, structural dissociation.
 
 5. **Client Narratives and Psychoeducation**
-  - Clients might describe symptoms as body running amuck or falling apart.
-  - Shame-related cognitive schemas require education about symptoms and self-defeating stories.
-  - Clients may feel disconnected from "person I used to be" due to limbic hijacking.
+   - Clients might describe symptoms as body running amuck or falling apart.
+   - Shame-related cognitive schemas require education about symptoms and self-defeating stories.
+   - Clients may feel disconnected from "person I used to be" due to limbic hijacking.
 
 6. **Connecting to Vulnerability and Strengths**
-  - Trauma treatment often focuses on vulnerable emotions like fear, grief, shame, and rage.
-  - Clients can get stymied when these emotions are overwhelming or exacerbate shame.
-  - Important to acknowledge child's survival resources and animal defenses that enabled them to remain intact.
+   - Trauma treatment often focuses on vulnerable emotions like fear, grief, shame, and rage.
+   - Clients can get stymied when these emotions are overwhelming or exacerbate shame.
+   - Important to acknowledge child's survival resources and animal defenses that enabled them to remain intact.
    
 ### A Creative Adaptation to Abnormal Experience
 
@@ -646,19 +646,19 @@
 ### The neurobiologically astute therapist
 
 1. **Neurobiologically astute therapy**: Therapist's goal is to ensure interventions regulate client's nervous system, acknowledging potential triggers.
-  - Trauma-related material is dysregulating.
-  - Trusting therapist, being the center of attention, revealing emotions, feeling too close or not close enough are all triggering.
-  - Proximity to another human being in a small space may be activating for some clients.
+   - Trauma-related material is dysregulating.
+   - Trusting therapist, being the center of attention, revealing emotions, feeling too close or not close enough are all triggering.
+   - Proximity to another human being in a small space may be activating for some clients.
 2. **Triggers in therapy**: Once committed to therapy, potential triggers multiply.
-  - Changes in schedule.
-  - Not feeling "gotten".
-  - Inadequate time or words to express feelings.
-  - Disappointed hopes for specific responses.
-  - Separation between sessions.
-  - Distorted beliefs and projections.
+   - Changes in schedule.
+   - Not feeling "gotten".
+   - Inadequate time or words to express feelings.
+   - Disappointed hopes for specific responses.
+   - Separation between sessions.
+   - Distorted beliefs and projections.
 3. **Assumptions in neurobiologically informed trauma treatment**: Clients are likely to be dysregulated by therapy as well as feeling safe.
 4. **Tessa's story**: Tessa struggles with structural dissociation in her personal relationships.
-  - Conflicts between parts: one that likes him, one that pulls away and questions, one that wants sex, and one disgusted and frightened.
+   - Conflicts between parts: one that likes him, one that pulls away and questions, one that wants sex, and one disgusted and frightened.
 5. **Effects of relational trauma**: Tessa experiences terrible longing when not together and a 'yuck' feeling in his presence.
 6. **Communication with her dates**: She tries to be honest about her ambivalence but keeps texting to explain herself, leading to confusion for the guy.
 7. **Understanding structural dissociation**: If clients like Tessa accept the model, they can learn to voluntarily "split off" intense affects and assign them to younger parts for relief.
@@ -679,64 +679,64 @@
 ### The Body as a Shared Whole 
 
 1. **Empathy and Body Response**
-  - Empathy extends beyond verbal communication to nonverbal somatic experiences.
-  - These experiences include warmth, relaxation, deeper breathing, and emotional connection.
-  - Despite multiple parts, there is only one shared whole of a body.
+   - Empathy extends beyond verbal communication to nonverbal somatic experiences.
+   - These experiences include warmth, relaxation, deeper breathing, and emotional connection.
+   - Despite multiple parts, there is only one shared whole of a body.
 
 2. **Understanding the Client's Experience**
-  - Ted, a bright and talented man, had been taken over by a depressed, ashamed submit part due to unexpected professional success and post-traumatic implicit memory.
-  - He felt misunderstood and helpless, questioning his adequacy as a person.
+   - Ted, a bright and talented man, had been taken over by a depressed, ashamed submit part due to unexpected professional success and post-traumatic implicit memory.
+   - He felt misunderstood and helpless, questioning his adequacy as a person.
 
 3. **Shared Empathy and Body Language**
-  - During therapy, I unintentionally mirrored Ted's body language and feelings of hopelessness and inadequacy.
-  - When he recognized this, he felt understood and validated.
+   - During therapy, I unintentionally mirrored Ted's body language and feelings of hopelessness and inadequacy.
+   - When he recognized this, he felt understood and validated.
 
 4. **Transforming Internal Experience with Movement Interventions**
-  - Using Sensorimotor Psychotherapy techniques, we focused on Ted's physical posture and body language to communicate a new message to the depressed part.
-  - This change in body language conveyed that he was not alone or less than, allowing the depressed part to hold its head high with Ted.
+   - Using Sensorimotor Psychotherapy techniques, we focused on Ted's physical posture and body language to communicate a new message to the depressed part.
+   - This change in body language conveyed that he was not alone or less than, allowing the depressed part to hold its head high with Ted.
 
 5. **Working with Parts and the Whole**
-  - By combining a parts perspective with somatic interventions, we could address both individual parts and the overall shared whole of Ted's body and experiences.
+   - By combining a parts perspective with somatic interventions, we could address both individual parts and the overall shared whole of Ted's body and experiences.
    
 ### The Changing Role of the Therapist
 
 1. **Role Changes for Therapists**
-  - Parts approach requires therapist to shift roles from listener to educator, individualistically oriented to systems-oriented, facilitator to role model.
-  - Neurobiologically informed trauma treatment demands greater differentiation between parts for self-observation.
-  - Traditional talking therapy focuses on treating client as one person in one integrated body, but it may not work with fragmented or traumatized clients.
+   - Parts approach requires therapist to shift roles from listener to educator, individualistically oriented to systems-oriented, facilitator to role model.
+   - Neurobiologically informed trauma treatment demands greater differentiation between parts for self-observation.
+   - Traditional talking therapy focuses on treating client as one person in one integrated body, but it may not work with fragmented or traumatized clients.
 
 2. **Focus on Legacy of Trauma**
-  - Emphasis is on transforming how parts have encoded the effects of traumatic events rather than accessing event memories.
-  - Goal is to change client's relationship to parts from alienation to unconditional acceptance and earned secure attachment.
+   - Emphasis is on transforming how parts have encoded the effects of traumatic events rather than accessing event memories.
+   - Goal is to change client's relationship to parts from alienation to unconditional acceptance and earned secure attachment.
 
 3. **Event-Focused Therapy vs. Repair Perspective**
-  - Traditional trauma therapy focuses on processing traumatic events, but the model described here emphasizes the legacy of trauma carried by parts.
-  - Therapists may encounter resistance from parts that want to keep past secrets or avoid "going there".
-  - The goal is not remembering what happened but the ability to be present in the here-and-now and heal injuries caused by the trauma.
+   - Traditional trauma therapy focuses on processing traumatic events, but the model described here emphasizes the legacy of trauma carried by parts.
+   - Therapists may encounter resistance from parts that want to keep past secrets or avoid "going there".
+   - The goal is not remembering what happened but the ability to be present in the here-and-now and heal injuries caused by the trauma.
    
 ## CHAPTER 4
 
 ### Learning to See Our “Selves”
 
 1. **Trauma** is overwhelming, unbearable, and demands acceptance of a dual reality: the present and the past.
-  - Patients require us to suspend our sense of normalcy.
-  - The self from traumatic experiences isn't the current self.
+   - Patients require us to suspend our sense of normalcy.
+   - The self from traumatic experiences isn't the current self.
 2. **Brain and Body Adaptation**
-  - Prioritizes survival over other drives.
-  - Attachment drive is powerful in infancy and early childhood.
-  - Balance shifts towards fight/flight responses in adolescence.
+   - Prioritizes survival over other drives.
+   - Attachment drive is powerful in infancy and early childhood.
+   - Balance shifts towards fight/flight responses in adolescence.
 3. **Defensive Responses**
-  - Freezing and submission are automatic at all developmental stages.
-  - Instinctively seek psychological distance from traumatic events or "deep memory".
+   - Freezing and submission are automatic at all developmental stages.
+   - Instinctively seek psychological distance from traumatic events or "deep memory".
 4. **Survival Response: Disowning Traumatized Parts**
-  - Preserves hearts and souls from growing bitter.
-  - Allows focus on mastering age-appropriate developmental tasks.
+   - Preserves hearts and souls from growing bitter.
+   - Allows focus on mastering age-appropriate developmental tasks.
 5. **Disowning Needs and Feelings**
-  - Protects from unbearable disappointment or punishment.
+   - Protects from unbearable disappointment or punishment.
 6. **Alienation from Self**
-  - Necessary for maintaining attachment to neglectful and abusive caretakers.
+   - Necessary for maintaining attachment to neglectful and abusive caretakers.
 7. **Identifying with Adaptive Parts**
-  - Depending on the environment, children might have to identify with their angry, aggressive, hypervigilant parts and disown their innocent, trusting, attachment-seeking parts or vice versa.
+   - Depending on the environment, children might have to identify with their angry, aggressive, hypervigilant parts and disown their innocent, trusting, attachment-seeking parts or vice versa.
     
 ### The Cost of Adaptation
 
@@ -776,121 +776,121 @@
 ### “Getting to Know You” 
 
 1. **Aaron's Internal Struggle**
-  - Attachment-seeking part: Quickly connects to women, sees them as "the one".
-  - Hypervigilant, hypercritical fight part: Reacts to less-than-optimal qualities as signs of trouble.
-  - Flight part: Feels trapped, generates impulses to leave when feeling guilty or afraid.
-  - Submit and cry for help parts: Prevent Aaron from leaving relationships due to guilt and fear.
+   - Attachment-seeking part: Quickly connects to women, sees them as "the one".
+   - Hypervigilant, hypercritical fight part: Reacts to less-than-optimal qualities as signs of trouble.
+   - Flight part: Feels trapped, generates impulses to leave when feeling guilty or afraid.
+   - Submit and cry for help parts: Prevent Aaron from leaving relationships due to guilt and fear.
 
 2. **Aaron's Dilemma**
-  - Suicidal part: Threatens to end it all due to painful dilemma.
-  - Wandering eye part: Trolls for prospective partners, at odds with desired family life.
+   - Suicidal part: Threatens to end it all due to painful dilemma.
+   - Wandering eye part: Trolls for prospective partners, at odds with desired family life.
 
 3. **Nelly's Struggle**
-  - Underachieving, self-denigrating child part: Protected Nelly from her father's wrath, won him over.
-  - Critical part: Mirrors her father's harsh judgments, convinces Nelly of being a waste of human life.
-  - Going on with normal life self: Professionally focused, witty, charming, and self-compassionate.
+   - Underachieving, self-denigrating child part: Protected Nelly from her father's wrath, won him over.
+   - Critical part: Mirrors her father's harsh judgments, convinces Nelly of being a waste of human life.
+   - Going on with normal life self: Professionally focused, witty, charming, and self-compassionate.
 
 4. **Nelly's Internal Confusion**
-  - Submit part: Afraid to let Nelly actualize as a talented professional.
-  - Critical part: Hypervigilantly worries about failure.
-  - Freeze part: Afraid to leave the house due to fear of encountering scary people like her father.
+   - Submit part: Afraid to let Nelly actualize as a talented professional.
+   - Critical part: Hypervigilantly worries about failure.
+   - Freeze part: Afraid to leave the house due to fear of encountering scary people like her father.
 
 5. **Misunderstanding of Self**
-  - Aaron and Nelly both assumed their feelings were entirely their own, not realizing the internal conflict among parts.
+   - Aaron and Nelly both assumed their feelings were entirely their own, not realizing the internal conflict among parts.
    
 ### Developing Curiosity: Who Is “I”?
 
 1. **Parts Model vs. Psychotherapy Models**
-  - In psychotherapy models, all emotions are treated as expressions of an individual's whole self.
-  - In parts model, each emotion is treated as a part.
-  - Therapist uses the language of "parts" to help client observe each feeling or reaction with curiosity and distance.
+   - In psychotherapy models, all emotions are treated as expressions of an individual's whole self.
+   - In parts model, each emotion is treated as a part.
+   - Therapist uses the language of "parts" to help client observe each feeling or reaction with curiosity and distance.
 
 2. **Aaron and Nelly's Case**
-  - They had lost curiosity about their symptoms.
-  - Identified too much with parts' struggles and conflicts, missing paradoxical responses.
+   - They had lost curiosity about their symptoms.
+   - Identified too much with parts' struggles and conflicts, missing paradoxical responses.
 
 3. **First Task in Therapy**
-  - Challenge assumptions.
-  - Ignite curiosity using "language of parts" and mindful observation.
+   - Challenge assumptions.
+   - Ignite curiosity using "language of parts" and mindful observation.
 
 4. **Mindful Noticing of the Inner Landscape**
-  - Continued rumination on trauma-related emotions and cognitive schemas triggers more dysregulation.
-  - Learning to observe rather than react is foundation of a parts approach.
-  - Mindful observation evokes activity in prefrontal cortex, counteracting trauma-related cortical inhibition.
+   - Continued rumination on trauma-related emotions and cognitive schemas triggers more dysregulation.
+   - Learning to observe rather than react is foundation of a parts approach.
+   - Mindful observation evokes activity in prefrontal cortex, counteracting trauma-related cortical inhibition.
 
 5. **Benefits of Mindful Observation**
-  - Clients can have a relationship to the feeling rather than be consumed by it.
-  - Decreased amygdala activation and increased medial prefrontal cortex activity.
-  - Slower pace, increased concentration, and greater observational capacity.
+   - Clients can have a relationship to the feeling rather than be consumed by it.
+   - Decreased amygdala activation and increased medial prefrontal cortex activity.
+   - Slower pace, increased concentration, and greater observational capacity.
 
 6. **Advantages of Increased Prefrontal Cortex Activity**
-  - Clients can use mindful noticing to separate from intense reactions of a part.
-  - Can have curiosity or compassion towards the part's feelings or perspective.
-  - Can create ways of soothing or managing emotions.
-  - Can choose to react differently to foreseeable events or triggers.
+   - Clients can use mindful noticing to separate from intense reactions of a part.
+   - Can have curiosity or compassion towards the part's feelings or perspective.
+   - Can create ways of soothing or managing emotions.
+   - Can choose to react differently to foreseeable events or triggers.
 
 7. **Parts Under Influence of Implicit Memory**
-  - Have same reactions over and over again.
-  - Coping skills and problem solving less effective when parts are triggered.
-  - "Problem" is most often an implicit memory, not a current stress or challenge.
+   - Have same reactions over and over again.
+   - Coping skills and problem solving less effective when parts are triggered.
+   - "Problem" is most often an implicit memory, not a current stress or challenge.
    
 ### Survival-Related Internal Struggles 
 
 1. **Internal Struggles**
-  - **Predictable responses**: help/attach (submit part) evokes flight-related distancing or fight-related protective reactions (flight and fight parts).
-  - **Critical thoughts** from fight part trigger shame, hopelessness, inadequacy (submit part).
-  - **Interpersonal closeness** triggers yearning for more proximity (attach part), fear of harm (freeze part), and alarms (fight and flight parts).
-  - **Professional or family responsibilities** can feel like old burdens to submit part.
-  - Steps forward in life taken by normal life part can alarm trauma-related parts and trigger conflicts and crises.
+   - **Predictable responses**: help/attach (submit part) evokes flight-related distancing or fight-related protective reactions (flight and fight parts).
+   - **Critical thoughts** from fight part trigger shame, hopelessness, inadequacy (submit part).
+   - **Interpersonal closeness** triggers yearning for more proximity (attach part), fear of harm (freeze part), and alarms (fight and flight parts).
+   - **Professional or family responsibilities** can feel like old burdens to submit part.
+   - Steps forward in life taken by normal life part can alarm trauma-related parts and trigger conflicts and crises.
 
 2. **Self-Defeating Stories**
-  - *Submit part*: shame-based, hopeless story of victimization.
-  - *Cry for help part*: story of no one coming or caring.
-  - **Fight part**: better to die than continue being used and abused.
+   - *Submit part*: shame-based, hopeless story of victimization.
+   - *Cry for help part*: story of no one coming or caring.
+   - **Fight part**: better to die than continue being used and abused.
 
 3. **Beliefs and Meaning-Making**
-  - Trauma is an experience beyond words.
-  - Beliefs bias meaning-making, leading to self-defeating stories.
+   - Trauma is an experience beyond words.
+   - Beliefs bias meaning-making, leading to self-defeating stories.
 
 4. **Impact of Attention or Achievements**
-  - Fear of visibility in freeze part.
-  - Expectation of being used or abused in fight part.
+   - Fear of visibility in freeze part.
+   - Expectation of being used or abused in fight part.
 
 5. **Unblending and Compassion**
-  - Understanding belief-emotion connection.
-  - Compassion for younger selves.
-  - Protecting young boy from hurt.
+   - Understanding belief-emotion connection.
+   - Compassion for younger selves.
+   - Protecting young boy from hurt.
 
 6. **Self-Acceptance and Befriending**
-  - Not simply a therapeutic endeavor.
-  - Slowing down reactions, settling autonomic arousal.
-  - Living amicably and collaboratively with parts.
-  - Rejecting parts diminishes self-esteem.
-  - Radical acceptance of sharing bodies and lives with parts.
+   - Not simply a therapeutic endeavor.
+   - Slowing down reactions, settling autonomic arousal.
+   - Living amicably and collaboratively with parts.
+   - Rejecting parts diminishes self-esteem.
+   - Radical acceptance of sharing bodies and lives with parts.
    
 ## CHAPTER 5 Befriending Our Parts: Sowing the Seeds of Compassion
 
 1. **Mindfulness as an Act of Hospitality**
-  - Mindfulness is a way of treating ourselves with kindness and care.
-  - It asks us to offer hospitality to ourselves, regardless of feelings or thoughts.
-  - This isn't about denial or self-justification, but self-compassion towards difficult aspects of life.
+   - Mindfulness is a way of treating ourselves with kindness and care.
+   - It asks us to offer hospitality to ourselves, regardless of feelings or thoughts.
+   - This isn't about denial or self-justification, but self-compassion towards difficult aspects of life.
 
 2. **Alienation from Self**
-  - Disowning traumatic experiences leads to profound alienation: "I don’t know myself, but one thing is clear: I don’t like myself.
-    - Survival mechanisms created a bind: self-compassion was adaptive "then," but now it feels unbelievable.
-  - Others are seen as deserving and trustworthy, while we are not.
+   - Disowning traumatic experiences leads to profound alienation: "I don’t know myself, but one thing is clear: I don’t like myself.
+      - Survival mechanisms created a bind: self-compassion was adaptive "then," but now it feels unbelievable.
+   - Others are seen as deserving and trustworthy, while we are not.
 
 3. **Importance of Internal Attachment Bonds**
-  - Compassion for ourselves is crucial for emotional resilience.
-  - Healing from wounds requires relational safety within ourselves.
-  - Our attachment to ourselves may be more influential on our sense of well-being than interpersonal attachments.
+   - Compassion for ourselves is crucial for emotional resilience.
+   - Healing from wounds requires relational safety within ourselves.
+   - Our attachment to ourselves may be more influential on our sense of well-being than interpersonal attachments.
 
 4. **Focus on Cultivating Compassion for Disowned Selves**
-  - Trauma treatment should focus less on traumatic events and more on compassion for disowned selves and their experiences.
-  - When all parts of us feel internally connected and held lovingly, each can experience safety, welcome, and worthiness.
+   - Trauma treatment should focus less on traumatic events and more on compassion for disowned selves and their experiences.
+   - When all parts of us feel internally connected and held lovingly, each can experience safety, welcome, and worthiness.
 
 5. **Becoming Curious about the "Other" Inside**
-  - The first step is to become curious about the parts of ourselves we don’t truly know.
+   - The first step is to become curious about the parts of ourselves we don’t truly know.
    
 ### The Role of Mindfulness: How We Can “Befriend” Ourselves To
 
@@ -915,47 +915,47 @@
 ### From Whose Perspective Should We Observe?
 
 1. **Internal Family Systems (IFS) Approach**
-  - Distorted perspectives from telescopic lenses of each part
-  - Particular biases limit data picked up by each part
+   - Distorted perspectives from telescopic lenses of each part
+   - Particular biases limit data picked up by each part
 2. **Part Responses**
-  - Fight part: hypervigilant towards threat stimuli, never sees danger signals
-  - Freeze (submit) part: hypersensitive to data confirming unworthiness or not belonging
-  - The attach part only sees warm smiles, reassuring words, and polite manners, and never sees danger signals.
-  - The submit part doesn't see respect from colleagues or approval from family members, but is hypersensitive to data confirming beliefs in unworthiness or not belonging.
+   - Fight part: hypervigilant towards threat stimuli, never sees danger signals
+   - Freeze (submit) part: hypersensitive to data confirming unworthiness or not belonging
+   - The attach part only sees warm smiles, reassuring words, and polite manners, and never sees danger signals.
+   - The submit part doesn't see respect from colleagues or approval from family members, but is hypersensitive to data confirming beliefs in unworthiness or not belonging.
 3. **Meta-awareness Perspective**
-  - Clients learn to identify lens through which they are looking
-  - Separate from intense reactions of a part, acknowledge feelings as "his" or "her distress
-  - Bear witness to child part's painful experience
+   - Clients learn to identify lens through which they are looking
+   - Separate from intense reactions of a part, acknowledge feelings as "his" or "her distress
+   - Bear witness to child part's painful experience
 4. **Mindful Observation**
-  - Mindful interest instead of attachment or aversion
-  - Tolerate emotions and sensations that may have previously felt frightening
-  - Supported by curiosity, compassion, calm, clarity, creativity, courage, confidence, and connectedness (C qualities)
+   - Mindful interest instead of attachment or aversion
+   - Tolerate emotions and sensations that may have previously felt frightening
+   - Supported by curiosity, compassion, calm, clarity, creativity, courage, confidence, and connectedness (C qualities)
 5. **Accessing C Qualities**
-  - Observer is ascribed to "self," an internal state that draws upon eight "C" qualities: 
-  - curiosity
-  - compassion
-  - calm
-  - clarity
-  - creativity
-  - courage
-  - confidence
-  - connectedness
-  - Some individuals may need to practice to access these states consistently
-  - Clients may be triggered by certain qualities
-  - Observing body responses can help clients mindfully notice their reactions without interpreting or describing them in a narrative
+   - Observer is ascribed to "self," an internal state that draws upon eight "C" qualities: 
+   - curiosity
+   - compassion
+   - calm
+   - clarity
+   - creativity
+   - courage
+   - confidence
+   - connectedness
+   - Some individuals may need to practice to access these states consistently
+   - Clients may be triggered by certain qualities
+   - Observing body responses can help clients mindfully notice their reactions without interpreting or describing them in a narrative
 6. **Therapist's Role**
-  - Support clients by prompting them to observe thoughts, feelings, and physical reactions as separate communications
-  - Observe each thought or feeling as a separate communication
-  - Notice perspectives of different parts in internal conflicts
+   - Support clients by prompting them to observe thoughts, feelings, and physical reactions as separate communications
+   - Observe each thought or feeling as a separate communication
+   - Notice perspectives of different parts in internal conflicts
       
 ### Differentiating Observation versus Meaning-Making
 
 1. **Trauma** is an experience beyond words (Meichenbaum, 2012).
     * Individuals attach beliefs or stories to traumatic events, influencing meaning-making.
     * Self-defeating stories can be created based on different parts of the trauma experience:
-    - Submit part: Shame-based, hopeless story of victimization.
-    - Cry for help part: Story of neglect or indifference.
-    - Fight part: Belief that it's better to die than to continue being abused.
+      - Submit part: Shame-based, hopeless story of victimization.
+      - Cry for help part: Story of neglect or indifference.
+      - Fight part: Belief that it's better to die than to continue being abused.
 2. Only going on with normal life allows for higher level **meaning-making** and conceptualization (Meichenbaum, 2012).
     * Requires higher order cognitive processing.
     * Comprehending adaptive vs maladaptive beliefs.
@@ -969,57 +969,57 @@
 ### Blending, Shifting, and Switching of Parts Parts 
 
 1. **Blending, Shifting, and Switching of Parts**
-  - Parts do not come with labels or manuals.
-  - Every part shares the same body, brain, and environment.
-  - Feeling or thought could be from any part.
-  - Blending refers to identifying with parts and losing self-awareness.
+   - Parts do not come with labels or manuals.
+   - Every part shares the same body, brain, and environment.
+   - Feeling or thought could be from any part.
+   - Blending refers to identifying with parts and losing self-awareness.
 
 2. **Blending: Example of Catherine**
-  - Woke up feeling lonely on vacation, believing it was her feeling.
-  - Accused husband of not caring, lost connection to present life.
-  - Later realized the feeling came from a disconnected young part.
-  - Needed reassurance, not alone.
+   - Woke up feeling lonely on vacation, believing it was her feeling.
+   - Accused husband of not caring, lost connection to present life.
+   - Later realized the feeling came from a disconnected young part.
+   - Needed reassurance, not alone.
 
 3. **Shifting: Example of Rachel**
-  - Experienced depression and irritability, sometimes blended with parts.
-  - Depression triggered by loss of partner's attention.
-  - Irritability triggered by partner's tendency to help others.
-  - Recalled childhood experiences associated with each part.
+   - Experienced depression and irritability, sometimes blended with parts.
+   - Depression triggered by loss of partner's attention.
+   - Irritability triggered by partner's tendency to help others.
+   - Recalled childhood experiences associated with each part.
 
 4. **Unblending: Mindful Separation**
-  - Practicing noticing and separating from parts rather than identifying with them.
-  - Gaining perspective, compassion, and relief.
-  - Facilitating creative solutions to internal conflicts.
+   - Practicing noticing and separating from parts rather than identifying with them.
+   - Gaining perspective, compassion, and relief.
+   - Facilitating creative solutions to internal conflicts.
    
 ### Facilitating Empathy
 
 1. **Facilitating Empathy**
-  - Therapist models empathy for each part.
-  - Uses language of parts, noticing voices, feelings, and points of view.
-  - Adds warmth and appreciation to communication.
-  - Describes plight of parts when clients struggle with compassion.
-  - Verbalizes appreciation for parts' contributions to client's survival.
-  - Shares personal experience to bring parts alive.
-  - Uses language that evokes positive feelings and associations.
-  - Admires ingenuity or courage of parts.
-  - Defends or sticks up for parts.
+   - Therapist models empathy for each part.
+   - Uses language of parts, noticing voices, feelings, and points of view.
+   - Adds warmth and appreciation to communication.
+   - Describes plight of parts when clients struggle with compassion.
+   - Verbalizes appreciation for parts' contributions to client's survival.
+   - Shares personal experience to bring parts alive.
+   - Uses language that evokes positive feelings and associations.
+   - Admires ingenuity or courage of parts.
+   - Defends or sticks up for parts.
 
 2. **Modeling Empathy**
-  - Therapist models bearing witness to each part's qualities, emotions, and trauma-related perspective.
-  - Uses mindful language to describe parts.
-  - Communicates warmth and appreciation.
+   - Therapist models bearing witness to each part's qualities, emotions, and trauma-related perspective.
+   - Uses mindful language to describe parts.
+   - Communicates warmth and appreciation.
 
 3. **Understanding Parts' Plight**
-  - Describes the difficulties faced by parts when clients struggle with compassion.
-  - Verbalizes appreciation for parts' contributions to client's survival.
+   - Describes the difficulties faced by parts when clients struggle with compassion.
+   - Verbalizes appreciation for parts' contributions to client's survival.
 
 4. **Bringing Parts Alive**
-  - Uses language that evokes positive feelings and associations.
-  - Admires parts' ingenuity or courage.
+   - Uses language that evokes positive feelings and associations.
+   - Admires parts' ingenuity or courage.
 
 5. **Defending Parts**
-  - Challenges clients' judgment of parts.
-  - Encourages curiosity about the origins of parts' behaviors.
+   - Challenges clients' judgment of parts.
+   - Encourages curiosity about the origins of parts' behaviors.
     
 ### “Seeing” the Parts: Externalized Mindfulness
 
@@ -1027,8 +1027,8 @@
 2. **Visual Focusing**: Trauma therapists can use visual aids like an easel or large clipboard to increase curiosity and activate the medial prefrontal cortex.
 3. **Drawing Parts**: Clients are asked to draw pictures of parts they're struggling with, then observe and learn from the drawing.
 4. **Flow Charting**: Creating a flow chart helps clients track internal relationships between parts in conflict, starting with an initial trigger.
-  - **Identifying Parts**: Each part is represented by a circle with its age or descriptor, followed by its feelings and beliefs.
-  - **Internal Struggles**: Typically, internal struggles involve 3 to 6 different parts.
+   - **Identifying Parts**: Each part is represented by a circle with its age or descriptor, followed by its feelings and beliefs.
+   - **Internal Struggles**: Typically, internal struggles involve 3 to 6 different parts.
 5. **Diagramming**: Clients rarely refuse to diagram as it feels less threatening than talking about emotions.
 6. **Triggering Parts**: The first part triggered is described, followed by the part that gets triggered by the initial part.
 7. **Shame Part**: In the example given, the client felt lonely and unwanted, then intense shame, blaming herself for everything.
@@ -1050,22 +1050,22 @@
 ### Blending and Reality-Testing 
 
 1. **Blending** and Reality-Testing
-  - Annie's survival strategy was to automatically blend with activated parts.
-  - She never questioned information from body, thoughts, or emotions.
-  - Small events could trigger multiple parts and their implicit memories.
-  - Blended state assumed world as humiliating, dangerous, and herself as defective.
+   - Annie's survival strategy was to automatically blend with activated parts.
+   - She never questioned information from body, thoughts, or emotions.
+   - Small events could trigger multiple parts and their implicit memories.
+   - Blended state assumed world as humiliating, dangerous, and herself as defective.
 
 2. **Blending Keeps the Trauma "Alive"**
-  - Resolving traumatic experiences in an unsafe environment is challenging.
-  - Both client and therapist may believe trauma can be resolved by processing events.
-  - Safety equated to freedom from self-harm or non-abusive home environment.
-  - Unblended perspective allows for appreciation of both realities.
-  - Normal life self can orient to immediate environment, evaluate safety, and feel parts' fear.
+   - Resolving traumatic experiences in an unsafe environment is challenging.
+   - Both client and therapist may believe trauma can be resolved by processing events.
+   - Safety equated to freedom from self-harm or non-abusive home environment.
+   - Unblended perspective allows for appreciation of both realities.
+   - Normal life self can orient to immediate environment, evaluate safety, and feel parts' fear.
 
 3. **Unblending is Essential for Trauma Resolution**
-  - Clients blended with implicit memories and parts may not feel safe.
-  - Unblending allows the normal life self to bear witness to parts' past reality and feel empathy.
-  - From an unblended perspective, trauma can be addressed effectively.
+   - Clients blended with implicit memories and parts may not feel safe.
+   - Unblending allows the normal life self to bear witness to parts' past reality and feel empathy.
+   - From an unblended perspective, trauma can be addressed effectively.
    
 ### Learning to Unblend 
 
@@ -1075,15 +1075,15 @@
 #### Suzanne struggled with unblending due to her hypervigilant "bodyguard" part's fear of disappointment or betrayal
 
 1. Therapist used various techniques to help Suzanne unblend:
-  - Encouraging the use of non-interpretive, non-pathologizing language.
-  - Teaching "unblending protocols".
+   - Encouraging the use of non-interpretive, non-pathologizing language.
+   - Teaching "unblending protocols".
 2. Suzanne found it difficult to feel parts without merging with them completely.
 3. Therapist validated her concerns and introduced a structured approach to unblending:
-  - Noticing feelings and repeating "She's afraid/upset.
-    - Engaging the core muscles to feel presence.
-  - Lengthening the spine for heightened awareness.
-  - Connecting to a department supervisor role.
-  - Asking parts if they need something else.
+   - Noticing feelings and repeating "She's afraid/upset.
+      - Engaging the core muscles to feel presence.
+   - Lengthening the spine for heightened awareness.
+   - Connecting to a department supervisor role.
+   - Asking parts if they need something else.
    
 ### Less afraid to connect
 
@@ -1108,144 +1108,144 @@
 ### Providing Hospitality 
 
 1. **Host/Normal Life Self**
-  - Empty vessel for traumatized parts in Early Dissociation theory
-  - Homeowner and provider of hospitality
-  - In charge of body's health and well-being
-  - Access to medial prefrontal cortex for wider perspective, conceptualization, reconciliation
-  - Capable of holding dual awareness: past and present, part and whole, animal brain and thinking brain
-  - Demoralized or depleted when clients come for treatment
-  - Needs education to recognize parts as young child selves
+   - Empty vessel for traumatized parts in Early Dissociation theory
+   - Homeowner and provider of hospitality
+   - In charge of body's health and well-being
+   - Access to medial prefrontal cortex for wider perspective, conceptualization, reconciliation
+   - Capable of holding dual awareness: past and present, part and whole, animal brain and thinking brain
+   - Demoralized or depleted when clients come for treatment
+   - Needs education to recognize parts as young child selves
 
 2. **Welcoming Trauma-Related Parts**
-  - Normal life self becomes a "warm and welcoming host
-    - Link between client's hopes and dreams and ability to befriend parts
-  - Focus on relationship between parts and normal life self in present moment
-  - No emphasis on discovering past events or connecting parts' reactions to specific events
-  - Therapist communicates support for young, vulnerable, traumatized parts
+   - Normal life self becomes a "warm and welcoming host
+      - Link between client's hopes and dreams and ability to befriend parts
+   - Focus on relationship between parts and normal life self in present moment
+   - No emphasis on discovering past events or connecting parts' reactions to specific events
+   - Therapist communicates support for young, vulnerable, traumatized parts
 
 3. **Practicing New Habits**
-  - Practice noticing, naming, and unblending parts
-  - Relinquish automatic assumption that all thoughts, feelings, and physical reactions are "mine
-    - Use language of parts in therapy and ask clients to do the same
-  - Develop capacities of "wise mind" or "self energy" in the normal life self
-  - Encourage development of functional ability to take action for the sake of the whole system.
+   - Practice noticing, naming, and unblending parts
+   - Relinquish automatic assumption that all thoughts, feelings, and physical reactions are "mine
+      - Use language of parts in therapy and ask clients to do the same
+   - Develop capacities of "wise mind" or "self energy" in the normal life self
+   - Encourage development of functional ability to take action for the sake of the whole system.
    
 ### Forming a Connection to a Wise Compassionate Adult
 
 1. **Trauma Survivors and Identified Parts**
-  - Survivors of trauma may identify with certain parts, disowning others.
-  - Some identify with normal life selves (Carla).
-  - Others identify with suicidal or angry parts.
-  - Some identify with the attach part seeking proximity.
-  - Some identify with the submit part becoming caretakers.
+   - Survivors of trauma may identify with certain parts, disowning others.
+   - Some identify with normal life selves (Carla).
+   - Others identify with suicidal or angry parts.
+   - Some identify with the attach part seeking proximity.
+   - Some identify with the submit part becoming caretakers.
 
 2. **Loss of Connection to Normal Life Self**
-  - When clients identify with trauma-related parts, they can lose access to prefrontal cortex and normal life self.
-  - Intensity of parts' responses "drowns out" connection to left brain self.
-  - Normal life self's persistence is often seen as fraudulent or pretending.
+   - When clients identify with trauma-related parts, they can lose access to prefrontal cortex and normal life self.
+   - Intensity of parts' responses "drowns out" connection to left brain self.
+   - Normal life self's persistence is often seen as fraudulent or pretending.
 
 3. **Rejecting the Concept of a Normal Life Self**
-  - Some clients reject the concept, believing there's no adult part.
-  - Depressed parts can make it harder to function.
+   - Some clients reject the concept, believing there's no adult part.
+   - Depressed parts can make it harder to function.
 
 4. **Accessing the Normal Life Self**
-  - Remembering functional days can help reconnect with normal life self.
-  - Challenging over-identification with depressed parts by accessing career experience and compassion.
+   - Remembering functional days can help reconnect with normal life self.
+   - Challenging over-identification with depressed parts by accessing career experience and compassion.
 
 5. **The Brain and Information Retention**
-  - The brain doesn't lose information, even if access is lost.
-  - Abilities like curiosity or clarity of mind are still within the person.
+   - The brain doesn't lose information, even if access is lost.
+   - Abilities like curiosity or clarity of mind are still within the person.
    
 ### Connecting to the Resources of a Competent Adult
 
 1. **Normal Life Self**
-  - Essential part of an individual's identity
-  - Associated with roles, activities, or experiences where they functioned effectively
-  - Can be identified through past or future visions of a normal life
+   - Essential part of an individual's identity
+   - Associated with roles, activities, or experiences where they functioned effectively
+   - Can be identified through past or future visions of a normal life
 2. **Identifying the Normal Life Self**
-  - Ask about past roles, hobbies, causes, or dreams
-  - Recognize parts that seek normalcy despite symptoms
+   - Ask about past roles, hobbies, causes, or dreams
+   - Recognize parts that seek normalcy despite symptoms
 3. **Connecting with the Normal Life Self**
-  - Understand it as the part that wants to be functional and live a normal life
-  - Encourage association with activities or roles related to this self
-  - Challenge beliefs of it being a 'false self'
+   - Understand it as the part that wants to be functional and live a normal life
+   - Encourage association with activities or roles related to this self
+   - Challenge beliefs of it being a 'false self'
 4. **Importance of the Normal Life Self**
-  - Helps develop a stronger sense of having an adult body and mind
-  - Can be found in various activities, hobbies, or roles
-  - Instinctively drives individuals to seek normalcy even in abnormal environments
+   - Helps develop a stronger sense of having an adult body and mind
+   - Can be found in various activities, hobbies, or roles
+   - Instinctively drives individuals to seek normalcy even in abnormal environments
       
 ### Selves-Acceptance 
 
 1. **Selves-Acceptance** and befriending parts contribute to self-acceptance:
-  - Pausing emotional reactivity leads to calmness and peace.
-  - Autonomic arousal settles, reducing sense of urgency.
-  - In a calmer state, parts feel more at peace.
+   - Pausing emotional reactivity leads to calmness and peace.
+   - Autonomic arousal settles, reducing sense of urgency.
+   - In a calmer state, parts feel more at peace.
 
 2. **Self-alienation** does not promote peace:
-  - Disowning parts creates tension and pits them against each other.
-  - Communicates a hostile environment, similar to traumatic environments.
-  - Diminishes self-esteem of every part.
+   - Disowning parts creates tension and pits them against each other.
+   - Communicates a hostile environment, similar to traumatic environments.
+   - Diminishes self-esteem of every part.
 
 3. **Meditation Circle for Parts**:
-  - A daily practice where all parts are invited to join.
-  - Provides a safe space for parts to express concerns.
-  - Encourages communication between parts and therapist.
+   - A daily practice where all parts are invited to join.
+   - Provides a safe space for parts to express concerns.
+   - Encourages communication between parts and therapist.
 
 4. **Befriending our parts**:
-  - Acceptance that we live with multiple selves.
-  - Living amicably and collaboratively with all selves, not just comfortable ones.
-  - Welcoming owned and disowned selves makes internal worlds safer.
+   - Acceptance that we live with multiple selves.
+   - Living amicably and collaboratively with all selves, not just comfortable ones.
+   - Welcoming owned and disowned selves makes internal worlds safer.
 
 ## CHAPTER 6 Complications of Treatment: Traumatic Attachment
 
 1. **Attachment** is a reflection of an infant's need for safety. It's not innately secure.
-  - Infants perceive threats based on caregiver signals and availability, not actual danger.
+   - Infants perceive threats based on caregiver signals and availability, not actual danger.
 2. **Secure Attachment**: Essential early experiences include heart-to-heart contact, coos, smiles, and warm gazes.
-  - These experiences are remembered as "implicit" or "emotional memories.
+   - These experiences are remembered as "implicit" or "emotional memories.
 3. **Impact of Early Attachment**: Secure attachment promotes tolerance for distress and self-soothing abilities.
-  - Affect tolerance in adulthood is linked to the autonomic nervous system's development.
+   - Affect tolerance in adulthood is linked to the autonomic nervous system's development.
 4. **Attachment Styles and Strategies**: Represent adaptations to caregiving environments.
-  - Procedurally learned habits of action and reaction are stored in nonverbal memory.
+   - Procedurally learned habits of action and reaction are stored in nonverbal memory.
 5. **Memory Systems in Attachment Relationships**:
-  - Procedural memory: "what we do with one another.
-    - Autobiographical memory: "what we know about one another.
-    - Emotional memory: determines emotional state alterations.
+   - Procedural memory: "what we do with one another.
+      - Autobiographical memory: "what we know about one another.
+      - Emotional memory: determines emotional state alterations.
 6. **Attachment Habits and Implicit Memories**: Reflect early attachment experiences.
-  - Some individuals may tense up, avoid, prefer family, or have eye contact issues based on their history.
+   - Some individuals may tense up, avoid, prefer family, or have eye contact issues based on their history.
     
 ### Trauma and Attachment: The Source of Safety Becomes the Source of Danger
 
 1. **Trauma and Attachment**
-  - Infants' defense systems motivate them to flee from frightening caregivers
-  - At the same time, their attachment system motivates them to seek comforting proximity
-  - Result: Disorganized or Type D attachment (Main & Hesse, 1990)
+   - Infants' defense systems motivate them to flee from frightening caregivers
+   - At the same time, their attachment system motivates them to seek comforting proximity
+   - Result: Disorganized or Type D attachment (Main & Hesse, 1990)
 2. **Impact of Neglectful and Abusive Caregivers**
-  - Frightening behavior evokes fear/flight/fight responses
-  - Intensifies yearning for proximity
+   - Frightening behavior evokes fear/flight/fight responses
+   - Intensifies yearning for proximity
 3. **Infants' Expectancies**
-  - Develop patterns of behavior based on interactions with caregivers
-  - Disorganized attachment infants: shutting down, matching mother's dysregulated states
+   - Develop patterns of behavior based on interactions with caregivers
+   - Disorganized attachment infants: shutting down, matching mother's dysregulated states
 4. **Survival Responses in Infants and Young Children**
-  - Limited repertoire for survival: proximity-seeking, fight, flight, or parasympathetic dorsal vagal system response (freezing)
+   - Limited repertoire for survival: proximity-seeking, fight, flight, or parasympathetic dorsal vagal system response (freezing)
 5. **Power of Early Nonverbal Attachment Learning**
-  - Karin's story: body remembered that closeness is dangerous
+   - Karin's story: body remembered that closeness is dangerous
 6. **Impact on Relationships and Mental Health**
-  - Children like Karin develop strong association between soothing/proximity and fear
-  - Result in crisis after crisis in relationships, oppositional-defiant disorder, borderline personality disorder, or parasympathetic dominance (mistaken for depression)
+   - Children like Karin develop strong association between soothing/proximity and fear
+   - Result in crisis after crisis in relationships, oppositional-defiant disorder, borderline personality disorder, or parasympathetic dominance (mistaken for depression)
 7. **Evolutionary Instincts**
-  - Attachment drive: seeking and maintaining proximity
-  - Animal defense survival responses: polar opposite of attachment drive
+   - Attachment drive: seeking and maintaining proximity
+   - Animal defense survival responses: polar opposite of attachment drive
 8. **Observable Signs in Orphanage-Raised Adoptees**
-  - Initially arch away from adoptive mother's body or stiffen on contact
-  - Look away rather than toward caregiver
+   - Initially arch away from adoptive mother's body or stiffen on contact
+   - Look away rather than toward caregiver
 9. **Secure Attachment Relationships**
-  - Infants actively search for gaze-to-gaze contact and socially engage with adults
+   - Infants actively search for gaze-to-gaze contact and socially engage with adults
     
 ### “Controlling Attachment Strategies” and Trauma
 
 1. **Disorganized Attachment** in preschool children is characterized by two types of controlling behaviors:
-  - **Controlling-caretaking**: Children exhibit a parentified style, soothing, reassuring, and helping their mothers. More common in girls and when mothers exhibit role-reversal or guilt-inducing behavior.
-  - **Controlling-punitive**: Children attack the mother verbally and/or physically, humiliating and devaluing her. More common in boys, especially in response to maternal hostility.
+   - **Controlling-caretaking**: Children exhibit a parentified style, soothing, reassuring, and helping their mothers. More common in girls and when mothers exhibit role-reversal or guilt-inducing behavior.
+   - **Controlling-punitive**: Children attack the mother verbally and/or physically, humiliating and devaluing her. More common in boys, especially in response to maternal hostility.
 2. These **controlling strategies** stem from a need to defend and attach simultaneously, maintaining proximity while inhibiting dependency needs.
 3. The legacy of disorganized attachment affects all later relationships, including therapeutic ones. This phenomenon is referred to as the **"phobia of therapy and the therapist"**.
 4. Traumatized clients may crave relief, understanding, and care from therapists but experience fear and distrust due to past experiences.
@@ -1256,104 +1256,104 @@
 ### Awakening the Yearning for Care
 
 1. **Structural Dissociation** in psychotherapy:
-  - The attach parts may react adversely to therapeutic relationship or growing closeness, intensifying fears of abandonment and sensitivity to empathic failure.
-  - These reactions can lead to increased demands on the therapist's time and energy, evoking implicit memories of yearning for care.
-  - The hunger for contact can become obsessive and pathologized as psychotic or erotic transference.
-  - Therapists may misinterpret these behaviors as signs of borderline personality disorder if not familiar with Structural Dissociation model.
+   - The attach parts may react adversely to therapeutic relationship or growing closeness, intensifying fears of abandonment and sensitivity to empathic failure.
+   - These reactions can lead to increased demands on the therapist's time and energy, evoking implicit memories of yearning for care.
+   - The hunger for contact can become obsessive and pathologized as psychotic or erotic transference.
+   - Therapists may misinterpret these behaviors as signs of borderline personality disorder if not familiar with Structural Dissociation model.
 
 2. **Behavior of Attach Parts**:
-  - Trust therapist immediately and unconditionally, but their yearning for closeness is easily triggered by kindness, warmth, and care.
-  - Desperate for contact, they often have difficulty leaving therapy sessions and seek proximity between visits through various means.
-  - Their messages may appear as signs of crisis to which therapists feel a responsibility to respond.
-  - Over time, the therapist may notice a pattern of increasing urgency, less successful therapeutic reassurance, heightened sensitivity to empathic failure, and more frequent crisis calls.
+   - Trust therapist immediately and unconditionally, but their yearning for closeness is easily triggered by kindness, warmth, and care.
+   - Desperate for contact, they often have difficulty leaving therapy sessions and seek proximity between visits through various means.
+   - Their messages may appear as signs of crisis to which therapists feel a responsibility to respond.
+   - Over time, the therapist may notice a pattern of increasing urgency, less successful therapeutic reassurance, heightened sensitivity to empathic failure, and more frequent crisis calls.
 
 3. **Misunderstanding Disorganized Attachment**:
-  - Interpreting disorganized attachment as expression of whole integrated client can lead to frustration and confusion for therapists.
-  - The symptoms are not signs of a personality disorder but represent disorganized attachment associated with structurally dissociated parts.
+   - Interpreting disorganized attachment as expression of whole integrated client can lead to frustration and confusion for therapists.
+   - The symptoms are not signs of a personality disorder but represent disorganized attachment associated with structurally dissociated parts.
 
 4. **Alternating Appearances of Attach and Flight Parts**:
-  - Attach parts express needs for more proximity, while flight parts distance, control, or devalue the treatment.
-  - Early on or as attach part becomes more vulnerable, flight part may manifest in therapy as client expressing ambivalence about the treatment.
-  - Flight parts' instinctual avoidance is likely to be triggered by therapy sessions.
-  - Attempts to process these patterns as if they were those of a whole integrated individual are usually frustrating.
+   - Attach parts express needs for more proximity, while flight parts distance, control, or devalue the treatment.
+   - Early on or as attach part becomes more vulnerable, flight part may manifest in therapy as client expressing ambivalence about the treatment.
+   - Flight parts' instinctual avoidance is likely to be triggered by therapy sessions.
+   - Attempts to process these patterns as if they were those of a whole integrated individual are usually frustrating.
 
 5. **Distinguishing Normal Life Self and Flight Part**:
-  - In dealing with two different subparts with conflicting wishes and fears, it is important for therapists not to become confused or frustrated.
-  - Therapist should make a clear distinction between the normal life self and the flight part in understanding their intentions and desired outcomes.
+   - In dealing with two different subparts with conflicting wishes and fears, it is important for therapists not to become confused or frustrated.
+   - Therapist should make a clear distinction between the normal life self and the flight part in understanding their intentions and desired outcomes.
    
 ### Not One but Many
 1. **Attachment Issues and Multiple Transferences**
-  - Each part in a client may develop different transferential relationships with the therapist.
-  - Attach needs warmth, connection, and attunement.
-  - Flight requires space and acceptance of distance.
-  - Fight seeks proof of trust and no hidden agendas.
-  - Submit wants to please and comply.
-  - Freeze doesn't want to be hurt.
+   - Each part in a client may develop different transferential relationships with the therapist.
+   - Attach needs warmth, connection, and attunement.
+   - Flight requires space and acceptance of distance.
+   - Fight seeks proof of trust and no hidden agendas.
+   - Submit wants to please and comply.
+   - Freeze doesn't want to be hurt.
 
 2. **Understanding the Transference of Parts**
-  - Disorganized attachment reflects the relationship between a proximity-seeking attach part and a hypervigilant, protective fight part.
-  - Submit part may appear as the identified patient but serves the needs of the attach part.
-  - Submit part might strive to be the best client to increase positive feelings for the attach part.
-  - Progress may not be visible when dealing with a submit part.
+   - Disorganized attachment reflects the relationship between a proximity-seeking attach part and a hypervigilant, protective fight part.
+   - Submit part may appear as the identified patient but serves the needs of the attach part.
+   - Submit part might strive to be the best client to increase positive feelings for the attach part.
+   - Progress may not be visible when dealing with a submit part.
 
 3. **Identifying Parts through Rigidity**
-  - Parts expressing themes are rigid in their beliefs and understanding.
-  - Struggles or resistance from clients often indicate dialogue with one part, not the larger consciousness.
-  - Therapist responses should acknowledge and validate the part's perspective to encourage further exploration.
+   - Parts expressing themes are rigid in their beliefs and understanding.
+   - Struggles or resistance from clients often indicate dialogue with one part, not the larger consciousness.
+   - Therapist responses should acknowledge and validate the part's perspective to encourage further exploration.
    
 ### Creating an Alliance with the Fight Part 
 
 1. **Disorganized Attachment** and the Fight Part
-  - Reflects internal conflict between proximity-seeking drives and fight/flight responses.
-  - Focus of therapy due to hypervigilance, wariness, and mistrust towards therapists and process.
+   - Reflects internal conflict between proximity-seeking drives and fight/flight responses.
+   - Focus of therapy due to hypervigilance, wariness, and mistrust towards therapists and process.
 
 2. **Identifying the Fight Part**
-  - Subtle indicators: client's comfort with sharing personal information, questions about office policies.
-  - Indicators in history: previous therapy ending badly, dropped friendships, difficulties at work.
-  - Active role in treatment: defending child part from perceived empathic failures.
+   - Subtle indicators: client's comfort with sharing personal information, questions about office policies.
+   - Indicators in history: previous therapy ending badly, dropped friendships, difficulties at work.
+   - Active role in treatment: defending child part from perceived empathic failures.
 
 3. **Empathic Failures** and the Fight Part
-  - Hurt feelings of child part communicated through an angry, indignant fight part.
-  - Misunderstood intentions: words or actions perceived as cold or cruel to the child part.
-  - Defensive responses from therapists: feeling criticized, devalued, and found wanting.
+   - Hurt feelings of child part communicated through an angry, indignant fight part.
+   - Misunderstood intentions: words or actions perceived as cold or cruel to the child part.
+   - Defensive responses from therapists: feeling criticized, devalued, and found wanting.
 
 4. **Consequences of Empathic Failures**
-  - Disorganized attachment "system": therapist feels badly for hurting client but also defensive.
-  - Misattuned repair efforts due to lack of understanding of the child part's vulnerability.
+   - Disorganized attachment "system": therapist feels badly for hurting client but also defensive.
+   - Misattuned repair efforts due to lack of understanding of the child part's vulnerability.
 
 5. **Fight Part and Self-Destructive Behavior**
-  - Suicidality, self-harm, and unsafe sexual behavior as manifestations of the fight part's aggression.
-  - Triggers: empathic failures, losses, painful loneliness, intrusive memories or flashbacks.
+   - Suicidality, self-harm, and unsafe sexual behavior as manifestations of the fight part's aggression.
+   - Triggers: empathic failures, losses, painful loneliness, intrusive memories or flashbacks.
 
 6. **Threatening Therapy for the Fight Part**
-  - Any therapy that appears to emphasize dependency or encourage vulnerability is threatening.
-  - Normal stimuli, like a box of tissues, can be perceived as danger signals by the fight part.
+   - Any therapy that appears to emphasize dependency or encourage vulnerability is threatening.
+   - Normal stimuli, like a box of tissues, can be perceived as danger signals by the fight part.
    
 ### There is No “He” or “She” 
 
 1. **Disorganized Attachment**
-  - Therapists may encounter a closed, counterdependent client at the start of therapy.
-  - This is not an integrated whole but a part named "fight".
-  - Beneath the militant counterdependence lies an "attach" part with longing and hurt.
+   - Therapists may encounter a closed, counterdependent client at the start of therapy.
+   - This is not an integrated whole but a part named "fight".
+   - Beneath the militant counterdependence lies an "attach" part with longing and hurt.
 
 2. **Interaction between Fight and Attach Parts**
-  - Therapist's reaching out to help client "open up" activates attach part.
-  - Activation of attach part results in increased dependence and vulnerability.
-  - Fight part, distrusting connection, defends the attach part from dependence.
+   - Therapist's reaching out to help client "open up" activates attach part.
+   - Activation of attach part results in increased dependence and vulnerability.
+   - Fight part, distrusting connection, defends the attach part from dependence.
 
 3. **Impact on Therapy**
-  - Intensified separation anxiety in attach part triggers fight part's defense.
-  - More frequent contact increases fight part's sense of threat.
-  - Accusations of empathic failure from client due to perceived insufficient contact.
+   - Intensified separation anxiety in attach part triggers fight part's defense.
+   - More frequent contact increases fight part's sense of threat.
+   - Accusations of empathic failure from client due to perceived insufficient contact.
 
 4. **Implications for Diagnosis and Treatment**
-  - Client with disorganized attachment may fulfill criteria for Borderline Personality Disorder.
-  - Manifestations of disorganized attachment may be confused with personality disorder symptoms.
-  - Role of trauma and traumatized parts often goes unrecognized and untreated.
+   - Client with disorganized attachment may fulfill criteria for Borderline Personality Disorder.
+   - Manifestations of disorganized attachment may be confused with personality disorder symptoms.
+   - Role of trauma and traumatized parts often goes unrecognized and untreated.
 
 5. **Consequences for Client**
-  - Client's normal life self realizes worst fears: getting worse in therapy instead of better.
-  - Therapist may become engaged in a struggle with self-destructive or suicidal fight parts, losing opportunity to help client work with these parts.
+   - Client's normal life self realizes worst fears: getting worse in therapy instead of better.
+   - Therapist may become engaged in a struggle with self-destructive or suicidal fight parts, losing opportunity to help client work with these parts.
     
 ### A Therapist for All the Parts, Not Just the “Client”
 
@@ -1376,42 +1376,42 @@
 ### Speaking on Behalf of the Parts 
 
 1. **Difficulties in Implementing Parts Language**
-  - Clients have trouble maintaining access to their parts.
-  - Difficulty empathizing with parts.
-  - Struggle to retain initial curiosity about this new way of thinking.
-  - Therapist may feel discouraged by slow progress.
+   - Clients have trouble maintaining access to their parts.
+   - Difficulty empathizing with parts.
+   - Struggle to retain initial curiosity about this new way of thinking.
+   - Therapist may feel discouraged by slow progress.
 
 2. **Changing Procedural Learning**
-  - Human beings never forget procedural learning.
-  - Learning to use the word "part" instead of "I.
-    - Practice involves repetition and patience.
+   - Human beings never forget procedural learning.
+   - Learning to use the word "part" instead of "I.
+      - Practice involves repetition and patience.
 
 3. **Using Parts Language in Therapy**
-  - Using parts language in opening greeting.
-  - Interrupting automatic assumption of "I.
-    - Reiterating psychoeducation on structural dissociation.
-  - Mirroring client's words into parts language.
+   - Using parts language in opening greeting.
+   - Interrupting automatic assumption of "I.
+      - Reiterating psychoeducation on structural dissociation.
+   - Mirroring client's words into parts language.
 
 4. **Connecting with Parts**
-  - Client connects emotionally to parts and reports fears.
-  - Therapist speaks "on behalf" of parts to generate compassion.
-  - Using mindful contact statements to ensure parts are heard.
+   - Client connects emotionally to parts and reports fears.
+   - Therapist speaks "on behalf" of parts to generate compassion.
+   - Using mindful contact statements to ensure parts are heard.
 
 5. **Avoiding the Tendency to "Pick Sides"**
-  - Therapists and clients have a tendency to side with some parts over others.
-  - Challenges in working with difficult parts.
-  - Remembering that internal struggles are between parts, not the client.
-  - Maintaining a neutral perspective to resolve internal conflicts.
+   - Therapists and clients have a tendency to side with some parts over others.
+   - Challenges in working with difficult parts.
+   - Remembering that internal struggles are between parts, not the client.
+   - Maintaining a neutral perspective to resolve internal conflicts.
    
 ### Dyadic Dancing Attunement
 
 1. **Dyadic Dancing** (co-regulation): therapist's body expresses attunement through facial expressions, tone, and posture.
-  - Soft or firm face, communicating warmth or calm.
-  - Leans forward/back in rhythm with client.
-  - Uses right brain perception to monitor client's body and nervous system.
+   - Soft or firm face, communicating warmth or calm.
+   - Leans forward/back in rhythm with client.
+   - Uses right brain perception to monitor client's body and nervous system.
 2. **Client's Agitation**: therapist responds by slowing respiration, pace of speech, and softening tone.
-  - Asks client to "notice" agitation or belief behind it.
-  - Engages in dialogue instead of listening to entire statement before replying.
+   - Asks client to "notice" agitation or belief behind it.
+   - Engages in dialogue instead of listening to entire statement before replying.
 3. **Dialogue as a Dyadic Dance**: therapist echoes client's words, translates them into parts language, and makes comments from a bird's eye perspective.
 4. **Interruptions and Reinterpretations**: sensitive attunement ensures clients feel met rather than cut off.
 5. **Infant Dialoguing Parallels**: mother responds to baby with soothing or exciting statements, tracks signals to ensure enjoyment and proper stimulation.
@@ -1437,40 +1437,40 @@
 ## CHAPTER 7: Working with Suicidal, Self-Destructive, Eating Disordered
 
 1. **Trauma Overload**
-  - Human defense system becomes overwhelmed when resistance or escape is impossible (Herman, 1992)
-  - Survival responses (flight-fight) markedly augment individual's capacity to shift into aggressive state (Teicher et al., 2002)
+   - Human defense system becomes overwhelmed when resistance or escape is impossible (Herman, 1992)
+   - Survival responses (flight-fight) markedly augment individual's capacity to shift into aggressive state (Teicher et al., 2002)
 
 2. **Impact of Trauma**
-  - Daily life challenges and traumatogenic environments tax belief in safety, determination to live
-  - Feeling helpless, overwhelmed, vulnerable, terrified, alone with no resources or support
+   - Daily life challenges and traumatogenic environments tax belief in safety, determination to live
+   - Feeling helpless, overwhelmed, vulnerable, terrified, alone with no resources or support
 
 3. **Body's Response to Trauma**
-  - Disconnection, numbing, dissociation as coping mechanisms
-  - Neurochemicals (adrenaline, endorphins) for survival
-  - Animal defense survival responses: fight, flight, freeze, submit, attach
+   - Disconnection, numbing, dissociation as coping mechanisms
+   - Neurochemicals (adrenaline, endorphins) for survival
+   - Animal defense survival responses: fight, flight, freeze, submit, attach
 
 4. **Trauma and Self-Destructive Behavior**
-  - Road rage, sexual compulsivity, inability to leave dangerous situations or relationships
-  - Suicidal ideation, threats, attempts correlated with PTSD (Khoury et al., 2007; Krysinska & Lester, 2010; Min et al., 2007)
-  - High relapse rates among those with trauma histories (Najavits, 2002)
+   - Road rage, sexual compulsivity, inability to leave dangerous situations or relationships
+   - Suicidal ideation, threats, attempts correlated with PTSD (Khoury et al., 2007; Krysinska & Lester, 2010; Min et al., 2007)
+   - High relapse rates among those with trauma histories (Najavits, 2002)
 
 5. **Understanding Coexistence of Will to Live and Death Wish**
-  - Complex inter-relationship between strong will to live and intense longing to die in individuals with trauma histories
+   - Complex inter-relationship between strong will to live and intense longing to die in individuals with trauma histories
    
 ### A Way Out or a Way to Go On? 
 
 1. **Surviving Trauma** requires immense determination and belief in safety while dealing with normal and abnormal challenges.
-  - Young children rely on body's resources for survival (disconnection, numbing, dissociation).
-  - Adolescents have more options due to a stronger body and developing brain.
+   - Young children rely on body's resources for survival (disconnection, numbing, dissociation).
+   - Adolescents have more options due to a stronger body and developing brain.
 2. **Desperate Measures** are taken in response to feelings of terror, helplessness, and despair.
-  - The sympathetic nervous system mobilizes the body for defense but can lead to self-destructive behavior when fighting or fleeing are not options.
+   - The sympathetic nervous system mobilizes the body for defense but can lead to self-destructive behavior when fighting or fleeing are not options.
 3. **Self-Destructive Behavior** originates from feelings of annihilation, isolation, and vulnerability.
-  - Emotions and emotional expression can feel dangerous due to past experiences of danger.
+   - Emotions and emotional expression can feel dangerous due to past experiences of danger.
 4. **Lack of Soothing Abilities** contributes to self-destructive behavior.
-  - Consistent early experiences of soothing condition the nervous system to settle and recalibrate.
+   - Consistent early experiences of soothing condition the nervous system to settle and recalibrate.
 5. **High-Risk Behavior** is a relief-seeking, not destruction-seeking, response to unbearable feelings or sensations.
 6. **Understanding High-Risk Behavior** requires acknowledging its role in providing relief and developing a collaborative relationship with the client.
-  - Clients have no better way of self-soothing and need validation and understanding.
+   - Clients have no better way of self-soothing and need validation and understanding.
 7. **Treatment Approach** should focus on attending to the internal struggle rather than reacting to behavior as a safety concern.
 8. **Sharing the Intra-personal Dilemma** is crucial for effective treatment of unsafe and addictive behavior.
 9. **Encouraging Healthier Options** requires understanding the client's perspective and providing alternative, healthier ways to manage emotional arousal.
@@ -1478,70 +1478,70 @@
 ### Capitalizing on the Body to Gain Relief 
 
 1. **Child abuse and neglect, torture, domestic violence** 
-  - the victim's body, mind, and emotions have been exploited by others
+   - the victim's body, mind, and emotions have been exploited by others
 
 2. **Self-Destructive Behaviors as Relief Mechanisms**
-  - Instant relief from hyperarousal and overwhelming emotions.
-  - Adrenaline production followed by endorphin release.
-  - Effects specific to each behavior: numbing, relaxation, disconnection.
+   - Instant relief from hyperarousal and overwhelming emotions.
+   - Adrenaline production followed by endorphin release.
+   - Effects specific to each behavior: numbing, relaxation, disconnection.
 
 3. **Eating Disorders as Self-Destructive Behaviors**
-  - Anorexia: numbing through food restriction and ketosis effects.
-  - Bulimia: relief via activation of the dorsal vagal system.
+   - Anorexia: numbing through food restriction and ketosis effects.
+   - Bulimia: relief via activation of the dorsal vagal system.
 
 4. **Substance Abuse**: 
-  - Consistent with the tendency of the left brain to create rational arguments for right brain-driven irrational behavior
-  - clients with eating and/or substance abuse disorders will have "stories" or rationales for their symptoms.
+   - Consistent with the tendency of the left brain to create rational arguments for right brain-driven irrational behavior
+   - clients with eating and/or substance abuse disorders will have "stories" or rationales for their symptoms.
 
 5. **Attachment Drive and Self-Destructive Behaviors**
-  - Minimizing danger and maximizing relational resources.
-  - Avoiding vulnerability to those who might do harm.
-  - Controlling strategies: appeasement, parentification, hostility, distancing.
-  - Safety equated with choice between appeasement/parentification and hostility/distancing.
-  - Patterns of attachment behavior persist into adulthood.
+   - Minimizing danger and maximizing relational resources.
+   - Avoiding vulnerability to those who might do harm.
+   - Controlling strategies: appeasement, parentification, hostility, distancing.
+   - Safety equated with choice between appeasement/parentification and hostility/distancing.
+   - Patterns of attachment behavior persist into adulthood.
    
 ### Animal Defenses and Unsafe Behavior Structural dissociation
 
 1. **Structural dissociation** facilitates managing unsafe attachment relationships:
-  - Attach part: desires closeness
-  - Submit part: appeases
-  - Flight part: needs distance
-  - Freeze part: fears attack
-  - Fight part: instinctively controls situations
+   - Attach part: desires closeness
+   - Submit part: appeases
+   - Flight part: needs distance
+   - Freeze part: fears attack
+   - Fight part: instinctively controls situations
    1. Each part can operate independently, creating defensive flexibility
    2. Quick transitions from hypervigilant to needy to distancing to robotic compliance
    3. Avoiding danger increases safety
 
 2. **Defensive patterns** are adaptive when dependent on abusive individuals but not useful once safe:
-  - Parts scan environment for traumatic triggers
-  - Activation increases susceptibility to internal conflicts
-  - Most threatening triggers are other human beings
+   - Parts scan environment for traumatic triggers
+   - Activation increases susceptibility to internal conflicts
+   - Most threatening triggers are other human beings
     1. Angry, violent individuals evoke strong defensive responses
     2. Authority figures, partners, therapists, family members, close friends, and love objects can be as triggering
     3. Healing process can lead to increasing polarization and internal conflicts
 
 3. **Young traumatized parts** have unique needs:
-  - Attach part longs for gaze-to-gaze contact, hugs, and someone who hangs on every word
-  - Fight part is hypervigilant and reacts to minor offenses with hostility and vigilance
+   - Attach part longs for gaze-to-gaze contact, hugs, and someone who hangs on every word
+   - Fight part is hypervigilant and reacts to minor offenses with hostility and vigilance
     1. Isolation does not solve underlying attachment wound
     2. Particularly challenging during adolescence when separation-individuation instincts require inhibition of the attachment drive but also at a time when the child’s physical strength and greater independence increase opportunities for disordered eating, self-harm, and access to substances
 
 4. **Trauma-related triggers** interfere with differentiating what is safe now from what was dangerous then:
-  - Even after individuals are safe, trauma-related triggers can cause feelings of hurt, desperation, and panic
-  - Alcohol use can be a way to regulate trauma-related implicit memories and their accompanying autonomic arousal but can lead to blackouts and unwanted consequences.
+   - Even after individuals are safe, trauma-related triggers can cause feelings of hurt, desperation, and panic
+   - Alcohol use can be a way to regulate trauma-related implicit memories and their accompanying autonomic arousal but can lead to blackouts and unwanted consequences.
    
 ### Treating the Causes of Self-Destructive Behavior
 
 1. **Self-destructive behavior** originates from a combination of factors:
-  - A trigger evokes **trauma-related implicit memory**.
-  - The implicit memory's association with danger activates the emergency stress response.
-  - The sympathetic nervous system reaction shuts down the prefrontal cortex, impairing judgment.
-  - Conflicting defensive responses act on their survival instincts, leading to relief-seeking behaviors.
+   - A trigger evokes **trauma-related implicit memory**.
+   - The implicit memory's association with danger activates the emergency stress response.
+   - The sympathetic nervous system reaction shuts down the prefrontal cortex, impairing judgment.
+   - Conflicting defensive responses act on their survival instincts, leading to relief-seeking behaviors.
 2. **Clients** report temporary feelings of control or well-being after these actions.
 3. Traditional treatments like Dialectical Behavior Therapy (DBT) and Internal Family Systems (IFS) have limitations:
-  - DBT focuses on skills for the normal life part but doesn't address fragmentation or differentiating the self from parts.
-  - IFS addresses parts but conceptualizes self-destructive behavior as firefighter parts suppressing vulnerable exiles.
-  - The normal life self is seen as a manager in IFS, emphasizing functioning and top-down behavior management.
+   - DBT focuses on skills for the normal life part but doesn't address fragmentation or differentiating the self from parts.
+   - IFS addresses parts but conceptualizes self-destructive behavior as firefighter parts suppressing vulnerable exiles.
+   - The normal life self is seen as a manager in IFS, emphasizing functioning and top-down behavior management.
 4. In IFS, the wise mind or wise self possesses qualities like curiosity, compassion, wisdom, courage, calm, clarity, confidence, and commitment.
 5. Sensorimotor Psychotherapy focuses on autonomic dysregulation and animal defenses in posttraumatic stress disorders but lacks specific interventions for unsafe behavior.
 6. Both IFS and Sensorimotor Psychotherapy encourage mindful interest and curiosity in habitual patterns rather than a solution-oriented approach to safety issues.
@@ -1551,30 +1551,30 @@
 ### Trauma-Informed Stabilization Treatment (TIST) 
 
 1. **Trauma-Informed Stabilization Treatment (TIST)**
-  - Developed for severe self-destructive behavior unresponsive to conventional treatments (Fisher, 2015)
-  - Initially developed in Connecticut's Young Adult Services due to high trauma history among chronically suicidal clients
-  - Clients had histories of trauma, self-injury, substance abuse, eating disorders, and aggression towards others
-  - Lacked treatment models addressing origins of behavior, trauma triggers, cortical inhibition, and relief experienced from behavior
+   - Developed for severe self-destructive behavior unresponsive to conventional treatments (Fisher, 2015)
+   - Initially developed in Connecticut's Young Adult Services due to high trauma history among chronically suicidal clients
+   - Clients had histories of trauma, self-injury, substance abuse, eating disorders, and aggression towards others
+   - Lacked treatment models addressing origins of behavior, trauma triggers, cortical inhibition, and relief experienced from behavior
 
 2. **Background of TIST**
-  - Developed due to high percentage of severely traumatized clients in age range 18-25
-  - Clients had been hospitalized for over 6 months to 10 years
-  - Lack of effective treatment models due to inability to address multiple components of self-destructive behavior
+   - Developed due to high percentage of severely traumatized clients in age range 18-25
+   - Clients had been hospitalized for over 6 months to 10 years
+   - Lack of effective treatment models due to inability to address multiple components of self-destructive behavior
 
 3. **Theoretical Foundation: Structural Dissociation Model**
-  - Each separate variable contributing to unsafe actions identified
-  - Self-destructive impulses externalized and assigned to appropriate part
-  - All aspects of self described in positive terms for non-shaming approach
+   - Each separate variable contributing to unsafe actions identified
+   - Self-destructive impulses externalized and assigned to appropriate part
+   - All aspects of self described in positive terms for non-shaming approach
 
 4. **Acknowledgment of All Parts Involved**
-  - Treatment models should acknowledge all sides or parties involved, not just those towards whom we are biased
-  - Successful treatment requires acknowledgment of conflicting drives and their contribution to survival
+   - Treatment models should acknowledge all sides or parties involved, not just those towards whom we are biased
+   - Successful treatment requires acknowledgment of conflicting drives and their contribution to survival
 
 5. **Struggle for Traumatized Clients**
-  - Difficulty believing that "keeping on keeping on" has a chance of success
-  - Intensified emotional vulnerability and fight-flight impulses wanting discharge
-  - Clients have to learn to trust all parts are committed to survival in different ways
-  - Even most intensely suicidal parts "want to die in order to live."
+   - Difficulty believing that "keeping on keeping on" has a chance of success
+   - Intensified emotional vulnerability and fight-flight impulses wanting discharge
+   - Clients have to learn to trust all parts are committed to survival in different ways
+   - Even most intensely suicidal parts "want to die in order to live."
    
 ### Acknowledging Self-Destructive Parts
 
@@ -1591,54 +1591,54 @@
 ### Soothing the Vulnerable, Honoring the Protectors
 
 1. **TIST Model**: Focus on soothing vulnerable parts before inhibiting fight or flight responses.
-  - Recognize signs and symptoms of distressed child parts.
-  - Anticipate unsafe situations based on their appearance.
-  - Model mindful observation of "domino effects" (triggered parts triggering others).
+   - Recognize signs and symptoms of distressed child parts.
+   - Anticipate unsafe situations based on their appearance.
+   - Model mindful observation of "domino effects" (triggered parts triggering others).
 
 2. **Understanding Client's Patterns**: Identify relationship between suicidal part and distressed child part.
-  - Wait for right moment when client expresses anxiety about future crises.
-  - Observe pattern: suicidal part only gets activated when a specific child part is having a hard time.
+   - Wait for right moment when client expresses anxiety about future crises.
+   - Observe pattern: suicidal part only gets activated when a specific child part is having a hard time.
 
 3. **Depressed Parts as Triggers**: Depressed parts can indicate imminent activation of suicidal part.
-  - Intervene to help the depressed part before a crisis ensues.
-  - Acknowledge distress of depressed part to prevent suicide attempts.
+   - Intervene to help the depressed part before a crisis ensues.
+   - Acknowledge distress of depressed part to prevent suicide attempts.
 
 4. **Parts who Communicate via Flashbacks and Memories**: Somatic messages from young parts can trigger fight or flight responses.
-  - Help client's normal life self provide soothing to vulnerable parts.
-  - Reduce risk of impulsive behavior by anticipating its poetential.
+   - Help client's normal life self provide soothing to vulnerable parts.
+   - Reduce risk of impulsive behavior by anticipating its poetential.
 
 5. **Ashamed Parts**: Ashamed parts can also trigger fight response due to intolerable vulnerability.
-  - Predict risk and help client's normal life self provide soothing to ashamed parts.
+   - Predict risk and help client's normal life self provide soothing to ashamed parts.
 
 6. **Internal Dialogue Technique**: Clients are taught this technique to regulate parts' unbearable feelings independently.
 
 ### “No Part Left Behind” 
 
 1. **No Part Left Behind**
-  - Clients are taught this standard in therapy.
-  - Challenges survival strategy of self-alienation.
-  - All parts responsible for survival deserve respect and compassion.
-  - Includes ashamed, frightened, addicted or eating disordered, suicidal, angry, self-injurious, and justice-seeking parts.
+   - Clients are taught this standard in therapy.
+   - Challenges survival strategy of self-alienation.
+   - All parts responsible for survival deserve respect and compassion.
+   - Includes ashamed, frightened, addicted or eating disordered, suicidal, angry, self-injurious, and justice-seeking parts.
 
 2. **Impact of "No Part Left Behind"**
-  - Lifts threat of abandonment.
-  - Reparative experience for parts as someone has heard them.
-  - Normal life self feels grateful as parts' attachment grows.
-  - New, safer internal environment can be established.
+   - Lifts threat of abandonment.
+   - Reparative experience for parts as someone has heard them.
+   - Normal life self feels grateful as parts' attachment grows.
+   - New, safer internal environment can be established.
 
 3. **Specialized Roles of Parts**
-  - Fight response: increased energy, determination, refusal to give way, ability to guard rights and privileges.
-  - Normal life self learns to ask fight part for courage and strength.
-  - Freeze part feels protected.
-  - Submit part is not freely used by others.
-  - Flight part doesn't have to run for cover because parts are safe.
+   - Fight response: increased energy, determination, refusal to give way, ability to guard rights and privileges.
+   - Normal life self learns to ask fight part for courage and strength.
+   - Freeze part feels protected.
+   - Submit part is not freely used by others.
+   - Flight part doesn't have to run for cover because parts are safe.
 
 4. **Robert's Story**
-  - Tormented by voices warning him of death since early 20s.
-  - Fear of being killed familiar from witnessing mother's abuse.
-  - Devout Catholic faith prevented suicide.
-  - Terrified of dying despite longing for it.
-  - "Wanting to die is about taking control, not wanting death."
+   - Tormented by voices warning him of death since early 20s.
+   - Fear of being killed familiar from witnessing mother's abuse.
+   - Devout Catholic faith prevented suicide.
+   - Terrified of dying despite longing for it.
+   - "Wanting to die is about taking control, not wanting death."
    
 ## CHAPTER 8 
 ### Treatment Challenges: Dissociative Systems and Disorders
@@ -1668,25 +1668,25 @@
 ### Diagnosing Dissociative Disorders 
 
 1. **Dissociative Disorders**
-  - Five symptom clusters for diagnosis:
+   - Five symptom clusters for diagnosis:
      1. **Dissociative Amnesia**: missing time or gaps in daily memory unexplainable by ordinary forgetfulness after age nine.
      2. **Dissociative Fugue**: finding oneself in an unfamiliar location with no memory of planning to go there, sometimes accompanied by dissociative amnesia for personal information.
      3. **Depersonalization**: feeling disconnected from one's self or experience.
      4. **Derealization**: experiencing others or surroundings as unreal.
      5. **Identity Confusion** and **Identity Alteration**.
-  - Psychotic-like symptoms, such as voices, can also indicate a dissociative disorder.
+   - Psychotic-like symptoms, such as voices, can also indicate a dissociative disorder.
 2. **Comparing DID and Schizophrenia**
-  - DID subjects reported hearing voices at a more frequent rate than schizophrenic subjects.
-  - DID voices had different genders and ages, and content was negative and personally directed.
-  - Schizophrenic voices were fewer in number, did not have different ages or genders, and spoke from a more abstract perspective.
+   - DID subjects reported hearing voices at a more frequent rate than schizophrenic subjects.
+   - DID voices had different genders and ages, and content was negative and personally directed.
+   - Schizophrenic voices were fewer in number, did not have different ages or genders, and spoke from a more abstract perspective.
 3. **Making a Diagnosis**
-  - Not clinically essential if clients are using trauma-informed treatment models.
-  - Advantages: reassuring for clients feeling crazy or afraid of being "locked up.
-    - Disadvantages: can trigger fear or reinforce negative beliefs in some clients.
+   - Not clinically essential if clients are using trauma-informed treatment models.
+   - Advantages: reassuring for clients feeling crazy or afraid of being "locked up.
+      - Disadvantages: can trigger fear or reinforce negative beliefs in some clients.
 4. **Annie's Situation**
-  - Diagnosis was supportive and helpful for Annie, who was struggling with dissociative amnesia.
+   - Diagnosis was supportive and helpful for Annie, who was struggling with dissociative amnesia.
 5. **Dustin's Situation**
-  - Diagnosis would have been detrimental for Dustin due to his fear of being diagnosed psychotic and deeply ingrained beliefs about his inadequacy.
+   - Diagnosis would have been detrimental for Dustin due to his fear of being diagnosed psychotic and deeply ingrained beliefs about his inadequacy.
    
 ### Assessment Tools for Diagnosing Dissociative Disorders
 
@@ -1695,81 +1695,81 @@
 - **Structured Clinical Interview for DSM-IV Dissociative Disorders (SCID-D)** is the best tool for formal diagnoses but challenging due to its long format.
 
 1. **Importance of Formal Assessment**:
-  - Helps clients accept diagnosis as true and useful information.
-  - Provides reassurance of objectivity, reducing suspicion and defensiveness.
-  - Encourages detailed, non-pathologizing discussion of dissociative symptoms.
+   - Helps clients accept diagnosis as true and useful information.
+   - Provides reassurance of objectivity, reducing suspicion and defensiveness.
+   - Encourages detailed, non-pathologizing discussion of dissociative symptoms.
 
 2. **Challenges with Dissociative Experiences Scale (DES)**:
-  - Easiest to administer but least reliable tool.
-  - High rate of false negatives, potentially dangerous for therapeutic work.
+   - Easiest to administer but least reliable tool.
+   - High rate of false negatives, potentially dangerous for therapeutic work.
 
 3. **Trauma Symptom Inventory (TSI)**:
-  - Self-report instrument that elicits information about a range of symptoms.
-  - Provides an objective statistic for dissociation severity, useful for discussing dissociation.
+   - Self-report instrument that elicits information about a range of symptoms.
+   - Provides an objective statistic for dissociation severity, useful for discussing dissociation.
 
 4. **Structured Clinical Interview for DSM-IV Dissociative Disorders (SCID-D)**:
-  - Most reliable assessment instrument for formal diagnoses of Dissociative Identity Disorder (DID).
-  - Long and complex interview format, valuable for detailed discussion of dissociative symptoms.
-  - Questions can be introduced separately during therapy to elicit information about dissociation.
+   - Most reliable assessment instrument for formal diagnoses of Dissociative Identity Disorder (DID).
+   - Long and complex interview format, valuable for detailed discussion of dissociative symptoms.
+   - Questions can be introduced separately during therapy to elicit information about dissociation.
 
 5. **SCID-D Questions**:
-  - Useful for therapists curious about a client's dissociative symptoms, even without immediate need for formal assessment and diagnosis.
-  - Many questions can be incorporated into therapeutic dialogue to gather information about dissociation.
-  - Examples: memory problems, transient time loss, depersonalization, derealization, internal struggles, identity alterations.
+   - Useful for therapists curious about a client's dissociative symptoms, even without immediate need for formal assessment and diagnosis.
+   - Many questions can be incorporated into therapeutic dialogue to gather information about dissociation.
+   - Examples: memory problems, transient time loss, depersonalization, derealization, internal struggles, identity alterations.
    
 ### There Is No “She”—There Is No “He”
 
 1. **DID Clients and Challenges for Therapists**
-  - Many therapists find it intimidating to treat their first DID clients due to lack of exposure and training.
-  - DID clients present complex symptoms including regressive behavior, functional losses, suicidal or self-harming behavior, and dissociative fugue states.
-  - The biggest challenge is the absence of a single integrated psychological being in the client.
+   - Many therapists find it intimidating to treat their first DID clients due to lack of exposure and training.
+   - DID clients present complex symptoms including regressive behavior, functional losses, suicidal or self-harming behavior, and dissociative fugue states.
+   - The biggest challenge is the absence of a single integrated psychological being in the client.
 
 2. **Information Gap**
-  - Clinicians rely on clients as experts on their internal states.
-  - With DID clients, even basic information can be inaccessible or censored by protector parts.
-  - Unrequested information from trauma-related parts can also confuse therapists.
+   - Clinicians rely on clients as experts on their internal states.
+   - With DID clients, even basic information can be inaccessible or censored by protector parts.
+   - Unrequested information from trauma-related parts can also confuse therapists.
 
 3. **Communication and Secrets**
-  - Child parts often use text and email for communication without the client's knowledge.
-  - Loss of reality-testing, continuous consciousness, and behavioral control when parts act autonomously.
-  - Therapists may unintentionally take sides with certain parts, exacerbating the situation.
+   - Child parts often use text and email for communication without the client's knowledge.
+   - Loss of reality-testing, continuous consciousness, and behavioral control when parts act autonomously.
+   - Therapists may unintentionally take sides with certain parts, exacerbating the situation.
 
 4. **Risks of Memory Disclosure Approach**
-  - Encouraging disclosure of memory can increase instability for DID clients.
-  - Normal life self may not want to hear disclosures, triggering child parts.
-  - Fight and flight parts can become agitated, leading to increased addictive or self-injuring behavior.
+   - Encouraging disclosure of memory can increase instability for DID clients.
+   - Normal life self may not want to hear disclosures, triggering child parts.
+   - Fight and flight parts can become agitated, leading to increased addictive or self-injuring behavior.
 
 5. **New Paradigm in DID Treatment**
-  - Shift from memory retrieval and disclosure to focus on implicit memory and mindful witnessing.
-  - Mindful self-witnessing helps maintain continuity of consciousness.
-  - Understanding parts as disconnected "containers" reduces feeling weird or crazy.
+   - Shift from memory retrieval and disclosure to focus on implicit memory and mindful witnessing.
+   - Mindful self-witnessing helps maintain continuity of consciousness.
+   - Understanding parts as disconnected "containers" reduces feeling weird or crazy.
 
 6. **Sheila's Experience**
-  - Encouraging disclosure of memory dysregulated Sheila's system and triggered attach part's need for contact between sessions.
-  - Therapist assumed more sessions would help, but it created a vicious circle.
-  - DID clients require even more sensitivity to attachment issues and countertransference.
+   - Encouraging disclosure of memory dysregulated Sheila's system and triggered attach part's need for contact between sessions.
+   - Therapist assumed more sessions would help, but it created a vicious circle.
+   - DID clients require even more sensitivity to attachment issues and countertransference.
    
 ### Restoring Order to a Chaotic Inner World
 
 1. **Inner Worlds of DID Clients**
-  - Reflect environments of upbringing: harsh, secretive, critical, punitive, neglectful, intimidating, terrorizing.
-  - Parts survived by creating secrecy or suppressing vulnerability/fighting for control.
-  - Each step forward reveals another layer of secrecy maintained by saboteur parts.
+   - Reflect environments of upbringing: harsh, secretive, critical, punitive, neglectful, intimidating, terrorizing.
+   - Parts survived by creating secrecy or suppressing vulnerability/fighting for control.
+   - Each step forward reveals another layer of secrecy maintained by saboteur parts.
 
 2. **Characteristics of Inner World**
-  - Reflects harsh, punitive, neglectful early environments.
-  - Parts fight to prevent vulnerability, associated with self-care and safety concerns.
-  - Flight parts driven by the need for meaningful activities.
+   - Reflects harsh, punitive, neglectful early environments.
+   - Parts fight to prevent vulnerability, associated with self-care and safety concerns.
+   - Flight parts driven by the need for meaningful activities.
 
 3. **Annie's Inner World**
-  - Survived neglect and learned to care for others but not herself.
-  - Morning routines disrupted by depressed or caretaking parts.
-  - Flight parts drive frantic activity, followed by anesthetization with alcohol.
+   - Survived neglect and learned to care for others but not herself.
+   - Morning routines disrupted by depressed or caretaking parts.
+   - Flight parts drive frantic activity, followed by anesthetization with alcohol.
 
 4. **The Role of the Normal Life Self**
-  - Associated with prefrontal cortex and ability to observe system's operations.
-  - Cultivates dual awareness and learns new skills for managing trauma-related parts.
-  - Engages prefrontal cortex for access to past and present information, connecting parts, and visualizing them.
+   - Associated with prefrontal cortex and ability to observe system's operations.
+   - Cultivates dual awareness and learns new skills for managing trauma-related parts.
+   - Engages prefrontal cortex for access to past and present information, connecting parts, and visualizing them.
    
 ### Teaching the Client’s Normal Life 
 
@@ -1802,38 +1802,38 @@
 ### Creating a Present for Parts that Dwell in the Past 
 
 1. **Loss of Time Orientation** in DID clients:
-  - Traumatized parts disconnected from one another.
-  - Survival responses lead to distorted time orientation.
-  - Past experiences trigger present reactions.
+   - Traumatized parts disconnected from one another.
+   - Survival responses lead to distorted time orientation.
+   - Past experiences trigger present reactions.
 
 2. **Triggering Activities**:
-  - Simple tasks can become triggering.
-  - Triggers activate implicit memories and emotions.
-  - Clients assume danger in the present based on past experiences.
+   - Simple tasks can become triggering.
+   - Triggers activate implicit memories and emotions.
+   - Clients assume danger in the present based on past experiences.
 
 3. **Annie's Experience**:
-  - Dread and anxiety in morning routine.
-  - Fear intensifies during school lunch preparation.
-  - Automatic assumption of failure and danger.
+   - Dread and anxiety in morning routine.
+   - Fear intensifies during school lunch preparation.
+   - Automatic assumption of failure and danger.
 
 4. **Understanding Triggers**:
-  - Questions to acknowledge links between past and present.
-  - Validating feelings and body memories as normal responses to trauma.
+   - Questions to acknowledge links between past and present.
+   - Validating feelings and body memories as normal responses to trauma.
 
 5. **Dense Dissociative Barriers**:
-  - Challenging for DID clients to recognize shifts in mood, belief, and behavior.
-  - Importance of curiosity and care for inner worlds.
+   - Challenging for DID clients to recognize shifts in mood, belief, and behavior.
+   - Importance of curiosity and care for inner worlds.
 
 6. **Hijacking**:
-  - Term for what happens when traumatized clients are exposed to triggers.
-  - Body mobilizes emergency stress response, inhibiting prefrontal cortex.
-  - Parts can stimulate the emergency stress response and animal defense responses.
-  - Normal life self loses conscious awareness and control.
+   - Term for what happens when traumatized clients are exposed to triggers.
+   - Body mobilizes emergency stress response, inhibiting prefrontal cortex.
+   - Parts can stimulate the emergency stress response and animal defense responses.
+   - Normal life self loses conscious awareness and control.
 
 7. **Reclaiming Life**:
-  - Reframing crisis as parts' coup d'etat.
-  - Empowering normal life self to take back control.
-  - Importance of wanting a life after trauma, not determined by it.
+   - Reframing crisis as parts' coup d'etat.
+   - Empowering normal life self to take back control.
+   - Importance of wanting a life after trauma, not determined by it.
    
 ### Overcoming Conditioned Learning
 
@@ -1847,39 +1847,39 @@
 
 ### Building Trust Inside Trust
 1. **Trust** begins to build with improved internal communication and experiences of mastery and competence.
-  - Young parts long for someone strong enough to protect them from harm.
-  - Teenage parts seek protection for younger and adolescent parts as well.
-  - Confidence in the normal life self allows younger parts to relax their hypervigilance.
-  - Increased trust in an older, wiser grownup self enables belief in reassurances and perspective.
+   - Young parts long for someone strong enough to protect them from harm.
+   - Teenage parts seek protection for younger and adolescent parts as well.
+   - Confidence in the normal life self allows younger parts to relax their hypervigilance.
+   - Increased trust in an older, wiser grownup self enables belief in reassurances and perspective.
 2. **Healing attachment wounds** requires "basic trust" in a normal life self who is reliable and present.
-  - Trust is necessary for offering reparative experiences to young parts.
-  - Child parts need to feel emotionally and physically welcomed by this "other.
+   - Trust is necessary for offering reparative experiences to young parts.
+   - Child parts need to feel emotionally and physically welcomed by this "other.
 3. Annie's parts associated her new environment with their old, dangerous one due to hypervigilance.
 4. Annie struggled with feeling safe in her own life despite creating a refuge for others.
-  - She often blended with their emotions and fears.
-  - Some parts operated in secrecy.
+   - She often blended with their emotions and fears.
+   - Some parts operated in secrecy.
 5. The presence of an "eraser part" erased positive or empowering experiences from memory to protect the system.
 6. Techniques were developed to help Annie remember important information:
-  - Writing down key points on index cards.
-  - Sending emails summarizing sessions.
-  - Journaling about sessions or parts.
+   - Writing down key points on index cards.
+   - Sending emails summarizing sessions.
+   - Journaling about sessions or parts.
 7. The eraser part was asked to perform two jobs: erase harmful information and help save important information.
 
 ### autonomous functioning of the parts
 
 1. **Dissociative Identity Disorder (DID)**: Clients experience problems with reality-testing, relationships, safety, and judgment due to autonomous parts.
-  - Lack of conscious awareness interferes with getting to know parts.
+   - Lack of conscious awareness interferes with getting to know parts.
 2. **Less Severe Compartmentalization**: Parts can be "known" through feelings, wishes, beliefs, body language.
 3. **DID Client Behavior**: Trouble leaving office, repeated texts/calls between sessions.
 4. **Normal Life Self vs. Parts**: Differences in perspective, safe reality felt in body (heart rate slows, breathing easier).
 5. **Part Manifestations**: Urged not to trust normal life self, held beliefs about past environment.
 6. **Therapy Approach - Orienting the Parts**:
-  - Asking parts to show images of traumatic past.
-  - Showing parts images of present environment.
+   - Asking parts to show images of traumatic past.
+   - Showing parts images of present environment.
 7. **Effects of Orientation**: Decreased blending, increased objectivity, appreciation for present.
 8. **Annie's Transformation**:
-  - Recognized her home as "quaint" instead of a "slum".
-  - Saw personal touches reflecting who she is.
+   - Recognized her home as "quaint" instead of a "slum".
+   - Saw personal touches reflecting who she is.
 9. **Impact on Perception**: Parts could not perceive new environment until consciously drawn to details.
 
 ### Gathering Evidence: Establishing Retrospective Consciousness
@@ -1902,33 +1902,33 @@
 ### Building Skills to Overcome Gaps in Consciousness 
 
 1. **Building Skills for Continuous Consciousness**
-  - Importance of independent actions and shared consciousness in client's life stability.
-  - Lack of meta-awareness can lead to unconscious sabotage.
-  - Early treatment focus on present consciousness, not past traumatic memory.
+   - Importance of independent actions and shared consciousness in client's life stability.
+   - Lack of meta-awareness can lead to unconscious sabotage.
+   - Early treatment focus on present consciousness, not past traumatic memory.
 
 2. **Example of Gaby's Experience**
-  - Initial stabilization: proud and energized after years of addiction and high-risk behavior.
-  - Depression sets in: missed classes, fell behind on schoolwork, skipped work.
-  - Partner became frustrated and critical.
-  - Memories resurfaced: losses, abuse, loneliness, pain.
-  - Suicidal part acted to end suffering of depressed part without conscious thought.
+   - Initial stabilization: proud and energized after years of addiction and high-risk behavior.
+   - Depression sets in: missed classes, fell behind on schoolwork, skipped work.
+   - Partner became frustrated and critical.
+   - Memories resurfaced: losses, abuse, loneliness, pain.
+   - Suicidal part acted to end suffering of depressed part without conscious thought.
 
 3. **Importance of Building Conscious Awareness Skills**
-  - Daily activities recording: hourly time schedule.
-  - Filling in gaps: looking for clues.
-  - Decreases likelihood of switching or spacing out.
+   - Daily activities recording: hourly time schedule.
+   - Filling in gaps: looking for clues.
+   - Decreases likelihood of switching or spacing out.
 
 4. **Noticing "Who You Are" Moment by Moment**
-  - Observing signs of blending with different parts.
-  - Noticing words, themes, emotions, and beliefs.
-  - Recognizing different parts requires curiosity and structural dissociation model understanding.
+   - Observing signs of blending with different parts.
+   - Noticing words, themes, emotions, and beliefs.
+   - Recognizing different parts requires curiosity and structural dissociation model understanding.
 
 5. **Additional Skills for DID Clients**
-  - Using an inexpensive watch with an alarm function to notice "who I am" or "who's here?" every hour.
-  - Keeping a Dissociative Experiences Log to record observations.
-  - Setting car's trip odometers at the end of each day and checking in the morning for evidence of dissociative fugues.
-  - Recruiting a scheduling part to keep track of activities.
-  - Asking inside, "Does anyone know why ______ happened? Who is responsible?" and "How was that part trying to help?"
+   - Using an inexpensive watch with an alarm function to notice "who I am" or "who's here?" every hour.
+   - Keeping a Dissociative Experiences Log to record observations.
+   - Setting car's trip odometers at the end of each day and checking in the morning for evidence of dissociative fugues.
+   - Recruiting a scheduling part to keep track of activities.
+   - Asking inside, "Does anyone know why ______ happened? Who is responsible?" and "How was that part trying to help?"
    
 ### No More “Bad Guys” and “Good Guys” 
 
@@ -1960,15 +1960,15 @@
 
 ### Bringing Parts Up-to-Date
 1. **Trickle-Down Effect**: When amnestic barriers prevent communication between dissociated self-states, current life experiences cannot be integrated.
-  - The attach part longs for importance in relationships but doesn't receive news about caring people due to the barrier.
-  - The normal life part plans a vacation unaware of suicidal impulses from other parts.
+   - The attach part longs for importance in relationships but doesn't receive news about caring people due to the barrier.
+   - The normal life part plans a vacation unaware of suicidal impulses from other parts.
 2. **Parts Feeling Isolated**: Parts feel scared, vulnerable, and abandoned, believing they are still in the traumatic past.
-  - They fear danger without the presence of the therapist or protector figure.
+   - They fear danger without the presence of the therapist or protector figure.
 3. **Bringing Parts Up-to-Date**: Therapist helps clients provide information about present time to parts lost in the past.
 4. **Annie's Experience**: Annie feels anxiety and dread when her therapist goes on vacation, fearing abandonment and danger.
-  - The parts believe she is their protector and fear the bad people will hurt them if she's not around.
+   - The parts believe she is their protector and fear the bad people will hurt them if she's not around.
 5. **Communicating the News**: Therapist explains to Annie that she left the scary house in New Jersey long ago and is now safe.
-  - The parts are stunned but want to believe the news.
+   - The parts are stunned but want to believe the news.
 6. **Recognizing the Present**: Therapist asks Annie to show her parts their current home, helping them understand they are no longer in New Jersey.
 7. **Strength in Numbers**: The parts feel reassured by the presence of strong males (husband, sons, nephew) who want to protect Annie.
 8. **Calming the Parts**: Therapist encourages Annie to ask her parts to focus on their current surroundings and recognize they are no longer in New Jersey.
@@ -1976,131 +1976,131 @@
 ### Changing Patterns and Roles Survival behavior, learned in the
 
 1. **Survival Behavior** and Body Resistance:
-  - Changing patterns of clenching, bracing, increased heart rate and respiration are difficult for trauma survivors due to implicit memories connected to past threats (Ogden et al., 2006).
-  - Lowering guard, softening tension, opening heart can feel threatening.
-  - Anxiety escalates as soon as body relaxes without ability to modify automatic threat responses.
+   - Changing patterns of clenching, bracing, increased heart rate and respiration are difficult for trauma survivors due to implicit memories connected to past threats (Ogden et al., 2006).
+   - Lowering guard, softening tension, opening heart can feel threatening.
+   - Anxiety escalates as soon as body relaxes without ability to modify automatic threat responses.
 
 2. **Dissociative Disorders and Challenges**:
-  - Difficult for clients with dissociative disorders to remember or utilize basic skills of trauma recovery due to compartmentalization and internal struggles.
-  - Amnesia, internal conflicts, self-regulation problems, and attachment issues need addressing but require certain prerequisites.
+   - Difficult for clients with dissociative disorders to remember or utilize basic skills of trauma recovery due to compartmentalization and internal struggles.
+   - Amnesia, internal conflicts, self-regulation problems, and attachment issues need addressing but require certain prerequisites.
 
 3. **Approach to Helping Clients with Dissociative Disorders**:
-  - Increase conscious mindful awareness of parts and signs of triggering, switching, and blending.
-  - Psychoeducation.
-  - Help clients learn "language of parts.
-  - Piece together a continuous sense of consciousness.
-  - Emphasize practice and repetition of new patterns or actions.
-  - Renegotiate internal relationships using inner communication.
+   - Increase conscious mindful awareness of parts and signs of triggering, switching, and blending.
+   - Psychoeducation.
+   - Help clients learn "language of parts.
+   - Piece together a continuous sense of consciousness.
+   - Emphasize practice and repetition of new patterns or actions.
+   - Renegotiate internal relationships using inner communication.
 
 4. **Addressing Complex Challenges**:
-  - Address amnesia, internal conflicts, problems with self-regulation, and attachment issues in a systematic order.
-  - Develop dual awareness, unblending skills, and capacity to convey empathy to parts.
+   - Address amnesia, internal conflicts, problems with self-regulation, and attachment issues in a systematic order.
+   - Develop dual awareness, unblending skills, and capacity to convey empathy to parts.
 
 5. **Renegotiating Internal Relationships**:
-  - Differentiate suicidal part from normal life self.
-  - Unblend from suicidal part's impulses and emotions.
-  - Communicate respect and build relationships with both angry or suicidal part and wounded child selves it protects.
-  - Comfort and bond with attach parts to reduce vulnerability to painful emotion.
-  - Build up somatic sense of protection connected to fight response.
+   - Differentiate suicidal part from normal life self.
+   - Unblend from suicidal part's impulses and emotions.
+   - Communicate respect and build relationships with both angry or suicidal part and wounded child selves it protects.
+   - Comfort and bond with attach parts to reduce vulnerability to painful emotion.
+   - Build up somatic sense of protection connected to fight response.
 
 6. **Building Blocks of DID Treatment**:
-  - Awareness of shifts in emotion and sensation connected to parts.
-  - Mindful naming of each part’s function or attributes.
-  - Unblending from parts' impulses and emotions.
-  - Befriend each part.
-  - Develop interest in and compassion for them.
-  - Learn through inner dialogue to decipher their intentions and motivations.
-  - Ally with the “best self” of each part.
-  - Negotiate new resolutions to old issues.
+   - Awareness of shifts in emotion and sensation connected to parts.
+   - Mindful naming of each part’s function or attributes.
+   - Unblending from parts' impulses and emotions.
+   - Befriend each part.
+   - Develop interest in and compassion for them.
+   - Learn through inner dialogue to decipher their intentions and motivations.
+   - Ally with the “best self” of each part.
+   - Negotiate new resolutions to old issues.
 
 7. **Patience and Repetition**:
-  - Annie's example shows the necessity of patience and repetition for DID clients to become proficient in these skills.
-  - Layers of parts defending other parts result in patterns of stuckness.
+   - Annie's example shows the necessity of patience and repetition for DID clients to become proficient in these skills.
+   - Layers of parts defending other parts result in patterns of stuckness.
 
 8. **Amnestic Barriers between Parts**:
-  - Interfere with client’s ability to know inner world and parts, creating opportunities for sabotage by parts.
-  - Ensure trauma-related parts are unaware of safety, stability, and comfort of normal life part's consciously constructed adult life.
+   - Interfere with client’s ability to know inner world and parts, creating opportunities for sabotage by parts.
+   - Ensure trauma-related parts are unaware of safety, stability, and comfort of normal life part's consciously constructed adult life.
    
 ### Working with Regression and Aggression 
 
 1. **Attachment Drive** and **Fight Response**: Two fundamental human drives crucial for survival. Intensified in DID clients due to disorganized or traumatic childhood attachments.
-  - **Attachment Drive (Proximity-seeking)**: Necessary for protection of young, triggers fear of rejection and abandonment when threatened.
-  - **Fight Response**: Animal defense, intensified in DID clients, can lead to anger, hypervigilance, mistrust, even paranoia.
+   - **Attachment Drive (Proximity-seeking)**: Necessary for protection of young, triggers fear of rejection and abandonment when threatened.
+   - **Fight Response**: Animal defense, intensified in DID clients, can lead to anger, hypervigilance, mistrust, even paranoia.
 
 2. **DID Clients and Disorganized Attachment**:
-  - DID clients have dissociatively encapsulated attach and fight parts.
-  - Fear of rejection and abandonment are easily activated in the attachment part.
-  - Fight part comes to defense, assuming therapist is cause of feelings of hurt and anger (traumatic transference).
+   - DID clients have dissociatively encapsulated attach and fight parts.
+   - Fear of rejection and abandonment are easily activated in the attachment part.
+   - Fight part comes to defense, assuming therapist is cause of feelings of hurt and anger (traumatic transference).
 
 3. **Therapist's Role**:
-  - Therapist may feel pulled or yearned towards the needy attach part or pushed back by the accusatory fight part.
-  - Setting clear boundaries can inflame the fight part, triggering feelings of rejection in the attach part.
-  - Giving and doing more can also be threatening to the attach parts' fear of loss.
+   - Therapist may feel pulled or yearned towards the needy attach part or pushed back by the accusatory fight part.
+   - Setting clear boundaries can inflame the fight part, triggering feelings of rejection in the attach part.
+   - Giving and doing more can also be threatening to the attach parts' fear of loss.
 
 4. **Working with Disorganized Attachment**:
-  - Holding in mind the paradox: each part is separate but part of a whole.
-  - Resonating with the young part and communicating at their developmental level.
-  - Acknowledging the angry part's positive intentions to protect the child.
+   - Holding in mind the paradox: each part is separate but part of a whole.
+   - Resonating with the young part and communicating at their developmental level.
+   - Acknowledging the angry part's positive intentions to protect the child.
 
 5. **Therapist's Restraint**:
-  - Avoiding over-reacting to either regression or aggression.
-  - Teaching the client how to manage internal forces triggered by relationships.
-  - Preventing dependency on the therapist and fuelling disorganized attachment.
+   - Avoiding over-reacting to either regression or aggression.
+   - Teaching the client how to manage internal forces triggered by relationships.
+   - Preventing dependency on the therapist and fuelling disorganized attachment.
     
 ### Patience, Persistence, and a Good Seat Belt
 
 1. **Patience and Persistence**
-  - Therapist should exercise restraint, not becoming responsible for parts that want attachment or special treatment.
-  - Avoid taking on roles of rescuer, victimizer, or victim.
-  - Maintain commitment, care, and compassion without induction into the system.
+   - Therapist should exercise restraint, not becoming responsible for parts that want attachment or special treatment.
+   - Avoid taking on roles of rescuer, victimizer, or victim.
+   - Maintain commitment, care, and compassion without induction into the system.
 
 2. **Importance of the Normal Life Self**
-  - Shoulder responsibility of caring for young parts.
-  - Therapist not competing for job.
-  - Warmth, respect, and admiration for all parts.
+   - Shoulder responsibility of caring for young parts.
+   - Therapist not competing for job.
+   - Warmth, respect, and admiration for all parts.
 
 3. **Role of the Therapist**
-  - Coach for client's team.
-  - Parent educator.
-  - Ensure clients can manage bad feelings and evoke good feelings internally.
+   - Coach for client's team.
+   - Parent educator.
+   - Ensure clients can manage bad feelings and evoke good feelings internally.
 
 4. **Impact of Trauma**
-  - Child parts believe their feelings are not their own.
-  - Dependency on others for regulation and transformation of negative feelings into positive.
+   - Child parts believe their feelings are not their own.
+   - Dependency on others for regulation and transformation of negative feelings into positive.
 
 5. **Building Internal Relationships**
-  - Developing warm attachment bonds internally.
-  - Control rests with the client.
-  - Client becomes source of warm, pleasurable safe feelings.
+   - Developing warm attachment bonds internally.
+   - Control rests with the client.
+   - Client becomes source of warm, pleasurable safe feelings.
 
 6. **Dependency and Abandonment Fears**
-  - Dependency is safe when child parts depend on a caring adult self available in the same body.
-  - Unrelenting fears of abandonment of attach parts are heightened without therapist's presence.
+   - Dependency is safe when child parts depend on a caring adult self available in the same body.
+   - Unrelenting fears of abandonment of attach parts are heightened without therapist's presence.
    
 ### Self-Healing, Rather than Interpersonal Healing 
 
 1. **Self-Healing vs. Interpersonal Healing**
-  - In family therapy, therapists take a more "backseat" role compared to individual therapy.
-  - Dealing with multiple "clients" in fragmented or DID clients.
-  - Family system must heal itself for freedom from the past.
+   - In family therapy, therapists take a more "backseat" role compared to individual therapy.
+   - Dealing with multiple "clients" in fragmented or DID clients.
+   - Family system must heal itself for freedom from the past.
 2. **Organicity/Self-Leadership**
-  - Principle of body's innate drive toward healing and growth.
-  - Heal ourselves through access to innate capacities.
+   - Principle of body's innate drive toward healing and growth.
+   - Heal ourselves through access to innate capacities.
     * Compassion, curiosity, clarity, creativity, courage, calm, confidence, commitment.
 3. **Therapist's Role**
-  - Provide a "container" or "growth-facilitating" environment.
-  - Evoke natural tendencies for healing.
+   - Provide a "container" or "growth-facilitating" environment.
+   - Evoke natural tendencies for healing.
     * Use of therapist's qualities (compassion, curiosity, etc.) to stimulate client's access.
 4. **Social Engagement System**
-  - Neural system connected to the vagus nerve.
-  - Channels of communication between babies and parents.
-  - Creates a felt sense of safety for clients.
+   - Neural system connected to the vagus nerve.
+   - Channels of communication between babies and parents.
+   - Creates a felt sense of safety for clients.
     * Use of tone, facial expression, and gaze to communicate welcome, warmth, understanding.
 5. **Therapist's Communication with Clients**
-  - Speak with warmth, sadness, respect, or delight to parts.
-  - Reassure, educate, model attunement to child parts.
-  - Urge clients to make a place for vulnerable parts.
-  - Use facial expression, tone of voice, and softening of gaze to communicate empathy.
+   - Speak with warmth, sadness, respect, or delight to parts.
+   - Reassure, educate, model attunement to child parts.
+   - Urge clients to make a place for vulnerable parts.
+   - Use facial expression, tone of voice, and softening of gaze to communicate empathy.
       
 ### Facilitating Reunion
 
@@ -2109,9 +2109,9 @@
 3. Wise, compassionate "best self" not speaking during hostile remarks.
 4. Belief in client's best self used to challenge unrepresentative "I".
 5. Tom's desire for traumatized parts to be dead.
-  - Embarrassment and fear of vulnerability.
+   - Embarrassment and fear of vulnerability.
 6. Interaction with a little boy metaphor for Tom's inner child.
-  - Child represents traumatized part.
+   - Child represents traumatized part.
 7. Tom's impulse to help the child instead of dismissing him.
 8. Tom's feelings towards the child mirror his true nature.
 9. Tom's need for someone to hold him as a child.
@@ -2126,36 +2126,36 @@
 ### Repairing the Past: Embracing Our Selves 
 
 1. **Trauma Experience**: At the moment of trauma, the child feels helpless and abandoned, leading to a deep-rooted need for an omnipotent rescuer. (Herman, 1992)
-  - Child's emotional conviction of helplessness and abandonment increases the need for a rescuer.
-  - The rescuer is seen as essential for survival due to the child's belief that their life depends on them.
-  - No tolerance for human error due to the importance of the rescuer.
+   - Child's emotional conviction of helplessness and abandonment increases the need for a rescuer.
+   - The rescuer is seen as essential for survival due to the child's belief that their life depends on them.
+   - No tolerance for human error due to the importance of the rescuer.
 
 2. **Innate Capacities**: Human beings are born with innate drives and capacities, enabling them to keep going despite adversity.
-  - Capacity to attach, explore, laugh and play, bond with social group, and nurture young.
-  - Developing brain offers resources like curiosity, compassion, creativity, and wonder.
-  - Ability to imagine a life we've never known.
+   - Capacity to attach, explore, laugh and play, bond with social group, and nurture young.
+   - Developing brain offers resources like curiosity, compassion, creativity, and wonder.
+   - Ability to imagine a life we've never known.
 
 3. **Impact of Neglect or Trauma**: Under chronic conditions of neglect, trauma, or frightened and frightening parenting, our bodies prioritize survival responses and anticipation of danger.
-  - Normal attachment, exploration, learning, play, even sleeping and eating take a back seat to hypervigilance and defensive reactions.
+   - Normal attachment, exploration, learning, play, even sleeping and eating take a back seat to hypervigilance and defensive reactions.
 
 4. **Importance of Balanced Parts**: It's essential to have parts that support survival under threat as well as a part able to "make do" in the worst circumstances.
-  - The normal life child self, who smiles for family photographs, cares for siblings, goes to school, and finds pleasure or mastery in developmental tasks.
+   - The normal life child self, who smiles for family photographs, cares for siblings, goes to school, and finds pleasure or mastery in developmental tasks.
 
 5. **Neglecting the Normal Life Self**: Therapists often focus on wounds and wounded parts, neglecting the side of the child who "kept on keeping on.
-  - Failure to listen for indicators of the child's drive for normality can result in a shared portrait of the client as a wounded victim instead of an ingenious survivor.
+   - Failure to listen for indicators of the child's drive for normality can result in a shared portrait of the client as a wounded victim instead of an ingenious survivor.
 
 6. **Example of Annie**: Despite severe neglect and trauma, Annie's normal life self was driven to make the most out of whatever "normal" she could create or emulate.
-  - Eager, bright, sociable little girl who naturally evoked support and attention from teachers and peers.
-  - Managed to compensate for stigmata of neglect and poverty with an exuberant personality and sports equipment.
-  - Cared for younger siblings, providing important normal developmental experience and later ability to raise securely attached children.
+   - Eager, bright, sociable little girl who naturally evoked support and attention from teachers and peers.
+   - Managed to compensate for stigmata of neglect and poverty with an exuberant personality and sports equipment.
+   - Cared for younger siblings, providing important normal developmental experience and later ability to raise securely attached children.
 
 7. **Dominance of Traumatized Child Parts**: Despite the strengths and resources of her normal life self, Annie found her day-to-day experience dominated by traumatized child parts.
-  - Compelled to isolate, avoid going outside, cancel dates with potential friends, and never answer the door or telephone.
-  - Caretaking had been the safest role she knew in childhood, and many parts did not want to give it up despite criticism from judgmental protector parts.
+   - Compelled to isolate, avoid going outside, cancel dates with potential friends, and never answer the door or telephone.
+   - Caretaking had been the safest role she knew in childhood, and many parts did not want to give it up despite criticism from judgmental protector parts.
 
 8. **Lack of Perspective**: Individuals like Josh, who have a competent, successful, well-liked adult self but are dominated by traumatized child parts, struggle to see their life or themselves in perspective.
-  - Child parts hold anxiety and self-doubt, making it hard for them to believe positive qualities about themselves.
-  - Cynical part convinces them there is no data to support any positive qualities, preventing them from accepting compliments or practicing self-care.
+   - Child parts hold anxiety and self-doubt, making it hard for them to believe positive qualities about themselves.
+   - Cynical part convinces them there is no data to support any positive qualities, preventing them from accepting compliments or practicing self-care.
 
 9. **Impact of Trauma on Functioning**: Traumatized child parts' intense emotions and reactivity can hijack an individual's body and drive impulsive behavior, making it difficult for the normal life self to function effectively.
 
@@ -2184,21 +2184,21 @@
 #### When Josh’s fight part was triggered...
 
 1. **Josh's prefrontal cortex couldn't compete with emotional intensity**, leading to blending with his child selves (ashamed little boy, depressed 12-year-old) who had no relationship with his normal life self.
-  - The ashamed and depressed parts had a long, troubled relationship with the fight part.
-  - Josh was too blended with them to reassure or support his child selves.
-  - The parts did not seek him out when they needed help.
+   - The ashamed and depressed parts had a long, troubled relationship with the fight part.
+   - Josh was too blended with them to reassure or support his child selves.
+   - The parts did not seek him out when they needed help.
 2. **Annie** had no emotional connection to her words spoken to her parts due to past overwhelming emotions.
-  - Historically, she took on surrogate children and helped them develop skills for independence.
-  - She was exceptionally gifted in helping others but couldn't access these abilities for her own parts.
+   - Historically, she took on surrogate children and helped them develop skills for independence.
+   - She was exceptionally gifted in helping others but couldn't access these abilities for her own parts.
 3. **Annie**'s normal life self kept a safe distance from her parts due to fear of being overwhelmed by their emotions.
-  - The parts felt abandoned when Annie blended with them and couldn't stay present.
+   - The parts felt abandoned when Annie blended with them and couldn't stay present.
 4. **Annie**'s protector parts were holding her on "house arrest" due to fear of the dangerous people outside her house like those who had harmed her in the past.
-  - She didn't realize she needed to tell her parts about her safety and new life.
+   - She didn't realize she needed to tell her parts about her safety and new life.
 5. **Josh** identified with his ashamed part early in adulthood, facilitating survival but minimizing abuse.
-  - He couldn't recognize or integrate healthy normality he had created as an adult.
+   - He couldn't recognize or integrate healthy normality he had created as an adult.
 6. **Annie** and **Josh** both needed to be encouraged to thank their ashamed parts for helping them survive without losing their hearts or souls.
 7. **Dawn**, unlike Annie and Josh, could unblend from her parts and have warm feelings towards them.
-  - Her treatment team helped her recognize the normal life part despite its ups and downs caused by triggered reactions.
+   - Her treatment team helped her recognize the normal life part despite its ups and downs caused by triggered reactions.
     
 ### Accessing the Resources of a Wise Adult 
 
@@ -2216,24 +2216,24 @@
 ### Listening to Children Builds Attachment Bonds
 
 1. **Attachment Bonds**
-  - Children need someone to respond to them for a trusting relationship.
-  - Asking clients to use the language of parts can ease distress.
-  - Normal life self should respond with concern and genuine interest.
+   - Children need someone to respond to them for a trusting relationship.
+   - Asking clients to use the language of parts can ease distress.
+   - Normal life self should respond with concern and genuine interest.
 
 2. **Identifying Parts' Feelings**
-  - Dissociated child parts need a caring adult response.
-  - Clients often have difficulty distinguishing their feelings from parts'.
-  - Disidentifying from cognitive schemas held by different parts can be challenging.
+   - Dissociated child parts need a caring adult response.
+   - Clients often have difficulty distinguishing their feelings from parts'.
+   - Disidentifying from cognitive schemas held by different parts can be challenging.
 
 3. **Helping Clients Embrace Parts**
-  - Clients must learn to observe signs of being blended and unblend.
-  - They must access innate compassion for young parts.
-  - Therapist's role is to ensure dual awareness before helping parts.
+   - Clients must learn to observe signs of being blended and unblend.
+   - They must access innate compassion for young parts.
+   - Therapist's role is to ensure dual awareness before helping parts.
 
 4. **Trust Issues**
-  - Jenny had trouble trusting the therapist due to past experiences.
-  - Clients may entertain thoughts about therapists' intentions.
-  - It's natural for clients and their parts to have mixed feelings about therapy.
+   - Jenny had trouble trusting the therapist due to past experiences.
+   - Clients may entertain thoughts about therapists' intentions.
+   - It's natural for clients and their parts to have mixed feelings about therapy.
    
 #### I utilize an “equal opportunity” approach
 
@@ -2265,61 +2265,61 @@
 ### Accessing the Resources of Normal Life
 
 1. **Normal Life Role Connection**
-  - Therapist connects client's experiences as a parent or caretaker to their inner child parts.
-  - Ignoring upset or scared child parts leads to increased distress.
-  - Suggestion: Treat inner child parts the same way you would treat your biological children.
+   - Therapist connects client's experiences as a parent or caretaker to their inner child parts.
+   - Ignoring upset or scared child parts leads to increased distress.
+   - Suggestion: Treat inner child parts the same way you would treat your biological children.
 
 2. **Impact of Trauma on Normal Life**
-  - Rachel, despite childhood trauma and early adult crises, managed to finish university education and start graduate school.
-  - Her parts hijacked her ability to function again due to fear of success or visibility.
-  - Strong normal life self vs. helpless, needy, frightened parts.
+   - Rachel, despite childhood trauma and early adult crises, managed to finish university education and start graduate school.
+   - Her parts hijacked her ability to function again due to fear of success or visibility.
+   - Strong normal life self vs. helpless, needy, frightened parts.
 
 3. **The Four Befriending Questions**
-  - Rachel used the Four Befriending Questions to understand a young, anxious, helpless part.
-  - This part had once provided protection against her father's rage.
-  - Resulted in a split inside Rachel between strong and proud parts vs. needy, scared parts.
+   - Rachel used the Four Befriending Questions to understand a young, anxious, helpless part.
+   - This part had once provided protection against her father's rage.
+   - Resulted in a split inside Rachel between strong and proud parts vs. needy, scared parts.
 
 4. **Building Resources of a Normal Life Self**
-  - Rachel committed to activities that provided a feeling of a steady inner presence: yoga, running, caring for her dog, socializing with friends.
-  - Consistent commitment helped all parts feel less vulnerable.
+   - Rachel committed to activities that provided a feeling of a steady inner presence: yoga, running, caring for her dog, socializing with friends.
+   - Consistent commitment helped all parts feel less vulnerable.
 
 5. **Compassion and Connection**
-  - Rachel struggled when the parts' strong emotions required compassion.
-  - Curiosity provides mindful distance but can diminish mental space, leading to intrusion of other parts or flooding by distressing feelings.
+   - Rachel struggled when the parts' strong emotions required compassion.
+   - Curiosity provides mindful distance but can diminish mental space, leading to intrusion of other parts or flooding by distressing feelings.
 
 6. **Somatic Interventions**
-  - Simple somatic interventions help regulate the nervous system and communicate commitment and compassion to the parts.
-  - Placing a hand over the heart or chest calms young parts and communicates caring.
-  - Making a big circle gesture opens a container for all parts, sending a message of welcome.
+   - Simple somatic interventions help regulate the nervous system and communicate commitment and compassion to the parts.
+   - Placing a hand over the heart or chest calms young parts and communicates caring.
+   - Making a big circle gesture opens a container for all parts, sending a message of welcome.
    
 ### Taking Young Parts “Under the Wing”
 
 1. **Emotional Connection with Child Parts**
-  - Annie, Rachel, and Sarah struggled to emotionally connect with their traumatized child parts due to intense emotions and fear of harm.
+   - Annie, Rachel, and Sarah struggled to emotionally connect with their traumatized child parts due to intense emotions and fear of harm.
    
 2. **Identifying Parts** by feelings of distress, negative thoughts, and physical ailments but couldn't emotionally engage with them.
 
 3. **Each needed an intermediate step** between recognizing and appreciating their parts' dilemmas and emotionally meeting them.
    
 4. **Attachment-Oriented Intervention**
-  - The therapist suggested "taking the parts under your wing," emphasizing attachment and protection.
+   - The therapist suggested "taking the parts under your wing," emphasizing attachment and protection.
 
 5. **Understanding Child Parts**
-  - Sarah had a clear sense of her child parts but struggled with proximity to some, feeling connected yet distant.
+   - Sarah had a clear sense of her child parts but struggled with proximity to some, feeling connected yet distant.
    
 6. **Offering a Wing**
-  - The therapist suggested offering a "wing" to the scared parts, creating a non-threatening sense of safety and protection.
+   - The therapist suggested offering a "wing" to the scared parts, creating a non-threatening sense of safety and protection.
 
 7. **Healing through Connection**
-  - Offering a wing allowed clients to feel emotionally close while staying centered in their normal life selves.
+   - Offering a wing allowed clients to feel emotionally close while staying centered in their normal life selves.
    
 8. **Non-Judgmental Communication**
-  - The language of "offering a wing" was non-threatening and didn't trigger judgmental parts, making it an effective communication tool.
+   - The language of "offering a wing" was non-threatening and didn't trigger judgmental parts, making it an effective communication tool.
    
 ### Attachment Bonds Are Built through Body 
 1. **Attachment Bonds**: Develop through body experiences in infancy, starting with how parents hold, reach for, rock, feed, soothe babies.
-  - Somatic transactions repeated over time form secure attachment.
-  - Parents' arms convey safety, insecurity, or threat.
+   - Somatic transactions repeated over time form secure attachment.
+   - Parents' arms convey safety, insecurity, or threat.
 2. **Focus on Present**: In contrast to early models of trauma treatment, focus is on being "here" rather than revisiting past traumas.
 3. **Missing Experiences**: Normal life self can provide crucial missing experiences for parts that developed at a distance from traumatic events.
 4. **Under the Wing**: Providing emotional and relational connection to childhood self, offering feelings of safety, pride, protection, and admiration.
@@ -2331,27 +2331,27 @@
 ### Fears and Phobias of Internal Attachment
 
 1. **Fears and Phobias of Internal Attachment**
-  - Carl's intrusive thoughts disrupt his empathy towards his younger self.
-  - An analytical part emerges, questioning the work and suggesting other treatment options.
-  - This pattern repeats, with Carl feeling curiosity followed by irritability.
+   - Carl's intrusive thoughts disrupt his empathy towards his younger self.
+   - An analytical part emerges, questioning the work and suggesting other treatment options.
+   - This pattern repeats, with Carl feeling curiosity followed by irritability.
 2. **Origin of the Gatekeeper Part**
-  - Carl's parents' expectations shaped his behavior: only rational, goal-oriented actions were acceptable.
-  - As a sensitive, anxious child, Carl struggled with separation anxiety and fear of rejection.
+   - Carl's parents' expectations shaped his behavior: only rational, goal-oriented actions were acceptable.
+   - As a sensitive, anxious child, Carl struggled with separation anxiety and fear of rejection.
 3. **The Gatekeeper's Role**
-  - The gatekeeper part evolved to protect the little boy from rejection and abandonment.
-  - It was successful in keeping Carl focused on "important things," but failed when Carl experienced intense feelings of neediness and fear of abandonment.
+   - The gatekeeper part evolved to protect the little boy from rejection and abandonment.
+   - It was successful in keeping Carl focused on "important things," but failed when Carl experienced intense feelings of neediness and fear of abandonment.
 4. **Encountering Another Gatekeeper**
-  - A new gatekeeper emerges, blocking Carl's attachment to the child part.
-  - The child expresses a deep fear of being alone and unloved.
+   - A new gatekeeper emerges, blocking Carl's attachment to the child part.
+   - The child expresses a deep fear of being alone and unloved.
 5. **Befriending the Child Part**
-  - Through Befriending Questions, Carl begins to understand the child's fears and needs.
-  - He acknowledges the difficulty of the situation and promises to stay present with the child.
+   - Through Befriending Questions, Carl begins to understand the child's fears and needs.
+   - He acknowledges the difficulty of the situation and promises to stay present with the child.
 6. **Healing the Wounds**
-  - Carl realizes that his mother was not always reliable, contributing to the child's lack of trust.
-  - He apologizes for past neglect and assures the child that he will be there for him.
+   - Carl realizes that his mother was not always reliable, contributing to the child's lack of trust.
+   - He apologizes for past neglect and assures the child that he will be there for him.
 7. **The Power of Attachment**
-  - The child feels relief and trust as Carl stays present with him.
-  - They both experience the importance of attachment and being together.
+   - The child feels relief and trust as Carl stays present with him.
+   - They both experience the importance of attachment and being together.
     
 #### discussion of “parenting tips”
 
@@ -2377,34 +2377,34 @@
 ### Rupture and Repair of Internal Attachment Relationships
 
 1. **Emotional Ruptures and Repair**
-  - Healing cannot be achieved through re-experiencing old emotional pain; focus on repairing emotional ruptures instead.
-  - Traumatized clients cannot feel whole without efforts to bring solace to distressed parts and combat self-alienation and self-loathing.
+   - Healing cannot be achieved through re-experiencing old emotional pain; focus on repairing emotional ruptures instead.
+   - Traumatized clients cannot feel whole without efforts to bring solace to distressed parts and combat self-alienation and self-loathing.
    
 2. **Role of the Therapist**
-  - The therapist should keep in mind the ultimate purpose: repairing implicit memories of early attachment rupture.
-  - Each client and part is unique, but building blocks of internal attachment repair remain the same.
+   - The therapist should keep in mind the ultimate purpose: repairing implicit memories of early attachment rupture.
+   - Each client and part is unique, but building blocks of internal attachment repair remain the same.
 
 3. **Identifying Traumatized Parts**
-  - Ask clients to recognize symptoms as a part and help them differentiate traumatized part versus adult observer.
-  - Elicit a felt sense of each part, not an intellectual interpretation.
+   - Ask clients to recognize symptoms as a part and help them differentiate traumatized part versus adult observer.
+   - Elicit a felt sense of each part, not an intellectual interpretation.
 
 4. **Communication with Parts**
-  - Place greater emphasis on togetherness of adult client and child than on content of their conversation.
-  - Encourage inner reciprocal communication between parts.
-  - Cultivate trust by understanding the reasons for fear of trusting.
+   - Place greater emphasis on togetherness of adult client and child than on content of their conversation.
+   - Encourage inner reciprocal communication between parts.
+   - Cultivate trust by understanding the reasons for fear of trusting.
 
 5. **Repair Moments**
-  - Use what doesn't work as an attachment-building moment.
-  - Use the Four Befriending Questions to explore fears, conflicts, mistrust, etc.
-  - Insist on responsibility and accountability within the internal community of parts.
+   - Use what doesn't work as an attachment-building moment.
+   - Use the Four Befriending Questions to explore fears, conflicts, mistrust, etc.
+   - Insist on responsibility and accountability within the internal community of parts.
 
 6. **Maximizing Moments of Attunement**
-  - Maximize moments of attunement physically and emotionally.
-  - Avoid shifting away from mindful connection to insight-oriented discussion.
+   - Maximize moments of attunement physically and emotionally.
+   - Avoid shifting away from mindful connection to insight-oriented discussion.
 
 7. **Earned Secure Attachment**
-  - Repeated steps lead to normal life self feeling differentiated from trauma-driven emotions.
-  - Each part feels "held" by someone older and wiser, leading to earned secure attachment.
+   - Repeated steps lead to normal life self feeling differentiated from trauma-driven emotions.
+   - Each part feels "held" by someone older and wiser, leading to earned secure attachment.
    
 ## CHAPTER 10
 ### Restoring What Was Lost
@@ -2424,20 +2424,20 @@
 ### Reorganizing the Relationship to the Past
 
 1. **Reorganizing the Relationship to the Past**
-  - Developing compassionate relationships with hurt, lonely, etc. parts is challenging due to raw emotions.
-  - Therapist must help clients maintain curiosity and cultivate compassion.
-  - Importance of therapist's "loving presence" - warm, compassionate, curious, looking for what is right.
+   - Developing compassionate relationships with hurt, lonely, etc. parts is challenging due to raw emotions.
+   - Therapist must help clients maintain curiosity and cultivate compassion.
+   - Importance of therapist's "loving presence" - warm, compassionate, curious, looking for what is right.
 2. **Role of Memory**
-  - Traumatic memory processing not the objective, but memories may come up.
-  - Memories provide context for evoking compassion for young child.
-  - Deepening bond between normal life self and child through empathy and connection.
-  - New experiences are encoded as memory when focused on for 30 seconds or more.
+   - Traumatic memory processing not the objective, but memories may come up.
+   - Memories provide context for evoking compassion for young child.
+   - Deepening bond between normal life self and child through empathy and connection.
+   - New experiences are encoded as memory when focused on for 30 seconds or more.
 3. **Annie's Experience**
-  - Afraid of leaving house, unable to unblend from parts.
-  - Parts afraid of making mistakes, not knowing enough, having people in the house.
-  - Validating parts' fears without exploring events to keep emphasis on feelings.
-  - Modeling intervention for Annie: emphatically assure parts of safety.
-  - Repeating announcement calms parts and allows Annie to do her job without interruption.
+   - Afraid of leaving house, unable to unblend from parts.
+   - Parts afraid of making mistakes, not knowing enough, having people in the house.
+   - Validating parts' fears without exploring events to keep emphasis on feelings.
+   - Modeling intervention for Annie: emphatically assure parts of safety.
+   - Repeating announcement calms parts and allows Annie to do her job without interruption.
    
 ### “Me Now” versus “That Part of Me Then” 
 
@@ -2450,118 +2450,118 @@
 
 ### Establishing Internal Communication with Dysregulated Parts 
 1. **Establishing Internal Communication**
-  - Therapist identifies roles, resources, capacities, and daily activities of both normal life self and dysregulated parts.
-  - Clients reminded that difficulties are expressions of parts being triggered by normal life trauma-related stimuli.
+   - Therapist identifies roles, resources, capacities, and daily activities of both normal life self and dysregulated parts.
+   - Clients reminded that difficulties are expressions of parts being triggered by normal life trauma-related stimuli.
 
 2. **Listening and Responding to Dysregulated Parts**
-  - Normal life self listens with curiosity or compassion to emotions conveyed by parts.
-  - Response is to ask parts "What are they worried about?" using the term "worry" which is non-threatening.
+   - Normal life self listens with curiosity or compassion to emotions conveyed by parts.
+   - Response is to ask parts "What are they worried about?" using the term "worry" which is non-threatening.
 
 3. **Exploring Parts' Worries**
-  - Initial worries expressed by parts are concrete or superficial.
-  - Normal life self inquires more deeply to connect parts' fears with childhood environment where trauma occurred.
+   - Initial worries expressed by parts are concrete or superficial.
+   - Normal life self inquires more deeply to connect parts' fears with childhood environment where trauma occurred.
 
 4. **Maintaining Dual Awareness**
-  - Clients face challenges tolerating somatic reactions to intrusive thoughts and emotions.
-  - Therapist assumes these challenges are part of the work, not a risk to life or a deal breaker.
+   - Clients face challenges tolerating somatic reactions to intrusive thoughts and emotions.
+   - Therapist assumes these challenges are part of the work, not a risk to life or a deal breaker.
 
 5. **Learning New Skills and Approaches**
-  - Clients may fear trying new steps or skills due to potential failure or inability to survive.
-  - Therapist helps clients assess if new step is too much, acknowledges fears, or signs of readiness.
+   - Clients may fear trying new steps or skills due to potential failure or inability to survive.
+   - Therapist helps clients assess if new step is too much, acknowledges fears, or signs of readiness.
    
 ### Rupture and Repair 
 
 1. **Rupture and Repair**
-  - Infants' tolerance expands when exposed to stimuli outside comfort zone, followed by soothing and re-regulation (Tronick, 2007).
-  - Attachment literature labels this phenomenon as "rupture and repair": discomfort followed by repair that restores attunement.
-  - Repair fosters expectation of safety and positive feeling states.
+   - Infants' tolerance expands when exposed to stimuli outside comfort zone, followed by soothing and re-regulation (Tronick, 2007).
+   - Attachment literature labels this phenomenon as "rupture and repair": discomfort followed by repair that restores attunement.
+   - Repair fosters expectation of safety and positive feeling states.
 
 2. **Understanding Client's Response**
-  - Trauma-related parts may resist interventions due to fear of change.
-  - Therapist should help clients notice resistance as understandable hesitation or hypervigilance.
+   - Trauma-related parts may resist interventions due to fear of change.
+   - Therapist should help clients notice resistance as understandable hesitation or hypervigilance.
 
 3. **Regulating Distress in Sessions**
-  - When clients are dysregulated, therapist's priority is helping them regulate rather than focusing on content.
-  - Regulation builds attachment bonds to parts.
+   - When clients are dysregulated, therapist's priority is helping them regulate rather than focusing on content.
+   - Regulation builds attachment bonds to parts.
 
 4. **Internal Attachment Work**
-  - All difficulties in session become opportunities for increasing compassion and acceptance.
-  - Helping clients maintain dual awareness when parts intrude.
+   - All difficulties in session become opportunities for increasing compassion and acceptance.
+   - Helping clients maintain dual awareness when parts intrude.
 
 5. **Regulating Activation**
-  - Sensorimotor Psychotherapy interventions can be reframed to support parts.
-  - Asking parts to "step back" or "sit back" helps clients maintain a window of tolerance and dialogue with all parts.
+   - Sensorimotor Psychotherapy interventions can be reframed to support parts.
+   - Asking parts to "step back" or "sit back" helps clients maintain a window of tolerance and dialogue with all parts.
 
 6. **Validating Clients' Experiences**
-  - Validating clients' experiences of being ignored or unheard can help build trust and understanding.
-  - Normal life self is treated as competent, caring adult while parts are described with empathy as children or adolescents.
+   - Validating clients' experiences of being ignored or unheard can help build trust and understanding.
+   - Normal life self is treated as competent, caring adult while parts are described with empathy as children or adolescents.
    
 ### Communicating Compassion toward Wounded Child Parts
 
 1. **Communicating Compassion**
-  - Believability of reassurances depends on feeling "gotten"
-  - Empty reassurances can trigger emotional memories of abusers
-  - Empathic attunement is crucial for successful reassurance
+   - Believability of reassurances depends on feeling "gotten"
+   - Empty reassurances can trigger emotional memories of abusers
+   - Empathic attunement is crucial for successful reassurance
 2. **Understanding the Role of the Normal Life Self**
-  - Asks "hear" each channel of communication from wounded parts
-  - Responds with curiosity and compassion
-  - Uses appropriate language based on the part's age, feelings, and predicament
+   - Asks "hear" each channel of communication from wounded parts
+   - Responds with curiosity and compassion
+   - Uses appropriate language based on the part's age, feelings, and predicament
 3. **Exploring Parts' Feelings or Reactions**
-  - Inquires about fears, worries, sadness, etc.
-  - Encourages normal life self to think about why the child part might feel that way
+   - Inquires about fears, worries, sadness, etc.
+   - Encourages normal life self to think about why the child part might feel that way
 4. **Building Emotional Connection**
-  - Asks "How do you feel toward that part now?
-  - Evokes compassion and empathy from the normal life self
+   - Asks "How do you feel toward that part now?
+   - Evokes compassion and empathy from the normal life self
 5. **Mutuality in Communication**
-  - Focuses on reciprocity in the exchange between parts
-  - Guides client to ask about the child part's experience of their connection
+   - Focuses on reciprocity in the exchange between parts
+   - Guides client to ask about the child part's experience of their connection
 6. **Validating Parts' Emotions**
-  - Validates event-specific emotions to build trust and relief.
+   - Validates event-specific emotions to build trust and relief.
    
 ### Interference with Reparative Experiences 
 
 1. **Reparative Experiences**
-  - Important to help clients stay connected to reparative experiences with their traumatized child self.
-  - Deepening trust between child and adult parts can be disrupted by intruding parts.
-  - Therapist coaches clients through interruptions, giving them a choice to support new learning.
+   - Important to help clients stay connected to reparative experiences with their traumatized child self.
+   - Deepening trust between child and adult parts can be disrupted by intruding parts.
+   - Therapist coaches clients through interruptions, giving them a choice to support new learning.
 
 2. **Inner Dialogues**
-  - Some clients can engage in internal dialogues with their parts.
-  - Reparative experiences include feeling understood, moved, warm, and safe.
-  - Normal life self is coached through interruptions by therapist.
+   - Some clients can engage in internal dialogues with their parts.
+   - Reparative experiences include feeling understood, moved, warm, and safe.
+   - Normal life self is coached through interruptions by therapist.
 
 3. **The Four Befriending Questions**
-  - Ask the part what it's worried about if you do something (go to the party).
-  - Ask the part what it's worried about if people see it.
-  - Ask the part what it's worried about if they don't like what they see.
-  - Ask the part what it needs from you right now to not be so afraid.
+   - Ask the part what it's worried about if you do something (go to the party).
+   - Ask the part what it's worried about if people see it.
+   - Ask the part what it's worried about if they don't like what they see.
+   - Ask the part what it needs from you right now to not be so afraid.
 
 4. **Outcome of Befriending Questions**
-  - Annie felt calm at the party, no longer obsessing or shaming herself.
-  - 13-year-old part felt proud and confident when Annie accepted herself.
+   - Annie felt calm at the party, no longer obsessing or shaming herself.
+   - 13-year-old part felt proud and confident when Annie accepted herself.
    
 #### Notice the therapist leads her...
 
 1. **Befriending Questions**
-  - Therapist guides client through four questions step by step.
-  - First question: Tell her how badly you feel.
-  - Second question: What is it like for her to feel someone's distress over having hurt her?
+   - Therapist guides client through four questions step by step.
+   - First question: Tell her how badly you feel.
+   - Second question: What is it like for her to feel someone's distress over having hurt her?
 2. **Understanding the Child Part's Experience**
-  - Child parts may feel nourished but hesitant or afraid to trust.
-  - Past experiences of lack of caring make it hard for them to believe in new care.
+   - Child parts may feel nourished but hesitant or afraid to trust.
+   - Past experiences of lack of caring make it hard for them to believe in new care.
 3. **Validating Fears and Lack of Trust**
-  - Therapist helps clients understand child part's fears and validate them.
-  - Asking questions to evoke compassion and trust.
+   - Therapist helps clients understand child part's fears and validate them.
+   - Asking questions to evoke compassion and trust.
 4. **Providing Psychoeducation**
-  - In trauma work, therapists provide explanations due to client's lack of words for their trauma responses.
-  - Past and present are intertwined, language spoken by normal life self is different from child part.
+   - In trauma work, therapists provide explanations due to client's lack of words for their trauma responses.
+   - Past and present are intertwined, language spoken by normal life self is different from child part.
 5. **Avoiding Therapist Bias or Client Over-compliance**
-  - Clients observe effects of each intervention.
-  - Asking clients to check in with parts and ask if it feels right.
+   - Clients observe effects of each intervention.
+   - Asking clients to check in with parts and ask if it feels right.
 6. **Encouraging Embodied Communication**
-  - Letting child parts know feelings and body language that you understand them.
-  - Using feelings to communicate presence and intention to stay.
-  - Holding gently to convey they're not alone.
+   - Letting child parts know feelings and body language that you understand them.
+   - Using feelings to communicate presence and intention to stay.
+   - Holding gently to convey they're not alone.
    
 ### Building Impulses to Care
 
@@ -2580,34 +2580,34 @@
 ### Creating a New Purpose and Mission for Each Part
 
 1. **Protector parts** in therapy:
-  - Benefits when given power and control voluntarily by the client's normal life self.
-  - Achieves better balance of vulnerability and feelings of mastery.
-  - Allows access to young wounded or innocent parts.
-  - Improves internal communication.
-  - Helps client become more resourced, self-protective, and better boundaried.
+   - Benefits when given power and control voluntarily by the client's normal life self.
+   - Achieves better balance of vulnerability and feelings of mastery.
+   - Allows access to young wounded or innocent parts.
+   - Improves internal communication.
+   - Helps client become more resourced, self-protective, and better boundaried.
 
 2. **Mistakes therapists make**:
-  - Giving up in the face of protector's silence, resistance, or devaluing.
-  - Demonizing protector parts as interference instead of part of the work.
-  - Urging clients to push through objections or ignore them, polarizing protectors and reinforcing distrust.
+   - Giving up in the face of protector's silence, resistance, or devaluing.
+   - Demonizing protector parts as interference instead of part of the work.
+   - Urging clients to push through objections or ignore them, polarizing protectors and reinforcing distrust.
 
 3. **Effective therapist responses**:
-  - Expressing respect, gratitude, and understanding for protector parts' actions and reactions.
-  - Encouraging client to do the same, promoting collaboration.
-  - Persisting in efforts to make contact with fight part despite rebuffs, sending a committed message.
+   - Expressing respect, gratitude, and understanding for protector parts' actions and reactions.
+   - Encouraging client to do the same, promoting collaboration.
+   - Persisting in efforts to make contact with fight part despite rebuffs, sending a committed message.
 
 4. **Attachment theory application**:
-  - Importance of resonance (mirroring feelings) and repair (addressing distress) for effective communication between parts and normal life self.
-  - Avoiding "blending" with the feelings of a part or offering empty reassurances.
+   - Importance of resonance (mirroring feelings) and repair (addressing distress) for effective communication between parts and normal life self.
+   - Avoiding "blending" with the feelings of a part or offering empty reassurances.
 
 5. Mason's phobia:
-  - Fear of getting sick leading to chronic anxiety.
-  - Childhood memory of cartoon on germs and hand washing causing panic.
-  - Trauma-related terms used to understand the boy's fear.
-  - Mirroring the boy's anxiety and empathy, communicating understanding and compassion.
-  - Offering help with watchfulness, allowing the boy to relax.
-  - Demonstrating thorough scanning of environment to reassure the boy.
-  - Recognizing the importance of not forgetting about the little boy within, just as Mason doesn't forget his own son.
+   - Fear of getting sick leading to chronic anxiety.
+   - Childhood memory of cartoon on germs and hand washing causing panic.
+   - Trauma-related terms used to understand the boy's fear.
+   - Mirroring the boy's anxiety and empathy, communicating understanding and compassion.
+   - Offering help with watchfulness, allowing the boy to relax.
+   - Demonstrating thorough scanning of environment to reassure the boy.
+   - Recognizing the importance of not forgetting about the little boy within, just as Mason doesn't forget his own son.
    
 #### therapist and client had to become creative
 
@@ -2631,29 +2631,29 @@
 ### CHAPTER 11 Safety and Welcome: The Experience of Earned Secure
 
 1. **Emotional Attunement** and Resonance:
-  - Two individuals engage in a reciprocal interaction of emotional expression and felt resonance (Friedman, 2012; Siegel, 2010b).
-  - This creates a sense of being 'felt' and two individuals becoming a 'we' (Siegel, 2010b).
+   - Two individuals engage in a reciprocal interaction of emotional expression and felt resonance (Friedman, 2012; Siegel, 2010b).
+   - This creates a sense of being 'felt' and two individuals becoming a 'we' (Siegel, 2010b).
 
 2. **Integration vs. Fusion**:
-  - Daniel Siegel argues against defining integration as fusion (Siegel, 2010a).
-  - Integration requires differentiation and linkage of separate entities before connecting them (Siegel, 2010a).
+   - Daniel Siegel argues against defining integration as fusion (Siegel, 2010a).
+   - Integration requires differentiation and linkage of separate entities before connecting them (Siegel, 2010a).
 
 3. **Healing from Trauma**:
-  - Individuals need to connect implicit memories to triggers and link the trigger to an explicit context (Ogden & Fisher, 2015).
-  - New information about the present must be linked with old perceptions shaped by the past for safety and healing (Ogden & Fisher, 2015).
+   - Individuals need to connect implicit memories to triggers and link the trigger to an explicit context (Ogden & Fisher, 2015).
+   - New information about the present must be linked with old perceptions shaped by the past for safety and healing (Ogden & Fisher, 2015).
 
 4. **Fostering Integration**:
-  - Focus on differentiating parts previously denied, ignored, or disowned (text).
-  - Connect emotionally to these parts (text).
-  - Provide experiences that replace self-alienation and self-rejection with self-compassion and secure internal attachment relationships (text).
+   - Focus on differentiating parts previously denied, ignored, or disowned (text).
+   - Connect emotionally to these parts (text).
+   - Provide experiences that replace self-alienation and self-rejection with self-compassion and secure internal attachment relationships (text).
 
 5. **Identifying Trauma-Related Parts**:
-  - Emphasis on identifying trauma-related parts connected to implicit memories, rather than recalling traumatic events (text).
-  - Helping clients see their ashamed parts as 'real' children of particular ages and empathize with them (text).
+   - Emphasis on identifying trauma-related parts connected to implicit memories, rather than recalling traumatic events (text).
+   - Helping clients see their ashamed parts as 'real' children of particular ages and empathize with them (text).
 
 6. **Understanding Client's Symptoms**:
-  - Problems can be traced to young parts connected to specific times and events in the client's lives (text).
-  - Letting symptoms and parts tell the client's story instead of focusing on described events (text).
+   - Problems can be traced to young parts connected to specific times and events in the client's lives (text).
+   - Letting symptoms and parts tell the client's story instead of focusing on described events (text).
    
 ### “The Symptoms Tell the Story Better than ‘the Story’” Because the
 
@@ -2700,67 +2700,67 @@
 ### “Earned Secure Attachment” In research on earned secure attachment
 
 1. **Earned Secure Attachment**
-  - Evaluated based on narrative coherence
-  - Coherence: integrated, regulated reflection of early attachment experiences
+   - Evaluated based on narrative coherence
+   - Coherence: integrated, regulated reflection of early attachment experiences
 2. **Coherence**
-  - Opposite of fragmented or conflicting views
-  - Arriving at a place where many views come together
+   - Opposite of fragmented or conflicting views
+   - Arriving at a place where many views come together
 3. **Mark's Experience**
-  - Agreed to spare child from frightening activities
-  - Felt liberated from past, pursued career without fear
-  - Offered child part a new experience: someone taking care of him
+   - Agreed to spare child from frightening activities
+   - Felt liberated from past, pursued career without fear
+   - Offered child part a new experience: someone taking care of him
 4. **Narrative Coherence and Secure Attachment**
-  - Ability to describe insecure or traumatic attachment experiences in an integrated way
-  - Not about having "good" attachment experiences
-  - Involves coming to terms with the past, repairing damage, accepting missing experiences
+   - Ability to describe insecure or traumatic attachment experiences in an integrated way
+   - Not about having "good" attachment experiences
+   - Involves coming to terms with the past, repairing damage, accepting missing experiences
 5. **Healing Story**
-  - Constructed to explain what happened
-  - Comforting, regulating, promotes acceptance of "what is
+   - Constructed to explain what happened
+   - Comforting, regulating, promotes acceptance of "what is
     6. **Effects of Earned Secure Attachment**
-  - Correlated with parenting that promotes secure attachment in next generation
-  - Challenges prevailing view of suboptimal attachment predicting less-than-optimal attachment experiences for next generation
+   - Correlated with parenting that promotes secure attachment in next generation
+   - Challenges prevailing view of suboptimal attachment predicting less-than-optimal attachment experiences for next generation
 7. **Transformation of the Past**
-  - Human beings can transform implicit memories and explicit narratives of past through healthy adult attachment experiences
+   - Human beings can transform implicit memories and explicit narratives of past through healthy adult attachment experiences
 8. **Intergenerational Transmission of Secure Attachment**
-  - Earned secure attachment transmits ability to offer same to next generation
-  - Implies we can help clients create new legacy, stop intergenerational trauma
+   - Earned secure attachment transmits ability to offer same to next generation
+   - Implies we can help clients create new legacy, stop intergenerational trauma
     
 ### An Intergenerational Legacy of Secure Attachment What either type
 
 1. **Secure Attachment** endows individuals with increased relational flexibility, emotional resilience, and the capacity for interdependence. It allows us to internalize reassuring voices or presences during times of isolation.
-  - Physical sense of safety
-  - Emotional sense of closeness and specialness
-  - "Heartbeat-to-heartbeat communication
-    - Mutual attunement between adult and child
+   - Physical sense of safety
+   - Emotional sense of closeness and specialness
+   - "Heartbeat-to-heartbeat communication
+      - Mutual attunement between adult and child
 2. **Process of Secure Attachment**
-  - Left brain reconceptualizes emotional distress as a child's
-  - Right brain responds with compassion and care
-  - Feelings of closeness and attunement become reciprocal, creating a more pleasurable state
-  - Left brain encodes the experience of love and safety
+   - Left brain reconceptualizes emotional distress as a child's
+   - Right brain responds with compassion and care
+   - Feelings of closeness and attunement become reciprocal, creating a more pleasurable state
+   - Left brain encodes the experience of love and safety
 3. **Example: Laura's Therapy**
-  - Unaware of dissociative disorder
-  - Interpreted lack of concern as denial
-  - Felt unprotected and at mercy of incompetent authority figures
-  - Intuitively sensed structurally dissociated parts
-  - Began to talk about young parts, connecting them to job stressors
-  - Couldn't emotionally relate to parts initially
-  - Seeked to connect with young parts, offering them a home
+   - Unaware of dissociative disorder
+   - Interpreted lack of concern as denial
+   - Felt unprotected and at mercy of incompetent authority figures
+   - Intuitively sensed structurally dissociated parts
+   - Began to talk about young parts, connecting them to job stressors
+   - Couldn't emotionally relate to parts initially
+   - Seeked to connect with young parts, offering them a home
         * Hide-and-seek game
         * Gratitude and acknowledgement
         * Imaginary conversations
 4. **Healing Attachment Wounds**
-  - Deepening emotional attunement between adult self and child self
-  - Creating new implicit memories of security, warmth, and closeness
+   - Deepening emotional attunement between adult self and child self
+   - Creating new implicit memories of security, warmth, and closeness
 5. **Therapist's Role**
-  - Facilitating development and encoding of new implicit memories
-  - Encouraging mutual attunement and deepening sense of closeness
-  - Helping each partner in the relationship attune more precisely to the other
+   - Facilitating development and encoding of new implicit memories
+   - Encouraging mutual attunement and deepening sense of closeness
+   - Helping each partner in the relationship attune more precisely to the other
 6. **Benefits of Secure Attachment**
-  - Increased relational flexibility
-  - Emotional resilience
-  - Capacity for interdependence
-  - Internalized reassuring voices or presences
-  - Sense of closeness and peacefulness
+   - Increased relational flexibility
+   - Emotional resilience
+   - Capacity for interdependence
+   - Internalized reassuring voices or presences
+   - Sense of closeness and peacefulness
     
 ### Secure Attachment Is a Somatic and Emotional Experience, Not an
 
@@ -2786,26 +2786,26 @@
 ### Earned Secure Attachment and the Resolution of Trauma “The fact
 
 1. **Earned Secure Attachment**
-  - Adults with this status can provide sensitive, attuned caregiving despite their own childhood trauma experiences.
-  - Helps prevent attachment failure in future generations by healing old wounds and promoting secure attachments.
+   - Adults with this status can provide sensitive, attuned caregiving despite their own childhood trauma experiences.
+   - Helps prevent attachment failure in future generations by healing old wounds and promoting secure attachments.
    
 2. **Characteristics of Secure Attachment**
-  - Associated with resilience, affect tolerance, ability to bounce back from hurt, stress, etc.
-  - Allows individuals to tolerate grief, loss, betrayal, and other normal life experiences without compromising parenting abilities or self-soothing.
+   - Associated with resilience, affect tolerance, ability to bounce back from hurt, stress, etc.
+   - Allows individuals to tolerate grief, loss, betrayal, and other normal life experiences without compromising parenting abilities or self-soothing.
 
 3. **Comparison between Earned and Continuous Secure Attachment**
-  - Both types associated with similar benefits, virtually indistinguishable from childhood secure attachment.
-  - Earned secure attachment allows individuals to tolerate higher levels of internal discomfort without compromising parenting abilities or self-soothing.
+   - Both types associated with similar benefits, virtually indistinguishable from childhood secure attachment.
+   - Earned secure attachment allows individuals to tolerate higher levels of internal discomfort without compromising parenting abilities or self-soothing.
 
 4. **Importance of Embracing All Parts**
-  - Trauma survivors must overcome tendencies to fear and loathe some parts, and over-identify with others.
-  - Embrace all parts, including hostile or aggressive parts, to sow the seeds of earned secure attachment.
+   - Trauma survivors must overcome tendencies to fear and loathe some parts, and over-identify with others.
+   - Embrace all parts, including hostile or aggressive parts, to sow the seeds of earned secure attachment.
 
 5. **Building Earned Secure Attachment**
-  - Healthy relationships in adulthood (spouse, therapist), parenting one's own children, and healthy relationships with "selves" can cultivate earned secure attachment.
+   - Healthy relationships in adulthood (spouse, therapist), parenting one's own children, and healthy relationships with "selves" can cultivate earned secure attachment.
 
 6. **Adaptive Projective Identification**
-  - The cornerstone of infant attachment: parents experience their baby's distress as their own, leading to repair efforts that meet the infant's needs and promote regulation for both parent and child.
+   - The cornerstone of infant attachment: parents experience their baby's distress as their own, leading to repair efforts that meet the infant's needs and promote regulation for both parent and child.
    
 ### Hearing the Child’s Cry Child parts, too, feel distress, and they
 
