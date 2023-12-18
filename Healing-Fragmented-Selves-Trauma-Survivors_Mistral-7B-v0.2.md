@@ -364,17 +364,17 @@
    
 ### Helping Clients and Their Parts “Be Here” Now
 
- 1. **Symptoms as communications from trauma-related parts**:
+1. **Symptoms as communications from trauma-related parts**:
    - Trauma responses are misinterpreted as current danger or proof of defectiveness.
    - Therapists need to counteract the triggered danger signals by calling attention to reactions as communications from parts.
    - Clients can build capacity for self-regulation and "being here now" through psychoeducation, mindfulness, and new responses to triggers.
  
- 2. **Post-traumatic implicit memory and structural dissociation**:
+2. **Post-traumatic implicit memory and structural dissociation**:
    - Clients interpret fear, shame, and anger as signs of imminent danger or deep-seated inadequacy without this understanding.
    - Discovering that stuckness, resistance, chronic depression, etc., are communications from parts who fear for their lives can be a relief.
    - Trauma-related implicit memories evoke parts that hold them, even when the dangers are now in the past.
  
- 3. **Become curious and interested in their symptoms**:
+3. **Become curious and interested in their symptoms**:
    - Learning to identify the voices that speak through reactions can change their relationship from shame and dread to compassion.
    - Understanding how each part participated in survival increases the sense of "we, together" and challenges the sense of being abandoned and alone.
    - Feeling warmth and empathy for young wounded selves feels healing and comforting."
@@ -2655,7 +2655,7 @@
    - Problems can be traced to young parts connected to specific times and events in the client's lives (text).
    - Letting symptoms and parts tell the client's story instead of focusing on described events (text).
    
-### “The Symptoms Tell the Story Better than ‘the Story’” Because the
+### “The Symptoms Tell the Story Better than ‘the Story’”
 
 1. **Trauma treatment** has historically focused on traumatic events and memory narratives, often overlooking the story told by symptoms.
 2. **My colleague's patient**, a 55-year-old woman, was believed to still be experiencing abuse from her deceased mother due to the therapist's focus on event memories.
@@ -2663,11 +2663,11 @@
 4. **The symptoms** told a different story: disrupted attachment, leaving a child deeply hungry for contact but also frightened of her scary mother.
 5. The therapist encouraged the woman to share childhood experiences, but remembering past pain did not heal or comfort her.
 6. **Mark's symptoms** indicated he had learned it wasn't safe to speak or express opinions due to his past experiences of poverty, neglect, verbal abuse, and bullying.
-7. Mark's symptoms also revealed he had survived by pleasing others and hiding his intelligence to avoid conflict.
+7. **Mark's symptoms** also revealed he had survived by pleasing others and hiding his intelligence to avoid conflict.
 8. **Josh's symptoms** told a story of a world where showing weakness was imperative, even as a child.
 9. In both cases, past events were important for understanding and empathizing with the parts, leading to organic trauma resolution in the context of attachment repair.
 
-### Capitalizing on Dissociative Symptoms to Heal Dissociative
+### Capitalizing on Dissociative Symptoms 
 
 1. **Dissociative Fragmentation** is a mental ability that allows individuals to split off unbearable emotions from memories and encapsulate "not me" parts and experiences. It helps children survive and adapt, but becomes pathological when it's unconscious and involuntary.
 
@@ -2683,7 +2683,7 @@
 
 7. **Dissociative Splits** allow individuals to maintain voluntary and deliberate separation between different parts of their personality, ensuring the normal life part's judgments don't influence the child parts' choices.
 
-### Supporting a Functioning Adult Normal Life Self Josh’s ashamed
+### Supporting a Functioning Adult Normal Life Self
 
 1. **Josh's inner child** was asked to adapt to his adult life: business office, home, wife, and children.
 2. The child part observed how people treated Josh with respect and importance.
@@ -2697,7 +2697,7 @@
 10. Another client finished law school by allowing her intimidated parts to stay home.
 11. Clients were empowered by making their inner child parts feel protected and understood.
 
-### “Earned Secure Attachment” In research on earned secure attachment
+### “Earned Secure Attachment”
 
 1. **Earned Secure Attachment**
    - Evaluated based on narrative coherence
@@ -2716,7 +2716,7 @@
 5. **Healing Story**
    - Constructed to explain what happened
    - Comforting, regulating, promotes acceptance of "what is
-    6. **Effects of Earned Secure Attachment**
+6. **Effects of Earned Secure Attachment**
    - Correlated with parenting that promotes secure attachment in next generation
    - Challenges prevailing view of suboptimal attachment predicting less-than-optimal attachment experiences for next generation
 7. **Transformation of the Past**
@@ -2725,13 +2725,13 @@
    - Earned secure attachment transmits ability to offer same to next generation
    - Implies we can help clients create new legacy, stop intergenerational trauma
     
-### An Intergenerational Legacy of Secure Attachment What either type
+### An Intergenerational Legacy of Secure Attachment 
 
 1. **Secure Attachment** endows individuals with increased relational flexibility, emotional resilience, and the capacity for interdependence. It allows us to internalize reassuring voices or presences during times of isolation.
    - Physical sense of safety
    - Emotional sense of closeness and specialness
-   - "Heartbeat-to-heartbeat communication
-      - Mutual attunement between adult and child
+   - "Heartbeat-to-heartbeat" communication
+   - Mutual attunement between adult and child
 2. **Process of Secure Attachment**
    - Left brain reconceptualizes emotional distress as a child's
    - Right brain responds with compassion and care
@@ -2745,9 +2745,9 @@
    - Began to talk about young parts, connecting them to job stressors
    - Couldn't emotionally relate to parts initially
    - Seeked to connect with young parts, offering them a home
-        * Hide-and-seek game
-        * Gratitude and acknowledgement
-        * Imaginary conversations
+      * Hide-and-seek game
+      * Gratitude and acknowledgement
+      * Imaginary conversations
 4. **Healing Attachment Wounds**
    - Deepening emotional attunement between adult self and child self
    - Creating new implicit memories of security, warmth, and closeness
@@ -2762,24 +2762,24 @@
    - Internalized reassuring voices or presences
    - Sense of closeness and peacefulness
     
-### Secure Attachment Is a Somatic and Emotional Experience, Not an
+### Secure Attachment Is a Somatic and Emotional Experience
 
 1. **Secure Attachment** is a physical and emotional state, not an objective goal. It's characterized by feelings of safety, closeness, connection, recognition, and understanding.
    2. Secure attachment emerges from repeated moments of felt resonance and thrives on pattern and consistency.
-       * Children love repetition in games and routines due to the security they provide.
+      * Children love repetition in games and routines due to the security they provide.
    3. Creating secure attachment experiences requires flexibility, a wide tolerance, and the ability to coregulate.
-       * In parent-child relationships, this process is aided by their separate bodies.
+      * In parent-child relationships, this process is aided by their separate bodies.
    4. Traumatized clients have difficulty attuning to their younger selves due to automatic tendencies to recoil from painful emotions and fears.
-       * The fact that these emotions and memories are not physically separate creates difficulties in knowing whose feeling is whose.
+      * The fact that these emotions and memories are not physically separate creates difficulties in knowing whose feeling is whose.
    5. Blending and disowning are different strategies used for survival.
-       * Blending enables quick responses, but can lead to enmeshment if not managed properly.
+      * Blending enables quick responses, but can lead to enmeshment if not managed properly.
        * Disowning preserves the sense of self, but can lead to rejection or alienation of certain parts.
    6. Attuning to all parts is essential for balance and reality-testing.
-       * Identifying with ashamed, submissive, compliant parts can prevent perception of healthy anger or defensive responses.
-       * Identifying with angry or suicidal parts can lead to anger management issues, self-destructive behavior, or internally recreating the early hostile environment.
+      * Identifying with ashamed, submissive, compliant parts can prevent perception of healthy anger or defensive responses.
+      * Identifying with angry or suicidal parts can lead to anger management issues, self-destructive behavior, or internally recreating the early hostile environment.
    7. Helping clients attune to "harder to love" parts is important for maintaining balance and promoting compassion.
    8. Linda, a client, had difficulty accepting generosity and kindness due to her 11-year-old child part's belief that kindness was only for those who deserved it.
-       * She also denied the existence of an angry part despite evidence to the contrary.
+      * She also denied the existence of an angry part despite evidence to the contrary.
    9. The discovery of her angry part led Linda to feel powerful, determined, and clear-headed, allowing her to stand up for herself in her professional life.
    10. Accepting and trusting the angry part helped Linda create safety for herself and her parts in her corporate environment.
    
