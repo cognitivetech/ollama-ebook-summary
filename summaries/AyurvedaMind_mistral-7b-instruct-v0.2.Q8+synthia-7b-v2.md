@@ -5,7 +5,7 @@
 
 It is meant to provide a detailed overview of the topics and materials presented in the book, but does not replace it.
 
-**If you appreciate this work, feel free to buy the original on Amazon using my referral-link**
+**If you appreciate this work, feel free to buy the original  using my referral-link**
 
 [Ayurveda and the Mind: The Healing of Consciousness](https://www.amazon.com/Ayurveda-Mind-Consciousness-David-Frawley/dp/0914955365/?&tag=cognitivetech-20)
 

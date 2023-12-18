@@ -1,4 +1,155 @@
-# Healing the Fragmented Selves of Trauma Survivors 
+# Healing the Fragmented Selves of Trauma Survivors, Janina Fisher
+
+## EDITORS NOTE
+**This is a summary** made with [PrivateGPT](https://github.com/imartinez/privateGPT) and mostly [Mistral-7B-Instruct-v0.2](https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF). 
+
+It is meant to provide a detailed overview of the topics and materials presented in the book, but does not replace it.
+
+**If you appreciate this work, feel free to buy the original using my referral-link**
+
+* [Healing the Fragmented Selves of Trauma Survivors: Overcoming Internal Self-Alienation](https://www.amazon.com/Healing-Fragmented-Selves-Trauma-Survivors/dp/0415708230/?&tag=cognitivetech-20)
+
+## Contents
+- [Contents](#contents)
+- [Introduction](#introduction)
+  - [Fragmentation and Internal Struggles Ten years ago, in the context](#fragmentation-and-internal-struggles-ten-years-ago-in-the-context)
+  - [The Price of Self-Alienation: A “False Self”](#the-price-of-self-alienation-a-false-self)
+  - [Stuckness: Trauma-Related Internal Conflicts](#stuckness-trauma-related-internal-conflicts)
+  - [How This Book Is Organized](#how-this-book-is-organized)
+  - [Working with Changing Roles for Client and Therapist](#working-with-changing-roles-for-client-and-therapist)
+  - [Understanding Parts](#understanding-parts)
+  - [Complications of Treatment](#complications-of-treatment)
+  - [Distorted cognitions](#distorted-cognitions)
+- [CHAPTER 1](#chapter-1)
+  - [The Neurobiological Legacy of Trauma](#the-neurobiological-legacy-of-trauma)
+  - [The “Living Legacy” of the Past](#the-living-legacy-of-the-past)
+  - [Parallel Lives: The Disowning of Dissociation](#parallel-lives-the-disowning-of-dissociation)
+  - [Compartmentalization under Stress: Exploiting the Fault Lines](#compartmentalization-under-stress-exploiting-the-fault-lines)
+  - [Recognizing the Signs of Structurally Dissociated Parts](#recognizing-the-signs-of-structurally-dissociated-parts)
+  - [Symptoms as Communications from Parts](#symptoms-as-communications-from-parts)
+  - [Helping Clients and Their Parts “Be Here” Now](#helping-clients-and-their-parts-be-here-now)
+- [CHAPTER 2](#chapter-2)
+  - [Understanding Parts, Understanding Traumatic Responses](#understanding-parts-understanding-traumatic-responses)
+  - [Uninvited Remembering](#uninvited-remembering)
+  - [Finding “Now,” Not “Then”](#finding-now-not-then)
+- [CHAPTER 3 Changing Roles for Client and Therapist](#chapter-3-changing-roles-for-client-and-therapist)
+  - [Working with the Neurobiological Legacy of Trauma](#working-with-the-neurobiological-legacy-of-trauma)
+  - [A Multi-Consciousness Approach to Treatment](#a-multi-consciousness-approach-to-treatment)
+  - [Pathogenic Kernels of Memory](#pathogenic-kernels-of-memory)
+  - [Acknowledging the Past Without Exploring It](#acknowledging-the-past-without-exploring-it)
+  - [A Different Approach to Traumatic Memory](#a-different-approach-to-traumatic-memory)
+  - [Witnessing Being Witnessed](#witnessing-being-witnessed)
+  - [The Therapist as “Auxiliary Cortex” and Educator](#the-therapist-as-auxiliary-cortex-and-educator)
+  - [Illustration](#illustration)
+  - [A Creative Adaptation to Abnormal Experience](#a-creative-adaptation-to-abnormal-experience)
+  - [A New Role for the Therapist: Neurobiological Regulator](#a-new-role-for-the-therapist-neurobiological-regulator)
+  - [The neurobiologically astute therapist](#the-neurobiologically-astute-therapist)
+  - [The Therapist as Director, Coach, and Pace-Setter](#the-therapist-as-director-coach-and-pace-setter)
+  - [The Body as a Shared Whole](#the-body-as-a-shared-whole)
+  - [The Changing Role of the Therapist](#the-changing-role-of-the-therapist)
+- [CHAPTER 4](#chapter-4)
+  - [Learning to See Our “Selves”](#learning-to-see-our-selves)
+  - [The Cost of Adaptation](#the-cost-of-adaptation)
+  - [Years after the traumatic experiences...](#years-after-the-traumatic-experiences)
+  - [“Getting to Know You”](#getting-to-know-you)
+  - [Developing Curiosity: Who Is “I”?](#developing-curiosity-who-is-i)
+  - [Survival-Related Internal Struggles](#survival-related-internal-struggles)
+- [CHAPTER 5](#chapter-5)
+  - [Befriending Our Parts: Sowing the Seeds of Compassion](#befriending-our-parts-sowing-the-seeds-of-compassion)
+  - [The Role of Mindfulness: How We Can “Befriend” Ourselves To](#the-role-of-mindfulness-how-we-can-befriend-ourselves-to)
+  - [From Whose Perspective Should We Observe?](#from-whose-perspective-should-we-observe)
+  - [Differentiating Observation versus Meaning-Making](#differentiating-observation-versus-meaning-making)
+  - [Blending, Shifting, and Switching of Parts](#blending-shifting-and-switching-of-parts)
+  - [Facilitating Empathy](#facilitating-empathy)
+  - [“Seeing” the Parts: Externalized Mindfulness](#seeing-the-parts-externalized-mindfulness)
+  - [The visual images symbolizing each different part](#the-visual-images-symbolizing-each-different-part)
+  - [Blending and Reality-Testing](#blending-and-reality-testing)
+  - [Learning to Unblend](#learning-to-unblend)
+  - [Less afraid to connect](#less-afraid-to-connect)
+  - [Providing Hospitality](#providing-hospitality)
+  - [Forming a Connection to a Wise Compassionate Adult](#forming-a-connection-to-a-wise-compassionate-adult)
+  - [Connecting to the Resources of a Competent Adult](#connecting-to-the-resources-of-a-competent-adult)
+  - [Selves-Acceptance](#selves-acceptance)
+- [CHAPTER 6](#chapter-6)
+  - [Complications of Treatment: Traumatic Attachment](#complications-of-treatment-traumatic-attachment)
+  - [Trauma and Attachment: The Source of Safety Becomes the Source of Danger](#trauma-and-attachment-the-source-of-safety-becomes-the-source-of-danger)
+  - [“Controlling Attachment Strategies” and Trauma](#controlling-attachment-strategies-and-trauma)
+  - [Awakening the Yearning for Care](#awakening-the-yearning-for-care)
+  - [Not One but Many](#not-one-but-many)
+  - [Creating an Alliance with the Fight Part](#creating-an-alliance-with-the-fight-part)
+  - [There is No “He” or “She”](#there-is-no-he-or-she)
+  - [A Therapist for All the Parts, Not Just the “Client”](#a-therapist-for-all-the-parts-not-just-the-client)
+  - [Speaking on Behalf of the Parts](#speaking-on-behalf-of-the-parts)
+  - [Dyadic Dancing Attunement](#dyadic-dancing-attunement)
+  - [Often therapists hesitate to use the language like “inner person”](#often-therapists-hesitate-to-use-the-language-like-inner-person)
+- [CHAPTER 7](#chapter-7)
+  - [Working with Suicidal, Self-Destructive, Eating Disordered](#working-with-suicidal-self-destructive-eating-disordered)
+  - [A Way Out or a Way to Go On?](#a-way-out-or-a-way-to-go-on)
+  - [Capitalizing on the Body to Gain Relief](#capitalizing-on-the-body-to-gain-relief)
+  - [Animal Defenses and Unsafe Behavior Structural dissociation](#animal-defenses-and-unsafe-behavior-structural-dissociation)
+  - [Treating the Causes of Self-Destructive Behavior](#treating-the-causes-of-self-destructive-behavior)
+  - [Trauma-Informed Stabilization Treatment (TIST)](#trauma-informed-stabilization-treatment-tist)
+  - [Acknowledging Self-Destructive Parts](#acknowledging-self-destructive-parts)
+  - [Soothing the Vulnerable, Honoring the Protectors](#soothing-the-vulnerable-honoring-the-protectors)
+  - [“No Part Left Behind”](#no-part-left-behind)
+- [CHAPTER 8](#chapter-8)
+  - [Treatment Challenges: Dissociative Systems and Disorders](#treatment-challenges-dissociative-systems-and-disorders)
+  - [Recognizing the DID Client](#recognizing-the-did-client)
+  - [Diagnosing Dissociative Disorders](#diagnosing-dissociative-disorders)
+  - [Assessment Tools for Diagnosing Dissociative Disorders](#assessment-tools-for-diagnosing-dissociative-disorders)
+  - [There Is No “She”—There Is No “He”](#there-is-no-shethere-is-no-he)
+  - [Restoring Order to a Chaotic Inner World](#restoring-order-to-a-chaotic-inner-world)
+  - [Teaching the Client’s Normal Life](#teaching-the-clients-normal-life)
+  - [Making Meaning of Moment-To-Moment Experience](#making-meaning-of-moment-to-moment-experience)
+  - [Creating a Present for Parts that Dwell in the Past](#creating-a-present-for-parts-that-dwell-in-the-past)
+  - [Overcoming Conditioned Learning](#overcoming-conditioned-learning)
+  - [Building Trust Inside Trust](#building-trust-inside-trust)
+  - [autonomous functioning of the parts](#autonomous-functioning-of-the-parts)
+  - [Gathering Evidence: Establishing Retrospective Consciousness](#gathering-evidence-establishing-retrospective-consciousness)
+  - [Building Skills to Overcome Gaps in Consciousness](#building-skills-to-overcome-gaps-in-consciousness)
+  - [No More “Bad Guys” and “Good Guys”](#no-more-bad-guys-and-good-guys)
+  - [Increasing the Presence of a Normal Life Adult](#increasing-the-presence-of-a-normal-life-adult)
+  - [Bringing Parts Up-to-Date](#bringing-parts-up-to-date)
+  - [Changing Patterns and Roles Survival behavior, learned in the](#changing-patterns-and-roles-survival-behavior-learned-in-the)
+  - [Working with Regression and Aggression](#working-with-regression-and-aggression)
+  - [Patience, Persistence, and a Good Seat Belt](#patience-persistence-and-a-good-seat-belt)
+  - [Self-Healing, Rather than Interpersonal Healing](#self-healing-rather-than-interpersonal-healing)
+  - [Facilitating Reunion](#facilitating-reunion)
+- [CHAPTER 9](#chapter-9)
+  - [Repairing the Past: Embracing Our Selves](#repairing-the-past-embracing-our-selves)
+  - [Accessing the Resources of a Wise Adult](#accessing-the-resources-of-a-wise-adult)
+  - [Listening to Children Builds Attachment Bonds](#listening-to-children-builds-attachment-bonds)
+  - [Reaching Out to Parts from Places of Strength](#reaching-out-to-parts-from-places-of-strength)
+  - [Accessing the Resources of Normal Life](#accessing-the-resources-of-normal-life)
+  - [Taking Young Parts “Under the Wing”](#taking-young-parts-under-the-wing)
+  - [Attachment Bonds Are Built through Body](#attachment-bonds-are-built-through-body)
+  - [Fears and Phobias of Internal Attachment](#fears-and-phobias-of-internal-attachment)
+  - [Rupture and Repair of Internal Attachment Relationships](#rupture-and-repair-of-internal-attachment-relationships)
+- [CHAPTER 10](#chapter-10)
+  - [Restoring What Was Lost](#restoring-what-was-lost)
+  - [Reorganizing the Relationship to the Past](#reorganizing-the-relationship-to-the-past)
+  - [“Me Now” versus “That Part of Me Then”](#me-now-versus-that-part-of-me-then)
+  - [Establishing Internal Communication with Dysregulated Parts](#establishing-internal-communication-with-dysregulated-parts)
+  - [Rupture and Repair](#rupture-and-repair)
+  - [Communicating Compassion toward Wounded Child Parts](#communicating-compassion-toward-wounded-child-parts)
+  - [Interference with Reparative Experiences](#interference-with-reparative-experiences)
+  - [Building Impulses to Care](#building-impulses-to-care)
+  - [Creating a New Purpose and Mission for Each Part](#creating-a-new-purpose-and-mission-for-each-part)
+- [CHAPTER 11](#chapter-11)
+  - [Safety and Welcome: The Experience of Earned Secure](#safety-and-welcome-the-experience-of-earned-secure)
+  - [“The Symptoms Tell the Story Better than ‘the Story’”](#the-symptoms-tell-the-story-better-than-the-story)
+  - [Capitalizing on Dissociative Symptoms](#capitalizing-on-dissociative-symptoms)
+  - [Supporting a Functioning Adult Normal Life Self](#supporting-a-functioning-adult-normal-life-self)
+  - [“Earned Secure Attachment”](#earned-secure-attachment)
+  - [An Intergenerational Legacy of Secure Attachment](#an-intergenerational-legacy-of-secure-attachment)
+  - [Secure Attachment Is a Somatic and Emotional Experience](#secure-attachment-is-a-somatic-and-emotional-experience)
+  - [Earned Secure Attachment and the Resolution of Trauma](#earned-secure-attachment-and-the-resolution-of-trauma)
+  - [Hearing the Child’s Cry](#hearing-the-childs-cry)
+- [APPENDIX A Five Steps to “Unblending”](#appendix-a-five-steps-to-unblending)
+- [APPENDIX B Meditation Circle for Parts This intervention can help](#appendix-b-meditation-circle-for-parts-this-intervention-can-help)
+- [APPENDIX C Internal Dialogue Technique](#appendix-c-internal-dialogue-technique)
+- [APPENDIX D Treatment Paradigm for Internal Attachment Repair](#appendix-d-treatment-paradigm-for-internal-attachment-repair)
+
 ## Introduction
 
 - Therapists often feel frustrated helping traumatized clients due to their self-alienation and intense self-hatred.
@@ -196,7 +347,8 @@
 7. **Healing story**: Clients create a new story of safety, closeness, and compassion by evoking states of well-being.
    - Neuroplastic brain change requires clients to inhibit old patterns, practice new patterns, and maintain the felt connection to their bodies and child selves.
     
-## CHAPTER 1 The Neurobiological Legacy of Trauma
+## CHAPTER 1
+### The Neurobiological Legacy of Trauma
 
 1. **Neurobiological Legacy of Trauma**
    - Trauma memories are deeply engraved due to stress hormones (Van der Kolk, 2014).
@@ -379,7 +531,8 @@
    - Understanding how each part participated in survival increases the sense of "we, together" and challenges the sense of being abandoned and alone.
    - Feeling warmth and empathy for young wounded selves feels healing and comforting."
 
-## CHAPTER 2 Understanding Parts, Understanding Traumatic Responses
+## CHAPTER 2 
+### Understanding Parts, Understanding Traumatic Responses
 
 1. **Implicit-only memories**: Memories that remain in unassembled neural disarray and continue to shape our perception of reality without being accessible to awareness (Siegel, 2010).
    - Trauma survivors may not be able to remember or generalize new learning outside of therapy.
@@ -868,7 +1021,8 @@
    - Rejecting parts diminishes self-esteem.
    - Radical acceptance of sharing bodies and lives with parts.
    
-## CHAPTER 5 Befriending Our Parts: Sowing the Seeds of Compassion
+## CHAPTER 5
+### Befriending Our Parts: Sowing the Seeds of Compassion
 
 1. **Mindfulness as an Act of Hospitality**
    - Mindfulness is a way of treating ourselves with kindness and care.
@@ -966,7 +1120,7 @@
 4. Tension and relaxation should also be distinguished.
 5. Connecting all inputs to the contributing parts helps clients understand their whole self and trauma logic.
 
-### Blending, Shifting, and Switching of Parts Parts 
+### Blending, Shifting, and Switching of Parts
 
 1. **Blending, Shifting, and Switching of Parts**
    - Parts do not come with labels or manuals.
@@ -1196,7 +1350,8 @@
    - Living amicably and collaboratively with all selves, not just comfortable ones.
    - Welcoming owned and disowned selves makes internal worlds safer.
 
-## CHAPTER 6 Complications of Treatment: Traumatic Attachment
+## CHAPTER 6
+### Complications of Treatment: Traumatic Attachment
 
 1. **Attachment** is a reflection of an infant's need for safety. It's not innately secure.
    - Infants perceive threats based on caregiver signals and availability, not actual danger.
@@ -1434,7 +1589,8 @@
 7. **Triggered parts**: Continue to drive trauma-related symptoms, but therapist should ask "How is this part still trying to help?" and "What is this part worried about? How is this an attempt at a solution?
 8. **Client's parts**: Still attempting to fix what was wrong in their past.
 
-## CHAPTER 7: Working with Suicidal, Self-Destructive, Eating Disordered
+## CHAPTER 7
+### Working with Suicidal, Self-Destructive, Eating Disordered
 
 1. **Trauma Overload**
    - Human defense system becomes overwhelmed when resistance or escape is impossible (Herman, 1992)
@@ -2628,7 +2784,8 @@
 10. Attuned adult self provides healing experiences to wounded child parts.
 11. Both client and child selves experience safety, loving presence, and relaxation in moments of attunement.
 
-### CHAPTER 11 Safety and Welcome: The Experience of Earned Secure
+## CHAPTER 11
+### Safety and Welcome: The Experience of Earned Secure
 
 1. **Emotional Attunement** and Resonance:
    - Two individuals engage in a reciprocal interaction of emotional expression and felt resonance (Friedman, 2012; Siegel, 2010b).
@@ -2764,26 +2921,25 @@
     
 ### Secure Attachment Is a Somatic and Emotional Experience
 
-1. **Secure Attachment** is a physical and emotional state, not an objective goal. It's characterized by feelings of safety, closeness, connection, recognition, and understanding.
-   2. Secure attachment emerges from repeated moments of felt resonance and thrives on pattern and consistency.
-      * Children love repetition in games and routines due to the security they provide.
-   3. Creating secure attachment experiences requires flexibility, a wide tolerance, and the ability to coregulate.
-      * In parent-child relationships, this process is aided by their separate bodies.
-   4. Traumatized clients have difficulty attuning to their younger selves due to automatic tendencies to recoil from painful emotions and fears.
-      * The fact that these emotions and memories are not physically separate creates difficulties in knowing whose feeling is whose.
-   5. Blending and disowning are different strategies used for survival.
-      * Blending enables quick responses, but can lead to enmeshment if not managed properly.
-       * Disowning preserves the sense of self, but can lead to rejection or alienation of certain parts.
-   6. Attuning to all parts is essential for balance and reality-testing.
-      * Identifying with ashamed, submissive, compliant parts can prevent perception of healthy anger or defensive responses.
-      * Identifying with angry or suicidal parts can lead to anger management issues, self-destructive behavior, or internally recreating the early hostile environment.
-   7. Helping clients attune to "harder to love" parts is important for maintaining balance and promoting compassion.
-   8. Linda, a client, had difficulty accepting generosity and kindness due to her 11-year-old child part's belief that kindness was only for those who deserved it.
-      * She also denied the existence of an angry part despite evidence to the contrary.
-   9. The discovery of her angry part led Linda to feel powerful, determined, and clear-headed, allowing her to stand up for herself in her professional life.
-   10. Accepting and trusting the angry part helped Linda create safety for herself and her parts in her corporate environment.
+1. **Secure Attachment is a physical and emotional state**, not an objective goal. It's characterized by feelings of safety, closeness, connection, recognition, and understanding.
+2. Secure attachment **emerges from repeated moments of felt resonance** and thrives on pattern and consistency.
+   * Children love repetition in games and routines due to the security they provide.
+3. Creating **secure attachment experiences requires flexibility**, a wide tolerance, and the ability to coregulate.
+4. Traumatized clients have difficulty attuning to their younger selves due to automatic tendencies to recoil from painful emotions and fears.
+   * The fact that these emotions and memories are not physically separate creates difficulties in knowing whose feeling is whose.
+5. Blending and disowning are different strategies used for survival.
+   * Blending enables quick responses, but can lead to enmeshment if not managed properly.
+   * Disowning preserves the sense of self, but can lead to rejection or alienation of certain parts.
+6. Attuning to all parts is essential for balance and reality-testing.
+   * Identifying with ashamed, submissive, compliant parts can prevent perception of healthy anger or defensive responses.
+   * Identifying with angry or suicidal parts can lead to anger management issues, self-destructive behavior, or internally recreating the early hostile environment.
+7. Helping clients attune to "harder to love" parts is important for maintaining balance and promoting compassion.
+8. Linda, a client, had difficulty accepting generosity and kindness due to her 11-year-old child part's belief that kindness was only for those who deserved it.
+   * She also denied the existence of an angry part despite evidence to the contrary.
+9. The discovery of her angry part led Linda to feel powerful, determined, and clear-headed, allowing her to stand up for herself in her professional life.
+10. Accepting and trusting the angry part helped Linda create safety for herself and her parts in her corporate environment.
    
-### Earned Secure Attachment and the Resolution of Trauma “The fact
+### Earned Secure Attachment and the Resolution of Trauma
 
 1. **Earned Secure Attachment**
    - Adults with this status can provide sensitive, attuned caregiving despite their own childhood trauma experiences.
@@ -2807,7 +2963,7 @@
 6. **Adaptive Projective Identification**
    - The cornerstone of infant attachment: parents experience their baby's distress as their own, leading to repair efforts that meet the infant's needs and promote regulation for both parent and child.
    
-### Hearing the Child’s Cry Child parts, too, feel distress, and they
+### Hearing the Child’s Cry 
 
 1. **Child's Distress**: Child parts feel distress and signal for help through discomfort. In a two-person system in one body, it's harder for child parts to be heard than via blending or reciprocal dysregulation.
 2. **Skills Practice**: Mastering skills described in Chapters 4 and 5 is crucial for hearing the child's cry and unblending from distress.
@@ -2821,27 +2977,27 @@
 10. **Patience and Compassion**: Healing requires patience, repetition, and deep conviction that healing is normal and natural.
 11. **Accepting Past Ages**: We are every age we have been; past is part of what makes the present and must not be denied or rejected.
 
-### APPENDIX A Five Steps to “Unblending” When we are triggered by
+## APPENDIX A Five Steps to “Unblending”
 
 1. **Blending**: When traumatized parts get activated, their feelings flood the body, causing intense reactions that are not in line with our adult selves. This is called "blending".
-   2. **Assume Communication from Parts**: Assume any upsetting or overwhelming feelings and thoughts come from parts.
-   3. **Describe Feelings as 'Their' Reaction**: Speak for the parts by describing their feelings: "They are upset", "They are overwhelmed".
-   4. **Create Separation**: Change position, lengthen spine, engage core, or sit back to create separation and feel both their feelings and yours.
-   5. **Reassuring Conversation**: Use your wise grown-up mind to have a compassionate conversation with the upset parts. Acknowledge their fears, offer reassurance, ask what they need.
-   6. **Get Feedback and Opinions**: Check if your actions are helping, ask for their feedback, promise to remember they're in distress and be more protective.
-   7. **Consistency and Repetition**: The key to success is consistency, repetition, and a willingness to keep using this technique even on days when it doesn't work.
-   
-### APPENDIX B Meditation Circle for Parts This intervention can help
+2. **Assume Communication from Parts**: Assume any upsetting or overwhelming feelings and thoughts come from parts.
+3. **Describe Feelings as 'Their' Reaction**: Speak for the parts by describing their feelings: "They are upset", "They are overwhelmed".
+4. **Create Separation**: Change position, lengthen spine, engage core, or sit back to create separation and feel both their feelings and yours.
+5. **Reassuring Conversation**: Use your wise grown-up mind to have a compassionate conversation with the upset parts. Acknowledge their fears, offer reassurance, ask what they need.
+6. **Get Feedback and Opinions**: Check if your actions are helping, ask for their feedback, promise to remember they're in distress and be more protective.
+7. **Consistency and Repetition**: The key to success is consistency, repetition, and a willingness to keep using this technique even on days when it doesn't work.
+
+## APPENDIX B Meditation Circle for Parts This intervention can help
 
 1. **Meditation Circle for Parts** - A daily practice that encourages mindfulness meditation, promotes internal awareness, increases self-compassion, and builds trust with dissociated child parts.
-   2. **Daily Practice**: Find a quiet place to sit every day at the same time. Relax, take a breath, and make an internal announcement inviting all parts to join the meditation circle.
-   3. **Welcome and Curiosity**: Welcome each part, be curious about them, recognize their ages, facial expressions, body language, and communicate validation.
-   4. **Listen and Validate**: Be a good listener, take their fears and feelings seriously, own your role in their pain if applicable, and accept all emotions expressed by the parts.
-   5. **Support and Validation**: Provide the support and validation each part needs to assuage their fears and frustrations.
-   6. **Focus on Today**: Keep the focus on today or right now, as traumatized children have many fears and it's not helpful to open them all up at once.
-   7. **Trust Building**: Understand that some parts won't trust you at first, will hesitate to hear you, or even be angry. Be patient and assure them that you will meet every day and they can tell you more about their worries over time.
+2. **Daily Practice**: Find a quiet place to sit every day at the same time. Relax, take a breath, and make an internal announcement inviting all parts to join the meditation circle.
+3. **Welcome and Curiosity**: Welcome each part, be curious about them, recognize their ages, facial expressions, body language, and communicate validation.
+4. **Listen and Validate**: Be a good listener, take their fears and feelings seriously, own your role in their pain if applicable, and accept all emotions expressed by the parts.
+5. **Support and Validation**: Provide the support and validation each part needs to assuage their fears and frustrations.
+6. **Focus on Today**: Keep the focus on today or right now, as traumatized children have many fears and it's not helpful to open them all up at once.
+7. **Trust Building**: Understand that some parts won't trust you at first, will hesitate to hear you, or even be angry. Be patient and assure them that you will meet every day and they can tell you more about their worries over time.
    
-### APPENDIX C Internal Dialogue Technique Step 1: Focus on the
+## APPENDIX C Internal Dialogue Technique
 
 1. **Step 1:** Focus on distressing thoughts and feelings, assuming they belong to a part. Identify the part based on its emotions and beliefs.
 2. **Step 2:** If too blended with the part, create space by asking it to "sit back" or "relax." Confusion, overwhelm, anxiety are indicators of parts' distress.
@@ -2851,7 +3007,7 @@
 6. **Step 6:** Focus on how the adult can provide this corrective experience to the child, reassuring it of safety and presence.
 7. **Step 7:** Practice these skills regularly to improve recovery from crises and avoid them. Every crisis results from a part getting triggered by fear or shame or anger.
 
-### APPENDIX D Treatment Paradigm for Internal Attachment Repair The
+## APPENDIX D Treatment Paradigm for Internal Attachment Repair
 
 1. **Dissociative Disorder Clients** and those with dissociative features come to therapy due to parts' intrusion on their consciousness.
 2. Presenting problems reflect activated parts, e.g., depression could be a triggered depressed child.

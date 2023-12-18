@@ -5,7 +5,7 @@
 
 It is meant to provide a detailed overview of the topics and materials presented in the book, but does not replace it.
 
-**If you appreciate this work, feel free to buy the original on Amazon using my referral-link**
+**If you appreciate this work, feel free to buy the original  using my referral-link**
 
 * [Accessing the Healing Power of the Vagus Nerve: Self-Help Exercises for Anxiety, Depression, Trauma, and Autism](https://www.amazon.com/Accessing-Healing-Power-Vagus-Nerve/dp/1623170249/?&tag=cognitivetech-20)
 
