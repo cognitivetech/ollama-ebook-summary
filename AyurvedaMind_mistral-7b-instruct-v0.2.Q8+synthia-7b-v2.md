@@ -164,10 +164,10 @@ It is meant to provide a detailed overview of the topics and materials presented
 ### Levels of Ayurvedic Healing
 
 1. Ayurveda recognizes four levels of healing: 
-  * **Disease Treatment** - may require invasive methods like drugs or surgery.
-  * **Disease Prevention** - Eliminate factors in daily life that make us vulnerable
-  * **Life Enhancement** -  Improve vitality, live longer
-  * **Awareness Development** - Spiritual approach including meditation, ultimate goal is true awareness.
+   - **Disease Treatment** - may require invasive methods like drugs or surgery.
+   - **Disease Prevention** - Eliminate factors in daily life that make us vulnerable
+   - **Life Enhancement** -  Improve vitality, live longer
+   - **Awareness Development** - Spiritual approach including meditation, ultimate goal is true awareness.
 2. True awareness: Recognition of unity, transcends personal limitations, understanding of the Self as All, ultimate goal of Ayurveda.
 3. Human problems arise from lack of true awareness, not just a lack of information but failure to understand our place in the universe.
 4. The universe rests within us, all human beings are part of our own Self, all creatures are different forms of who we are.
@@ -307,17 +307,17 @@ The three gunas are one of the prime themes of Ayurvedic thought.
 
 #### Three Stages of Mental Healing:
 1. **Personal Healing**: Breaking up Tamas/developing Rajas (moving from mental inertia to self-motivated action).
-  * Fire is necessary for this transition.
-  * Deep-seated patterns must be released, and new energies brought in.
-  * Action indicated, not only in the mind but involving outer aspects of life.
+   - Fire is necessary for this transition.
+   - Deep-seated patterns must be released, and new energies brought in.
+   - Action indicated, not only in the mind but involving outer aspects of life.
 2. **Healing of Humanity**: Calming Rajas/developing Sattva (moving from self-motivated action to selfless service).
-  * Space is necessary for this transition.
-  * Surrender personal pain and seek the greater good.
-  * Depersonalize problems and take up humanity's problems.
+   - Space is necessary for this transition.
+   - Surrender personal pain and seek the greater good.
+   - Depersonalize problems and take up humanity's problems.
 3. **Universal Peace**: Perfecting Sattva (moving from selfless service to meditation).
-  * Develop love and awareness as universal forces.
-  * Inner peace becomes dominant force.
-  * Transcend human condition to higher spiritual nature.
+   - Develop love and awareness as universal forces.
+   - Inner peace becomes dominant force.
+   - Transcend human condition to higher spiritual nature.
       
 ## 4. The Nature of the Mind
 
@@ -832,13 +832,13 @@ Kapha types need stimulation, have difficulty implementing changes, and respond 
 ### The Ayurvedic method of treatment
 
 1. Ayurvedic treatment involves applying therapies of opposite nature to relieve conditions.
-    * Vata imbalance manifests as coldness, dryness, lightness, and agitation.
-    * Opposite therapies include rich nutritive diet, warm oil massage, rest, and relaxation.
+   * Vata imbalance manifests as coldness, dryness, lightness, and agitation.
+   * Opposite therapies include rich nutritive diet, warm oil massage, rest, and relaxation.
 2. Pratipaksha-Bhavana: treating psychological imbalances with opposite qualities to restore balance.
 3. Consciousness shaped by food, impressions, and associations.
 4. To counter deep-seated tendencies, an opposite type influence is required.
 5. Changing harmful mental conditions involves cultivating an opposite way of living.
-    * Depression: eat vitalizing food, open up to nature, associate with creative and spiritual people.
+   * Depression: eat vitalizing food, open up to nature, associate with creative and spiritual people.
 6. Our original nature is good, beneficent, and full; psychological problems are a result of wrong conditioning.
 7. To counter negative psychological conditions, create positive energy within mind and behavior.
 8. Avoid relying on substances that mask conditions but cannot resolve them.

@@ -78,21 +78,21 @@
 1. **Stuckness** in psychotherapy is a result of trauma-related internal conflicts between fragmented selves.
 2. **Clients** and therapists may question their abilities when treatment isn't progressing as expected.
 3. **Fragmentation of the personality** can lead to opposing goals within a single individual.
-  * "I want to die" and "I am determined to live.
-  * "I want to be connected, but I don’t want anyone to know I care.
-  * "I loathe and despise myself, I look up to others above me, and then I loathe and despise them.
+   - "I want to die" and "I am determined to live.
+   - "I want to be connected, but I don’t want anyone to know I care.
+   - "I loathe and despise myself, I look up to others above me, and then I loathe and despise them.
 4. The author's goal is to find gentler ways of treating trauma without causing additional pain.
 5. Trauma survivors should not be deprived of their adult lives due to the legacy of trauma.
 6. Processing trauma should not be as frightening or overwhelming as the original experiences.
 7. The author's approach aims to describe a healing way of coming to terms with trauma.
 8.  This book is for clients and therapists dealing with trauma, attachment disorders, and dissociation.
 9. Therapists often face challenges due to the effects of **self-alienation** on therapy.
-  * Shame
-  * Punitive self-hatred
-  * Separation anxiety and fear of abandonment
-  * Self-destructive behavior
-  * Inability to self-soothe or self-care
-  * Fears of hope, happiness, and compassion for self
+   - Shame
+   - Punitive self-hatred
+   - Separation anxiety and fear of abandonment
+   - Self-destructive behavior
+   - Inability to self-soothe or self-care
+   - Fears of hope, happiness, and compassion for self
    
 ### How This Book Is Organized
 
@@ -449,11 +449,11 @@
 
 1. **Traumatized individuals** can find it difficult to stay connected to the present due to past experiences.
 2. **Acknowledging the past** is important, but staying connected to the present is crucial for traumatized individuals.
-    * Acknowledgment of the past without exploring it can be validating.
+   * Acknowledgment of the past without exploring it can be validating.
 3. **Implicit aspects of memory** can make clients feel danger in the present instead of acknowledging past dangers.
-    * This prevents them from looking back on the past and finding resolution.
+   * This prevents them from looking back on the past and finding resolution.
 4. **The goal of trauma treatment** is not just to remember what happened, but to transform or reconstruct traumatic memories.
-    * This involves changing the individual's relationship to both implicit and explicit memories.
+   * This involves changing the individual's relationship to both implicit and explicit memories.
 5. **Transformation of traumatic memory** occurs as tolerance for triggered states expands and individuals can live more fully in the present.
 6. **Healing story** is slowly reorganized from unprocessed implicit elements into a new narrative.
 
@@ -497,17 +497,17 @@
 
 1. **Parts Approach**: A new way to address challenges in therapy.
 2. **Mindfulness-based Practices**: Instead of "getting in touch with feelings," clients are taught to "notice" them.
-    * Allows for dual awareness: staying connected while observing from a slight distance.
+   * Allows for dual awareness: staying connected while observing from a slight distance.
 3. **Titrating Emotions or Memories**: Overwhelmed parts can be balanced by calm, curious, or empathic parts.
 4. **Multiple States of Consciousness**: Human brain capable of holding multiple states at once.
-    * Left hemisphere: positive moods.
-    * Right hemisphere: negative states.
-    * Medial prefrontal cortex: observing consciousness, enables detachment from feelings.
+   * Left hemisphere: positive moods.
+   * Right hemisphere: negative states.
+   * Medial prefrontal cortex: observing consciousness, enables detachment from feelings.
 5. **Dual Awareness**: Ability to fully inhabit the present moment while accessing past memories.
 6. **Language of Parts vs Brain**: Describing experiences using parts language is more engaging and compassionate.
 7. **Curiosity and Compassion**: Teaching clients to observe their emotions fosters curiosity, connection, and self-compassion.
 8. **Medial Prefrontal Cortex and Amygdala**: Activation of medial prefrontal cortex decreases amygdala activity.
-    * Reduces flashbacks, intrusive memories, automatic responses, or disconnection.
+   * Reduces flashbacks, intrusive memories, automatic responses, or disconnection.
        
 ### Pathogenic Kernels of Memory
 
@@ -753,22 +753,22 @@
 
 1. **Traumatized clients** describe symptoms without knowing they're from traumatized parts or implicit memories.
 2. **Animal defense strategies** have become maladaptive automatic responses, activated by trauma-related stimuli.
-    * Once reduced harm or enhanced survival.
-    * Now outdated and extreme in normal life.
+   * Once reduced harm or enhanced survival.
+   * Now outdated and extreme in normal life.
 3. Symptoms include:
-     * Major depression (submit)
-     * Anxiety disorders (freeze)
-     * Substance abuse, eating disorders (flight)
-     * Anger management, self-harm issues (fight)
-     * Disorganized or traumatic attachment
+   * Major depression (submit)
+   * Anxiety disorders (freeze)
+   * Substance abuse, eating disorders (flight)
+   * Anger management, self-harm issues (fight)
+   * Disorganized or traumatic attachment
 4. Co-occurring issues: suicidality, chronic pain, obsessive-compulsive disorder, inability to function, loss of previous functioning.
 5. Often misdiagnosed with borderline personality disorder, bipolar II, or other disorders.
 6. Standard treatments have little impact on dissociative clients.
 7. Dissociative disorders (dissociative amnesia, fugue, not otherwise specified [DDNOS], and DID) are under-diagnosed.
 8. Severity of symptoms correlates with undiagnosed dissociative disorder.
-    * Increased risk behavior.
-    * More frequent relapses.
-    * Instances of suicidal behavior.
+   * Increased risk behavior.
+   * More frequent relapses.
+   * Instances of suicidal behavior.
 9. Borderline personality and dissociative symptoms are correlated.
    * Approximately two-thirds of borderline patients have significant dissociative symptoms.
    * One-third may meet criteria for DID.
@@ -895,22 +895,22 @@
 ### The Role of Mindfulness: How We Can “Befriend” Ourselves To
 
 1. **Mindfulness** is crucial in treating trauma due to its impact on the brain and body.
-    * Requires a witnessing mind for focused concentration or "directed mindfulness".
+   * Requires a witnessing mind for focused concentration or "directed mindfulness".
 2. **Effects of Mindfulness on the Brain**:
-    * Increased activity in the medial prefrontal cortex.
-    * Decreased activity in the amygdala.
+   * Increased activity in the medial prefrontal cortex.
+   * Decreased activity in the amygdala.
 3. **Role of Mindfulness in Trauma Treatment**:
-    * Counteracts trauma-related cortical inhibition.
-    * Regulates autonomic activation.
+   * Counteracts trauma-related cortical inhibition.
+   * Regulates autonomic activation.
 4. **Facilitates "dual awareness" or "parallel processing"**:
-    * Allows exploration of past without retraumatization.
-    * Present and past experiences coexist in the mind.
+   * Allows exploration of past without retraumatization.
+   * Present and past experiences coexist in the mind.
 5. **Mindfulness-based methods for trauma treatment:**
-    * Sensorimotor Psychotherapy.
-    * Internal Family Systems.
-    * Hypnotic ego state therapy.
-    * Eye Movement Desensitization and Reprocessing (EMDR).
-    * Somatic Experiencing.
+   * Sensorimotor Psychotherapy.
+   * Internal Family Systems.
+   * Hypnotic ego state therapy.
+   * Eye Movement Desensitization and Reprocessing (EMDR).
+   * Somatic Experiencing.
     
 ### From Whose Perspective Should We Observe?
 
@@ -951,18 +951,18 @@
 ### Differentiating Observation versus Meaning-Making
 
 1. **Trauma** is an experience beyond words (Meichenbaum, 2012).
-    * Individuals attach beliefs or stories to traumatic events, influencing meaning-making.
-    * Self-defeating stories can be created based on different parts of the trauma experience:
+   * Individuals attach beliefs or stories to traumatic events, influencing meaning-making.
+   * Self-defeating stories can be created based on different parts of the trauma experience:
       - Submit part: Shame-based, hopeless story of victimization.
       - Cry for help part: Story of neglect or indifference.
       - Fight part: Belief that it's better to die than to continue being abused.
 2. Only going on with normal life allows for higher level **meaning-making** and conceptualization (Meichenbaum, 2012).
-    * Requires higher order cognitive processing.
-    * Comprehending adaptive vs maladaptive beliefs.
+   * Requires higher order cognitive processing.
+   * Comprehending adaptive vs maladaptive beliefs.
 3. Beliefs should be differentiated from:
-    * Feelings.
-    * Visceral reactions.
-    * Perceptions.
+   * Feelings.
+   * Visceral reactions.
+   * Perceptions.
 4. Tension and relaxation should also be distinguished.
 5. Connecting all inputs to the contributing parts helps clients understand their whole self and trauma logic.
 
@@ -2086,16 +2086,16 @@
 2. **Organicity/Self-Leadership**
    - Principle of body's innate drive toward healing and growth.
    - Heal ourselves through access to innate capacities.
-    * Compassion, curiosity, clarity, creativity, courage, calm, confidence, commitment.
+      * Compassion, curiosity, clarity, creativity, courage, calm, confidence, commitment.
 3. **Therapist's Role**
    - Provide a "container" or "growth-facilitating" environment.
    - Evoke natural tendencies for healing.
-    * Use of therapist's qualities (compassion, curiosity, etc.) to stimulate client's access.
+     * Use of therapist's qualities (compassion, curiosity, etc.) to stimulate client's access.
 4. **Social Engagement System**
    - Neural system connected to the vagus nerve.
    - Channels of communication between babies and parents.
    - Creates a felt sense of safety for clients.
-    * Use of tone, facial expression, and gaze to communicate welcome, warmth, understanding.
+     * Use of tone, facial expression, and gaze to communicate welcome, warmth, understanding.
 5. **Therapist's Communication with Clients**
    - Speak with warmth, sadness, respect, or delight to parts.
    - Reassure, educate, model attunement to child parts.
@@ -2356,23 +2356,23 @@
 #### discussion of “parenting tips”
 
 1. **Parenting tips for Carl** to help him connect with a fragmented child.
-  * Child needs recognition, feeling seen.
-  * Importance of daily "good morning" and face-to-face interaction.
-  * Finding a toy based on child's interest.
-  * Carrying a symbolic object as a reminder.
-  * Imaginatively tucking the child in at night for safety.
+   - Child needs recognition, feeling seen.
+   - Importance of daily "good morning" and face-to-face interaction.
+   - Finding a toy based on child's interest.
+   - Carrying a symbolic object as a reminder.
+   - Imaginatively tucking the child in at night for safety.
 2. **Outside session importance:** Therapist's role in facilitating work past the hour.
-  * Attentiveness to individuals with trauma histories.
-  * Heart-to-heart connection between small child part and compassionate adult self.
+   - Attentiveness to individuals with trauma histories.
+   - Heart-to-heart connection between small child part and compassionate adult self.
 3. **Shift from internal alienation:** 10% inspiration, 90% perspiration.
-  * Repetition of steps: connecting to a part, creating moments of repair, deepening bond.
+   - Repetition of steps: connecting to a part, creating moments of repair, deepening bond.
 4. **Lasting change:** Intensive repetition and neuralplasticity.
-  * Neural change best facilitated by new patterns of action and reaction (Schwartz & Begley, 2002).
+   - Neural change best facilitated by new patterns of action and reaction (Schwartz & Begley, 2002).
 5. **Previous beliefs:** Intensity of emotional experience leads to transformative shift.
 6. Importance of therapist's role:
-  * Attentiveness outside session hours.
-  * Facilitating shift from internal alienation.
-  * Repetition and integration for lasting change.
+   - Attentiveness outside session hours.
+   - Facilitating shift from internal alienation.
+   - Repetition and integration for lasting change.
     
 ### Rupture and Repair of Internal Attachment Relationships
 

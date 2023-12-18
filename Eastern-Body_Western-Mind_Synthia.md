@@ -16,80 +16,80 @@ It is meant to provide a detailed overview of the topics and materials presented
 
 - [PREFACE TO THIS EDITION](#preface-to-this-edition)
 - [INTRODUCTION](#introduction)
-  - [Sacred Centers of the Self](#sacred-centers-of-the-self)
-  - [DISCOVERING THE RAINBOW BRIDGE](#discovering-the-rainbow-bridge)
-  - [WHEELS THAT HEAL](#wheels-that-heal)
-  - [THE HUMAN BIOCOMPUTER](#the-human-biocomputer)
-  - [CHAKRA BLOCKAGE](#chakra-blockage)
-  - [CHARACTER ARMOR](#character-armor)
-  - [THE SEVEN RIGHTS](#the-seven-rights)
-  - [THE SEVEN IDENTITIES](#the-seven-identities)
-  - [DEMONS OF THE CHAKRAS](#demons-of-the-chakras)
-  - [DEVELOPMENTAL STAGES](#developmental-stages)
-  - [INTERACTIVE DEVELOPMENT: THE CHAKRA SYSTEM AS A WHOLE](#interactive-development-the-chakra-system-as-a-whole)
+   - [Sacred Centers of the Self](#sacred-centers-of-the-self)
+   - [DISCOVERING THE RAINBOW BRIDGE](#discovering-the-rainbow-bridge)
+   - [WHEELS THAT HEAL](#wheels-that-heal)
+   - [THE HUMAN BIOCOMPUTER](#the-human-biocomputer)
+   - [CHAKRA BLOCKAGE](#chakra-blockage)
+   - [CHARACTER ARMOR](#character-armor)
+   - [THE SEVEN RIGHTS](#the-seven-rights)
+   - [THE SEVEN IDENTITIES](#the-seven-identities)
+   - [DEMONS OF THE CHAKRAS](#demons-of-the-chakras)
+   - [DEVELOPMENTAL STAGES](#developmental-stages)
+   - [INTERACTIVE DEVELOPMENT: THE CHAKRA SYSTEM AS A WHOLE](#interactive-development-the-chakra-system-as-a-whole)
 - [CHAKRA ONE](#chakra-one)
-  - [FIRST CHAKRA AT A GLANCE](#first-chakra-at-a-glance)
-  - [BASIC ISSUES](#basic-issues)
-  - [THE FOUNDATION OF THE TEMPLE](#the-foundation-of-the-temple)
-  - [GROWING THE LOTUS](#growing-the-lotus)
-  - [TRAUMAS AND ABUSES](#traumas-and-abuses)
-  - [CHARACTER STRUCTURE](#character-structure)
-  - [EXCESS AND DEFICIENCY](#excess-and-deficiency)
-  - [RESTORING THE LOTUS](#restoring-the-lotus)
-  - [CONCLUSION](#conclusion)
+   - [FIRST CHAKRA AT A GLANCE](#first-chakra-at-a-glance)
+   - [BASIC ISSUES](#basic-issues)
+   - [THE FOUNDATION OF THE TEMPLE](#the-foundation-of-the-temple)
+   - [GROWING THE LOTUS](#growing-the-lotus)
+   - [TRAUMAS AND ABUSES](#traumas-and-abuses)
+   - [CHARACTER STRUCTURE](#character-structure)
+   - [EXCESS AND DEFICIENCY](#excess-and-deficiency)
+   - [RESTORING THE LOTUS](#restoring-the-lotus)
+   - [CONCLUSION](#conclusion)
 - [CHAKRA TWO](#chakra-two)
-  - [BASIC ISSUES](#basic-issues-1)
-  - [DIVING IN THE WATERS](#diving-in-the-waters)
-  - [GROWING THE LOTUS](#growing-the-lotus-1)
-  - [TRAUMAS AND ABUSES](#traumas-and-abuses-1)
-  - [CHARACTER STRUCTURE THE ORAL: THE LOVER](#character-structure-the-oral-the-lover)
-  - [EXCESS AND DEFICIENCY](#excess-and-deficiency-1)
-  - [RESTORING THE LOTUS](#restoring-the-lotus-1)
-  - [CONCLUSION](#conclusion-1)
+   - [BASIC ISSUES](#basic-issues-1)
+   - [DIVING IN THE WATERS](#diving-in-the-waters)
+   - [GROWING THE LOTUS](#growing-the-lotus-1)
+   - [TRAUMAS AND ABUSES](#traumas-and-abuses-1)
+   - [CHARACTER STRUCTURE THE ORAL: THE LOVER](#character-structure-the-oral-the-lover)
+   - [EXCESS AND DEFICIENCY](#excess-and-deficiency-1)
+   - [RESTORING THE LOTUS](#restoring-the-lotus-1)
+   - [CONCLUSION](#conclusion-1)
 - [CHAKRA THREE](#chakra-three)
-  - [SHADES OF YELLOW](#shades-of-yellow)
-  - [UNFOLDING THE PETALS](#unfolding-the-petals)
-  - [GROWING THE LOTUS](#growing-the-lotus-2)
-  - [TRAUMAS AND ABUSES](#traumas-and-abuses-2)
-  - [CHARACTER STRUCTURE THE ENDURER](#character-structure-the-endurer)
-  - [EXCESS AND DEFICIENCY EXCESS](#excess-and-deficiency-excess)
-  - [RESTORING THE LOTUS](#restoring-the-lotus-2)
-  - [CONCLUSION](#conclusion-2)
+   - [SHADES OF YELLOW](#shades-of-yellow)
+   - [UNFOLDING THE PETALS](#unfolding-the-petals)
+   - [GROWING THE LOTUS](#growing-the-lotus-2)
+   - [TRAUMAS AND ABUSES](#traumas-and-abuses-2)
+   - [CHARACTER STRUCTURE THE ENDURER](#character-structure-the-endurer)
+   - [EXCESS AND DEFICIENCY EXCESS](#excess-and-deficiency-excess)
+   - [RESTORING THE LOTUS](#restoring-the-lotus-2)
+   - [CONCLUSION](#conclusion-2)
 - [CHAKRA FOUR](#chakra-four)
-  - [SHADES OF GREEN](#shades-of-green)
-  - [UNFOLDING THE PETALS](#unfolding-the-petals-1)
-  - [GROWING THE LOTUS](#growing-the-lotus-3)
-  - [TRAUMAS AND ABUSES](#traumas-and-abuses-3)
-  - [CHARACTER STRUCTURE RIGID \\ Hysteric](#character-structure-rigid--hysteric)
-  - [RESTORING THE LOTUS HEALING THE HEART CHAKRA](#restoring-the-lotus-healing-the-heart-chakra)
+   - [SHADES OF GREEN](#shades-of-green)
+   - [UNFOLDING THE PETALS](#unfolding-the-petals-1)
+   - [GROWING THE LOTUS](#growing-the-lotus-3)
+   - [TRAUMAS AND ABUSES](#traumas-and-abuses-3)
+   - [CHARACTER STRUCTURE RIGID \\ Hysteric](#character-structure-rigid--hysteric)
+   - [RESTORING THE LOTUS HEALING THE HEART CHAKRA](#restoring-the-lotus-healing-the-heart-chakra)
 - [CHAKRA FIVE](#chakra-five)
-  - [SHADES OF BLUE](#shades-of-blue)
-  - [UNFOLDING THE PETALS](#unfolding-the-petals-2)
-  - [GROWING THE LOTUS](#growing-the-lotus-4)
-  - [TRAUMAS AND ABUSES](#traumas-and-abuses-4)
-  - [CHARACTER STRUCTURE Challenger-Defender](#character-structure-challenger-defender)
-  - [RESTORING THE LOTUS HEALING THE FIFTH CHAKRA](#restoring-the-lotus-healing-the-fifth-chakra)
-  - [CONCLUSION](#conclusion-3)
+   - [SHADES OF BLUE](#shades-of-blue)
+   - [UNFOLDING THE PETALS](#unfolding-the-petals-2)
+   - [GROWING THE LOTUS](#growing-the-lotus-4)
+   - [TRAUMAS AND ABUSES](#traumas-and-abuses-4)
+   - [CHARACTER STRUCTURE Challenger-Defender](#character-structure-challenger-defender)
+   - [RESTORING THE LOTUS HEALING THE FIFTH CHAKRA](#restoring-the-lotus-healing-the-fifth-chakra)
+   - [CONCLUSION](#conclusion-3)
 - [CHAKRA SIX](#chakra-six)
-  - [SHADES OF INDIGO](#shades-of-indigo)
-  - [UNFOLDING THE PETALS](#unfolding-the-petals-3)
-  - [GROWING THE LOTUS](#growing-the-lotus-5)
-  - [TRAUMAS AND ABUSES](#traumas-and-abuses-5)
-  - [CONCLUSION](#conclusion-4)
+   - [SHADES OF INDIGO](#shades-of-indigo)
+   - [UNFOLDING THE PETALS](#unfolding-the-petals-3)
+   - [GROWING THE LOTUS](#growing-the-lotus-5)
+   - [TRAUMAS AND ABUSES](#traumas-and-abuses-5)
+   - [CONCLUSION](#conclusion-4)
 - [CHAKRA SEVEN](#chakra-seven)
-  - [SHADES OF VIOLET](#shades-of-violet)
-  - [UNFOLDING THE THOUSAND-PETALED LOTUS](#unfolding-the-thousand-petaled-lotus)
-  - [GROWING THE LOTUS](#growing-the-lotus-6)
-  - [TRAUMAS AND ABUSES](#traumas-and-abuses-6)
-  - [EXCESS AND DEFICIENCY DEFICIENCY](#excess-and-deficiency-deficiency)
-  - [RESTORING THE LOTUS HEALING THE SEVENTH CHAKRA](#restoring-the-lotus-healing-the-seventh-chakra)
+   - [SHADES OF VIOLET](#shades-of-violet)
+   - [UNFOLDING THE THOUSAND-PETALED LOTUS](#unfolding-the-thousand-petaled-lotus)
+   - [GROWING THE LOTUS](#growing-the-lotus-6)
+   - [TRAUMAS AND ABUSES](#traumas-and-abuses-6)
+   - [EXCESS AND DEFICIENCY DEFICIENCY](#excess-and-deficiency-deficiency)
+   - [RESTORING THE LOTUS HEALING THE SEVENTH CHAKRA](#restoring-the-lotus-healing-the-seventh-chakra)
 - [CONCLUSION](#conclusion-5)
-  - [Restoration of the Sacred](#restoration-of-the-sacred)
-  - [PUTTING IT ALL TOGETHER](#putting-it-all-together)
-  - [KUNDALINI AWAKENING](#kundalini-awakening)
-  - [Shiva](#shiva)
-  - [TANTRA—MEETING AT THE HEART](#tantrameeting-at-the-heart)
-  - [TEMPLE FOR THE GODS](#temple-for-the-gods)
+   - [Restoration of the Sacred](#restoration-of-the-sacred)
+   - [PUTTING IT ALL TOGETHER](#putting-it-all-together)
+   - [KUNDALINI AWAKENING](#kundalini-awakening)
+   - [Shiva](#shiva)
+   - [TANTRA—MEETING AT THE HEART](#tantrameeting-at-the-heart)
+   - [TEMPLE FOR THE GODS](#temple-for-the-gods)
 - [Bibliography](#bibliography)
 
 ## PREFACE TO THIS EDITION
@@ -531,7 +531,7 @@ Doing psychological work while standing increases the body's energy, allows grea
 
 **Exercise 2**: Lying down, massage shoulder/back muscles, reaching forward with hands, suckling response (pushing lips outward)
 * Important to end with client feeling able to support himself in an adult way
- * Boundary implications, practitioner must establish clear boundaries and sense of safety/trust
+* Boundary implications, practitioner must establish clear boundaries and sense of safety/trust
 
 ### CONCLUSION
 
@@ -1757,8 +1757,8 @@ When illusion is fed by a sixth chakra excess, it becomes obsession or delusion.
 #### TRANSCENDENT FUNCTION
 * The symbol maintains psychic life in a constant flux and carries it onward toward its destined goal by enabling tension and release as an expression of the living movement of the psychic process.
 * Chakra structure: 
-  - Chakras six and seven correspond to the supra conscious or transcendent, transpersonal, or cosmic consciousness.
-  - The lower two chakras are the realm of instincts and unconscious mind, while chakra three is the egoic consciousness.
+   - Chakras six and seven correspond to the supra conscious or transcendent, transpersonal, or cosmic consciousness.
+   - The lower two chakras are the realm of instincts and unconscious mind, while chakra three is the egoic consciousness.
 * Vision: The final outcome of working through chakra six is the emergence of a personal vision, which can address world problems or focus on one's own life. It uses imagination to create something new and shapes our behavior. 
 
 *A vision leads us forward, while an illusion holds us back.*
@@ -2117,21 +2117,21 @@ Those who practice meditation on a regular basis usually report an increased lev
 
 ###### There are countless techniques that one can use to obtain a meditative state.
 - **Nonspecified, free-flowing movement**: 
-  -  regulating and watching one's breath
-  -  gazing at an image such as a flame, mandala, or symbol
-  -  uttering a mantra, phrase, or affirmation
-  -  observing the witness
-  -  following one's thoughts
-  -  walking silently and mindfully
-  -  concentrating on a concept or problem (such as the Zen koan "What is the sound of one hand clapping?")
-  -  intent listening to sounds or to music
-  -  visualizing moving energy up and/or down your body (running energy)
-  -  guided visualizations or trance journeys
-  -  simply relaxing and letting oneself be receptive to whatever comes through.
+   -  regulating and watching one's breath
+   -  gazing at an image such as a flame, mandala, or symbol
+   -  uttering a mantra, phrase, or affirmation
+   -  observing the witness
+   -  following one's thoughts
+   -  walking silently and mindfully
+   -  concentrating on a concept or problem (such as the Zen koan "What is the sound of one hand clapping?")
+   -  intent listening to sounds or to music
+   -  visualizing moving energy up and/or down your body (running energy)
+   -  guided visualizations or trance journeys
+   -  simply relaxing and letting oneself be receptive to whatever comes through.
 - **Concentrative meditation, as described by Patanjali's Yoga Sutras**: 
-  - ydharana (concentration)
-  - dhyana (meditation or merging)
-  - samadhi (ecstasy).
+   - ydharana (concentration)
+   - dhyana (meditation or merging)
+   - samadhi (ecstasy).
 
 In concrete terms, this involves focusing awareness on an object, allowing it to merge with the object, and experiencing the state of mind that arises when total absorption occurs and there is no longer a sense of subject and object, but only a sense of being.
 
@@ -2186,14 +2186,14 @@ Meditation can also serve the descending current of manifestation. This is the a
 The Higher Self is an archetype that allows us to receive information for healing and guidance towards wholeness. It can be defined as communing with divine intelligence, God or Goddess, disembodied masters who act as guides, or an unconscious aspect of our own mind.
 
 * **Exercise for Guidance from the Higher Self**: 
-  - Create a mental image of your concept of deity and describe it to a friend. 
-  - Pose a mature question about a difficult situation you're facing. 
-  - Switch roles with your friend, imagining yourself as the deity, and answer the question as if you were that higher being.
+   - Create a mental image of your concept of deity and describe it to a friend. 
+   - Pose a mature question about a difficult situation you're facing. 
+   - Switch roles with your friend, imagining yourself as the deity, and answer the question as if you were that higher being.
 
 * **Alone**: 
-  - Imagine your concept of God/dess, write down your question on paper, and allow yourself to take on the God/dess form while reading the question. 
-  - Answer as you would above, either remembering or recording the answer. 
-  - Journal about whatever comes through during the process.
+   - Imagine your concept of God/dess, write down your question on paper, and allow yourself to take on the God/dess form while reading the question. 
+   - Answer as you would above, either remembering or recording the answer. 
+   - Journal about whatever comes through during the process.
 
 #### NONATTACHMENT
 
