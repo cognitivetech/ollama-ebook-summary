@@ -31,6 +31,8 @@ I'm running this project at home using an RTX 3060 12GB. Each answer typically t
 
 I'm using [Calibre](https://calibre-ebook.com/) and [VS Code](https://code.visualstudio.com/).
 
+* if using Linux, [be sure to install calibre from official source](https://calibre-ebook.com/download_linux). 
+  
 ## Process Document
 
 ### Chapterize Book
