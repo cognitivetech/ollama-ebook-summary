@@ -12,90 +12,90 @@ It is meant to provide a detailed overview of the topics and materials presented
 ## Contents
 - [Preface](#preface)
 - [Introduction: The Autonomic Nervous System](#introduction-the-autonomic-nervous-system)
-  - [The brain-body barrier](#the-brain-body-barrier)
-  - [The neurology of social engagement](#the-neurology-of-social-engagement)
-  - [Restoring social engagement](#restoring-social-engagement)
+   - [The brain-body barrier](#the-brain-body-barrier)
+   - [The neurology of social engagement](#the-neurology-of-social-engagement)
+   - [Restoring social engagement](#restoring-social-engagement)
 - [PART ONE](#part-one)
 - [Chapter 1](#chapter-1)
-  - [The various functions of cranial nerves](#the-various-functions-of-cranial-nerves)
-  - [Major Functions of the Cranial Nerves.](#major-functions-of-the-cranial-nerves)
-  - [Cranial Nerve Dysfunction and Social Engagement](#cranial-nerve-dysfunction-and-social-engagement)
-  - [The fifth and seventh cranial nerves](#the-fifth-and-seventh-cranial-nerves)
-  - [The ninth, tenth, and eleventh cranial nerves](#the-ninth-tenth-and-eleventh-cranial-nerves)
-  - [The Vagus CNX has two branches with different functions.](#the-vagus-cnx-has-two-branches-with-different-functions)
-  - [Treating the Cranial Nerves](#treating-the-cranial-nerves)
-  - [The Spinal Nerves](#the-spinal-nerves)
-  - [The spinal sympathetic chain](#the-spinal-sympathetic-chain)
+   - [The various functions of cranial nerves](#the-various-functions-of-cranial-nerves)
+   - [Major Functions of the Cranial Nerves.](#major-functions-of-the-cranial-nerves)
+   - [Cranial Nerve Dysfunction and Social Engagement](#cranial-nerve-dysfunction-and-social-engagement)
+   - [The fifth and seventh cranial nerves](#the-fifth-and-seventh-cranial-nerves)
+   - [The ninth, tenth, and eleventh cranial nerves](#the-ninth-tenth-and-eleventh-cranial-nerves)
+   - [The Vagus CNX has two branches with different functions.](#the-vagus-cnx-has-two-branches-with-different-functions)
+   - [Treating the Cranial Nerves](#treating-the-cranial-nerves)
+   - [The Spinal Nerves](#the-spinal-nerves)
+   - [The spinal sympathetic chain](#the-spinal-sympathetic-chain)
 - [Chapter 2](#chapter-2)
-  - [Goldilocks and the Three ANS States](#goldilocks-and-the-three-ans-states)
-  - [Homeostasis and the ANS](#homeostasis-and-the-ans)
-  - [The Five States of the Autonomic Nervous System](#the-five-states-of-the-autonomic-nervous-system)
-  - [Historical Recognition](#historical-recognition)
-  - [Two Branches of the Nerve Called “Vagus”](#two-branches-of-the-nerve-called-vagus)
-  - [Effects of activity in the dorsal vagus circuit](#effects-of-activity-in-the-dorsal-vagus-circuit)
-  - [Symptoms of a dorsal vagal state](#symptoms-of-a-dorsal-vagal-state)
-  - [Effects of ventral vagus activity](#effects-of-ventral-vagus-activity)
-  - [Stress and the Sympathetic Nervous System](#stress-and-the-sympathetic-nervous-system)
-  - [The fight-or-flight response](#the-fight-or-flight-response)
-  - [A new understanding of stress](#a-new-understanding-of-stress)
+   - [Goldilocks and the Three ANS States](#goldilocks-and-the-three-ans-states)
+   - [Homeostasis and the ANS](#homeostasis-and-the-ans)
+   - [The Five States of the Autonomic Nervous System](#the-five-states-of-the-autonomic-nervous-system)
+   - [Historical Recognition](#historical-recognition)
+   - [Two Branches of the Nerve Called “Vagus”](#two-branches-of-the-nerve-called-vagus)
+   - [Effects of activity in the dorsal vagus circuit](#effects-of-activity-in-the-dorsal-vagus-circuit)
+   - [Symptoms of a dorsal vagal state](#symptoms-of-a-dorsal-vagal-state)
+   - [Effects of ventral vagus activity](#effects-of-ventral-vagus-activity)
+   - [Stress and the Sympathetic Nervous System](#stress-and-the-sympathetic-nervous-system)
+   - [The fight-or-flight response](#the-fight-or-flight-response)
+   - [A new understanding of stress](#a-new-understanding-of-stress)
 - [Chapter 3](#chapter-3)
-  - [Neuroception and Faulty Neuroception](#neuroception-and-faulty-neuroception)
-  - [Other Causes of Faulty Neuroception](#other-causes-of-faulty-neuroception)
+   - [Neuroception and Faulty Neuroception](#neuroception-and-faulty-neuroception)
+   - [Other Causes of Faulty Neuroception](#other-causes-of-faulty-neuroception)
 - [Chapter 4](#chapter-4)
-  - [Testing the Ventral Branch of the Vagus Nerve](#testing-the-ventral-branch-of-the-vagus-nerve)
-  - [Other tests of vagal function](#other-tests-of-vagal-function)
-  - [Testing for Vagal Function: Early Experiences](#testing-for-vagal-function-early-experiences)
-  - [Discovering the Polyvagal Theory](#discovering-the-polyvagal-theory)
-  - [Testing for Vagal Function: Cottingham, Porges, and Lyon](#testing-for-vagal-function-cottingham-porges-and-lyon)
-  - [A Simple Test of the Pharyngeal Vagus Branch](#a-simple-test-of-the-pharyngeal-vagus-branch)
-  - [How to Test for Pharyngeal Ventral Branch Function](#how-to-test-for-pharyngeal-ventral-branch-function)
-  - [Therapists Can Test for Vagal Function without Touching](#therapists-can-test-for-vagal-function-without-touching)
-  - [Building on Stephen Porges’s success](#building-on-stephen-porgess-success)
-  - [Relieving COPD and Hiatal Hernia](#relieving-copd-and-hiatal-hernia)
-  - [COPD and hiatal hernia: a case study](#copd-and-hiatal-hernia-a-case-study)
-  - [Treating a Hiatal Hernia](#treating-a-hiatal-hernia)
-  - [Diaphragmatic Breathing](#diaphragmatic-breathing)
-  - [The Levator Scapulae Muscle](#the-levator-scapulae-muscle)
-  - [Trapezius and SCM muscles in action on the Serengeti Plain](#trapezius-and-scm-muscles-in-action-on-the-serengeti-plain)
-  - [Asymmetry in trapezius muscle tension](#asymmetry-in-trapezius-muscle-tension)
-  - [The Trap Squeeze Test for Shoulder and Neck Problems](#the-trap-squeeze-test-for-shoulder-and-neck-problems)
-  - [Health Problems Related to Forward Head Posture](#health-problems-related-to-forward-head-posture)
-  - [Scar tissue as a contributor to FHP](#scar-tissue-as-a-contributor-to-fhp)
-  - [Relieving Migraine Headaches](#relieving-migraine-headaches)
-  - [All muscles have trigger points](#all-muscles-have-trigger-points)
-  - [Migraines: a case study](#migraines-a-case-study)
+   - [Testing the Ventral Branch of the Vagus Nerve](#testing-the-ventral-branch-of-the-vagus-nerve)
+   - [Other tests of vagal function](#other-tests-of-vagal-function)
+   - [Testing for Vagal Function: Early Experiences](#testing-for-vagal-function-early-experiences)
+   - [Discovering the Polyvagal Theory](#discovering-the-polyvagal-theory)
+   - [Testing for Vagal Function: Cottingham, Porges, and Lyon](#testing-for-vagal-function-cottingham-porges-and-lyon)
+   - [A Simple Test of the Pharyngeal Vagus Branch](#a-simple-test-of-the-pharyngeal-vagus-branch)
+   - [How to Test for Pharyngeal Ventral Branch Function](#how-to-test-for-pharyngeal-ventral-branch-function)
+   - [Therapists Can Test for Vagal Function without Touching](#therapists-can-test-for-vagal-function-without-touching)
+   - [Building on Stephen Porges’s success](#building-on-stephen-porgess-success)
+   - [Relieving COPD and Hiatal Hernia](#relieving-copd-and-hiatal-hernia)
+   - [COPD and hiatal hernia: a case study](#copd-and-hiatal-hernia-a-case-study)
+   - [Treating a Hiatal Hernia](#treating-a-hiatal-hernia)
+   - [Diaphragmatic Breathing](#diaphragmatic-breathing)
+   - [The Levator Scapulae Muscle](#the-levator-scapulae-muscle)
+   - [Trapezius and SCM muscles in action on the Serengeti Plain](#trapezius-and-scm-muscles-in-action-on-the-serengeti-plain)
+   - [Asymmetry in trapezius muscle tension](#asymmetry-in-trapezius-muscle-tension)
+   - [The Trap Squeeze Test for Shoulder and Neck Problems](#the-trap-squeeze-test-for-shoulder-and-neck-problems)
+   - [Health Problems Related to Forward Head Posture](#health-problems-related-to-forward-head-posture)
+   - [Scar tissue as a contributor to FHP](#scar-tissue-as-a-contributor-to-fhp)
+   - [Relieving Migraine Headaches](#relieving-migraine-headaches)
+   - [All muscles have trigger points](#all-muscles-have-trigger-points)
+   - [Migraines: a case study](#migraines-a-case-study)
 - [Chapter 6 Somatopsychological Problems](#chapter-6-somatopsychological-problems)
-  - [Emotions and the autonomic nervous](#emotions-and-the-autonomic-nervous)
-  - [Anxiety and Panic Attacks](#anxiety-and-panic-attacks)
-  - [Case study: anxiety and panic attacks](#case-study-anxiety-and-panic-attacks)
-  - [Social regulation of anxiety states](#social-regulation-of-anxiety-states)
-  - [Antisocial Behavior and Domestic Violence](#antisocial-behavior-and-domestic-violence)
-  - [Domestic Violence: Not Just Men Beating Wives](#domestic-violence-not-just-men-beating-wives)
-  - [Post-Traumatic Stress Disorder (PTSD)](#post-traumatic-stress-disorder-ptsd)
-  - [Dorsal branch Activity and PTSD](#dorsal-branch-activity-and-ptsd)
-  - [Depression and the Autonomic Nervous System](#depression-and-the-autonomic-nervous-system)
-  - [Bipolar Disorder Bipolar](#bipolar-disorder-bipolar)
-  - [ADHD and Hyperactivity](#adhd-and-hyperactivity)
+   - [Emotions and the autonomic nervous](#emotions-and-the-autonomic-nervous)
+   - [Anxiety and Panic Attacks](#anxiety-and-panic-attacks)
+   - [Case study: anxiety and panic attacks](#case-study-anxiety-and-panic-attacks)
+   - [Social regulation of anxiety states](#social-regulation-of-anxiety-states)
+   - [Antisocial Behavior and Domestic Violence](#antisocial-behavior-and-domestic-violence)
+   - [Domestic Violence: Not Just Men Beating Wives](#domestic-violence-not-just-men-beating-wives)
+   - [Post-Traumatic Stress Disorder (PTSD)](#post-traumatic-stress-disorder-ptsd)
+   - [Dorsal branch Activity and PTSD](#dorsal-branch-activity-and-ptsd)
+   - [Depression and the Autonomic Nervous System](#depression-and-the-autonomic-nervous-system)
+   - [Bipolar Disorder Bipolar](#bipolar-disorder-bipolar)
+   - [ADHD and Hyperactivity](#adhd-and-hyperactivity)
 - [Chapter 7 Autism Spectrum Disorders](#chapter-7-autism-spectrum-disorders)
-  - [Hope for Autism: The Listening Project](#hope-for-autism-the-listening-project)
-  - [The Role of Hearing in Autism Spectrum Disorders](#the-role-of-hearing-in-autism-spectrum-disorders)
-  - [The evolution of hearing](#the-evolution-of-hearing)
-  - [Treating hearing in autistic children](#treating-hearing-in-autistic-children)
-  - [Autism: a case study](#autism-a-case-study)
-  - [Special considerations in treating autistic children](#special-considerations-in-treating-autistic-children)
+   - [Hope for Autism: The Listening Project](#hope-for-autism-the-listening-project)
+   - [The Role of Hearing in Autism Spectrum Disorders](#the-role-of-hearing-in-autism-spectrum-disorders)
+   - [The evolution of hearing](#the-evolution-of-hearing)
+   - [Treating hearing in autistic children](#treating-hearing-in-autistic-children)
+   - [Autism: a case study](#autism-a-case-study)
+   - [Special considerations in treating autistic children](#special-considerations-in-treating-autistic-children)
 - [Part Two](#part-two)
-  - [Exercises to Restore Social Engagement](#exercises-to-restore-social-engagement)
-  - [The Basic Exercise](#the-basic-exercise)
-  - [Cervical vertebrae and ventral vagal dysfunction](#cervical-vertebrae-and-ventral-vagal-dysfunction)
-  - [Why do we move our eyes in the Basic Exercise?](#why-do-we-move-our-eyes-in-the-basic-exercise)
-  - [Neuro-Fascial Release Technique for Social Engagement](#neuro-fascial-release-technique-for-social-engagement)
-  - [The Salamander Exercises](#the-salamander-exercises)
-  - [Level 1: the Half-Salamander Exercise](#level-1-the-half-salamander-exercise)
-  - [Level 2: the Full Salamander Exercise](#level-2-the-full-salamander-exercise)
-  - [Massage for Migraines](#massage-for-migraines)
-  - [SCM Exercise for a Stiff Neck](#scm-exercise-for-a-stiff-neck)
-  - [Twist and Turn Exercise for Trapezius:](#twist-and-turn-exercise-for-trapezius)
-  - [A Four-Minute Natural Facelift, Part 1](#a-four-minute-natural-facelift-part-1)
+   - [Exercises to Restore Social Engagement](#exercises-to-restore-social-engagement)
+   - [The Basic Exercise](#the-basic-exercise)
+   - [Cervical vertebrae and ventral vagal dysfunction](#cervical-vertebrae-and-ventral-vagal-dysfunction)
+   - [Why do we move our eyes in the Basic Exercise?](#why-do-we-move-our-eyes-in-the-basic-exercise)
+   - [Neuro-Fascial Release Technique for Social Engagement](#neuro-fascial-release-technique-for-social-engagement)
+   - [The Salamander Exercises](#the-salamander-exercises)
+   - [Level 1: the Half-Salamander Exercise](#level-1-the-half-salamander-exercise)
+   - [Level 2: the Full Salamander Exercise](#level-2-the-full-salamander-exercise)
+   - [Massage for Migraines](#massage-for-migraines)
+   - [SCM Exercise for a Stiff Neck](#scm-exercise-for-a-stiff-neck)
+   - [Twist and Turn Exercise for Trapezius:](#twist-and-turn-exercise-for-trapezius)
+   - [A Four-Minute Natural Facelift, Part 1](#a-four-minute-natural-facelift-part-1)
 
 ## Preface 
 
@@ -114,13 +114,13 @@ Rosenberg believes that becoming a skilled body therapist is not so much “know
 The ANS is an integral part of the human nervous system, monitoring and regulating the activity of visceral organs such as heart, lungs, liver, gall bladder, stomach, intestines, kidneys, and sexual organs. Problems with any of these organs can arise from dysfunction of the ANS.
 
 - **Old understanding of the ANS**: The ANS functioned in two states - stress and relaxation. 
-  - Stress response is a survival mechanism activated when we feel threatened; it mobilizes our body to prepare for fight or flight. 
-  - Relaxation response kicks in after threat has passed, keeping us in a relaxed state until the next threat appears.
+   - Stress response is a survival mechanism activated when we feel threatened; it mobilizes our body to prepare for fight or flight. 
+   - Relaxation response kicks in after threat has passed, keeping us in a relaxed state until the next threat appears.
 - Fails to explain why people continue to feel stressed even when they are not under any threat.
 - **Polyvagal Theory (PVT)**: introduced the concept of three states
-  - **Ventral Vagal State**: This state is characterized by social engagement and safety. It is associated with feelings of calmness, connection, and trust.
-  - **Dorsal Vagal State**: This state is characterized by immobilization or shutdown. It is associated with feelings of fear, helplessness, and hopelessness.
-  - **Sympathetic Nervous System (SNS)**: This system is responsible for the fight-or-flight response. It is associated with feelings of anxiety, stress, and tension.
+   - **Ventral Vagal State**: This state is characterized by social engagement and safety. It is associated with feelings of calmness, connection, and trust.
+   - **Dorsal Vagal State**: This state is characterized by immobilization or shutdown. It is associated with feelings of fear, helplessness, and hopelessness.
+   - **Sympathetic Nervous System (SNS)**: This system is responsible for the fight-or-flight response. It is associated with feelings of anxiety, stress, and tension.
 - **Craniosacral Therapy**: A hands-on therapy that has proven to be particularly effective in improving the function of the nervous system. It can reduce chronic stress, release tensions in the muscular system, and bring better balance to the hormonal (endocrine) system.
 
 ### The brain-body barrier
@@ -172,26 +172,26 @@ The Polyvagal Theory, introduced by Stephen Porges, provides a new understanding
 2. **Overcoming Health Challenges**: Many people struggle with health issues, similar to Hercules fighting Hydra in Greek mythology. Treating one symptom at a time may not address the root cause and can lead to more symptoms.
 3. **Cranial Nerve Dysfunction**: The autonomic nervous system regulates important functions of the body such as circulation, respiration, digestion, and reproduction. If it's not working properly, various health issues can arise.
 4. **Common Problems Related to Cranial-Nerve Dysfunction**: 
-  - chronic physical tensions
-  - migraines
-  - back pain
-  - tense muscles
-  - eye or facial tensions
-  - cold hands and feet
-  - unwarranted sweating
-  - tenseness after exertion
-  - arthritis
-  - nervousness
-  - dizziness
-  - lump in the throat
-  - emotional issues
-  - heart and lung problems
-  - visceral-organ dysfunctions
-  - immune-system problems
-  - behavioral problems
-  - interpersonal relationships issues
-  - mental issues
-  - other problems.
+   - chronic physical tensions
+   - migraines
+   - back pain
+   - tense muscles
+   - eye or facial tensions
+   - cold hands and feet
+   - unwarranted sweating
+   - tenseness after exertion
+   - arthritis
+   - nervousness
+   - dizziness
+   - lump in the throat
+   - emotional issues
+   - heart and lung problems
+   - visceral-organ dysfunctions
+   - immune-system problems
+   - behavioral problems
+   - interpersonal relationships issues
+   - mental issues
+   - other problems.
 5. **The Vagus Nerve**: If the ventral branch of the vagus nerve is not functioning, it can lead to various health issues. Working with the cranial nerves can bring relief for these symptoms.
 
 ### Challenges and stresses
@@ -254,11 +254,11 @@ Cranial nerves also perform other functions such as gathering information from v
 - Autonomic nervous system resilience allows us to bounce back from fight or flight/withdrawal states.
 - Lack of social engagement can lead to difficulty understanding values, motivation, and behavior.
 - **Five cranial nerves necessary for social engagement**: 
-  - olfactory (smell) CNI
-  - optic (sight) CNII
-  - oculomotor (eye movement) CNIII
-  - trochlear (eye movement) CNIV
-  - trigeminal (facial sensation) CNV
+   - olfactory (smell) CNI
+   - optic (sight) CNII
+   - oculomotor (eye movement) CNIII
+   - trochlear (eye movement) CNIV
+   - trigeminal (facial sensation) CNV
 
 Dysfunction of these nerves can cause symptoms that indicate lack of social engagement, such as anosmia (loss of smell), blindness, double vision, strabismus (crossed eyes), facial numbness.
 
@@ -292,9 +292,9 @@ Dysfunction of these nerves can cause symptoms that indicate lack of social enga
 5. **William Garner Sutherland** founded cranial osteopathy and **Harold Magoun** wrote a seminal book on it.
 
 - There are three approaches to cranial work: 
-  - **biomechanical**: holding two adjacent cranial bones for mobilization in sutures.
-  - **soft-tissue stretching**: focuses on dural membranes (dura mater, falx cerebri, tentorium) that become less flexible with age, illness, antibiotics, and trauma.
-  - **biodynamic**: aims to maximize movement of cerebrospinal fluid for nourishment and waste elimination.
+   - **biomechanical**: holding two adjacent cranial bones for mobilization in sutures.
+   - **soft-tissue stretching**: focuses on dural membranes (dura mater, falx cerebri, tentorium) that become less flexible with age, illness, antibiotics, and trauma.
+   - **biodynamic**: aims to maximize movement of cerebrospinal fluid for nourishment and waste elimination.
 
 ### The Spinal Nerves
 
@@ -304,11 +304,11 @@ Dysfunction of these nerves can cause symptoms that indicate lack of social enga
 4. Every spinal nerve also affects several muscles, often working together as a unit to control basic movements of the arm or hand.
 5. The motor pathways of a nerve signal a muscle to contract.
 6. Spinal sensory nerves gather information from the body and feed it back to the brain: 
-  - sensations of pain 
-  - positions of the body parts
-  - movement
-  - tension in the muscles or fascia
-  - sense of touch (except the face which is innervated by cranial nerves).
+   - sensations of pain 
+   - positions of the body parts
+   - movement
+   - tension in the muscles or fascia
+   - sense of touch (except the face which is innervated by cranial nerves).
 7.  **Under normal conditions**, the spinal nerves facilitate easy, well-coordinated, graceful movements, and the muscles fire using the minimum amount of energy to achieve the desired movement. 
 8.  **If the body is in a state of stress** and all the muscles are more tense than necessary, this natural coordination is often lost, and movements become uncoordinated, awkward, or weak.
 
@@ -332,13 +332,13 @@ Dysfunction of these nerves can cause symptoms that indicate lack of social enga
 ### Goldilocks and the Three ANS States
 
 - Goldilocks and the Three Bears can be used as a metaphor for the three states of the autonomic nervous system (ANS).
-  - The first bowl of porridge was too hot
-  - the second was too cool
-  - and the third was just right.
+   - The first bowl of porridge was too hot
+   - the second was too cool
+   - and the third was just right.
 - The quality of the tone of the musculature in the three ANS states: 
-  - too hard or hot (in the fight or flight state)
-  - too soft or cold (in the shutdown state)
-  - just right (in the social engagement state).
+   - too hard or hot (in the fight or flight state)
+   - too soft or cold (in the shutdown state)
+   - just right (in the social engagement state).
 
 In the **fight or flight** state, muscles are tense to allow for quick movement. Higher blood pressure is needed to get the flow of blood into these tensed muscles.
 
@@ -362,12 +362,12 @@ The **social engagement** state is characterized by normal blood pressure and a 
 ### The Five States of the Autonomic Nervous System
 
 1. The autonomic nervous system (ANS) has three neural pathways, that comprise its first three states: 
-  - **social-engagement**: Ventral vagal
-  - **fight or flight**: Spinal Sympathetic
-  - **freeze**: dorsal vagal 
+   - **social-engagement**: Ventral vagal
+   - **fight or flight**: Spinal Sympathetic
+   - **freeze**: dorsal vagal 
 2. There are two hybrid states
-  - **friendly competition**: combines the fight or flight response (*spinal sympathetic chain*) with feelings of safety (*ventral branch* of the vagus nerve). 
-  - **intimacy**: combines slowing down physical activity (*dorsal*) with feeling safe with another person (*ventral*).
+   - **friendly competition**: combines the fight or flight response (*spinal sympathetic chain*) with feelings of safety (*ventral branch* of the vagus nerve). 
+   - **intimacy**: combines slowing down physical activity (*dorsal*) with feeling safe with another person (*ventral*).
 
 ### Historical Recognition
 
@@ -405,8 +405,8 @@ The Vagus Nerve: **must function properly** for individuals to be healthy, feel 
 
 1. The dorsal vagus circuit is an older branch of the vagus nerve present in all classes of vertebrates and is sometimes referred to as the "old vagus".
 2. Two autonomic nervous-system states that employ the dorsal vagal circuit: **metabolic shutdown** and **immobilization without fear**.
-  - Metabolic shutdown involves a state of reduced activity in vital functions, enabling animals to conserve energy.
-  - Immobilization without fear combines activity in the dorsal vagal circuit with activity in the social engagement circuit, appropriate when feeling safe and choosing to be relatively immobilized for intimacy.
+   - Metabolic shutdown involves a state of reduced activity in vital functions, enabling animals to conserve energy.
+   - Immobilization without fear combines activity in the dorsal vagal circuit with activity in the social engagement circuit, appropriate when feeling safe and choosing to be relatively immobilized for intimacy.
 3. Hibernation in mammals involves some degree of dorsal vagal activity but is not the same as shutdown.
 4. Reptiles can shut down almost totally, reducing heart rate, breathing, and digestion drastically to conserve energy until their next meal.
 5. A sudden surge in dorsal vagal activity when faced with mortal danger can result in a state of shock or immobilization with fear.
@@ -468,9 +468,9 @@ Three circuits of the autonomic nervous system are **a hierarchical with a step-
 - Neuroception is a term coined by Stephen Porges to describe how neural circuits distinguish whether a situation is safe, threatening, or dangerous. 
  - It is an ongoing process through which our autonomic nervous system evaluates information from our senses about our environment and the state of our body.
 - Neuroception takes place in the primitive parts of the brain, beyond our conscious awareness. 
-  - It can be likened to a good watchdog that is always on guard, allowing us to focus on things other than survival, or to sleep soundly, and rousing us only when intrusions could compromise our survival.
+   - It can be likened to a good watchdog that is always on guard, allowing us to focus on things other than survival, or to sleep soundly, and rousing us only when intrusions could compromise our survival.
 - Faulty Neuroception occurs when the neural circuits from perception to behavior do not function in an appropriate way. 
-  - A person might react to a safe situation as if it were threatening or dangerous, or react to a dangerous situation as if it were safe. There can be countless reasons for faulty neuroception.
+   - A person might react to a safe situation as if it were threatening or dangerous, or react to a dangerous situation as if it were safe. There can be countless reasons for faulty neuroception.
 - Faulty neuroception can even come from very positive experiences like falling in love and bonding with the partner. We sometimes hear that a person’s judgment was impaired because they were "blinded by love," so that they failed to be aware of a possibly destructive situation.
 
 ### Other Causes of Faulty Neuroception
@@ -503,8 +503,8 @@ Three circuits of the autonomic nervous system are **a hierarchical with a step-
 1. Ventral vagal nerve dysfunction can be identified by observing symptoms such as "heads of the Hydra" and testing throat reflexes.
 2. A secondary test for ventral vagal function is evaluating pulse and blood pressure differences during inhalation and exhalation.
 3. High heart rate variability (HRV) indicates good vagal nerve function and is associated with overall health and longevity.
-  - Low HRV can indicate various psychological/psychiatric problems, including emotional instability, lack of concentration, and motor inhibition.
-  - Low HRV may also be linked to physical health issues such as obesity, diabetes, heart disease, and poor survival rates in premature babies.
+   - Low HRV can indicate various psychological/psychiatric problems, including emotional instability, lack of concentration, and motor inhibition.
+   - Low HRV may also be linked to physical health issues such as obesity, diabetes, heart disease, and poor survival rates in premature babies.
 4. Improving social engagement and using the Basic Exercise can potentially increase HRV and improve overall health.
 5. HRV testing can serve as a rapid screening tool for altered autonomic nervous system activity.
 6. Further research is needed to explore the possibility of improving heart rate variability and vagal nerve function as a treatment for psychological issues.
@@ -787,9 +787,9 @@ Three circuits of the autonomic nervous system are **a hierarchical with a step-
 2. Proper function of five social-engagement cranial nerves is crucial for communication and bonding.
 3. Autonomic nervous system (ANS) and emotional states are interconnected.
 4. Improving emotional state can be achieved through actions that improve ANS function.
-  - Social interaction with balanced individuals helps in self-regulation.
-  - Practices like meditation, tai chi, and yogic breathing help regulate ANS.
-  - Maintaining a ventral vagal state is essential for optimal health and well-being.
+   - Social interaction with balanced individuals helps in self-regulation.
+   - Practices like meditation, tai chi, and yogic breathing help regulate ANS.
+   - Maintaining a ventral vagal state is essential for optimal health and well-being.
 5. Somatic component exists in various psychological issues like post-traumatic stress, anxiety, phobias, and autism spectrum disorders.
 6. Treating physical manifestations of ANS at the beginning of psychiatric/psychological treatments can be beneficial.
 
@@ -823,24 +823,24 @@ Three circuits of the autonomic nervous system are **a hierarchical with a step-
 ### Social regulation of anxiety states 
 
 2. Supportive social interactions help regulate psychological state.
-  - Importance of chatting, small talk, and simple social situations.
-  - Good relationships help nervous systems self-regulate.
-  - Eliminate or minimize contact with people who make us feel bad.
-  - Maximize time spent with supportive people.
-  - Therapist's support may be needed after traumatic experiences.
-  - Each time we recover, we weaken the hold of the traumatic pattern.
+   - Importance of chatting, small talk, and simple social situations.
+   - Good relationships help nervous systems self-regulate.
+   - Eliminate or minimize contact with people who make us feel bad.
+   - Maximize time spent with supportive people.
+   - Therapist's support may be needed after traumatic experiences.
+   - Each time we recover, we weaken the hold of the traumatic pattern.
 
 2. Treating anxiety in children:
-  - Adult reassurance is effective if they acknowledge child's fear first.
-  - Hug and positive physical contact helps.
+   - Adult reassurance is effective if they acknowledge child's fear first.
+   - Hug and positive physical contact helps.
 
 3. Phobias:
-  - Characterized by extreme fear with a specific trigger.
-  - Fear arises from sympathetic division of autonomic nervous system.
-  - Sufferers may understand fear is irrational but still overwhelmed.
-  - Phobias can be caused by past experiences or virtual experiences.
-  - Understanding physiological activity in autonomic nervous system may be more useful than focusing on triggers.
-  - Basic Exercise can help return from state of extreme fear to social engagement.
+   - Characterized by extreme fear with a specific trigger.
+   - Fear arises from sympathetic division of autonomic nervous system.
+   - Sufferers may understand fear is irrational but still overwhelmed.
+   - Phobias can be caused by past experiences or virtual experiences.
+   - Understanding physiological activity in autonomic nervous system may be more useful than focusing on triggers.
+   - Basic Exercise can help return from state of extreme fear to social engagement.
    
 ### Antisocial Behavior and Domestic Violence
 1. Some people who commit violent acts believe their actions are justified or helpful.

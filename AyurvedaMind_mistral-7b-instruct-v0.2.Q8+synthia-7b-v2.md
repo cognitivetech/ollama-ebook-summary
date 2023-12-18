@@ -15,91 +15,91 @@ It is meant to provide a detailed overview of the topics and materials presented
 - [PLAN OF THE BOOK](#plan-of-the-book)
 - [Part I - AYURVEDIC PSYCHOLOGY: YOGIC MIND-BODY MEDICINE](#part-i---ayurvedic-psychology-yogic-mind-body-medicine)
 - [1. A New Journey Into Consciousness](#1-a-new-journey-into-consciousness)
-  - [Levels of Ayurvedic Healing](#levels-of-ayurvedic-healing)
+   - [Levels of Ayurvedic Healing](#levels-of-ayurvedic-healing)
 - [2. Ayurvedic Constitutional Types: The Biological Humors of Vata, Pitta](#2-ayurvedic-constitutional-types-the-biological-humors-of-vata-pitta)
-  - [Constitutional Types](#constitutional-types)
-  - [Constitutional Examination](#constitutional-examination)
+   - [Constitutional Types](#constitutional-types)
+   - [Constitutional Examination](#constitutional-examination)
 - [3. The Three Gunas: How to Balance Your Consciousness.](#3-the-three-gunas-how-to-balance-your-consciousness)
-  - [CORRESPONDENCES OF THE THREE GUNAS](#correspondences-of-the-three-gunas)
-  - [The Three Gunas and Therapy](#the-three-gunas-and-therapy)
+   - [CORRESPONDENCES OF THE THREE GUNAS](#correspondences-of-the-three-gunas)
+   - [The Three Gunas and Therapy](#the-three-gunas-and-therapy)
 - [4. The Nature of the Mind](#4-the-nature-of-the-mind)
-  - [Mind as an Object.](#mind-as-an-object)
-  - [Awareness and the Mind.](#awareness-and-the-mind)
-  - [Atomic Nature of the Mind.](#atomic-nature-of-the-mind)
-  - [Difficulty in Controlling the Mind.](#difficulty-in-controlling-the-mind)
+   - [Mind as an Object.](#mind-as-an-object)
+   - [Awareness and the Mind.](#awareness-and-the-mind)
+   - [Atomic Nature of the Mind.](#atomic-nature-of-the-mind)
+   - [Difficulty in Controlling the Mind.](#difficulty-in-controlling-the-mind)
 - [5. The Five Elements and the Mind](#5-the-five-elements-and-the-mind)
-  - [Three Layers of the Mind: Causal, subtle, gross (physical) levels.](#three-layers-of-the-mind-causal-subtle-gross-physical-levels)
-  - [The Two Levels of the Self](#the-two-levels-of-the-self)
-  - [Workings of the Levels of the Mind.](#workings-of-the-levels-of-the-mind)
-  - [Action.](#action)
+   - [Three Layers of the Mind: Causal, subtle, gross (physical) levels.](#three-layers-of-the-mind-causal-subtle-gross-physical-levels)
+   - [The Two Levels of the Self](#the-two-levels-of-the-self)
+   - [Workings of the Levels of the Mind.](#workings-of-the-levels-of-the-mind)
+   - [Action.](#action)
 - [6. Conditioned Consciousness: The Greater Mental Field.](#6-conditioned-consciousness-the-greater-mental-field)
-  - [Chitta, the Body of Consciousness.](#chitta-the-body-of-consciousness)
-  - [The Superconscious](#the-superconscious)
-  - [Energy/Will.](#energywill)
-  - [Additional Functions.](#additional-functions)
+   - [Chitta, the Body of Consciousness.](#chitta-the-body-of-consciousness)
+   - [The Superconscious](#the-superconscious)
+   - [Energy/Will.](#energywill)
+   - [Additional Functions.](#additional-functions)
 - [7. Intelligence: The Power of Perception.](#7-intelligence-the-power-of-perception)
-  - [Each of us possesses an inherent ethical sense](#each-of-us-possesses-an-inherent-ethical-sense)
-  - [Energy/Awakened Prana](#energyawakened-prana)
-  - [ADDITIONAL FUNCTIONS](#additional-functions-1)
+   - [Each of us possesses an inherent ethical sense](#each-of-us-possesses-an-inherent-ethical-sense)
+   - [Energy/Awakened Prana](#energyawakened-prana)
+   - [ADDITIONAL FUNCTIONS](#additional-functions-1)
 - [8. The Outer Mind: The Field of the Senses.](#8-the-outer-mind-the-field-of-the-senses)
-  - [Emotion](#emotion)
-  - [Composition.](#composition)
-  - [ADDITIONAL FUNCTIONS](#additional-functions-2)
+   - [Emotion](#emotion)
+   - [Composition.](#composition)
+   - [ADDITIONAL FUNCTIONS](#additional-functions-2)
 - [9. Ego and Self: The Quest For Identity.](#9-ego-and-self-the-quest-for-identity)
-  - [Ego arises from a failure of intelligence (Buddhi)](#ego-arises-from-a-failure-of-intelligence-buddhi)
-  - [Composition.](#composition-1)
-  - [Energy.](#energy)
-  - [The Self and Functions of the Mind.](#the-self-and-functions-of-the-mind)
-  - [How TO PROPERLY DEVELOP THE FUNCTIONS OF THE MIND.](#how-to-properly-develop-the-functions-of-the-mind)
+   - [Ego arises from a failure of intelligence (Buddhi)](#ego-arises-from-a-failure-of-intelligence-buddhi)
+   - [Composition.](#composition-1)
+   - [Energy.](#energy)
+   - [The Self and Functions of the Mind.](#the-self-and-functions-of-the-mind)
+   - [How TO PROPERLY DEVELOP THE FUNCTIONS OF THE MIND.](#how-to-properly-develop-the-functions-of-the-mind)
 - [Part III - AYURVEDIC THERAPIES FOR THE MIND.](#part-iii---ayurvedic-therapies-for-the-mind)
-  - [Right Association a Key to Mental Health.](#right-association-a-key-to-mental-health)
-  - [Psychological Disorders and the Biological Humors](#psychological-disorders-and-the-biological-humors)
-  - [Ayurvedic Counseling Profiles.](#ayurvedic-counseling-profiles)
-  - [Vata-Pitta.](#vata-pitta)
-  - [The Ayurvedic method of treatment](#the-ayurvedic-method-of-treatment)
+   - [Right Association a Key to Mental Health.](#right-association-a-key-to-mental-health)
+   - [Psychological Disorders and the Biological Humors](#psychological-disorders-and-the-biological-humors)
+   - [Ayurvedic Counseling Profiles.](#ayurvedic-counseling-profiles)
+   - [Vata-Pitta.](#vata-pitta)
+   - [The Ayurvedic method of treatment](#the-ayurvedic-method-of-treatment)
 - [11. The Cycle of Nutrition for the Mind: The Role of Impressions](#11-the-cycle-of-nutrition-for-the-mind-the-role-of-impressions)
-  - [Mental Digestion](#mental-digestion)
-  - [The Three States of Waking, Dream, and Deep Sleep.](#the-three-states-of-waking-dream-and-deep-sleep)
-  - [Cultivating the Field of Consciousness.](#cultivating-the-field-of-consciousness)
-  - [Signs of Proper Intake of Impressions](#signs-of-proper-intake-of-impressions)
-  - [Impressions to Reduce the Three Doshas](#impressions-to-reduce-the-three-doshas)
+   - [Mental Digestion](#mental-digestion)
+   - [The Three States of Waking, Dream, and Deep Sleep.](#the-three-states-of-waking-dream-and-deep-sleep)
+   - [Cultivating the Field of Consciousness.](#cultivating-the-field-of-consciousness)
+   - [Signs of Proper Intake of Impressions](#signs-of-proper-intake-of-impressions)
+   - [Impressions to Reduce the Three Doshas](#impressions-to-reduce-the-three-doshas)
 - [12. Outer Treatment Modalities: Diet, Herbs, Massage and Paneha Karma.](#12-outer-treatment-modalities-diet-herbs-massage-and-paneha-karma)
-  - [Sattvic Diet](#sattvic-diet)
-  - [Rajasic and Tamasic Diets.](#rajasic-and-tamasic-diets)
-  - [The Six Tastes and the Mind.](#the-six-tastes-and-the-mind)
-  - [Cleansing and Tonic Nervines.](#cleansing-and-tonic-nervines)
-  - [Pancha Karma](#pancha-karma)
+   - [Sattvic Diet](#sattvic-diet)
+   - [Rajasic and Tamasic Diets.](#rajasic-and-tamasic-diets)
+   - [The Six Tastes and the Mind.](#the-six-tastes-and-the-mind)
+   - [Cleansing and Tonic Nervines.](#cleansing-and-tonic-nervines)
+   - [Pancha Karma](#pancha-karma)
 - [13. Subtle Therapies: Colors, Gems and Aromas.](#13-subtle-therapies-colors-gems-and-aromas)
-  - [Colors and the Gunas.](#colors-and-the-gunas)
-  - [Gem Therapy.](#gem-therapy)
-  - [Gems and the Planets](#gems-and-the-planets)
-  - [Usage](#usage)
+   - [Colors and the Gunas.](#colors-and-the-gunas)
+   - [Gem Therapy.](#gem-therapy)
+   - [Gems and the Planets](#gems-and-the-planets)
+   - [Usage](#usage)
 - [14. The Healing Power of Mantra.](#14-the-healing-power-of-mantra)
-  - [Sound and Emotion.](#sound-and-emotion)
-  - [Energetics of Sound.](#energetics-of-sound)
-  - [Prime Mantras.](#prime-mantras)
-  - [Mantras and the Elements](#mantras-and-the-elements)
+   - [Sound and Emotion.](#sound-and-emotion)
+   - [Energetics of Sound.](#energetics-of-sound)
+   - [Prime Mantras.](#prime-mantras)
+   - [Mantras and the Elements](#mantras-and-the-elements)
 - [Part IV - SPIRITUAL APPLICATIONS OF AYURVEDIC PSYCHOLOGY](#part-iv---spiritual-applications-of-ayurvedic-psychology)
-  - [Devotion and the Place of God.](#devotion-and-the-place-of-god)
-  - [Surrender](#surrender)
-  - [Developing Devotion](#developing-devotion)
-  - [Formless Devotion](#formless-devotion)
+   - [Devotion and the Place of God.](#devotion-and-the-place-of-god)
+   - [Surrender](#surrender)
+   - [Developing Devotion](#developing-devotion)
+   - [Formless Devotion](#formless-devotion)
 - [16. The Eightfold Method of Yoga I: Outer Practices](#16-the-eightfold-method-of-yoga-i-outer-practices)
-  - [Eight Limbs of Yoga: Ashtanga Yoga.](#eight-limbs-of-yoga-ashtanga-yoga)
-  - [Niyama - the Second Limb of Yoga](#niyama---the-second-limb-of-yoga)
-  - [So'ham Pranayama.](#soham-pranayama)
+   - [Eight Limbs of Yoga: Ashtanga Yoga.](#eight-limbs-of-yoga-ashtanga-yoga)
+   - [Niyama - the Second Limb of Yoga](#niyama---the-second-limb-of-yoga)
+   - [So'ham Pranayama.](#soham-pranayama)
 - [17. The Eightfold Method of Yoga II Inner Practices](#17-the-eightfold-method-of-yoga-ii-inner-practices)
-  - [Dharana the Sixth Limb of Yoga.](#dharana-the-sixth-limb-of-yoga)
-  - [OTHER MEDITATION TECHNIQUES](#other-meditation-techniques)
-  - [Samadhi the Eighth Limb of Yoga](#samadhi-the-eighth-limb-of-yoga)
-  - [Samadhis of the Deluded Mind](#samadhis-of-the-deluded-mind)
-  - [Schizophrenia](#schizophrenia)
-  - [Samadhi and Ayurvedic Psychology. Ayurvedic psychology examines the lower](#samadhi-and-ayurvedic-psychology-ayurvedic-psychology-examines-the-lower)
+   - [Dharana the Sixth Limb of Yoga.](#dharana-the-sixth-limb-of-yoga)
+   - [OTHER MEDITATION TECHNIQUES](#other-meditation-techniques)
+   - [Samadhi the Eighth Limb of Yoga](#samadhi-the-eighth-limb-of-yoga)
+   - [Samadhis of the Deluded Mind](#samadhis-of-the-deluded-mind)
+   - [Schizophrenia](#schizophrenia)
+   - [Samadhi and Ayurvedic Psychology. Ayurvedic psychology examines the lower](#samadhi-and-ayurvedic-psychology-ayurvedic-psychology-examines-the-lower)
 - [APPENDIX](#appendix)
-  - [TABLE B](#table-b)
-  - [TABLE C](#table-c)
-  - [TABLE D. THE SEVEN CHAKRAS.](#table-d--the-seven-chakras)
-  - [TABLE E. THE FIVE PRANAS AND THE MIND.](#table-e---the-five-pranas-and-the-mind)
+   - [TABLE B](#table-b)
+   - [TABLE C](#table-c)
+   - [TABLE D. THE SEVEN CHAKRAS.](#table-d--the-seven-chakras)
+   - [TABLE E. THE FIVE PRANAS AND THE MIND.](#table-e---the-five-pranas-and-the-mind)
 
 ## FOREWORD
 
@@ -150,11 +150,11 @@ It is meant to provide a detailed overview of the topics and materials presented
 
 1. Ayurveda views: The physical body as a manifestation of deep-seated mental tendencies; the mind as a reflection of the body and storehouse of sensory impressions; and the true Self as beyond the mind-body complex.
 2. Ayurvedic methods for healing: 
-  - Yoga postures
-  - breathing exercises
-  - mantra
-  - meditation
-  - Tantric tools for spiritual growth and mental disease treatment.
+   - Yoga postures
+   - breathing exercises
+   - mantra
+   - meditation
+   - Tantric tools for spiritual growth and mental disease treatment.
 3. *Yoga*: The spiritual aspect of Ayurveda; a science of spiritual development aiming at Self-realization.
 4. *Ayurveda's view of the mind*: Derived from Yoga philosophy, recognizing different levels of consciousness.
 5. *Mind-Body Medicine in Ayurveda*: Both physical and mental diseases treated with an understanding that they are interconnected.
@@ -179,25 +179,25 @@ Three Major Constitutional Types: Vata, Pitta, and Kapha.
 - Each type has distinct psychological ramifications.
 
 1. Vata (Air):
-  - Governed by air and ether elements.
-  - Controls movement, discharges impulses, and animates life.
-  - Senses of touch and hearing are part of it.
-  - Agility, adaptability, and facility in action.
-  - Basic sensitivity and mobility of the mental field.
-  - Fear and anxiety are its emotional derangements.
+   - Governed by air and ether elements.
+   - Controls movement, discharges impulses, and animates life.
+   - Senses of touch and hearing are part of it.
+   - Agility, adaptability, and facility in action.
+   - Basic sensitivity and mobility of the mental field.
+   - Fear and anxiety are its emotional derangements.
 2. Pitta (Fire):
-  - Governed by fire and water elements.
-  - Controls transformation in body and mind.
-  - Predominates in digestive system, particularly small intestine and liver.
-  - Governs reason, intelligence, and understanding.
-  - Anger is its emotional disturbance.
+   - Governed by fire and water elements.
+   - Controls transformation in body and mind.
+   - Predominates in digestive system, particularly small intestine and liver.
+   - Governs reason, intelligence, and understanding.
+   - Anger is its emotional disturbance.
 3. Kapha (Water):
-  - Governed by water and earth elements.
-  - Controls form and substance, weight, cohesion, and stability.
-  - Predominates in bodily tissues and upper part of the body.
-  - Senses of taste and smell are part of it.
-  - Governs feeling, emotion, and capacity to hold on to form.
-  - Desire and attachment are its emotional imbalances.
+   - Governed by water and earth elements.
+   - Controls form and substance, weight, cohesion, and stability.
+   - Predominates in bodily tissues and upper part of the body.
+   - Senses of taste and smell are part of it.
+   - Governs feeling, emotion, and capacity to hold on to form.
+   - Desire and attachment are its emotional imbalances.
 
 Vata, Pitta, and Kapha can be felt through the conditions of nature:
 - Vata--cool, dry, clear windy day; 
@@ -510,9 +510,9 @@ The three gunas are one of the prime themes of Ayurvedic thought.
 3. Practice of Pranayama helps enter and purify the Chitta.
 4. Individual consciousness is field of tendencies (Samskaras), determines unique character and mentality.
 5. Functions of Chitta: memory, sleep, samadhi.
-  - Memory: Ground of memory, holds seed memories from life to life, governs memory on an organic level.
-  - Sleep: Consciousness gives peaceful deep sleep, immersion in inner consciousness, renewal for another birth.
-  - Samadhi: State of absorption, consciousness becomes entirely concentrated in a single object or experience, provides lasting peace and liberation.
+   - Memory: Ground of memory, holds seed memories from life to life, governs memory on an organic level.
+   - Sleep: Consciousness gives peaceful deep sleep, immersion in inner consciousness, renewal for another birth.
+   - Samadhi: State of absorption, consciousness becomes entirely concentrated in a single object or experience, provides lasting peace and liberation.
 6. Higher development of consciousness occurs only through Samadhi.
 7. Awareness of deeper levels of consciousness in Samadhi neutralizes karmas and releases from cycle of birth and death.
 8. Any peak experience is a kind of Samadhi.
@@ -592,7 +592,7 @@ The three gunas are one of the prime themes of Ayurvedic thought.
 4. *Samadhi*: highest form of direct perception, occurs when intelligence uses deeper consciousness as its instrument.
 5. *Spiritual practice*: converts raw consciousness into refined energy of intelligence.
 6. *Intelligence and Samadhi*: intelligence creates Samadhi, immerses us in deeper consciousness.
-  - *Types of Samadhis*: with concentration (intelligence), without thought or action (deeper consciousness).
+   - *Types of Samadhis*: with concentration (intelligence), without thought or action (deeper consciousness).
 7. *Proper Development of Intelligence*: place intellect in service of awareness, recognize difference between self-knowledge and knowledge of externals.
 8. *True Nature*: immortal Self is eternal consciousness that cannot be determined by outer knowing.
 
@@ -763,8 +763,8 @@ The three gunas are one of the prime themes of Ayurvedic thought.
 ## Part III - AYURVEDIC THERAPIES FOR THE MIND.
 
 1. Ayurvedic counseling is crucial for psychological treatment, focusing on communication and actionable solutions.
-  - covers physical, psychological, social, and spiritual factors.
-  - addresses mental imbalances through four levels: biological humors, vital essences, impressions, and consciousness.
+   - covers physical, psychological, social, and spiritual factors.
+   - addresses mental imbalances through four levels: biological humors, vital essences, impressions, and consciousness.
 2. Ayurveda balances biological humors through physical remedies like diet, herbs, exercise, emotions, thought, work, recreation, relationship, yoga, and meditation.
 3. Ayurveda promotes right intake of impressions through sensory therapies like aromas and colors.
 4. Ayurveda increases Sattva in consciousness through spiritual living principles, mantra, and meditation.
@@ -814,20 +814,20 @@ Kapha types need stimulation, have difficulty implementing changes, and respond 
 ### Vata-Pitta.
 
 1. *Vata-Pitta Type*: Combines volatility of air and fire. Fear and anger unpredictable. Difficult to trust, defensive, suspicious. Requires tact, patience, nurturing, supportive environment. Highly intelligent but volatile. Benefit from maternal force.
-  - *Vata-Pitta Characteristics*: Volatile, defensive, difficult to trust, requires support, highly intelligent.
-  - *Health Issues*: Low energy reserves, weak immune system.
-  - *Emotional Response*: Fear or anger.
-  - *Needs*: Tact, patience, nurturing, supportive environment.
+   - *Vata-Pitta Characteristics*: Volatile, defensive, difficult to trust, requires support, highly intelligent.
+   - *Health Issues*: Low energy reserves, weak immune system.
+   - *Emotional Response*: Fear or anger.
+   - *Needs*: Tact, patience, nurturing, supportive environment.
 2. *Pitta-Kapha Type*: Strongest physically, good resistance, healthy. Lack adaptability and flexibility. Prefer dominance and control.
-  - *Characteristics*: Strong, content, least likely to seek therapy, lack adaptability.
-  - *Health Issues*: None major unless they fail in a major enterprise.
-  - *Needs*: More activity, creativity, new challenges.
+   - *Characteristics*: Strong, content, least likely to seek therapy, lack adaptability.
+   - *Health Issues*: None major unless they fail in a major enterprise.
+   - *Needs*: More activity, creativity, new challenges.
 3. *Vata-Kapha Type*: Lack energy, motivation, passion. Emotionally and mentally unstable. Sensitive, humble, adaptable.
-  - *Characteristics*: Weak, passive, dependent, hypersensitive, easily disturbed.
-  - *Health Issues*: Amorphous personalities, poor judgment, easily carried away by emotional influences.
-  - *Needs*: Clarity, motivation, determination, assertiveness, challenge fears.
+   - *Characteristics*: Weak, passive, dependent, hypersensitive, easily disturbed.
+   - *Health Issues*: Amorphous personalities, poor judgment, easily carried away by emotional influences.
+   - *Needs*: Clarity, motivation, determination, assertiveness, challenge fears.
 4. *Vata-Pitta-Kapha Types*: Equal proportions of all three biological humors. Deal with current humor out of balance.
-  - *Treatment*: Adaptability in treatment, comprehensiveness of approach. Deal with Vata problems first due to their likelihood to cause issues.
+   - *Treatment*: Adaptability in treatment, comprehensiveness of approach. Deal with Vata problems first due to their likelihood to cause issues.
 
 ### The Ayurvedic method of treatment
 
@@ -1036,9 +1036,9 @@ Prevent wrong impressions, develop strong intelligence to digest properly. Stop 
    - Calming to the mind, nurturing to the heart, strengthening to the bones and nerves.
    - Regular basis as part of a healthy life regimen.
 7. Oils should be applied warm and left on for some time for proper absorption.
-  - Sesame oil: specific for lowering high Vata, grounding, nurturing to the mind.
-  - Coconut oil: specific for lowering high Pitta, cooling and calming to the mind, nerves, and skin.
-  - Mustard oil: specific for lowering high Kapha, warming, stimulating, improves circulation.
+   - Sesame oil: specific for lowering high Vata, grounding, nurturing to the mind.
+   - Coconut oil: specific for lowering high Pitta, cooling and calming to the mind, nerves, and skin.
+   - Mustard oil: specific for lowering high Kapha, warming, stimulating, improves circulation.
 
 ### Pancha Karma
 
@@ -1063,9 +1063,9 @@ Prevent wrong impressions, develop strong intelligence to digest properly. Stop 
 3. Colors affect all elements, provide nutrition for the mind, vitalize blood, increase perceptual capacity.
 4. Wrong colors derange mental activity, right colors restore it.
 5. Color therapy based on three biological humors: Vata, Pitta, Kapha.
-  - Vata: Does best with warm, moist, soft, calming colors; avoids bright, dark colors, angular shapes.
-  - Pitta: Does best with cool, mild, calming colors; avoids hot, sharp, stimulating colors.
-  - Kapha: Does best with warm, dry, stimulating colors; avoids too much white or cool colors, round shapes.
+   - Vata: Does best with warm, moist, soft, calming colors; avoids bright, dark colors, angular shapes.
+   - Pitta: Does best with cool, mild, calming colors; avoids hot, sharp, stimulating colors.
+   - Kapha: Does best with warm, dry, stimulating colors; avoids too much white or cool colors, round shapes.
 
 ### Colors and the Gunas. 
 1. Colors affect mental nature more than biological humors.
@@ -1392,9 +1392,9 @@ Any sensation we take personally produces an emotion, with sound being the most 
 3. **Control of the mind**: not suppression of the senses
 4. **Ayurvedic belief**: All diseases originate from wrong use of the senses
 5. **Pratyahara techniques**: Shutting off senses or using them with attention
-  - **Fasting from impressions** for mental renewal and cognition of inner impressions
-  - **Meditating with eyes open**, directing attention inward
-  - **Mantra and visualization** to direct inner energy
+   - **Fasting from impressions** for mental renewal and cognition of inner impressions
+   - **Meditating with eyes open**, directing attention inward
+   - **Mantra and visualization** to direct inner energy
 6. **Pratyahara follows Pranayama**: Withdrawing concentrated Prana into consciousness
 7. Creating a special environment for better impressions
 8. Important for hypersensitive individuals and psychological disorders
@@ -1410,7 +1410,7 @@ Any sensation we take personally produces an emotion, with sound being the most 
 6. **Simple Dharana methods**: Gazing at objects like a lamp, candle, etc., or nature.
 7. **Internal Dharana methods**: Focusing on inner lights, sounds, deities, mantras, yantras.
 8. **Benefits of Dharana**: Aids in mind control, memory development, objective thinking.
-  - Controls Manas (mind), awakens Buddhi (inner intelligence).
+   - Controls Manas (mind), awakens Buddhi (inner intelligence).
 9. **Techniques for Pratyahara and Dharana**: Meditation on the five elements (Sky, Clouds, Candle, Ocean, Mountain).
 
 ### OTHER MEDITATION TECHNIQUES
@@ -1556,15 +1556,15 @@ Any sensation we take personally produces an emotion, with sound being the most 
 ### TABLE E - THE FIVE PRANAS AND THE MIND. 
 
 1. **Prana**: Divided into five parts based on movement and function. Part of all elements, organs, koshas, and mind functions. Energizes and connects activities at all levels.
-  - **Prana (energization)**: Responsible for intake of impressions, ideas on physical and mental levels.
-  - **Samana (nourishment)**: Digests impressions, ideas; sustains relationship, cohesion, and balance in koshas.
-  - **Apana (elimination)**: Eliminates waste material from food (physical) or negative thoughts and emotions (mental).
-  - **Vyana (circulation)**: Circulates nutrients, information, and energy throughout the body and mind.
-  - **Udana (effort and capacity to work)**: Allows for positive mental work and exertion; enables use of energy derived from food for physical work.
+   - **Prana (energization)**: Responsible for intake of impressions, ideas on physical and mental levels.
+   - **Samana (nourishment)**: Digests impressions, ideas; sustains relationship, cohesion, and balance in koshas.
+   - **Apana (elimination)**: Eliminates waste material from food (physical) or negative thoughts and emotions (mental).
+   - **Vyana (circulation)**: Circulates nutrients, information, and energy throughout the body and mind.
+   - **Udana (effort and capacity to work)**: Allows for positive mental work and exertion; enables use of energy derived from food for physical work.
 2. **Psychological Disorders**: Imbalances in Pranas lead to disorders: 
-  - **Prana Vayu**: Absorbs positive impressions, thoughts; vitalizes mind and senses. Disturbed: prevents positive intake and sets equilibrium off balance.
-  - **Apana Vayu**: Wards off negativity; force of gravity in the mind. Deranged: causes depression or stagnation.
-  - **Samana Vayu**: Equalizing life-energy; weakened when mental peace and harmony are disturbed. Physically: deranges digestive system, allows for toxin build-up, and causes psychological congestion.
-  - **Vyana Vayu**: Expansive part of the life-energy; responsible for outward movement and activity. Disturbed: causes tremors or agitation in body/mind, alienation, and isolation.
-  - **Udana Vayu**: Ascending enthusiasm, will, motivation. Weakened by depression; unable to speak or express oneself when weak. Disturbed: causes coughing, uncontrolled speech, vanity, domineering behavior, intolerance.
+   - **Prana Vayu**: Absorbs positive impressions, thoughts; vitalizes mind and senses. Disturbed: prevents positive intake and sets equilibrium off balance.
+   - **Apana Vayu**: Wards off negativity; force of gravity in the mind. Deranged: causes depression or stagnation.
+   - **Samana Vayu**: Equalizing life-energy; weakened when mental peace and harmony are disturbed. Physically: deranges digestive system, allows for toxin build-up, and causes psychological congestion.
+   - **Vyana Vayu**: Expansive part of the life-energy; responsible for outward movement and activity. Disturbed: causes tremors or agitation in body/mind, alienation, and isolation.
+   - **Udana Vayu**: Ascending enthusiasm, will, motivation. Weakened by depression; unable to speak or express oneself when weak. Disturbed: causes coughing, uncontrolled speech, vanity, domineering behavior, intolerance.
 
