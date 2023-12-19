@@ -131,7 +131,8 @@ Considering that this is not for profit, but for educational purposes, I believe
 | Eastern Body Western Mind | Synthia 7Bv2 | -75% | 3.5% | 1.1% | 0.8% | 5.4% |
 | Healing Power Vagus Nerve | Mistral-7B-Instruct-v0.2; SynthIA-7B-v2.0 | -81% | 1.2% | 0.8% | 2.5% | 4.5% |
 | Ayurveda and the Mind | Mistral-7B-Instruct-v0.2; SynthIA-7B-v2.0 | -77% | 0.5% | 0.3% | 1.2% | 2% |
-| Healing the Fragmented Selves of Trauma Survivors | Mistral-7B-Instruct-v0.2 | 25% | | | | 2% | 
+| Healing the Fragmented Selves of Trauma Survivors | Mistral-7B-Instruct-v0.2 | -75% | | | | 2% | 
+| A Secure Base | Mistral-7B-Instruct-v0.2 | -84% | 0.3% | 0.1% | 0.3% | 0.7% |
 
 ### Completed Book Summaries
 
@@ -166,3 +167,30 @@ Considering that this is not for profit, but for educational purposes, I believe
   > 5. *Appendix*: Contains tables on functions of the mind and their correspondences.
   > 6. *Goals*: To provide sufficient knowledge for personal use and relevant to psychologists/therapists.
 4. [**Summary of Janina Fisher's Healing the Fragmented Selves of Trauma Survivors*](summaries/Healing-Power-Vagus-Nerve_SynthiaV2+MistralV0.2.md)
+  > 1. **Fragmentation and Internal Struggles**
+  >    - Ten years ago, I observed a common pattern among traumatized clients: internal fragmentation.
+  >    - Clients appeared integrated but showed signs of conflict between trauma-related perceptions and impulses versus present assessments.
+  >    - They experienced paradoxical symptoms, such as the desire for kindness and spirituality alongside intense rage or violence.
+  > 2. **Observable Patterns**
+  >    - Describing these conflicts made them more observable and meaningful.
+  >    - Each side represented a different way of surviving traumatic experiences.
+  > 3. **Theoretical Model: Structural Dissociation**
+  >    - The [Structural Dissociation model by Onno van der Hart, Ellert Nijenhuis, and Kathy Steele](https://link.springer.com/article/10.1007/BF03379560) explained these phenomena.
+  >    - Rooted in neuroscience, it was accepted in Europe as a trauma model.
+  > 4. **Brain's Innate Structure**
+  >    - The brain's innate physical structure facilitates left-right brain disconnection under threat.
+  >    - The left brain stays focused on daily tasks, while the right brain fosters an implicit self in survival mode.
+  > 5. **Identifying and Owning Parts**
+  >    - Some parts were easier to identify with or "own," while others were dismissed as "not me.
+  >    - The internal relationships between fragmented aspects of self reflected traumatic environments.
+  >    - The left-brain-dominant present-oriented self avoided or judged right-brain-dominant survival-oriented parts.
+  >    - Both sides felt alienated from each other.
+  > 6. **Functioning Self**
+  >    - The functioning self carried on, trying to be "normal," but at the cost of feeling alienated or invaded by intrusive communications from parts.
+5. [**Summary of John Bowlby's "A Secure Base"**](summaries/a-secure-base_bowlby_mistral.md)
+  > **John Bowlby's "A Secure Base" (1988). His final contribution to Attachment Theory, summarizing his life's work and acknowledging the next generation of researchers and clinicians. Key themes include**:
+  > - **Attachment behavioral response** essential for protection from predation and foundation for psychological health.
+  > - **Sensitive caregiving** crucial for secure attachment throughout the life cycle.
+  > - **Real-life adversity** origin of subsequent psychopathology, opposed to endo-psychic entities.
+  > - **Systematic scientific observation** important for understanding attachment phenomena.
+  > - **Secure base for patients** therapists providing a safe space for emotional exploration.
