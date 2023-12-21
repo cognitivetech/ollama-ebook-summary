@@ -157,7 +157,7 @@ The results of that ranking gave me confidence that I coded correctly.
 | Default (llama-index) | -42% | 43 | Bad headings |
 | Llama2 | -47% | 48 | No Structure |
 
-**Find the full data and rankings on [Google Docs](https://docs.google.com/spreadsheets/d/1u3BgDx6IsJSbRz3uNmud1sDtO4WvWsH6ION3J-fhoGw/) or here in this repository [Summary Rankings](ranking-data/Round-3_Prompt-Style.csv).**
+**Find the full data and rankings on [Google Docs](https://docs.google.com/spreadsheets/d/1u3BgDx6IsJSbRz3uNmud1sDtO4WvWsH6ION3J-fhoGw/) or here in this repository [Prompt Style Rankings](ranking-data/Round-3_Prompt-Style.csv).**
 
 ## Methods
 
