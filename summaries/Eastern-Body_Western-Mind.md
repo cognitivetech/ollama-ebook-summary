@@ -1,11 +1,11 @@
-# Eastern Body, Western Mind - Book Summary
+# Summary of Anodea Judith's Eastern Body, Western Mind
 
 ## EDITORS NOTE
 **This is a summary** made with [PrivateGPT](https://github.com/imartinez/privateGPT) and [SynthIA-7B-v2.0-GGUF](https://huggingface.co/TheBloke/SynthIA-7B-v2.0-GGUF). 
 
 It is meant to provide a detailed overview of the topics and materials presented in the book, but does not replace it.
 
-**If you appreciate this work, feel free to buy the original  using my ref-link :)**
+**If you appreciate my efforts, feel free to buy the original using my referral link**
 
 - [Development; Chakra System] [**Eastern body, Western mind** : psychology and the chakra system as a path to the self](https://www.amazon.com/Eastern-Body-Western-Mind-Psychology/dp/1587612259/?&tag=cognitivetech-20) 2004. Anodea Judith
 

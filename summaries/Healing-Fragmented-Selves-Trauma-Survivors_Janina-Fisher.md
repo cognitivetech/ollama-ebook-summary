@@ -1,4 +1,4 @@
-# Healing the Fragmented Selves of Trauma Survivors, Janina Fisher
+# Summary of Janina Fisher's Healing the Fragmented Selves of Trauma Survivors, 
 
 ## EDITORS NOTE
 **This is a summary** made with [PrivateGPT](https://github.com/imartinez/privateGPT) and mostly [Mistral-7B-Instruct-v0.2](https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF). 
