@@ -19,11 +19,11 @@ In this repository I will describe my processes for, and analysis of the particu
 
 ## Overview
 
-1. I began by just asking questions to book chapters, using the UX. Then tried pre-selecting text for summarization. This was the inspiration for Round 1 rankings, in which summarization was the clear winner.
+1. I began by just asking questions to book chapters, using the [PrivateGPT](https://docs.privategpt.dev/overview) UI. Then tried pre-selecting text for summarization. This was the inspiration for Round 1 rankings, in which summarization was the clear winner.
 
 2. Next I wanted to find which models would do the best with this task, which led to Round 2 rankings, where [Mistral-7B-Instruct-v0.2](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.2) was the clear winner.
 
-3. Then I wanted to get the best results from this model by ranking prompt styles, and writing the code to get the exact prompt style expected.
+3. Then I wanted to get the best results from this model by ranking prompt styles, and writing code to get the exact prompt style expected.
 
 4. After that, of course, I had to test out various system prompts to see which would perform the best.
 
