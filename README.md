@@ -1,26 +1,41 @@
 # LLM for Book Summarization & Q\A : Walkthrough and Rankings
 
-In this repository I will describe book summarization using [PrivateGPT](https://docs.privategpt.dev/overview), including a description and comparison of various methods and models.
+In this repository I will describe my processes for, and analysis of the particulars, when using [PrivateGPT](https://docs.privategpt.dev/overview) for book summarization.
 
 ## Contents
+- [Overview](#overview)
 - [Rankings](#rankings)
-- [Round 1](#round-1)
-  - [Question / Answer Ranking](#question--answer-ranking)
-  - [Summary Ranking](#summary-ranking)
-- [Round 2](#round-2)
-  - [Summary Ranking](#summary-ranking-1)
-- [Method](#method)
+  - [Round 1 - Q/A vs Summary](#round-1---qa-vs-summary)
+    - [Question / Answer Ranking](#question--answer-ranking)
+    - [Summary Ranking](#summary-ranking)
+  - [Round 2: Summarization - Narrow Down Contenders](#round-2-summarization---narrow-down-contenders)
+    - [Summary Ranking](#summary-ranking-1)
+  - [Round 3: Prompt Style](#round-3-prompt-style)
+- [Methods](#methods)
   - [Walkthrough](#walkthrough)
 - [Result](#result)
   - [Plagiarism](#plagiarism)
   - [Completed Book Summaries](#completed-book-summaries)
 
+## Overview
+
+1. I began by just asking questions to book chapters, using the UX. Then tried pre-selecting text for summarization. This was the inspiration for Round 1 rankings, in which summarization was the clear winner.
+
+2. Next I wanted to find which models would do the best with this task, which led to Round 2 rankings, where [Mistral-7B-Instruct-v0.2](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.2) was the clear winner.
+
+3. Then I wanted to get the best results from this model by ranking prompt styles, and writing the code to get the exact prompt style expected.
+
+4. After that, of course, I had to test out various system prompts to see which would perform the best.
+
+5. This will culminate in a battle between user prompts, where I determine what is the exact best prompt to generate summaries requiring the least post-processing, by me.
+
 ## Rankings
 
-`mistral-7b-instruct-v0.1.Q4_K_M` comes as part of PrivateGPT's default setup. Here, I've preferred the Q8_0 variants.
+When i began testing various LLM variants, `mistral-7b-instruct-v0.1.Q4_K_M` comes as part of PrivateGPT's default setup. Here, I've preferred the Q8_0 variants.
 
 While I've tried 50+ different LLM for this same task, Mistral-7B-Instruct is still among the best.
 
+TLDR: [**Mistral-7B-Instruct-v0.2**](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.2) - is my current leader for summarization.
 
 ## Round 1 - Q/A vs Summary
 For this analysis we will be testing out 5 different LLM for the following tasks:
@@ -83,8 +98,8 @@ Finding Mistral 7B v0.2 was well worth a new round of testing. This time, less i
 One thing I tested this time was prompts, because Mistral is supposed to take Llama2 Prompt, but seems to perform better with the default (llama-index) prompt. As for Llama 2, it performed really bad with the Llama 2 prompt, but decent with the Default prompt.
 
 - [**SynthIA-7B-v2.0-GGUF**](https://huggingface.co/TheBloke/SynthIA-7B-v2.0-GGUF) -  This model had become my favorite, so I used it as a benchmark.
-- [**Mistral-7B-Instruct-v0.2**](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.2) (Llama-index) Star of the show here, quite impressive.
-- [**Mistral-7B-Instruct-v0.2**](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.2) (Llama2) Still good, but not _as_ good as using llama-index prompt
+- [**Mistral-7B-Instruct-v0.2**](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.2) (Llama-index Prompt) Star of the show here, quite impressive.
+- [**Mistral-7B-Instruct-v0.2**](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.2) (Llama2 Prompt) Still good, but not _as_ good as using llama-index prompt
 - [**Tess-7B-v1.4**](https://huggingface.co/migtissera/Tess-7B-v1.4) - Another by the same creator as Synthia. Good, but not _as_ good.
 - [**Llama-2-7B-32K-Instruct-GGUF**](https://huggingface.co/TheBloke/Llama-2-7B-32K-Instruct-GGUF) - worked ok, but slowly, with llama-index prompt. Just bad with llama2 prompt. 
 
@@ -102,11 +117,47 @@ This time I only did summaries. Q/A is just less efficient for book summarizatio
 
 **Find the full data and rankings on [Google Docs](https://docs.google.com/spreadsheets/d/1u3BgDx6IsJSbRz3uNmud1sDtO4WvWsH6ION3J-fhoGw/edit?usp=sharing) or here in this repository [Summary Rankings](ranking-data/Round-2_Summaries.csv).**
 
-## Round 3: Mistral Templating
+## Round 3: Prompt Style
 
-A [new mistral](https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF) came out recently, and I noticed it was doing much better with default prompt than llama2.
+A [new mistral](https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF) came out recently, and in the last round of ranking, I noticed it was doing much better with default prompt than llama2.
 
 Well, actually, the mistral prompt is quite similar to llama2, but not exactly the same.
+
+1. llama_index (default)
+
+```
+system: {{ system_prompt }}
+user: {{ user_message }}
+assistant: {{ assistant_message }}
+```
+
+2. llama2:
+
+```
+<s>[INST] <<SYS>>
+{{ system_prompt }}
+<</SYS>>
+
+{{ user_message }} [/INST]
+```
+
+3. mistral:
+
+```
+<s>[INST] {{ system_prompt }} [/INST]</s>[INST] {{ user_message }} [/INST]
+```
+
+**I began testing output** with the `default`, then `llama2` prompt styles. Next I went to work [coding the mistral template](https://github.com/imartinez/privateGPT/pull/1426/files).
+
+The results of that ranking gave me confidence that I coded correctly.
+
+| Prompt Style | % Difference | Score | Note |
+| --- | --- | --- | --- |
+| Mistral	| -50% | 51 | Perfect! |
+| Default (llama-index) | -42% | 43 | Bad headings |
+| Llama2 | -47% | 48 | No Structure |
+
+**Find the full data and rankings on [Google Docs](https://docs.google.com/spreadsheets/d/1u3BgDx6IsJSbRz3uNmud1sDtO4WvWsH6ION3J-fhoGw/) or here in this repository [Summary Rankings](ranking-data/Round-3_Prompt-Style.csv).**
 
 ## Methods
 
