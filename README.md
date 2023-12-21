@@ -22,7 +22,7 @@ In this repository I will describe book summarization using [PrivateGPT](https:/
 While I've tried 50+ different LLM for this same task, Mistral-7B-Instruct is still among the best.
 
 
-## Round 1
+## Round 1 - Q/A vs Summary
 For this analysis we will be testing out 5 different LLM for the following tasks:
 
 1. Asking the same 30 questions to a 70 page book chapter.
@@ -74,7 +74,7 @@ Not surprisingly, summaries performed better than Q/A, but they also had a more 
 | kai-7b-instruct | 59 | 25057 | -79 | 168 | 5 | 1 | 0 | 0 | 0 | 0 |
 | collectivecognition-v1.1-mistral-7b | 31 | 29509 | -75 | 214 | 0 | 1 | 1 | 2 | 17 | 8 |
 
-## Round 2
+## Round 2: Summarization - Narrow Down Contenders
 
 Again, I've preferred the Q8_0 variants.
 
@@ -102,7 +102,13 @@ This time I only did summaries. Q/A is just less efficient for book summarizatio
 
 **Find the full data and rankings on [Google Docs](https://docs.google.com/spreadsheets/d/1u3BgDx6IsJSbRz3uNmud1sDtO4WvWsH6ION3J-fhoGw/edit?usp=sharing) or here in this repository [Summary Rankings](ranking-data/Round-2_Summaries.csv).**
 
-## Method
+## Round 3: Mistral Templating
+
+A [new mistral](https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF) came out recently, and I noticed it was doing much better with default prompt than llama2.
+
+Well, actually, the mistral prompt is quite similar to llama2, but not exactly the same.
+
+## Methods
 
 Rather than feed a 400 page book into any LLM model, splitting it into chapters makes the task more managable. 
 
