@@ -31,10 +31,10 @@ For this analysis we will be testing out 5 different LLM for the following tasks
 **Find the full data and rankings on [Google Docs](https://docs.google.com/spreadsheets/d/1u3BgDx6IsJSbRz3uNmud1sDtO4WvWsH6ION3J-fhoGw/edit?usp=sharing) or here in this repository [QA Scores](ranking-data/Round-1_QA.csv), [Summary Rankings](ranking-data/Round-1_Summary.csv).**
 
 ### Question / Answer Ranking
-1. [**Hermes Trismegistus Mistral 7b**](https://huggingface.co/TheBloke/Hermes-Trismegistus-Mistral-7B-GGUF) is my overall choice. It's verbose, with some filler, and its a good bullshitter. I can use these results.
-2. [**SynthIA 7B**](https://huggingface.co/TheBloke/SynthIA-7B-v2.0-GGUF) is very impressive. I think if you want a little less filler, go here. Some of it was just a little too short and not on target enough for my taste.
-3. [**Mistral 7b Instruct v0.1**](https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.1-GGUF) is an excellent model and surprised its not higher on this list. Only real complaint is the answers are just too short.
-4. [**CollectiveCognition v1.1 Mistral 7b**](https://huggingface.co/TheBloke/CollectiveCognition-v1.1-Mistral-7B-GGUF) is quite good. However there is a lot of filler and took the longest amount of time of them all. It scored a bit higher than mistral on quality\usefulness, I think the amount of filler just made it less enjoyable to read.
+1. [**Hermes Trismegistus Mistral 7b**](https://huggingface.co/TheBloke/Hermes-Trismegistus-Mistral-7B-GGUF) - Initially my favorite, but ended up deciding it was too verbose.
+2. [**SynthIA 7B**](https://huggingface.co/TheBloke/SynthIA-7B-v2.0-GGUF) - Became my favorite of models tested in this round.
+3. [**Mistral 7b Instruct v0.1**](https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.1-GGUF) - Since this ranking, v0.2 has come out and beat all the competition. I should test them against eachother, sometime.
+4. [**CollectiveCognition v1.1 Mistral 7b**](https://huggingface.co/TheBloke/CollectiveCognition-v1.1-Mistral-7B-GGUF) Alot of filler and took the longest amount of time of them all. It scored a bit higher than mistral on quality\usefulness, I think the amount of filler just made it less enjoyable to read.
 5. [**KAI 7b Instruct**](https://huggingface.co/TheBloke/KAI-7B-Instruct-GGUF) the answers were too short, and made its BS stand out a little more. A good model, but not for summarizing books, I'm afraid.
 
 | Model | Rating | Search Accuracy | Characters | Seconds | BS | Filler | Short | Good BS |
