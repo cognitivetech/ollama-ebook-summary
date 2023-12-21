@@ -119,7 +119,7 @@ This time I only did summaries. Q/A is just less efficient for book summarizatio
 
 ## Round 3: Prompt Style
 
-A [new mistral](https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF) came out recently, and in the last round of ranking, I noticed it was doing much better with default prompt than llama2.
+A [new mistral](https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF) came out recently, and in the last round of rankings, I noticed it was doing much better with default prompt than llama2.
 
 Well, actually, the mistral prompt is quite similar to llama2, but not exactly the same.
 
@@ -165,7 +165,7 @@ Rather than feed a 400 page book into any LLM model, splitting it into chapters 
 
 Using [PrivateGPT](https://github.com/imartinez/privateGPT), I've found a number of models that produce good results, and first ran tests using a few models on a single book chapter.
 
-Then I used the knowledge gained from that exercise to summarize a complete book, making one run with Hermes Trismegistus Mistral 7B, with a "detailed summary" prompt (which I decided was overly loquacious), and a second run with Synthia 7B v2, using a "Bullet Point" prompt.
+Using knowledge gained from these tests, I summarized a complete book, using Synthia 7B v2, transitioning from a "Detailed Summary" prompt to a "Bullet Point Notes" prompt.
 
 ### Walkthrough
 
