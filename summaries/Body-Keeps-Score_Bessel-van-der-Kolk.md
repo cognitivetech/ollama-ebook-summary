@@ -1210,7 +1210,23 @@ It is meant to provide a detailed overview of the topics and materials presented
 
 ### THREE LEVELS OF SAFETY
 
-[????]
+* **Autonomic Nervous System (ANS) Regulates Three Fundamental Physiological States**
+  * Level of safety determines which state is activated
+* **Three Responses to Threat**
+  1. Social engagement system:
+     * Signals danger and calls for help
+     * Ventral vagal complex (VVC)
+     * Smile, nod, frown, slow heart rate, deep breathing
+  2. Fight or flight response:
+     * Teeth bared, face of rage and terror
+     * Sympathetic nervous system (SNS)
+     * Fast heart rate, fast breathing, growling dog
+  3. Collapse or freeze response:
+     * Body signals defeat and withdraws
+     * Dorsal vagal complex (DVC)
+     * Heart rate plunges, can't breathe, gut stops working or empties
+
+Porges, S. W. (2011). The polyvagal theory: Neurophysiological foundations and implications for the assessment and treatment of traumatic stress. In D. F. Barlow & J. C. Beck (Eds.), *Handbook of anxiety disorders* (pp. 273-286). Guilford Press.
 
 ### FIGHT OR FLIGHT VERSUS COLLAPSE
 
