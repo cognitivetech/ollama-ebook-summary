@@ -252,7 +252,7 @@ Considering that this is not for profit, but for educational purposes, I believe
   > - **Real-life adversity** origin of subsequent psychopathology, opposed to endo-psychic entities.
   > - **Systematic scientific observation** important for understanding attachment phenomena.
   > - **Secure base for patients** therapists providing a safe space for emotional exploration.
-* [**Summary of Bessel van der Kolk's The Body Keeps the Score**](summaries/Body-Keeps-Score_Bessel-van-der-Kolk.md)
+6. [**Summary of Bessel van der Kolk's The Body Keeps the Score**](summaries/Body-Keeps-Score_Bessel-van-der-Kolk.md)
   > **The Importance of Trauma:**
   > * Trauma reveals our fragility and man's inhumanity but also our resilience.
   > * Visionaries and societies have made profound advances from dealing with trauma.
