@@ -57,13 +57,17 @@ Check the options here: [Calibre Docs: Heuristic Processing](https://manual.cali
 
 I've used a chapter from [Eastern body, Western mind : psychology and the chakra system as a path to the self](https://www.amazon.com/Eastern-Body-Western-Mind-Psychology/dp/1587612259/?&tag=cognitivetech-20), by Anodea Judith, to test out summarization and Q/A for a few LLM.
 
-You may find, when converting PDF to text that there may be a lot of junk characters, especially if the text was generated with OCR.
+You may find, when converting PDF to text that there may be a lot of junk characters (epub usually convert best vs pdf), especially if the text was generated with OCR.
 
 Ask your favorite LLM for help with regex to remove that stuff.
 
+One thing you want to be sure to check for is **Control Characters**. Scan your document for control characters (regex: `[\x00-\x1F\x7F-\x9F]`) because they will invalidate your json, and can be invisible.
+
 Luckily, I began with a mostly clean document, so I just select as much text as I want (using a character counter extension, for guidance), and VS Code function, "join lines," that I've mapped to a convenient key combo.
 
-All in all I split a 73 page, 30k token, book chapter into 31 chunks of text, leaving an average of 850 tokens per query.
+For this demonstration, I split a 73 page, 30k token, book chapter into 31 chunks of text, leaving an average of 850 tokens (3400 characters) per query. 
+
+*Today, I am selecting between 2500-9999 characters (625-2500 tokens), when processing whole books.*
 
 I also wrote 30 questions, one for each sub-heading within the chapter.
 
@@ -78,22 +82,33 @@ Note I have set Include Sources, as well as Use Context so the questions are ask
 
 I've turned on `use_context`, to search the single chapter pdf ingested, and `include_sources` so I know where in the chapter answers came from.
 
+If you want a system prompt you need to add it here. Its not pulled from the settings.yaml file, that's only used in the Gradio app. 
+
+This is just an example system prompt I [borrowed from SynthIA](https://huggingface.co/TheBloke/Synthia-7B-v3.0-GGUF), I'm not doing too much Q/A, so I haven't tested which prompt will work best.
+
 ```json
 {
   "include_sources": true,
+  "system_prompt": "Elaborate on the topic using a Tree of Thoughts and backtrack when necessary to construct a clear, cohesive Chain of Thought reasoning. Always answer without hesitation.",
   "prompt": "What are the basic issues of the fourth chakra?",
   "stream": false,
   "use_context": true
 }
 ```
 #### Summary
-I've also made a file that breaks the entire chapter into 31 json objects just like shown below.
+I made a file, breaking the chapter into 31 json objects constructed as shown below.
 
-Here, no need for sources or context.
+Here, there is no need for sources or context.
+
+I'm not adding a system prompt for Mistral 7B 0.2 summarization tasks, since it seems to perform better without. But each model will respond differently.
 
 ```json
 {
-  "include_sources": false, "prompt": "Write a paragraph based on the following: Finding the Balance in Love FOURTH CHAKRA AT A GLANCE ELEMENT Air NAME Anahata (unstruck) PURPOSES Love Balance ISSUES Love Balance Self-love Relationship Intimacy Anima/animus Devotion Reaching out and taking in COLOR Green LOCATION Chest, heart, cardiac plexus IDENTITY Social ORIENTATION Self-acceptance Acceptance of others DEMON Grief DEVELOPMENTAL STAGE 4 to 7 years DEVELOPMENTAL TASKS Forming peer and family relationships Developing persona BASIC RIGHTS To love and be loved BALANCED CHARACTERISTICS Compassionate Loving Empathetic Self-loving Altruistic Peaceful, balanced Good immune system TRAUMAS AND ABUSES Rejection, abandonment, loss Shaming, constant criticism Abuses to any other chakras, especially lower chakras Unacknowledged grief, including parents’ grief Divorce, death of loved one Loveless, cold environment Conditional love Sexual or physical abuse Betrayal DEFICIENCY Antisocial, withdrawn, cold Critical, judgmental, intolerant of self or others Loneliness, isolation Depression Fear of intimacy, fear of relationships Lack of empathy Narcissism EXCESS Codependency Poor boundaries Demanding Clinging Jealousy Overly sacri cing PHYSICAL MALFUNCTIONS Disorders of the heart, lungs, thymus, breasts, arms Shortness of breath Sunken chest Circulation problems Asthma Immune system de ciency Tension between shoulder blades, pain in chest HEALING PRACTICES Breathing exercises, pranayama Work with arms, reaching out, taking in Journaling, self-discovery Psychotherapy Examine assumptions about relationships Emotional release of grief Forgiveness when appropriate Inner child work Codependency work Self-acceptance Anima-animus integration AFFIRMATIONS I am worthy of love. I am loving to myself and others. There is an in nite supply of love. I live in balance with others.", "stream": false, "use_context": false
+  "include_sources": false,
+  "system_prompt": "",
+  "prompt": "Write a paragraph based on the following: Finding the Balance in Love FOURTH CHAKRA AT A GLANCE ELEMENT Air NAME Anahata (unstruck) PURPOSES Love Balance ISSUES Love Balance Self-love Relationship Intimacy Anima/animus Devotion Reaching out and taking in COLOR Green LOCATION Chest, heart, cardiac plexus IDENTITY Social ORIENTATION Self-acceptance Acceptance of others DEMON Grief DEVELOPMENTAL STAGE 4 to 7 years DEVELOPMENTAL TASKS Forming peer and family relationships Developing persona BASIC RIGHTS To love and be loved BALANCED CHARACTERISTICS Compassionate Loving Empathetic Self-loving Altruistic Peaceful, balanced Good immune system TRAUMAS AND ABUSES Rejection, abandonment, loss Shaming, constant criticism Abuses to any other chakras, especially lower chakras Unacknowledged grief, including parents’ grief Divorce, death of loved one Loveless, cold environment Conditional love Sexual or physical abuse Betrayal DEFICIENCY Antisocial, withdrawn, cold Critical, judgmental, intolerant of self or others Loneliness, isolation Depression Fear of intimacy, fear of relationships Lack of empathy Narcissism EXCESS Codependency Poor boundaries Demanding Clinging Jealousy Overly sacri cing PHYSICAL MALFUNCTIONS Disorders of the heart, lungs, thymus, breasts, arms Shortness of breath Sunken chest Circulation problems Asthma Immune system de ciency Tension between shoulder blades, pain in chest HEALING PRACTICES Breathing exercises, pranayama Work with arms, reaching out, taking in Journaling, self-discovery Psychotherapy Examine assumptions about relationships Emotional release of grief Forgiveness when appropriate Inner child work Codependency work Self-acceptance Anima-animus integration AFFIRMATIONS I am worthy of love. I am loving to myself and others. There is an in nite supply of love. I live in balance with others.",
+  "stream": false,
+  "use_context": false
 }
 ```
 
