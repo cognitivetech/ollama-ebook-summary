@@ -37,19 +37,21 @@ I'm using [Calibre](https://calibre-ebook.com/) and [VS Code](https://code.visua
 
 ### Chapterize Book
 
-This is for Document Q/A. Skip this step if you are doing summarization.
+**This is for Document Q/A. Skip this step if you are doing summarization.**
 
-https://github.com/torakiki/sejda
+There is a an open-source tool [sejda](https://github.com/torakiki/sejda), which also has a [web-app](https://www.sejda.com/split-pdf-by-outline).
 
-Great thing about Sejda is that its open source, and has a free web version avaialable. And you don't have to read my hacky code :D
+But I realized that web-app is limited, and can't figure how to run that code.
 
-https://www.sejda.com/split-pdf-by-outline
+There is a script here [split.sh](split.sh), that works in conjunction with [split.awk](split.awk), to pull out the chapter headings and split the pdf accordingly. Easily to modify to your needs.
+
+`bash split.sh input.pdf`
 
 ### Convert to text
 
-`ebook-convert file.epub file.txt --enable-heuristics --disable-markup-chapter-headings --disable-delete-blank-paragraphs  --disable-unwrap-lines`
+`ebook-convert file.epub file.txt --enable-heuristics`
 
-The above command performs much better on the `epub` vs `pdf` for producing a clean output preserving formating and not adding tons of line-breaks. 
+The above command performs much better on the `epub` format, compared to `pdf` for producing a clean output preserving formatting and not adding tons of line-breaks. 
 
 Check the options here: [Calibre Docs: Heuristic Processing](https://manual.calibre-ebook.com/conversion.html#heuristic-processing).
 
