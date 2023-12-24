@@ -4,7 +4,7 @@ Processes and Analysis, using [PrivateGPT](https://docs.privategpt.dev/overview)
 - Model Rankings
 - Tests of Configuration Variables
 - Detailed Walkthrough
-- Scripts and samples.
+- Scripts and examples.
 
 ## Contents
 - [Overview](#overview)
