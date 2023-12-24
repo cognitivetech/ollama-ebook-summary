@@ -1,6 +1,10 @@
 # LLM for Book Summarization & Q\A : Walkthrough and Rankings
 
-In this repository I will describe my processes, and analysis of the particulars, when using [PrivateGPT](https://docs.privategpt.dev/overview) for book summarization.
+Processes and Analysis, using [PrivateGPT](https://docs.privategpt.dev/overview) for book summarization:
+- Model Rankings
+- Tests of Configuration Variables
+- Detailed Walkthrough
+- Scripts and samples.
 
 ## Contents
 - [Overview](#overview)
