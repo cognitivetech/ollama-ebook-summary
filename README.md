@@ -33,6 +33,8 @@ Processes and Analysis, using [PrivateGPT](https://docs.privategpt.dev/overview)
 
 5. This will culminate in a battle between user prompts, where I determine what is the exact best prompt to generate summaries requiring the least post-processing, by me.
 
+6. These tests will need to be repeated on an iterative basis, for each LLM, and for determining the effectiveness of any refinement in our processes.
+
 ## Rankings
 
 When i began testing various LLM variants, `mistral-7b-instruct-v0.1.Q4_K_M` comes as part of PrivateGPT's default setup. Here, I've preferred the Q8_0 variants.
