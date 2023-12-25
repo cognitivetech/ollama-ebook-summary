@@ -189,15 +189,16 @@ You can see the results from [CopyLeaks](https://app.copyleaks.com/) below for e
 
 Considering that this is not for profit, but for educational purposes, I believe these numbers are acceptable.
 
-| Book | Models | Character Difference | Identical | Minor changes | Paraphrased | plagiarism |
+| Book | Models | Character Difference | Identical | Minor changes | Paraphrased | Total Plagiarism |
 | ---- | ----- | ---------------- | --------- | ------------- | ----------- | ---------- |
 | Eastern Body Western Mind | Synthia 7Bv2 | -75% | 3.5% | 1.1% | 0.8% | 5.4% |
 | Healing Power Vagus Nerve | Mistral-7B-Instruct-v0.2; SynthIA-7B-v2.0 | -81% | 1.2% | 0.8% | 2.5% | 4.5% |
 | Ayurveda and the Mind | Mistral-7B-Instruct-v0.2; SynthIA-7B-v2.0 | -77% | 0.5% | 0.3% | 1.2% | 2% |
 | Healing the Fragmented Selves of Trauma Survivors | Mistral-7B-Instruct-v0.2 | -75% | | | | 2% | 
 | A Secure Base | Mistral-7B-Instruct-v0.2 | -84% | 0.3% | 0.1% | 0.3% | 0.7% |
-| The Body Keeps the Score | Mistral-7B-Instruct-v0.2 | -74% | 0.1% | 0.2% | 0.3% |
+| The Body Keeps the Score | Mistral-7B-Instruct-v0.2 | -74% | 0.1% | 0.2% | 0.3% | 0.5% |
 | Complete Book of Chakras | Mistral-7B-Instruct-v0.2 | -70% | 0.3% | 0.3% | 0.4% | 1.1% |
+| 50 Years of Attachment Theory | Mistral-7B-Instruct-v0.2 | -70% | 1.1% | 0.4% | 2.1% | 3.7% |
 
 ### Completed Book Summaries
 
@@ -279,3 +280,16 @@ Considering that this is not for profit, but for educational purposes, I believe
     > * Recap of chakras as pulsing points of light and key to health, connection, and spiritual enlightenment
     > * Origin and history of chakra knowledge primarily from ancient India
     > * Chakras and their companions (subtle energies, body, energetic anatomies, kundalini) are explainable through scientific perspectives
+9. [**Summary of Fifty Years of Attachment Theory: The Donald Winnicott Memorial Lecture**](summaries/50-years-attachment-theory.md)
+  > **Background of Attachment Theory**
+  > - Developed by Sir Richard Bowlby's father, John Bowlby
+  > - Based on research into parent-child attachment relationship
+  > - Originally called "research into bonding"
+  > - Motivated by his own experience of losing a surrogate mother figure, Minnie, at age 4
+  > 
+  > **Early Influences and Education**
+  > - Father was a successful surgeon with six children
+  > - Children had twenty-three hour care from nannies and nursemaids
+  > - Father grew attached to his nursemaid, Minnie
+  > - When Minnie left, father felt pain but not traumatized
+  > - Met John Alford at age 21, who inspired interest in maternal deprivation
