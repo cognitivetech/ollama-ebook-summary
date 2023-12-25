@@ -197,6 +197,7 @@ Considering that this is not for profit, but for educational purposes, I believe
 | Healing the Fragmented Selves of Trauma Survivors | Mistral-7B-Instruct-v0.2 | -75% | | | | 2% | 
 | A Secure Base | Mistral-7B-Instruct-v0.2 | -84% | 0.3% | 0.1% | 0.3% | 0.7% |
 | The Body Keeps the Score | Mistral-7B-Instruct-v0.2 | -74% | 0.1% | 0.2% | 0.3% |
+| Complete Book of Chakras | Mistral-7B-Instruct-v0.2 | -70% | 0.3% | 0.3% | 0.4% | 1.1% |
 
 ### Completed Book Summaries
 
@@ -262,4 +263,19 @@ Considering that this is not for profit, but for educational purposes, I believe
   > * Trauma reveals our fragility and man's inhumanity but also our resilience.
   > * Visionaries and societies have made profound advances from dealing with trauma.
   > * **Trauma is now the most urgent public health issue, and we have the knowledge to respond effectively.**
-
+7. [**Summary of Yoga and Polyvagal Theory, from Steven Porges' Polyvagal Safety**](summaries/Yoga-Therapy+PolyVagal-Theory.md) (37 pages)
+  > * **Top-down processes**: regulation of attention, intention, decreasing psychological stress, HPA axis and SNS activity, modulating immune function and inflammation
+  > * **Bottom-up processes**: breathing techniques, movement practices, influencing musculoskeletal, cardiovascular, nervous system function, affecting HPA and SNS activity, emotional well-being
+  > * **Self-regulation**: conscious ability to manage responses to threat or adversity, reducing symptoms of various conditions, mitigating allostatic load, shifting autonomic state
+8. **Summary of Llewellyn's Complete Book of Chakras: Your Definitive Source of Energy Center Knowledge for Health, Happiness, and Spiritual Evolution** (999 pages)
+  * [SECTION 1. CHAKRA FUNDAMENTALS AND BASIC PRACTICES](summaries/llewen-complete-book-chakras_1.md)   
+    > * Chakras are metaphysical energy centers that organize subtle energy for human use 
+    > * **Three main systems of subtle energy in the body**: chakras, meridians/nadis, and auric fields
+    > * Chakras convert physical energy into subtle energy and vice versa
+    > * Seven main chakras regulate vital physical, psychological, and spiritual concerns
+    > * Each chakra assists in embracing physical needs while attaining wisdom for enlightenment
+    > * Section 1 is a pocket guide to understanding all aspects of chakras
+  * [SECTION 2: CHAKRAS IN DEPTH. HISTORICAL, SCIENTIFIC, AND CROSS-CULTURAL UNDERSTANDINGS](summaries/llewen-complete-book-chakras_2.md)
+    > * Recap of chakras as pulsing points of light and key to health, connection, and spiritual enlightenment
+    > * Origin and history of chakra knowledge primarily from ancient India
+    > * Chakras and their companions (subtle energies, body, energetic anatomies, kundalini) are explainable through scientific perspectives
