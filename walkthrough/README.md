@@ -1,5 +1,9 @@
 # Walkthrough
 
+This describes my journey exploring the use of privateGPT for summarization tasks.
+
+If you don't care about my process, just skip ahead to [Making a complete book summary](#making-a-complete-book-summary).
+
 Check out Private GPT [Repository](https://github.com/imartinez/privateGPT) and [Docs](https://docs.privategpt.dev/) for more information.
 
 ## Contents 
@@ -15,7 +19,9 @@ Check out Private GPT [Repository](https://github.com/imartinez/privateGPT) and 
 - [Start PrivateGPT and Begin Testing](#start-privategpt-and-begin-testing)
   - [Example output](#example-output)
 - [Making a complete book summary](#making-a-complete-book-summary)
+  - [Model Selection](#model-selection)
   - [Prompting](#prompting)
+  - [New and Improved Automation](#new-and-improved-automation)
 - [That's all!](#thats-all)
 
 ## Disclaimer
@@ -27,7 +33,7 @@ If you are running privateGPT from the UX, these same queries will take longer b
 ## System
 If you have a good CPU, some of these models will work using Q4_K_M or Q5_K_M variants. But can take a few minutes per query.
 
-I'm running this project at home using an RTX 3060 12GB. Each answer typically takes a minute or less from the GUI.
+I'm running this project at home using an RTX 3060 12GB. Each answer typically takes less than a minute from the GUI.
 
 I'm using [Calibre](https://calibre-ebook.com/) and [VS Code](https://code.visualstudio.com/).
 
@@ -51,7 +57,7 @@ There is a script here [split.sh](split.sh), that works in conjunction with [spl
 
 `ebook-convert file.epub file.txt --enable-heuristics`
 
-The above command performs much better on the `epub` format, compared to `pdf` for producing a clean output preserving formatting and not adding tons of line-breaks. 
+The above command performs much better on the `epub` format, vs `pdf`, for producing a clean output preserving formatting and not adding tons of line-breaks. 
 
 Check the options here: [Calibre Docs: Heuristic Processing](https://manual.calibre-ebook.com/conversion.html#heuristic-processing).
 
@@ -251,15 +257,19 @@ Using above methods I learned how each model responds and began working on my fi
 
 I chopped a 535 page book, into 199 sections, most less than 10000 characters, and surrounded those sections in JSON objects.
 
-Initially I thought I would prefer [Hermes Trismegistus Mistral 7b](https://huggingface.co/TheBloke/Hermes-Trismegistus-Mistral-7B-GGUF), because it made the most verbose output giving me something to work with. 
-
-Ultimately, I decided to use [SynthIA 7B](https://huggingface.co/TheBloke/SynthIA-7B-v2.0-GGUF) because it is _less_ verbose, but still quite detailed. I also noticed that it always created less output than given. Hermes Trismegistus, on the other hand, will sometimes generate more content than given.
-
-I would like to create summaries that contain 20% or less textual volume vs the original.
+Ideally, I would like to create summaries that contain 20% or less textual volume vs the original.
 
 I also decided to be more particular about how sections are grouped, but I try to not group less than 3500 characters, preferring 7000-9000 characters per selection.
 
-(maybe that's wrong, and i just just smaller sections by themselves)
+(maybe that's wrong, and i should just leave smaller selections by themselves, but its the, so far, hardest to automate and I tend to get tired of grouping small sections of text)
+
+### Model Selection
+
+Initially I thought I would prefer [Hermes Trismegistus Mistral 7b](https://huggingface.co/TheBloke/Hermes-Trismegistus-Mistral-7B-GGUF), because it made the most verbose output giving me something to work with. 
+
+Next, I decided to use [SynthIA 7B V2](https://huggingface.co/TheBloke/SynthIA-7B-v2.0-GGUF) because it is _less_ verbose, but still quite detailed. 
+
+In the end, I've found [mistral-7b-instruct-v0.2](https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF) to be the most reliable.
 
 ### Prompting
 
@@ -269,16 +279,119 @@ After I split the book, a second time, into more intentional selections, I decid
 
 #### System Prompt
 
-PrivateGPT just exposed the ability to change its system prompt, so now I'm using this:
+PrivateGPT just exposed the ability to change its system prompt, and i began using something like this:
 
 ```yaml
 You are Loved. Act as an expert on summarization, outlining and structuring. 
 Your style of writing should be informative and logical.
 ```
+
+However, testing revealed that `Mistral 7B Instruct 0.2` works better without a system prompt. Each model will respond differently. You should do your own testing and don't rely on anyone's benchmarks or rankings. (because your needs are probably different than mine, and those rankings don't really take this into account)
+
 #### Instructions 
 
 ```yaml
 Create bullet-point notes summarizing the important parts of the following text. Vocabulary terms and key concepts should be marked in bold. Focus only on essential information, without adding any extra thoughts. TEXT: ```{content}```
+```
+
+### New and Improved Automation
+
+All of this testing has become tiring, so with the help of GPT3.5 I've improved my automation pipeline.
+
+Using the [following script](summarize.sh), I'm able to test various prompts more rapidly.
+
+syntax:
+
+`bash summarize.sh summarize.txt prompt1`
+
+so you see, it accepts filename as first argument, and an optional prompt type argument, selecting from prompts you will preload into the script below.
+
+This will generate a markdown file and a csv file based on the output. Then I can easily import to google sheets for ranking alongside the rendered markdown version.
+
+A big difference here is that I'm generating the JSON object being sent to the api, right here in the script. So now my input contains each [selection of text](summarize.txt) on its own line, surrounded by quotation marks.
+
+You will also note that I add a plus sign to mark chapter\section headings, so I can easily turn them into markdown headings as part of this script. Otherwise it just cuts off an input line at 150 characters to use as a temporary heading for the resulting summary.
+
+```bash
+#!/bin/bash
+set -e
+prompt="Write detailed notes summarizing the entirety of the following text. Use nested bullet points, with headings terms and key concepts in bold, including whitespace to ensure readability. Focus on essential knowledge from this text without adding any external information."
+
+# Preload various prompts for testing and use by calling from second command line argument 
+if [ "$#" -gt 0 ]; then
+    case "$2" in
+        prompt1)
+            prompt="Create a detailed bullet-point notes summarizing the entirety of the following text. Use nested bullet points, with headings terms and key concepts in bold, including whitespace to ensure readability. Focus on essential facts, conveyed in this material, without adding any external information."
+            ;;
+        prompt2)
+            prompt="Create bullet-point notes summarizing the important parts of the following text. Use nested bullet points, with headings terms and key concepts in bold, including whitespace to ensure readability. Focus on essential information, without adding anything extra."
+            ;;
+        prompt3)
+            prompt="Create concise bullet-point notes summarizing the important parts of the following text. Use nested bullet points, with headings terms and key concepts in bold, including whitespace to ensure readability. Avoid Repetition."
+            ;;
+        *)
+            ;;
+    esac
+fi
+
+# Prepare markdown file based on input text file name (first command line argument)
+markdown="$1"
+markdown="${markdown%.*}.md"
+echo "# ${markdown%.*}" > "$markdown"
+
+# read text file line-by-line
+while IFS= read -r line
+do
+  # Remove Surrounding Quotes
+  trimmed="${line:1}"
+  trimmed="${trimmed%?}"
+  # Form JSON Query
+  json='{"include_sources": false, "prompt": "'$prompt' TEXT: ```'$trimmed'```", "stream": false, "use_context": false}'
+  # Send Api Call, Save response
+  content=$(curl -d "$json" -H 'Content-Type: application/json' http://0.0.0.0:8001/v1/completions | jq '.choices[0].message.content')
+  
+  # Remove Surrounding Quotes
+  tcontent="${content:1}"
+  tcontent="${tcontent%?}"
+  # Remove first character if space
+  if [ "${tcontent:0:1}" = " " ]; then
+    tcontent="${tcontent:1}"
+  fi
+
+  # Trim by keeping only the first 150 characters
+  heading="${trimmed:0:150}"
+  # Trim by removing any characters after the first plus sign
+  heading="${heading%%+*}"
+  heading="### $heading"
+  # Send to Display
+  echo -e "" >> "$markdown"
+  echo "$heading" >> "$markdown"
+  echo "" >> "$markdown"
+  echo -e "$tcontent" >> "$markdown"
+
+  # CSV file
+  csv_file="$1"
+  csv_file="${csv_file%.*}.csv"
+  
+  # Check if the CSV file exists
+  if [ -e "$csv_file" ]; then
+    # If the file exists, find the first empty row and append the variables
+    empty_row=$(awk -F, '!$0{print NR; exit}' "$csv_file")
+    if [ -n "$empty_row" ]; then
+      sed -i "${empty_row}s/$/${line}	${content}/" "$csv_file"
+    else
+      # If no empty row is found, append a new row at the end
+      echo "${line}	${content}" >> "$csv_file"
+    fi
+  else
+    # If the file doesn't exist, create it and add the header and values
+    echo "Original	Output" > "$csv_file"
+    echo "${line}	${content}" >> "$csv_file"
+  fi
+
+  echo
+  # Use the first command-line argument as the input file
+done < $1
 ```
 
 ## That's all!
