@@ -1,6 +1,15 @@
 # Yoga Therapy and Polyvagal Theory The Convergence of Traditional Wisdom and Contemporary Neuroscience for Self-Regulation and Resilience
 Marlysa B. Sullivan, Matt Erb, Laura Schmalzl, Steffany Moonaz, Jessica Noggle Taylor, and Stephen W. Porges
 
+## EDITORS NOTE
+**This is a summary** made with [PrivateGPT](https://github.com/imartinez/privateGPT) using [Mistral-7B-Instruct-v0.2](https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF). 
+
+**If you appreciate this work, feel free to buy the original**
+
+* [Polyvagal Safety: Attachment, Communication, Self-Regulation](https://www.amazon.com/Polyvagal-Safety-Attachment-Communication-Self-Regulation/dp/1324016272/?&tag=cognitivetech-20)
+
+or read online here: [Yoga Therapy and Polyvagal Theory: The Convergence of Traditional Wisdom and Contemporary Neuroscience for Self-Regulation and Resilience](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5835127/)
+
 ## Contents
 - [INTRODUCTION](#introduction)
 - [POLYVAGAL THEORY](#polyvagal-theory)
@@ -20,7 +29,6 @@ Marlysa B. Sullivan, Matt Erb, Laura Schmalzl, Steffany Moonaz, Jessica Noggle T
 - [IMPLICATIONS AND FUTURE DIRECTIONS](#implications-and-future-directions)
 - [CONCLUSION](#conclusion)
 - [REFERENCES](#references)
-
 
 ## INTRODUCTION
 **Mind-body therapies and self-regulation**
