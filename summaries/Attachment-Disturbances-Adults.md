@@ -4927,7 +4927,7 @@ _Potty Training:_
 - Imagined ideal parent figures embodying qualities of attunement and contingent responsiveness
 - Incorporating experience of consistent attunement into positive map of secure attachment
 
-### 3. Felt Comfort/Soothing and Reassurance In addition to promoting attachment security, consistent parental soothing and reassurance contributes over t
+### 3. Felt Comfort/Soothing and Reassurance 
 
 **Felt Comfort and Soothing**
 
@@ -4946,7 +4946,7 @@ _Potty Training:_
 - Highly specific and individualized imagery
 - **Affect-regulatory goal**: incorporation into the newly developing positive map of secure attachment as soothing-related representations.
 
-### 4. Feeling Valued/Expressed Delight Consistently expressed delight by parents about and to the child not only promotes secure attachment but is also t
+### 4. Feeling Valued/Expressed Delight
 
 **Self-Esteem Development and Expressed Delight**
 
@@ -4963,7 +4963,7 @@ _Potty Training:_
 * IPF method supports self-esteem development through ideal parent figures
 * Ideal parent figures express utter joy or sheer delight about the child's immediate behavior and being in general.
 
-### 5. Felt Support for Best Self/Unconditional Support and Encouragement Parents of secure children who develop a strong, autonomous, and complex sense o
+### 5. Felt Support for Best Self/Unconditional Support and Encouragement
 
 **Attachment-Based Imagery for Secure Self-Development**
 
@@ -5050,8 +5050,6 @@ _Potty Training:_
 - Becomes able to mentalize about others' states of mind and about the transference in the therapy.
 - Over a long period, frequent and diverse interpretations can enable the patient to create a mental representation of himself or herself and the analyst, forming the basis for new possibilities of separation and intimacy.
 
-### The London group’s findings that mentalization-based methods contribute to reflective capacity, to increasing coherence of mind, and ultimately to ear
-
 **London Group's Findings**
 
 * Mentalization-based methods contribute to reflective capacity, coherence of mind, and earned security.
@@ -5104,8 +5102,6 @@ _Potty Training:_
 * **Intermediate**: metacognitive abilities that support the development of more advanced skills, like perspective-taking and emotional regulation.
 * **Advanced**: metacognitive abilities related to higher levels of cognitive development, such as systems thinking and transcending relativism.
 
-### Basic metacognitive skills 1. Awareness of the state of mind of self or other 2. Monitoring the accuracy of state of mind 3. Awareness of one’s own in
-
 **Metacognitive Skills**
 
 _Basic Metacognitive Skills_
@@ -5152,8 +5148,6 @@ A fundamental assumption of this approach is that increasing patients' facility 
 
 ### THE THIRD PILLAR: FOSTERING COLLABORATIVE NONVERBAL AND VERBAL BEHAVIOR
 
-**The Third Pillar: Fostering Collaborative Behavior, Nonverbal and Verbal**
-
 The human species is uniquely cooperative and collaborative in three respects: cooperative shared behavior, nonverbal communication, and verbal communication (Gilbert, 1989; Tomasello, 2009). This collaborativeness is evident even in infants' interactions with caregivers (Beebe & Lachmann, 2014; Tomasello, 2010). However, infants in insecure attachment systems may deactivate their natural tendencies toward collaborativeness due to caregiving inadequacies.
 
 **Collaborative Behavior in Secure Attachment**:
@@ -5191,8 +5185,7 @@ The human species is uniquely cooperative and collaborative in three respects: c
 - Enhancement of collaborative verbalization capacity and behavior outside of therapy.
 
 ### The Interdependence of the Three Pillars of Treatment
-
-**The Interdependence of the Three Pillars of Treatment**: The text discusses the interconnectedness of three dimensions of treatment: attachment, metacognitive development, and collaborativeness.
+Three dimensions of treatment: attachment, metacognitive development, and collaborativeness.
 
 **Attachment Imagery Promotes Metacognitive Development**:
 
@@ -5231,9 +5224,6 @@ The human species is uniquely cooperative and collaborative in three respects: c
 - Engaging with each system activates and strengthens the other two systems.
 
 ### The Benefits of Three Pillars Treatment
-
-**Three Pillars Treatment: Benefits**
-
 The benefits of Three Pillars Treatment for patients with attachment disturbances include:
 
 1. **Formation of new, positive stable internal working models for healthy adult attachment**:
@@ -5281,9 +5271,7 @@ The Three Pillars Treatment approach includes:
 3. **Fostering behavioral, nonverbal, and verbal collaborativeness**:
    - Patients learn to communicate effectively and work cooperatively with others, promoting healthy relationships and emotional intelligence.
 
-## Chapter 8 The First Pillar The Ideal Parent Figure Protocol Overview: Positive Remapping
-
-**Chapter 8: The First Pillar**
+## Chapter 8: The First Pillar
 
 **The Ideal Parent Figure (IPF) Protocol**
 - A therapeutic method for developing a positive, stable inner working model of attachment relationships
@@ -5324,11 +5312,10 @@ The Three Pillars Treatment approach includes:
 - Therapist recognizes, mirrors, and enhances qualities that promote secure attachment in patient's imagery
 - No preestablished scripts; effective when therapist understands underlying principles and responds freshly to each patient.
 
-### The Foundational Protocol SETTING THE THERAPEUTIC GROUND
-
+### The Foundational Protocol
 **The IPF Protocol: Setting the Therapeutic Ground**
 
-The IPF (Intensive Psychotherapy of Attachment) protocol begins with helping the patient establish a calm, relaxed, inwardly focused state of awareness. This state increases the likelihood of vivid imagery and decreases distractions. The focus is ideally on the body, enhancing engagement with immediate bodily experience to form new attachment representations during the critical period of attachment formation (12-20 months).
+The IPF (Ideal Parent Figure) protocol begins with helping the patient establish a calm, relaxed, inwardly focused state of awareness. This state increases the likelihood of vivid imagery and decreases distractions. The focus is ideally on the body, enhancing engagement with immediate bodily experience to form new attachment representations during the critical period of attachment formation (12-20 months).
 
 **Establishing a Calm, Relaxed State**:
 
@@ -5363,9 +5350,6 @@ The IPF (Intensive Psychotherapy of Attachment) protocol begins with helping the
 - Therapists are free to choose methods that best serve a particular patient based on their understanding of the preparatory phase principles.
 
 ### FACILITATING THE CREATION OF IDEAL PARENT FIGURE IMAGERY
-
-**Facilitating the Creation of Ideal Parent Figure Imagery**
-
 The goal is to help patients form new, healthy attachments by engaging them in self-generated imagery of being a child with positive attachment figures. The therapist sets up conditions to evoke such imagery and uses consistent phrasing for the initial framing.
 
 1. **Evoke experience of a child-self state**:
@@ -5398,30 +5382,30 @@ The goal is to help patients form new, healthy attachments by engaging them in s
 
 **Introduction**:
 
-- Clinical vignettes from IPF (Intensive Parenting Figure) sessions with patients illustrating adequate or better ideal parent figure imagery.
+- Clinical vignettes from IPF (Ideal Parent Figure) sessions with patients illustrating adequate or better ideal parent figure imagery.
 - Therapist's role is to support and enhance positive remapping process by focusing on parents' ways of being.
 
 **First Vignette**:
 
-*Patient experiences kind, attentive imagined parents.*
-*Therapist reinforces focus on parents' ways of being: close by, looking at patient, fully present, seeing uniqueness, taking seriously, wanting to be best possible parents.*
-*Patient responds with hugging and fun activities, feeling calm and secure.*
-*Commentary: Patient had disorganized attachment and unresolved trauma. Importance of focusing on parents' ways of being rather than actions for attachment security. Patient felt security from imagined parents' presence and responsiveness.*
+**Patient**: experiences kind, attentive imagined parents.
+**Therapist**: reinforces focus on parents' ways of being: close by, looking at patient, fully present, seeing uniqueness, taking seriously, wanting to be best possible parents.
+**Patient**: responds with hugging and fun activities, feeling calm and secure.
+
+Patient had disorganized attachment and unresolved trauma. Importance of focusing on parents' ways of being rather than actions for attachment security. Patient felt security from imagined parents' presence and responsiveness.
 
 **Second Vignette**:
 
-*Patient describes caring, nurturing mother and energetic father.*
-*Therapist reinforces focus on parents' qualities: affectionate, interested in patient's experience, happy to be with patient.*
-*Patient experiences happiness, energy, and feeling supported.*
-*Commentary: Therapist emphasizes the importance of focusing on parents' caring and nurturing behaviors as qualities rather than specific actions. Patient's positive feelings are anchored in her body, increasing the likelihood of forming new attachment representations.*
+**Patient**: describes caring, nurturing mother and energetic father.
+**Therapist**: reinforces focus on parents' qualities: affectionate, interested in patient's experience, happy to be with patient.
+**Patient**: experiences happiness, energy, and feeling supported.
+
+Therapist emphasizes the importance of focusing on parents' caring and nurturing behaviors as qualities rather than specific actions. Patient's positive feelings are anchored in her body, increasing the likelihood of forming new attachment representations.
 
 **Common Themes**:
 
 - Focus on parents' ways of being (protection, attunement, soothing, expressed delight, support for self-development) rather than specific actions.
 - Reinforcing focus on positive inner states and feelings resulting from imagined parents' presence and behaviors.
 - Encouraging patients to notice and describe the qualities that make them feel cared for and loved by their imagined parents.
-
-### As noted in the commentaries about the above two vignettes, the therapist’s language oriented the patient’s focus to the parent figures’ ways of being
 
 **Attachment-Based Therapy: Parent Figure Imagery (IPF)**
 
@@ -5463,8 +5447,6 @@ Therapist Response:
 * Counteracts problematic qualities in actual parents
 * Encourages hopefulness and security in the patient
 
-### The therapist pointed the patient’s attention to her own state of mind and then mirrored her positive states and suggested a felt sense of security (“
-
 **Principles and Practices for Framing and Responding to Patients' Experiences in Ideal Parent Figure (IPF) Sessions**
 
 **General Guiding Principles**
@@ -5489,16 +5471,11 @@ Therapist Response:
 - Some patients may have vivid and detailed imagery, while others may imagine harmful or no parent figures.
 - Therapists should keep principles of the protocol in mind to effectively work with any patient engagement.
 
-**Challenges and Considerations**
-
-- Particular challenges (such as imagining harmful or no parent figures) are addressed later in the chapter.
-- Considerations pertaining to each insecure attachment subtype are addressed in Chapters 11, 12, and 13.
-
 ### GENERAL CONTEXT PRINCIPLES
 
 **General Context and Principles**
 
-- The IPF (Intensive Psychotherapy of Families) method's fundamental agent of change is the patient's active engagement with ideal parent figure imagery.
+- The IPF method's fundamental agent of change is the patient's active engagement with ideal parent figure imagery.
 - A therapist's way of being with the patient, embodying qualities of good attachment figures, facilitates the imagery work and supports attachment repair through the therapy relationship.
 - **The therapist embodies general factors**: physical presence, consistency, reliability, and interest in the patient.
 - **The therapist's engagement with facilitating and guiding the IPF process promotes secure attachment through five behavioral pillars**: soothing, reassurance, attunement, expressed delight, and support for exploration.
@@ -5552,8 +5529,6 @@ Therapist Response:
 
 ### SUGGEST ATTACHMENT-PROMOTING QUALITIES IN THE IMAGINED PARENT FIGURES
 
-**Imagined Parent Figures (IPF) Therapy: Promoting Attachment-Promoting Qualities**
-
 * Therapist does not solely rely on patient's imagination for attachment-promoting qualities in parent figures
 * Sets imagery frame for maximal creative freedom
 * Mirrors and enhances generated qualities, suggests new ones
@@ -5574,15 +5549,14 @@ _Example 1:_
 
 * **Patient**: We're in the kitchen and my mother is making dinner for me. She seems happy.
 * **Therapist**: Yes. Notice what it is about her that lets you know how happy she is to be making dinner for you. (Mirroring action)
-* She doesn't want to be anywhere other than there with you now, and she’s happy to be making for you what she knows you enjoy so much. (Suggesting attachment-promoting qualities)
+* **Patient**: She doesn't want to be anywhere other than there with you now, and she’s happy to be making for you what she knows you enjoy so much. (Suggesting attachment-promoting qualities)
 
 _Example 2:_
 
 * **Patient**: My mother is brushing my hair.
-* **Therapist**: And you can feel from her that she's right there with you, soothing you and brushing your hair with such love for you. (Mirroring action)
-* You can really feel her interest, and her caring, and her love through the ways she’s with you, whether she’s doing something for you or just simply being with you. (Suggesting attachment-promoting qualities)
-
-### Suggest that the imagined parent figures have qualities that are known in general to support secure attachment. In response to particular attachment-p
+* **Therapist**: 
+  - And you can feel from her that she's right there with you, soothing you and brushing your hair with such love for you. (Mirroring action)
+  - You can really feel her interest, and her caring, and her love through the ways she’s with you, whether she’s doing something for you or just simply being with you. (Suggesting attachment-promoting qualities)
 
 **Imagined Parent Figures: Qualities to Support Secure Attachment**
 
@@ -5593,17 +5567,14 @@ The following text suggests qualities for imagined parent figures that can promo
   - Genuinely accessible to you
   - Consistently available when needed
   - Special relationship with availability
-
 - *CONSISTENCY*
   - Consistent ways of being with you over time
   - Know what helps you feel secure and safe
   - Provide that consistently every time
-
 - *RELIABILITY*
   - Always there in the ways you need
   - Trustworthy to find right ways to be with you
   - Understanding and accepting
-
 - *INTEREST*
   - Genuinely interested in what you're interested in
   - Happy to learn about you
@@ -5614,22 +5585,18 @@ The following text suggests qualities for imagined parent figures that can promo
   - Dedicated to protecting you from harm
   - Provide safety and security
   - Watch out for your wellbeing
-
 - *ATTUNEMENT*
   - Notice and respond to your needs
   - Understand your emotions and internal state
   - Adapt to your developmental stage
-
 - *SOOTHING AND REASSURANCE*
   - Comforting when upset
   - Helpful in managing strong feelings
   - Accepting of all feelings
-
 - *EXPRESSED DELIGHT*
   - Delighted to be your parent
   - Genuinely like you and accept you as you are
   - Communicate their delight effectively
-
 - *ENCOURAGEMENT FOR EXPLORATION*
   - Supportive of inner exploration
     - Validate feelings
@@ -5643,8 +5610,6 @@ The following text suggests qualities for imagined parent figures that can promo
 The therapist suggests including these qualities in descriptions of imagined parent figures, even if they are not initially mentioned by the patient. The therapist can draw from the above categories to suggest possibilities for missing qualities. These suggestions should be made in a way that does not impose how the imagined parents will manifest the qualities but instead points the patient's attention towards imagining the ways the qualities will appear in their parent figures.
 
 Additionally, suggested qualities can be based on the opposite of the developmentally disruptive ways of being of the actual parents to effectively counteract those factors and create new attachment representations leading to earned attachment security.
-
-### Information about a patient’s early experiences with parents can be obtained in several ways. The Adult Attachment Interview (AAI; George, Kaplan, & M
 
 **Obtaining Information about a Patient's Early Experiences with Parents**
 
@@ -5704,25 +5669,22 @@ Additionally, suggested qualities can be based on the opposite of the developmen
 **Separation or distance from parent figures**:
 
 * Patient feels separated by a gauzy, hazy material
-* Therapist gives task to parent figures to help patient connect
-* Parent figures pull aside the material, allowing closer connection
-* Patient experiences feelings of safety and support
-
+  * Therapist gives task to parent figures to help patient connect
+  * Parent figures pull aside the material, allowing closer connection
+  * Patient experiences feelings of safety and support
 * Patient sees parents in different worlds
-* Therapist encourages patient to create ideal parents
-* Patient feels distance but therapist accepts it and encourages closeness
-* Patient eventually experiences full connection with parent figures
+  * Therapist encourages patient to create ideal parents
+  * Patient feels distance but therapist accepts it and encourages closeness
+  * Patient eventually experiences full connection with parent figures
 
 **Decrease in engagement with the imagery frame**:
 
 * Patient experiences parent figures as perfect and unreal
-* Therapist acknowledges patient's feelings of disbelief
-* Parent figures reassure patient and take it as a compliment
-* Patient eventually accepts the perfection and feels valued and loved
+  * Therapist acknowledges patient's feelings of disbelief
+  * Parent figures reassure patient and take it as a compliment
+  * Patient eventually accepts the perfection and feels valued and loved
 
 **Conclusion**: In IPF, the therapist responds to the patient's experiences within the imagery frame, addressing difficulties such as separation or distance from parent figures and decreased engagement with the imagery. The goal is for the patient to experience the parent figures as beneficially responding to their entire range of experiences and states.
-
-### At the beginning of this session, the patient was very engaged with the imagery and the process and generated a vivid, positive interaction with the p
 
 **Imaginal Exposure Therapy (IPF) Session**:
 
@@ -5756,18 +5718,10 @@ Additionally, suggested qualities can be based on the opposite of the developmen
 * "They protect you, and they protect you from yourself sometimes, and this is one of those circumstances in which they help to protect you from doubting too much, from doubting that what you most want and need is here for you."
 * "Of course you need to take your time, to see for yourself whether you can really trust them to not make fun of you. They know that too, and they won't push you to open up before you're ready."
 * "These parents are so attuned to you, and they see now from the expression on your face that something has shifted in you. They have a sense of exactly what you need right now. Notice how they are with you that provides you with exactly what you need to help you with what's happening in you right now."
-* **"They tell me that they love me." - **Therapist**: "Yes, and you can really take that in, that they love you so much, no matter what. Really feel what that’s like as you take that in."
+* "They tell me that they love me." - Therapist: "Yes, and you can really take that in, that they love you so much, no matter what. Really feel what that’s like as you take that in."
 
-### In the following example, the patient reported an affective shift and kept it in the IPF frame herself: Patient: I’m feeling angry at them. I want to 
+**Patient feels angry and observes the response of her imagined parents (IPF frame)**
 
-**Intro**:
-
-- The text describes an Interpersonal Psychotherapy (IPT) session between a therapist and a patient.
-- The patient reports feeling angry and expresses a desire to observe how others react to her emotions.
-
-**Patient's Experience in IPF Frame**:
-
-* Patient feels angry and observes the response of her imagined parents (IPF frame).
 * Imagined parents listen to her, take her emotions seriously, don't laugh at her, and stay with her.
 * Patient feels respected and cared for by her imagined parents.
 
@@ -5793,8 +5747,6 @@ Additionally, suggested qualities can be based on the opposite of the developmen
 * Soothes patient by suggesting a new scene where she experiences relief.
 
 ### SUGGEST CHANGES IN SCENES OR NEW SCENES WITH THE IDEAL PARENT FIGURES
-
-**Ideal Parent Figures (IPF) Therapy: Changes in Scenes or New Scenes**
 
 **Benefits of Changing Scenes with Ideal Parent Figures**
 
@@ -5831,8 +5783,6 @@ Additionally, suggested qualities can be based on the opposite of the developmen
 * Facilitates introjection of positive attachment representations
 * Consistent with Gergely's research on "marked expressivity" and Fonagy et al.'s concept of "marked affectivity"
 * Beneficial for all patients, especially those with anxious-preoccupied attachment.
-
-### Phrasings for bringing attention to felt experience. The therapist can be creative with phrasings, guided by the simple goal of pointing the patient’s
 
 **Phrasings for Bringing Attention to Felt Experience**
 
@@ -5887,8 +5837,6 @@ Additionally, suggested qualities can be based on the opposite of the developmen
   * You can feel that in your body too, can’t you?
 
 ### INTEGRATE METHODS FOR ENHANCING POSITIVE STATES
-
-**Integrating Methods for Enhancing Positive States**
 
 - Once the patient becomes aware of positive states in relation to parent figures and generates experiential detail, therapist guides integration of all elements.
 - **Elements**: amplifying, stabilizing, extending, anchoring positive states in body experience.
@@ -5959,8 +5907,6 @@ Additionally, suggested qualities can be based on the opposite of the developmen
 
 ### SIGNS OF THE BENEFICIAL EFFECTS OF POSITIVE ATTACHMENT REPRESENTATIONS
 
-**Signs of the Beneficial Effects of Positive Attachment Representations**
-
 The engagement with attachment-promoting imagery is essential for its beneficial effects. The following signs indicate progress as a patient develops toward a stable internal experience of attachment security:
 
 **Emotion Regulation**:
@@ -6012,8 +5958,6 @@ The engagement with attachment-promoting imagery is essential for its beneficial
 - "Tune into their ways of being with you, that let you know how much they value you."
 - "Well, I’m older now, my bike is broken, and we have to fix my bike. They give me all the tools, and they know how to fix the bike, but they know I want to learn. So they show me just enough. They use another bike as a model. They’re not concerned about it being messy. They’re interested in helping me to learn."
 
-### Another: Patient: They feel confident as parents; they trust themselves. I can ask for something if I need it. They teach me self-reliance. They’re th
-
 **Imaginal Exposure Therapy (IPF): Parent Figure**
 
 - Patients report feeling confident and self-reliant with the presence of imagined parent figures.
@@ -6050,10 +5994,7 @@ The engagement with attachment-promoting imagery is essential for its beneficial
 - These figures have a positive impact on their inner state.
 
 ### MANIFESTATIONS OF AN INTERNALIZED SECURE BASE
-
-**Internalized Secure Base and Its Manifestations**
-
-When a secure base has been internalized through the Interpersonal Process Formula (IPF) process, several indicators emerge in the patient's imagery:
+When a secure base has been internalized through the Internal Parent Figure (IPF) process, several indicators emerge in the patient's imagery:
 
 1. **Consistent and Stable Attachment-Promoting Qualities**:
    - Imagined parent figures respond to the patient in ways that reassure and understand their fears.
@@ -6078,21 +6019,21 @@ When a secure base has been internalized through the Interpersonal Process Formu
 
 **Examples of Exploratory Behavior in the Imagery**:
 
-1. **Patient**: I have space to do what I want to do. I feel like they trust me. They’re there to guide me, not form me.
-2. **Patient**: I can express that, physically move to something new. It’s a new feeling in myself, a kind of like courage.
-3. **Patient**: They know how important that is. They want to support my own connections.
-4. **Patient**: I can look around more. I’m walking. I don’t have to worry about things.
-5. **Patient**: It feels like the connection has become fully established. Now it's about me being more active, because I have the trust and connection with them now.
+**Patient**:
+- "I have space to do what I want to do. I feel like they trust me. They’re there to guide me, not form me."
+- "I can express that, physically move to something new. It’s a new feeling in myself, a kind of like courage."
+- "They know how important that is. They want to support my own connections."
+- "I can look around more. I’m walking. I don’t have to worry about things."
+- "It feels like the connection has become fully established. Now it's about me being more active, because I have the trust and connection with them now."
 
 **Significant Change in Experience of Relationship**:
 
-1. **Patient**: It feels like a meeting has taken place among the three of us ... it feels very different than before ... it feels like a starting point, like I can start to do things, and they can start to guide me and help me in ways that are right.
-2. **Patient**: They can be supportive in ways I’ve never experienced before.
-3. **Patient**: Fundamentally they’re interested in me. I guess I can start to be me, with their guidance.
+**Patient**:
+- "It feels like a meeting has taken place among the three of us ... it feels very different than before ... it feels like a starting point, like I can start to do things, and they can start to guide me and help me in ways that are right."
+- "They can be supportive in ways I’ve never experienced before."
+- "Fundamentally they’re interested in me. I guess I can start to be me, with their guidance."
 
 ### Reinforcing the Internalized Secure Base
-
-**Reinforcing the Internalized Secure Base**
 
 When a patient exhibits signs of a secure base in their imagery during Imaginal Flooding (IPF) sessions, the therapist helps to extend, strengthen, and deepen that state by applying the following principles:
 
@@ -6104,25 +6045,29 @@ When a patient exhibits signs of a secure base in their imagery during Imaginal 
 
 **Example of Reinforcing the Secure Base**
 
-Patient: We’re on a beach, a rocky beach. I can go and get rocks, and come back and give them to them, and they receive them. Therapist: Yes, you can go and get rocks, and then come back to them. Notice what it’s like as you go off by yourself, really feeling that they’re there for you. You can feel that secure feeling, can’t you?
+**Patient**: "We’re on a beach, a rocky beach. I can go and get rocks, and come back and give them to them, and they receive them." 
+**Therapist**: "Yes, you can go and get rocks, and then come back to them. Notice what it’s like as you go off by yourself, really feeling that they’re there for you. You can feel that secure feeling, can’t you?"
 
 **Time Expansion**
-
 When a patient is deeply immersed in the imagery, time can be expanded to allow positive states to be experienced for longer durations, enhancing familiarity and mastery of desired qualities.
 
-Therapist: And now, even though only a few moments of clock time will pass, it will seem like much longer time elapses, long enough for you to experience this safety in a way that makes it so very familiar to you. You have all the time it takes for this safety to become part of you, to experience it more and more as a foundation of who you are.
+**Therapist**: "And now, even though only a few moments of clock time will pass, it will seem like much longer time elapses, long enough for you to experience this safety in a way that makes it so very familiar to you. You have all the time it takes for this safety to become part of you, to experience it more and more as a foundation of who you are."
 
 **Working with Present Experience and Reducing Frequency of IPF Sessions**
 
 As indications of an internalized secure base become more consistent and vivid in a patient's IPF experience, they will report greater security in their daily life. The therapist reinforces these experiences by mirroring and amplifying positive emotions and sensations. New scenes are suggested to help patients apply the feeling of security to various situations in their lives.
 
-Patient: In classes I often want to say something, but I get too nervous and I just stay silent. Therapist: Yes, you’ve been wanting to express yourself in classes. Now really tune in to the secure feeling; really tune in to that feeling, and let me know when you’re feeling it really clearly. Patient: I’m feeling it. Therapist: Good. Now, with this secure feeling really present, imagine being in class. And when you are imagining yourself in class, feeling secure and comfortable, let me know. Patient: Okay, I’m there. Therapist: Wonderful. Now, just feel yourself there in class, feeling secure and comfortable, coming to feel it even more clearly. And when you’re ready, imagine yourself feeling ready to raise your hand to say something. This process continues as the patient imagines each step toward the desired action in the context of an inner, felt experience of a secure base.
+**Patient**: In classes I often want to say something, but I get too nervous and I just stay silent. 
+**Therapist**: Yes, you’ve been wanting to express yourself in classes. Now really tune in to the secure feeling; really tune in to that feeling, and let me know when you’re feeling it really clearly. Patient: I’m feeling it. 
+**Therapist**: Good. Now, with this secure feeling really present, imagine being in class. And when you are imagining yourself in class, feeling secure and comfortable, let me know. 
+**Patient**: Okay, I’m there. 
+**Therapist**: Wonderful. Now, just feel yourself there in class, feeling secure and comfortable, coming to feel it even more clearly. And when you’re ready, imagine yourself feeling ready to raise your hand to say something. 
 
-### Working in this way with the patient’s present experience allows for a gradual reduction in the frequency of using the IPF protocol. At this stage of 
+This process continues as the patient imagines each step toward the desired action in the context of an inner, felt experience of a secure base.
 
 **IPF Protocol in Attachment-Based Therapy: Reinforcing Secure Base and Regulating Affects**
 
-The IPF (Imaginal Processing of Fear) protocol continues to be beneficial in attachment-based therapy at later stages of treatment, despite a gradual reduction in frequency. Two primary ways the IPF protocol is useful are:
+The IPF protocol continues to be beneficial in attachment-based therapy at later stages of treatment, despite a gradual reduction in frequency. Two primary ways the IPF protocol is useful are:
 
 1. **Reinforcing secure base**: A secure base results from the development of new, positive attachment representations. The stronger and more stable these representations are, the stronger and more stable the secure base will be. Signs of insecurity may reappear when the secure base is challenged, necessitating IPF sessions to reinforce the secure base.
 
@@ -6151,10 +6096,7 @@ The IPF (Imaginal Processing of Fear) protocol continues to be beneficial in att
 4. The patient explores and works with the imagery until the parent figures are accurately attuned to his affect state and alleviate it.
 
 ### Common Challenges During the IPF Treatment Process
-
-**Common Challenges During the IPF Treatment Process**
-
-The IPF (Intensive Psychotherapy of Attachment) treatment process may present therapists with several challenges. These challenges can be categorized into three groups:
+The IPF treatment process may present therapists with several challenges. These challenges can be categorized into three groups:
 
 1. **Difficulties that patients have with aspects of the protocol**:
    - **Being empathic**: Patients might experience discomfort or resistance during the first sessions due to painful childhood memories. Empathic responses from therapists help patients feel understood and safe, allowing them to engage with the method despite initial discomfort.
@@ -6229,7 +6171,7 @@ The text describes a therapeutic approach where the therapist guides the patient
 
 **Intro**:
 
-- Patients in IPF (Internal Family Systems) therapy may imagine different ages during sessions
+- Patients in IPF (Ideal Parent Figure) therapy may imagine different ages during sessions
 - Imagining self as older can be part of remapping process
 - Resistance to generating ideal parent figures is common
 
@@ -8558,9 +8500,7 @@ This case illustration demonstrates how treating a patient with dismissing attac
 
 * Patients imagine scenarios involving brief separations and reunions with IPFs for sensitivity to separations and reunion episodes.
 
-### Working with IPF imagery in these specific ways will over time further reduce hyperactivated attachment behavior and promote attachment security and t
-
-**Working with IPF (Internal Parent Figure) Imagery for Anxious-Preoccupied Patients**
+**Working with IPF (Ideal Parent Figure) Imagery for Anxious-Preoccupied Patients**
 
 IPF imagery is a therapeutic technique used to promote attachment security and improve skills in closeness/distance regulation and emotion regulation for anxious-preoccupied patients. This technique is based on the five primary parental behavioral conditions that promote secure attachment: protection, attunement, soothing, expressed delight, and fostering best self-development.
 
@@ -8681,7 +8621,7 @@ Ultimately, the goal is for anxious-preoccupied patients to develop the capacity
 
 1. **Initially**:
    * Therapist introduces cooperative behavior as a way to temper attachment system hyperactivation and reactivate exploratory behavior.
-   * Systematic use of IPF (Interpersonal Process Recall) imagery.
+   * Systematic use of IPF (Ideal Parent Figure) imagery.
    * Emphasis on noninvolving parent figures who attune carefully and consistently to the patient's state of mind.
    * Parent figures in imagery soothe, comfort, and reassure the child to lower anxious arousal and temper hyperactivated attachment behavior.
 
@@ -8762,7 +8702,7 @@ Ultimately, the goal is for anxious-preoccupied patients to develop the capacity
 
 **IPF Protocol Session**:
 
-**Patient's Anxiety**: The patient expresses anxiety about the upcoming test results and fears failure. She is hesitant to start the IPF (Intensive Parenting Figure) protocol due to past discomfort.
+**Patient's Anxiety**: The patient expresses anxiety about the upcoming test results and fears failure. She is hesitant to start the IPF (Ideal Parent Figure) protocol due to past discomfort.
 
 **Therapist's Approach**: The therapist offers a temporal structure for the session, focusing on the patient's anxiety as a starting point. They aim to help the patient cultivate comfort and shift her habitual response to anxiety.
 
