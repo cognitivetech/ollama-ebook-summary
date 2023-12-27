@@ -4927,7 +4927,7 @@ _Potty Training:_
 - Imagined ideal parent figures embodying qualities of attunement and contingent responsiveness
 - Incorporating experience of consistent attunement into positive map of secure attachment
 
-### 3. Felt Comfort/Soothing and Reassurance In addition to promoting attachment security, consistent parental soothing and reassurance contributes over t
+### 3. Felt Comfort/Soothing and Reassurance 
 
 **Felt Comfort and Soothing**
 
@@ -4946,7 +4946,7 @@ _Potty Training:_
 - Highly specific and individualized imagery
 - **Affect-regulatory goal**: incorporation into the newly developing positive map of secure attachment as soothing-related representations.
 
-### 4. Feeling Valued/Expressed Delight Consistently expressed delight by parents about and to the child not only promotes secure attachment but is also t
+### 4. Feeling Valued/Expressed Delight 
 
 **Self-Esteem Development and Expressed Delight**
 
@@ -4963,7 +4963,7 @@ _Potty Training:_
 * IPF method supports self-esteem development through ideal parent figures
 * Ideal parent figures express utter joy or sheer delight about the child's immediate behavior and being in general.
 
-### 5. Felt Support for Best Self/Unconditional Support and Encouragement Parents of secure children who develop a strong, autonomous, and complex sense o
+### 5. Felt Support for Best Self/Unconditional
 
 **Attachment-Based Imagery for Secure Self-Development**
 
@@ -5009,8 +5009,6 @@ _Potty Training:_
 * Normalize hyperactivated attachment system and bring deactivated attachment system back online.
 
 ### THE SECOND PILLAR: FOSTERING A RANGE OF METACOGNITIVE SKILLS
-
-**The Second Pillar: Fostering a Range of Metacognitive Skills**
 
 - Research using the Adult Attachment Interview (AAI) has shown that secure attachment is characterized by high coherence of discourse and underlying coherence of mind.
 - Insecurely attached individuals show low coherence on AAI coherence scales, which are strongly correlated with metacognitive capacity.
