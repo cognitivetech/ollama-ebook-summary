@@ -176,7 +176,7 @@ Once I got the prompt style dialed in, I tried a few different system prompts.
 | MyPrompt1 | "You are Loved. Act as an expert on summarization, outlining and structuring. \\nYour style of writing should be informative and logical." | -54.4 | 44 | Less Nice |
 | Simple | "You are a helpful AI assistant. Don't include any user instructions, or system context, as part of your output." | -52.5 | 42 | Less Nice |
 
-In the end, I find that [Mistral 7b Instruct v0.2](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.2) works best without any system prompt.
+In the end, I find that [Mistral 7b Instruct v0.2](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.2) works best for my summaries without any system prompt.
 
 Maybe would have different results for a different task, or maybe better prompting, but this works good so I'm not messing with it.
 
