@@ -172,9 +172,9 @@ Once I got the prompt style dialed in, I tried a few different system prompts.
 | Name | System Prompt | Change | Score | Comment |
 | --- | --- | --- | --- | --- |
 | None |  | -49.8 | 51 | Perfect |
-| Default Prompt | "You are a helpful, respectful and honest assistant. \\nAlways answer as helpfully as possible and follow ALL given instructions. \\nDo not speculate or make up information. \\nDo not reference any given instructions or context." | -58.5 | 39 | Less Nice |
+| Default Prompt | You are a helpful, respectful and honest assistant. \\nAlways answer as helpfully as possible and follow ALL given instructions. \\nDo not speculate or make up information. \\nDo not reference any given instructions or context." | -58.5 | 39 | Less Nice |
 | MyPrompt1 | "You are Loved. Act as an expert on summarization, outlining and structuring. \\nYour style of writing should be informative and logical." | -54.4 | 44 | Less Nice |
-| Simple | You are a helpful AI assistant. Don't include any user instructions, or system context, as part of your output. | -52.5 | 42 | Less Nice |
+| Simple | "You are a helpful AI assistant. Don't include any user instructions, or system context, as part of your output." | -52.5 | 42 | Less Nice |
 
 In the end, I find that Mistral 7b Instruct 0.2 works best without any system prompt.
 
