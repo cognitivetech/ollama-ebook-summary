@@ -27,9 +27,9 @@ Processes and Analysis, using [PrivateGPT](https://docs.privategpt.dev/overview)
 
 2. Next I wanted to find which models would do the best with this task, which led to Round 2 rankings, where [Mistral-7B-Instruct-v0.2](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.2) was the clear winner.
 
-3. Then I wanted to get the best results from this model by ranking prompt styles, and writing code to get the exact prompt style expected.
+3. Then I wanted to get the best results from this model by ranking [prompt styles](#round-3-prompt-style), and writing code to get the exact prompt style expected.
 
-4. After that, of course, I had to test out various system prompts to see which would perform the best.
+4. After that, of course, I had to test out various [system prompts](#round-4-system-prompts) to see which would perform the best.
 
 5. This will culminate in a battle between user prompts, where I determine what is the exact best prompt to generate summaries requiring the least post-processing, by me.
 
@@ -99,7 +99,7 @@ Not surprisingly, summaries performed better than Q/A, but they also had a more 
 
 Again, I've preferred the Q8_0 variants.
 
-Finding Mistral 7B v0.2 was well worth a new round of testing. This time, less intense. I didn't record speed of query, and only judged 12 summarization tasks, but I tried a number of models and saved the most interesting results.
+Finding that [Mistral 7b Instruct v0.2](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.2) had been released was well worth a new round of testing. This time, I didn't record speed of query, and only judged 12 summarization tasks, but I tried more models and saved those with the best results.
 
 One thing I tested this time was prompts, because Mistral is supposed to take Llama2 Prompt, but seems to perform better with the default (llama-index) prompt. As for Llama 2, it performed really bad with the Llama 2 prompt, but decent with the Default prompt.
 
@@ -107,7 +107,7 @@ One thing I tested this time was prompts, because Mistral is supposed to take Ll
 - [**Mistral-7B-Instruct-v0.2**](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.2) (Llama-index Prompt) Star of the show here, quite impressive.
 - [**Mistral-7B-Instruct-v0.2**](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.2) (Llama2 Prompt) Still good, but not _as_ good as using llama-index prompt
 - [**Tess-7B-v1.4**](https://huggingface.co/migtissera/Tess-7B-v1.4) - Another by the same creator as Synthia. Good, but not _as_ good.
-- [**Llama-2-7B-32K-Instruct-GGUF**](https://huggingface.co/TheBloke/Llama-2-7B-32K-Instruct-GGUF) - worked ok, but slowly, with llama-index prompt. Just bad with llama2 prompt. 
+- [**Llama-2-7B-32K-Instruct-GGUF**](https://huggingface.co/TheBloke/Llama-2-7B-32K-Instruct-GGUF) - worked ok, but slowly, with llama-index prompt. Just bad with llama2 prompt. (Should test again with Llama2 "Instruct Only" style)
 
 ### Summary Ranking
 
@@ -116,8 +116,8 @@ This time I only did summaries. Q/A is just less efficient for book summarizatio
 | Model | % Difference | Score | Comment | 
 | ----- | ------------ | ----- | ------- | 
 | Synthia 7b V2 | -64.43790093 | 28 | Good | 
-| Mistral 7b v0.2 (Default Prompt) | -60.81878508 | 33 | VGood | 
-| Mistral 7b v0.2 (Llama2 Prompt) | -64.5871483 | 28 | Good | 
+| Mistral 7b Instruct v0.2 (Default Prompt) | -60.81878508 | 33 | VGood | 
+| Mistral 7b Instruct v0.2 (Llama2 Prompt) | -64.5871483 | 28 | Good | 
 | Tess 7b v1.4 | -62.12938978 | 29 | Less Structured | 
 | Llama 2 7b 32k Instruct (Default) | -61.39890553 | 27 | Less Structured. Slow | 
 
@@ -176,7 +176,7 @@ Once I got the prompt style dialed in, I tried a few different system prompts.
 | MyPrompt1 | "You are Loved. Act as an expert on summarization, outlining and structuring. \\nYour style of writing should be informative and logical." | -54.4 | 44 | Less Nice |
 | Simple | "You are a helpful AI assistant. Don't include any user instructions, or system context, as part of your output." | -52.5 | 42 | Less Nice |
 
-In the end, I find that Mistral 7b Instruct 0.2 works best without any system prompt.
+In the end, I find that [Mistral 7b Instruct v0.2](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.2) works best without any system prompt.
 
 Maybe would have different results for a different task, or maybe better prompting, but this works good so I'm not messing with it.
 
