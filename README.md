@@ -13,8 +13,8 @@ Processes and Analysis, using [PrivateGPT](https://docs.privategpt.dev/overview)
     - [Question / Answer Ranking](#question--answer-ranking)
     - [Summary Ranking](#summary-ranking)
   - [Round 2: Summarization - Narrow Down Contenders](#round-2-summarization---narrow-down-contenders)
-    - [Summary Ranking](#summary-ranking-1)
   - [Round 3: Prompt Style](#round-3-prompt-style)
+  - [Round 4: System Prompts](#round-4-system-prompts)
 - [Methods](#methods)
   - [Walkthrough](#walkthrough)
 - [Result](#result)
@@ -164,6 +164,21 @@ The results of that ranking gave me confidence that I coded correctly.
 | Llama2 | -47% | 48 | No Structure |
 
 **Find the full data and rankings on [Google Docs](https://docs.google.com/spreadsheets/d/1u3BgDx6IsJSbRz3uNmud1sDtO4WvWsH6ION3J-fhoGw/) or here in this repository [Prompt Style Rankings](ranking-data/Round-3_Prompt-Style.csv).**
+
+## Round 4: System Prompts
+
+Once I got the prompt style dialed in, I tried a few different system prompts.
+
+| Name | System Prompt | Change | Score | Comment |
+| --- | --- | --- | --- | --- |
+| None |  | -49.8 | 51 | Perfect |
+| Default Prompt | "You are a helpful, respectful and honest assistant. \\nAlways answer as helpfully as possible and follow ALL given instructions. \\nDo not speculate or make up information. \\nDo not reference any given instructions or context." | -58.5 | 39 | Less Nice |
+| MyPrompt1 | "You are Loved. Act as an expert on summarization, outlining and structuring. \\nYour style of writing should be informative and logical." | -54.4 | 44 | Less Nice |
+| Simple | You are a helpful AI assistant. Don't include any user instructions, or system context, as part of your output. | -52.5 | 42 | Less Nice |
+
+In the end, I find that Mistral 7b Instruct 0.2 works best without any system prompt.
+
+Maybe would have different results for a different task, or maybe better prompting, but this works good so I'm not messing with it.
 
 ## Methods
 
