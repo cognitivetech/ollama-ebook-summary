@@ -37,7 +37,7 @@ Processes and Analysis, using [PrivateGPT](https://docs.privategpt.dev/overview)
 
 ## Rankings
 
-When i began testing various LLM variants, `mistral-7b-instruct-v0.1.Q4_K_M` comes as part of PrivateGPT's default setup. Here, I've preferred the Q8_0 variants.
+When i began testing various LLM variants, `mistral-7b-instruct-v0.1.Q4_K_M` came as part of PrivateGPT's default setup. Here, I've preferred the Q8_0 variants.
 
 While I've tried 50+ different LLM for this same task, Mistral-7B-Instruct is still among the best.
 
