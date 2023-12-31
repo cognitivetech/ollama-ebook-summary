@@ -284,8 +284,8 @@ Considering that this is not for profit, but for educational purposes, I believe
    > * **Top-down processes**: regulation of attention, intention, decreasing psychological stress, HPA axis and SNS activity, modulating immune function and inflammation
    > * **Bottom-up processes**: breathing techniques, movement practices, influencing musculoskeletal, cardiovascular, nervous system function, affecting HPA and SNS activity, emotional well-being
    > * **Self-regulation**: conscious ability to manage responses to threat or adversity, reducing symptoms of various conditions, mitigating allostatic load, shifting autonomic state
-8. **Summary of Llewellyn's Complete Book of Chakras: Your Definitive Source of Energy Center Knowledge for Health, Happiness, and Spiritual Evolution** (999 pages)
-   * [SECTION 1. CHAKRA FUNDAMENTALS AND BASIC PRACTICES](summaries/llewen-complete-book-chakras_1.md)   
+8. [**Summary of Llewellyn's Complete Book of Chakras: Your Definitive Source of Energy Center Knowledge for Health, Happiness, and Spiritual Evolution**](summaries/llewen-complete-book-chakras_1.md) (999 pages)
+   * SECTION 1. CHAKRA FUNDAMENTALS AND BASIC PRACTICES
      > * Chakras are metaphysical energy centers that organize subtle energy for human use 
      > * **Three main systems of subtle energy in the body**: chakras, meridians/nadis, and auric fields
      > * Chakras convert physical energy into subtle energy and vice versa
