@@ -1,6 +1,199 @@
-# Attachment Disturbances in Adults: Treatment for Comprehensive Repair
+# Summary of Attachment Disturbances in Adults: Treatment for Comprehensive Repair, by Daniel P. Brown PhD and David S. Elliott PhD
 
-### A Reader’s Guide 
+## EDITORS NOTE
+**This is a summary** made with [PrivateGPT](https://github.com/imartinez/privateGPT) and [Mistral-7B-Instruct-v0.2](https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF). 
+
+It is meant to provide a detailed overview of the topics and materials presented in the book, but does not replace it.
+
+**If you appreciate this work, feel free to buy the original using my referral-link**
+
+* [Attachment Disturbances: Treatment for Comprehensive Repair](https://www.amazon.com/Attachment-Disturbances-Adults-Treatment-Comprehensive/dp/0393711528/?&tag=cognitivetech-20)
+
+## Contents
+- [A Reader’s Guide](#a-readers-guide)
+- [PART 1 FOUNDATIONAL CONCEPTS](#part-1-foundational-concepts)
+- [Chapter 1 Attachment Research A History of Ideas](#chapter-1-attachment-research-a-history-of-ideas)
+  - [The Development of the Concept of the Attachment Bond](#the-development-of-the-concept-of-the-attachment-bond)
+  - [Patterns of Attachment](#patterns-of-attachment)
+  - [Disorganized Attachment](#disorganized-attachment)
+  - [Attachment and the Organization of Development](#attachment-and-the-organization-of-development)
+  - [Bowlby and Ainsworth:](#bowlby-and-ainsworth)
+  - [Counterpoints](#counterpoints)
+  - [The Role of the Father](#the-role-of-the-father)
+  - [Cross-Cultural Studies of Attachment Patterns and Maternal Behavior](#cross-cultural-studies-of-attachment-patterns-and-maternal-behavior)
+  - [Intergenerational Transmission](#intergenerational-transmission)
+  - [The Organization of States of Mind: Internal Working Models](#the-organization-of-states-of-mind-internal-working-models)
+  - [Identification of States of Mind](#identification-of-states-of-mind)
+  - [Three Generations of Metacognition](#three-generations-of-metacognition)
+  - [Intersubjectivity](#intersubjectivity)
+  - [Attunement, Misattunement, and Synchronization of Expression](#attunement-misattunement-and-synchronization-of-expression)
+- [Chapter 2 Understanding the Development of Attachment Bonds and Attachment Behavior Over the Life Course](#chapter-2-understanding-the-development-of-attachment-bonds-and-attachment-behavior-over-the-life-course)
+  - [Phase 1: The Pre-attachment Phase (Birth to 2–3 Months)](#phase-1-the-pre-attachment-phase-birth-to-23-months)
+  - [Phase 2: Attachment-in-Making (2-3 to 6-9 Months)](#phase-2-attachment-in-making-2-3-to-6-9-months)
+  - [Phase 3: Clear-Cut Attachment (6–9 Months to 36 Months)](#phase-3-clear-cut-attachment-69-months-to-36-months)
+  - [THE DEVELOPMENT OF REPRESENTATIONAL COGNITION](#the-development-of-representational-cognition)
+  - [INTERNAL REPRESENTATIONS, AFFECT TOLERANCE, AND AFFECT SELF-REGULATION](#internal-representations-affect-tolerance-and-affect-self-regulation)
+  - [THE EMERGENCE OF PROTOTYPICAL ATTACHMENT PATTERNS](#the-emergence-of-prototypical-attachment-patterns)
+  - [Attachment Behavior During the Toddler Period (18 to 36 Months)](#attachment-behavior-during-the-toddler-period-18-to-36-months)
+  - [Attachment Behavior During the Preschool Years (3 to 5 Years of Age)](#attachment-behavior-during-the-preschool-years-3-to-5-years-of-age)
+  - [Phase 4: Goal-Corrected Partnership](#phase-4-goal-corrected-partnership)
+  - [Attachment Patterns in School Age Children (5 to 7 Years of Age)](#attachment-patterns-in-school-age-children-5-to-7-years-of-age)
+  - [Attachment During Middle Childhood (7 to 12 Years of Age)](#attachment-during-middle-childhood-7-to-12-years-of-age)
+  - [Attachment Patterns During Adolescence](#attachment-patterns-during-adolescence)
+  - [Attachment in Adult Intimate Relationships](#attachment-in-adult-intimate-relationships)
+- [PART II ASSESSMENT](#part-ii-assessment)
+- [CHAPTER 3 Adult Attachment Prototypes and Their Clinical Manifestations](#chapter-3-adult-attachment-prototypes-and-their-clinical-manifestations)
+  - [Dismissing Insecure Adults](#dismissing-insecure-adults)
+  - [Anxious-Preoccupied Insecure Adults](#anxious-preoccupied-insecure-adults)
+  - [Disorganized/Fearful Insecure Adults](#disorganizedfearful-insecure-adults)
+- [Chapter 4 The Assessment of Adult Attachment](#chapter-4-the-assessment-of-adult-attachment)
+  - [AAI Analysis and Coding](#aai-analysis-and-coding)
+  - [AAI Attachment Classifications](#aai-attachment-classifications)
+  - [Incorporating the AAI Into Clinical Practice](#incorporating-the-aai-into-clinical-practice)
+  - [THE AAI Q-SORT SCORING SYSTEM](#the-aai-q-sort-scoring-system)
+  - [THE DYNAMIC-MATURATIONAL MODEL (DMM) METHODS OF ASSESSMENT](#the-dynamic-maturational-model-dmm-methods-of-assessment)
+  - [The DMM-AAI](#the-dmm-aai)
+  - [Incorporating the DMM Into Clinical Practice](#incorporating-the-dmm-into-clinical-practice)
+  - [THE CURRENT RELATIONSHIP INTERVIEW (CRI)](#the-current-relationship-interview-cri)
+  - [THE ADULT ATTACHMENT PROJECTIVE PICTURE SYSTEM (AAP)](#the-adult-attachment-projective-picture-system-aap)
+  - [Self-Report Based Assessment PEER AND PARENTAL ATTACHMENT IN ADOLESCENCE](#self-report-based-assessment-peer-and-parental-attachment-in-adolescence)
+  - [Attachment Style (AS)](#attachment-style-as)
+  - [The Adult Style Questionnaire (ASQ)](#the-adult-style-questionnaire-asq)
+  - [The Relationship Questionnaire (RQ)](#the-relationship-questionnaire-rq)
+  - [Experiences in Close Relationships (ECR)](#experiences-in-close-relationships-ecr)
+  - [Recommendations](#recommendations)
+  - [Assessment of Attachment-Related Behaviors in Treatment](#assessment-of-attachment-related-behaviors-in-treatment)
+  - [THE THERAPIST REPRESENTATIONAL INVENTORY (TRI)](#the-therapist-representational-inventory-tri)
+- [Chapter 5 Attachment and Psychopathology](#chapter-5-attachment-and-psychopathology)
+  - [ATTACHMENT, EMOTIONAL DISTRESS, AND PSYCHIATRIC DISTRESS](#attachment-emotional-distress-and-psychiatric-distress)
+  - [ATTACHMENT AND ANXIETY DISORDERS](#attachment-and-anxiety-disorders)
+  - [Attachment and Affective Disorders](#attachment-and-affective-disorders)
+  - [ATTACHMENT AND BIPOLAR DISORDER](#attachment-and-bipolar-disorder)
+  - [SOMATIC SYMPTOM DISORDERS](#somatic-symptom-disorders)
+  - [FACTITIOUS DISORDERS](#factitious-disorders)
+  - [MALINGERING](#malingering)
+  - [Trauma-Related Disorders](#trauma-related-disorders)
+  - [ATTACHMENT AND DISSOCIATIVE DISORDERS](#attachment-and-dissociative-disorders)
+  - [DEPERSONALIZATION/DEREALIZATION DISORDER (DRD)](#depersonalizationderealization-disorder-drd)
+  - [DISSOCIATIVE IDENTITY DISORDER (DID)](#dissociative-identity-disorder-did)
+  - [Attachment and Addictions](#attachment-and-addictions)
+  - [EATING DISORDERS](#eating-disorders)
+  - [Attachment and Personality Disorders](#attachment-and-personality-disorders)
+  - [BORDERLINE PERSONALITY DISORDER](#borderline-personality-disorder)
+  - [CONDUCT DISORDER AND ANTISOCIAL PERSONALITY](#conduct-disorder-and-antisocial-personality)
+  - [Conclusions About Attachment Status and Psychopathology](#conclusions-about-attachment-status-and-psychopathology)
+  - [The Orphanage Study: Attachment and Complex Trauma](#the-orphanage-study-attachment-and-complex-trauma)
+- [PART III TREATMENT BACKGROUND AND THE THREE PILLARS MODEL OF COMPREHENSIVE ATTACHMENT REPAIR](#part-iii-treatment-background-and-the-three-pillars-model-of-comprehensive-attachment-repair)
+- [CHAPTER 6 An Overview of Treatments for Attachment Disturbances](#chapter-6-an-overview-of-treatments-for-attachment-disturbances)
+  - [Psychoanalytic Approaches](#psychoanalytic-approaches)
+  - [Attachment-Informed Psychotherapy](#attachment-informed-psychotherapy)
+  - [CLINICAL PATTERNS OF ATTACHMENT](#clinical-patterns-of-attachment)
+  - [Therapists as transitional attachment figures.](#therapists-as-transitional-attachment-figures)
+  - [WORKING WITH ATTACHMENT REPRESENTATIONS INDEPENDENT OF TRANSFERENCE](#working-with-attachment-representations-independent-of-transference)
+  - [IMAGERY OF THE GOOD-ENOUGH THERAPIST TOGETHER WITH THE PATIENT](#imagery-of-the-good-enough-therapist-together-with-the-patient)
+  - [New Forms of Attachment-Informed Treatment](#new-forms-of-attachment-informed-treatment)
+  - [ACCELERATED EXPERIENTIAL DYNAMIC PSYCHOTHERAPY (AEDP)](#accelerated-experiential-dynamic-psychotherapy-aedp)
+  - [Intersubjectivity-Based Treatment](#intersubjectivity-based-treatment)
+  - [EXPLORATORY PSYCHOTHERAPY](#exploratory-psychotherapy)
+  - [Metacognitive Attachment-Informed Psychotherapies](#metacognitive-attachment-informed-psychotherapies)
+  - [THE MODULAR APPROACH TO METACOGNITIVE DEVELOPMENT](#the-modular-approach-to-metacognitive-development)
+  - [A Consensus-Based Model for Attachment Treatment](#a-consensus-based-model-for-attachment-treatment)
+- [Chapter 7 Introduction to the Three Pillars of Comprehensive Attachment Treatment](#chapter-7-introduction-to-the-three-pillars-of-comprehensive-attachment-treatment)
+  - [Treating Attachment Disturbance: The Three Pillars](#treating-attachment-disturbance-the-three-pillars)
+  - [The Five Primary Conditions That Promote Secure Attachment](#the-five-primary-conditions-that-promote-secure-attachment)
+  - [1. Felt Safety/Protection](#1-felt-safetyprotection)
+  - [2. Feeling Seen and Known/Attunement](#2-feeling-seen-and-knownattunement)
+  - [3. Felt Comfort/Soothing and Reassurance](#3-felt-comfortsoothing-and-reassurance)
+  - [4. Feeling Valued/Expressed Delight](#4-feeling-valuedexpressed-delight)
+  - [5. Felt Support for Best Self/Unconditional Support and Encouragement](#5-felt-support-for-best-selfunconditional-support-and-encouragement)
+  - [THE SECOND PILLAR: FOSTERING A RANGE OF METACOGNITIVE SKILLS](#the-second-pillar-fostering-a-range-of-metacognitive-skills)
+  - [THE THIRD PILLAR: FOSTERING COLLABORATIVE NONVERBAL AND VERBAL BEHAVIOR](#the-third-pillar-fostering-collaborative-nonverbal-and-verbal-behavior)
+  - [The Interdependence of the Three Pillars of Treatment](#the-interdependence-of-the-three-pillars-of-treatment)
+  - [The Benefits of Three Pillars Treatment](#the-benefits-of-three-pillars-treatment)
+- [Chapter 8: The First Pillar](#chapter-8-the-first-pillar)
+  - [The Foundational Protocol](#the-foundational-protocol)
+  - [FACILITATING THE CREATION OF IDEAL PARENT FIGURE IMAGERY](#facilitating-the-creation-of-ideal-parent-figure-imagery)
+  - [CLINICAL VIGNETTES](#clinical-vignettes)
+  - [GENERAL CONTEXT PRINCIPLES](#general-context-principles)
+  - [SHAPE THE PATIENT’S IMAGERY AND EXPERIENCE](#shape-the-patients-imagery-and-experience)
+  - [SUGGEST ATTACHMENT-PROMOTING QUALITIES IN THE IMAGINED PARENT FIGURES](#suggest-attachment-promoting-qualities-in-the-imagined-parent-figures)
+  - [CONTEXTUALIZE THE PATIENT’S EXPERIENCES WITHIN THE IPF FRAME](#contextualize-the-patients-experiences-within-the-ipf-frame)
+  - [SUGGEST CHANGES IN SCENES OR NEW SCENES WITH THE IDEAL PARENT FIGURES](#suggest-changes-in-scenes-or-new-scenes-with-the-ideal-parent-figures)
+  - [INTEGRATE METHODS FOR ENHANCING POSITIVE STATES](#integrate-methods-for-enhancing-positive-states)
+  - [REORIENT THE PATIENT TO THE PRESENT](#reorient-the-patient-to-the-present)
+  - [SIGNS OF THE BENEFICIAL EFFECTS OF POSITIVE ATTACHMENT REPRESENTATIONS](#signs-of-the-beneficial-effects-of-positive-attachment-representations)
+  - [MANIFESTATIONS OF AN INTERNALIZED SECURE BASE](#manifestations-of-an-internalized-secure-base)
+  - [Reinforcing the Internalized Secure Base](#reinforcing-the-internalized-secure-base)
+  - [Common Challenges During the IPF Treatment Process](#common-challenges-during-the-ipf-treatment-process)
+  - [Difficulties Patients May Experience with the IPF Protocol](#difficulties-patients-may-experience-with-the-ipf-protocol)
+  - [DIFFICULTIES THAT THERAPISTS MAY HAVE WITH THE IPF PROTOCOL](#difficulties-that-therapists-may-have-with-the-ipf-protocol)
+  - [DIFFICULTIES PERTAINING TO THE PATIENT–THERAPIST DYAD](#difficulties-pertaining-to-the-patienttherapist-dyad)
+  - [Recognizing Successful IPF Treatment](#recognizing-successful-ipf-treatment)
+- [Chapter 9 The Second Pillar Metacognitive Interventions for Attachment Disturbances](#chapter-9-the-second-pillar-metacognitive-interventions-for-attachment-disturbances)
+  - [The History and Development of Metacognition](#the-history-and-development-of-metacognition)
+  - [SECOND GENERATION: INTERSUBJECTIVITY, MENTALIZATION, AND THE REFLECTIVE FUNCTIONING SCALE](#second-generation-intersubjectivity-mentalization-and-the-reflective-functioning-scale)
+  - [THIRD GENERATION: THE MODULAR, PSYCHOPATHOLOGY-SPECIFIC APPROACH](#third-generation-the-modular-psychopathology-specific-approach)
+  - [FOURTH GENERATION: BEYOND MENTAL CONSTRUCTIONS AND RELATIVISM OF MENTAL STATES](#fourth-generation-beyond-mental-constructions-and-relativism-of-mental-states)
+  - [The Spectrum of Adult Development](#the-spectrum-of-adult-development)
+  - [A UNIFIED MODEL OF THE DEVELOPMENT OF COGNITION AND METACOGNITION](#a-unified-model-of-the-development-of-cognition-and-metacognition)
+  - [Mindfulness and Awareness in Psychotherapy](#mindfulness-and-awareness-in-psychotherapy)
+  - [Metacognitive Monitoring](#metacognitive-monitoring)
+  - [Contingency Detection and Metacognitive Mastery](#contingency-detection-and-metacognitive-mastery)
+  - [Meaning-Making](#meaning-making)
+  - [Optimizing Action Plans](#optimizing-action-plans)
+  - [Sensitivity to Context](#sensitivity-to-context)
+  - [The Ability to Develop an Orientation](#the-ability-to-develop-an-orientation)
+  - [Contradiction](#contradiction)
+  - [Overview](#overview)
+- [Chapter 10 The Third Pillar Fostering Collaborative Capacity and Behavior](#chapter-10-the-third-pillar-fostering-collaborative-capacity-and-behavior)
+  - [Collaborative Communication and Shared Intentionality](#collaborative-communication-and-shared-intentionality)
+  - [Defining Psychotherapy as Collaborative Partnership: The Contribution of Interpersonal Psychotherapy](#defining-psychotherapy-as-collaborative-partnership-the-contribution-of-interpersonal-psychotherapy)
+  - [A MUTUALLY NEGOTIATED TREATMENT PLAN AND INFORMED CONSENT](#a-mutually-negotiated-treatment-plan-and-informed-consent)
+  - [ESTABLISHING THE TREATMENT FRAME AS COLLABORATIVE PARTNERSHIP](#establishing-the-treatment-frame-as-collaborative-partnership)
+  - [CENTER OF COGNITIVE PSYCHOTHERAPY](#center-of-cognitive-psychotherapy)
+  - [IMPROVING NONVERBAL COLLABORATION](#improving-nonverbal-collaboration)
+  - [IMPROVING VERBAL COLLABORATION](#improving-verbal-collaboration)
+  - [A Model for Collaborative Dialogue in Treatment](#a-model-for-collaborative-dialogue-in-treatment)
+  - [Case Illustration](#case-illustration)
+- [PART IV TYPE-SPECIFIC TREATMENT](#part-iv-type-specific-treatment)
+- [Chapter 11 Treating Dismissing Attachment](#chapter-11-treating-dismissing-attachment)
+  - [Using Ideal Parent Figure Imagery With the Dismissing Patient](#using-ideal-parent-figure-imagery-with-the-dismissing-patient)
+  - [Fostering Collaboration in the Dismissing Patient](#fostering-collaboration-in-the-dismissing-patient)
+  - [Enhancing Metacognitive Skills in the Dismissing Patient](#enhancing-metacognitive-skills-in-the-dismissing-patient)
+  - [Stages in the Treatment of the Dismissing Patient](#stages-in-the-treatment-of-the-dismissing-patient)
+  - [Case Illustration](#case-illustration-1)
+- [Chapter 12 Treating Anxious-Preoccupied Attachment](#chapter-12-treating-anxious-preoccupied-attachment)
+  - [Fostering Collaboration in Anxious-Preoccupied Patients](#fostering-collaboration-in-anxious-preoccupied-patients)
+  - [Enhancing Metacognitive Skills in Anxious-Preoccupied Patients](#enhancing-metacognitive-skills-in-anxious-preoccupied-patients)
+  - [Stages in the Treatment of the Anxious-Preoccupied Patient](#stages-in-the-treatment-of-the-anxious-preoccupied-patient)
+  - [Case Illustration](#case-illustration-2)
+  - [Dialectical behavioral therapy (DBT)](#dialectical-behavioral-therapy-dbt)
+- [Chapter 13 Treating Disorganized or Fearful Attachment](#chapter-13-treating-disorganized-or-fearful-attachment)
+  - [The Therapeutic Stance With the Disorganized Patient](#the-therapeutic-stance-with-the-disorganized-patient)
+  - [Stages in the Treatment of the Disorganized Patient](#stages-in-the-treatment-of-the-disorganized-patient)
+  - [Case Illustration](#case-illustration-3)
+- [PART V TREATMENT GUIDE AND EXPECTED OUTCOMES](#part-v-treatment-guide-and-expected-outcomes)
+- [CHAPTER 14 A Step-by-Step Treatment Guide](#chapter-14-a-step-by-step-treatment-guide)
+  - [Psychoeducation About Attachment](#psychoeducation-about-attachment)
+  - [Psychoeducation About Anxious-Preoccupied Attachment](#psychoeducation-about-anxious-preoccupied-attachment)
+  - [Psychoeducation About Disorganized Attachment](#psychoeducation-about-disorganized-attachment)
+- [Chapter 15 Treatment Outcomes](#chapter-15-treatment-outcomes)
+  - [A Case Illustration of Successful Treatment and Its Measurement](#a-case-illustration-of-successful-treatment-and-its-measurement)
+  - [A Pilot Outcome Study](#a-pilot-outcome-study)
+- [Appendix A The Core Self, Proactive Self-Agency, Self-Esteem, and the “Best” Self - Normal and Incomplete Self-Development](#appendix-a-the-core-self-proactive-self-agency-self-esteem-and-the-best-self---normal-and-incomplete-self-development)
+  - [Methods for Developing Proactive Self-Agency](#methods-for-developing-proactive-self-agency)
+  - [DEVELOPMENT OF GOAL-SETTING AND ACTION PLANS](#development-of-goal-setting-and-action-plans)
+  - [REDUCING CONTRADICTORY GOAL-STATES](#reducing-contradictory-goal-states)
+  - [SITUATION-BASED SELF-ESTEEM ENHANCEMENT](#situation-based-self-esteem-enhancement)
+  - [STRESS CHALLENGE](#stress-challenge)
+  - [Self-Development From an Attachment Perspective](#self-development-from-an-attachment-perspective)
+- [Appendix B Protocols for Developing Adult Secure Intimacy in Individuals and Caring Behaviors in Couples](#appendix-b-protocols-for-developing-adult-secure-intimacy-in-individuals-and-caring-behaviors-in-couples)
+  - [ARTICULATING THE FIVE PRIMARY CONDITIONS THAT PROMOTE SECURE INTIMACY](#articulating-the-five-primary-conditions-that-promote-secure-intimacy)
+  - [INDIVIDUALIZING THE SECURE INTIMACY PROTOCOL](#individualizing-the-secure-intimacy-protocol)
+  - [Caring Behaviors in Couples](#caring-behaviors-in-couples)
+
+
+## A Reader’s Guide 
 
 **Overview**: This text is a comprehensive resource book on attachment, its development, and the clinical application of attachment research in treating attachment disturbances in adults. It caters to readers with varying backgrounds in attachment theory.
 
@@ -2593,7 +2786,7 @@ Simpson (1990) criticized Hazen and Shaver's single item assessment tool for att
 * **For healthier patients**: use ECR-R along with a wider range of intimacy and relational measures to create greater range and flexibility of intimate behaviors.
 * At this point, ECR-R is the most suitable measure for detecting avoidant/deactivating and anxious/hyperactivating behaviors in adult romantic relationships.
 
-## Assessment of Attachment-Related Behaviors in Treatment 
+### Assessment of Attachment-Related Behaviors in Treatment 
 
 **Attachment-Related Behaviors in Treatment**
 
@@ -6055,11 +6248,12 @@ When a patient is deeply immersed in the imagery, time can be expanded to allow 
 
 As indications of an internalized secure base become more consistent and vivid in a patient's IPF experience, they will report greater security in their daily life. The therapist reinforces these experiences by mirroring and amplifying positive emotions and sensations. New scenes are suggested to help patients apply the feeling of security to various situations in their lives.
 
-**Patient**: In classes I often want to say something, but I get too nervous and I just stay silent. 
-**Therapist**: Yes, you’ve been wanting to express yourself in classes. Now really tune in to the secure feeling; really tune in to that feeling, and let me know when you’re feeling it really clearly. Patient: I’m feeling it. 
-**Therapist**: Good. Now, with this secure feeling really present, imagine being in class. And when you are imagining yourself in class, feeling secure and comfortable, let me know. 
-**Patient**: Okay, I’m there. 
-**Therapist**: Wonderful. Now, just feel yourself there in class, feeling secure and comfortable, coming to feel it even more clearly. And when you’re ready, imagine yourself feeling ready to raise your hand to say something. 
+- **Patient**: In classes I often want to say something, but I get too nervous and I just stay silent. 
+- **Therapist**: Yes, you’ve been wanting to express yourself in classes. Now really tune in to the secure feeling; really tune in to that feeling, and let me know when you’re feeling it really clearly. 
+- **Patient**: I’m feeling it. 
+- **Therapist**: Good. Now, with this secure feeling really present, imagine being in class. And when you are imagining yourself in class, feeling secure and comfortable, let me know. 
+- **Patient**: Okay, I’m there. 
+- **Therapist**: Wonderful. Now, just feel yourself there in class, feeling secure and comfortable, coming to feel it even more clearly. And when you’re ready, imagine yourself feeling ready to raise your hand to say something. 
 
 This process continues as the patient imagines each step toward the desired action in the context of an inner, felt experience of a secure base.
 
@@ -6068,7 +6262,6 @@ This process continues as the patient imagines each step toward the desired acti
 The IPF protocol continues to be beneficial in attachment-based therapy at later stages of treatment, despite a gradual reduction in frequency. Two primary ways the IPF protocol is useful are:
 
 1. **Reinforcing secure base**: A secure base results from the development of new, positive attachment representations. The stronger and more stable these representations are, the stronger and more stable the secure base will be. Signs of insecurity may reappear when the secure base is challenged, necessitating IPF sessions to reinforce the secure base.
-
 2. **Working with present-day affective states**: The IPF protocol can help regulate various affective states, such as anxiety, sadness, loneliness, or anger. Regardless of the circumstance that evoked the feeling or whether the patient currently feels it in the session, the affect state can be brought into the IPF imagery for regulation.
 
 **IPF Session Process**:
@@ -6094,20 +6287,8 @@ The IPF protocol continues to be beneficial in attachment-based therapy at later
 4. The patient explores and works with the imagery until the parent figures are accurately attuned to his affect state and alleviate it.
 
 ### Common Challenges During the IPF Treatment Process
-The IPF treatment process may present therapists with several challenges. These challenges can be categorized into three groups:
 
-1. **Difficulties that patients have with aspects of the protocol**:
-   - **Being empathic**: Patients might experience discomfort or resistance during the first sessions due to painful childhood memories. Empathic responses from therapists help patients feel understood and safe, allowing them to engage with the method despite initial discomfort.
-   - **Maintaining a collaborative stance**: Therapists should adopt a curious, interested, confident, and patient attitude while working with patients to establish and engage with ideal parent figures in their imagery. This approach reinforces the therapeutic frame and contributes to the attachment-repair process.
-   - **Contextualizing patient difficulties within the IPF imagery frame**: Difficulties that arise during the therapy can be addressed by keeping the experience within the imagery frame, allowing parent figures to respond in beneficial ways and contributing to the formation of new, positive attachment maps.
-
-2. **Difficulties that therapists have with implementing the protocol**:
-   - Understanding patients' difficulties and responding appropriately is crucial for effective therapy.
-
-3. **Difficulties pertaining to the patient–therapist dyad in the context of the protocol**:
-   - The therapeutic relationship plays a significant role in the success of IPF treatment.
-
-**Difficulties Patients May Experience with the IPF Protocol**
+### Difficulties Patients May Experience with the IPF Protocol
 
 Patients may encounter challenges when implementing the IPF protocol, and therapists should respond using the following principles:
 
@@ -6138,8 +6319,6 @@ Patients may encounter challenges when implementing the IPF protocol, and therap
    - Offer empathy and support, acknowledging their feelings and validating their experiences.
    - Encourage patience and persistence, emphasizing that most patients eventually find their way into the IPF imagery and benefit from it.
 
-### The therapist guides the patient toward the child state experience and asks the patient to nod “when you are feeling yourself as a young child.” If th
-
 **Child State Experience**
 
 The therapist guides the patient towards experiencing themselves as a child by asking them to nod when they feel themselves in that state. If the patient is unable to do so, the therapist encourages them to continue trying and uses displacement methods to help them get there.
@@ -6161,15 +6340,8 @@ If a patient imagines being an older child, teenager, or young adult instead of 
 
 If the patient still cannot feel themselves as a child after trying various methods, the therapist may choose not to proceed with the protocol as if the patient can and instead create a broader displacement using a scene with a child who is much like they were. After some sessions, the therapist will encourage the patient to bring themselves more directly into the protocol.
 
-**Summary**
+**It is not uncommon for patients to imagine themselves at different ages during different IPF sessions.**
 
-The text describes a therapeutic approach where the therapist guides the patient towards experiencing themselves as a child by asking them to nod when they feel themselves in that state. If the patient cannot do so, the therapist uses displacement methods such as documentary-show imagery or imagining a displaced self to help them get there. The therapist's language can be adapted for both first-person and third-person experiences of the child-self. If a patient imagines being an older age instead of a child, the therapist may encourage them to imagine being even younger or continue with the protocol using their current age. If the patient still cannot feel themselves as a child after trying various methods, the therapist may create a broader displacement using a scene with a child who is much like they were and then encourage them to bring themselves more directly into the protocol after some sessions.
-
-### It is not uncommon for patients to imagine themselves at different ages during different IPF sessions. Particularly if a patient has in many IPF sessi
-
-**Intro**:
-
-- Patients in IPF (Ideal Parent Figure) therapy may imagine different ages during sessions
 - Imagining self as older can be part of remapping process
 - Resistance to generating ideal parent figures is common
 
@@ -6204,8 +6376,6 @@ The text describes a therapeutic approach where the therapist guides the patient
 * Use inner child method if necessary
 * Return to attempts to evoke ideal parent figures after session.
 
-### Imagined parent figures are vague or distant. Either initially or after some period of not imagining any parent figures, the patient may begin to imag
-
 **Imaginal Processing (IP) and Attachment**:
 
 * Imagined parent figures are vague or distant for some patients, indicating engagement of attachment system.
@@ -6236,15 +6406,6 @@ The text describes a therapeutic approach where the therapist guides the patient
 * Some patients create nonhuman ideal parent figures due to attachment wounds making human attachment figures too threatening.
 * Therapist prompts patient to imagine human figures but accepts nonhuman figures if patient persists.
 * With each subsequent IP session, therapist makes specific reference to human parents.
-
-### At some point, the patient will begin to imagine human parent figures, and then may have difficulty in any of the ways presented in this section. Only
-
-**Ideal Parent Figures (IPF) Therapy**
-
-* Patient imagines human parent figures during therapy session
-* May experience difficulties with one or both parent figures
-* Difficulties arise from pre-treatment disturbed attachment representations
-* Therapist responds within IPF frame, suggesting parents understand and reassure patient
 
 **One Ideal Parent Figure**
 
@@ -6286,8 +6447,6 @@ The text describes a therapeutic approach where the therapist guides the patient
 	+ Therapist maintains the imagery frame, suggesting ideal parent figures respond empathically and effectively.
 
 ### DIFFICULTIES THAT THERAPISTS MAY HAVE WITH THE IPF PROTOCOL
-
-**Difficulties Therapists May Encounter with IPF Protocol**
 
 **Self-doubt about skill with the protocol**:
 
@@ -6381,9 +6540,8 @@ The text describes a therapeutic approach where the therapist guides the patient
 
 **Importance of IPF Treatment**: This method focuses on the attachment behavioral system but also engages and strengthens metacognitive and collaborative behavioral systems. Comprehensive treatment for attachment insecurity that includes all three interdependent systems promotes greater mental, emotional health, and wellbeing.
 
-## Chapter 9 The Second Pillar Metacognitive Interventions for Attachment Disturbances The History and Development of Metacognition
-
-**Chapter 9: The Second Pillar - Metacognitive Interventions for Attachment Disturbances**
+## Chapter 9 The Second Pillar Metacognitive Interventions for Attachment Disturbances 
+### The History and Development of Metacognition
 
 **1. Introduction**
    * Discusses the importance of addressing metacognitive processes in interventions for attachment disturbances
@@ -6423,18 +6581,11 @@ The text describes a therapeutic approach where the therapist guides the patient
    * **Goals**: Helps individuals process emotions related to attachment experiences
    * **Techniques**: Two-chair dialogue, emotion-focused imagery, and experiential techniques
 
-**9. Conclusion**
-   * Metacognitive interventions offer a promising approach for addressing attachment disturbances by focusing on individuals' thoughts, emotions, and behaviors related to their attachment patterns.
-   * Various intervention techniques, such as MBT, schema therapy, CBT, and EFT, can be used to help individuals develop awareness, reflection, planning, and action skills to improve their relationships and overall well-being.
-
-### The history of the development of metacognitive interventions in attachment-based therapy can be roughly categorized into four historical generations 
-
 **Historical Development of Metacognitive Interventions in Attachment-Based Therapy**
 
 The history of metacognitive interventions in attachment-based therapy can be categorized into four generations of metacognition:
 
-1. **First Generation**: Appearance–Reality Distinction and the Adult Attachment Interview (AAI)**
-
+1. **Appearance–Reality Distinction and the Adult Attachment Interview (AAI)**
    * John Flavell's seminal paper in 1979 introduced metacognition as a new area of investigation, defining it as "thinking about thinking" or knowledge about cognitive processes.
    * Early research focused on the appearance–reality distinction, recognizing that experiences of reality can be represented differently.
    * Flavell and his associates developed a laboratory test to assess the development of this distinction in three- and five-year-olds using objects with different appearances and realities.
@@ -6442,22 +6593,17 @@ The history of metacognitive interventions in attachment-based therapy can be ca
    * Alison Gopnik extended this research by investigating representational change and diversity in three- and five-year-olds.
    * Three-year-olds generally lacked representational diversity and change, while five-year-olds began to demonstrate these abilities.
 
-2. **Second Generation**: Reflective Functioning Scale (RF-S) and Mentalization-Based Treatment (MBT)**
-
+2. **Reflective Functioning Scale (RF-S) and Mentalization-Based Treatment (MBT)**
    * Peter Fonagy and his associates developed the Reflective Functioning Scale and mentalization-based treatment, focusing on the ability to understand mental states and mentalize others.
    * MBT aims to improve reflective functioning by helping individuals develop a more accurate understanding of their own and others' thoughts, feelings, and intentions.
 
-3. **Third Generation**: Modular Approach to Metacognitive Psychotherapy**
-
+3. **Modular Approach to Metacognitive Psychotherapy**
    * Research by Antonio Semerari and Giovanni Liotti at the Third Center of Cognitive Psychotherapy led to the development of a modular approach to metacognitive psychotherapy.
    * This approach emphasizes the importance of identifying specific metacognitive skills and targeting them in therapy.
 
-4. **Fourth Generation**: Higher Cognitive Development**
-
+4. **Higher Cognitive Development**
    * Research on higher cognitive development and its implications for understanding the full range of metacognitive skills is ongoing.
    * This generation builds upon previous research by exploring advanced metacognitive abilities, such as self-reflection, introspection, and meta-emotion regulation.
-
-### In another experiment, Gopnik and Graf (1988) told children about objects hidden in a drawer. The children were either shown what was in the drawer, t
 
 **Experiments on Children's Metacognition**
 
@@ -6482,10 +6628,15 @@ The history of metacognitive interventions in attachment-based therapy can be ca
 
 **Metacognitive Monitoring on the Adult Attachment Interview (AAI)**
 
-* Main et al. (2002) incorporated ideas about metacognition into the Metacognitive Monitoring scale on the AAI.
+* Main et al. (2002) incorporated ideas about metacognition into the **Metacognitive Monitoring scale on the AAI**.
 * Recognition of appearance–reality distinctions, understanding of representational change, and diversity, and fresh comments illustrating monitoring of reaction patterns are examples of metacognitive monitoring on the AAI.
 * Error monitoring, such as commenting on the fact that a belief or memory might be distorted or limited, also increases the metacognitive monitoring score.
-* **The scale produces a rating of the degree of metacognitive monitoring**: (1) none, (3) possible, (5) some monitoring, (7) marked monitoring, and (9) metacognitive monitoring characterizing the interview.
+* **The scale produces a rating of the degree of metacognitive monitoring**: 
+  - (1) none
+  - (3) possible
+  - (5) some monitoring
+  - (7) marked monitoring
+  - (9) metacognitive monitoring characterizing the interview.
 
 **Limitations of the First Generation of Metacognition Research**
 
@@ -6498,9 +6649,10 @@ The history of metacognitive interventions in attachment-based therapy can be ca
 
 ### SECOND GENERATION: INTERSUBJECTIVITY, MENTALIZATION, AND THE REFLECTIVE FUNCTIONING SCALE
 
-**Second Generation: Intersubjectivity, Mentalization, and Reflective Functioning Scale**
 
-The second generation of research in metacognition, led by Peter Fonagy, Anthony Bateman, and their associates from the London School, focused on the development of mentalization and reflective function in childhood. This research was influenced by developmental theory of mind and social biofeedback theory of parental-affect mirroring, particularly the work of Gyorgy Gergely and John Watson.
+The second generation of research in metacognition, led by Peter Fonagy, Anthony Bateman, and their associates from the London School, focused on the development of mentalization and reflective function in childhood. 
+
+This research was influenced by developmental theory of mind and social biofeedback theory of parental-affect mirroring, particularly the work of Gyorgy Gergely and John Watson.
 
 * **Recognition of Intentionality**
   * Children develop capacity to detect other's intentions around 9-12 months
@@ -6520,13 +6672,11 @@ The second generation of research in metacognition, led by Peter Fonagy, Anthony
 
 Gergely and Watson (1996) argue that parental-affect mirroring provides natural social biofeedback training for the infant, playing a crucial role in emotional development. Consistent marking produces additional development with respect to mentalizing capacity by creating a separate representation of marked emotions as secondary structures, which is the foundation of mentalization.
 
-### Gergely and Watson (1996) also briefly discuss the developmental psychopathology implications of parental “deviant mirroring styles.” When parents pro
-
 **Parental "Deviant Mirroring Styles" and Developmental Psychopathology**
 
 - *Gergely and Watson* (1996) discuss implications of parental mirroring styles on emotion development in infants.
-- ***Congruent but unmarked form of affective mirroring*: emotion not decoupled from parent, secondary representation not established. Example**: "You're uncomfortable."
-- ***Marked but noncongruent affective mirroring*: infant develops distorted secondary representation of primary emotional state and pathologically distorted self-representations. Example**: "You’re so uncomfortable (laughing)."
+- ***Congruent but unmarked form of affective mirroring*: emotion not decoupled from parent, secondary representation not established.**: "You're uncomfortable."
+- ***Marked but noncongruent affective mirroring*: infant develops distorted secondary representation of primary emotional state and pathologically distorted self-representations.**: "You’re so uncomfortable (laughing)."
 - Changing these forms of developmental pathology possible through therapy or beneficial experiences.
 
 **Reflective Function (RF) in Child Development**
@@ -6545,36 +6695,25 @@ Gergely and Watson (1996) argue that parental-affect mirroring provides natural 
 
 - Developed the Reflective Functioning Scale (RF-S) for assessing RF using AAI transcripts or clinical session transcripts
 - Wider range of metacognitive capacities than AAI Metacognitive Monitoring scale
-- **Assesses four discrete categories or dimensions of reflective functioning**:
 
-**Category A: Awareness of the Nature of Mental States**
-
-- Knowing that mental states exist and can influence behavior
-- **Example: "My parents' feelings towards each other affected how they treated me." (RF**: 3)
-
-**Category B: Explicit Effort to Tease Out Mental States Underlying Behavior**
-
-- Ability to infer mental states from observable behaviors
-- **Example: "I think my mother was anxious when she kept repeating herself." (RF**: 4)
-
-**Category C: Recognition of the Developmental Dimension of Mental States**
-
-- Understanding that mental states change over time and can be influenced by development
-- **Example: "My parents' relationship changed as we grew older, which affected their reactions to me." (RF**: 4)
-
-**Category D: Recognition of Mental States in Relation to the Interviewer**
-
-- Ability to recognize interviewer's mental states and respond accordingly
-- **Example: "I think you might be confused about my relationship with my parents." (RF**: 5)
+**Assesses four discrete categories or dimensions of reflective functioning**:
+- **Category A: Awareness of the Nature of Mental States**
+  - Knowing that mental states exist and can influence behavior
+  - **Example**: "My parents' feelings towards each other affected how they treated me." 
+- **Category B: Explicit Effort to Tease Out Mental States Underlying Behavior**
+  - Ability to infer mental states from observable behaviors
+  - **Example**: "I think my mother was anxious when she kept repeating herself."
+- **Category C: Recognition of the Developmental Dimension of Mental States**
+  - Understanding that mental states change over time and can be influenced by development
+  - **Example**: "My parents' relationship changed as we grew older, which affected their reactions to me."
+- **Category D: Recognition of Mental States in Relation to the Interviewer**
+  - Ability to recognize interviewer's mental states and respond accordingly
+  - **Example**: "I think you might be confused about my relationship with my parents."
 
 **Scoring RF**
 
 - Each response is given a score based on the degree of reflective function present
 - Scores range from 0 to 6, with higher scores indicating greater reflective function.
-
-### A. Awareness of the nature of mental states (recognition of the characteristics of mental states in self and others): 1. Opaqueness of mental states. 
-
-**Topic**: Awareness of the Nature of Mental States
 
 **Characteristics of Mental States**
 
@@ -6594,8 +6733,6 @@ Gergely and Watson (1996) argue that parental-affect mirroring provides natural 
 * **Defensive Nature**:
   * Statements indicating recognition that mental states can be modified to reduce negative affect.
     * **Example**: "He seemed to ignore times when I was respectful, I guess because he believed in strict parenting." (5)
-
-### B. The explicit effort to identify mental states underlying a given behavior (identification of possible mental states that may account for behavior, 
 
 **Mental State Identification**
 
@@ -6622,30 +6759,28 @@ Gergely and Watson (1996) argue that parental-affect mirroring provides natural 
     * Spontaneous expressions indicating something currently thought or realized
       * **Example**: "...but as I think about it now, my father’s refusal to talk about his past may have been to protect me, not to keep it secret from me as I used to feel. Does this make sense to you?" (7)
 
-### C. Recognizing developmental aspects of mental states (includes acknowledgment of the influence of one generation on the next, showing understanding o
-
 **Recognizing Developmental Aspects of Mental States**
 
-* Taking an intergenerational perspective, recognizing the exchange of ideas, feelings, and behavior across generations. (1)
-  * **Example**: parents coming to adult children with problems about younger siblings.
-* Taking a developmental perspective, acknowledging that mental states and perspectives change with age. (2)
-  * **Example**: relationship with parents growing closer during college years.
-* Revising thoughts and feelings about childhood in light of understanding gained since childhood. (3)
-  * **Example**: used to think all people were wretched but no longer holds that belief.
-* Envisioning changes in mental states between past, present, and future. (4)
-  * **Example**: change from child to adolescent perspective on relationships.
-* Understanding transactional processes between parent and child, recognizing influence and impact on each other. (5)
-  * **Example**: lazy behavior leading to parental pressure.
-* Awareness of family dynamics, seeing the family as an interdependent system. (6)
-  * **Example**: understanding difference between children and adolescents.
+1. Taking an intergenerational perspective, recognizing the exchange of ideas, feelings, and behavior across generations.
+   * **Example**: parents coming to adult children with problems about younger siblings.
+2. Taking a developmental perspective, acknowledging that mental states and perspectives change with age.
+   * **Example**: relationship with parents growing closer during college years.
+3. Revising thoughts and feelings about childhood in light of understanding gained since childhood.
+   * **Example**: used to think all people were wretched but no longer holds that belief.
+4. Envisioning changes in mental states between past, present, and future.
+   * **Example**: change from child to adolescent perspective on relationships.
+5. Understanding transactional processes between parent and child, recognizing influence and impact on each other.
+   * **Example**: lazy behavior leading to parental pressure.
+6. Awareness of family dynamics, seeing the family as an interdependent system.
+   * **Example**: understanding difference between children and adolescents.
 
 **Mental States in Relation to the Interviewer**
 
-* Acknowledging the separateness of mind, recognizing interviewer's unique experiences and mental stance. (7)
+* Acknowledging the separateness of mind, recognizing interviewer's unique experiences and mental stance.
   * **Example**: difficult relationship with mother but allowed her to move in.
-* Not assuming knowledge, clarifying confusing aspects for interviewer. (8)
+* Not assuming knowledge, clarifying confusing aspects for interviewer. 
   * **Example**: explaining reasons behind relationship change with stepmother.
-* Emotional attunement, recognizing potential emotional impact on interviewer. (9)
+* Emotional attunement, recognizing potential emotional impact on interviewer. 
   * **Example**: relationship with mother changing after father's death and noticing interviewer's tears.
 
 **RF-S Scoring**
@@ -6659,8 +6794,6 @@ The RF-S scoring is modeled after the Metacognitive Monitoring scale of the AAI,
 * **5**: Definite or Ordinary RF
 * **7**: Marked RF
 * **9**: Exceptional RF
-
-### A score of –1 to 1 is consistent with disorganized attachment. A score of less than 3 is consistent with disorganized status or dismissing or anxious-
 
 **Attachment Security and Reflective Functioning (RF)**
 
@@ -6703,30 +6836,33 @@ The RF-S scoring is modeled after the Metacognitive Monitoring scale of the AAI,
 
 ### THIRD GENERATION: THE MODULAR, PSYCHOPATHOLOGY-SPECIFIC APPROACH
 
-**Third Generation: The Modular, Psychopathology-Specific Approach**
-
 The Third Center of Cognitive Psychotherapy in Rome, led by Antonio Semerari, Giancarlo Dimaggio, and Giovanni Liotti, has advanced the understanding of metacognition and its manifestations in clinical populations. In contrast to the London group's view of reflective function as a unitary construct with various dimensions, the Rome group considers metacognition as a collection of independent capacities. They developed the Metacognitive Assessment Scale (MAS) to evaluate metacognitive capacities in patients with borderline personality disorder (BPD), narcissistic personality disorder (NPD), and dissociative identity disorder (DID).
 
 **Metacognitive Capacities**
 
 The Rome group identified six distinct metacognitive capacities:
 
-1. **Identification**: The ability to recognize, distinguish, and define one's own or another's inner states (emotions and cognitions). It consists of two subfunctions**:
-   - Recognition of one's own representations (thoughts and images)
-   - Recognition of emotions
-
-2. **Relating Variables**: The ability to establish relationships among separate components of mental states and between mental states and behavior. Through this capacity, a subject explains their behavior in terms of causes and motivations.
-
-3. **Differentiation**: The ability to recognize that the contents of representations are subjective events of a mental nature and different from reality. It acknowledges the subjectivity of our representations and recognizes the limits of the influence of our thoughts.
-
-4. **Integration**: The ability to work out coherent descriptions of one's own or others' mental states and processes. It is the function we use to describe and discuss our inner scenario, taking a narrative form and giving a sense of continuity.
-
-5. **Decentration**: The ability to comprehend another individual's mental state from a non-egocentric perspective. It enables us to recognize the hypothetical nature of our reading of other individuals' minds.
-
-6. **Mastery**: The ability to work through one's representations and mental states, with a view to implementing effective action strategies, in order to accomplish cognitive tasks or cope with problematic mental states. It is the overall definition given to regulation and control activities. Mastery has three levels**:
-   - **First-level strategies**: Calling upon coping methods (e.g., asking for help, medication, avoiding a situation)
-   - **Second-level strategies**: Inhibiting thinking, impulses, or behavior, or modifying attention
-   - **Third-level strategies**: Thinking through with rationality and perspective; mature acceptance of one's limitations; using awareness of others' states to regulate interpersonal difficulties
+1. **Identification:**
+   * Ability to distinguish, recognize, and define one's own or another's inner states (emotions, cognitions).
+   * Divided into two subfunctions: recognizing one's own representations and recognizing emotions.
+2. **Relating Variables:**
+   * Ability to establish relations among separate components of mental states and between mental states and behavior.
+   * Through Relating Variables, a subject explains their own behavior in terms of causes and/or motivations.
+3. **Differentiation:**
+   * Ability to recognize that the contents of representations are subjective events and different from reality.
+   * Acknowledges the subjectivity of our representations and recognizes the limits of their influence on reality.
+4. **Integration:**
+   * Ability to work out coherent descriptions of one's mental states and processes.
+   * Takes a narrative form and gives a sense of continuity.
+   * Divided into two items: providing an integrated description of one’s own mental state and describing changes over time in one’s own mental states.
+5. **Decentration:**
+   * Ability to comprehend another individual's mental state from a non-egocentric perspective.
+   * Enables recognizing the hypothetical nature of our reading of other individuals’ minds.
+6. **Mastery:**
+   * Ability to work through one's representations and mental states with a view to implementing effective action strategies.
+   * Defined as regulation and control activities.
+   * Divided into three levels: first-level strategies, second-level strategies, and third-level strategies.
+   * Awareness of one’s state in a way that leads to regulation or change of that state.
 
 **Metacognitive Profiles for BPD and NPD**
 
@@ -6738,17 +6874,25 @@ NPD patients showed an initial deficit in metacognitive identification and a str
 
 **Examples of Metacognitive Deficits in BPD and NPD Patients**
 
-BPD patient: "I was furious" (good identification); "I've been feeling this way since he didn't call me back" (good relating variables); "I know that I'm the only one of his girlfriends that he's ever blown off like this" (poor differentiation); "I hate him and I always have and I always will" (poor integration); "I might as well kill myself because there’s nothing else I can do" (poor mastery)
+**Borderline (BPD) patient**: 
+- "I was furious" (good identification); 
+- "I've been feeling this way since he didn't call me back" (good relating variables); 
+- "I know that I'm the only one of his girlfriends that he's ever blown off like this" (poor differentiation); 
+- "I hate him and I always have and I always will" (poor integration); 
+- "I might as well kill myself because there’s nothing else I can do" (poor mastery)
 
-NPD patient: "I don't have any feelings about her. I don't have any feelings, period" (poor identification); "I don't have a clue why this is so" (poor relating variables); "She’s been sending me emails every day. I know she’s trying to flatter me" (poor differentiation); "Don't ask me why, but I know she’s madly in love with me" (poor integration); "I’m just going to label her emails as spam. No way am I going to write her back" (Level 1 mastery)
+**Narcissistic (NPD) patient**:
+- "I don't have any feelings about her. I don't have any feelings, period" (poor identification);
+- "I don't have a clue why this is so" (poor relating variables);
+- "She’s been sending me emails every day. I know she’s trying to flatter me" (poor differentiation); 
+- "Don't ask me why, but I know she’s madly in love with me" (poor integration); 
+- "I’m just going to label her emails as spam. No way am I going to write her back" (Level 1 mastery)
 
 **Implications for Treatment**
 
 The findings from the Rome group highlight that effective treatment for BPD must include improving their metacognitive differentiation, integration, and mastery. For NPD patients, initially focusing on enhancing their capacity to identify their own and others' mental states may be more beneficial. However, it is essential to consider individual differences in metacognitive profiles when designing interventions for each patient.
 
 ### FOURTH GENERATION: BEYOND MENTAL CONSTRUCTIONS AND RELATIVISM OF MENTAL STATES
-
-**Fourth Generation of Metacognition: Beyond Constructivism and Relativism**
 
 The London and Rome groups have made significant contributions to our understanding of metacognitive functioning and its therapeutic value, particularly for individuals with personality disorders or attachment disturbances. However, this third generation of metacognitive research and treatment has limitations.
 
@@ -6779,74 +6923,107 @@ Our contention is that each level of mind is associated with specific types of m
 Integrating advanced metacognitive possibilities into the treatment of attachment and other disturbances heralds the fourth generation of the field of metacognition.
 
 ### The Spectrum of Adult Development
+- Building upon Piaget's theory (1963) of child and adolescent intelligence, researchers have identified stages of mature adult development.
+- These models extend beyond Piaget's last stage of formal operational thinking.
 
-**The Spectrum of Adult Development**
-
-- Piaget's theory of child and adolescent intelligence introduced stages of cognitive development, which researchers extended to mature adult development.
-- **Extensions of Piaget's model include**: Commons, Richards, and Kuhn's postformal reasoning; Loevinger and Wessler's ego development; Kohlberg's moral development; Kegan's self-development; Labouvie-Vief's mature adulthood; Sternberg's wisdom; and Wilber's full-spectrum model.
+**Extensions of Piaget's Model**
+- **Commons, Richards, and Kuhn (1982)**
+  - Extended Piaget's model beyond formal operations.
+  - Introduced systematic and metasystematic reasoning.
+- **Loevinger and Wessler (1970) & Cook-Greuter (1990)**
+  - Focused on ego development.
+  - Identified stages beyond Piaget's formal operational thinking.
+- **Kohlberg (1981)**
+  - Studied moral development.
+  - Described stages that go beyond formal operational thinking.
+- **Kegan (1982)**
+  - Explored self-development.
+  - Identified stages of adult development.
+- **Labouvie-Vief (1990)**
+  - Focused on mature adulthood.
+  - Described the characteristics and processes of this stage.
+- **Sternberg (1984)**
+  - Studied wisdom.
+  - Introduced a new perspective on adult development.
+- **Wilber (2000, 2007)**
+  - Integrated various models into a full-spectrum model.
+  - Included the highest stages of mature adult development from spiritual traditions.
 
 **Postformal Reasoning (Commons, Richards, and Armon)**
 
-- **Beyond formal operational thinking**: fifth-order systematic thinking, sixth-order metasystematic thinking, and seventh-order cross-paradigmatic thinking.
-- **Fifth-order thinking**: complete and exhaustive operations between members of the same class.
-- **Sixth-order thinking**: relationships between systems to define a supersystem.
-- **Seventh-order thinking**: relationships between families of systems across independent fields.
+**Stages of Postformal Reasoning**
+
+- Collectively labeled as higher order thinking.
+  - **First-order relations:** Relations between primary elements.
+  - **Second-order relations:** Relations between relations.
+  - **Third-order relations:** Advanced reasoning process (Commons, Richards and Armon, 1984).
+
+- **Beyond formal operational thinking**: 
+  - **Fifth-order (systematic) thinking**: complete and exhaustive operations between members of the same class.
+  - **Sixth-order (metasystematic) thinking**: relationships between systems to define a supersystem.
+  - **Seventh-order (cross-paradigmatic) thinking**: relationships between families of systems across independent fields.
 
 **Adult Cognitive Development (Labouvie-Vief)**
 
 - **Two postformal stages**: intersystemic and autonomous.
-- Intrasystemic formal operational thinking.
-- **Intersystemic stage**: expansion of context, awareness of meanings beyond information given.
-- **Autonomous stage**: logic of self-regulating systems, creativity and generativity across generations.
+  - **Intersystemic stage**: expansion of context, awareness of meanings beyond information given.
+  - **Autonomous stage**: logic of self-regulating systems, creativity and generativity across generations.
 
-**Self-Development (Kegan)**
+**Stages of Self-Development (Kegan)**
 
 - Succession of qualitative differentiations of the self from the world.
-- **Each stage**: self emerges from embeddedness to a more expanded context.
-- **Corresponding Piagetian stages**: sensorimotor, preoperations, concrete operations, early formal operations, full formal operations, interindividual self (postformal thinking).
+  - Each stage: A more expanded context for the self.
+  - In each successive stage, the self emerges from its embeddedness.
 
-**Ego Development (Loevinger and Cook-Greuter)**
+**Ken Wilber's Description of Kegan's Stages:**
 
-- **Nine-stage model**: presocial/symbiotic to integrated.
-- **Postformal stage**: individualist (transition from formal to postformal), autonomous, construct-aware post-autonomous.
+- Changes involve the subject of one stage becoming the object of the next.
+- Kegan's stages and corresponding Piagetian stages:
+  * Incorporative self/sensorimotor (0)
+  * Impulsive self/preoperations (1)
+  * Imperial self/concrete operations (2)
+  * Interpersonal self/early formal operations (3)
+  * Institutional self/full formal operations (4)
+  * Interindividual self (postformal thinking) (5)
+- Later stages reflect self-in-relationship to broader contexts.
 
-**Individualist Stage (Cook-Greuter)**
+**Loevinger's Ego Development Model:**
 
-- Awareness of perspective, context in construction of thought.
-- Relative truth, self as contributor to meaning and objects as human constructs.
+- Ranges from presocial/symbiotic stage to integrated stage.
+- Postformal stage is rare and hard to describe.
 
-**Autonomous Stage (Cook-Greuter)**
+**Cook-Greuter's Descriptions of Postformal Stages:**
 
-- Operates fully from postformal thinking and perspective.
-- Metasystematic integration of conflicting frameworks of the self into a coherent new theory.
-
-**Construct-Aware Post-Autonomous Stage (Cook-Greuter)**
-
-- Awareness of limitations of representational knowledge.
-- Realization that objects are inventions, awareness of thinking processes and mechanisms.
-- Heightened awareness of mental habits as problematic.
-- Ego becomes aware of itself as an organizer and temporary construct.
-
-**Time Frame for Growth (Cook-Greuter)**
-
-- Thinking of oneself as a separate individual with a unique mission.
-- Consciousness of growth and change over time across the lifetime and down the generations.
-
-### At the universal or unitive stage (the ninth in the model and labeled as 6), there is a “change to a concept of field (vision)[,] . . . [a] quantum le
-
-**Universal or Unitive Stage (Stage 6)**
-
-- Change in concept of field, quantum leap in experience and outlook (Cook-Greuter, 1990)
-- Yearn to transcend rational, conscious egos (p. 92)
-- Direct attunement awareness instead of representational thinking (p. 94)
-- Immediate witnessing of ongoing process (1994, p. 133)
-- Global, transpersonal or ego-transcendent experience (p. 140)
-- **Characterized by**:
-  * Multiperspectival capacity (p. 93)
-  * No longer centered on the ego (p. 135)
-  * Self is "No-'thing'" (p. 134)
-  * Self is created anew at every moment (p. 138)
-  * Beyond reified self-view (p. 138)
+- **Individualist Stage (4/5):**
+  - Awareness of importance of perspective, context, and point of view.
+  - Truth seen as relative.
+  - People realize they contribute meaning to external events.
+  - Objects are human constructs.
+- **Autonomous Stage (5):**
+  - Operates fully from postformal thinking.
+  - Cognitive functioning is metasystematic.
+  - Individuals focus on discovering and actualizing potential.
+  - Multiple frameworks of the self integrated into a coherent new theory.
+- **Construct-Aware Post-Autonomous Stage (5/6):**
+  - Awareness of linguistic bias in construction and distinction of objects.
+  - Objects are inventions, arbitrary but useful for orientation.
+  - Heightened awareness of mental habits as problematic.
+  - Ego becomes aware of itself as an organizer and temporary construct.
+  - Concepts seen as potentially effective but arbitrary codifications.
+  - Desire to be liberated from bondage of rational thought.
+  - Realization that self-identity is a temporary construct.
+- **Universal or Unitive Stage (Stage 6)**
+  - Change in concept of field, quantum leap in experience and outlook (Cook-Greuter, 1990)
+  - Yearn to transcend rational, conscious egos (p. 92)
+  - Direct attunement awareness instead of representational thinking (p. 94)
+  - Immediate witnessing of ongoing process (1994, p. 133)
+  - Global, transpersonal or ego-transcendent experience (p. 140)
+  - **Characterized by**:
+    * Multiperspectival capacity (p. 93)
+    * No longer centered on the ego (p. 135)
+    * Self is "No-'thing'" (p. 134)
+    * Self is created anew at every moment (p. 138)
+    * Beyond reified self-view (p. 138)
 
 **Assumptions in Cook-Greuter's Stage Model of Ego Development**
 
@@ -6877,37 +7054,55 @@ Integrating advanced metacognitive possibilities into the treatment of attachmen
 
 ### A UNIFIED MODEL OF THE DEVELOPMENT OF COGNITION AND METACOGNITION
 
-**A Unified Model of the Development of Cognition and Metacognition**
+* Structural model with stages of cognitive and metacognitive development
+* **Three lowest levels: infrared, magenta, red (egocentric orientation)**
+	+ Sensorimotor (infrared) - Piaget's sensorimotor stage
+	+ Preoperational (magenta, red) - Piaget's preoperational stages
+* **Fourth stage: amber (ethnocentric orientation)**
+	+ Concrete operational thinking - Piaget
+	+ Symbiotic, impulsive, self-protective, conformist, and conscientious stages - Loevinger and Cook-Greuter
+	+ Internal sense of "mind" development
+	+ Expansion of emotional range
+	+ Peak of fantasy involvement
+	+ Stabilization of attention
+	+ Metacognitive skills: immediate awareness of mind, represent state of mind of others, meaning-making based on social approval and manifest content
+* **Fifth stage: orange (formal operational thinking)**
+	+ Appreciation of primary elements within a system
+	+ Deductive reasoning emerges
+	+ Metacognitive skills: efficacy and mastery, awareness of latent meaning, understanding connection between actions and consequences, projecting long-term goals
+* **Sixth stage: individualist/systematic (intersystemic relationships)**
+	+ Complete and exhaustive operations within the same class of cognitive objects
+	+ Heightened sensitivity to context
+	+ Understanding underlying assumptions, schemas, and expectancies
+	+ Capacity to take perspective and understand how point of view influences experience
+	+ Optimizing options in the face of limitations
+* **Seventh stage: autonomous (metasystematic)**
+	+ Shift from logical systems to self-regulation
+	+ Thinking in terms of relations between one system and another
+	+ Emerging capacity to think in terms of an overarching supersystem
+	+ Awareness of interdependence
+	+ Definition of a unique purpose in life
+	+ Capacity to resolve internal conflict or contradiction
+	+ Ability to directly perceive the degree of organization or disorganization of state of mind
+* **Eighth stage: construct-aware (cross-paradigmatic)**
+	+ Discovery that conceptual knowledge interferes with knowing via direct experience or awareness
+	+ Thought as a mode of knowledge becomes problematic and is eventually superseded by direct knowing through immediate awareness
+	+ Appreciation for the self as a central organizer
+	+ Recognition of the supersystemic order to life
+* **Ninth stage: universal/unitive (ego-transcendence)**
+	+ Merging of individual consciousness with universal consciousness
+	+ Awareness of vast oceanlike field of consciousness
+	+ Center of experience, identity, and action becomes the oceanlike awareness
+	+ Metacognitive skills: disappearance of reactivity of mind, taking multiple perspectives, instantaneous monitoring of states of mind, nonreified flexible self, spontaneous compassion for shared humanity
 
-The development of cognition and metacognition can be understood through the following structural model:
+**Clinical Applications**
++ Promoting metacognitive skills in patients
++ Basic metacognitive skills: awareness of state of mind in self and others
+	- Fostering greater awareness of internal experience
+	- Helping patients become more aware of their own internal state and the state of others
+	- Techniques: focusing on feelings, recognizing negative self-talk, using hypnosis for subtitles method.
 
-1. **Infrared, Magenta, and Red Stages (Sensorimotor to Conscientious)**: These stages represent an egocentric orientation to the world and correspond to Piaget's sensorimotor, preoperational, and concrete operational thinking stages. Loevinger and Cook-Greuter label these stages as symbiotic, impulsive, self-protective, conformist, and conscientious stages of ego development.
-
-   - **Infrared Stage**: Sensorimotor stage where infants focus on their own needs and experiences.
-   - **Magenta and Red Stages**: Preoperational stages where children begin to understand symbols and language but have difficulty with logical reasoning and understanding others' perspectives.
-   - **Conscientious Stage (Red)**: Concrete operational thinking stage, where children develop an internal sense of "mind," expand emotional range, and attempt to conform to peer group norms. Metacognitive skills include awareness of immediate mental states and the capacity to represent others' states of mind.
-
-2. **Amber Stage**: Corresponds to Piaget's formal operational thinking stage. At this level, adolescents develop a greater appreciation for primary elements within systems, deductive reasoning emerges, and metacognitive skills include efficacy and mastery, awareness of latent meaning, understanding consequences, and projecting long-term goals.
-
-3. **Individualist (Systematic) Stage**: The first postformal-operational stage, characterized by intersystemic relationships. This level allows for complete and exhaustive operations within the same class of cognitive objects. Metacognitive skills include heightened sensitivity to context, awareness of underlying assumptions, relativity of all states, perspective-taking, and optimizing options in the face of limitations.
-
-4. **Autonomous Stage**: Wilber's first integral stage and Cook-Greuter's autonomous stage. Cognitive development shifts from logical systems to self-regulation. Metacognitive skills include awareness of interdependence, defining a unique purpose in life, resolving internal conflict, and recognizing the limitations of conceptual thought as a vehicle of knowledge.
-
-5. **Construct-Aware Stage**: Cook-Greuter's construct-aware stage and Commons et al.'s cross-paradigmatic stage. Thinking can consider relations between families of systems and operate on larger fields of cognitive objects. The central characteristic is the discovery that conceptual knowledge interferes with knowing via direct experience or awareness. Metacognitive skills include immediate knowing through awareness, transcendence of thought as a mode of knowing, recognizing the self as a temporary mental construction, and appreciating the supersystemic order to life.
-
-6. **Ego-Transcendence (Universal or Unitive)**: Characterized by ego-transcendence in Eastern spiritual traditions. Individuals become aware of a vast oceanlike field of consciousness, merging individual consciousness with universal consciousness. Metacognitive skills include disappearance of reactive mind within spacious freedom, taking multiple perspectives, instantaneous monitoring of states of mind, and spontaneous compassion for shared humanity.
-
-**Clinical Applications: Methods for Promoting Metacognitive Skills in Patients**
-
-1. **Basic Metacognitive Skills (Preformal and Formal Levels)**: Helping patients become more aware of their own internal state of mind and others' is a foundational therapeutic skill. Techniques include focusing on general mood states, specific emotional states, automatic negative self-talk, underlying assumptions, beliefs, schemas, needs, and motivations.
-
-   - **Awareness of Emotional States**: Encourage patients to focus on their emotions and describe them in detail.
-   - **Recognition of Negative Self-Talk**: Help patients identify and challenge negative self-talk.
-   - **Television Subtitles Method**: Use hypnosis to foster greater awareness of automatic negative self-talk by imagining watching a video with subtitles displaying all thoughts.
-
-### To enhance awareness of underlying maladaptive beliefs and schemas, the clinician might say, “What were the assumptions you were making about . . . ? 
-
-**Mindfulness and Awareness in Psychotherapy**
+### Mindfulness and Awareness in Psychotherapy
 
 * Mindfulness is a core skill in contemporary psychotherapies, particularly Dialectical Behavior Therapy (DBT)
 * Enhances patients' awareness of their internal state of mind
@@ -6990,9 +7185,7 @@ The development of cognition and metacognition can be understood through the fol
   - Heighten dissonance between parts to resolve conflict
   - Shift away from extreme belief.
 
-### Contingency Detection and Metacognitive Mastery It is one thing to help patients to become more aware of their states of mind. It is an entirely diffe
-
-**Contingency Detection and Metacognitive Mastery**
+### Contingency Detection and Metacognitive Mastery
 
 * Helping patients become aware of their states of mind is different from helping them become aware of their influence on those states (metacognitive mastery)
 * Patients with personality and dissociative disorders have low awareness of contingency influence
@@ -7018,7 +7211,6 @@ The development of cognition and metacognition can be understood through the fol
 
 **Psychoanalytic Tradition and Meaning-Making**
 
-* Contributes to metacognition through fostering meaning-making
 * **Stern (2010)**: Therapy aims to help patients formulate the meaning of their inner experiences
 * **Frank (1963)**: Symptoms ameliorated when a patient develops an explanatory model for symptoms
 * **Dynamic therapy**: Helps patients make sense of experiences and symptoms
@@ -7027,21 +7219,14 @@ The development of cognition and metacognition can be understood through the fol
 **Dynamic Therapy and Meaning-Making**
 
 * Identify, formulate, and explain focal conflicts underlying experience
-* **Three levels of meaning**: manifest, emotional, latent or unconscious
-
-**Manifest Meaning**
-
-* Understanding and explanation of immediate experiences
-
-**Emotional Meaning**
-
-* Reflects a deeper level than manifest meaning
-* Requires accurate identification of emotions and understanding of given meanings
-
-**Latent or Unconscious Meaning**
-
-* Identification and understanding repetitive behaviors and long-standing patterns
-* Fostering curiosity about underlying causes
+- **Manifest Meaning**
+  * Understanding and explanation of immediate experiences
+- **Emotional Meaning**
+  * Reflects a deeper level than manifest meaning
+  * Requires accurate identification of emotions and understanding of given meanings
+- **Latent or Unconscious Meaning**
+  * Identification and understanding repetitive behaviors and long-standing patterns
+  * Fostering curiosity about underlying causes
 
 **Intermediate Metacognitive Skills: Postformal Level (Stage 6)**
 
@@ -7072,8 +7257,6 @@ The development of cognition and metacognition can be understood through the fol
 
 ### Optimizing Action Plans
 
-**Optimizing Action Plans**
-
 At the level of cognitive development in old age, individuals can optimize responses to perceived limitations through a process called selection, optimization, and compensation (SOC). This process is described by Baltes and Baltes (1990a, 1990b).
 
 **Selection, Optimization, and Compensation (SOC)**
@@ -7083,9 +7266,6 @@ At the level of cognitive development in old age, individuals can optimize respo
 - **Compensation**: Restructuring resources to minimize loss of functioning.
 
 **Optimizing as a Metacognitive Skill**
-
-Optimizing is a metacognitive skill that involves:
-
 1. Imagining a situation where one feels at their best (the "best self").
 2. Identifying and reinforcing the qualities of the "best self."
 3. Bringing those qualities into a difficult situation to experience it differently.
@@ -7093,20 +7273,7 @@ Optimizing is a metacognitive skill that involves:
 5. Noticing the effect of the newly emerged quality on the experience of the difficult situation.
 6. Developing an action plan using these optimizing resources for future coping.
 
-**Therapeutic Process**
-
-The therapist guides the patient through this process:
-
-1. Imagining a situation where they feel at their best and identifying the qualities of the "best self."
-2. Bringing those qualities into a difficult situation to experience it differently.
-3. Discovering new inner coping resources.
-4. Noticing the effect of the newly emerged quality on the experience of the difficult situation.
-5. Developing an action plan using these optimizing resources for future coping.
-
 ### Sensitivity to Context
-
-**Sensitivity to Context**
-
 - People become increasingly aware of how the context of an experience affects their actual experience (Stage 6)
 - Ability to understand how antecedent states impact state of mind and behavior
 - Understanding that early childhood experiences and current behaviors of significant others should be considered in context
@@ -7228,8 +7395,6 @@ The therapist guides the patient through this process:
 
 ## Chapter 10 The Third Pillar Fostering Collaborative Capacity and Behavior
 
-**Chapter 10: The Third Pillar - Fostering Collaborative Capacity and Behavior**
-
 **The Importance of Collaborative Capacity**
 
 * Securely attached patients exhibit collaborative behavior, which is essential for treatment.
@@ -7280,8 +7445,6 @@ The therapist guides the patient through this process:
 
 ### Collaborative Communication and Shared Intentionality
 
-**Collaborative Communication and Shared Intentionality**
-
 Tomasello (2009) defines collaboration as a mutualistic activity that goes beyond simple cooperativeness and includes shared intentionality. It involves joint goals, coordinated division of labor, and a shared focus of attention. Early humans developed skills and motivations for collaborative activities to survive and thrive.
 
 **Skills and Motivations for Shared Intentionality**
@@ -7311,7 +7474,7 @@ In a daycare setting, nonabused children showed empathic concern towards distres
 
 The lack of cooperation and collaborativeness in insecure and abused children is an aberration from normally expected development. These children show impaired nonverbal interactive behavior and noncollaborative verbal discourse, which tend to persist throughout older childhood and into adulthood. In attachment-based treatment, the therapeutic task is to provide corrective developmental conditions that allow patients to manifest their inherent collaborative potential.
 
-### Defining Psychotherapy as Collaborative Partnership: The Contribution of Interpersonal Psychotherapy Harry Stack Sullivan was the first psychotherapis
+### Defining Psychotherapy as Collaborative Partnership: The Contribution of Interpersonal Psychotherapy 
 
 **Defining Psychotherapy as a Collaborative Partnership**
 
@@ -7322,22 +7485,22 @@ Harry Stack Sullivan's Contribution:
 - Distinct from juvenile era habits of competition, cooperation, and compromise
 - **Evolutionary perspective**: putting aside competition for shared interests and cooperative behavior
 
-Neo-Sullivanian or Interpersonal Psychotherapy:
+**Neo-Sullivanian or Interpersonal Psychotherapy**:
 - Embodies both cooperative and collaborative elements
 
-Teyber & McClure's Definition (Interpersonal Process in Therapy, 2011):
+**Teyber & McClure's Definition** (Interpersonal Process in Therapy, 2011):
 - Psychotherapy as a collaborative partnership
 - Therapists and clients work together as partners
 - Clear expectations for collaboration in the initial session
 - Therapy is a shared interaction requiring participation from both parties
 
-Importance of Collaboration in Psychotherapy:
+**Importance of Collaboration in Psychotherapy**:
 - Applicable to all good psychotherapies, not just interpersonal
 - Helping attachment-impaired patients become cooperative and collaborative
   - Beneficial for their lives outside therapy
   - Necessary for effective therapy process
 
-Starting Points: Fostering Collaboration at the Beginning of Therapy:
+**Fostering Collaboration at the Beginning of Therapy**:
 - Focus on collaboration from the start to build a strong working alliance
 - Articulate clear expectations for collaborative partnership
 - Enact collaborative behavior in the initial session
@@ -7350,21 +7513,21 @@ Starting Points: Fostering Collaboration at the Beginning of Therapy:
 * **Beginning of collaboration**: exploration of patient's hopes and expectations
   * Patient identifies main problems for treatment
   * Hypothetical question about treatment success
-* Mutually negotiated treatment plan
+* **Mutually negotiated treatment plan**
   * Shared expectations and information
   * Assessing important issues and concerns
   * Shared decision-making about best approach
-* Transparency on therapist's part
+* **Transparency on therapist's part**
   * Open discussion of diagnostic impressions
   * Explanation of reasoning behind best approaches
   * Discussion of anticipated difficulties in collaboration
-* Benefits of transparency
+* **Benefits of transparency**
   * Stronger alliance with patients
   * Modeling collaborative behavior
-* Importance of collaboration for treatment outcome
+* **Importance of collaboration for treatment outcome**
   * Mutual exploration of treatment problems and goals
   * Defining shared understanding
-* Informed Consent
+* **Informed Consent**
   * Mutually developed, reviewed, and signed document
   * Explicit and tangible partnership agreement.
 
@@ -7407,8 +7570,6 @@ Starting Points: Fostering Collaboration at the Beginning of Therapy:
 * Explicit and tangible partnership agreement.
 
 ### ESTABLISHING THE TREATMENT FRAME AS COLLABORATIVE PARTNERSHIP
-
-**Establishing the Treatment Frame as Collaborative Partnership**
 
 - Patients with attachment disturbances have impaired collaborativeness and may withdraw or make excessive demands.
 - A detailed treatment frame contract is necessary to solidify the expectation of therapy as a collaborative enterprise.
@@ -7466,20 +7627,17 @@ Starting Points: Fostering Collaboration at the Beginning of Therapy:
 * **Two broad areas of impaired collaborative behavior**: nonverbal and verbal
 
 **Nonverbal Collaborative Behavior**
-
 * Synchronization in timing and match with the other's nonverbal behaviors in secure adult patients
 * Desynchronization and mismatches common in adult patients with some pattern of insecure attachment
 * Research by Beatrice Beebe
 
 **Noncollaborative Verbal Behavior**
-
 * Secure attachment on Adult Attachment Interview (AAI) indicated by healthy collaboration between interviewee and interviewer
 * Individuals with insecure attachment rarely show collaborative verbal behavior on AAI
 * Assessing collaborativeness through meeting or violating Grice's maxims
 * Research by Mary Main
 
 **Improving Collaborative Behavior Throughout Therapy**
-
 * Focus on improving both nonverbal and verbal collaborative behavior
 * Ruptures in therapeutic alliance require collaboration to explore and repair
 * Switching to cooperative/collaborative mode outside of attachment system for efficient repair of the alliance
@@ -7504,8 +7662,6 @@ Starting Points: Fostering Collaboration at the Beginning of Therapy:
 * Process strengthens the attachment relationship as patient experiences therapist as attuned, responsive, and respectful.
 
 ### IMPROVING NONVERBAL COLLABORATION
-
-**Improving Nonverbal Collaboration**
 
 Beebe and Lachmann (2014) emphasize the importance of understanding early interaction disturbances in therapy through research on nonverbal collaboration between patients and therapists. This research can help:
 
@@ -7533,23 +7689,16 @@ Beebe and Lachmann (2014) emphasize the importance of understanding early intera
 Beebe and her associates:
 
 - Microanalyzed videotapes of infant–mother interactions to understand nonverbal relatedness
-- **Discovered two broad types of dyadic nonverbal exchanges**: collaborative and contradictory
-- Collaborative exchanges lead to positive affective intensity and well-organized patterns of interaction
-- Contradictory exchanges result in dysfunctional patterns and lack of effectance
+- **Discovered two broad types of dyadic nonverbal exchanges**: 
+  - **Collaborative exchanges** lead to positive affective intensity and well-organized patterns of interaction
+  - **Contradictory exchanges** result in dysfunctional patterns and lack of effectance
 
 **Transforming Nonverbal Interactions through Therapy**
-
-Beebe's work is based on a "transformational view":
-
-- Dysfunctional nonverbal patterns can be changed through therapy
-- Supports the emergence of secure patterns of interaction
 
 Beebe and her colleagues have influenced our thinking and methods for fostering nonverbal collaborativeness by:
 
 - Providing mothers with direct visual feedback to learn healthy patterns of exchange
 - Using video microanalysis to investigate nonverbal patterns between adult patients and therapists.
-
-### The first step toward developing healthy nonverbal collaboration in insecurely attached adult patients is to establish a nonverbal secure base in the 
 
 **Developing Healthy Nonverbal Collaboration in Insecurely Attached Adult Patients**
 
@@ -7587,8 +7736,6 @@ Beebe and her colleagues have influenced our thinking and methods for fostering 
 - **Anxious-preoccupied attachment**: Sits forward in chair or looms, sits too close, hypervigilant fixed stare, frequent facial displays of distress, exaggerated spontaneous postural displays, plaintive postural displays, high postural anxiety (rubbing hands/feet, jiggling legs), inability to remain silent or take turns in vocalization, very fast vocal rhythm, making vocalizations over therapist, descending pitch.
 - **Disorganized attachment**: Contradictory mixture of dismissing and anxious-preoccupied nonverbal behaviors.
 
-### The third step is to identify the most salient and repetitive nonverbal patterns of exchange, especially the most dysfunctional patterns. Identificati
-
 **Step 1**: Identification of Salient and Repetitive Nonverbal Patterns
 
 - Identify dysfunctional nonverbal patterns in patient's communication
@@ -7608,8 +7755,6 @@ Beebe and her colleagues have influenced our thinking and methods for fostering 
 - Set context for intervention with patient's permission
 - Increase patient's awareness of dysfunctional patterns in therapy and outside it
 - Decrease dysfunctional patterns, increase healthy communication and collaboration
-
-### Once the patient’s metacognitive awareness of a nonverbal behavior is established, our method entails engaging the patient with experiential focusing 
 
 **Method for Addressing Dysfunctional Nonverbal Behaviors**
 
@@ -7638,8 +7783,6 @@ Beebe and her colleagues have influenced our thinking and methods for fostering 
 - **Preverbal Schemas**: Mental frameworks for understanding experiences before the development of language.
 
 ### IMPROVING VERBAL COLLABORATION
-
-**Improving Verbal Collaboration**
 
 **Origins of Verbal Collaborative Behavior**
 
@@ -7684,8 +7827,6 @@ Beebe and her colleagues have influenced our thinking and methods for fostering 
 
 - Harry Stack Sullivan articulated the failure of collaborative verbal communication in certain psychiatric patients
 - Individuals with insecure attachment may struggle to engage in effective collaborative verbal communication.
-
-### An enormous amount of difficulty all through life arises from the fact that communicative behavior miscarries because words do not carry meaning, but 
 
 **Communicative Difficulties and the Importance of Collaborative Verbal Communication**
 
@@ -7734,8 +7875,6 @@ Beebe and her colleagues have influenced our thinking and methods for fostering 
 
 ### A Model for Collaborative Dialogue in Treatment
 
-**Model for Collaborative Dialogue in Psychotherapy**
-
 * Developed by Karlen Lyons-Ruth and Boston Change Process Study Group based on observations of infant-caregiver interactions (1999)
 * Focuses on facilitating developmental change through collaborative dialogue
 * Communication from insecurely attached patients is often nonverbal or implicit, requiring representation in therapy
@@ -7758,52 +7897,38 @@ Beebe and her colleagues have influenced our thinking and methods for fostering 
      2. Reflecting back the affective meaning
      3. Mirroring back the latent meaning
    * Validation renders legitimacy to patient's experiences
-
 2. **Consistent therapist stance**:
    * Mutual exchange and collaboration through verbal exchange is important, welcome, and beneficial
-
 3. **Explicit ground rules of verbal discourse**:
    * Make explicit the rules of collaborative verbal dialogue for insecurely attached patients
    * Encourage full disclosure and following basic rules of psychotherapy (saying whatever comes to mind)
    * Address issues like long silences, speaking softly, or not following the rules of verbal communication
-
 4. **Active listening**:
    * Listen attentively and reflect back what was heard
    * Encourage patient's self-reflection
-
 5. **Emotional regulation**:
    * Help patients regulate their emotions during therapy sessions
    * Validate emotions and help them understand the emotional significance of their experiences
-
 6. **Repair ruptures**:
    * Address misunderstandings or disagreements between patient and therapist
    * Repair any negative interactions that may occur
-
 7. **Establish new levels of awareness**:
    * Help patients gain insight into their thoughts, feelings, and behaviors
    * Encourage exploration of unconscious processes
-
 8. **Brokering the process of change**:
    * Facilitate the patient's understanding of the therapeutic process
    * Help them navigate the challenges and transitions during therapy
-
 9. **Address attachment injuries**:
    * Address past attachment injuries and their impact on current relationships
    * Help patients develop new ways of relating and healing from these injuries
-
 10. **Explore relational patterns**:
     * Identify and address maladaptive relational patterns
     * Encourage the development of more adaptive relational patterns
-
 11. **Consolidate gains**:
     * Help patients consolidate their therapeutic gains
     * Encourage the application of new skills and insights in daily life
 
 These steps aim to activate the cooperative/collaborative communication system in patients with insecure attachment, leading to a more effective therapeutic process.
-
-### In addition to sometimes letting the patient know verbally, as above, that we can’t hear what he or she is 255 saying, we find it useful at times to u
-
-**Establishing Collaborative Verbal Communication**
 
 **Strategies for Soft-Spoken Patients**:
 
@@ -7834,8 +7959,6 @@ These steps aim to activate the cooperative/collaborative communication system i
 * Identify most salient and repetitive dysfunctional patterns.
 * Target specific dysfunctional patterns for intervention.
 * Determine or validate attachment pattern from descriptions in AAI scoring manual.
-
-### Since dismissing patients typically show a normal capacity for exploration except around attachment themes, it is important that the therapist encoura
 
 **Attachment-Based Therapy for Dismissing and Preoccupied Patients**
 
@@ -7887,8 +8010,6 @@ These steps aim to activate the cooperative/collaborative communication system i
 * Redirect patient's attention to their own feelings during exploration of past experiences
 * Mark affect that emerges during exploration to deepen understanding of emotional experience.
 
-### The seventh step entails identifying and modifying toxic noncollaborative verbal behavior. For the dismissing patient, toxic verbal behavior typically
-
 **Step 7: Identifying and Modifying Toxic Noncollaborative Verbal Behavior**
 
 * **Dismissing Patient**:
@@ -7919,8 +8040,6 @@ These steps aim to activate the cooperative/collaborative communication system i
 
 * **Patients benefit from learning Leech's (1983) six maxims of politeness**: tact, generosity, approbation, modesty, agreement, and sympathy.
 * Patients can create experiences of others manifesting these verbal qualities toward them in imagination.
-
-### The ninth step entails enhancing verbal contingency communication and dialogue. Patients with insecure attachment need to see directly and frequently 
 
 **Step 9: Enhancing Verbal Contingency Communication and Dialogue**
 
@@ -7960,7 +8079,7 @@ These steps aim to activate the cooperative/collaborative communication system i
 - Getting back on the right developmental track toward ongoing contingent, collaborative behavior with others.
 - Continued healthy exploration and attainment of higher stages of adult cognitive and emotional development.
 
-### Case Illustration The transcript below is from a session with a man in his 30s. “John” had presented for therapy for symptoms of depression and low se
+### Case Illustration
 
 **Case Illustration: John's Therapy Session**
 
@@ -7995,9 +8114,8 @@ These steps aim to activate the cooperative/collaborative communication system i
 - The therapist provided feedback on John's nonverbal behaviors and encouraged him to translate them into clear, collaborative comments.
 - The therapist maintained a positive, collaborative engagement throughout the session and emphasized the importance of effective communication in enhancing understanding between John and Jake.
 
-### PART IV TYPE-SPECIFIC TREATMENT Application of The Three Pillars Treatment To Dismissing, Anxious-Preoccupied, and Disorganized Attachment
-
-**Part IV: Type-Specific Treatment**
+## PART IV TYPE-SPECIFIC TREATMENT 
+### Application of The Three Pillars Treatment To Dismissing, Anxious-Preoccupied, and Disorganized Attachment
 
 The following sections detail how to apply the Three Pillars Treatment to each insecure attachment type, with considerations based on their unique developmental care-receiving experiences.
 
@@ -8031,10 +8149,7 @@ The following sections detail how to apply the Three Pillars Treatment to each i
 * Understanding the specific developmental care-receiving experiences of each insecure attachment type guides tailored treatment approaches.
 * The Three Pillars of treatment (Secure Base, Safe Haven, and Selective Attunement) are adapted to meet the unique needs of patients with Dismissing, Anxious-Preoccupied, and Disorganized Attachment styles.
 
-## Chapter 11 Treating Dismissing Attachment The Origins of Dismissing Attachment
-
-**Chapter 11: Treating Dismissing Attachment**
-
+## Chapter 11 Treating Dismissing Attachment 
 **Origins of Dismissing Attachment**
 
 * Ainsworth et al. (1978) identified repeated maternal rejection as the origin of avoidant attachment in children.
@@ -8061,8 +8176,6 @@ The following sections detail how to apply the Three Pillars Treatment to each i
 * Encouraging free exploration of self in the context of attachment relationships orients the normally developed exploratory system toward attachment themes and experience, contributing to reactivation of the attachment system.
 
 ### Using Ideal Parent Figure Imagery With the Dismissing Patient
-
-**Ideal Parent Figure Imagery with Dismissing Patients**
 
 **Ideal Parent Figure (IPF) imagery** is an effective approach for working with dismissing patients during the early stages of treatment. It allows for consistent attachment-themed sessions while providing relational distance from the therapist. The focus is on self-generated imagery rather than the immediate relationship between patient and therapist, making it less threatening to dismissing patients.
 
@@ -8102,8 +8215,6 @@ The following sections detail how to apply the Three Pillars Treatment to each i
 * When patient expresses bewilderment, therapist helps identify missing sense of early attachment as a positive, secure base
 * When patient becomes fearful, therapist acknowledges fear and indicates they will work together to understand why attachment is perceived as a source of threat.
 
-### Over time, the goal is to transform the approach/avoidance conflict regarding attachment needs into a stable, positive representation of parent figure
-
 **Secure Attachment**: The goal is to transform the approach/avoidance conflict regarding attachment needs into a stable, positive representation of parent figures who are deeply accepting and encouraging of the child's attachment needs. This results in a conflict-free experience of secure attachment.
 
 **Imagery**: The imagery is shaped to help the patient imagine ideal parents (IPFs) who are attuned to the full range of emotional experience and expression of the patient. IPFs are not only carefully attuned but also contingently responsive to negative emotions, especially underlying vulnerabilities, hurts, and disappointments.
@@ -8112,17 +8223,13 @@ The following sections detail how to apply the Three Pillars Treatment to each i
 
 **Qualities of IPFs**: IPFs are suggested to have qualities that are the positive opposite of rigid and controlling – openness, flexibility, and permissiveness. The objective is to help the dismissing patient positively remap their internal working models (IWMs) in the direction of expecting flexible, open, and permissive responses from others.
 
-**General Considerations**: In addition to the general factors for secure attachment – parental presence, consistency, reliability, and interest – and the five primary behavioral conditions that promote secure attachment – protection, attunement, soothing, expressed delight, and fostering best self-development – there are particular ways of introducing these concepts to dismissing patients.
+**General Considerations**: parental presence, consistency, reliability, and interest – and the five primary behavioral conditions that promote secure attachment – protection, attunement, soothing, expressed delight, and fostering best self-development – there are particular ways of introducing these concepts to dismissing patients.
 
 **Protection**: The therapist suggests parent figures who provide protection specifically in the attachment relationship, as this idea is especially alien to most dismissing patients. IPFs are presented as dedicated to protecting the patient from harm and attuned to their needs for security and safety in their connection with them.
 
 **Attunement**: The IPF imagery for dismissing patients emphasizes parents who are especially attuned to physical and emotional proximity-and contact-seeking, and also especially attuned to the child's range of negative emotional expressions. This contributes to the development of positive representations and expectancies of others being comfortable with and encouraging physical and emotional closeness and a wide range of negative as well as positive affects.
 
 **Examples**: IPFs are described as parents who notice when the patient wants to be close, welcome warm hugs and emotional closeness, recognize and accept negative emotions, and stay attuned even when the patient is angry or uncomfortable with them. They know that children sometimes feel not-so-positive feelings toward their parents and it's okay for these feelings to be expressed to them.
-
-### Third, with respect to soothing, the therapist suggests scenes in which the child is emotionally upset and the IPFs are consistently responsive to the
-
-**Attachment-Based Therapy for Dismissing Patients: Use of Ideal Parent Figures (IPFs) Imagery**
 
 **Soothing**:
 
@@ -8165,8 +8272,6 @@ The following sections detail how to apply the Three Pillars Treatment to each i
 * "Learning" involved making sure homework was finished but no real help, the positive opposite becomes "fostering joy of discovering and learning."
 
 ### Fostering Collaboration in the Dismissing Patient
-
-**Fostering Collaboration in Treating Dismissing Patients**
 
 **Engaging Cooperative Behavioral System**
 
@@ -8240,8 +8345,6 @@ The following sections detail how to apply the Three Pillars Treatment to each i
 
 ### Stages in the Treatment of the Dismissing Patient
 
-**Stages in the Treatment of the Dismissing Patient**
-
 1. **Introducing Cooperative Behavior and Reactivating Attachment System**:
    - Therapist introduces concept of cooperative behavior as a way to work on attachment system reactivation indirectly.
    - Early therapeutic work involves systematic use of Interpersonal Process Recall (IPF) imagery and addressing nonverbal and verbal misattunements.
@@ -8254,7 +8357,6 @@ The following sections detail how to apply the Three Pillars Treatment to each i
    - Therapist should normalize longing for physical and emotional closeness as natural and positive.
    - Use of normalizing interventions to counteract profound toxic shame associated with basic longings.
    - IPF imagery focuses on accepting, soothing parent figures responding to child's longing and discomfort.
-
 3. **Signs of Attachment System Reactivation**:
    - Nonconflicted reports of physical and emotional proximity-seeking between child and IPFs.
    - Preference for using IPF imagery.
@@ -8262,7 +8364,6 @@ The following sections detail how to apply the Three Pillars Treatment to each i
    - Emergence of healthy protest behavior at therapist's unavailability.
    - Therapeutic ruptures are likely due to the previously deactivated attachment relationship with the therapist.
    - Collaborative metacognitive inquiry into both patient and therapist states of mind associated with treatment rupture is beneficial.
-
 4. **Middle to Late Stages of Treatment**:
    - Dismissing patient capable of using therapist as a secure base and acknowledging healthy dependence.
    - Focus on exploration of secure intimacy, not early childhood attachment themes.
@@ -8303,10 +8404,7 @@ The following sections detail how to apply the Three Pillars Treatment to each i
 * **Encouraging mindfulness**: "Being aware of your thoughts and feelings in the present moment can help you respond to emotional triggers in a healthier way, rather than turning to food as a coping mechanism."
 * **Normalizing the process**: "It's important to remember that developing a strong attachment relationship with yourself and others takes time and effort. It's not something that will happen overnight, but with consistent practice and dedication, it can lead to significant improvements in your overall well-being."
 
-### Therapist: When you feel the need to emotionally eat, you use the ideal parent figures to comfort you? But earlier you talked about some discomfort ab
-
-**Text Summary**:
-
+**Therapy Session**
 The following text is a transcript of a therapy session between a therapist and a patient discussing the patient's emotional eating habits and attachment issues. The therapist encourages the patient to identify and understand their state of mind, specifically regarding their discomfort with seeking emotional closeness in the therapeutic relationship.
 
 **Patient's Discomfort with Seeking Emotional Closeness**:
@@ -8322,20 +8420,6 @@ The following text is a transcript of a therapy session between a therapist and 
 - The patient struggles to generate positive imagery around proximity-seeking, showing metacognitive awareness of their resistance to attachment.
 - They eventually shift the focus to observing their daughter's relationship with her children as a model for positive parental behavior.
 - The therapist encourages the patient to imagine themselves in a similar situation, being the center of attention and valued by ideal parents.
-
-**Key Concepts**:
-
-1. **Metacognitive awareness**: The patient shows an increased understanding of their thoughts, feelings, and behaviors during therapy sessions.
-2. **Attachment**: The patient's discomfort with emotional closeness stems from past experiences that made them fearful of attachment figures.
-3. **Proximity-seeking**: The therapist encourages the patient to imagine a positive relationship with ideal parents, focusing on qualities that would make them prefer closeness and feel comfortable.
-4. **Imaginal exposure**: The therapist uses imagery exercises to help the patient explore their feelings around emotional closeness and attachment.
-5. **Collaborative therapy**: The therapist and patient work together to understand the patient's thoughts, feelings, and behaviors in a supportive and non-judgmental environment.
-
-### Therapist: The scene will change, and in the next scene you will learn something more about preferring the closeness without being threatened by it . 
-
-**Session Overview**:
-
-The text describes a therapeutic session between a therapist and a patient, focusing on the patient's attachment issues and their preference for positive proximity-seeking. The patient shares an imagery exercise about being in a park with responsive individuals (IPFs), contrasting it with their unresponsive family-of-origin experiences. In the subsequent session, the patient discusses their struggle with overeating and mindless eating during reading, showing metacognitive awareness of their state of mind and attachment needs.
 
 **Session 1**:
 
@@ -8362,8 +8446,6 @@ The text describes a therapeutic session between a therapist and a patient, focu
 * Patient shows metacognitive awareness of relating variables, discovering a connection between binge eating and longing for connection
 * Therapist introduces positive IPF imagery around the theme of emotional closeness
 * Patient is reluctant to imagine tenderness and support from others at their current age.
-
-### Therapist: Let’s see what the conditions might be under which you could allow this? So go ahead and imagine just the right conditions under which you 
 
 **Treating a Patient with Dismissing Attachment: Case Illustration**
 
@@ -8402,8 +8484,6 @@ This case illustration demonstrates how treating a patient with dismissing attac
 
 ## Chapter 12 Treating Anxious-Preoccupied Attachment
 
-**Chapter 12: Treating Anxious-Preoccupied Attachment**
-
 **Origins of Anxious-Preoccupied Attachment**
 
 * Developed from various forms of maternal unresponsiveness (Ainsworth et al., 1978; Belsky, 1999b; Mikulincer et al., 2003; Shaver & Mikulincer, 2009)
@@ -8430,37 +8510,28 @@ This case illustration demonstrates how treating a patient with dismissing attac
 * Limited self-disclosure to avoid reactivating patient's hyperactivating style within the transference
 * Self-disclosure should serve to orient patient more carefully toward their own state of mind during ruptures of therapeutic alliance.
 
-### What’s it like for you now, hearing what I just said? Third, since research suggests that caregivers of children who have become anxious-preoccupied a
-
 **Working with Anxious-Preoccupied Patients**:
 
-**1. **Therapeutic Stance**:
+1. **Therapeutic Stance**:
    * **Avoid selective attunement to fear states**: Therapist should not overly focus on patient's fears and worries, as caregivers of anxious-preoccupied adults may have done.
    * **Become a consistently calming presence**: Therapist remains unflappable and calm, providing comfort and reassurance.
    * **Use imagery of a protective bubble**: Patient imagines a safe, clear, protective bubble to help regulate closeness-distance.
-
-**2. **Closeness-Distance Regulation**:
+2. **Closeness-Distance Regulation**:
    * Focus on regulation in the context of hyperactivation of attachment system.
    * Collaboratively explore how close patient needs to be and how much distance can be tolerated using protective bubble imagery.
-
-**3. **Selective Attunement to Exploratory Behavior**:
+3. **Selective Attunement to Exploratory Behavior**:
    * Therapist mirrors and encourages self-exploration and development.
    * Use direct inquiry to prompt exploration and reinforce self-development.
-
-**4. **Ideal Parent Figure (IPF) Imagery**:
+4. **Ideal Parent Figure (IPF) Imagery**:
    * Anxious-preoccupied patients find it easier to use IPF imagery due to dissatisfactions with family-of-origin parents.
    * Introducing IPF imagery may invoke feelings of threat and abandonment fear, requiring therapist explanation and reassurance.
    * Emphasize pervasively attuned and accurately contingently responsive ideal parent figures.
-
-**5. **Working with Ideal Parent Figure Imagery**:
+5. **Working with Ideal Parent Figure Imagery**:
    * Freshly co-create IPF imagery in each session to cultivate spontaneity.
    * Introduce themes consistent with research on attachment and tailor IPF imagery for the particular patient.
 
-### The creative process of the imagery allows for the possibility of very careful attunement each moment, in contrast to the pervasive misattunement to w
+**Imagery therapy (IPF) focuses on attunement between patient-as-child and ideal parent figures (IPFs)**
 
-**Text Summary**:
-
-* The creative process of imagery therapy (IPF) focuses on attunement between patient-as-child and ideal parent figures (IPFs).
 * IPFs are attuned to the child's states, attachment initiatives, and emotional expressions.
 * Patients experience their internal state being recognized, accepted, and responded to appropriately by IPFs.
 * IPFs address patients' experiences of caregivers overly involving them in their states of mind.
@@ -8500,7 +8571,9 @@ This case illustration demonstrates how treating a patient with dismissing attac
 
 **Working with IPF (Ideal Parent Figure) Imagery for Anxious-Preoccupied Patients**
 
-IPF imagery is a therapeutic technique used to promote attachment security and improve skills in closeness/distance regulation and emotion regulation for anxious-preoccupied patients. This technique is based on the five primary parental behavioral conditions that promote secure attachment: protection, attunement, soothing, expressed delight, and fostering best self-development.
+IPF imagery is a therapeutic technique used to promote attachment security and improve skills in closeness/distance regulation and emotion regulation for anxious-preoccupied patients. 
+
+This technique is based on the five primary parental behavioral conditions that promote secure attachment: **protection**, **attunement**, **soothing**, **expressed delight**, and **fostering best self-development**.
 
 **Protection and Safety**
 - Anxious-preoccupied patients are markedly fearful and have a generalized anxiety disorder or panic disorder diagnosis.
@@ -8530,13 +8603,11 @@ IPF imagery is a therapeutic technique used to promote attachment security and i
 
 ### Fostering Collaboration in Anxious-Preoccupied Patients
 
-**Fostering Collaboration in Anxious-Preoccupied Patients**
-
 Anxious-preoccupied patients are characterized by excessive self-disclosure, easy crying, and attuned nonverbal behavior, but these behaviors do not necessarily indicate collaborative behavior. Instead, they represent strategies for pleasing the therapist and an outside-in orientation.
 
 **Self-Disclosure**: Anxious-preoccupied patients often self-disclose excessively as a sign of compliance with what they presume the therapist wants. The therapist should acknowledge the disclosure but redirect the focus to the patient's experience underlying it.
 
-Example Interchange:
+**Example Interchange**:
 - **Patient**: I’m really worried about whether you will be able to help me or understand me at all, so I want you to really know what’s on my mind. I know I’m the kind of person who can be a real pain in the ass. I’m always so nervous and afraid and on edge. God! I just can’t slow my mind down for a second. I worry about my son and his drinking, and I worry about my mother . . . she’s getting up there, you know . . . and my daughter keeps losing one job after another . . . I’m probably gonna have to give her money again.
 - **Therapist**: I appreciate you letting me in on a lot of your worries, but I wonder if you could tell me what it’s like for you to be so concerned for everyone else so much of the time . . . It sounds exhausting!
 
@@ -8552,15 +8623,13 @@ Example Interchange:
 
 **Verbal Behavior**: Anxious-preoccupied patients are verbally noncollaborative, talking on and on without pauses or providing opportunities for turn-taking. The therapist should highlight the patient's failure to follow basic rules of verbal collaborative dialogue and help them learn to frame discourse in terms of succinct meaningful units.
 
-Example Interchange:
+**Example Interchange**:
 - **Patient**: The thing is, I don’t know . . . I know I’m an adult-child so that makes a difference, I guess; I am so codependent, too, so that doesn’t help either—it just gets me so upset when I know things could be better between us, but I don’t understand why it always becomes an argument.
 - **Therapist**: I know you’re saying a lot, but I am confused about what you actually mean. If you don’t worry about labels like codependent or adult-child, perhaps you can try again to explain the point you’re trying to make.
 - **Patient**: Okay, well I guess I am just trying to say that there must be something about me and the way I react that is part of the problem in my relationship, and I want to understand what it is.
 - **Therapist**: That is much clearer and more direct. I think we can definitely explore what you contribute to the relationship that’s not helpful.
 
 ### Enhancing Metacognitive Skills in Anxious-Preoccupied Patients
-
-**Enhancing Metacognitive Skills in Anxious-Preoccupied Patients**
 
 Anxious-preoccupied patients, as identified by low reflective capacity scores on the Reflective Functioning Scale (RF-S), require specific methods to enhance their metacognitive skills. The following are key strategies for therapists working with anxious-preoccupied patients:
 
@@ -8615,14 +8684,11 @@ Ultimately, the goal is for anxious-preoccupied patients to develop the capacity
 
 ### Stages in the Treatment of the Anxious-Preoccupied Patient
 
-**Stages in the Treatment of the Anxious-Preoccupied Patient**
-
 1. **Initially**:
    * Therapist introduces cooperative behavior as a way to temper attachment system hyperactivation and reactivate exploratory behavior.
    * Systematic use of IPF (Ideal Parent Figure) imagery.
    * Emphasis on noninvolving parent figures who attune carefully and consistently to the patient's state of mind.
    * Parent figures in imagery soothe, comfort, and reassure the child to lower anxious arousal and temper hyperactivated attachment behavior.
-
 2. **Middle Stage**:
    * Focus on episodes of hyperactivated attachment behavior in therapeutic relationship.
    * Ruptures in therapy relationship due to empathic failures or heightened abandonment fear.
@@ -8630,7 +8696,6 @@ Ultimately, the goal is for anxious-preoccupied patients to develop the capacity
    * Therapist calls upon cooperative behavioral system to address ruptures or threats collaboratively.
    * Shared metacognitive exploration to identify and understand patient's state of mind during hyperactivated attachment episodes.
    * Repairing therapeutic ruptures reactivates attachment system and supports emerging sense of trust and security.
-
 3. **Middle to Late Stages**:
    * Enhancing self-development and self-esteem, especially the emergence of a healthy exploratory system.
    * Therapist serves as secure base for self-exploration.
@@ -8640,7 +8705,6 @@ Ultimately, the goal is for anxious-preoccupied patients to develop the capacity
    * Balanced focus on state of mind of both self and other.
    * Reactivation of exploratory system.
    * Capacity to sustain self-exploration without hyperactivation of attachment behavior is the strongest indicator of progress.
-
 4. **Later Stages**:
    * Developing a positive IWM (Internal Working Model) for secure intimacy.
    * Imagery of ideal intimate partners who meet conditions of secure intimacy.
@@ -8649,7 +8713,7 @@ Ultimately, the goal is for anxious-preoccupied patients to develop the capacity
 
 ### Case Illustration
 
-**Case Illustration: Anxious-Preoccupied Attachment Pattern with Helen**
+**Anxious-Preoccupied Attachment Pattern with Helen**
 
 * **Background**: Helen, a woman in her 30s, had a history of psychiatric hospitalizations and various diagnoses including bipolar II disorder, obsessive-compulsive disorder, borderline personality disorder, panic disorder, and dissociative disorder not otherwise specified. She had taken seven overdoses of prescription medications without suicidal intent but to escape unbearable agitation.
 * **Attachment Classification**: Helen's Adult Attachment Interview (AAI) produced an insecure attachment classification of CC/E3/Ds1, indicating a mixed strategy with the anxious-preoccupied pattern as predominant and some dismissing features. Her pre-treatment AAI coherence was 2.0 out of 9.
@@ -8658,7 +8722,7 @@ Ultimately, the goal is for anxious-preoccupied patients to develop the capacity
 * **Therapy Experience**: Helen had difficulty describing her experiences effectively due to passivity and painful shyness. She began taking over-the-counter medications and exhibited signs of dissociation during therapy sessions. The warm nurse's hugs were comforting but confusing, leading to tears and shame. Endings of therapy sessions evoked feelings of being alone and unprotected, increasing interpersonal intensity and resulting in fear and sadness.
 * **Impact of Treatment**: The Three Pillars method led to significant improvements for Helen, including a secure attachment classification, increased coherence score, and improved reflective functioning. These changes represent a marked improvement for this patient with a complex psychiatric history and attachment pattern.
 
-### Dialectical behavioral therapy (DBT) treatment was sought by the patient and her family because of her extreme difficulty regulating her emotions and 
+### Dialectical behavioral therapy (DBT) 
 
 **Dialectical Behavioral Therapy (DBT) and Patient's Background**
 
@@ -8683,11 +8747,11 @@ Ultimately, the goal is for anxious-preoccupied patients to develop the capacity
 **Therapist Interventions and Observations (IPF segments)**
 
 - Utilized adjectives given by Helen to describe her relationships with mother and father.
-  *Reactive, sensitive, moody, sad, and distant for mother figure.*
-  *Serious, hardworking, demanding, protective, and playful for father figure.*
+  - *Reactive, sensitive, moody, sad, and distant for mother figure.*
+  - *Serious, hardworking, demanding, protective, and playful for father figure.*
 - Applied positive opposites of these adjectives to each respective ideal parent figure.
-  *Highly responsive, sturdy, consistent, strong, and carefully attuned for mother figure.*
-  *Never angry, present and just being with her, deeply patient and seeing how special she is for father figure.*
+  - *Highly responsive, sturdy, consistent, strong, and carefully attuned for mother figure.*
+  - *Never angry, present and just being with her, deeply patient and seeing how special she is for father figure.*
 - Kept protective and playful adjectives for both ideal parent figures.
 
 **Key Concepts**
@@ -8695,8 +8759,6 @@ Ultimately, the goal is for anxious-preoccupied patients to develop the capacity
 - DBT treatment was not effective due to patient's preoccupied attachment patterns and therapist's interventions.
 - Attachment-focused therapy was introduced to address underlying issues and stressors.
 - Therapist used adjectives given by the patient to describe her parents and applied positive opposites to ideal parent figures.
-
-### Patient: I’m really, really anxious today. Well, it’s mostly about finding out about the results of the test that I took . . . I’m just scared of fail
 
 **IPF Protocol Session**:
 
@@ -8720,11 +8782,7 @@ Ultimately, the goal is for anxious-preoccupied patients to develop the capacity
 
 **Observations**: The therapist observes the patient's progress throughout the session, adjusting the qualities of the ideal parents as needed to ensure a comfortable fit for the patient.
 
-### here that patient’s breaths are becoming more shallow) Remembering to take nice deep breaths, Helen. Good. Patient: Well like what comes to mind is li
-
-**Text Summary**:
-
-* The patient, Helen, is in therapy session discussing her anxiety and recalling memories of parents who exhibited different levels of confidence and attunement.
+**Helen, discussing her anxiety and recalling memories of parents who exhibited different levels of confidence and attunement.**
 * Therapist encourages Helen to focus on the image of parents who have confidence in her self-development and are deeply attuned to her needs.
 * Helen imagines these parents as being there when she needs them but also allowing her independence.
 * Therapist guides Helen to use her imagination to fully experience this feeling, noticing her body sensations and emotions.
@@ -8732,32 +8790,7 @@ Ultimately, the goal is for anxious-preoccupied patients to develop the capacity
 * Therapist acknowledges the importance of this attachment figure in Helen's life and encourages her to weave this quality into her imagined parents.
 * Helen reflects that this nurse made her feel important, and the therapist affirms this feeling.
 
-**Key Concepts**:
-
-* **Self-development**: The patient is encouraged to focus on the image of parents who support her independence and confidence in herself.
-* **Imagery**: The therapist guides the patient to use her imagination to fully experience the feeling of having attuned parents.
-* **Attachment figures**: The patient recalls a significant attachment figure from her past, and the therapist acknowledges the importance of this figure in her life.
-* **Felt sense**: The therapist encourages the patient to notice her body sensations and emotions as she imagines having attuned parents.
-* **Deep listening**: The therapist models deep listening and attunement, creating a safe space for the patient to explore her feelings.
-
-### Patient: . . . and like they . . . would kind of like make sure to meet my needs as much as possible. Therapist: Yes, they see how special you are. Th
-
-**Session Overview**:
-
-In this text, a therapist is conducting a session with a patient named Helen using an Imaginal Relational Reframe (IPF) technique to help her process her attachment style and emotional regulation. The session focuses on Helen's experience of her parents and her feelings of inadequacy.
-
-**Key Concepts**:
-
-1. **Attachment Style**: Helen expresses difficulty with imagining accepting and understanding parents, leading the therapist to explore her attachment style.
-2. **Emotional Regulation**: The therapist helps Helen recognize and manage her emotions, particularly anxiety, throughout the session.
-3. **Imaginal Relational Reframe (IPF)**: The therapist uses this technique to help Helen imagine ideal parents who accept and understand her fully.
-4. **Metacognitive Awareness**: The therapist encourages Helen to develop metacognitive skills, allowing her to observe her thoughts and emotions from a distance.
-5. **Proximity-Seeking**: Helen expresses a need for physical closeness and comfort from her ideal parents.
-6. **Dream Interpretation**: In the session following the IPF exercise, Helen shares a dream that reveals her preoccupied stance towards the therapist's emotions.
-
-**Session Details**:
-
-* Helen expresses difficulty imagining understanding parents and feeling special to them.
+**Helen expresses difficulty imagining understanding parents and feeling special to them.**
 * The therapist acknowledges Helen's uniqueness and attunement from her parents.
 * Helen feels something is wrong with her, but can't understand why.
 * Therapist encourages Helen to recognize her internal emotional state and patterns.
@@ -8771,16 +8804,10 @@ In this text, a therapist is conducting a session with a patient named Helen usi
 * The therapist acknowledges Helen's agency in seeking proximity and understanding her needs.
 * Helen experiences a decrease in anxiety to a level 3 out of 10.
 * Therapist asks if it is okay to leave the scene, and Helen nods in agreement.
-* In the following session, Helen shares a dream where she perceived the therapist as upset and crying about her reaction to Helen's words. The therapist acknowledges this perception but clarifies that her emotions were not related to Helen's sharing.
 
-### Therapist: And what did it seem like was the reaction I had to what you were saying? Patient: Oh. So that I’m not sure. That wasn’t clear in the dream
-
-**Dream Analysis Session**
-
+**In the following session, Helen shares a dream**
+* she perceived the therapist as upset and crying about her reaction to Helen's words. The therapist acknowledges this perception but clarifies that her emotions were not related to Helen's sharing.
 * Patient (Helen) had a dream where she noticed her therapist reacting to what she was saying during an interview, but she wasn't sure what the reaction was or its significance.
-
-**Themes in Therapy**
-
 * The therapist suggested exploring themes from the dream that could be relevant to Helen's therapy.
 * Helen mentioned that it was strange her therapist seemed to have reactions to her answers but didn't want her to notice.
 * This reminded Helen of her experiences with her mother, who had variable responsiveness and confusing emotions.
@@ -8805,17 +8832,7 @@ In this text, a therapist is conducting a session with a patient named Helen usi
 * The therapist acknowledged Helen's progress but encouraged her to make a distinction between times when she could force herself to work hard and times when she needed to tend to herself and pay attention to her moods.
 * Helen shared that she was able to recognize the upset as part of acclimating and adjusting, which allowed her to take time for self-care before returning to her work.
 
-### Patient: Yeah, I don’t know, like it . . . it did like freak me out a little bit because I did start thinking about like cutting and like I . . . like
-
-**Text Summary**:
-
-**Background**: A patient is undergoing Dialectical Behavior Therapy (DBT) sessions with a therapist. The patient shares that she had thoughts of self-harm and suicide but was able to recognize it as a way to escape her current state of mind.
-
 **Metacognitive Mastery**: The therapist acknowledges the patient's improvement in recognizing her emotions and states of mind, marking it as a significant progress from the beginning of therapy. The patient feels uncomfortable with the therapist's enthusiasm and expresses resistance towards DBT.
-
-**Session Agenda**: The session begins with the patient asking about the agenda for the day, which includes working on ideal parent figures. The therapist explains they will do a different version of it and asks the patient to track her feelings internally during the exercise.
-
-**Nonverbal Communication**: The therapist notices the patient's nonverbal indicators of resistance and encourages her to stay focused.
 
 **Guided Imagery**: The therapist leads the patient through a guided imagery exercise, asking her to imagine being with her ideal parents in various scenarios. The patient struggles to stay focused and shifts her thoughts to past experiences.
 
@@ -8827,20 +8844,16 @@ In this text, a therapist is conducting a session with a patient named Helen usi
 
 **Outcome**: The session ends with the patient expressing a sense of safety and increased focus, feeling calmer and more reassured in the presence of her ideal parents.
 
-### Therapist: Okay. So just go ahead and really absorb how that feels, all together. You can stay with that as long as you’d like . . . And when you’re r
-
-**Therapy Session**:
-
 **Therapist's Instructions**:
 - Absorb feelings from previous discussion
 - Imagine a scene with ideal parents for comfort and security
 - Share observations of the effect of their presence
 
 **Patient's Experience**:
-*Yesterday, felt agitated and alone while lying on bed*
-*Imagined ideal parents providing reassurance and support*
-*Noticed feeling less scared and alone with their presence*
-*Distracted during session, didn't want to continue
+- *Yesterday, felt agitated and alone while lying on bed*
+- *Imagined ideal parents providing reassurance and support*
+- *Noticed feeling less scared and alone with their presence*
+- *Distracted during session, didn't want to continue
 
 **Identifying the Issue**:
 - Therapist noticed patient was distracted
@@ -8848,17 +8861,16 @@ In this text, a therapist is conducting a session with a patient named Helen usi
 - Ideal parent protocol used to address self-consciousness
 
 **Addressing Self-Consciousness**:
-*Patient sits between ideal parents, both present and calming*
-*Notes their qualities: accepting, non-judgmental, calming, and present*
-*Effect: able to get up and not feel stuck*
-*Relaxation achieved by resting head on their shoulders*
-*Deep relief and relaxation in body and mind*
+- *Patient sits between ideal parents, both present and calming*
+- *Notes their qualities: accepting, non-judgmental, calming, and present*
+- *Effect: able to get up and not feel stuck*
+- *Relaxation achieved by resting head on their shoulders*
+- *Deep relief and relaxation in body and mind*
 
 **Conclusion**:
 - Patient felt good after the session
 - No desire for further scenes at that time.
 
-### As was noted in the introduction to this case, the Three Pillars treatment led to an increase of Helen’s coherence on the AAI transcript from a 2 to a
 
 **Three Pillars Treatment: Helen's Case**
 
@@ -8890,8 +8902,6 @@ In this text, a therapist is conducting a session with a patient named Helen usi
 * In the next chapter, focus on treatment considerations for patients with disorganized attachment who show a prominent mix of both anxious-preoccupied and dismissing strategies.
 
 ## Chapter 13 Treating Disorganized or Fearful Attachment
-
-**Chapter 13: Treating Disorganized or Fearful Attachment**
 
 **Origins of Disorganized or Fearful Attachment**
 
@@ -8961,8 +8971,6 @@ The origins of disorganized attachment are complex, and there seem to be multipl
 * Suggest new set of ideal parent figures for each significant behavioral or state shift in the treatment session
 * Patient's overall experience approximates continuous IPF responsiveness
 
-### Therapists of disorganized patients benefit from understanding the different forms of dissociation that such patients might manifest. Van der Hart, Ni
-
 **Understanding Dissociation and Structural Dissociation in Therapy**
 
 - ***Van der Hart et al.* **(2004) argued against the distinction between two types of dissociation**: dissociative shifts in consciousness and structural dissociation.
@@ -8987,10 +8995,6 @@ The origins of disorganized attachment are complex, and there seem to be multipl
 - **Chronic-heightened Fear Arousal**: IPFs are carefully attuned to the child's fear arousal and know how to comfort and reassure them.
 - **Protection**: IPFs are fiercely protective but not intrusively protective of the patient-as-child.
 - **Emotional Arousal**: IPFs stimulate the patient-as-child's full range of emotional arousal in the intersubjective collaboration.
-
-### Seventh, since many disorganized patients have learned to expect others to be dissociative and not present, IPFs are shaped to be fully present, consi
-
-**Key Concept**: Intensive Parenting Fundamentals (IPFs) for Disorganized Attachment
 
 **Role of IPFs**:
 
@@ -9029,12 +9033,8 @@ By focusing on these considerations, clinicians can effectively address the need
 4. **Protection**: IPFs provide an approachable safe haven that is not associated with fear arousal but rather with calmness and serenity.
 5. **Attunement**: IPFs consistently and accurately recognize and respond to the full range of the patient's negative and positive emotional states, supporting intersubjective reciprocal exchange and reducing emotional numbness.
 
-### Thereby, the disorganized patient-as-child learns to trust his or her affects and to become effective in expressing them in the context of the imagine
-
-**Attachment Theory and Disorganized Attachment**
-
 - Disorganized patients have difficulty with trusting their affects and expressing them effectively in relationships due to unresolved attachment issues from childhood.
-- The Infant-Parent Freudian (IPF) approach helps disorganized patients by providing a safe, consistent relationship that supports the reactivation and balance of the attachment behavioral system.
+- The IPF approach helps disorganized patients by providing a safe, consistent relationship that supports the reactivation and balance of the attachment behavioral system.
 - IPFs respond effectively to disorganized attachment behaviors, enabling patients to express healthy, organized attachment behaviors when proximity-seeking is needed.
 
 **IPFs' Role in Supporting Disorganized Patients**
@@ -9055,8 +9055,6 @@ By focusing on these considerations, clinicians can effectively address the need
 - The therapist asked the patient about specific memories or incidents that illustrate each adjective during the session.
 - Similarly, the patient described her father as affectionate, scary, overbearing, powerful, and loving.
 - The therapist asked the patient about specific memories or incidents that illustrate each adjective for her father during the session.
-
-### The therapist translated the five adjectives for each parent into their positive opposites, which were then given to the ideal parent figures in the i
 
 **Ideal Parent Figures in Imagery Process (IPF)**
 
@@ -9084,42 +9082,33 @@ By focusing on these considerations, clinicians can effectively address the need
 
 ### Stages in the Treatment of the Disorganized Patient
 
-**Stages in the Treatment of the Disorganized Patient**
-
-**1. **Establishing a Mutually Agreed Upon Treatment Frame**:
-- Collaborative negotiation of clear expectations, responsibilities, and ground rules
-- Addressing disruptions caused by noncollaborative behavior of disorganized patients
-
-**2. **Attenuating Fearfulness**:
-- Early focus on reducing fearfulness in general or fearfulness related to certain parts of the mind
-- Ideal Parent Figures (IPFs) provide protection and safety without fear
-- IPF work done consistently until patient can sustain a sense of safety
-
-**3. **Addressing Dismissing Parts or Behaviors**:
-- Shaping IPFs for each part or self-state that has deactivated the attachment system
-- Normalizing longing for attachment and addressing shame
-- Soothing and containing acting-out impulses
-
-**4. **Working with Resistant Parts or Self-States**:
-- Cooperative behavioral system used when strong resistance is encountered
-- Introducing IPF imagery for parts that are not yet connected or blocking connection
-- Shaping IPFs to address and help these parts
-
-**5. **Calling Forth All Parts**:
-- Systematically calling forth parts that need to feel securely attached
-- Decreasing dissociation and fostering a unified sense of self
-
-**6. **Activating the Exploratory Behavioral System**:
-- IPF imagery for parent figures who encourage and support self-development
-- Secure base for exploration within a unified self
-- Supporting self-development through methods in Appendix A
-
-**7. **Cultivating Postformal Metacognitive Skills**:
-- Developing coherence of mind and orientation focused on present, adult, self
-- Relinquishing hyperactivating strategies and attachment behaviors
-
-**8. **Developing Secure Adult Intimacy**:
-- Turning to the theme of developing secure adult intimacy (see Appendix B)
+1. **Establishing a Mutually Agreed Upon Treatment Frame**:
+   - Collaborative negotiation of clear expectations, responsibilities, and ground rules
+   - Addressing disruptions caused by noncollaborative behavior of disorganized patients
+2. **Attenuating Fearfulness**:
+   - Early focus on reducing fearfulness in general or fearfulness related to certain parts of the mind
+   - Ideal Parent Figures (IPFs) provide protection and safety without fear
+   - IPF work done consistently until patient can sustain a sense of safety
+3. **Addressing Dismissing Parts or Behaviors**:
+   - Shaping IPFs for each part or self-state that has deactivated the attachment system
+   - Normalizing longing for attachment and addressing shame
+   - Soothing and containing acting-out impulses
+4. **Working with Resistant Parts or Self-States**:
+   - Cooperative behavioral system used when strong resistance is encountered
+   - Introducing IPF imagery for parts that are not yet connected or blocking connection
+   - Shaping IPFs to address and help these parts
+5. **Calling Forth All Parts**:
+   - Systematically calling forth parts that need to feel securely attached
+   - Decreasing dissociation and fostering a unified sense of self
+6. **Activating the Exploratory Behavioral System**:
+   - IPF imagery for parent figures who encourage and support self-development
+   - Secure base for exploration within a unified self
+   - Supporting self-development through methods in Appendix A
+7. **Cultivating Postformal Metacognitive Skills**:
+   - Developing coherence of mind and orientation focused on present, adult, self
+   - Relinquishing hyperactivating strategies and attachment behaviors
+8. **Developing Secure Adult Intimacy**:
+   - Turning to the theme of developing secure adult intimacy (see Appendix B)
 
 ### Case Illustration
 
@@ -9137,11 +9126,7 @@ By focusing on these considerations, clinicians can effectively address the need
 
 **Outcome**: Despite her initial resistance, the patient eventually began to imagine IPFs who could provide the sense of security she had never felt before. The therapy continued to focus on attachment-based methods to help her process her traumatic experiences and develop a stronger sense of self.
 
-### Patient: It doesn’t! [Patient continues with dismissing stance] Therapist: You evoke those limiting beliefs because you don’t want to feel. But these 
-
-**Text Summary**:
-
-* Patient expresses dismissive attitude towards attachment and feelings of vulnerability and fear.
+**Patient expresses dismissive attitude towards attachment and feelings of vulnerability and fear.**
 * Therapist emphasizes the naturalness and healthiness of feeling vulnerable and needing connection.
 * Patient acknowledges her fear of connection due to past experiences of rejection and harm.
 * Therapist encourages patient to imagine ideal parents (IPF) who would provide a secure attachment free from fear and judgment.
@@ -9152,36 +9137,22 @@ By focusing on these considerations, clinicians can effectively address the need
 * Patient imagines bringing the connection to dismissing parts, represented by "devil parts" and the Wise Man.
 * Therapist encourages active engagement with dismissing parts, emphasizing understanding and compassion for their fear and isolation.
 
-**Key Concepts**:
-
-* **Limiting beliefs**: The patient's belief that she cannot feel or experience attachment due to past experiences of rejection and harm.
-* **Secure attachment**: A healthy emotional bond between an infant and a caregiver, characterized by feelings of safety, comfort, and connection.
-* **Ideal parents (IPF)**: An imagined figure who provides a secure attachment free from fear and judgment.
-* **Free expression**: Encouraging the child to express whatever they are feeling freely and openly as a way of letting them be themselves.
-* **Active engagement**: Therapist's stance of actively engaging with dismissing parts, bringing the connection to them instead of trying to deny or suppress their feelings.
-
-### Patient: They are afraid. Therapist: Of course they are, but this time they can trust it, because the Wise Man is being is so different . . . he is so
-
-**Text Summary**:
-
-* The patient is afraid due to past attachment figures being associated with fear and exploitation, but introduces a new figure, the Wise Man, who is different and offers security and compassion.
+**The patient is afraid due to past attachment figures being associated with fear and exploitation**
+* introduces a new figure, the Wise Man, who is different and offers security and compassion.
 * The therapist positively reframes the patient's fear as longing for attachment and helps them explore their feelings.
 * The patient begins to see proximity-seeking as something positive and starts exhibiting exploratory behavior.
 * The therapist encourages metacognitive awareness of the patient's state of mind and fosters curiosity about their real nature.
 * The patient starts to remember their capacity for innocence and wonder, which was forgotten due to limiting beliefs.
 * The therapist reframes attachment as a normal part of the child's real nature instead of a source of shame.
-* The patient expresses a desire to find the place of no pain with the Wise Man but struggles with limiting beliefs.
+
+**The patient expresses a desire to find the place of no pain with the Wise Man but struggles with limiting beliefs.**
 * The therapist assures the patient that the security of the connection runs deeper than their limiting beliefs and encourages them to imagine just the right kind of secure relationship for all parts of their mind.
 * During subsequent sessions, the patient forms Internal Parent Figures (IPFs) for various parts of their mind, including Whoopi, Atticus, the Dalai Lama, a Guardian Angel, a Wild Animal Trainer, and Gandhi.
 * The patient begins to develop metacognitive capacity to monitor and modify beliefs about their father's ongoing negative influence.
 * They form a new IPF, the Count of Monte Cristo, to replace the abusive father figure.
 * The patient reports feeling good after forming this new attachment figure and later forms another IPF, a policewoman, to address suicidal thoughts and protect child parts from their father's abuse.
 
-### Patient: There is a part of me that doesn’t want to live anymore. My friend Doris tells them that life is 319 so precious. Therapist: Yes, you can fin
-
-**Text Summary**:
-
-* The patient is experiencing suicidal thoughts and feels disconnected from life.
+**The patient is experiencing suicidal thoughts and feels disconnected from life.**
 * Doris and the therapist encourage the patient to find value in living and offer support.
 * The patient begins to form an attachment with the therapist through attachment-based treatment.
 * The patient's inner parts, including fearful and resistant ones, start to see the therapist as a secure base.
@@ -9209,10 +9180,6 @@ By focusing on these considerations, clinicians can effectively address the need
 * The patient's fear shifts from fear of being harmed to fear of losing the attachment.
 * The therapist acknowledges the patient's fears but encourages her to trust the secure relationship.
 * The patient struggles with the idea of all parts feeling securely connected simultaneously, but eventually begins to understand that it is possible.
-
-### Patient: It’s too much. Therapist: I know . . . and the Wise Man and the other parent figures, they understand how afraid you are and yet they want yo
-
-**Attachment-Based Therapy Session**:
 
 **Patient's Fear and Desire for Security**
 
@@ -9267,12 +9234,6 @@ By focusing on these considerations, clinicians can effectively address the need
 * They show compassion for their abusive father through the lens of the Wise Man
 * They feel comfortable exploring the world with the support of the Wise Man
 
-**Conclusion**:
-
-In this attachment-based therapy session, the therapist helps the patient explore their fear and desire for security by acknowledging their feelings, encouraging them to imagine feeling secure in relationships, and fostering metacognitive awareness. Through various metaphors and collaborative discussions, the patient begins to understand the concept of wholeness amidst diversity and experiences significant changes in their state of mind, including a stable sense of self, fewer nightmares, increased reflection, and compassion for their abusive father.
-
-### They can just enjoy wherever they are. [Patient is beginning to show signs of the metacognitive capacity to relate different states to each other] I n
-
 **Metacognition and Organizational Capacity**
 
 - The patient is beginning to show signs of metacognitive capacity, relating different states to each other (e.g., more organized mind when parts are secure)
@@ -9304,12 +9265,6 @@ In this attachment-based therapy session, the therapist helps the patient explor
 - Therapist invites patient to adopt a wider metacognitive perspective by looking at themselves as the sun, observing the reflections (parts) from that vantage point.
 - Patient realizes that parts are reflections of their being and not independent entities.
 
-### Therapist: To make it more concrete . . . what do the child parts look like from the perspective of the sun? What do the devil parts look like? The in
-
-**Text Summary**:
-
-The following text is a conversation between a therapist and a patient undergoing psychotherapy. The patient discusses her internal experiences using metaphors of the sun, planets, and parts of herself.
-
 **Sun, Planets, and Parts**:
 
 - The patient sees the sun as a central core or complete part of herself, larger than other parts or "planets."
@@ -9335,12 +9290,6 @@ The following text is a conversation between a therapist and a patient undergoin
 - She can now hold multiple perspectives at once and make choices based on reflection.
 - The patient has developed a healthy sense of exploration of her own mind.
 
-**Conclusion**:
-
-Throughout the therapy sessions, the patient's understanding of herself and her internal experiences evolved, leading to increased metacognitive awareness, organization, and overall growth. She gained a wider perspective, became more spontaneous, and developed skills to navigate her thoughts and emotions effectively.
-
-### By the end of the fourth year of treatment, she was able to articulate many qualities of the newly emergent self: Patient: I was thinking about the ne
-
 **Mentalization-Based Therapy: Fourth Year of Treatment**
 
 **Patient's Self-Articulation of Newly Emergent Self**
@@ -9352,37 +9301,33 @@ Throughout the therapy sessions, the patient's understanding of herself and her 
 
 **Session Transcript**
 
-_Internalized Mentalization Stance_
+**Internalized Mentalization Stance**
 - Patient developed an internal representation of felt attachment to therapist.
 - This led to increased stability and openness to the therapist's seeing and knowing her mind.
 
-_Metacognition of Relativity of States_
+**Metacognition of Relativity of States**
 - Therapist helped patient understand that loneliness is a construction of the mind, not an inherently negative state.
 - Patient realized that her ideas about loneliness were what weighed her down, rather than the state itself.
 
-_Impact of Context on Awareness and Organization_
+**Impact of Context on Awareness and Organization**
 - Patient noticed that things happening in her life affected her awareness and organization, which in turn influenced her feeling state and peace of mind.
 
-_Vulnerability to External Things_
+**Vulnerability to External Things**
 - The patient's anticipation of losing her dog made her more vulnerable to external stimuli.
 - She was unsure if this was due to dissociation or a change in organization.
 
-_Metacognitive Awareness of Contextual Effects_
+**Metacognitive Awareness of Contextual Effects**
 - Therapist acknowledged the impact of context on the patient's state of mind.
 - Patient recognized that her awareness and feeling better were being lost, possibly due to a dissociative shift.
 
-_Dissociation_
+**Dissociation**
 - The patient was experiencing less disorganized dissociation but more nonawareness dissociation.
 - She was still less present and aware under stressful conditions, such as the potential loss of her dog.
 
-_Improvement_
+**Improvement**
 - Despite the ongoing challenges, the patient saw this as an improvement due to her increased understanding of mentalization and metacognition.
 
-### Therapist: Absolutely . . . and there’s a funny paradox here . . . not only are you less aware, but you are more aware of being less aware. Patient: S
-
-**Therapy Session**:
-
-* Patient expresses paradoxical experience of being less aware but more aware of being less aware after a year of internal change
+**Patient expresses paradoxical experience of being less aware but more aware of being less aware after a year of internal change**
 * Therapist acknowledges partial loss of awareness, not complete
 * Patient connects current situation to difficulty dealing with hopeless situations and feeling helpful in those moments
 * Patient derives satisfaction from being helpful and feels good about herself in these instances
@@ -9391,27 +9336,8 @@ _Improvement_
 * By the end of fourth year, patient no longer met diagnostic criteria for PTSD or DID
 * Patient's coherence of mind improved from 1.5 to 8.5 on AAI and reflective capacity from –1 to 8.5 on Reflective Functioning Scale
 
-**Patient's Experience**:
-
-* Less aware but more aware of being less aware after a year of internal change
-* Feels vulnerable to shifts in awareness, context-dependent
-* Difficulty dealing with hopeless situations
-* Derives satisfaction from being helpful and feeling good about herself in these moments
-* Struggles to be present and helpful when not in an aware state and facing her own loss
-* Connection explored between current situation and dealing with family members' deaths at work
-
-**Therapist's Interventions**:
-
-* Acknowledges partial loss of awareness, not complete
-* Explores connection between patient's experience and professional experiences
-* Draws from general principles of treatment model to guide choices and considerations
-* Applies specific interventions as warranted by the moment with the patient.
-
-### PART V TREATMENT GUIDE AND EXPECTED OUTCOMES CHAPTER 14 A Step-by-Step Treatment Guide
-
-**Part V: Treatment Guide and Expected Outcomes**
-
-**Chapter 14: A Step-by-Step Treatment Guide**
+## PART V TREATMENT GUIDE AND EXPECTED OUTCOMES
+## CHAPTER 14 A Step-by-Step Treatment Guide
 
 **Preparation for Treatment**
 
@@ -9464,8 +9390,6 @@ _Improvement_
 * Improved problem-solving and decision-making abilities
 * Development of a support network
 * Greater sense of purpose and meaning in life.
-
-## Chapters 8, 9, and 10 describe in detail each of the three pillars of our treatment model, and Chapters 11, 12, and 13 present the specific considerat
 
 **Three Pillars of Treatment Model: Overview**
 
@@ -9605,68 +9529,36 @@ _Improvement_
   - Temporarily losing connection to where one is
   - Periods of time that can't be remembered or accounted for.
 
-### Our overall goal is to help you to develop a new, different, positive internal working model of relationships so that you will no longer find yourself
-
-**Text Summary**: This text outlines a therapeutic approach to help individuals with attachment issues develop new, positive internal working models of relationships. The goal is to create "ideal parent figures" through imagination, providing safety, interest, consistency, and encouragement.
-
-**Key Concepts**:
-
-1. **Developing Ideal Parent Figures**:
-   - Create safe, strong, attuned parents through imagination.
-   - Encourage collaboration in therapy sessions.
-   - Address nonverbal and verbal behaviors for better communication.
-
-2. **Treatment Frame**:
-   - Discuss potential problems and create a contract.
-   - Collaborate on addressing noncollaborative behavior.
-
-3. **Imagery Process**:
-   - Clarify difference between memory and imagination.
-   - Use imagination to create ideal parent figures.
-   - Establish inner conditions for imagery.
-   - Address resistances and difficulties.
-
-4. **Qualities of Ideal Parent Figures**:
-   - Protection, attunement, soothing, expressed delight, support for best self-development.
-   - Individualize IPF qualities based on attachment prototype.
-
 **Therapeutic Process**:
 
 1. **Creating Ideal Parent Figures**:
    - Develop "ideal parent figures" through imagination.
    - Ensure parents are a safe haven, free of fear.
    - Encourage exploration and self-discovery.
-
 2. **Collaborative Communication**:
    - Address noncollaborative nonverbal behavior.
    - Promote collaborative nonverbal behavior.
    - Address noncollaborative verbal behavior.
    - Promote collaborative verbal behavior.
-
 3. **Treatment Frame**:
    - Discuss potential problems and create a contract.
    - Collaborate on addressing noncollaborative behavior.
-
 4. **Imagery Process**:
    - Clarify difference between memory and imagination.
    - Use imagination to create ideal parent figures.
    - Establish inner conditions for imagery (calm, relaxed focus).
    - Address resistances and difficulties.
-
 5. **Qualities of Ideal Parent Figures**:
    - **Protection**: Provide safety and security.
    - **Attunement**: Recognize and respond to emotional needs.
    - **Soothing**: Reduce fears and anxieties.
    - **Expressed delight**: Show appreciation and enjoyment.
    - **Support for best self-development**: Encourage growth and exploration.
-
 6. **Individualizing Ideal Parent Figures**:
    - Based on attachment prototype, emphasize specific qualities.
    - **For dismissive patients**: deep acceptance, accurate attunement, normalization of feelings, openness, fostering exploration in the context of attachment.
    - **For anxious-preoccupied patients**: consistent attention to state of mind, provision of comfort and security, repeated support for exploratory behavior, fostering best self-development.
    - **For disorganized patients**: reliable provision of soothing and comfort, reduction of fears related to attachment.
-
-### Therefore, shape the IPF imagery to include calm, comforting, and predictable behavior; provision of a safe haven; being fully present and real; caref
 
 **IPF Imagery in Interactions with Patients**:
 
@@ -9705,10 +9597,7 @@ _Improvement_
 
 * Reflective Function Questionnaire (RFQ) - a self-report measure of mentalizing being developed by Peter Fonagy and his colleagues.
 
-## Chapter 15 Treatment Outcomes Indicators of Successful Treatment
-
-**Chapter 15: Treatment Outcomes**
-
+## Chapter 15 Treatment Outcomes
 **Indicators of Successful Treatment**
 
 Over the past 20 years, the Three Pillars treatment has identified several markers of successful outcome:
@@ -9716,40 +9605,31 @@ Over the past 20 years, the Three Pillars treatment has identified several marke
 1. **Achievement of earned secure attachment**:
    - Change from pre-treatment insecure attachment (Ds1, Ds2, Ds3, E1, E2, E3, CC) to secure attachment (F1, F2, F3, F4, F5), as measured by the Adult Attachment Interview (AAI).
    - First described by Levy et al. (2006) as a measurable outcome of therapy.
-
 2. **Formation of a new, positive stable internal working model for healthy adult attachment**:
    - Development of a new representation for secure attachment through ideal parent figure imagery and therapeutic relationship.
    - Self-reported experiences of IPF imagery, including secure base and balance between attachment and exploratory behaviors.
    - Healthy relationships with therapist and others outside therapy.
-
 3. **Capacity for adult secure intimacy**:
    - Development of a new positive representation for adult secure intimacy.
    - Patient makes partner choices and engages in intimate behaviors that match the new positive map of secure intimacy.
    - Use of self-report measures like the Experience in Close Relationships (ECR) questionnaire.
-
 4. **Manifestation of a range of metacognitive skills**:
    - Increase in metacognitive skills during treatment, as measured by the Reflective Functioning Scale (RF-S) and Metacognitive Assessment Scale (MAS).
    - Achievement of postformal cognitive development.
-
 5. **Manifestation of healthy behavioral, nonverbal, and verbal collaboration**:
    - Adherence to treatment-frame behaviors outlined in the treatment contract.
    - Increases in nonverbal collaborative behavior, such as head-turning, eye contact, and matched facial affect displays.
    - Increase in verbal collaborative behavior, assessed through AAI transcripts based on adherence to Grice's maxims for coherent discourse.
-
 6. **Achievement of high coherence of transcript and coherence of mind on the AAI**:
    - Increase in coherence of transcript and coherence of mind as assessed with the AAI, reaching a minimum level of 7 or above by the close of treatment.
-
 7. **Resolution of unresolved status (Ud) with respect to trauma and loss**:
    - For patients with unresolved status (Ud) at the beginning of treatment, an expected outcome is the achievement of resolved status by the end of treatment.
    - Ud score below the cutting score of 5.5 on the AAI.
-
 8. **No longer meeting diagnostic criteria for a personality disorder, dissociative disorder, or any trauma-related diagnosis in the DSM-5 or ICD-10**:
    - Many patients with significant attachment disturbances have a personality disorder, dissociative disorder, or severe chronic PTSD.
    - By the end of Three Pillars attachment-based treatment, many of these patients no longer meet diagnostic criteria for any of these disorders.
 
 ### A Case Illustration of Successful Treatment and Its Measurement
-
-**Case Illustration of Successful Treatment and Its Measurement**
 
 A 46-year-old woman with a history of severe childhood abuse underwent Three Pillars attachment-based treatment, which resulted in the resolution of her dissociative identity disorder (DID) symptoms.
 
@@ -9786,10 +9666,6 @@ A 46-year-old woman with a history of severe childhood abuse underwent Three Pil
 * Post-treatment DIS-Q scores showed a drop in all dissociative features
 * Figure 15.1 shows the change in self-reported dissociative symptoms (post-treatment scores are slightly above normal range but below clinically significant levels)
 
-### FIGURE 15.1. Pre-and Post-treatment Response on the Dissociation Questionnaire With respect to trauma symptoms, the post-treatment TSI revealed that a
-
-**Case Study**: This text presents the results of a case study involving an attachment-based treatment for a patient with complex trauma and disorganized attachment. The treatment did not involve traditional phase-oriented trauma processing or a focus on depression.
-
 **Trauma Symptoms**:
 - **Pre-treatment Trauma Symptom Inventory (TSI)**: All five clinical scales above the cutting score fell below it in post-treatment TSI response.
 - Three validity scales were within normal range for both pre- and post-treatment TSI responses.
@@ -9809,9 +9685,6 @@ A 46-year-old woman with a history of severe childhood abuse underwent Three Pil
 
 ### A Pilot Outcome Study
 
-**Title**: A Pilot Outcome Study on Attachment-Based Treatment using the Three Pillars Model
-
-**Introduction**:
 - The authors conducted a pilot study on their approach to attachment-based treatment using 12 patients.
 - They collected and scored pre-and post-treatment Adult Attachment Interview (AAI) for all patients, with some pre-scores assessed by an independent scorer.
 - High interscorer agreement was observed between the two scorers.
@@ -9836,11 +9709,6 @@ A 46-year-old woman with a history of severe childhood abuse underwent Three Pil
 - **The three pillars of the treatment target different dimensions of functioning**: the patient's relationship with the therapist, specific methods to address deficiencies, and the Ideal Parent Figure (IPF) method.
 - The pilot study suggests that the Three Pillars treatment is effective, although it may not be a short-term intervention.
 - The authors hope this pilot study will stimulate larger-scale outcomes research using their approach.
-
-### The “real” aspects of the therapist are bound to contribute to periodic treatment ruptures. When understood and responded to according to the principl
-
-**Three Pillars Model of Therapy**
-
 - Periodic treatment ruptures are inevitable due to the "real" aspects of the therapist, but can be addressed using the principles of the Three Pillars model
 - Ruptures facilitate developmental and healing processes leading to earned security
 - No focus on painful past experiences during treatment, except for initial evaluation
@@ -9868,7 +9736,7 @@ A 46-year-old woman with a history of severe childhood abuse underwent Three Pil
 - Clinical experience and small pilot study demonstrate effectiveness
 - Looking forward to future outcome studies and refinements.
 
-### Appendix A The Core Self, Proactive Self-Agency, Self-Esteem, and the “Best” Self Normal and Incomplete Self-Development
+## Appendix A The Core Self, Proactive Self-Agency, Self-Esteem, and the “Best” Self - Normal and Incomplete Self-Development
 
 **Self-Development and the Psychological Sense of Self**
 
@@ -9905,8 +9773,6 @@ The psychological sense of self does not develop in infants at birth but emerges
 
 An involving caregiver can interfere with normal self-development by consistently failing to provide comfort, soothing, and reassurance when the child is anxious, leading to weak or poorly formed self-structure in later childhood and adulthood. This can result in anxiety, worry, and little capacity to tolerate emotional intensity.
 
-### The foundational task for self-development is the establishment of a core experiential sense of self. From this core emerges self-definition, or the p
-
 **Self-Development and the Core Experiential Sense of Self**
 
 - Establishing a core experiential sense of self is the foundation for self-development.
@@ -9934,8 +9800,6 @@ An involving caregiver can interfere with normal self-development by consistentl
 
 1. Do not believe in therapeutic interpretation of deficits in self-development as an effective treatment technique.
 2. Value systematic introduction and repetition of positive imagery to enhance the core self, self-definition, self-agency, self-esteem, and best self.
-
-### Methods for Developing the Core Sense of Self When a patient does not have a core sense of self and lacks clarity about self-definition, self-developm
 
 **Methods for Developing the Core Sense of Self**
 
@@ -9990,8 +9854,6 @@ The following is a step-by-step visualization protocol for developing self-defin
 * Therapist mirrors and amplifies patient's reports of experiencing self-qualities in new situations.
 * Several scene shifts to reinforce the experience of self-qualities in various contexts.
 
-### COMMON PROBLEMS IN SELF-DEFINITION DEVELOPMENT IN PATIENTS WITH SEVERE SELF-DEFICITS For patients with significant self-deficits, particular problems 
-
 **Common Problems in Self-Definition Development in Patients with Severe Self-Deficits**
 
 **Inability to Attend and Observe**:
@@ -10028,8 +9890,7 @@ The following is a step-by-step visualization protocol for developing self-defin
 
 Overall, the text discusses various problems that may arise during self-definition development for patients with severe self-deficits. These issues include inability to attend and observe, difficulty with imagination tasks, focusing on others' expectations, false self-expression, and negative self-talk. Solutions include concentration training, self-observation exercises, disidentifying from thought, exploring deeper selves, and ignoring negative thoughts.
 
-### Methods for Developing Proactive Self-Agency The next task of self-development, beyond self-definition, is the development of self-agency. Self-agency
-
+### Methods for Developing Proactive Self-Agency
 **Self-Agency Development**
 
 * Self-agency is the development of internal representations of being an active, effective agent in the world, including the interpersonal world.
@@ -10065,10 +9926,7 @@ Overall, the text discusses various problems that may arise during self-definiti
 * Therapist introduces suggestions for imagining scenes where patients have a real impact on others and elicit desired responses from them.
 * Application of the same principles and methods to patient's responses as in developing self-definition.
 
-### DEVELOPMENT OF GOAL-SETTING AND ACTION PLANS Another important component of working with patients with underdeveloped self-agency is fostering the dev
-
-**Development of Goal-Setting and Action Plans**
-
+### DEVELOPMENT OF GOAL-SETTING AND ACTION PLANS
 * Fostering healthy anticipation, action-planning, and goal-setting for patients with underdeveloped self-agency
 * Process begins with goal identification
   * Patient identifies a clear, realistic goal
@@ -10087,10 +9945,7 @@ Overall, the text discusses various problems that may arise during self-definiti
   * Altering behaviors to change the outcome in a desirable way
 * Patients develop internal probabilistic representations of likely outcomes, refining self-agency and reducing impulsiveness.
 
-### REDUCING CONTRADICTORY GOAL-STATES Emmons (1999) found that human goal-strivings are complex and that personal strivings typically entail a variety of
-
-**Reducing Contradictory Goal-States**
-
+### REDUCING CONTRADICTORY GOAL-STATES
 * Emmons (1999) found that human goal-strivings are complex and can include contradictory goals.
 * Healthiest individuals have least internal contradiction across goals and experience comfortable self-agency.
 * Those with intense, competing contradictions become inhibited in areas of their lives due to uncomfortable affect associated with conflicting goal-states.
@@ -10119,9 +9974,7 @@ Overall, the text discusses various problems that may arise during self-definiti
 * Positive self-esteem protocol was created to directly and systematically evoke positive feeling states in conjunction with the self-representation.
   * Includes situation-based self-esteem enhancement, enhancement of self-esteem in relationships, skill development for quicker evocation of positive self-esteem, stress challenge, and integrating self-esteem as a way of being.
 
-### SITUATION-BASED SELF-ESTEEM ENHANCEMENT Even people with chronically impaired self-esteem are able to think of situations where they feel good about t
-
-**Situation-Based Self-Esteem Enhancement**
+### SITUATION-BASED SELF-ESTEEM ENHANCEMENT
 
 * People with impaired self-esteem can think of situations where they feel good about themselves
 * Positive self-esteem experiences linked to activity and mastery in certain situations
@@ -10150,10 +10003,7 @@ Overall, the text discusses various problems that may arise during self-definiti
 * Patient rates self-esteem using a scale of 1 to 10 and reviews progress with therapist
 * Complete step when patient can sustain positive self-feelings throughout most of the day, nearly every day.
 
-### STRESS CHALLENGE The next step is to maintain positive self-feelings in situations that the patient has associated with strong negative self-feelings.
-
-**Stress Challenge**
-
+### STRESS CHALLENGE 
 * Maintaining positive self-feelings in situations previously associated with negative self-feelings
 * Therapist introduces expectation of maintaining strong, positive feelings about oneself in difficult situations
 * Patient experiences having and holding positive feelings about self in challenging imagery
@@ -10161,7 +10011,6 @@ Overall, the text discusses various problems that may arise during self-definiti
 * Patient is given assignment to test progress by putting themselves in challenging situations
 
 **Integrating Self-Esteem as a Way of Being**
-
 * Development of positive self-esteem transcends activities and becomes a way of being
 * Therapist encourages imagining scenes of contentment within oneself, not relying on accomplishments
 * Patient may imagine feeling good about themselves as part of their core being
@@ -10183,10 +10032,7 @@ Overall, the text discusses various problems that may arise during self-definiti
 * Therapist suggests imagining an attitude of curiosity and exploration of one's unique qualities
 * To foster vital engagement, therapist encourages imagining scenes of actively engaging in life with vitality and enthusiasm.
 
-### Self-Development From an Attachment Perspective The self-development protocol described in this appendix emphasizes the developmental line of self as 
-
-**Self-Development from an Attachment Perspective**
-
+### Self-Development From an Attachment Perspective 
 - Self-development protocol emphasizes the development of the self as separate from attachment development
 - Core-self experience and definition, self-agency, and self-esteem can be developed through imagery focused on the self independently
 - Included as an appendix for clinicians to learn how to foster self-development separately from attachment development
@@ -10218,7 +10064,7 @@ Overall, the text discusses various problems that may arise during self-definiti
 
 - Encouraged to review Chapters 7, 8, 11, 12, and 13 of the book for more information on IPF imagery process.
 
-### Appendix B Protocols for Developing Adult Secure Intimacy in Individuals and Caring Behaviors in Couples
+## Appendix B Protocols for Developing Adult Secure Intimacy in Individuals and Caring Behaviors in Couples
 
 **Secure Intimacy and Attachment**
 
@@ -10252,22 +10098,18 @@ The therapist suggests the patient bring to mind their personal vision of secure
    - **Scene**: Partner providing a sense of safety and protection in the relationship
    - **Description**: Specific ways partner enables feeling safe and protected
    - **Effect**: Affects state of mind and experience in the relationship
-
 2. **Careful Attunement**:
    - **Scene**: Partner carefully attuned to patient's ways of being, growing, needs, feelings, and internal state of mind
    - **Description**: Scene and what's happening when partner is so attentive
    - **Effect**: Affects state of mind
-
 3. **Comfort and Reassurance**:
    - **Scene**: Partner providing comfort and reassurance during emotional upset
    - **Description**: Specific ways partner enables feeling completely comforted and reassured
    - **Effect**: Affects state of mind in the relationship
-
 4. **Delight and Appreciation**:
    - **Scene**: Partner expressing delight and appreciation for patient's being
    - **Description**: Specific ways partner shows delight and appreciation
    - **Effect**: Affects state of mind in the relationship
-
 5. **Encouragement and Support**:
    - **Scene**: Partner encouraging and supporting patient to bring out their best, strongest, unique self
    - **Description**: Specific ways partner enables patient to bring out their best self
@@ -10276,8 +10118,6 @@ The therapist suggests the patient bring to mind their personal vision of secure
 The patient is asked to describe each scene and what they notice about the effects on their state of mind. The therapist emphasizes taking the time to fully absorb these experiences.
 
 ### INDIVIDUALIZING THE SECURE INTIMACY PROTOCOL
-
-**Individualizing the Secure Intimacy Protocol**
 
 The goal is to individualize the secure intimacy protocol for each patient based on their early caregiver relationships and specific attachment needs.
 
@@ -10301,8 +10141,6 @@ The goal is to individualize the secure intimacy protocol for each patient based
 3. Integrate any available information about each particular patient to individualize the protocol further.
 
 ### Caring Behaviors in Couples
-
-**Caring Behaviors in Couples**
 
 * Patients in romantic relationships may be confused by the individual secure intimacy protocol as it suggests a future ideal relationship instead of focusing on the current one.
 * Therapists prefer to work with both partners to foster secure intimacy through caring behaviors.
