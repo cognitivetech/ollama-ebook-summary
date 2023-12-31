@@ -310,8 +310,8 @@ Considering that this is not for profit, but for educational purposes, I believe
    > - When Minnie left, father felt pain but not traumatized
    > - Met John Alford at age 21, who inspired interest in maternal deprivation
 10. [**Summary of Attachment Disturbances in Adults**](notes/Attachment-Disturbances-Adults2.md) (477 Pages)
-   > Part I: Foundational Concepts
-   > Part II: Assessment
-   > Part III: Treatment
-   > Part IV: Type-Specific Treatment
-   > Part V: A Treatment Guide and Expected Outcomes
+    > - Part I: Foundational Concepts
+    > - Part II: Assessment
+    > - Part III: Treatment
+    > - Part IV: Type-Specific Treatment
+    > - Part V: A Treatment Guide and Expected Outcomes
