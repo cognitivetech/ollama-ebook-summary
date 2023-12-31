@@ -214,97 +214,100 @@ Considering that this is not for profit, but for educational purposes, I believe
 | The Body Keeps the Score | Mistral-7B-Instruct-v0.2 | -74% | 0.1% | 0.2% | 0.3% | 0.5% |
 | Complete Book of Chakras | Mistral-7B-Instruct-v0.2 | -70% | 0.3% | 0.3% | 0.4% | 1.1% |
 | 50 Years of Attachment Theory | Mistral-7B-Instruct-v0.2 | -70% | 1.1% | 0.4% | 2.1% | 3.7% |
+| Attachment Disturbances in Adults | Mistral-7B-Instruct-v0.2 | -62% | 1.1% | 1.2% | 0.7% | 3.1% |
 
 ### Completed Book Summaries
 
 1. [**Summary of Anodea Judith's Eastern Body Western Mind**](summaries/Eastern-Body_Western-Mind.md) (436 pages)
-  > **Adult Development**
-  >  
-  > The process of individuation involves becoming a single, homogeneous being and embracing one's innermost uniqueness. This journey begins in early adulthood when individuals leave home and start living independently.
-  > 
-  > 1. Chakra One: Survival is the primary issue during this stage, which includes getting a place to live, learning self-care, and finding an independent income source. The time spent on this stage varies from person to person, with some spending their entire lives struggling for survival.
-  > 2. Chakra Two: Once basic independence is achieved, individuals form sexual relationships. This stage involves satisfying emotional needs, often projected onto a partner. Emotional frustration may arise due to unresolved childhood conflicts or the inability to develop personal will and responsibility.
-  > 3. Chakra Three: The individuation process allows individuals to become true individuals operating under their own power and will. This stage is marked by the liberation from conforming to parental, cultural, or societal expectations. It may be triggered by meaningless jobs or enslavement in relationships where one's needs are defined by others.
-  > 4. Chakra Four:  Relationships become more empathetic and altruistic during this stage, focusing on maintaining lasting partnerships. This may involve reevaluating behavior towards others, examining family dynamics, and building connections with colleagues, friends, and the community.
-  > 5. Chakra Five: Creative and personal expression is emphasized in this stage, where individuals make their personal contribution to the community. It often occurs around midlife and may precede or dominate other activities for more creative personalities.
-  > 6. Chakra Six: This introverted stage involves reflection and study of patterns through exploration of mythology, religion, and philosophy. It is a time of searching and spiritual interest, which intensifies when children are grown and adults have more freedom for contemplation and spiritual practice.
-  > 7. Chakra Seven: The final stage is characterized by wisdom, spiritual understanding, knowledge, and teaching. Individuals bring together information gathered throughout life to pass it on to others or pursue a spiritual path.
+   > **Adult Development**
+   >  
+   > The process of individuation involves becoming a single, homogeneous being and embracing one's innermost uniqueness. This journey begins in early adulthood when individuals leave home and start living independently.
+   > 
+   > 1. Chakra One: Survival is the primary issue during this stage, which includes getting a place to live, learning self-care, and finding an independent income source. The time spent on this stage varies from person to person, with some spending their entire lives struggling for survival.
+   > 2. Chakra Two: Once basic independence is achieved, individuals form sexual relationships. This stage involves satisfying emotional needs, often projected onto a partner. Emotional frustration may arise due to unresolved childhood conflicts or the inability to develop personal will and responsibility.
+   > 3. Chakra Three: The individuation process allows individuals to become true individuals operating under their own power and will. This stage is marked by the liberation from conforming to parental, cultural, or societal expectations. It may be triggered by meaningless jobs or enslavement in relationships where one's needs are defined by others.
+   > 4. Chakra Four:  Relationships become more empathetic and altruistic during this stage, focusing on maintaining lasting partnerships. This may involve reevaluating behavior towards others, examining family dynamics, and building connections with colleagues, friends, and the community.
+   > 5. Chakra Five: Creative and personal expression is emphasized in this stage, where individuals make their personal contribution to the community. It often occurs around midlife and may precede or dominate other activities for more creative personalities.
+   > 6. Chakra Six: This introverted stage involves reflection and study of patterns through exploration of mythology, religion, and philosophy. It is a time of searching and spiritual interest, which intensifies when children are grown and adults have more freedom for contemplation and spiritual practice.
+   > 7. Chakra Seven: The final stage is characterized by wisdom, spiritual understanding, knowledge, and teaching. Individuals bring together information gathered throughout life to pass it on to others or pursue a spiritual path.
 2. [**Summary of Stanley Rosenberg's Healing Power of the Vagus Nerve**](summaries/Healing-Power-Vagus-Nerve_Stanley-Rosenberg.md) (335 Pages)
-  > The ANS is an integral part of the human nervous system, monitoring and regulating the activity of visceral organs such as heart, lungs, liver, gall bladder, stomach, intestines, kidneys, and sexual organs. Problems with any of these organs can arise from dysfunction of the ANS.
-  > 
-  > - **Old understanding of the ANS**: The ANS functioned in two states - stress and relaxation. 
-  >   - Stress response is a survival mechanism activated when we feel threatened; it mobilizes our body to prepare for fight or flight. 
-  >   - Relaxation response kicks in after threat has passed, keeping us in a relaxed state until the next threat appears.
-  >   - Fails to explain why people continue to feel stressed even when they are not under any threat.
-  > - **Polyvagal Theory (PVT)**: introduced the concept of three states
-  >   - **Ventral Vagal State**: This state is characterized by social engagement and safety. It is associated with feelings of calmness, connection, and trust.
-  >   - **Dorsal Vagal State**: This state is characterized by immobilization or shutdown. It is associated with feelings of fear, helplessness, and hopelessness.
-  >   - **Sympathetic Nervous System (SNS)**: This system is responsible for the fight-or-flight response. It is associated with feelings of anxiety, stress, and tension.
+   > The ANS is an integral part of the human nervous system, monitoring and regulating the activity of visceral organs such as heart, lungs, liver, gall bladder, stomach, intestines, kidneys, and sexual organs. Problems with any of these organs can arise from dysfunction of the ANS.
+   > 
+   > - **Old understanding of the ANS**: The ANS functioned in two states - stress and relaxation. 
+   >   - Stress response is a survival mechanism activated when we feel threatened; it mobilizes our body to prepare for fight or flight. 
+   >   - Relaxation response kicks in after threat has passed, keeping us in a relaxed state until the next threat appears.
+   >   - Fails to explain why people continue to feel stressed even when they are not under any threat.
+   > - **Polyvagal Theory (PVT)**: introduced the concept of three states
+   >   - **Ventral Vagal State**: This state is characterized by social engagement and safety. It is associated with feelings of calmness, connection, and trust.
+   >   - **Dorsal Vagal State**: This state is characterized by immobilization or shutdown. It is associated with feelings of fear, helplessness, and hopelessness.
+   >   - **Sympathetic Nervous System (SNS)**: This system is responsible for the fight-or-flight response. It is associated with feelings of anxiety, stress, and tension.
 3. [**Summary of Dr. David Frawley's Ayurveda and the Mind**](summaries/Ayurveda-and-the-Mind_David-Frawley.md) (181 Pages)
-  > 1. *Section 1*: Explores Ayurvedic view of mind-body relationship, including gunas (Sattva, Rajas, Tamas), doshas (Vata, Pitta, Kapha), and five elements.
-  > 2. *Section 2*: In-depth examination of functions of awareness through consciousness, intelligence, mind, ego, and self.
-  > 3. *Section 3*: Ayurvedic therapies for the mind: outer (diet, herbs, massage) and inner (color, aroma, mantra).
-  > 4. *Section 4*: Spiritual and yogic practices from an Ayurvedic perspective, integrating all therapies.
-  > 5. *Appendix*: Contains tables on functions of the mind and their correspondences.
-  > 6. *Goals*: To provide sufficient knowledge for personal use and relevant to psychologists/therapists.
+   > 1. *Section 1*: Explores Ayurvedic view of mind-body relationship, including gunas (Sattva, Rajas, Tamas), doshas (Vata, Pitta, Kapha), and five elements.
+   > 2. *Section 2*: In-depth examination of functions of awareness through consciousness, intelligence, mind, ego, and self.
+   > 3. *Section 3*: Ayurvedic therapies for the mind: outer (diet, herbs, massage) and inner (color, aroma, mantra).
+   > 4. *Section 4*: Spiritual and yogic practices from an Ayurvedic perspective, integrating all therapies.
+   > 5. *Appendix*: Contains tables on functions of the mind and their correspondences.
+   > 6. *Goals*: To provide sufficient knowledge for personal use and relevant to psychologists/therapists.
 4. [**Summary of Janina Fisher's Healing the Fragmented Selves of Trauma Survivors**](summaries/Healing-Fragmented-Selves-Trauma-Survivors_Janina-Fisher.md) (367 Pages)
-  > 1. **Fragmentation and Internal Struggles**
-  >    - Ten years ago, I observed a common pattern among traumatized clients: internal fragmentation.
-  >    - Clients appeared integrated but showed signs of conflict between trauma-related perceptions and impulses versus present assessments.
-  >    - They experienced paradoxical symptoms, such as the desire for kindness and spirituality alongside intense rage or violence.
-  > 2. **Observable Patterns**
-  >    - Describing these conflicts made them more observable and meaningful.
-  >    - Each side represented a different way of surviving traumatic experiences.
-  > 3. **Theoretical Model: Structural Dissociation**
-  >    - The [Structural Dissociation model by Onno van der Hart, Ellert Nijenhuis, and Kathy Steele](https://link.springer.com/article/10.1007/BF03379560) explained these phenomena.
-  >    - Rooted in neuroscience, it was accepted in Europe as a trauma model.
-  > 4. **Brain's Innate Structure**
-  >    - The brain's innate physical structure facilitates left-right brain disconnection under threat.
-  >    - The left brain stays focused on daily tasks, while the right brain fosters an implicit self in survival mode.
-  > 5. **Identifying and Owning Parts**
-  >    - Some parts were easier to identify with or "own," while others were dismissed as "not me.
-  >    - The internal relationships between fragmented aspects of self reflected traumatic environments.
-  >    - The left-brain-dominant present-oriented self avoided or judged right-brain-dominant survival-oriented parts.
-  >    - Both sides felt alienated from each other.
-  > 6. **Functioning Self**
-  >    - The functioning self carried on, trying to be "normal," but at the cost of feeling alienated or invaded by intrusive communications from parts.
+   > 1. **Fragmentation and Internal Struggles**
+   >    - Ten years ago, I observed a common pattern among traumatized clients: internal fragmentation.
+   >    - Clients appeared integrated but showed signs of conflict between trauma-related perceptions and impulses versus present assessments.
+   >    - They experienced paradoxical symptoms, such as the desire for kindness and spirituality alongside intense rage or violence.
+   > 2. **Observable Patterns**
+   >    - Describing these conflicts made them more observable and meaningful.
+   >    - Each side represented a different way of surviving traumatic experiences.
+   > 3. **Theoretical Model: Structural Dissociation**
+   >    - The [Structural Dissociation model by Onno van der Hart, Ellert Nijenhuis, and Kathy Steele](https://link.springer.com/article/10.1007/BF03379560) explained these phenomena.
+   >    - Rooted in neuroscience, it was accepted in Europe as a trauma model.
+   > 4. **Brain's Innate Structure**
+   >    - The brain's innate physical structure facilitates left-right brain disconnection under threat.
+   >    - The left brain stays focused on daily tasks, while the right brain fosters an implicit self in survival mode.
+   > 5. **Identifying and Owning Parts**
+   >    - Some parts were easier to identify with or "own," while others were dismissed as "not me.
+   >    - The internal relationships between fragmented aspects of self reflected traumatic environments.
+   >    - The left-brain-dominant present-oriented self avoided or judged right-brain-dominant survival-oriented parts.
+   >    - Both sides felt alienated from each other.
+   > 6. **Functioning Self**
+   >    - The functioning self carried on, trying to be "normal," but at the cost of feeling alienated or invaded by intrusive communications from parts.
 5. [**Summary of John Bowlby's "A Secure Base"**](summaries/a-secure-base_john-bowlby.md) (133 Pages)
-  > - **Attachment behavioral response** essential for protection from predation and foundation for psychological health.
-  > - **Sensitive caregiving** crucial for secure attachment throughout the life cycle.
-  > - **Real-life adversity** origin of subsequent psychopathology, opposed to endo-psychic entities.
-  > - **Systematic scientific observation** important for understanding attachment phenomena.
-  > - **Secure base for patients** therapists providing a safe space for emotional exploration.
+   > - **Attachment behavioral response** essential for protection from predation and foundation for psychological health.
+   > - **Sensitive caregiving** crucial for secure attachment throughout the life cycle.
+   > - **Real-life adversity** origin of subsequent psychopathology, opposed to endo-psychic entities.
+   > - **Systematic scientific observation** important for understanding attachment phenomena.
+   > - **Secure base for patients** therapists providing a safe space for emotional exploration.
 6. [**Summary of Bessel van der Kolk's The Body Keeps the Score**](summaries/Body-Keeps-Score_Bessel-van-der-Kolk.md) (454 Pages)
-  > **The Importance of Trauma:**
-  > * Trauma reveals our fragility and man's inhumanity but also our resilience.
-  > * Visionaries and societies have made profound advances from dealing with trauma.
-  > * **Trauma is now the most urgent public health issue, and we have the knowledge to respond effectively.**
+   > **The Importance of Trauma:**
+   > * Trauma reveals our fragility and man's inhumanity but also our resilience.
+   > * Visionaries and societies have made profound advances from dealing with trauma.
+   > * **Trauma is now the most urgent public health issue, and we have the knowledge to respond effectively.**
 7. [**Summary of Yoga and Polyvagal Theory, from Steven Porges' Polyvagal Safety**](summaries/Yoga-Therapy+PolyVagal-Theory.md) (37 pages)
-  > * **Top-down processes**: regulation of attention, intention, decreasing psychological stress, HPA axis and SNS activity, modulating immune function and inflammation
-  > * **Bottom-up processes**: breathing techniques, movement practices, influencing musculoskeletal, cardiovascular, nervous system function, affecting HPA and SNS activity, emotional well-being
-  > * **Self-regulation**: conscious ability to manage responses to threat or adversity, reducing symptoms of various conditions, mitigating allostatic load, shifting autonomic state
+   > * **Top-down processes**: regulation of attention, intention, decreasing psychological stress, HPA axis and SNS activity, modulating immune function and inflammation
+   > * **Bottom-up processes**: breathing techniques, movement practices, influencing musculoskeletal, cardiovascular, nervous system function, affecting HPA and SNS activity, emotional well-being
+   > * **Self-regulation**: conscious ability to manage responses to threat or adversity, reducing symptoms of various conditions, mitigating allostatic load, shifting autonomic state
 8. **Summary of Llewellyn's Complete Book of Chakras: Your Definitive Source of Energy Center Knowledge for Health, Happiness, and Spiritual Evolution** (999 pages)
-  * [SECTION 1. CHAKRA FUNDAMENTALS AND BASIC PRACTICES](summaries/llewen-complete-book-chakras_1.md)   
-    > * Chakras are metaphysical energy centers that organize subtle energy for human use 
-    > * **Three main systems of subtle energy in the body**: chakras, meridians/nadis, and auric fields
-    > * Chakras convert physical energy into subtle energy and vice versa
-    > * Seven main chakras regulate vital physical, psychological, and spiritual concerns
-    > * Each chakra assists in embracing physical needs while attaining wisdom for enlightenment
-    > * Section 1 is a pocket guide to understanding all aspects of chakras
-  * [SECTION 2: CHAKRAS IN DEPTH. HISTORICAL, SCIENTIFIC, AND CROSS-CULTURAL UNDERSTANDINGS](summaries/llewen-complete-book-chakras_2.md)
-    > * Recap of chakras as pulsing points of light and key to health, connection, and spiritual enlightenment
-    > * Origin and history of chakra knowledge primarily from ancient India
-    > * Chakras and their companions (subtle energies, body, energetic anatomies, kundalini) are explainable through scientific perspectives
-9. [**Summary of Fifty Years of Attachment Theory: The Donald Winnicott Memorial Lecture**](summaries/50-years-attachment-theory.md)
-  > **Background of Attachment Theory**
-  > - Developed by Sir Richard Bowlby's father, John Bowlby
-  > - Based on research into parent-child attachment relationship
-  > - Originally called "research into bonding"
-  > - Motivated by his own experience of losing a surrogate mother figure, Minnie, at age 4
-  > 
-  > **Early Influences and Education**
-  > - Father was a successful surgeon with six children
-  > - Children had twenty-three hour care from nannies and nursemaids
-  > - Father grew attached to his nursemaid, Minnie
-  > - When Minnie left, father felt pain but not traumatized
-  > - Met John Alford at age 21, who inspired interest in maternal deprivation
+   * [SECTION 1. CHAKRA FUNDAMENTALS AND BASIC PRACTICES](summaries/llewen-complete-book-chakras_1.md)   
+     > * Chakras are metaphysical energy centers that organize subtle energy for human use 
+     > * **Three main systems of subtle energy in the body**: chakras, meridians/nadis, and auric fields
+     > * Chakras convert physical energy into subtle energy and vice versa
+     > * Seven main chakras regulate vital physical, psychological, and spiritual concerns
+     > * Each chakra assists in embracing physical needs while attaining wisdom for enlightenment
+     > * Section 1 is a pocket guide to understanding all aspects of chakras
+   * [SECTION 2: CHAKRAS IN DEPTH. HISTORICAL, SCIENTIFIC, AND CROSS-CULTURAL UNDERSTANDINGS](summaries/llewen-complete-book-chakras_2.md)
+     > * Recap of chakras as pulsing points of light and key to health, connection, and spiritual enlightenment
+     > * Origin and history of chakra knowledge primarily from ancient India
+     > * Chakras and their companions (subtle energies, body, energetic anatomies, kundalini) are explainable through scientific perspectives
+9. [**Summary of Fifty Years of Attachment Theory: The Donald Winnicott Memorial Lecture**](summaries/50-years-attachment-theory.md) (54 pages)
+   > **Background of Attachment Theory**
+   > - Developed by Sir Richard Bowlby's father, John Bowlby
+   > - Based on research into parent-child attachment relationship
+   > - Originally called "research into bonding"
+   > - Motivated by his own experience of losing a surrogate mother figure, Minnie, at age 4
+   > 
+   > **Early Influences and Education**
+   > - Father was a successful surgeon with six children
+   > - Children had twenty-three hour care from nannies and nursemaids
+   > - Father grew attached to his nursemaid, Minnie
+   > - When Minnie left, father felt pain but not traumatized
+   > - Met John Alford at age 21, who inspired interest in maternal deprivation
+10. [**Summary of Attachment Disturbances in Adults**](notes/Attachment-Disturbances-Adults2.md) (477 Pages)
+   > 
