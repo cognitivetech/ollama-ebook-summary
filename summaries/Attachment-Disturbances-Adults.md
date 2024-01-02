@@ -201,27 +201,27 @@ It is meant to provide a detailed overview of the topics and materials presented
 
 * **Chapter 1: Attachment Research**: A History of Ideas**
   * Overview of foundational concepts, including John Bowlby's ideas on the attachment bond, Mary Ainsworth's research on patterns of attachment, cross-cultural patterns, intergenerational transmission, attachment states of mind, internal working models, metacognition, intersubjectivity, and nonverbal/verbal attunement.
-* **Chapter 2**: Understanding the Development of Attachment Bonds and Attachment Behavior Over the Life Course**
+* **Chapter 2: Understanding the Development of Attachment Bonds and Attachment Behavior Over the Life Course**
   * Origins of attachment behavior in infancy, stable prototypical patterns emerging during the second year, stability, change, or transformation throughout childhood and adolescence, and appearance in adult intimate relationships.
 
 **Part II: Assessment**
 
-* **Chapter 3**: Adult Attachment Prototypes and Their Clinical Manifestations**
+* **Chapter 3: Adult Attachment Prototypes and Their Clinical Manifestations**
   * Overview of clinically relevant attachment prototypes (secure, dismissing, anxious-preoccupied, disorganized/fearful) and their manifestations in treatment settings and relationships.
-* **Chapter 4**: The Assessment of Adult Attachment**
+* **Chapter 4: The Assessment of Adult Attachment**
   * Overview of interview-based and self-report measures for attachment assessment, practical recommendations for clinicians, and instruments to assess attachment behavior within the therapeutic relationship.
-* **Chapter 5**: Attachment and Psychopathology**
+* **Chapter 5: Attachment and Psychopathology**
   * Overview of how patterns of insecure attachment are related to various psychiatric conditions (anxiety disorders, affective disorders, somatic symptom disorders, PTSD, dissociative disorders, personality disorders, addictive behaviors), including research findings from a study on adults abused as children.
 
 **Part III: Treatment**
 
-* **Chapter 6**: An Overview of Treatments for Attachment Disturbances**
+* **Chapter 6: An Overview of Treatments for Attachment Disturbances**
   * Review of various attachment-based treatments and their advantages/limitations, serving as the rationale for developing a new treatment approach.
-* **Chapter 7**: An Introduction to the Three Pillars of Comprehensive Attachment Treatment**
+* **Chapter 7: An Introduction to the Three Pillars of Comprehensive Attachment Treatment**
   * **Overview of essential ingredients (the "three pillars") for clinically effective and efficient attachment-based treatment**: (a) utilizing ideal parent figure imagery, (b) fostering metacognitive skills, and (c) fostering nonverbal/verbal collaborative behavior.
-* **Chapter 8: The First Pillar**: The Ideal Parent Figure Protocol**
+* **Chapter 8: The First Pillar: The Ideal Parent Figure Protocol**
   * Instructional guide for clinicians on introducing, shaping, and concluding the ideal parent figure protocol, with three approaches to shaping the imagery based on research findings, attachment theory, and patient descriptions.
-* **Chapter 9**: The Second Pillar - Metacognitive Interventions for Attachment Disturbances**
+* **Chapter 9: The Second Pillar - Metacognitive Interventions for Attachment Disturbances**
   * This chapter focuses on metacognitive approaches to treating attachment disturbances.
   * Four generations of development are discussed.
   * **First Generation**: Early Metacognitive Interventions
@@ -247,20 +247,20 @@ It is meant to provide a detailed overview of the topics and materials presented
 **Part IV: Type-Specific Treatment**
 - **This part illustrates specific treatment protocols for each of the three insecure attachment prototypes**: dismissing, anxious-preoccupied, and disorganized/fearful.
 
-* **Chapter 11**: Dismissing Attachment**
+* **Chapter 11: Dismissing Attachment**
   - Research on the etiology of dismissing attachment is reviewed.
   - Necessary therapeutic stance, tailoring IPF imagery, and fostering metacognitive skills are discussed.
-* **Chapter 12**: Anxious-Preoccupied Attachment**
+* **Chapter 12: Anxious-Preoccupied Attachment**
   - Research on the etiology of anxious-preoccupied attachment is reviewed.
   - Necessary therapeutic stance, tailoring IPF imagery, and fostering metacognitive skills are discussed.
-* **Chapter 13**: Disorganized/Fearful Attachment**
+* **Chapter 13: Disorganized/Fearful Attachment**
   - Relevant to clinicians treating patients with borderline personality disorder and dissociative identity disorder.
   - Research on the etiology of disorganized/fearful attachment is reviewed.
   - Necessary therapeutic stance, tailoring IPF imagery, and fostering metacognitive skills are discussed.
 
 **Part V: A Treatment Guide and Expected Outcomes**
-- **Chapter 14**: provides a step-by-step treatment manual for using the Three Pillars approach.
-- **Chapter 15**: discusses indicators of successful treatment, assessment methods, and pilot outcome study results.
+- **Chapter 14: provides a step-by-step treatment manual for using the Three Pillars approach**.
+- **Chapter 15: discusses indicators of successful treatment, assessment methods, and pilot outcome study results**.
 
 **Appendices**:
 - **Appendix A** focuses on enhancing self-development in patients with inhibited development in several dimensions.
