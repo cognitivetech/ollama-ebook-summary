@@ -204,7 +204,7 @@ You can see the results from [CopyLeaks](https://app.copyleaks.com/) below for e
 
 Considering that this is not for profit, but for educational purposes, I believe these numbers are acceptable.
 
-| Book | Models | Character Difference | Identical | Minor changes | Paraphrased | Total Plagiarism |
+| Book | Models | Character Difference | Identical | Minor changes | Paraphrased | Total Matched |
 | ---- | ----- | ---------------- | --------- | ------------- | ----------- | ---------- |
 | Eastern Body Western Mind | Synthia 7Bv2 | -75% | 3.5% | 1.1% | 0.8% | 5.4% |
 | Healing Power Vagus Nerve | Mistral-7B-Instruct-v0.2; SynthIA-7B-v2.0 | -81% | 1.2% | 0.8% | 2.5% | 4.5% |
@@ -215,6 +215,7 @@ Considering that this is not for profit, but for educational purposes, I believe
 | Complete Book of Chakras | Mistral-7B-Instruct-v0.2 | -70% | 0.3% | 0.3% | 0.4% | 1.1% |
 | 50 Years of Attachment Theory | Mistral-7B-Instruct-v0.2 | -70% | 1.1% | 0.4% | 2.1% | 3.7% |
 | Attachment Disturbances in Adults | Mistral-7B-Instruct-v0.2 | -62% | 1.1% | 1.2% | 0.7% | 3.1% |
+| Psychology Major's Companion | Mistral-7B-Instruct-v0.2 | -62% | 1.3% | 1.2% | 0.4% | 2.9% |
 
 ### Completed Book Summaries
 
@@ -315,3 +316,21 @@ Considering that this is not for profit, but for educational purposes, I believe
     > - Part III: Treatment
     > - Part IV: Type-Specific Treatment
     > - Part V: A Treatment Guide and Expected Outcomes
+11. [**Summary of The Psychology Major's Companion**](summaries/Psychology_Majors_Companion.md) (308 Pages)
+    > **Questions Addressed:**
+    > 1. **What do psychologists do? Where do they work?**
+    > 2. **Is majoring in psychology the right choice for me?**
+    > 3. **Skills and benefits of an undergraduate degree in psychology**
+    >    * High-performing student
+    >    * Organizational memberships, summer jobs, internships
+    > 4. **Career opportunities after graduation**
+    >    * Bachelor's level psychology majors
+    >    * Job search right out of college
+    > 5. **Graduate study in psychology**
+    >    * Application process
+    >    * Choosing an area of psychology
+    >    * Making a compelling application
+    > 6. **Benefits of psychology beyond education and career**
+12. [**Summary of The Myth of Redemptive Violence**](summaries/myth-redemptive-violence.md) 5 Pages
+    > - Walter Wink's analysis of the pervasiveness of the belief that violence saves and brings peace in Western culture.
+    > - Discussion on how this belief is rooted in ancient mythology and perpetuated through modern media, particularly cartoons.
