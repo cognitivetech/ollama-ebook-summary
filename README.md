@@ -33,9 +33,11 @@ Processes and Analysis, using [PrivateGPT](https://docs.privategpt.dev/overview)
 
 4. After that, of course, I had to test out various [system prompts](#round-4-system-prompts) to see which would perform the best.
 
-5. This will culminate in a battle between user prompts, where I determine what is the exact best prompt to generate summaries requiring the least post-processing, by me.
+5. Next, I tried a few, [user prompts](#round-5-user-prompt), to determine what is the exact best prompt to generate summaries that require the least post-processing, by me.
 
-6. These tests will need to be repeated on an iterative basis, for each LLM, and for determining the effectiveness of any refinement in our processes.
+6. Coming soon: ranking a dozen models for summarization.
+
+7. Ultimately, this type of testing should be conducted for each LLM, and for determining the effectiveness of any refinement in our processes. Only once each model has been targeted to its most ideal conditions can they be properly ranked against each-other.
 
 ## Rankings
 
