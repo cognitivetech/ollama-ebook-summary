@@ -181,6 +181,8 @@ In the end, I find that [Mistral 7b Instruct v0.2](https://huggingface.co/mistra
 
 Maybe would have different results for a different task, or maybe better prompting, but this works good so I'm not messing with it.
 
+**Find the full data and rankings on [Google Docs](https://docs.google.com/spreadsheets/d/1u3BgDx6IsJSbRz3uNmud1sDtO4WvWsH6ION3J-fhoGw/) or here in this repository: [System Prompt Rankings](ranking-data/Round-4_System-Prompts.tsv).**
+
 ### Round 5: User Prompt
 
 Now I found the best system prompt, for [Mistral 7b Instruct v0.2](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.2), I also tested which user prompt suits it best.
@@ -206,9 +208,11 @@ However, I do caution that this will depend on your use-case. Though generally, 
 
 Essentially, if I didn't read the original, I should still know what information it conveys, if not every specific detail.
 
+**Find the full data and rankings on [Google Docs](https://docs.google.com/spreadsheets/d/1u3BgDx6IsJSbRz3uNmud1sDtO4WvWsH6ION3J-fhoGw/) or here in this repository: [User Prompt Rankings](ranking-data/Round-5_User-Prompt.tsv).**
+
 ## Methods
 
-Rather than feed a 400 page book into any LLM model splitting it into smaller pieces, roughly 2000-2500 tokens each, improves the quality greatly. 
+Rather than feed a 400 page book into any LLM model splitting it into chapters (for Q/A), or smaller pieces roughly 2000-2500 tokens each  (for summarization), improves the quality greatly. 
 
 Using [PrivateGPT](https://github.com/imartinez/privateGPT), I first ran tests using a few models on a single book chapter.
 
