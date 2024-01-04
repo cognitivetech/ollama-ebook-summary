@@ -364,3 +364,9 @@ Considering that this is not for profit, but for educational purposes, I believe
 12. [**Summary of The Myth of Redemptive Violence**](summaries/myth-redemptive-violence.md) 5 Pages
     > - Walter Wink's analysis of the pervasiveness of the belief that violence saves and brings peace in Western culture.
     > - Discussion on how this belief is rooted in ancient mythology and perpetuated through modern media, particularly cartoons.
+
+## Additional Resources
+
+* [🐺🐦‍⬛ LLM Prompt Format Comparison/Test: Mixtral 8x7B Instruct with **17** different instruct templates](https://www.reddit.com/r/LocalLLaMA/comments/18ljvxb/llm_prompt_format_comparisontest_mixtral_8x7b/) WolframRavenwolf
+* [🐺🐦‍⬛ LLM Comparison/Test: Ranking updated with 10 new models (the best 7Bs)!](https://www.reddit.com/r/LocalLLaMA/comments/18u122l/llm_comparisontest_ranking_updated_with_10_new/) WolframRavenwolf
+* [Hallucination leaderboard](https://github.com/vectara/hallucination-leaderboard/) Vectara
