@@ -15,6 +15,7 @@ Processes and Analysis, using [PrivateGPT](https://docs.privategpt.dev/overview)
   - [Round 2: Summarization - Narrow Down Contenders](#round-2-summarization---narrow-down-contenders)
   - [Round 3: Prompt Style](#round-3-prompt-style)
   - [Round 4: System Prompts](#round-4-system-prompts)
+  - [Round 5: User Prompt](#round-5-user-prompt)
 - [Methods](#methods)
   - [Walkthrough](#walkthrough)
 - [Result](#result)
@@ -140,11 +141,11 @@ assistant: {{ assistant_message }}
 2. llama2:
 
 ```
-<s>[INST] <<SYS>>
-{{ system_prompt }}
+<s> [INST] <<SYS>>
+ { systemPrompt }
 <</SYS>>
 
-{{ user_message }} [/INST]
+ {userPrompt} [/INST]
 ```
 
 3. mistral:
@@ -180,11 +181,36 @@ In the end, I find that [Mistral 7b Instruct v0.2](https://huggingface.co/mistra
 
 Maybe would have different results for a different task, or maybe better prompting, but this works good so I'm not messing with it.
 
+### Round 5: User Prompt
+
+Now I found the best system prompt, for [Mistral 7b Instruct v0.2](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.2), I also tested which user prompt suits it best.
+
+|  | Prompt | vs OG | score | note |
+| --- | --- | --- | --- | --- |
+| Propmt0 | Write concise, yet comprehensive, notes summarizing the following text. Use nested bullet points: with headings, terms, and key concepts in bold. Focus on essential knowledge from this text without adding any external information. | 43% | 11 |  |
+| Prompt1 | Write concise, yet comprehensive, notes summarizing the following text. Use nested bullet points: with headings, terms, and key concepts in bold. Focus on essential knowledge from this text without adding any external information. | 46% | 11 | Extra Notes |
+| Prompt2 | Write comprehensive notes summarizing the following text. Use nested bullet points: with headings, terms, and key concepts in bold. | 58% | 15 |  |
+| Prompt3 | Create concise bullet-point notes summarizing the important parts of the following text. Use nested bullet points, with headings terms and key concepts in bold, including whitespace to ensure readability. Avoid Repetition. | 43% | 10 |  |
+| Prompt4 | Write concise notes summarizing the following text. Use nested bullet points: with headings, terms, and key concepts in bold. | 41% | 14 |  |
+| Prompt5 | Create comprehensive, but concise, notes summarizing the following text. Use nested bullet points: with headings, terms, and key concepts in bold. | 52% | 14 | Extra Notes |
+
+What I find, generally, is that the more extra instructions reduce quality of output. I began coming to this impression before I ran the test, and while this data is not conclusive, I do believe that suspicion is confirmed by these results.
+
+### Prompt2: Wins!
+
+> Write comprehensive notes summarizing the following text. Use nested bullet points: with headings, terms, and key concepts in bold.
+
+In this case, comprehensive performs better than "concise", or even than "comprehensive, but concise".
+
+However, I do caution that this will depend on your use-case. Though generally, what I'm looking for is a highly condensed, readable notes covering the important knowledge.
+
+Essentially, if I didn't read the original, I should still know what information it conveys, if not every specific detail.
+
 ## Methods
 
-Rather than feed a 400 page book into any LLM model, splitting it into chapters makes the task more managable. 
+Rather than feed a 400 page book into any LLM model splitting it into smaller pieces, roughly 2000-2500 tokens each, improves the quality greatly. 
 
-Using [PrivateGPT](https://github.com/imartinez/privateGPT), I've found a number of models that produce good results, and first ran tests using a few models on a single book chapter.
+Using [PrivateGPT](https://github.com/imartinez/privateGPT), I first ran tests using a few models on a single book chapter.
 
 Using knowledge gained from these tests, I summarized a complete book, using Synthia 7B v2, transitioning from a "Detailed Summary" prompt to a "Bullet Point Notes" prompt.
 
