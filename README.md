@@ -21,6 +21,7 @@ Processes and Analysis, using [PrivateGPT](https://docs.privategpt.dev/overview)
 - [Result](#result)
   - [Plagiarism](#plagiarism)
   - [Completed Book Summaries](#completed-book-summaries)
+- [Additional Resources](#additional-resources)
 
 ## Overview
 
