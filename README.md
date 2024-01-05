@@ -12,7 +12,7 @@ Processes and Analysis, using [PrivateGPT](https://docs.privategpt.dev/overview)
   - [Round 1 - Q/A vs Summary](#round-1---qa-vs-summary)
     - [Question / Answer Ranking](#question--answer-ranking)
     - [Summary Ranking](#summary-ranking)
-  - [Round 2: Summarization - Narrow Down Contenders](#round-2-summarization---narrow-down-contenders)
+  - [Round 2: Summarization - Model Ranking](#round-2-summarization---model-ranking)
   - [Round 3: Prompt Style](#round-3-prompt-style)
   - [Round 4: System Prompts](#round-4-system-prompts)
   - [Round 5: User Prompt](#round-5-user-prompt)
@@ -99,13 +99,13 @@ Not surprisingly, summaries performed better than Q/A, but they also had a more 
 | kai-7b-instruct | 59 | 25057 | -79 | 168 | 5 | 1 | 0 | 0 | 0 | 0 |
 | collectivecognition-v1.1-mistral-7b | 31 | 29509 | -75 | 214 | 0 | 1 | 1 | 2 | 17 | 8 |
 
-## Round 2: Summarization - Narrow Down Contenders
+## Round 2: Summarization - Model Ranking
 
 Again, I've preferred the Q8_0 variants.
 
 Finding that [Mistral 7b Instruct v0.2](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.2) had been released was well worth a new round of testing. This time, I didn't record speed of query, and only judged 12 summarization tasks, but I tried more models and saved those with the best results.
 
-One thing I tested this time was prompts, because Mistral is supposed to take Llama2 Prompt, but seems to perform better with the default (llama-index) prompt. As for Llama 2, it performed really bad with the Llama 2 prompt, but decent with the Default prompt.
+One thing I tested this time was prompts, because Mistral prompt is similar to Llama2 Prompt, but seems to perform better with the default (llama-index) prompt. As for Llama 2, it performed really bad with the Llama 2 prompt, but decent with the Default prompt.
 
 - [**SynthIA-7B-v2.0-GGUF**](https://huggingface.co/TheBloke/SynthIA-7B-v2.0-GGUF) -  This model had become my favorite, so I used it as a benchmark.
 - [**Mistral-7B-Instruct-v0.2**](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.2) (Llama-index Prompt) Star of the show here, quite impressive.
