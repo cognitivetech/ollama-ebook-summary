@@ -235,7 +235,7 @@ When I was going to do this manually, it was going to take weeks for each summar
 
 You can see the results from [CopyLeaks](https://app.copyleaks.com/) below for each of the texts published, here. 
 
-Considering that this is not for profit, but for educational purposes, I believe these numbers are acceptable.
+Especially considering that this is not for profit, but for educational purposes, I believe these numbers are acceptable.
 
 | Book | Models | Character Difference | Identical | Minor changes | Paraphrased | Total Matched |
 | ---- | ----- | ---------------- | --------- | ------------- | ----------- | ---------- |
@@ -249,6 +249,7 @@ Considering that this is not for profit, but for educational purposes, I believe
 | 50 Years of Attachment Theory | Mistral-7B-Instruct-v0.2 | -70% | 1.1% | 0.4% | 2.1% | 3.7% |
 | Attachment Disturbances in Adults | Mistral-7B-Instruct-v0.2 | -62% | 1.1% | 1.2% | 0.7% | 3.1% |
 | Psychology Major's Companion | Mistral-7B-Instruct-v0.2 | -62% | 1.3% | 1.2% | 0.4% | 2.9% |
+| Psychology in Your Life | Mistral-7B-Instruct-v0.2 | -74% | 0.6% | 0.4% | 0.5% | 1.6% |
 
 ### Completed Book Summaries
 
@@ -364,9 +365,16 @@ Considering that this is not for profit, but for educational purposes, I believe
     >    * Choosing an area of psychology
     >    * Making a compelling application
     > 6. **Benefits of psychology beyond education and career**
-12. [**Summary of The Myth of Redemptive Violence**](summaries/myth-redemptive-violence.md) 5 Pages
+12. [**Summary of The Myth of Redemptive Violence**](summaries/myth-redemptive-violence.md) (5 Pages)
     > - Walter Wink's analysis of the pervasiveness of the belief that violence saves and brings peace in Western culture.
     > - Discussion on how this belief is rooted in ancient mythology and perpetuated through modern media, particularly cartoons.
+13. [**Psychology In Your Life**](summaries/Psychology-In-Your-Life.md) (1072 Pages)
+    > 1. **Biological Domain**: This domain focuses on the study of biological factors that influence behavior and mental processes. It includes research on genetics, neuroanatomy, physiology, and pharmacology.
+    > 2. **Cognitive Domain**: The cognitive domain investigates mental processes such as perception, attention, memory, language, problem-solving, and decision-making.
+    > 3. **Developmental Domain**: This domain examines the psychological and physical changes that occur throughout the human lifespan, from infancy to old age. It includes research on cognitive, social, emotional, and moral development.
+    > 4. **Social and Personality Domain**: The social and personality domain explores how individuals think about themselves and others, as well as their interactions with other people. It includes research on personality traits, interpersonal relationships, group dynamics, and social influence.
+    > 5. **Mental and Physical Health Domain**: This domain focuses on understanding mental health disorders and promoting positive mental and physical health. It includes research on diagnosis, treatment, and prevention of various mental and physical health conditions.
+
 
 ## Additional Resources
 
