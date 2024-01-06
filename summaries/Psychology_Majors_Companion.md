@@ -1,5 +1,4 @@
 # Summary of The Psychology Major's Companion: Everything You Need to Know to Get You Where You Want to Go Second Edition, Dana S. Dunn and Jane S. Halonen
-by Dana S. Dunn and Jane S. Halonen's
 
 ## EDITORS NOTE
 **This is a summary** made with [PrivateGPT](https://github.com/imartinez/privateGPT) and [Mistral-7B-Instruct-v0.2](https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF). 
@@ -24,7 +23,7 @@ It is meant to provide a detailed overview of the topics and materials presented
 - [CHAPTER 6: CHARTING YOUR COURSE IN THE MAJOR](#chapter-6-charting-your-course-in-the-major)
 - [CHAPTER 7: DOING PSYCHOLOGY RESEARCH FROM START TO FINISH](#chapter-7-doing-psychology-research-from-start-to-finish)
 - [CHAPTER 8: BUILDING DISTINCTION THROUGH HIGH-IMPACT PRACTICES (HIPS)](#chapter-8-building-distinction-through-high-impact-practices-hips)
-- [CHAPTER 9: WHAT CAREER OPTIONS EXIST FOR STUDENTS WITH A BACHELOR’S OR AN ASSOCIATE’S DEGREE IN PSYCHOLOGY?](#chapter-9-what-career-options-exist-for-students-with-a-bachelors-or-an-associates-degree-in-psychology)
+- [CHAPTER 9: WHAT CAREER OPTIONS EXIST FOR STUDENTS WITH A BACHELOR'S OR AN ASSOCIATE'S DEGREE IN PSYCHOLOGY?](#chapter-9-what-career-options-exist-for-students-with-a-bachelors-or-an-associates-degree-in-psychology)
 - [CHAPTER 10: HOW TO LAND A JOB WITH YOUR DEGREE IN PSYCHOLOGY](#chapter-10-how-to-land-a-job-with-your-degree-in-psychology)
 - [CHAPTER 11: WHAT CAN YOU DO WITH AN ADVANCED DEGREE IN PSYCHOLOGY?](#chapter-11-what-can-you-do-with-an-advanced-degree-in-psychology)
 - [CHAPTER 12: HOW DO YOU GET INTO GRADUATE PROGRAMS IN PSYCHOLOGY?](#chapter-12-how-do-you-get-into-graduate-programs-in-psychology)
@@ -206,7 +205,7 @@ It is meant to provide a detailed overview of the topics and materials presented
   * Do I have a reasonable idea about the kind of major I want to pursue?
   * Can I set aside the time it will take to earn a diploma?
   * Have I taken steps to determine whether I would qualify for financial aid?
-  * Have I considered what kind of living arrangements I’ll be able to afford?
+  * Have I considered what kind of living arrangements I'll be able to afford?
   * Will I be able to cope with the debt load that may result from my degree?
   * Am I excited about the prospect of learning with a wide variety of people?
   * Will I be able to function independently from my family?
@@ -390,7 +389,7 @@ It is meant to provide a detailed overview of the topics and materials presented
 9. **How do you land a great psychology workforce job? (Chapter 10)**
    - Strategies for finding and applying for jobs in the field
    - Discussion on creating effective resumes, cover letters, and interviewing skills
-10. **What about graduate school in psychology — what does it take and where might it take you? (Chapter 11)**
+10. **What about graduate school in psychology -- what does it take and where might it take you? (Chapter 11)**
     - Overview of graduate programs in psychology
     - Explanation of the application process and requirements
     - Discussion on potential career paths with a graduate degree
@@ -653,7 +652,7 @@ In summary, psychology is a science that uses rigorous research methods to study
 5. You do know you won't be able to get a job when you graduate...
 6. Aren't you picking a pretty unchallenging major?
 7. Are you going to read my mind?
-8. Can you tell me how to fix the problems I’m having with my roommate?
+8. Can you tell me how to fix the problems I'm having with my roommate?
 
 **Nature of Psychology Major:**
 - Robust interest in psychology major (APA's Center for Workforce Studies)
@@ -1179,7 +1178,7 @@ Students should demonstrate fundamental knowledge and comprehension of major con
 
 - **1.1 Describe key concepts, principles, and overarching themes in psychology**
   - Understand the basic principles and concepts within various areas of psychology (e.g., biological, cognitive, social, developmental)
-- **1.2 Develop a working knowledge of psychology’s content domains**
+- **1.2 Develop a working knowledge of psychology's content domains**
   - Familiarize yourself with the major subfields of psychology and their key topics
 - **1.3 Describe applications of psychology**
   - Understand how psychological principles can be applied to real-world issues and problems
@@ -2964,7 +2963,7 @@ The following judging rubric outlines and explains the 7 elements used to evalua
 8. How would you manage the cost of attending a student research conference?
 9. What style of mentor would best suit your needs for planning for your future?
 
-## CHAPTER 9: WHAT CAREER OPTIONS EXIST FOR STUDENTS WITH A BACHELOR’S OR AN ASSOCIATE’S DEGREE IN PSYCHOLOGY?
+## CHAPTER 9: WHAT CAREER OPTIONS EXIST FOR STUDENTS WITH A BACHELOR'S OR AN ASSOCIATE'S DEGREE IN PSYCHOLOGY?
 
 **Misconceptions About Psychology Majors and Employability**
 
@@ -3022,7 +3021,7 @@ The following judging rubric outlines and explains the 7 elements used to evalua
 
 - An undergraduate degree earned at community colleges, junior colleges, technical schools, or 4-year institutions.
 - Students may opt for an AA as a stepping stone to a bachelor's degree or as a valuable end in itself.
-- Equivalent to the first 2 years of coursework in a bachelor’s degree.
+- Equivalent to the first 2 years of coursework in a bachelor's degree.
 - Provides targeted preparation for specific jobs in the workforce.
 
 **Career Opportunities for Bachelor's Degrees in Psychology:**
@@ -3116,7 +3115,7 @@ The following judging rubric outlines and explains the 7 elements used to evalua
 
 This list is not exhaustive, and there may be other career options that are a good fit for psychology majors.
 
-### SELECTED WORKFORCE OCCUPATIONS FOR PEOPLE WITH A PSYCHOLOGY BACHELOR’S DEGREE
+### SELECTED WORKFORCE OCCUPATIONS FOR PEOPLE WITH A PSYCHOLOGY BACHELOR'S DEGREE
 
 **Psychology Bachelor's Degree: Selected Workforce Occupations**
 
@@ -3127,7 +3126,7 @@ _Related to Children_
 - Career planning and placement advisor
 - Child-care worker
 - Child-protection worker
-- Day care—center supervisor
+- Day care--center supervisor
 - Foster home parent
 - Residential youth counselor
 - Youth minister
@@ -3181,7 +3180,7 @@ _Related to Data Management/Research_
 - Urban planning research assistant
 
 _Related to the Military_
-- Veterans’ advisor
+- Veterans' advisor
 - Administrative assistant
 - Advertising agent
 - Advertising trainee
@@ -3369,7 +3368,7 @@ _Related to Customer Service_
 * **Relationships**: Developing relationships is crucial for success in the field of psychology.
 * **Volunteering and Involvement**: Get involved with local nonprofits and volunteer to gain practical experience, build relationships, and enrich classroom learning.
 
-### A MAJOR SUCCESS STORY KATRINA’S SURPRISING POSITIVE IMPACT
+### A MAJOR SUCCESS STORY KATRINA'S SURPRISING POSITIVE IMPACT
 
 * Natural disasters can have unexpected positive outcomes
 * Jarred Honora's experience with Hurricane Katrina and its impact on his life
@@ -3536,14 +3535,14 @@ _Related to Customer Service_
 > ELIZABETH ANN GORDEN (Call Me Lizzie!) 
 > **email** hotbabe+9@massnet.com 
 > **social security no** 555-62-1234 
-> **address** I’m moving and will let you know when I get my leased signed 
+> **address** I'm moving and will let you know when I get my leased signed 
 > 
 > **Long-Term Employment Goals** To become a clinical psychologist 
 > **Education** Hard Knocks Universtiy 
 > **Majored In** Anatomy, Home Econmics, Logistics, and Psychology 
-> **Grade Point Overall** 2.2 (It could have been higher but I had a lot of family troubles that meant I couldn’t always make it to class). 
+> **Grade Point Overall** 2.2 (It could have been higher but I had a lot of family troubles that meant I couldn't always make it to class). 
 > **Hobbies** Knife collection, salsa dancing, travel 
-> **Skills** People say I’m really good with people. So if this job has anything to do with people, I can probably do it pretty good. I really like working with people. I’m also a quik learner. 
+> **Skills** People say I'm really good with people. So if this job has anything to do with people, I can probably do it pretty good. I really like working with people. I'm also a quik learner. 
 > **Work Experience** exotic dancer Tool sharpener Video game developer 
 > **Awards** None. 
 > **References** You can ask me for these if you give me an interview. 
@@ -3767,9 +3766,9 @@ _Related to Customer Service_
 
 **Questions to Consider:**
 1. *Do you plan to pursue a graduate degree in psychology?*
-2. *If yes, would you aim for a master’s or doctoral degree? Reasons:*
+2. *If yes, would you aim for a master's or doctoral degree? Reasons:*
     - Master's Degree: Which career(s) from Table 11.1 appeal to you? Why?
-    - Doctoral Degree: Which type — PhD, PsyD, or EdD — would you prefer? Why?
+    - Doctoral Degree: Which type -- PhD, PsyD, or EdD -- would you prefer? Why?
 3. *Which psychology subfields interest you? Reasons:*
 
 **Doctoral Degree Options:**
@@ -4646,3 +4645,4 @@ _Appreciation for Communication:_
 ### Conclusion
 
 Understanding the attributes of psychologists and staying connected to the psychological community can help individuals continue their growth and development in the field. Engaging with professional organizations, honor societies, and resources offers opportunities for intellectual stimulation, networking, and personal growth.
+
