@@ -13,4 +13,4 @@ Original,Len,Result0,Len0,Diff0,Score0,Result1,Len1,Diff1,Score1,Result2,Len2,Di
 ,,,,,Prompt2,"Write comprehensive notes summarizing the following text. Use nested bullet points: with headings, terms, and key concepts in bold.",58%,15,,,,,,,,,,,,,,,,,,
 ,,,,,Prompt3,"Create concise bullet-point notes summarizing the important parts of the following text. Use nested bullet points, with headings terms and key concepts in bold, including whitespace to ensure readability. Avoid Repetition.",43%,10,,,,,,,,,,,,,,,,,,
 ,,,,,Prompt4,"Write concise notes summarizing the following text. Use nested bullet points: with headings, terms, and key concepts in bold.",41%,14,,,,,,,,,,,,,,,,,,
-,,,,,Prompt5,"Create comprehensive, but concise, notes summarizing the following text. Use nested bullet points: with headings, terms, and key concepts in bold.",52%,14,Extra Notes,,,,,,,,,,,,,,,,,,
+,,,,,Prompt5,"Create comprehensive, but concise, notes summarizing the following text. Use nested bullet points: with headings, terms, and key concepts in bold.",52%,14,Extra Notes,,,,,,,,,,,,,,,,,
