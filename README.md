@@ -57,10 +57,10 @@ For this analysis we will be testing out 5 different LLM for the following tasks
 
 ### Question / Answer Ranking
 1. [**Hermes Trismegistus Mistral 7b**](https://huggingface.co/TheBloke/Hermes-Trismegistus-Mistral-7B-GGUF) - Initially my favorite, but ended up deciding it was too verbose.
-2. [**SynthIA 7B**](https://huggingface.co/TheBloke/SynthIA-7B-v2.0-GGUF) - Became my favorite of models tested in this round.
-3. [**Mistral 7b Instruct v0.1**](https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.1-GGUF) - Since this ranking, v0.2 has come out and beat all the competition. I should test them against eachother, sometime.
-4. [**CollectiveCognition v1.1 Mistral 7b**](https://huggingface.co/TheBloke/CollectiveCognition-v1.1-Mistral-7B-GGUF) Alot of filler and took the longest amount of time of them all. It scored a bit higher than mistral on quality\usefulness, I think the amount of filler just made it less enjoyable to read.
-5. [**KAI 7b Instruct**](https://huggingface.co/TheBloke/KAI-7B-Instruct-GGUF) the answers were too short, and made its BS stand out a little more. A good model, but not for summarizing books, I'm afraid.
+2. [**SynthIA 7B V2**](https://huggingface.co/TheBloke/SynthIA-7B-v2.0-GGUF) - Became my favorite of models tested in this round.
+3. [**Mistral 7b Instruct v0.1**](https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.1-GGUF) - Since this ranking, v0.2 has come out and beat all the competition. I liked Synthia v2 better than Mistral v0.1.
+4. [**CollectiveCognition v1.1 Mistral 7b**](https://huggingface.co/TheBloke/CollectiveCognition-v1.1-Mistral-7B-GGUF) Alot of filler and took the longest amount of time of them all. It scored a bit higher than mistral on quality\usefulness, there was just too much filler.
+5. [**KAI 7b Instruct**](https://huggingface.co/TheBloke/KAI-7B-Instruct-GGUF) the answers were too short, and made its BS stand out a little more.
 
 | Model | Rating | Search Accuracy | Characters | Seconds | BS | Filler | Short | Good BS |
 | ----- | ------ | --------------- | ---------- | ------- | -- | ------ | ----- | ------- |
@@ -88,7 +88,7 @@ Not surprisingly, summaries performed better than Q/A, but they also had a more 
 1. [**Hermes Trismegistus Mistral 7b**](https://huggingface.co/TheBloke/Hermes-Trismegistus-Mistral-7B-GGUF) - Still in the lead. It's verbose, with some filler. I can use these results.
 2. [**SynthIA 7B**](https://huggingface.co/TheBloke/SynthIA-7B-v2.0-GGUF) - Pretty good, but too concise. Many of the answers were perfect, but 7 were too short\incomplete for use.
 3. [**Mistral 7b Instruct v0.1**](https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.1-GGUF) - Just too short.
-4. [**KAI 7b Instruct**](https://huggingface.co/TheBloke/KAI-7B-Instruct-GGUF) - Just too short.
+4. [**KAI 7b Instruct**](https://huggingface.co/TheBloke/KAI-7B-Instruct-GGUF) - Too short.
 5. [**CollectiveCognition v1.1 Mistral 7b**](https://huggingface.co/TheBloke/CollectiveCognition-v1.1-Mistral-7B-GGUF) - Lots of garbage. Some of the summaries were super detailed and perfect, but over half of the responses were a set of questions based on the text, not a summary.
 
 | Name | Score |  Characters Generated | % Diff from OG | Seconds to Generate | Short | Garbage | BS | Fill | Questions | Detailed |
@@ -209,7 +209,7 @@ In this case, comprehensive performs better than "concise", or even than "compre
 
 However, I do caution that this will depend on your use-case. Though generally, what I'm looking for is a highly condensed, readable notes covering the important knowledge.
 
-Essentially, if I didn't read the original, I should still know what information it conveys, if not every specific detail.
+I should still know what information it conveys, if not every specific detail.
 
 **Find the full data and rankings on [Google Docs](https://docs.google.com/spreadsheets/d/1u3BgDx6IsJSbRz3uNmud1sDtO4WvWsH6ION3J-fhoGw/) or here in this repository: [User Prompt Rankings](ranking-data/Round-5_User-Prompt.tsv).**
 
