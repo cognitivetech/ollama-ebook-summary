@@ -311,11 +311,9 @@ This will generate a markdown file and a csv file based on the output. Then I ca
 For System Prompt, you must edit the file directly: Uncomment the following line and change the variable to suit your needs.
 `#system_prompt=${mpt}`
 
-A big difference from the original, is that I'm generating the JSON object being sent to the api, right here in the script. So now my input contains each [selection of text](summarize.txt) on its own line, surrounded by quotation marks.
+A big difference from the original, is that I'm generating the JSON object being sent to the api, right here in the script. So now my input contains each [selection of text](summarize.txt) on its own line, surrounded by quotation marks. Saves repeating that JSON over and over.
 
 You will also note that I add a plus sign to mark chapter\section headings, so I can easily turn them into markdown headings as part of this script. Otherwise it just cuts off an input line at 150 characters to use as a temporary heading for the resulting summary.
-
-Besides all of that, this version also automatically generates a CSV file in addition to the markdown, so I can more easily rank and track my results.
 
 ```bash
 #!/bin/bash
