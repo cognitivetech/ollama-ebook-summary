@@ -13,8 +13,6 @@ When i began testing various LLM variants, `mistral-7b-instruct-v0.1.Q4_K_M` cam
 While I've tried 50+ different LLM for this same task, I haven't found anything that beats [**Mistral-7B-Instruct-v0.2**](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.2) for bullet point notes summarization.
 
 ## Contents
-- [Intro](#intro)
-- [Contents](#contents)
 - [Model Ranking and Configuration Variables](#model-ranking-and-configuration-variables)
   - [Round 1 - Q/A vs Summary](configuration-variables.md#round-1---qa-vs-summary)
     - [Question / Answer Ranking](configuration-variables.md#question--answer-ranking)
