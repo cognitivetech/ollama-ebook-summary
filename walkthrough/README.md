@@ -9,6 +9,7 @@ Check out Private GPT [Repository](https://github.com/imartinez/privateGPT) and 
 ## Contents 
 - [Disclaimer](#disclaimer)
 - [System](#system)
+  - [PrivateGPT Settings](#private-gpt-settings)
 - [Process Document](#process-document)
   - [Chapterize Book](#chapterize-book)
   - [Convert to text](#convert-to-text)
