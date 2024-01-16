@@ -38,7 +38,41 @@ I'm running this project at home using an RTX 3060 12GB. Each answer typically t
 I'm using [Calibre](https://calibre-ebook.com/) and [VS Code](https://code.visualstudio.com/).
 
 * if using Linux, [be sure to install calibre from official source](https://calibre-ebook.com/download_linux). 
-  
+
+### Private GPT Settings
+
+Here, you can see the relevant portions of my `settings.yaml`.
+
+```yaml
+ui:
+  enabled: true
+  path: /
+  default_chat_system_prompt: ""
+  default_query_system_prompt: ""
+
+llm:
+  mode: local
+  max_new_tokens: 10000
+  context_window: 31000
+  tokenizer: mistralai/Mistral-7B-Instruct-v0.2
+
+embedding:
+  mode: local
+  ingest_mode: simple
+
+vectorstore:
+  database: qdrant
+
+qdrant:
+  path: local_data/private_gpt/qdrant
+
+local:
+  prompt_style: mistral
+  llm_hf_repo_id: TheBloke/Mistral-7B-Instruct-v0.2-GGUF
+  llm_hf_model_file: mistral-7b-instruct-v0.2.Q8_0.gguf 
+  embedding_hf_model_name: BAAI/bge-small-en-v1.5
+```
+
 ## Process Document
 
 ### Chapterize Book
@@ -71,7 +105,7 @@ Ask your favorite LLM for help with regex to remove that stuff.
 
 One thing you want to be sure to check for is **Control Characters**. Scan your document for control characters (regex: `[\x00-\x1F\x7F-\x9F]`) because they will invalidate your json, and can be invisible.
 
-Luckily, I began with a mostly clean document, so I just select as much text as I want (using a character counter extension, for guidance), and VS Code function, "join lines," that I've mapped to a convenient key combo.
+Luckily, I began with a mostly clean document, so I just select as much text as I want (using a character counter extension, for guidance), and **VS Code function, "[join lines](https://superuser.com/questions/833079/visual-studio-keyboard-shortcut-for-joining-lines)," that I've mapped to a convenient key combo**.
 
 For this demonstration, I split a 73 page, 30k token, book chapter into 31 chunks of text, leaving an average of 850 tokens (3400 characters) per query. 
 
