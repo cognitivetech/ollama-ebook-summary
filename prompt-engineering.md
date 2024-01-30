@@ -2,6 +2,9 @@
 
 Saving this stuff for when I get serious about testing different prompts
 
+https://help.openai.com/en/articles/6654000-best-practices-for-prompt-engineering-with-openai-api
+https://www.promptingguide.ai/
+
 ## https://twitter.com/aisolopreneur/status/1750997815260774603/
 
 > I just discovered [a new research paper](https://arxiv.org/pdf/2312.16171v1.pdf) that identifies 26 principles to instantly 10x your prompt quality.
