@@ -260,9 +260,10 @@ Especially considering that this is not for profit, but for educational purposes
 
 ## Additional Resources
 
+* [HuggingFace - Open LLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard)
 * [Pressure-tested the most popular open-source LLMs (Large Language Models) for their Long Context Recall abilities](https://www.reddit.com/r/LocalLLaMA/comments/18s61fb/pressuretested_the_most_popular_opensource_llms/) u/ramprasad27 ([Part 2](https://www.reddit.com/r/LocalLLaMA/comments/190r59u/long_context_recall_pressure_test_batch_2/))
-  * [LeonEricsson / llmcontext - 💢 Pressure testing the context window of open LLMs](https://github.com/LeonEricsson/llmcontext)
+  * [LeonEricsson / llmcontext - Pressure testing the context window of open LLMs](https://github.com/LeonEricsson/llmcontext)
 * [Chatbox Arena Leaderboard](https://chat.lmsys.org/)
-* [🐺🐦‍⬛ LLM Comparison/Test: Ranking updated with 10 new models (the best 7Bs)!](https://www.reddit.com/r/LocalLLaMA/comments/18u122l/llm_comparisontest_ranking_updated_with_10_new/) WolframRavenwolf
-  * [🐺🐦‍⬛ LLM Prompt Format Comparison/Test: Mixtral 8x7B Instruct with **17** different instruct templates](https://www.reddit.com/r/LocalLLaMA/comments/18ljvxb/llm_prompt_format_comparisontest_mixtral_8x7b/) WolframRavenwolf
+* [LLM Comparison/Test: Ranking updated with 10 new models (the best 7Bs)!](https://www.reddit.com/r/LocalLLaMA/comments/18u122l/llm_comparisontest_ranking_updated_with_10_new/) WolframRavenwolf
+  * [LLM Prompt Format Comparison/Test: Mixtral 8x7B Instruct with **17** different instruct templates](https://www.reddit.com/r/LocalLLaMA/comments/18ljvxb/llm_prompt_format_comparisontest_mixtral_8x7b/) WolframRavenwolf
 * [Hallucination leaderboard](https://github.com/vectara/hallucination-leaderboard/) Vectara
