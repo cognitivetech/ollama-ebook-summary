@@ -3,6 +3,7 @@
 Saving this stuff for when I get serious about testing different prompts
 
 https://help.openai.com/en/articles/6654000-best-practices-for-prompt-engineering-with-openai-api
+
 https://www.promptingguide.ai/
 
 ## https://twitter.com/aisolopreneur/status/1750997815260774603/
