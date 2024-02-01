@@ -3,8 +3,11 @@
 Saving this stuff for when I get serious about testing different prompts
 
 https://help.openai.com/en/articles/6654000-best-practices-for-prompt-engineering-with-openai-api
+
 https://intuitionmachine.gumroad.com/l/gpt4
+
 https://arxiv.org/abs/2401.14423
+
 https://www.promptingguide.ai/
 
 ## https://twitter.com/aisolopreneur/status/1750997815260774603/
