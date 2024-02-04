@@ -75,6 +75,7 @@ For now, all i can say is Mistral Instruct 7b v0.2 spends half the time of its n
 
 You can see the exact prompt and style and more in: [Round 6: Models - Ranking Data and Output](ranking-data/Round-6_Models) 
 
+**Note: These times don't represent normal performance of these models for RTX 3060 12GB. I set context and max-new-tokens too long, which I didn't realize was slowing me down. I will update with new rankings ASAP.**
 | Model | Score | Time | Diff | Prompt Style | System Prompt | 
 | --- | --- | --- | --- | --- | --- | 
 | MistralInst7b0.2 | 16 | 76 | 0.47 | \<s>\</s>[INST] {prompt} [/INST] | None | 
