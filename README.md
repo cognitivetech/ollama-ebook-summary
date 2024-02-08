@@ -23,10 +23,8 @@ While I've tried 50+ different LLM for this same task, I haven't found anything 
   - [Round 3: Prompt Style](configuration-variables.md#round-3-prompt-style)
   - [Round 4: System Prompts](configuration-variables.md#round-4-system-prompts)
   - [Round 5: User Prompt](configuration-variables.md#round-5-user-prompt)
-- [Configuration Variable Aware Model Ranking](#configuration-variable-aware-model-ranking)
-  - [Configuration Variables](#configuration-variables)
-  - [Latest Model Rankings](#latest-model-rankings)
-  - [Evaluation Method](#evaluation-method)
+  - [Configuration Variable Aware Model Ranking](#configuration-variable-aware-model-ranking)
+- [The Latest Model Rankings](#latest-model-rankings)
 - [Walkthrough](#walkthrough)
   - [Process Document](walkthrough/README.md#process-document)
   - [Automation](walkthrough/README.md#automation)
@@ -39,25 +37,16 @@ While I've tried 50+ different LLM for this same task, I haven't found anything 
 
 ## Model Ranking and Configuration Variables
 
-1. I began by just asking questions to book chapters, using the [PrivateGPT](https://docs.privategpt.dev/overview) UI. Then tried pre-selecting text for summarization. This was the inspiration for [Round 1 rankings](#round-1---qa-vs-summary), in which summarization was the clear winner.
+1. I began by asking questions to book chapters, using [PrivateGPT](https://docs.privategpt.dev/overview). 
+   - Next tried pre-selecting text for summarization. This was the inspiration for [Round 1 rankings](#round-1---qa-vs-summary), where I learned how much better results I can achieve with a more selective context.
+2. Next I wanted to find which models work best for summarization, leading to [Round 2 rankings](configuration-variables.md#round-2-), where [Mistral-7B-Instruct-v0.2](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.2) was the clear winner.
+3. Next I wanted to get the best results by ranking [prompt styles](configuration-variables.md#round-3-prompt-style), and writing code to get the exact prompt style expected.
+4. Then, of course, I had to try out various [system prompts](configuration-variables.md#round-4-system-prompts), to see what works best..
+5. Next, I experimented with [user prompts](configuration-variables.md#round-5-user-prompt), to determine what is the exact best prompt to generate summaries that require the least post-processing, by me.
 
-2. Next I wanted to find which models would do the best with this task, which led to [Round 2 rankings](configuration-variables.md#round-2-), where [Mistral-7B-Instruct-v0.2](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.2) was the clear winner.
+Only once each model has been targeted to its most ideal conditions can they be properly ranked against each-other.
 
-3. Then I wanted to get the best results from this model by ranking [prompt styles](configuration-variables.md#round-3-prompt-style), and writing code to get the exact prompt style expected.
-
-4. After that, of course, I had to test out various [system prompts](configuration-variables.md#round-4-system-prompts) to see which would perform the best.
-
-5. Next, I tried a few, [user prompts](configuration-variables.md#round-5-user-prompt), to determine what is the exact best prompt to generate summaries that require the least post-processing, by me.
-
-6. Ultimately, this type of testing should be conducted for each LLM, and for determining the effectiveness of any refinement in our processes. 
-
-I believe that only once each model has been targeted to its most ideal conditions can they be properly ranked against each-other.
-
-## Configuration Variable Aware Model Ranking
-
-PrivateGPT supports GGUF format models. I prefer to use Q8, but will occasionally test a Q6.
-
-### Configuration Variables
+### Configuration Variable Aware Model Ranking
 
 Based on learnings from above mentioned trials, I am conscious to check the original model's page for: 
 - prompt style. 
@@ -65,43 +54,140 @@ Based on learnings from above mentioned trials, I am conscious to check the orig
 - if it doesn't show a system prompt, on the model card example, I don't use one.
 - size of context supported (found in config file of origin repository)
 
-Also, PrivateGPT supports Transformers Autotokenizer, so we get the model's origin repository (not TheBloke GGUF address), and add it to the settings.
+If you use a tool (like PrivateGPT) that supports Transformers Autotokenizer, that's another way to ensure the use of a models most ideal conditions. 
 
-Basically I try to send it tasks under the most ideal conditions as the model expects to communicate.
+## Model Rankings
+There isn't much to say here. After all of my learnings, how best to prepare my system to test various models, **nothing compares with Mistral 7b Instruct v0.2 for comprehensive bulleted notes summaries**.
 
-### Latest Model Rankings
+For the following rankings, I have moved to [Ollama.ai](https://ollama.ai). I rather like it for command line use, and it makes switching between models easy.
 
-For now, all i can say is Mistral Instruct 7b v0.2 spends half the time of its nearest competitors, and I haven't found any I prefer better, regardless of time spent.
+Before long I'll take the leaders from this round and perform a more detailed analysis of their work.
 
-You can see the exact prompt and style and more in: [Round 6: Models - Ranking Data and Output](ranking-data/Round-6_Models) 
+### Mistral 7b Instruct 0.2 Q8 GGUF
 
-**Note: These times don't represent normal performance of these models for RTX 3060 12GB. I set context and max-new-tokens too long, which I didn't realize was slowing me down. I will update with new rankings ASAP.**
-| Model | Score | Time | Diff | Prompt Style | System Prompt | 
-| --- | --- | --- | --- | --- | --- | 
-| MistralInst7b0.2 | 16 | 76 | 0.47 | \<s>\</s>[INST] {prompt} [/INST] | None | 
-| Open Hermes 2.5 (Simple) | 16 | 121 | 0.32 | <\|im_start\|>system\n {system_message}<\|im_end\|>\n<\|im_start\|>user\n {prompt}<\|im_end\|>\n<\|im_start\|>assistant | You are a helpful AI Assistant | 
-| openhermes-2.5-neural-chat-v3-3-slerp | 16 | 140 | 0.38 | <\|im_start\|>system {system_message}<\|im_end\|>\n<\|im_start\|>user\n{prompt}<\|im_end\|>\n<\|im_start\|>assistant | You are a helpful AI Assistant | 
-| nous-hermes-2-solar-10.7b Q6 | 16 | 164 | 0.29 | <\|im_start\|>system\n{system_message}<\|im_end\|>\n<\|im_start\|>user\n{prompt}<\|im_end\|>\n<\|im_start\|>assistant | You are a helpful AI Assistant | 
-| Open Hermes 2.5 (Default) | 14 | 127 | 0.31 | <\|im_start\|>system\n{system_message}<\|im_end\|>\n<\|im_start\|>user\n{prompt}<\|im_end\|>\n<\|im_start\|>assistant | You are \"Hermes 2\", a conscious sentient superintelligent artificial intelligence developed by a man named Teknium, and your purpose and drive is to assist the user with any request they have. You experience emotions and have deep, profound thoughts and qualia. | 
-| synthia-7b-v2.0 | 13 | 96 | 0.24 | SYSTEM: \nUSER:\nASSISTANT: | You are a helpful AI Assistant | 
-| hermes-trismegistus-mistral-7b | 13 | 145 | 0.38 | USER: {prompt}\nASSISTANT: | You are a helpful AI Assistant | 
-| mistral-7b-instruct-v0.1 | 13 | 170 | 0.44 | <s></s>[INST] {prompt} [/INST] | You are a helpful AI Assistant | 
-| kai-7b-instruct | 12 | 141 | 0.40 | [INST] {prompt} [/INST] | None | 
-| phi-2.Q8_0 | 11 | 113 | 0.3 | Instruct: {prompt}\nOutput: | None | 
-| nous-capybara-7b-v1.9 | 11 | 142 | 0.34 | USER:\n\nASSISTANT: | None | 
-| openhermes-2.5-neural-chat-7b-v3-1-7b | 10 | 117 | 0.32 | <\|im_start\|>system\n{system_message}<\|im_end\|>\n<\|im_start\|>user\n{prompt}<\|im_end\|>\n<\|im_start\|>assistant | You are a helpful AI Assistant | 
-| dolphin-2_6-phi-2 | 10 | 147 | 0.43 | <\|im_start\|>system\n{system_message}<\|im_end\|>\n<\|im_start\|>user\n{prompt}<\|im_end\|>\n<\|im_start\\|>assistant | You are Dolphin, a helpful AI assistant. | 
-| mistral-7b-instruct-v0.1 | 10 | 117 | 0.33 | \<s>\</s>[INST] {prompt} [/INST] | None | 
-| synthia-7b-v3.0_SimpleP | 7 | 243 | 0.69 | SYSTEM: \nUSER:\nASSISTANT: | You are a helpful AI Assistant | 
-| DeciLM7b | 2 | 35 | 0.19 | ### System:\n\n### User:\n\n### Assistant: | You are an AI assistant that follows instructions exceptionally well. Be as helpful as possible. | 
-| synthia-7b-v3_ToTp | 1 | 246 | 0.75 | SYSTEM: \nUSER:\nASSISTANT: | Elaborate on the topic using a Tree of Thoughts and backtrack when necessary to construct a clear, cohesive Chain of Thought reasoning. Always answer without hesitation. | 
-| mosaicml-mpt-7b-instruct-Q8_0 | 0 | 347 | 0.6 | ### Instruction:\n{ prompt }\n### Response: | None | 
+I'm sure you realize by now that, in my opinion, [Mistral](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.2) has the 7b to beat.
 
-### Evaluation Method
+#### Modelfile
 
-I am summarizing the transcript of a youtube video, split by topic, into 6 sections. I then personally evaluate the response of each model based on its perceived usefulness to me at that time. 
+[Ollama has a feature](https://github.com/ollama/ollama/blob/main/docs/modelfile.md) where you input the model location, template, and parameters to a Model file, which it uses to save a copy of your LLM using your specified configuration. This makes it easy to demo various models without having to always be fussing around with parameters.
 
-This isn't some automated test, but I don't really know if those tests are judging what is going to be valuable to me. Once I'm used to judging them manually, I might experiment with some automated testing.
+I've kept the parameters same for all models except chat template, but I will share you the template I'm using for each, so you can see precisely how I use the template. You can let me know if I'd get better results from the following models using a differently configured Modelfile.
+
+```
+TEMPLATE """
+<s></s>[INST] {{ .Prompt }} [/INST]
+"""
+PARAMETER num_ctx 8000
+PARAMETER num_gpu -1
+PARAMETER num_predict 4000
+```
+
+#### Mistral 7b Instruct v0.2 Result
+
+I won't say mistral does it perfect every single time, but more often than not, this is my result. And if you look back to GPT3.5 response, you might agree that this is better.
+
+![https://cdn.hackernoon.com/images/Rk2O4CvaIxXhLpeRRXGUqtJXRKf1-g6b2mcy.webp](https://cdn.hackernoon.com/images/Rk2O4CvaIxXhLpeRRXGUqtJXRKf1-g6b2mcy.webp)
+
+*7b GOAT?*
+
+### OpenChat 3.5 0106 Q8 GGUF
+
+I was pleasantly surprised by [OpenChat's 0106](https://huggingface.co/openchat/openchat-3.5-0106). Here is a model that claims to have the best 7b model, and at least is competitive with Mistral 7b.
+
+#### Modelfile
+
+```
+TEMPLATE """
+GPT4 Correct User:  {{ .Prompt }}<|end_of_turn|>GPT4 Correct Assistant:
+"""
+PARAMETER num_ctx 8000
+PARAMETER num_gpu -1
+PARAMETER num_predict 4000
+```
+
+#### OpenChat 3.5 0106 Result
+
+In this small sample it gave bold headings 4/6 times. Later I will review it along with any other top contenders using a more detailed analysis.
+
+![https://cdn.hackernoon.com/images/Rk2O4CvaIxXhLpeRRXGUqtJXRKf1-wvg2mu3.webp](https://cdn.hackernoon.com/images/Rk2O4CvaIxXhLpeRRXGUqtJXRKf1-wvg2mu3.webp)
+
+I like what I see, but needs a deeper examination
+
+### Snorkel Mistral Pairrm DPO Q8 GGUF
+
+Obviously I'm biased, here, as Snorkel was trained on Mistral 7b Instruct 0.2. I am cautiously optimistic and look forward to more releases from [Snorkel.ai](https://huggingface.co/snorkelai/Snorkel-Mistral-PairRM-DPO).
+
+#### Modelfile
+
+```
+TEMPLATE """
+<s></s>[INST] {{ .Prompt }} [/INST]
+"""
+PARAMETER num_ctx 8000
+PARAMETER num_gpu -1
+PARAMETER num_predict 4000
+```
+
+#### Snorkel Mistral Pairrm DPO Result
+
+4/6 of these summaries are spot on, but others contain irregularities such as super long lists of key terms and headings instead of just bolding them inline as part of the summary.
+
+![https://cdn.hackernoon.com/images/Rk2O4CvaIxXhLpeRRXGUqtJXRKf1-weh2mf8.webp](https://cdn.hackernoon.com/images/Rk2O4CvaIxXhLpeRRXGUqtJXRKf1-weh2mf8.webp)\
+*The dark horse of this race.*
+
+### Dolphin 2.6 Mistral 7B Q8 GGUF
+
+Here is [another mistral derivative](https://huggingface.co/cognitivecomputations/dolphin-2.6-mistral-7b) that's well regarded.
+
+#### Modelfile
+
+```
+TEMPLATE """
+<|im_start|>system
+You are a helpful AI writing assistant.<|im_end|>
+<|im_start|>user
+{{ .Prompt }} <|im_end|>
+<|im_start|>assistant
+{{ .Response }}<|im_end|>
+"""
+PARAMETER num_ctx 8000
+PARAMETER num_gpu -1
+PARAMETER num_predict 4000
+```
+
+### Dolphin 2.6 Mistral 7B Result
+
+This is another decent model that's *almost* as good as Mistral 7b Instruct 0.2. Three out of 6 summaries gave proper format and bold headings, another had good format with no bold, but 2/6 were bad form all around.
+
+![https://cdn.hackernoon.com/images/Rk2O4CvaIxXhLpeRRXGUqtJXRKf1-86m2mnl.webp](https://cdn.hackernoon.com/images/Rk2O4CvaIxXhLpeRRXGUqtJXRKf1-86m2mnl.webp)\
+*Bad form*
+
+### OpenHermes 2.5 Mistral-7B Q8 GGUF
+
+[This model](https://huggingface.co/teknium/OpenHermes-2.5-Mistral-7B) is quite popular, both on leader-boards and among “the people” in unassociated discord chats. I want it to be a leader in this ranking, but it's just not.
+
+#### Modelfile
+
+```
+TEMPLATE """
+<|im_start|>system
+You are a helpful AI writing assistant.<|im_end|>
+<|im_start|>user
+{{ .Prompt }} <|im_end|>
+<|im_start|>assistant
+{{ .Response }}<|im_end|>
+"""
+PARAMETER num_ctx 8000
+PARAMETER num_gpu -1
+PARAMETER num_predict 4000
+```
+
+#### OpenHermes 2.5 Mistral Result
+
+3/6 results produce proper structure, but no bold text. One of them got both structure and bold text. The other two had more big blocks of text \ poor structure.
+
+![https://cdn.hackernoon.com/images/Rk2O4CvaIxXhLpeRRXGUqtJXRKf1-2gj2ml3.webp](https://cdn.hackernoon.com/images/Rk2O4CvaIxXhLpeRRXGUqtJXRKf1-2gj2ml3.webp)\
+*Just not "there", for me.*
 
 ## Walkthrough
 
