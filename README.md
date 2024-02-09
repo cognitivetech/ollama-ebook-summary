@@ -23,7 +23,7 @@ While I've tried 50+ different LLM for this same task, I haven't found anything 
   - [Round 3: Prompt Style](configuration-variables.md#round-3-prompt-style)
   - [Round 4: System Prompts](configuration-variables.md#round-4-system-prompts)
   - [Round 5: User Prompt](configuration-variables.md#round-5-user-prompt)
-- [The Latest Model Rankings](#latest-model-rankings)
+- [7b Q8 GGUF Model Rankings](#7b-q8-model-rankings)
 - [Walkthrough](#walkthrough)
   - [Process Document](walkthrough/README.md#process-document)
   - [Automation](walkthrough/README.md#automation)
@@ -55,7 +55,7 @@ Based on learnings from above mentioned trials, I am conscious to check the orig
 
 If you use a tool (like PrivateGPT) that supports Transformers Autotokenizer, that's another way to ensure the use of a models most ideal conditions. 
 
-## Model Rankings
+## 7b Q8 GGUF Model Rankings
 There isn't much to say here. After all of my learnings on how best to prepare my system to test various models, **nothing compares with Mistral 7b Instruct v0.2 for comprehensive bulleted notes summaries**.
 
 For the following rankings, I have moved to [Ollama.ai](https://ollama.ai). I rather like it for command line use, and it makes switching between models easy.
