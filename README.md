@@ -23,7 +23,6 @@ While I've tried 50+ different LLM for this same task, I haven't found anything 
   - [Round 3: Prompt Style](configuration-variables.md#round-3-prompt-style)
   - [Round 4: System Prompts](configuration-variables.md#round-4-system-prompts)
   - [Round 5: User Prompt](configuration-variables.md#round-5-user-prompt)
-  - [Configuration Variable Aware Model Ranking](#configuration-variable-aware-model-ranking)
 - [The Latest Model Rankings](#latest-model-rankings)
 - [Walkthrough](#walkthrough)
   - [Process Document](walkthrough/README.md#process-document)
@@ -164,7 +163,7 @@ This is another decent model that's *almost* as good as Mistral 7b Instruct 0.2.
 
 ### OpenHermes 2.5 Mistral-7B Q8 GGUF
 
-[This model](https://huggingface.co/teknium/OpenHermes-2.5-Mistral-7B) is quite popular, both on leader-boards and among “the people” in unassociated discord chats. I want it to be a leader in this ranking, but it's just not.
+[This model](https://huggingface.co/teknium/OpenHermes-2.5-Mistral-7B) is quite popular, both on leader-boards and among "the people" in unassociated discord chats. I want it to be a leader in this ranking, but it's just not.
 
 #### Modelfile
 
@@ -189,9 +188,32 @@ PARAMETER num_predict 4000
 ![https://cdn.hackernoon.com/images/Rk2O4CvaIxXhLpeRRXGUqtJXRKf1-2gj2ml3.webp](https://cdn.hackernoon.com/images/Rk2O4CvaIxXhLpeRRXGUqtJXRKf1-2gj2ml3.webp)\
 *Just not "there", for me.*
 
+### Honorable Mentions
+
+- [omnibeagle-7b](https://huggingface.co/mlabonne/OmniBeagle-7B/) (ChatML) - This one is actually producing a decent format but no bolded text.
+- [neuralbeagle14-7b](https://huggingface.co/mlabonne/NeuralBeagle14-7B) (ChatML, Mistral) - Works better with the mistral template. "OK" results but too much confusion around prompt templates for my liking.
+- [WestLake-7B-v2](https://huggingface.co/senseable/WestLake-7B-v2/) (ChatML) - I've seen worse
+- [MBX-7B-v3-DPO](https://huggingface.co/macadeliccc/MBX-7B-v3-DPO) (ChatML) - No consistency in format.
+
+### Conclusion
+
+I wish I had better news to share. My ideal headline is that *there is an abundance of leading models that produce quality output when creating **comprehensive bulleted note summaries,** and it's just so hard for me to choose among them.* Unfortunately, that is not the case.
+
+Maybe they outperform Mistral 0.2 in full form but only are trailing in GGUF format? I think it's quite likely that none of our existing evals target this type of output, but I would certainly argue that it's a task that any leading 7b gguf model should be able to manage.
+
+Another thing to consider is that Mistral 7b Instruct v0.2 came out soon after Mixtral, amidst a bunch of fanfare. I think that release slipped under the radar. In fact, many of the "leading" models I've looked at are based on 0.1 Mistral.
+
+Maybe things will change, and the world will realize that their "best" models still can't top Mistral? Then again, maybe all those models are really good at all the other tasks I'm not targeting.
+
+### I'm Willing to Help, and I'm Willing to be Proven Wrong
+
+I have data, I have a pipeline, and I have an endless need to create bulleted note summaries. If you want to work with me, please reach out. Otherwise, if you want to tell me I'm just doing it wrong, using the wrong parameters, I'll happily be proven wrong.
+
 ## Walkthrough
 
-If you are interested in following my steps, in more detail, check out the [walkthrough](walkthrough).
+If you are interested in following my steps, in more detail, check out the [walkthrough](walkthrough). 
+
+**Note**: This walkthrough is based on my use of [PrivateGPT](https://github.com/imartinez/privateGPT). Its still informative on how I process a document, but for more information on using [Ollama](https://github.com/ollama/ollama), you will want to check on [its website](https://ollama.ai/). I will have a walkthrough for it soon.
 
 ## Result
 
@@ -343,7 +365,6 @@ Especially considering that this is not for profit, but for educational purposes
     > 3. **Developmental Domain**: This domain examines the psychological and physical changes that occur throughout the human lifespan, from infancy to old age. It includes research on cognitive, social, emotional, and moral development.
     > 4. **Social and Personality Domain**: The social and personality domain explores how individuals think about themselves and others, as well as their interactions with other people. It includes research on personality traits, interpersonal relationships, group dynamics, and social influence.
     > 5. **Mental and Physical Health Domain**: This domain focuses on understanding mental health disorders and promoting positive mental and physical health. It includes research on diagnosis, treatment, and prevention of various mental and physical health conditions.
-
 
 ## Additional Resources
 
