@@ -15,14 +15,14 @@ When i began testing various LLM variants, `mistral-7b-instruct-v0.1.Q4_K_M` cam
 While I've tried 50+ different LLM for this same task, I haven't found anything that beats [**Mistral-7B-Instruct-v0.2**](https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF) for bullet point notes summarization.
 
 ## Contents
-- [Model Ranking and Configuration Variables](#model-ranking-and-configuration-variables)
-  - [Round 1 - Q/A vs Summary](configuration-variables.md#round-1---qa-vs-summary)
+- [Background Tests with Configuration Variables](#background-tests-with-configuration-variables)
+  - [#1 - Q/A vs Summary](configuration-variables.md#round-1---qa-vs-summary)
     - [Question / Answer Ranking](configuration-variables.md#question--answer-ranking)
     - [Summary Ranking](configuration-variables.md#summary-ranking)
-  - [Round 2: Summarization - Model Ranking](configuration-variables.md#round-2-summarization---model-ranking)
-  - [Round 3: Prompt Style](configuration-variables.md#round-3-prompt-style)
-  - [Round 4: System Prompts](configuration-variables.md#round-4-system-prompts)
-  - [Round 5: User Prompt](configuration-variables.md#round-5-user-prompt)
+  - [#2: Summarization - Model Ranking](configuration-variables.md#round-2-summarization---model-ranking)
+  - [#3: Prompt Style](configuration-variables.md#round-3-prompt-style)
+  - [#4: System Prompts](configuration-variables.md#round-4-system-prompts)
+  - [#5: User Prompt](configuration-variables.md#round-5-user-prompt)
 - [7b Q8 GGUF Model Rankings](#7b-q8-model-rankings)
 - [Walkthrough](#walkthrough)
   - [Process Document](walkthrough/README.md#process-document)
@@ -34,24 +34,25 @@ While I've tried 50+ different LLM for this same task, I haven't found anything 
   - [Completed Book Summaries](#completed-book-summaries)
 - [Additional Resources](#additional-resources)
 
-## Model Ranking and Configuration Variables
+## Background Tests with Configuration Variables
 
 1. I began by asking questions to book chapters, using [PrivateGPT](https://docs.privategpt.dev/overview). 
-   - Next tried pre-selecting text for summarization. This was the inspiration for [Round 1 rankings](#round-1---qa-vs-summary), where I learned how much better results I can achieve with a more selective context.
-2. Next I wanted to find which models work best for summarization, leading to [Round 2 rankings](configuration-variables.md#round-2-), where [Mistral-7B-Instruct-v0.2](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.2) was the clear winner.
-3. Next I wanted to get the best results by ranking [prompt styles](configuration-variables.md#round-3-prompt-style), and writing code to get the exact prompt style expected.
-4. Then, of course, I had to try out various [system prompts](configuration-variables.md#round-4-system-prompts), to see what works best..
+   - Next tried pre-selecting text for summarization. This was the inspiration for [#1 rankings](#round-1---qa-vs-summary), where I learned how much better results I can achieve with a precise context.
+2. A desire to find which models work best for summarization, lead to [#2 rankings](configuration-variables.md#round-2-), where [Mistral-7B-Instruct-v0.2](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.2) was the clear winner.
+3. Next I tested [prompt styles](configuration-variables.md#round-3-prompt-style), and wrote code to get ideal results for Mistral.
+4. Then, of course, I had to try various [system prompts](configuration-variables.md#round-4-system-prompts)
 5. Next, I experimented with [user prompts](configuration-variables.md#round-5-user-prompt), to determine what is the exact best prompt to generate summaries that require the least post-processing, by me.
 
 Only once each model has been targeted to its most ideal conditions can they be properly ranked against each-other.
 
 **Configuration Variable Aware Model Ranking**
 
-Based on learnings from above mentioned trials, I am conscious to check the original model's page for: 
+Based on learnings from above mentioned trials, I am conscious to check the original Model Card and Community discussions on HF for: 
 - prompt style. 
 - any example system prompt
-- if it doesn't show a system prompt, on the model card example, I don't use one.
-- size of context supported (found in config file of origin repository)
+  - I always try the example system prompt
+  - if the model card doesn't have a system prompt, I don't use one.
+- size of training context
 
 If you use a tool (like PrivateGPT) that supports Transformers Autotokenizer, that's another way to ensure the use of a models most ideal conditions. 
 
@@ -60,17 +61,18 @@ There isn't much to say here. After all of my learnings on how best to prepare m
 
 For the following rankings, I have moved to [Ollama.ai](https://ollama.ai). I rather like it for command line use, and it makes switching between models easy.
 
-Before long I'll take the leaders from this round and perform a more detailed analysis of their work.
+Later, I'll take the leaders from this round and perform a more detailed analysis of their work. I'll also be following models from their creators, to see if future models perform better on these tasks.
+
+**NOTE: on the use of Ollama**
+[Ollama has a feature](https://github.com/ollama/ollama/blob/main/docs/modelfile.md) where you input the model location, template, and parameters to a Model file, which it uses to save a copy of your LLM using your specified configuration. This makes it easy to demo various models without having to always be fussing around with parameters.
+
+I've kept the parameters same for all models except chat template, but I will share you the template I'm using for each, so you can see precisely how I use the template. You can let me know if I'd get better results from the following models using a differently configured Modelfile.
 
 ### Mistral 7b Instruct 0.2 Q8 GGUF
 
 I'm sure you realize by now that, in my opinion, [Mistral](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.2) has the 7b to beat.
 
 #### Modelfile
-
-[Ollama has a feature](https://github.com/ollama/ollama/blob/main/docs/modelfile.md) where you input the model location, template, and parameters to a Model file, which it uses to save a copy of your LLM using your specified configuration. This makes it easy to demo various models without having to always be fussing around with parameters.
-
-I've kept the parameters same for all models except chat template, but I will share you the template I'm using for each, so you can see precisely how I use the template. You can let me know if I'd get better results from the following models using a differently configured Modelfile.
 
 ```
 TEMPLATE """
@@ -85,8 +87,7 @@ PARAMETER num_predict 4000
 
 I won't say mistral does it perfect every single time, but more often than not, this is my result. And if you look back to GPT3.5 response, you might agree that this is better.
 
-![https://cdn.hackernoon.com/images/Rk2O4CvaIxXhLpeRRXGUqtJXRKf1-g6b2mcy.webp](https://cdn.hackernoon.com/images/Rk2O4CvaIxXhLpeRRXGUqtJXRKf1-g6b2mcy.webp)
-
+![https://cdn.hackernoon.com/images/Rk2O4CvaIxXhLpeRRXGUqtJXRKf1-g6b2mcy.webp](https://cdn.hackernoon.com/images/Rk2O4CvaIxXhLpeRRXGUqtJXRKf1-g6b2mcy.webp)\
 *7b GOAT?*
 
 ### OpenChat 3.5 0106 Q8 GGUF
@@ -108,9 +109,8 @@ PARAMETER num_predict 4000
 
 In this small sample it gave bold headings 4/6 times. Later I will review it along with any other top contenders using a more detailed analysis.
 
-![https://cdn.hackernoon.com/images/Rk2O4CvaIxXhLpeRRXGUqtJXRKf1-wvg2mu3.webp](https://cdn.hackernoon.com/images/Rk2O4CvaIxXhLpeRRXGUqtJXRKf1-wvg2mu3.webp)
-
-I like what I see, but needs a deeper examination
+![https://cdn.hackernoon.com/images/Rk2O4CvaIxXhLpeRRXGUqtJXRKf1-wvg2mu3.webp](https://cdn.hackernoon.com/images/Rk2O4CvaIxXhLpeRRXGUqtJXRKf1-wvg2mu3.webp)\
+*I like what I see, but needs a deeper examination*
 
 ### Snorkel Mistral Pairrm DPO Q8 GGUF
 
@@ -207,7 +207,9 @@ Maybe things will change, and the world will realize that their "best" models st
 
 ### I'm Willing to Help, and I'm Willing to be Proven Wrong
 
-I have data, I have a pipeline, and I have an endless need to create bulleted note summaries. If you want to work with me, please reach out. Otherwise, if you want to tell me I'm just doing it wrong, using the wrong parameters, I'll happily be proven wrong.
+I have data, I saved most of my source materials, I have a pipeline, and an endless desire to create bulleted note summaries. If you want to work with me, please reach out. 
+
+Otherwise, if you want to tell me I'm just doing it wrong, using the wrong parameters, I'll happily be proven wrong.
 
 ## Walkthrough
 
