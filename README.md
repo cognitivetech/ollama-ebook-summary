@@ -46,7 +46,7 @@ While I've tried 50+ different LLM for this same task, I haven't found anything 
 
 Only once each model has been targeted to its most ideal conditions can they be properly ranked against each-other.
 
-### Configuration Variable Aware Model Ranking
+**Configuration Variable Aware Model Ranking**
 
 Based on learnings from above mentioned trials, I am conscious to check the original model's page for: 
 - prompt style. 
@@ -57,7 +57,7 @@ Based on learnings from above mentioned trials, I am conscious to check the orig
 If you use a tool (like PrivateGPT) that supports Transformers Autotokenizer, that's another way to ensure the use of a models most ideal conditions. 
 
 ## Model Rankings
-There isn't much to say here. After all of my learnings, how best to prepare my system to test various models, **nothing compares with Mistral 7b Instruct v0.2 for comprehensive bulleted notes summaries**.
+There isn't much to say here. After all of my learnings on how best to prepare my system to test various models, **nothing compares with Mistral 7b Instruct v0.2 for comprehensive bulleted notes summaries**.
 
 For the following rankings, I have moved to [Ollama.ai](https://ollama.ai). I rather like it for command line use, and it makes switching between models easy.
 
