@@ -6,8 +6,6 @@ Processes and Analysis, using Large Language Models for book summarization:
 - Detailed Walkthrough for both [PrivateGPT](walkthrough/privateGPT) and [Ollama](walkthrough)
 - Scripts and examples.
 
-***Note: While this was created using PrivateGPT, these same principles should apply to the use of LLM with any local application (though they each will likely expose different options for configuration).
-
 ## Intro
 
 When i began testing various LLM variants, `mistral-7b-instruct-v0.1.Q4_K_M` came as part of PrivateGPT's default setup. Here, I've preferred the Q8_0 variants.
@@ -15,14 +13,11 @@ When i began testing various LLM variants, `mistral-7b-instruct-v0.1.Q4_K_M` cam
 While I've tried 50+ different LLM for this same task, I haven't found anything that beats [**Mistral-7B-Instruct-v0.2**](https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF) for bullet point notes summarization.
 
 ## Contents
-- [Background Tests with Configuration Variables](#background-tests-with-configuration-variables)
-  - [#1 - Q/A vs Summary](configuration-variables.md#round-1---qa-vs-summary)
-    - [Question / Answer Ranking](configuration-variables.md#question--answer-ranking)
-    - [Summary Ranking](configuration-variables.md#summary-ranking)
-  - [#2: Summarization - Model Ranking](configuration-variables.md#round-2-summarization---model-ranking)
-  - [#3: Prompt Style](configuration-variables.md#round-3-prompt-style)
-  - [#4: System Prompts](configuration-variables.md#round-4-system-prompts)
-  - [#5: User Prompt](configuration-variables.md#round-5-user-prompt)
+- [Initial Rankings and Testing of Configuration Variables](#background-tests-with-configuration-variables)
+  - [Q/A vs Summary](configuration-variables.md#round-1---qa-vs-summary)
+  - [Prompt Style](configuration-variables.md#round-3-prompt-style)
+  - [System Prompt](configuration-variables.md#round-4-system-prompts)
+  - [User Prompt](configuration-variables.md#round-5-user-prompt)
 - [7b Q8 GGUF Model Rankings](#7b-q8-model-rankings)
 - [Walkthrough](#walkthrough)
   - [Ollama Walkthrough](walkthrough/ollama/)
@@ -34,12 +29,12 @@ While I've tried 50+ different LLM for this same task, I haven't found anything 
 
 ## Background Tests with Configuration Variables
 
-1. I began by asking questions to book chapters, using [PrivateGPT](https://docs.privategpt.dev/overview). 
-   - Next tried pre-selecting text for summarization. This was the inspiration for [#1 rankings](#round-1---qa-vs-summary), where I learned how much better results I can achieve with a precise context.
-2. A desire to find which models work best for summarization, lead to [#2 rankings](configuration-variables.md#round-2-), where [Mistral-7B-Instruct-v0.2](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.2) was the clear winner.
+1. First I tried Q/A using [PrivateGPT](https://docs.privategpt.dev/overview), then tried pre-selecting text for summarization. 
+   - This was the inspiration for [#1 rankings Q/A vs Summary](#round-1---qa-vs-summary), where I learned that a precise context is best for quality.
+2. My desire to find which model works best for summaries, lead to [#2 rankings](configuration-variables.md#round-2-), where [Mistral-7B-Instruct-v0.2](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.2) was the clear winner.
 3. Next I tested [prompt styles](configuration-variables.md#round-3-prompt-style), and wrote code to get ideal results for Mistral.
-4. Then, of course, I had to try various [system prompts](configuration-variables.md#round-4-system-prompts)
-5. Next, I experimented with [user prompts](configuration-variables.md#round-5-user-prompt), to determine what is the exact best prompt to generate summaries that require the least post-processing, by me.
+4. Then tried various [system prompts](configuration-variables.md#round-4-system-prompts).
+5. Next, I experimented with [user prompts](configuration-variables.md#round-5-user-prompt) to get the best **bulleted notes summaries**.
 
 Only once each model has been targeted to its most ideal conditions can they be properly ranked against each-other.
 
@@ -197,17 +192,19 @@ PARAMETER num_predict 4000
 
 I wish I had better news to share. My ideal headline is that *there is an abundance of leading models that produce quality output when creating **comprehensive bulleted note summaries,** and it's just so hard for me to choose among them.* Unfortunately, that is not the case.
 
-Maybe they outperform Mistral 0.2 in full form but only are trailing in GGUF format? I think it's quite likely that none of our existing evals target this type of output, but I would certainly argue that it's a task that any leading 7b gguf model should be able to manage.
+Maybe they outperform Mistral 0.2 in full form but only are trailing in GGUF format? I think it's quite likely that none of our existing evals target this type of output, but I would certainly argue that it's a task that any *leading* 7b Q8 gguf model should manage.
 
-Another thing to consider is that Mistral 7b Instruct v0.2 came out soon after Mixtral, amidst a bunch of fanfare. I think that release slipped under the radar. In fact, many of the "leading" models I've looked at are based on 0.1 Mistral.
+Another thing to consider is that Mistral 7b Instruct v0.2 came out soon after Mixtral, amidst a bunch of fanfare. I think that release slipped under the radar. In fact, many of the models I've looked at are based on 0.1 Mistral.
 
 Maybe things will change, and the world will realize that their "best" models still can't top Mistral? Then again, maybe all those models are really good at all the other tasks I'm not targeting.
 
-### I'm Willing to Help, and I'm Willing to be Proven Wrong
+### Am I missing something?
+
+If you want to tell me I'm just doing it wrong, using the wrong parameters, I'll happily be proven wrong. Send me a message cognitivetechniq at gmail dot com.
+
+### I'm Willing to Help
 
 I have data, I saved most of my source materials, I have a pipeline, and an endless desire to create bulleted note summaries. If you want to work with me, please reach out. 
-
-Otherwise, if you want to tell me I'm just doing it wrong, using the wrong parameters, I'll happily be proven wrong. Send me a message cognitivetechniq at gmail dot com.
 
 ## Walkthrough
 
