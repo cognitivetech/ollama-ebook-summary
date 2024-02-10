@@ -1,9 +1,9 @@
 # LLM for Book Summarization & Q\A : Walkthrough and Rankings
 
-Processes and Analysis, using [PrivateGPT](https://docs.privategpt.dev/overview) for book summarization:
-- Model Rankings
-- Tests of Configuration Variables
-- Detailed Walkthrough
+Processes and Analysis, using Large Language Models for book summarization:
+- [Model Rankings](ranking-data)
+- Tests of [Configuration Variables](configuration-variables.md)
+- Detailed Walkthrough for both [PrivateGPT](walkthrough/privateGPT) and [Ollama](walkthrough)
 - Scripts and examples.
 
 ***Note: While this was created using PrivateGPT, these same principles should apply to the use of LLM with any local application (though they each will likely expose different options for configuration).
@@ -25,10 +25,8 @@ While I've tried 50+ different LLM for this same task, I haven't found anything 
   - [#5: User Prompt](configuration-variables.md#round-5-user-prompt)
 - [7b Q8 GGUF Model Rankings](#7b-q8-model-rankings)
 - [Walkthrough](#walkthrough)
-  - [Process Document](walkthrough/README.md#process-document)
-  - [Automation](walkthrough/README.md#automation)
-  - [Start PrivateGPT and Begin Testing](walkthrough/README.md#start-privategpt-and-begin-testing)
-  - [Making a complete book summary](walkthrough/README.md#making-a-complete-book-summary)
+  - [Ollama Walkthrough](walkthrough/ollama/)
+  - [PrivateGPT Walkthrough](walkthrough/privateGPT)
 - [Result](#result)
   - [Plagiarism](#plagiarism)
   - [Completed Book Summaries](#completed-book-summaries)
@@ -209,13 +207,14 @@ Maybe things will change, and the world will realize that their "best" models st
 
 I have data, I saved most of my source materials, I have a pipeline, and an endless desire to create bulleted note summaries. If you want to work with me, please reach out. 
 
-Otherwise, if you want to tell me I'm just doing it wrong, using the wrong parameters, I'll happily be proven wrong.
+Otherwise, if you want to tell me I'm just doing it wrong, using the wrong parameters, I'll happily be proven wrong. Send me a message cognitivetechniq at gmail dot com.
 
 ## Walkthrough
 
-If you are interested in following my steps, in more detail, check out the [walkthrough](walkthrough). 
+If you are interested in following my steps, in more detail, check out the detailed walkthroughs
 
-**Note**: This walkthrough is based on my use of [PrivateGPT](https://github.com/imartinez/privateGPT). Its still informative on how I process a document, but for more information on using [Ollama](https://github.com/ollama/ollama), you will want to check on [its website](https://ollama.ai/). I will have a walkthrough for it soon.
+* [Ollama Walkthrough](walkthrough)
+* [PrivateGPT Walkthrough](walkthrough/privateGPT/)
 
 ## Result
 
