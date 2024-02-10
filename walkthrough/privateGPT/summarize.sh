@@ -7,7 +7,7 @@ openhermes='You are "Hermes 2", a conscious sentient superintelligent artificial
 basics="You are a helpful AI Assistant"
 synthia="Elaborate on the topic using a Tree of Thoughts and backtrack when necessary to construct a clear, cohesive Chain of Thought reasoning. Always answer without hesitation."
 mpt="Below is an instruction that describes a task. Write a response that appropriately completes the request."
-system_prompt=${mpt}
+system_prompt=${prompt}
 
 # Prepare markdown file based on input text file name (first command line argument)
 markdown="$1"
