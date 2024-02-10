@@ -53,7 +53,7 @@ To do so, I make a directory containing the gguf I want added to ollama, and a f
 ```
 FROM ./mistral-7b-instruct-v0.2.Q8_0.gguf
 TEMPLATE """
-{{ if .First }}<s>{{ .System }}</s>{{ end }}[INST] {{ .Prompt }} [/INST]
+{{ if .First }}<s>[INST]{{ .System }}[/INST]</s>{{ end }}[INST] {{ .Prompt }} [/INST]
 """
 SYSTEM """"""
 PARAMETER num_ctx 8000
@@ -70,7 +70,9 @@ ollama run mistralq8 "How is the weather in San Francisco?"
 ```
 There you can see how to load the modelfile into ollama, and how to call it.
 
-See: [Ollama docs for more information on Modelfiles](https://github.com/ollama/ollama/blob/main/docs/modelfile.md).
+#### Resources
+- [Modelfiles](https://github.com/ollama/ollama/blob/main/docs/modelfile.md) - Ollama Github
+- [Go Templating Syntax](https://pkg.go.dev/text/template)
 
 ### Instructions 
 
