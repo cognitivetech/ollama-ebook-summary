@@ -1,8 +1,10 @@
-# Model Ranking and Testing of Configuration Variables
+# Initial Model Ranking and Testing of Configuration Variables
 
 When i began testing various LLM variants, `mistral-7b-instruct-v0.1.Q4_K_M` came as part of PrivateGPT's default setup. Here, I've preferred the Q8_0 variants.
 
-While I've tried 50+ different LLM for this same task, [Mistral-7B-Instruct-v0.2](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.2) is my current leader for summarization.
+I've tried 50+ different LLM for this same task, [Mistral-7B-Instruct-v0.2](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.2) is my current leader for summarization.
+
+* **Note**: While this was created using PrivateGPT, these same principles should apply to the use of LLM with any local application (though they each will likely expose different options for configuration).
 
 ## Contents
 - [Ranking and Testing of Configuration Variables](#ranking-and-testing-of-configuration-variables)
