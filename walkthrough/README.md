@@ -53,7 +53,7 @@ To do so, I make a directory containing the gguf I want added to ollama, and a f
 ```
 FROM ./mistral-7b-instruct-v0.2.Q8_0.gguf
 TEMPLATE """
-{{ if .First }}<s>[INST]{{ .System }}[/INST]</s>{{ end }}[INST] {{ .Prompt }} [/INST]
+{{ if .First }}<s>{{ if .System  }}[INST]{{ .System }}[/INST]{{ end }}</s>{{ end }}[INST] {{ .Prompt }} [/INST]
 """
 SYSTEM """"""
 PARAMETER num_ctx 8000
