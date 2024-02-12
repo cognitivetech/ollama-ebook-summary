@@ -3,8 +3,6 @@
 ## EDITORS NOTE
 **This is a summary** made with [PrivateGPT](https://github.com/imartinez/privateGPT) and [Mistral-7B-Instruct-v0.2](https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF). 
 
-It is meant to provide a detailed overview of the topics and materials presented in the book, but does not replace it.
-
 **If you appreciate this work, feel free to buy the original using my referral-link**
 
 * [Llewellyn's Complete Book of Chakras: Your Definitive Source of Energy Center Knowledge for Health, Happiness, and Spiritual Evolution](https://www.amazon.com/Llewellyns-Complete-Book-Chakras-Definitive/dp/0738739626/?&tag=cognitivetech-20)

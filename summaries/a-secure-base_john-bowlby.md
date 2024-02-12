@@ -3,8 +3,6 @@
 ## EDITORS NOTE
 **This is a summary** made with [PrivateGPT](https://github.com/imartinez/privateGPT) using [Mistral-7B-Instruct-v0.2](https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF). 
 
-It is meant to provide a detailed overview of the topics and materials presented in the book, but does not replace it.
-
 **If you appreciate this work, feel free to buy the original  using my referral-link**
 
 [A Secure Base (Routledge Classics)](https://www.amazon.com/Secure-Base-Routledge-Classics-104/dp/0415355273/?&tag=cognitivetech-20)
