@@ -1,9 +1,8 @@
 # Summary of Anodea Judith's Eastern Body, Western Mind
 
-## EDITORS NOTE
-**This is a summary** made with [PrivateGPT](https://github.com/imartinez/privateGPT) and [SynthIA-7B-v2.0-GGUF](https://huggingface.co/TheBloke/SynthIA-7B-v2.0-GGUF). 
 
-It is meant to provide a detailed overview of the topics and materials presented in the book, but does not replace it.
+## EDITORS NOTE
+**This is a summary** made with [Ollama](https://github.com/ollama/ollama/) and [Mistral-7B-Instruct-v0.2-GGUF](https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF). 
 
 **If you appreciate my efforts, feel free to buy the original using my referral link**
 
@@ -12,2587 +11,6279 @@ It is meant to provide a detailed overview of the topics and materials presented
 ## Psychology and the chakra system as a path to the self / Anodea Judith, Celestial Arts.
 ![](https://i.imgur.com/raixzMC.png)
 
-## CONTENTS
-
-- [PREFACE TO THIS EDITION](#preface-to-this-edition)
-- [INTRODUCTION](#introduction)
-   - [Sacred Centers of the Self](#sacred-centers-of-the-self)
-   - [DISCOVERING THE RAINBOW BRIDGE](#discovering-the-rainbow-bridge)
-   - [WHEELS THAT HEAL](#wheels-that-heal)
-   - [THE HUMAN BIOCOMPUTER](#the-human-biocomputer)
-   - [CHAKRA BLOCKAGE](#chakra-blockage)
-   - [CHARACTER ARMOR](#character-armor)
-   - [THE SEVEN RIGHTS](#the-seven-rights)
-   - [THE SEVEN IDENTITIES](#the-seven-identities)
-   - [DEMONS OF THE CHAKRAS](#demons-of-the-chakras)
-   - [DEVELOPMENTAL STAGES](#developmental-stages)
-   - [INTERACTIVE DEVELOPMENT: THE CHAKRA SYSTEM AS A WHOLE](#interactive-development-the-chakra-system-as-a-whole)
-- [CHAKRA ONE](#chakra-one)
-   - [FIRST CHAKRA AT A GLANCE](#first-chakra-at-a-glance)
-   - [BASIC ISSUES](#basic-issues)
-   - [THE FOUNDATION OF THE TEMPLE](#the-foundation-of-the-temple)
-   - [GROWING THE LOTUS](#growing-the-lotus)
-   - [TRAUMAS AND ABUSES](#traumas-and-abuses)
-   - [CHARACTER STRUCTURE](#character-structure)
-   - [EXCESS AND DEFICIENCY](#excess-and-deficiency)
-   - [RESTORING THE LOTUS](#restoring-the-lotus)
-   - [CONCLUSION](#conclusion)
-- [CHAKRA TWO](#chakra-two)
-   - [BASIC ISSUES](#basic-issues-1)
-   - [DIVING IN THE WATERS](#diving-in-the-waters)
-   - [GROWING THE LOTUS](#growing-the-lotus-1)
-   - [TRAUMAS AND ABUSES](#traumas-and-abuses-1)
-   - [CHARACTER STRUCTURE THE ORAL: THE LOVER](#character-structure-the-oral-the-lover)
-   - [EXCESS AND DEFICIENCY](#excess-and-deficiency-1)
-   - [RESTORING THE LOTUS](#restoring-the-lotus-1)
-   - [CONCLUSION](#conclusion-1)
-- [CHAKRA THREE](#chakra-three)
-   - [SHADES OF YELLOW](#shades-of-yellow)
-   - [UNFOLDING THE PETALS](#unfolding-the-petals)
-   - [GROWING THE LOTUS](#growing-the-lotus-2)
-   - [TRAUMAS AND ABUSES](#traumas-and-abuses-2)
-   - [CHARACTER STRUCTURE THE ENDURER](#character-structure-the-endurer)
-   - [EXCESS AND DEFICIENCY EXCESS](#excess-and-deficiency-excess)
-   - [RESTORING THE LOTUS](#restoring-the-lotus-2)
-   - [CONCLUSION](#conclusion-2)
-- [CHAKRA FOUR](#chakra-four)
-   - [SHADES OF GREEN](#shades-of-green)
-   - [UNFOLDING THE PETALS](#unfolding-the-petals-1)
-   - [GROWING THE LOTUS](#growing-the-lotus-3)
-   - [TRAUMAS AND ABUSES](#traumas-and-abuses-3)
-   - [CHARACTER STRUCTURE RIGID \\ Hysteric](#character-structure-rigid--hysteric)
-   - [RESTORING THE LOTUS HEALING THE HEART CHAKRA](#restoring-the-lotus-healing-the-heart-chakra)
-- [CHAKRA FIVE](#chakra-five)
-   - [SHADES OF BLUE](#shades-of-blue)
-   - [UNFOLDING THE PETALS](#unfolding-the-petals-2)
-   - [GROWING THE LOTUS](#growing-the-lotus-4)
-   - [TRAUMAS AND ABUSES](#traumas-and-abuses-4)
-   - [CHARACTER STRUCTURE Challenger-Defender](#character-structure-challenger-defender)
-   - [RESTORING THE LOTUS HEALING THE FIFTH CHAKRA](#restoring-the-lotus-healing-the-fifth-chakra)
-   - [CONCLUSION](#conclusion-3)
-- [CHAKRA SIX](#chakra-six)
-   - [SHADES OF INDIGO](#shades-of-indigo)
-   - [UNFOLDING THE PETALS](#unfolding-the-petals-3)
-   - [GROWING THE LOTUS](#growing-the-lotus-5)
-   - [TRAUMAS AND ABUSES](#traumas-and-abuses-5)
-   - [CONCLUSION](#conclusion-4)
-- [CHAKRA SEVEN](#chakra-seven)
-   - [SHADES OF VIOLET](#shades-of-violet)
-   - [UNFOLDING THE THOUSAND-PETALED LOTUS](#unfolding-the-thousand-petaled-lotus)
-   - [GROWING THE LOTUS](#growing-the-lotus-6)
-   - [TRAUMAS AND ABUSES](#traumas-and-abuses-6)
-   - [EXCESS AND DEFICIENCY DEFICIENCY](#excess-and-deficiency-deficiency)
-   - [RESTORING THE LOTUS HEALING THE SEVENTH CHAKRA](#restoring-the-lotus-healing-the-seventh-chakra)
-- [CONCLUSION](#conclusion-5)
-   - [Restoration of the Sacred](#restoration-of-the-sacred)
-   - [PUTTING IT ALL TOGETHER](#putting-it-all-together)
-   - [KUNDALINI AWAKENING](#kundalini-awakening)
-   - [Shiva](#shiva)
-   - [TANTRA—MEETING AT THE HEART](#tantrameeting-at-the-heart)
-   - [TEMPLE FOR THE GODS](#temple-for-the-gods)
-- [Bibliography](#bibliography)
+## Contents
+- [Summary of Anodea Judith's Eastern Body, Western Mind](#summary-of-anodea-judiths-eastern-body-western-mind)
+  - [PREFACE TO THIS EDITION](#preface-to-this-edition)
+    - [INTRODUCTION](#introduction)
+    - [WHEELS THAT HEAL](#wheels-that-heal)
+    - [THE HUMAN BIOCOMPUTER](#the-human-biocomputer)
+    - [LIBERATION AND MANIFESTATION](#liberation-and-manifestation)
+    - [CHAKRA BLOCKAGE](#chakra-blockage)
+    - [CHARACTER ARMOR](#character-armor)
+    - [THE SEVEN RIGHTS](#the-seven-rights)
+    - [THE SEVEN IDENTITIES](#the-seven-identities)
+    - [DEMONS OF THE CHAKRAS](#demons-of-the-chakras)
+    - [DEVELOPMENTAL STAGES](#developmental-stages)
+    - [INTERACTIVE DEVELOPMENT: THE CHAKRA SYSTEM AS A WHOLE](#interactive-development-the-chakra-system-as-a-whole)
+  - [CHAKRA ONE](#chakra-one)
+    - [SHADES OF RED](#shades-of-red)
+    - [BASIC ISSUES OF THE FIRST CHAKRA](#basic-issues-of-the-first-chakra)
+    - [THE DEMON OF FEAR](#the-demon-of-fear)
+    - [GROUNDING](#grounding)
+    - [GROWING THE LOTUS](#growing-the-lotus)
+    - [TRAUMAS AND ABUSES](#traumas-and-abuses)
+    - [ACCIDENTS, SURGERIES, ILLNESSES](#accidents-surgeries-illnesses)
+    - [Effects of Trauma](#effects-of-trauma)
+    - [CHARACTER STRUCTURE THE SCHIZOID: CREATIVE AND INTELLIGENT](#character-structure-the-schizoid-creative-and-intelligent)
+    - [EXCESS AND DEFICIENCY](#excess-and-deficiency)
+    - [RESTORING THE LOTUS HEALING THE FIRST CHAKRA](#restoring-the-lotus-healing-the-first-chakra)
+    - [BODY DIALOG](#body-dialog)
+    - [AFFIRM THE PHYSICAL](#affirm-the-physical)
+    - [WORK ON THE FEET](#work-on-the-feet)
+    - [GROUNDING EXERCISE](#grounding-exercise)
+    - [REGRESSIVE TECHNIQUES](#regressive-techniques)
+  - [CHAKRA TWO](#chakra-two)
+    - [EMOTIONS](#emotions)
+    - [THE SHADOW](#the-shadow)
+    - [SEXUALITY](#sexuality)
+    - [GROWING THE LOTUS. DEVELOPMENTAL FORMATION OF THE SECOND CHAKRA AT A GLANCE](#growing-the-lotus-developmental-formation-of-the-second-chakra-at-a-glance)
+    - [TRAUMAS AND ABUSES](#traumas-and-abuses-1)
+    - [CHARACTER STRUCTURE THE ORAL: THE LOVER](#character-structure-the-oral-the-lover)
+    - [EXCESS AND DEFICIENCY](#excess-and-deficiency-1)
+    - [RESTORING THE LOTUS HEALING THE SECOND CHAKRA](#restoring-the-lotus-healing-the-second-chakra)
+    - [THAWING THE ICE— RESTORING THE FREE FLOW OF MOVEMENT](#thawing-the-ice-restoring-the-free-flow-of-movement)
+    - [WORKING THROUGH GUILT](#working-through-guilt)
+    - [EMOTIONAL WORK: RECLAIMING OUR RIGHT TO FEEL](#emotional-work-reclaiming-our-right-to-feel)
+    - [SEXUAL HEALING—COURTING EROS](#sexual-healingcourting-eros)
+  - [CHAKRA THREE](#chakra-three)
+    - [SHADES OF YELLOW](#shades-of-yellow)
+    - [ENERGY AND ACTIVITY](#energy-and-activity)
+    - [AUTONOMY](#autonomy)
+    - [INDIVIDUATION](#individuation)
+    - [EGO IDENTITY](#ego-identity)
+    - [WILL](#will)
+    - [SELF-ESTEEM](#self-esteem)
+    - [GROWING THE LOTUS. DEVELOPMENTAL FORMATION OF THE THIRD CHAKRA AT A GLANCE](#growing-the-lotus-developmental-formation-of-the-third-chakra-at-a-glance)
+    - [TRAUMAS AND ABUSES](#traumas-and-abuses-2)
+    - [CHARACTER STRUCTURE THE ENDURER](#character-structure-the-endurer)
+    - [EXCESS AND DEFICIENCY](#excess-and-deficiency-2)
+    - [RESTORING THE LOTUS HEALING THE THIRD CHAKRA](#restoring-the-lotus-healing-the-third-chakra)
+    - [OTHER GENERAL STRATEGIES FOR THIRD CHAKRA HEALING](#other-general-strategies-for-third-chakra-healing)
+  - [CHAKRA FOUR](#chakra-four)
+    - [UNFOLDING THE PETALS. BASIC ISSUES OF THE FOURTH CHAKRA](#unfolding-the-petals-basic-issues-of-the-fourth-chakra)
+    - [SELF-REFLECTIVE CONSCIOUSNESS](#self-reflective-consciousness)
+    - [ANIMA AND ANIMUS](#anima-and-animus)
+    - [RELATIONSHIPS WITH OTHERS](#relationships-with-others)
+    - [ATTACHMENT AND FREEDOM](#attachment-and-freedom)
+    - [EROS AND THANATOS](#eros-and-thanatos)
+    - [GRIEF: DEMON OF THE HEART](#grief-demon-of-the-heart)
+    - [COMPASSION](#compassion)
+    - [GROWING THE LOTUS DEVELOPMENTAL FORMATION OF THE HEART CHAKRA AT A GLANCE AGE](#growing-the-lotus-developmental-formation-of-the-heart-chakra-at-a-glance-age)
+    - [For the child whose autonomy is weak, there is a tendency to be swept away by others, be defined by them, or live in fear of losing the self. A kinder](#for-the-child-whose-autonomy-is-weak-there-is-a-tendency-to-be-swept-away-by-others-be-defined-by-them-or-live-in-fear-of-losing-the-self-a-kinder)
+    - [TRAUMAS AND ABUSES](#traumas-and-abuses-3)
+    - [INTERNALIZED RELATIONSHIPS](#internalized-relationships)
+    - [TWISTED CONCEPTS OF LOVE](#twisted-concepts-of-love)
+    - [CHARACTER STRUCTURE THE RIGID (Achiever)](#character-structure-the-rigid-achiever)
+    - [EXCESS AND DEFICIENCY](#excess-and-deficiency-3)
+    - [RESTORING THE LOTUS HEALING THE HEART CHAKRA](#restoring-the-lotus-healing-the-heart-chakra)
+    - [LOVE OPENS WITH FEELING](#love-opens-with-feeling)
+    - [REACHING OUT AND TAKING IN WITH THE BREATH](#reaching-out-and-taking-in-with-the-breath)
+    - [GRIEF WORK](#grief-work)
+    - [LOVE MUST BE WILLED AND CREATED, AS WELL AS FELT](#love-must-be-willed-and-created-as-well-as-felt)
+    - [COME CLOSER, GO AWAY](#come-closer-go-away)
+  - [CHAKRA FIVE: Throat Chakra](#chakra-five-throat-chakra)
+    - [THE SUBTLE WORLD OF VIBRATIONS](#the-subtle-world-of-vibrations)
+    - [THE ETHERIC BODY](#the-etheric-body)
+    - [COMMUNICATION](#communication)
+    - [TRUTH AND LIES](#truth-and-lies)
+    - [GROWING THE LOTUS DEVELOPMENTAL FORMATION OF THE FIFTH CHAKRA AT A GLANCE](#growing-the-lotus-developmental-formation-of-the-fifth-chakra-at-a-glance)
+    - [TRAUMAS AND ABUSES](#traumas-and-abuses-4)
+    - [CHARACTER STRUCTURE THE CHALLENGER-DEFENDER](#character-structure-the-challenger-defender)
+    - [EXCESS AND DEFICIENCY](#excess-and-deficiency-4)
+    - [RESTORING THE LOTUS HEALING THE FIFTH CHAKRA](#restoring-the-lotus-healing-the-fifth-chakra)
+    - [EXERCISE](#exercise)
+    - [TONING](#toning)
+    - [CHANTING AND USING MANTRAS](#chanting-and-using-mantras)
+    - [COMMUNICATION](#communication-1)
+    - [ACTIVE LISTENING](#active-listening)
+  - [CHAKRA SIX: Ajna (Third Eye)](#chakra-six-ajna-third-eye)
+    - [OPENING THE THIRD EYE](#opening-the-third-eye)
+    - [ILLUSION](#illusion)
+    - [ARCHETYPES](#archetypes)
+    - [INTUITION](#intuition)
+    - [TRANSCENDENT FUNCTION](#transcendent-function)
+    - [GROWING THE LOTUS DEVELOPMENTAL FORMATION OF THE SIXTH CHAKRA AT A GLANCE](#growing-the-lotus-developmental-formation-of-the-sixth-chakra-at-a-glance)
+    - [ADULT DEVELOPMENT](#adult-development)
+    - [EXCESS AND DEFICIENCY](#excess-and-deficiency-5)
+    - [RESTORING THE LOTUS HEALING THE SIXTH CHAKRA](#restoring-the-lotus-healing-the-sixth-chakra)
+    - [FURTHER SUGGESTIONS](#further-suggestions)
+    - [MANDALAS](#mandalas)
+    - [DEVELOPING INTUITION](#developing-intuition)
+    - [VISION QUEST](#vision-quest)
+  - [CHAKRA SEVEN](#chakra-seven)
+    - [CONSCIOUSNESS](#consciousness)
+    - [BELIEF SYSTEMS](#belief-systems)
+    - [UNIVERSAL IDENTITY](#universal-identity)
+    - [ATTACHMENT—DEMON OF THE CROWN CHAKRA](#attachmentdemon-of-the-crown-chakra)
+    - [HIGHER POWER](#higher-power)
+    - [GROWING THE LOTUS DEVELOPMENTAL FORMATION OF THE SEVENTH CHAKRA AT A GLANCE](#growing-the-lotus-developmental-formation-of-the-seventh-chakra-at-a-glance)
+    - [TRAUMAS AND ABUSE](#traumas-and-abuse)
+    - [EXCESS AND DEFICIENCY DEFICIENCY](#excess-and-deficiency-deficiency)
+    - [BELIEF IN LIMITATIONS](#belief-in-limitations)
+    - [RESTORING THE LOTUS HEALING THE SEVENTH CHAKRA](#restoring-the-lotus-healing-the-seventh-chakra)
+    - [MINDFULNESS](#mindfulness)
+    - [EXERCISE TO DISCOVER THE WITNESS](#exercise-to-discover-the-witness)
+    - [HIGHER SELF](#higher-self)
+    - [NONATTACHMENT](#nonattachment)
+    - [TRANSCENDING THE LOWER EGOS](#transcending-the-lower-egos)
+    - [EXAMINING OUR BELIEF SYSTEMS](#examining-our-belief-systems)
+    - [RELIGION AND SPIRITUALITY](#religion-and-spirituality)
+  - [CONCLUSION](#conclusion)
+    - [PUTTING IT ALL TOGETHER](#putting-it-all-together)
+    - [TOP-DOWN SYSTEMS](#top-down-systems)
+    - [INSIDE-OUT SYSTEMS](#inside-out-systems)
+    - [BALANCED SYSTEMS It is possible to be relatively balanced through the chakras without being an enlightened master. People who have worked on their own](#balanced-systems-it-is-possible-to-be-relatively-balanced-through-the-chakras-without-being-an-enlightened-master-people-who-have-worked-on-their-own)
+    - [KUNDALINI AWAKENING As one opens the door with a key, so the yogi should open the gate to liberation with Kundalini. She gives liberation to the yogi](#kundalini-awakening-as-one-opens-the-door-with-a-key-so-the-yogi-should-open-the-gate-to-liberation-with-kundalini-she-gives-liberation-to-the-yogi)
+    - [TANTRA—MEETING AT THE HEART](#tantrameeting-at-the-heart)
+    - [TEMPLE FOR THE GODS](#temple-for-the-gods)
 
 ## PREFACE TO THIS EDITION
 
-- The chakra system has come of age in the West due to the growth of yoga centers and theories of energy healing.
-- Chakras are now seen on T-shirts, candles, and jewelry, and have become a part of mainstream culture.
-- People often ask the author how they can "clear their chakras," but few understand what a chakra is or have knowledge of the ancient Tantric yoga tradition from which it originates.
-- The book addresses this by teaching an elegant system for understanding health and imbalances, while also being richly complex.
-- It does not provide "one-size-fits-all" formulas that apply equally to all people or situations, but instead teaches universal principles that can be effectively applied with careful consideration and understanding.
-- The book discusses how some chakras may be too open, while others can get mired in avoidance patterns and remain closed.
-- It also explains how these unconscious defense patterns create excessive and deficient coping strategies that over time throw the system out of balance and alignment, affecting the body's health and quality of life.
-- The chakras open sequentially during crucial stages of childhood, and can be unwittingly shut down by well-meaning parents whose own centers were compromised.
-- The book discusses upward and downward currents of energy, and how each has a different purpose in the liberation and manifestation of one's life force.
-- The chakra system is a map for the journey of individuation and awakening, connecting mind, body, and spirit within one comprehensive system.
+* The chakra system has gained popularity in the West, leading to its commercialization
+* Exposure risks trivialization, but also makes it accessible for more people
+* The book aims to provide an elegant system for understanding health and imbalances
+* Universal principles, not one-size-fits-all formulas
+* Chakras open sequentially during childhood and can be influenced by parents' unresolved issues
+* Discusses the upward and downward currents of energy and their roles in liberation and manifestation
+* Healing requires understanding of inner and outer forces, and their connection
 
-## INTRODUCTION 
-### Sacred Centers of the Self 
-### DISCOVERING THE RAINBOW BRIDGE
-- The seven colors of the rainbow represent an alternative to our binary black-and-white consciousness, offering us a world of multiple opportunities.
-- Yoga philosophy teaches us that the serpent goddess, Kundalini, represents the evolutionary life force within each person. She awakens from her slumber in the earth to dance her way through each chakra, reestablishing the rainbow as a metaphysical bridge between matter and consciousness.
-- Through this dance of transformation, the rainbow becomes the axis mundi—the central axis of the world that runs through the vertical core of each one of us.
-- On our journey through life, the chakras are the wheels along this axis that take the vehicle of the Self along our evolutionary quest, across the Rainbow Bridge, to reclaim our divine nature once again.
-- Crossing the Rainbow Bridge is a mythic metaphor for the evolution of consciousness. To reclaim a myth is to put our personal work into a larger context—a context which deepens the meaning of our individual struggle.
-- To restore the Rainbow Bridge is to reconnect to our own divinity, anchoring it in the world around us and healing the rifts that so plague our world.
-- Passage through the chakras is an alchemical process of increasing refinement that unites light and shadow, male and female, spirit and matter, all in the crucible of the body and psyche. 
+**Challenges:**
+
+* Many people lack understanding of chakras and the ancient Tantric yoga tradition
+* Some techniques can bring temporary shifts but don't address deeper issues
+* The rapid pace of life and emotional wounds compromise our aliveness
+* Culture accepts this compromise as normal, requiring ongoing efforts to heal and find purpose
+
+**Value of Chakra System:**
+
+* Maps the journey of healing and awakening
+* Connects inner and outer worlds
+* Integrates psychology, spirituality, and physicality
+* Addresses emotional wounds and their impact on aliveness
+
+**Eastern Body, Western Mind:**
+
+* Originally focused on issues in therapy, such as addiction, codependence, family dynamics, character structures, personal empowerment, feminism, male 
+emancipation, sexuality, politics, and spirituality
+* Integrates techniques from bioenergetics to visualization, depth psychology to spiritual practice
+* Dedicated to those engaged in their own healing process, therapists, counselors, body-workers, and parents
+* Uses the chakra system as a tool for diagnosis and healing.
+
+**Chakra System as a Lens for Understanding Soul's Evolution**
+
+* Presentation of the system through major components: individual chakras
+* Three philosophical threads woven together
+
+**Enlightenment Philosophies (Upward and Beyond)**
+
+* Movement toward mental and spiritual realms
+* Transcendence
+* Eastern cultures focus
+* Seek to escape mundane world
+* Focus on higher planes of consciousness
+
+**Embodiment Philosophies (Down and In)**
+
+* Movement toward manifestation, soul, body, engagement with the world
+* Immanence, or presence of the divine within
+* Reflected in practices like somatic therapy, bioenergetics, earth-centered spirituality
+* Focus on ending suffering by engaging with causes
+
+**Integrative Philosophies (Toward Integration of Opposites)**
+
+* Mind and body, Heaven and Earth, spirit and matter, light and shadow, male and female
+* Transformation and wholeness
+* Carl Gustav Jung's depth psychology and soul's journey toward individuation focused
+
+**Chakra System**
+
+* Representation of the universe
+* Seven levels representing major areas of human life: love/relationship, power/spirituality, emotion/instinct, etc.
+* Sexuality just one aspect of second chakra
+* Inevitable blending of Eastern and Western approaches
+* Understanding internal energy arrangement for defense, need recognition, balance restoration
+* Valid as psychological theory and versatile
+
+**Book Structure**
+
+* User-friendly with subtitles and reference charts
+* Varied audience focus: clinically oriented and general
+* Real people's stories combined and anonymized
+* Western approach to chakras within a spiritual context
+
+**Chakra System Description**
+
+* Describes energetic structure organizing life force
+* Understanding for defense, need recognition, balance restoration
+* As valid as any psychological theory and versatile
+
+**Philosophical Threads Recap**
+
+1. Enlightenment: upward, mental/spiritual realms, transcendence, escape suffering
+2. Embodiment: down, manifestation, immanence, engage with causes
+3. Integrative: balance, integration of opposites, transformation, wholeness
+
+### INTRODUCTION
+
+**Sacred Centers of the Self: Discovering the Rainbow Bridge**
+
+**Introduction:**
+- Journey through the dimensions of self
+- Transformation of consciousness connecting spirit and matter
+- Reclaiming multidimensional diversity of human experience
+- Seven colors of rainbow represent seven vibratory modalities of existence
+
+**The Rainbow as a Metaphor:**
+- Expresses diversity of light from source to manifestation
+- Represents seven chakras in Indian yogic tradition, energy centers within each person
+- Serpent goddess Kundalini represents evolutionary life force, awakens through chakras
+- Axis mundi, central axis of world running through vertical core of each individual
+
+**Eastern and Western Perspectives:**
+- Eastern spiritual wealth brings new dimensions to Westerners
+- Balance between material abundance and spiritual wealth is possible
+- Rainbow Bridge spans cultures of East and West
+
+**Mythological Significance of the Rainbow:**
+- Symbol of hope, harmony, and peace
+- Connection between Heaven and Earth in various mythologies
+- Bridge to divine nature for humans
+
+**The Journey as a Sacred Quest:**
+- Reconnecting to own divinity
+- Restoring the Rainbow Bridge
+- Averting doomsday by reestablishing connection between Heaven and Earth
+
+**Rainbow as a Bridge:**
+- In Turkish language, literally means "bridge"
+- Doomsday can be averted by restoring the Rainbow Bridge through consciousness
 
 ### WHEELS THAT HEAL
 
-- Chakras: Centers of organization that receive, assimilate, and express life force energy, represented as spinning spheres of bioenergetic activity emanating from major nerve ganglia branching forward from the spinal column.
-- Major Chakras: Seven in total, stacked in a column of energy from base of spine to top of head; also minor chakras in hands, feet, fingertips, and shoulders.
-- Chakra Associations: Each chakra associated with a major area of human psychological health (survival, sexuality, power, love, communication, intuition, consciousness) and an archetypal element (earth, water, fire, air, sound, light, thought).
-- Chakra Vibrations: Each chakra represents a vibrational state on a continuum from heavy to subtle; associated with colors of the rainbow (red, orange, yellow, green, blue, indigo, violet) and steps between.
-- Chakras as Bridge: As we learn to open and heal the chakras within us, we become the Rainbow Bridge—the living link between Heaven and Earth.
+**Chakra System:** a seven-leveled philosophical model of the universe, originating in India over 4,000 years ago. Translates to "wheel" or "disk" in Sanskrit.
+
+* Represents steps of ever-expanding states of consciousness.
+* Centers of organization that receive, assimilate, and express life force energy.
+* Seven major chakras stacked from base of spine to top of head; minor chakras in hands, feet, etc.
+
+**Yoga:** a discipline designed to yoke together the individual with the divine using mental and physical practices.
+
+**Chakra Characteristics:**
+
+* Intangible, not physical entities, yet have strong effects on the body and mind.
+* Programmed deep in the core of the mind-body interface.
+* Influence glandular processes, body shape, chronic physical ailments, thoughts, and behavior.
+* Can be influenced through techniques like yoga, breathing, meditation, etc.
+
+**Chakra Locations:**
+
+* Seven major chakras: Figure 0.1 shows their relative locations.
+* Associated with various states of consciousness, archetypal elements, and philosophical constructs.
+
+**Lower Chakras:** physically closer to the earth, related to practical matters and ruled by physical and social law.
+
+* Chakra 1: Survival
+* Chakra 2: Sexuality
+* Chakra 3: Power
+
+**Upper Chakras:** represent mental realms and work on a symbolic level through words, images, and concepts.
+
+* Chakra 4: Love
+* Chakra 5: Communication
+* Chakra 6: Intuition
+* Chakra 7: Consciousness itself
+
+**Archetypal Elements:** associated with each chakra.
+
+* Earth, water, fire, air, sound, light, thought
+
+**Elements' Principles:** universal principles represented by each element.
+
+* Gravitation, polarity, combustion, equilibrium, vibration, luminescence, consciousness itself
+
+**Chakras as a ladder:** connecting the polarities of Heaven and Earth, mind and body, spirit and matter.
+
+**Color Association:** seven colors in the rainbow; red for base chakra, violet for crown, and other colors represent steps between.
+
+* Opening and healing chakras: becoming the Rainbow Bridge
+
+**Table of Correspondences:** Figure 0.3 provides basic information about each chakra.
 
 ### THE HUMAN BIOCOMPUTER
 
-- The word "chakra" literally means "disk." In modern times, disks are the common storage unit of programmed information. We can use this analogy and think of chakras as floppy disks that contain vital programs.
-- We have a survival program that tells us when we need to eat, how many hours to sleep, and when to put on a sweater. It contains details such as how much money we think we need, what we are willing to do for that money, what constitutes a threat to our survival, and what makes us feel secure.
-- Likewise, we have programs for sexuality, power, love, and communication. In this analogy, the seventh chakra can be thought of as the operating system. It represents how we organize and interpret all our other programs.
-- The challenge before us is to find the appropriate program and get the bugs out. In this analogy, the body is the hardware, our programming is the software, and the Self is the user. However, we did not write all of these programs, and some of their language is so archaic it is unintelligible.
-- Activation requires a charge of energy moving through the psychic currents of the body. Human bodies are taller than they are wide, so our major energy pathways run vertically while subtler currents run in other directions. This leaves us with two essential poles: the earth-centered pole, which we contact through our bodies, and the pole of consciousness, which we experience through our minds.
-- Between these poles runs a dynamic flow of energy that we experience as our life force. When energetic contact is made through the body, it is called grounding. Grounding comes from the solid contact we make with the earth, especially through our feet and legs. It is rooted in sensation, feeling, action, and the solidity of the material world.
-- Grounding provides a connection that makes us feel safe, alive, centered in ourselves, and rooted in our environment. Consciousness, on the other hand, comes through that elusive entity we call the mind. It is our inner understanding, our memory, our dreams and beliefs. It also organizes our sensate information.
-- When energetic contact is made through the body, it is called grounding. Grounding comes from the solid contact we make with the earth, especially through our feet and legs. It is rooted in sensation, feeling, action, and the solidity of the material world.
+**The Human Biocomputer: Understanding Chakras as Programs and Energy Flow**
+
+* Chakras, meaning "disks," can be thought of as storage units for vital programs in our lives
+* We have programs for survival, sexuality, power, love, and communication
+* The seventh chakra represents the operating system that organizes and interprets all other programs
+* Our programming is a result of cultural influences and personal experiences, some conscious and some unconscious
+* The challenge is to identify these programs and rewrite them as necessary for healing
+* Our body is the hardware, our programming is the software, and we are the user (Self)
+
+**The Importance of Energy Flow in Understanding Chakras**
+
+* Energy or life force activates all programs
+* Human bodies have vertical major energy pathways and subtler currents running in other directions
+* Two essential poles: earth-centered pole (grounding) and the pole of consciousness
+* Grounding is the connection to the body and the material world for safety, stability, and centering
+* Consciousness comes from the mind, organizes sensory information, and connects us to the spiritual realm
+* The chakras act as channels for energy flow between these polarities, allowing us to tap into different frequencies of soul and spirit.
+
+**Understanding Chakra Patterns**
+
+* Each person has unique patterns of energy flow and expression through their behavior and environment
+* Understanding these patterns can help identify how chakra programs are running our lives
+* Some common patterns include ignoring the body (Sally), pushing people away while talking too much (George), and lack of success and poor self-image (Jane)
+
+**Activating Our Programs: The Role of Energy Flow and Energetic Contact**
+
+* Activation requires a charge of energy moving through the psychic currents of the body
+* Grounding is the connection to the earth, providing safety, stability, and centering through sensation and feeling
+* Consciousness connects us to our mind, memory, dreams, and beliefs, allowing for dynamic energy flow throughout our being.
+
+### LIBERATION AND MANIFESTATION
+
+**Liberation and Manifestation:**
+- Liberation: path of transcendence, consciousness and matter combine to create chakras, current of consciousness moving downward (liberating current), historically seen as path to spiritual freedom.
+- Manifestation: path of immanence, energy becomes denser as it descends, current of manifestation required for embodiment.
+- Balance between both needed for wholeness.
+
+**Chakras:**
+- Seven vortices created by consciousness and matter.
+- Downward flow of energy (current of manifestation) enters through the crown chakra and moves downward.
+- Upward flow of energy (current of liberation) originates at base chakra.
+- Both currents combine in the sacred marriage (hieros gamos), creating limitless possibilities.
+
+**Obstacles to Liberation and Manifestation:**
+- Physical pain, childhood traumas, social programming, oppressive environments can cut us off from ground and liberating current.
+- Misinformation and indoctrination can invalidate consciousness and disconnect instincts and memories.
+
+**Integration of Mind, Body, and Energy:**
+- Both vertical (manifestation and liberation) and horizontal (reception and expression) currents are essential for wholeness.
+- Integration of these currents leads to profound insight and healing.
+
+**Reception and Expression:**
+- Two horizontal currents flow into and out of each chakra, required for full range of expression and reception.
+- Blockages in these currents can distort reception and expression.
+
+**Balancing Reception and Expression:**
+- Techniques to open and close each chakra, allowing for a full range of reception and expression.
+- Balancing both vertical and horizontal currents crucial for personal evolution.
 
 ### CHAKRA BLOCKAGE
+- A block develops when equal and opposing forces meet on a particular plane
+- Cannot eliminate one force, must be integrated
+- Blocks may relate to chakra function (communication, power, physical health, etc.)
+- Contributors to chakra blockage: childhood traumas, cultural conditioning, limited belief systems, exhausting habits, physical and emotional injuries, lack of attention
 
-- What Blocks a Chakra: Childhood traumas, cultural conditioning, limited belief systems, restrictive or exhausting habits, physical and emotional injuries, or lack of attention contribute to chakra blockage. Difficulties in life lead to chronic patterns that become defense structures, causing chronic tension (body armor) affecting posture, breathing, metabolism, emotions, perceptions, interpretations, and belief systems.
-- Unblocking a Chakra: Understand the dynamics of each chakra, examine personal history related to issues, apply exercises and techniques, balance excess and deficiency.
-- Excess and Deficiency: Overbound or excessive coping strategies involve increasing energy and attention (e.g., dominating others), while underbound or deficient strategies involve decreasing it (e.g., avoiding conflict). Both restrict the flow of energy through the system, leading to dysfunctional behavior and health problems.
-- Healing Imbalances: Opening an excessive chakra requires discharging energy, while a deficient one needs receiving energy. Subtleties may arise, such as strengthening underlying deficiencies or creating support by strengthening chakras below it. 
-- Approaches include verbal discussion, physical work with the body and movement, spiritual meditation, emotional exploration of feelings, visualization, aural sounds, and actualizing tasks in outer-world life.
+**Effects of Chakra Blockage:**
+- Difficulties in communication, fear and submission, physical health issues, financial crises
+- Coping strategies become chronic patterns (defense structures)
+- Tension in body (body armor) affects posture, breathing, metabolism, emotional states, perceptions, interpretations, belief systems
+- Affects relationships, work, creativity, and belief systems
+- Manifestations of incomplete or unbalanced experiences
+
+**Impact on Energy Currents:**
+- Unable to fully utilize liberating current, stuck on survival issues
+- Unable to properly ground manifesting current, lost in ideas, unable to connect in real world
+- Unable to receive certain types of energy (love, new information), chakra atrophies and functions further limited
+- Unable to express energy, stagnation and closed system
+
+**Quote from Nei Ching:**
+- A block of any significant degree gains severity over time
+- Small fears grow into full-blown phobias, anger leads to isolation, depression, and more anger
+- Clinging in relationships creates abandonment, further holding on
+- Any specific chakra block affects flow of four basic currents
+
+**Healing Chakra Blockages:**
+- Recognize blocks
+- Understand source and meaning
+- Develop tools for healing (meditation, therapy, yoga, etc.)
+
+**Addressing Personal History**
+- Examining developmental stages and traumas
+- Understanding programming from each stage
+
+**Applying Exercises and Techniques**
+- Physical exercises to open specific parts of the body
+- Meditations, real-world tasks, and visualization techniques
+
+**Balancing Excess and Deficiency**
+**Excess:**
+- Overcompensation or avoidance of situations
+- Chronic tension, excessive worrying, compulsive behavior
+- Stiffened membranes preventing penetration
+- Example: A densely overweight person may have an excessive first chakra
+
+**Deficiency:**
+- Withdrawal from situations
+- Vague, unreliable, overly changeable
+- Unglued membranes with porosity
+- Example: A frightened person who talks constantly would have an excessive fifth chakra
+
+**Excess and Deficiency: Coping Strategies**
+- Result of stress, trauma, or unpleasant circumstances
+- Both restrict the flow of energy through the system
+- Dysfunctional behavior and health problems
+
+**Healing Imbalances**
+- Excessive chakras need to discharge energy
+- Deficient chakras need to receive energy
+- Difficult to open long-closed chakras
+- Subtleties require individualized approach
+
+**Multidimensional Healing Approach**
+- Verbally through discussion
+- Physically through work with the body and movement
+- Spiritually through meditation
+- Emotionally through exploration of feelings
+- Visually through images
+- Aurally through sounds
+- Actualized through outer-world tasks that strengthen certain areas of our lives.
 
 ### CHARACTER ARMOR
 
-- Excess and deficiency become part of chronic holding patterns, which can develop into character armor as bio-energetic terms describing coping strategies and their chronic holding patterns locked in the posture and tissues of the body.
-- Character structure describes overall patterns of armoring in the body, with six basic types identified by Alexander Lowen based on Wilhelm Reich's pioneering work.
-- Most people exhibit at least one of these six character structures, with shades and overtones of the other structures.
-- The **Schizoid/Creative** structure results from first chakra alienation, characterized by a split between mind and body, highly creative individuals with overdeveloped upper chakras.
- - The **Oral/Lover** structure is discussed in the second chakra chapter, resulting from deprivation in the nurturing/nourishment stage of dependency related to chakras one and two.
-- The **Masochist/Endurer** structure is fixated at chakra three with energy bound at the will, robbed of their autonomy, holding everything inside in a conflicting pattern of pleasing and resisting.
-- The **Rigid/Achiever** structure focuses on achievement, highly functional but often afraid of relationships, commitment, and feelings of intimacy.
-- The **Hysteric** structure is a variation on the Rigid/Achiever, with similar wounds and patterns, but where emotions are initially held back, they later erupt with an intensity.
-- The **Psychopath/Challenger-Defender** structure is developmentally related to the third chakra, oriented toward power-over and challenging the strong.
+**Character Armor:**
+- A meeting place for psyche and soma (mind and body)
+- Represents self-care practices and coping strategies
+- Developed from difficulties during developmental stages
+- Chronic holding patterns become automatic, beyond conscious awareness
+- Not decided but rather "hardwired" into the system
+- Correlates with distribution of energy through chakras
+
+**John Conger:**
+- Character provides a house for energy (shell)
+- Excess and deficiency become chronic holding patterns (character armor)
+- Character structure describes overall patterns of armoring in the body
+
+**Character Structures:**
+**Schizoid/Creative:**
+- Split between mind and body
+- Highly creative and intelligent
+- Issues around right to exist
+- Overdeveloped upper chakras
+- Discussed in first chakra chapter
+
+**Oral/Lover:**
+- Developed from deprivation in nurturing stage
+- Emotionally oriented towards merging and giving
+- Discussed in second chakra chapter
+
+**Masochist/Endurer:**
+- Fixated at third chakra
+- Energy bound at will
+- Robbed of autonomy
+- Turn blocked energy inward against self
+- Strong and loyal, can endure difficulty well
+- Positively referred to as Endurer structure
+- Discussed in second or third chakra chapter
+
+**Rigid/Achiever:**
+- Wounded by lack of approval
+- Focuses on achievement
+- Highly functional but afraid of relationships and intimacy
+- Discussed in fourth chakra chapter
+
+**Hysteric:**
+- Variation on Rigid/Achiever structure
+- Occurs more often in women
+- Emotions initially held back, later erupt with intensity
+- Discussed in fifth chakra chapter
+
+**Psychopath/Challenger-Defender:**
+- Orientated towards power-over
+- Defends the meek and challenges the strong
+- Excessive rather than deficient development at third chakra
+- Brings energy upward in body, especially to neck and shoulders
+- Discussed in fifth chakra chapter
+
+**Additional Resources:**
+- Pictures of different body types: Figure 0.5
+- Chart of characteristics: Figure 0.6
+- Detailed discussions on relationship to excess and deficiency patterns of all seven chakras follow in more detailed discussions.
 
 ### THE SEVEN RIGHTS
 
-1. Chakra One: The right to be here - Instinctual sense of right to exist, difficulty with this right, right to take up space, individuality, right to take care of oneself, foundation for survival and security, right to have.
-2. Chakra Two: The right to feel - Culture frowns upon emotional expression, difficulty expressing emotions, importance of feeling, right to want, right to enjoy healthy sexuality.
-3. Chakra Three: The right to act - Cultures with narrowly defined behavior patterns, fear of punishment and blind obedience, need for freedom to develop inner authority.
-4. Chakra Four: The right to love and be loved - Damaged by dysfunctional families, cultural prejudice, war, poor self-esteem, broken will, inability to feel or communicate.
-5. Chakra Five: The right to speak and hear truth - Not allowed to speak truthfully in family, not being heard when speaking, keeping family secrets, not being spoken to honestly, government lying.
-6. Chakra Six: The right to see - Told what one perceives is not real, things deliberately hidden or denied, diminished ability to see due to frequent angry or frightening scenes.
-7. Chakra Seven: The right to know - Includes the right to accurate information, truth, knowledge, and simply knowing what's going on; importance of education and spiritual rights.
+**The Seven Rights and the Chakras:**
+
+1. **Chakra One: The Right to Be Here and Have:**
+   * Instinctual sense of right to exist
+   * Foundation of survival and security
+   * Includes right to take up space, individuality, and take care of oneself
+   * Underlies ability to contain, hold, keep, and manifest
+   * Corollary: Right to have what we need to survive
+   * Difficulty allowing ourselves to have things
+   * Deprivation even when help is offered
+   * Affects ability to contain, hold, keep, and manifest
+2. **Chakra Two: The Right to Feel:**
+   * Emotional expression is essential
+   * Infringement on this right leads to numbness and disconnection
+   * Corollary: Right to want
+   * Difficulty knowing what we want when unable to feel
+   * Impact on healthy sexuality
+3. **Chakra Three: The Right to Act:**
+   * Cultures with rigid behavior patterns restrict this right
+   * Decreases vitality and inner authority
+   * Corollary: Right to be free
+4. **Chakra Four: The Right to Love and Be Loved:**
+   * Damaged by family dysfunction, cultural prejudice, war, or poor self-esteem
+   * Central chakra in a system of seven
+5. **Chakra Five: The Right to Speak and Hear Truth:**
+   * Not allowed to speak truthfully or not being heard
+   * Damaged by family secrets, government lies, or denial of information
+6. **Chakra Six: The Right to See:**
+   * Damaged when what we perceive is not real
+   * Impaired vision and psychic perceptions
+7. **Chakra Seven: The Right to Know:**
+   * Includes right to accurate information, truth, knowledge, and spiritual connection
+   * Forcing spiritual dogmas on others infringes on this right
+
+**Loss of Chakra Rights:**
+    * Blocks healing and chakra reclamation
+    * Affects physical, emotional, and spiritual well-being
+    * Reclaiming these rights is necessary for overall health and balance.
 
 ### THE SEVEN IDENTITIES
 
-1. Our first identity level is known as the physical identity, and its job is self-preservation. Here we learn to identify with the body—when my body is hungry, I am hungry, when it hurts, I hurt.
-2. Beneath the surface of the body churn the emotions. The emotions are the clothing of our feelings. When we experience a strong emotion, we feel our aliveness and often identify with the feeling involved.
-3. In the third chakra, we identify with our will, behavior, and our actions. This is where we realize that we are a separate entity with the power to choose our own actions and consequences.
-4. In the fourth chakra, we create a social identity, also known as the persona. The persona is the personality created to interact with others—it is the part of ourselves that the ego allows to rise above the surface, separated off from the shadow.
-5. The fifth chakra is the center of our creative identity. Here we identify with our self-expression—what we say and produce. Initially, we identify with our word through the commitments we make.
-6. In the sixth chakra, we expand into our archetypal identity, transforming the individual I into something transpersonal. Our personal story is now seen as an event in a larger story.
-7. In the crown chakra, we come to the final and largest identity: our universal identity. The more our consciousness expands, the larger our identity can become. As we realize the magnificent scope of the cosmos, we have the opportunity to transcend our smaller, more limited world, and identify with the entire universe.
+**Identity:** A constantly changing and expanding manifestation of the spirit that gives meaning and helps us operate in the world. It is important but can limit us if clung to.
+
+**Seven Chakra Identities:**
+
+* **Physical Identity (Chakra One):** The first identity level associated with self-preservation, identifying with the body and its physical qualities. Necessary for dealing with the physical world.
+* **Emotional Identity (Chakra Two):** Beneath the surface of the body churn the emotions. Identity focused on feelings, "I feel therefore I am." Expands experience of the body and connects us to the flow of the world.
+* **Ego Identity (Chakra Three):** Identification with our will, behavior, and actions. Realization of being a separate entity with the power to choose. Oriented towards self-definition. "I am what I do."
+* **Social Identity (Chakra Four):** Creation of a persona or social mask to interact with others based on how we perceive our role in serving others and our self-acceptance. Expands beyond the realm of self-centered needs.
+* **Creative Identity (Chakra Five):** Identification with our self-expression through creativity, commitments, and taking responsibility for what we say and produce.
+* **Intellectual Identity (Chakra Six):** Identification with knowledge and understanding. Ability to think abstractly and make decisions based on logic and reason.
+* **Spiritual Identity (Chakra Seven):** Identification with the highest aspects of consciousness, beyond the individual self. Connection to the universal spirit or divine.
+
+**Identity as Clothing:** Metaphoric layers that cover the essential soul underneath. Necessary but problematic when confused for the whole self.
+
+**Positive and Negative Chakra Identities:** Real parts of ourselves, yet not the whole. Can be liberating or imprisoning.
+
+**Creative Identity Development:**
+- Expands outward, contributing to larger system
+- Identify with archetypal possibilities and inspirations
+- Realization of personal contribution to the larger system
+- Foundation: healthy ego, social confidence, compassion
+
+**Chakra Six: Archetypal Identity**
+- Expand into transpersonal identity
+- Personal story as part of a larger story
+- Carry pieces of archetypal stories (Mother Goddess, Father archetype)
+- Universal understanding of self
+- Self-reflection in larger system
+- Consciously embrace evolution of archetypal symbols
+- Contribution to larger archetypal causes
+
+**Chakra Seven: Universal Identity**
+- Expansion into universal identity
+- Realization of magnificent scope of cosmos
+- Transcendence of smaller identities
+- Integration of individuality into larger field of the divine
+- Buddhist maxim: "Thou Art That"
+- Purpose of spiritual disciplines: break through bonding with smaller identities
+- Each identity primary during developmental process
+- Consolidate lower identities in appropriate perspective as higher identities emerge.
 
 ### DEMONS OF THE CHAKRAS
 
-1. Fear arises when something threatens survival; it prevents feeling secure, focused, and calm.
-2. Guilt undermines natural flow of emotional and sexual energy, inhibiting reaching out to others.
-3. Shame undermines self-esteem, personal power, spontaneous activity, and joy; it collapses the third chakra and turns its radiating energy inward against the self.
-4. Grief counteracts heart's lightness and expansion, making it feel heavy and closed; it results from hurts to the heart.
-5. Lies twist our relationship with the outside world through distorted information.
-6. Illusion fixates attention and keeps us from seeing accurately.
-7. Attachment is a small focus of attention that obscures realization and unity with cosmic consciousness.
+**Chakras and Their Demons:**
+- The unconscious has both dark and light aspects (Jung)
+- Each chakra has a specific demon that interferes with its health and identity
+- Demons are counterforces that teach us something
+- Unacknowledged demons keep us from moving forward
+
+**Chakras and Their Demons (continued):**
+**Chakra One:**
+- Demon: Fear
+- Arises when something threatens survival
+- Prevents feeling secure, focused, and calm
+- Creates hypervigilance
+
+**Chakra Two:**
+- Demon: Guilt
+- Undermines emotional and sexual energy flow
+- Inhibits reaching out to others
+- Diminishes emotional and sexual connections
+
+**Chakra Three:**
+- Demon: Shame
+- Undermines self-esteem, personal power, spontaneous activity, and joy
+- Collapses third chakra
+- Turns radiating energy inward against self
+
+**Heart Chakra:**
+- Demon: Grief
+- Counteracts heart's lightness and expansion
+- Makes heart feel heavy and closed
+- Results from hurts to the heart
+
+**Fifth Chakra:**
+- Demon: Lies
+- Twist relationship to outside world
+- Distorted information
+
+**Sixth Chakra:**
+- Demon: Illusion
+- Fixates attention
+- Keeps us from seeing accurately
+
+**Seventh Chakra:**
+- Demon: Attachment
+- Small focus of attention
+- Obscures realization and unity with cosmic consciousness.
 
 ### DEVELOPMENTAL STAGES
+**Chakra Developmental Stages** according to William Shakespeare and Eastern Philosophy:
 
-1. The first chakra relates to the formation of the physical body and takes place during prenatal development and infancy. In this stage, body growth is most rapid, and is therefore the main focus of the life force.
-2. The second chakra, which is typified by duality, sensation, feeling, and mobility, comes into conscious attention at about six months when visual acuity allows the child to focus on outside objects and gain a wider visual perspective. 
-3. The third chakra begins with the period of attempted autonomy that occurs with the "terrible twos" (also known as the willful stage). 
-4. The fourth chakra develops as one leaves the stubborn egocentricity of the third chakra and begins to show interest in relationships outside of the primary ones with Mother and Father.
-5. The fifth chakra is the stage of creative expression. Once the social identity is developed and one understands basic relationships between Self and world, a period of personal creativity unfolds. 
-6. The awakening of this chakra requires an ability to recognize patterns and apply them to life decisions. 
-7. The seventh chakra is related to the pursuit of knowledge, the formation of a worldview, and the awakening of spiritual pursuits. 
+* **All the World's a Stage:** Each person goes through various developmental stages in life.
+* **Seven Ages:** Chakras evolve sequentially, each completed stage supporting the healthy awakening of the next.
+
+**Chakra One: Infancy (Mid-pregnancy to 12 months after birth)**
+
+* **Body Formation:** Takes place during prenatal development and infancy.
+* **Infant's Developmental Task:** To learn how to operate the body.
+* **Focus on Survival:** Consciousness is focused internally, with little awareness of the outside world.
+* **Trust vs. Mistrust (Erikson):** Infants develop a sense of trust or mistrust based on their experiences during this stage.
+* **Foundation of Security:** Successfully progressing through this stage builds the foundation for security and self-preservation, forming the physical
+identity.
+
+**Chakra Two: Six Months to Approximately 2 Years**
+
+- Comes into conscious attention around six months when visual acuity develops
+- Infant becomes aware of things outside immediate range and experiences alertness
+- Discovers separation from mother, leading to ambivalence and fear
+- Characterized by conflict of separation vs. attachment
+- First distinctions experienced as binary choices: good/bad, pleasure/pain, etc.
+- Focused on formation of emotional identity for self-gratification
+- Communication mainly through emotion
+
+**Chakra Three: 18 Months to Approximately 4 Years**
+
+- Period of attempted autonomy during "terrible twos" or willful stage
+- Child has successfully "hatched" from mother and wants to experiment with volition
+- Development of language allows for understanding of cause and effect, leading to impulse control and delayed gratification (If I eat vegetables, I'll get dessert)
+- Unconscious instinctual states of lower chakras begin to come under conscious control
+- Child is self-centered and focused on establishing a sense of personhood, power, and self-creation
+- Important achievement: autonomy and will, balanced with the will of others
+- Erikson refers to this stage as autonomy vs. shame and doubt
+- Formation of personal ego identity, primarily focused on self-definition
+
+**Chakra Four (Age 4-7):**
+
+- Developed as child leaves egocentricity of third chakra
+- Interests in relationships outside primary family ones
+- Loving becomes more conscious and adapted
+- Autonomy developed in third chakra forms foundation for relationships
+- First model of relationships comes from family
+- Learning how things relate to each other is dominant task
+- Formation of social identity based on self-acceptance
+- Successful resolution leads to direction and purpose (initiative vs. guilt)
+
+**Chakra Five (Age 7-12):**
+
+- Period of personal creativity and offering to the world
+- Solid sense of self and desire to express energy
+- Thinking operates on symbolic level, allowing for creativity and abstract thinking
+- Formation of creative identity based on self-expression
+- Resolution leads to sense of competence (industry vs. inferiority)
+
+**Chakra Six (Adolescence):**
+
+- Recognition and application of patterns in life decisions
+- Emergence of formal operations stage and symbolic conception of the world
+- Reexamining social identity and making it a conscious choice
+- Dawning interest in spiritual matters and self-reflection
+- Formation of archetypal identity
+- Resolution leads to clarity about role in the world (identity vs. role confusion)
+
+**Chakra Seven (Early Adulthood and Beyond):**
+
+- Pursuit of knowledge, formation of worldview, and spiritual awakening
+- New information filtered through developing worldview
+- Search for meaning and asking questions about nature of life, universe, Self
+- Formation of universal identity based on self-knowledge.
 
 ### INTERACTIVE DEVELOPMENT: THE CHAKRA SYSTEM AS A WHOLE
+- Both ascending and descending energy currents play a role in development.
+- Awareness of the body (Chakra one) allows differentiation and operation on it, leading to physical world interaction.
+- Dawning of images (Chakra six) brings perception of the external world, otherness, and exploration (Chakra two).
+- Language skills (Chakra five) enable exertion of will (Chakra three), conceptualization, and relationship development (Chakra four).
+- Difficulties during any stage can impact the developing chakra and subsequent ones.
+- Examples: Sense of power linked to meeting survival needs, heart ease with nurturance in first two chakras, communication with balanced ego and sense 
+of love and acceptance.
 
-Chakra System as a Whole: The development of consciousness involves both ascending and descending energy currents. This process is influenced by Ken Wilber's developmental psychology, which explains how the descent of consciousness from the crown chakra couples with the organization of raw energy from below, allowing individuals to move on to the next stage.
+**Figure 0.12:** Diagram representing the interaction between ascending and descending energy currents during development.
 
-#### Adult Development 
+**Adult Development: The Process of Individuation**
 
-The process of individuation involves becoming a single, homogeneous being and embracing one's innermost uniqueness. This journey begins in early adulthood when individuals leave home and start living independently.
+- Chakra development in adulthood is conscious, requiring personal desire to occur.
+- Some people remain in dependency and powerlessness, never experiencing adult chakra development or higher self potential.
+- For those seeking growth, here's a description of the second round of chakra evolution.
 
-1. Chakra One: Survival is the primary issue during this stage, which includes getting a place to live, learning self-care, and finding an independent income source. The time spent on this stage varies from person to person, with some spending their entire lives struggling for survival.
-2. Chakra Two: Once basic independence is achieved, individuals form sexual relationships. This stage involves satisfying emotional needs, often projected onto a partner. Emotional frustration may arise due to unresolved childhood conflicts or the inability to develop personal will and responsibility.
-3. Chakra Three: The individuation process allows individuals to become true individuals operating under their own power and will. This stage is marked by the liberation from conforming to parental, cultural, or societal expectations. It may be triggered by meaningless jobs or enslavement in relationships where one's needs are defined by others.
-4. Chakra Four:  Relationships become more empathetic and altruistic during this stage, focusing on maintaining lasting partnerships. This may involve reevaluating behavior towards others, examining family dynamics, and building connections with colleagues, friends, and the community.
-5. Chakra Five: Creative and personal expression is emphasized in this stage, where individuals make their personal contribution to the community. It often occurs around midlife and may precede or dominate other activities for more creative personalities.
-6. Chakra Six: This introverted stage involves reflection and study of patterns through exploration of mythology, religion, and philosophy. It is a time of searching and spiritual interest, which intensifies when children are grown and adults have more freedom for contemplation and spiritual practice.
-7. Chakra Seven: The final stage is characterized by wisdom, spiritual understanding, knowledge, and teaching. Individuals bring together information gathered throughout life to pass it on to others or pursue a spiritual path.
+**Individuation**
 
-## CHAKRA ONE 
-Temple of the Body 
-### FIRST CHAKRA AT A GLANCE
+- Becoming a single, homogeneous being.
+- Embracing unique inner qualities = "self-realization" (C.G. Jung).
 
+**Early Adulthood: Chakra Stages Begin Again**
 
-The first chakra, also known as the Muladhara or root chakra, is located at the base of the spine and is associated with the element Earth. Its primary purpose is to provide a foundation for our physical existence, grounding us in the present moment and nourishing our bodies. Issues related to the first chakra include trust, health, home, family, prosperity, and appropriate boundaries.
+- The second round of development is less clearly defined due to individual variations.
+- Some life stages overlap or occur in different orders, such as career, family, spirituality, etc.
 
-The color red is often associated with this chakra, symbolizing vitality and passion. The location of the first chakra at the base of the spine corresponds to the coccygeal plexus, which is responsible for controlling the muscles in the pelvic region. This area also houses the reproductive organs and the bladder.
+**Guideline for Chakra Development in Adulthood (General)**
 
-The identity associated with the first chakra is physical self-preservation, as it focuses on our basic needs and survival instincts. The demon associated with this chakra is fear, which can manifest in various ways such as anxiety, restlessness, or a lack of trust in the world.
+1. Leaving home: Establishing independence (early adulthood).
+2. Awareness of body and emotions: Connection to self and others (Chakras one through four).
+3. Exploring relationships: Building healthy, balanced relationships (Chakra four and beyond).
+4. Personal power: Developing inner strength and autonomy (Chakra three and above).
+5. Self-expression: Creative exploration of personal potential (Chakra five and beyond).
+6. Transcendence: Connecting to a greater purpose or spirituality (Chakras six through eight).
+7. Integration: Synthesizing experiences into a cohesive whole (All chakras).
 
-Developmental tasks related to the first chakra include physical growth, motor skills, and object permanence during the second trimester to 12 months of life. The basic rights associated with this chakra are the right to be here and have a sense of safety and security. Balanced characteristics include good health, vitality, being well-grounded in one's body, comfort in one's physical form, trust in the world, and the ability to relax and be still.
+**Chakra Development Stages:**
 
-Traumas and abuses associated with the first chakra can include birth trauma, abandonment or physical neglect, poor physical bonding with the mother, malnourishment, feeding difficulties, major illness or surgery, physical abuse or violent environment, enema abuse, and inherited traumas from parents who experienced survival fears (e.g., holocaust survivors, war veterans, poverty conditions).
+* **Chakra One: Base (Survival)**
+  + Getting a place to live
+  + Learning self-care
+  + Finding independent income
+  + Variable duration, may be lifelong struggle
+  + Marks basic independence and self-sufficiency
 
-Deficiencies related to this chakra include disconnection from one's body, being notably underweight, fearfulness, anxiety, restlessness, poor focus and discipline, financial difficulty, and poor boundaries. Excesses can manifest as obesity or overeating, hoarding, material fixation, greed, sluggishness, laziness, tiredness, fear of change, and addiction to security.
+* **Chakra Two: Sexual/Relationships (Emotional Needs)**
+  + Forming sexual relationships
+  + Awareness of "other" becomes more acute
+  + Satisfaction of emotional needs
+  + Projection of emotional needs on partners
+  + Unconscious patterns from shadow may sabotage relationships
+  + Misunderstandings, blaming, and emotional turmoil common
+  + Personal will and responsibility have not yet awakened in some cases
 
-Physical malfunctions associated with the first chakra include disorders of the bowel, anus, large intestine; disorders of solid parts of the body (bones, teeth); issues with legs, feet, knees, base of spine, buttocks; eating disorders; and frequent illnesses (which can be deficient or excessive).
+* **Chakra Three: Personal Power (Individuation)**
+  + Liberation from societal expectations
+  + Becoming a true individual under own power and will
+  + May or may not awaken in one's life
+  + Time of making one's own way in the world
+  + Developing personal career, building skills, controlling destiny
+  + Political involvement and seeking affinity with others
+  + Misaligned third chakra seeks power over others; awakened third chakra seeks power with others
 
-Healing practices for the first chakra include reconnecting with one's body through physical activity such as aerobics, weights, running, dance, lots of touch, massage, bioenergetic grounding, hatha yoga, and looking at early childhood relationships with one's mother. Affirmations related to this chakra can include "It is safe for me to be here," "The earth supports me and meets my needs," and "I love my body and trust its wisdom."
+* **Chakra Four: Love/Relationships (Empathy and Altruism)**
+  + Focus on true empathy and lasting partnerships
+  + Relationships require reevaluation of behavior towards others
+  + Examination of family dynamics, role in relationships, personal contribution to world
+  + Midlife beginning of individuation, focused on balance between inner masculine and feminine
 
-### BASIC ISSUES
+* **Chakra Five: Creative Expression (Personal Contribution)**
+  + Making personal contribution to community through creative expression
+  + Business creation, writing a book or thesis, building own house, artistic hobby
+  + Occurs around midlife for most people, sooner for more creative personalities
+  + May be period of marking contribution through public service
 
-The first chakra, also known as the root chakra or Muladhara, is the foundation of our energy system and plays a crucial role in our overall well-being. It is located at the base of the spine and is associated with the color red. This chakra governs our physical body, survival instincts, sense of security, grounding, nourishment, trust, health, home, family, and prosperity.
+* **Chakra Six: Introspection (Reflection and Study)**
+  + Involves reflection and study of patterns
+  + Exploration of mythology, religion, philosophy
+  + Period of searching, travel, renewed study of inner paths
+  + Introverted stage of taking in from outside after satisfying extroverted urges
+  + Time of spiritual interest and development if not already occurred
+  + Intensifies when children grown and adult has more time for contemplation and spiritual practice
 
-The root chakra is responsible for our basic needs such as food, shelter, and safety. It helps us establish a strong foundation in life by providing stability and grounding. When this chakra is balanced, we feel secure, confident, and connected to the earth. We are able to trust ourselves and others, which allows us to form healthy relationships with our family and community.
+* **Chakra Seven: Wisdom (Knowledge and Teaching)**
+  + Bringing together information gathered throughout life and passing it on to others
+  + May mean leaving mundane world for spiritual pursuit, or time of teaching and sharing, developing mastery.
 
-On the other hand, when the root chakra is imbalanced, it can lead to feelings of insecurity, fear, anxiety, and even physical health issues such as digestive problems, lower back pain, or immune system weaknesses. To balance this chakra, one can practice grounding techniques like walking barefoot on the earth, yoga poses that stimulate the root chakra, and visualization exercises that involve imagining a bright red light at the base of the spine.
+**General:**
 
-### THE FOUNDATION OF THE TEMPLE
+* These developmental stages are not the same for everyone, nor experienced in the same order
+* Adult development is often arrested by unresolved childhood conflicts
+* It's important to understand the complete system and examine each person as a whole before making assessments.
 
-1. *Foundation of the temple*: The foundation rests on the earth, connecting with our bodies as the home of our spirit. It is situated at the base of the spine, forming the first chakra.
-2. *Building the foundation*: A strong, rooted foundation provides stability and allows for growth. It must be firm enough to provide support but also yielding enough to allow roots to penetrate the earth.
-3. *Anchoring the temple*: The Sanskrit name of the first chakra, muladhara, means "root support." This anchors the temple deep into the earth.
-4. *Defining the scope and boundaries*: The foundation defines the space in which we exist, providing a basic context for our experiences. It gives us a grounding point and allows us to establish boundaries.
-5. *Determining the structure above*: The foundation largely determines the shape of the structure above it, influencing what can be built, how high it can go, and what kind of stresses it can withstand.
-6. *Damage to the chakra*: Damage to the first chakra is reflected in each subsequent chakra, affecting the entire chakra system.
-7. *Gaining solidity*: Building a strong foundation allows us to be firm and establish boundaries. Solidity has consistency, repetition, and accountability. Our bodies are the physical manifestation of our existence, with definable boundaries.
-8. *Facing what is in front of us*: Being solid means facing challenges without flinching, remaining anchored in truth in the face of opposition, and maintaining calm and security.
+## CHAKRA ONE
 
-#### SURVIVAL
+**CHAKRA ONE+: Reclaiming the Temple of the Body**
 
-- When threatened, survival dominates all other functions of consciousness.
-- Frequent survival threats can lead to PTSD symptoms like insomnia, stress, and health problems.
-- Damage to the first chakra leads to issues with survival, such as health, money, housing, or job problems.
-- Survival instincts lie at the base of the collective unconscious and form natural impulses for self-defense and connection with the environment.
-- Denying these instincts can lead to disembodiment and disconnection from the environment.
-- Reclaiming the first chakra allows one to live harmoniously with survival instincts without being ruled by them.
+**First Chakra (Muladhara)**
+- **Element:** Earth
+- **Name:** Muladhara (root)
+- **Purpose:** Foundation
+- **Issues:** Roots, grounding, nourishment, trust, health, home, family, prosperity, appropriate boundaries
+- **Color:** Red
+- **Location:** Base of spine, coccygeal plexus
+- **Identity:** Physical
+- **Orientation:** Self-preservation
+- **Demon:** Fear
+- **Developmental Stage:** 2nd trimester to 12 months
+- **Developmental Tasks:** Physical growth, motor skills, object permanence
+- **Basic Rights:** To be here and have balanced characteristics: good health, vitality, well grounded, comfortable in body, sense of trust in the world, feeling of safety and security, ability to relax and be still, stability, prosperity, right livelihood
 
-#### THE DEMON OF FEAR
+**Traumas and Abuses:**
+- Birth trauma
+- Abandonment, physical neglect
+- Poor physical bonding with mother
+- Malnourishment, feeding difficulties
+- Major illness or surgery
+- Physical abuse or violent environment
+- Enema abuse
+- Inherited traumas—parents’ survival fears (i.e., holocaust survivors, war veterans, poverty conditions)
 
-To overcome the Demon of Fear, it is essential to understand its origins and learn to relax and feel the subtle energies of our body. This involves allowing the body to express responses to fear, such as running away or becoming angry and activated, which helps complete the gestalt of the response to the original trauma. By acknowledging fear as an ally of self-preservation, we can develop a healthier pattern of behavior and strengthen our resources to effectively meet similar threats in the future.
+**Deficiency:**
+- Disconnection from body
+- Notably underweight
+- Fearful, anxious, restless, can’t settle
+- Poor focus and discipline
+- Financial difficulty
+- Poor boundaries
+- Chronic disorganization
 
-#### GROUNDING
+**Excess:**
+- Obesity, overeating
+- Hoarding, material fixation, greed
+- Sluggish, lazy, tired
+- Fear of change, addiction to security
+- Rigid boundaries
 
-1. Grounding a healthy first chakra allows a person to be energetically grounded, which is critical for understanding basic aliveness and well-being. 2. Physically, this happens through the legs and feet, where excitement is passed up into the body and excess is discharged downward into the ground. 
-3. Only by drawing energy up from the base can we create the liberating current that flows to the crown.
-4. We feel more awake and alive when the downward current of consciousness connects with the body and meets the edges and boundaries of physical reality. 
-5. To truly experience our body's aliveness is to experience a profoundly spiritual state— achieved by embracing our natural tendencies rather than denying them through ascetic practices.
-6. When we are grounded, we can be present, focused, dynamic, and have an attention concentrated in the here and now. Our experience is direct, sensate, immediate. We are confident yet contained, connected with our own source of support.
-7. Without grounding, we are unstable. We lose our center, fly off the handle, get swept off our feet, or daydream in the fantasy world. We lose our ability to contain, which is the ability to have and hold. If we cannot contain, we cannot hold our boundaries and build up inner power; thus, we cannot mature.
+**Physical Malfunctions:**
+- Disorders of the bowel, anus, large intestine
+- Disorders of solid parts of the body: bones, teeth
+- Issues with legs, feet, knees, base of spine, buttocks
+- Eating disorders
+- Frequent illness (can be deficient and/or excessive)
 
-#### Boundaries
+**Healing Practices:**
+- Reconnect with body
+- Physical activity: aerobics, weights, running, dance
+- Lots of touch, massage
+- Bioenergetic grounding
+- Hatha yoga
+- Look at earliest childhood relationship to mother
+- Reclaim right to be here
 
-Without boundaries, natural excitement gets dissipated and diluted and becomes ineffectual. When we lose our ground, our attention wanders and we appear vague and insubstantial.
+**Affirmations:**
+- It is safe for me to be here
+- The earth supports me and meets my needs
+- I love my body and trust its wisdom
+- I am immersed in abundance
+- I’m here and I’m real.
 
-The healthy establishment of one's ground is the essential work of the first chakra, and the foundation for any further growth. Here lies the basic rights of the first chakra: the right to be here and to the right to have what we need in order to survive.
+### SHADES OF RED
 
-- Nourishment forces us to remain open as a system, in constant interaction with our environment. Without nourishment, we collapse. Persons who embody a sense of physical collapse are revealing a lack of support in their life and their bodies show a corresponding sense of defeat.
-- Reclaiming our right to be here, learning to ground, and attending to our need for nourishment are all first chakra necessities.
-- The characteristics of good grounding, connection with our bodies and the physical world, self-nourishment, and self-preservation contribute to the ability to manifest prosperity. This means being able to meet basic survival needs in ways that offer security, stability, and enough freedom to expand beyond survival consciousness.
-- In order to meet these survival needs, we must be able to deal with our immediate physical environment—to extract from it what we need for our personal or familial preservation. This is the testing ground of our first chakra abilities. It gives us a means for our own independence, enabling us to stand on our own two feet, to stand in our own ground.
+**Mary's Story:**
+- Mary entered the office with palpable pain and hypervigilance
+- Suffered from anorexia, numbness in extremities, disconnected from her body and life
+- Had tried other therapists without success due to mind-body separation
+- Common issue among clients, leads to dissociative state
 
-### GROWING THE LOTUS 
-#### DEVELOPMENTAL FORMATION OF THE FIRST CHAKRA
+**Effects of Disconnection from Body:**
+- Compulsive actions, no longer rooted in feelings or consciousness
+- Spiritual homelessness, lacking an anchor in life
+- Cultural epidemic, caused by degrading jobs, automatic routines, and annihilating environments
 
-1. Age: Womb to 12 months
-2. Tasks: Physical growth, Motor development, Bonding
-3. Needs and Issues: Trust, Nourishment, Safety, Right to be here
+**Consequences of Dissociation:**
+- Senseless violence, lack of empathy towards others' bodies
+- Self-annihilation through plastic surgery or addictions
+- Children are repressed, not taught body awareness or self-understanding
+- Mind over body mentality perpetuates body devaluation and fragmentation
 
-For the first several months of your life, you can't do anything for yourself. You understand nothing and have almost no control over your body or surroundings. You can't speak the language, so you can neither communicate nor understand anything said around you, yet your life depends on getting your needs met.
+**Body Devaluation:**
+- Religious attitudes devalue the body as root of evil or insignificant
+- Medical practices treat body mechanically, ignoring spirit within
+- Psychotherapists ignore role of body in mental health
+- Universities educate minds at cost of bodies, perpetuating dissociation and disconnection
 
-Trust or Mistrust: The meeting of your needs is beyond your control, yet you need everything. There is a frightening feeling that was not present in the womb. Things are not provided automatically as they were in the womb. There are periods of hunger, cold, discomfort, and pain. Whether these needs are miraculously met creates your psychological foundation for relating to the world: trust or mistrust.
+**Healing the Split:**
+- Necessary step for personal and global healing
+- Heals foundation and base upon which all else is built
+- Recovering body leads to healing of self and world.
 
-Family Determines How We Find Our Ground: Trust enables your body to unfold from its cramped position, allows security and calm, and encourages connection, bonding, and exploration. 
+### BASIC ISSUES OF THE FIRST CHAKRA
 
-With trust, the survival instinct is satisfied, and there is a sense of emotional well-being. If you are confident that the world is a friendly place, you have the sense that you will live. Without trust, your survival feels constantly threatened, and because there is nothing you can do to meet the threat, the anxiety is unbearable.
+**First Chakra (Muladhara)**:
+- Foundation of the temple and the entire chakra system
+- Situated at the base of the spine
+- Anchors the temple of the body to the earth
+- Provides stability, firmness, and consistency
+- Defines boundaries and determines shape and structure of the body
+- Connection to survival instincts
 
-##### Substance of Survival: 
+**The Foundation of the Temple** (Muladhara):
+- Resting upon the earth as a universal ground
+- Build the foundation for the temple of the body
+- Anchor for the Rainbow Bridge
+- Damage to this chakra affects all others above
 
-The substance of survival—feeding, holding, warmth, and physical comfort—must come from outside you. This is provided by your roots, meaning your parents, family, and caretakers. The degree to which parents succeed at this task depends a great deal on the kind of support they received as infants and children, and what kind of support system they have for themselves while you are young.
+**Basic Issues**:
+- Survival: the original challenge to being alive and the primary instinct
+- Assuring survival allows consciousness to engage in other activities
+- Threatens consciousness dominates all functions when activated
+- Can lead to chronic stress, anxiety, and health problems
+- Common in those raised in violent or impoverished environments
 
-##### Environment as Self: 
+**Effects of Damage**:
+- Plagued with issues of survival: health, money, housing, job problems
+- Elusive sense of safety and security
+- Rupture between consciousness and the core of being
+- Disconnected from natural instincts and environment
 
-For the developing fetus, the uterus is the first experience of body, the first home and environment, and the ground of being from which life emerges. The mother's nutritional balance and her emotional states during pregnancy play a role in the texture of the child's personal ground.
+**Instinct to Survive**:
+- Unavoidable and fundamental instinct
+- Archaic baseline maintenance program for physical existence
+- Dominates all functions when threatened
+- Keep body in hyperstimulated readiness with stress hormones
+- Common in post-traumatic stress disorder (PTSD)
 
-##### Birth: 
-Birth is the gateway into life and the beginning of individuality. It is the first step in our lifelong journey and has a marked effect on how we feel about that journey. Yet the infant is not aware of that individuality for quite some time. For the first five to six months, she remains in a state of fused identity and has no concept of a separate self.
+**Reclaiming the First Chakra**:
+- Living harmoniously with survival instincts without being unconsciously ruled by them.
 
-##### Trust vs. Mistrust: 
+### THE DEMON OF FEAR
 
-The need for the inner and outer worlds to remain consistent is extreme in the young child for many years to come, but especially during a period when there is no distinction. If our instinctual impulses do not get us the things we need in order to survive, we learn to distrust or ignore them, and simultaneously perceive the world as hostile.
-##### Hope: 
+* Fear arises when sacred gets scrambled and survival is threatened
+* Heightens awareness, floods body with natural chemicals (adrenalin) for action
+* Focuses attention outward and upward to chakras of perception and mental activity
+* Results in hypervigilance, restlessness, anxiety, and inability to relax or settle
+* Can stem from environment of danger or deprivation during childhood
+* Creates a constant state of stress, which may lead to health issues like high blood pressure, heart trouble, stomach troubles, immune system depletion, weak adrenal glands, insomnia, or chronic fatigue
+* Fear engages survival instincts and wakes us up but can become constant and hinder appropriate response
+* Can be understood and released through acknowledgment of origins, allowing body to express responses, and developing resources for effective future encounters
 
-Hope gives us confidence, enthusiasm, positive thinking, and excitement about life. It is the essential essence needed to thrive and move forward. The developmental tasks at this stage center around learning to operate the body as the basic vehicle of life. Awareness, coming down from the seventh chakra, is initially focused on the body itself as the child discovers
+**Fear as a Sacred Adversary:**
+
+* Fear exists as an ally teaching self-preservation and the importance of taking care of ourselves
+* Both fear and faith have similar causes: beliefs that govern behavior and influence feelings
+* Replacing unreasonable fear with reasonable faith acts as a natural antidote to the first chakra demon
+
+**Reclaiming Our Roots (Muladhara Chakra):**
+
+* Sanskrit name for base chakra: "root support"
+* Represents our connection to our bodies, physical world, earth, ancestors, family, and personal history
+* Acknowledging past and examining it helps create a solid foundation
+* Corresponds to the element earth and human dependence on energy from the planet
+* Bringing muladhara to consciousness connects us to the commonality of the collective unconscious and anchors us into the earth
+* Groundedness channels flow of excitement from ourselves to the environment and vice versa.
+
+### GROUNDING
+
+**Grounding and the First Chakra:**
+
+* A healthy first chakra enables grounding, which is essential for basic aliveness and well-being.
+* Grounding connects us to our body and environment, providing strength and stability.
+* Physically, grounding occurs through the legs and feet, allowing energy to flow up from the base of the body.
+* Being grounded brings consciousness into the body and aids in forming healthy boundaries.
+* Spiritual growth requires embracing our natural tendencies rather than denying them through ascetic practices.
+
+**Effects of Grounding:**
+
+* Presence, focus, and dynamic energy
+* Connection to emotional-electrical currents and physical-psychic processes
+* Confident and contained demeanor
+
+**Consequences of Ungroundedness:**
+
+* Loss of stability and center
+* Difficulty containing and holding boundaries
+* Inability to mature and transform
+
+**Nourishment and the First Chakra:**
+
+* Adequate nourishment is necessary for physical survival.
+* Lack of support or nourishment leads to a feeling of collapse.
+* Neglecting one's right to be here can manifest as eating disorders or abandonment issues.
+
+**Manifestation and Prosperity:**
+
+* Grounding, connection with the body, self-nourishment, and self-preservation contribute to prosperity.
+* Meeting basic survival needs provides security, stability, and independence.
+* Manifestation requires focusing on specific goals and accepting limitations.
+
+**Limitation and Acceptance:**
+
+* Boundaries create necessary limitations for manifestation and growth.
+* Accepting and cooperating with limitations allows energy to build and expand to higher levels.
+* Rebelling against limitations keeps us in survival mode and unable to transcend them.
+
+### GROWING THE LOTUS
+
+**Growing the Lotus: Developmental Formation of the First Chakra**
+
+* **Age:** Womb to 12 months
+
+**Tasks:**
+- Physical growth
+- Motor development
+- Bonding and developing a sense of trust
+- Feeling safe in the world
+
+**Needs and Issues:**
+
+* **Trust:**
+  - Infants need caretakers to meet their needs
+  - Lack of trust can affect emotional grounding and self-confidence
+
+* **Nourishment:**
+  - Infants cannot provide for themselves
+  - Needs for food are met through others
+
+* **Safety:**
+  - Infants experience a frightening world outside the womb
+  - Trust in caretakers is crucial for feeling safe
+
+**Experience of Newborns:**
+- Emerging from the warm and dark womb into light and cold
+- Scared and hungry
+- Basic instinct draws infant to breast for nourishment
+- Need for trust and safety
+
+**Quote by Stanley Keleman:**
+- Infants have no control over their needs or surroundings
+- Needs must be met, creating psychological foundation for relating to the world
+
+**Impact of Family:**
+- Lack of touching and holding can lead to emotional instability and fear of falling
+- Importance of caretakers in establishing trust and sense of safety
+
+**First Chakra Development:**
+
+* Trust or mistrust is the foundation for all other chakras
+* Enables security, emotional well-being, connection, bonding, and exploration
+* Basic survival instincts are met through support from parents and caretakers
+* Infant's first experiences of body and environment influence development
+
+**Infant Development:**
+
+* Nervous system responds instinctually in first few months
+* No concept of separate selfhood
+* Mother's emotional state and nutritional balance during pregnancy impact development
+* Environment (womb) plays a role in infant's first experiences of self
+* Birth is the gateway into life and the beginning of individuality
+* First five to six months, infant remains in a state of fused identity
+* Neonate experiences immersion in Dynamic Ground prior to ego development
+
+**Impact of Environment:**
+
+* Mother's body, voice, touch, and presence form the first experience of self
+* Warm and attentive environments promote positive charge, hope, confidence, and enthusiasm
+* Cold or cruel environments negatively impact early experiences of life and self
+* Unmet needs during infancy can lead to distrust, dissociation, helplessness, inadequacy, and feelings of hostility towards the world
+
+**Trust vs. Mistrust:**
+
+* First developmental struggle in life
+* Healthy resolution: a feeling of hope
+* Essential for thriving and moving forward
+* Developmental tasks centered around learning to operate the body as the basic vehicle of life
+* Sensory-motor period, where awareness is sensory and the task is motor development
+* At six months, child becomes vertical, energy begins to flow upward, and the second chakra opens.
 
 ### TRAUMAS AND ABUSES
 
-#### BIRTH TRAUMA
+**Traumas and Abuses Impacting the First Chakra:**
 
-Our first survival experience involves separation from the mother after birth, which is fundamentally traumatic to infants.
+* Anything threatening survival in early life can affect first chakra formation.
+* Younger children are more vulnerable to these threats.
+* A smooth first year creates a solid foundation for later resilience.
+* Trauma forces a child into fear and helplessness, blocking the downward energy flow.
+* The mind-body connection is crucial for recovery.
 
-- **Technological birth**: Infants pulled out into bright lights, spanked, and separated from the mother are shocked by this assault to their neurological sense of ground.
-- **Male infants**: Circumcision without anesthesia further traumatizes them.
+**Birth Trauma:**
 
-Hospitals are becoming more aware of the need for continuity from womb to mother and breast-feeding is making a comeback.
+* Our first survival experience; separation from mother after birth is traumatic.
+* Technological birth practices shock our ancient nervous systems.
+* Breastfeeding and postnatal contact are important for bonding.
+* Birth traumas can cause further difficulties and health issues.
+* A proper grounding during infancy leads to calmness and positive relationships.
 
-- **Postnatal contact**: This is crucial to mother-child bonding, which was previously neglected.
-- **Ground-wrenching birth experiences**: Several generations have endured these, requiring conscious reclamation of body and ground for most of us.
+**Impact of Birth Trauma:**
 
-Children of horrible births are more likely to cry, be needy, and have health problems, which can lead to parental stress and neglect/abuse.
+* Infants may cry excessively, have health problems, and hinder parent-child bonding.
+* Adults who experienced traumatic births might view life as surreal and accept isolation.
+* Lack of safety and bonding in infancy can result in a vague sense of something missing from life.
 
-A well-received child is relatively calm and receives positive regard from others in the first few months.
+**Impact of Incubator Babies:**
 
-- **Incubator babies**: They are deprived of mother's touching and suckling, leading to a surreal view of life and distant relationships.
-- **Isolation**: Adults who were incubator babies may accept isolation as normal due to missing safety and bonding experiences.
+* Deprived of mother's touching and suckling.
+* Seeing loving faces through glass without being touched is disembodied.
+* Adults who were incubator babies might have trouble with relationships and understanding the importance of safety and bonding.
 
-#### ABANDONMENT
+**Abandonment:**
+- Directly impacts survival, both physically and emotionally
+- Physical abandonment: children in institutions suffer from marasmus, a wasting disease due to lack of touch
+- Emotional abandonment: feelings of unwantedness and fear
+- Can be subtle or blatant, longer separations create profound insecurity
+- Adopted children experience abandonment by birth parents
+- Threatens survival and elicits fear, may inhibit appropriate responses to common situations
+- May result in excessive first chakra, clinging to security
+- Leads to tendencies to abandon oneself in various ways
 
-- Children who are not touched enough experience abandonment, even when other care is provided.
-- Institutionalized babies had a high death rate due to lack of touch, resulting in marasmus (wasting away).
-- Abandonment can be subtle or blatant, and longer periods of separation create profound insecurity.
-- Adoptive parents need to provide consistent love and security to make up for the child's separation anxiety.
-- Abandonment threatens our survival, making us feel unwanted and doubt our right to be here.
-- Fear of abandonment can inhibit appropriate responses in relationships, leading to fear of speaking up or accepting it too readily.
-- Abandonment during the formative years often results in an excessive first chakra, clinging to security, food, loved ones, or routines.
-- Abandonment by others creates a tendency to abandon oneself, leading to poor self-care and trust issues.
+**Impacts of Abandonment:**
+- Physical: weakness, hunched upper back
+- Emotional: fear, insecurity, low self-esteem, mistrust of others
+- Psychological: excessive clinging to security, inability to change
 
-#### NEGLECT
+**Neglect:**
+- Subtler form of abandonment
+- Intermittent, instability leads to mistrust and further alienation
+- Impacts third chakra (self-esteem) and fourth chakra (right to be loved)
+- Result in self-neglect, shame, eating disorders, or digestive difficulties
 
-*Neglect* is a subtler form of abandonment that can lead to instability, mistrust, and shame.
+**Feeding Difficulties:**
+- Malnourishment or hostile eating situations affect ability to nourish oneself
+- Emotional state of mother during feeding and inherited attitudes about food impact vital survival function
+- Can result in trust issues, eating disorders, or stagnant energy due to being a closed system.
 
-Neglect is often intermittent and counteracts the first chakra's job of stabilizing the system.
+**Enemas and First Chakra Trauma:**
+- Repeated use of enemas can be traumatic to the first chakra, leading to trust issues and a fractured sense of solidity (John Bradshaw)
+- Can result in difficulties with boundaries, autonomy, and an inability or excessive need to hold and contain (third chakra issue)
+- May have sexual overtones in some cases
+- Destroys the child's trust and sense of control over their body
+- Energy is pulled upward towards the head, leading to issues with feelings and self-esteem (second and third chakras)
 
-If neglect is mild enough for survival, it results in buried memories of helplessness without a concrete connection.
+**Physical Abuse:**
+- Causes pain and teaches dissociation from bodily sensations
+- May lead to addictive stress response and a need for crisis in order to feel alive
+- Impacts all chakras, with difficulties in surrendering to feelings (second), power dynamics and self-esteem (third), relationships (fourth), communication (fifth), clear seeing (sixth), and clear thinking (seventh)
+- Physically harms the body, leading to first chakra issues
+- Creates a profound betrayal of trust
+- May result in excessive or deficient coping strategies, such as dissociation or obsession with the body
+- Fragmenting effect on the nervous system and natural flow of experience
+- Can lead to physical injuries and damage
+- Constantly dangerous environment, leading to fear and a constant companion, creating future crisis situations to stimulate a familiar sense of aliveness.
 
-This instability leads to mistrust of others and further alienation from those who might provide support.
+### ACCIDENTS, SURGERIES, ILLNESSES
 
-Neglect also impacts the third chakra's self-esteem and personal power, as well as the fourth chakra's right to be loved.
+**Accidents, Surgeries, and Illnesses:**
+- James had a series of freak accidents starting at age 4, including being hit by a car, fracturing his skull, appendicitis, and being attacked by a mugger
+- These events traumatized his nervous system and led to post-traumatic stress symptoms, such as difficulty concentrating and containing energy
+- Surgeries, illnesses, and accidents can have long-term emotional effects, including unconscious fears, difficulty sleeping, changes in eating habits, nervousness, and difficulty concentrating
 
-Like abandonment, neglect is often echoed in how we treat ourselves.
+### Effects of Trauma
+- Impact of accidents may leave unidentified marks in the body as post-traumatic stress symptoms
+- These symptoms may include energetic fragmentation and difficulty with containment, focus, grounding, and first chakra issues
 
-#### FEEDING DIFFICULTIES
+**Inherited Trauma:**
+- Lucy's sister died in the crib when she was two years old, leading to her parents doting on her out of fear that she might also die
+- Lucy absorbed her parents' unconscious fear and had frequent health problems and insecurities throughout her life
+- Parents with war trauma, poverty issues, racial persecution, holocaust survival, loss of a previous child, or unresolved survival issues may pass their fears onto their children through attitudes and beliefs about the world's danger.
 
-* Malnourishment and hostile eating situations affect our ability to nourish ourselves, an essential first chakra function.
-* The emotional state of the mother while feeding, inherited attitudes about food, and whether or not a child is breast-fed all impact this vital survival function.
-* Some clients were not allowed to eat until their brothers were fed, or had to sit at the table for four hours until they ate a cold plate of eggs.
-* Children may live in constant hunger or be overfed with poor quality foods.
-* Adults who experienced these types of situations as children have difficulty interpreting true hunger messages and may develop food allergies, avoidance, or addiction to food.
-* This can manifest as trust issues, eating disorders, digestive difficulties, or stagnant energy due to being a closed system unable to incorporate new input.
-* Nourishment comes in many forms—food, friends, intellectual and creative stimulation—so this issue may translate to other areas of life.
+**Impact on First Chakra:**
+- Trauma can contaminate the underlying ground of being with an unidentified layer of fear and distrust that eventually becomes part of the bodily experience
+- This can lead to first chakra issues, such as difficulty with containment, focus, grounding, and other first chakra issues.
 
-#### ENEMAS
+**Poor Boundaries and Embodiment:**
+- Interfering with boundary formation or dissolution can hinder self-development (Stanley Keleman)
+- Clients without proper nurturing, continuity, and safety may struggle with boundaries (example of a client who grew up in an orphanage)
+- Lack of boundaries can lead to legal issues, such as child molesting charges
+- The world will provide boundaries if we don't establish our own (rejection, jail, illness)
+- Pairing up with people with overly rigid boundaries is also a possibility
 
-* Enemas can cause trauma to the first chakra, similar to sexual abuse.
-* Repeated use of enemas destroys trust and fractures one's sense of solidity.
-* Difficulty with boundaries is guaranteed, leading to either impenetrable walls or nonexistent boundaries.
-* The child's right to have a first chakra is denied when their only solid creation is taken away against their will at an inappropriate time.
-* John Bradshaw states that not all uses of enemas are abusive, but excessive, unnecessary, or punitive use can be considered abuse.
+**Effects of Poor Boundaries:**
+- Fear to set appropriate limits due to unmet lower chakra needs
+- Unable to experience satisfaction of "enough" due to past denial of merging and contact
+- Inability to form boundaries when serving family's survival needs in childhood
+- Disembodiment: splitting into a disconnected spirit and body (Alexander Lowen)
 
-#### PHYSICAL ABUSE
+**Implications:**
+- If lower chakra needs are not met, we may be afraid to set limits and establish boundaries
+- Proper grounding and satisfaction of our basic needs enable us to set healthy boundaries
+- Lack of awareness of bodily feelings and attitudes can lead to a disconnected sense of self.
 
-1. *Physical abuse* causes pain and teaches children to dissociate from their bodily sensations.
-2. Anxiety from the abuse produces stress hormones, which may become addictive and create a need for crisis throughout life.
-3. Bodily dissociation can make one accident-prone and lead to minor injuries that bring one home to the familiar experience of pain.
-4. Coping strategies for dealing with physical abuse can impact any and all of the chakras, especially first chakra issues.
-5. Physical abuse may create excessive or deficient coping strategies, such as dissociation or obsession with the body.
-6. The fragmenting effect of physical abuse on the nervous system is similar to its effect on subtle energy fields, making it hard to mend shattered stability and well-being.
-7. Physical abuse usually comes from someone within the home, making daily life dangerous and fear a constant companion.
+**Upper Chakra Dominance** and First Chakra Damage:
+- Experiences threatening survival lead to upward energy movement, cutting off bodily sensations and inhibiting the downward current.
+- A person may be physically numb and neglect basic needs like eating and resting, resulting in frequent illnesses and lack of emotion awareness.
+- Hypervigilant to external messages, searching for connection or danger, creating a mind-body split.
+- Ground is often overlooked or invisible, leading to confusion and difficulty addressing the root issue.
 
-#### ACCIDENTS, SURGERIES, ILLNESSES
+**Neurotic, Schizoid, and Schizophrenic Egos:**
+- **Neurotic ego:** Dominates the body, seeing it as an object to be controlled.
+- **Schizoid ego:** Denies the body, disregarding its needs and sensations.
+- **Schizophrenic ego:** Dissociates from the body, leading to alienation and objectification.
 
-* Surgeries, severe illnesses, or accidental physical injuries can have traumatic effects on the body and nervous system.
-* Even surgery necessary for survival can traumatize the body and psyche of the child going through the experience.
-* Car accidents may have long-term emotional effects, such as unconscious fears, difficulty sleeping, changes in eating habits, prolonged nervousness, and difficulty concentrating.
-* Effects from these events can be harder to decipher as they may have been dismissed as insignificant.
-* The tendency to fragment may resemble the energetic process of the Schizoid structure without its other physical or emotional characteristics.
+**Impact of First Chakra Damage on Other Chakras:**
+- Sexuality: Affected due to experience of the body and connection.
+- Personal power: Weakened without ground to stand on.
+- Relationships: Adversely affected by lack of boundaries and constant reassurance.
+- Communication: Blocked or excessive, disconnected from feeling.
+- Upper chakras: Intensified with imagination and intellect as a defense against feeling; can lead to confusion, vagueness, or feeling of going crazy.
 
-#### INHERITED TRAUMA
+**Objectifying the Body:**
+- Person may see their body as an alien entity, object, or thing.
+- Women often view their bodies in this way due to societal conditioning.
+- Resulting in control and maintenance focus rather than embracing the body as a living, dynamic statement of self.
 
-- *Inherited trauma* refers to fears and insecurities passed down from parents to their children without any direct abuse or trauma experienced by the child.
-- It is possible for children to inherit first chakra issues from their parents without any direct abuse; this can result in attitudes and beliefs about the world's danger rather than physical manifestations.
-- This inherited fear can contaminate the underlying ground of being with an unidentifiable layer of fear and distrust that eventually becomes part of the bodily experience.
+**Additional Chakra Imbalances:**
+- Second chakra: Sexuality affected by lack of connection with the body.
+- Third chakra: Personal power weakened without ground.
+- Fourth chakra: Relationships adversely affected, communication may be blocked or excessive.
+- Fifth chakra: Communication and expression may be affected, leading to confusion or vagueness.
+- Sixth chakra: Intensification of intellect as a defense against feeling.
+- Seventh chakra: Disconnection from the body and ground, potentially leading to feelings of going crazy.
 
+**Grounding and Embodying Consciousness:**
+- Addressing first chakra damage by building a downward current and developing a solid foundation (ground).
+- Grounding practices like mindfulness meditation, yoga, or grounding exercises can be helpful.
+- Embracing the body as a living, dynamic statement of self rather than an object to be controlled.
 
-#### BOUNDARIES
+### CHARACTER STRUCTURE THE SCHIZOID: CREATIVE AND INTELLIGENT
+- An emergency mechanism for coping with danger to life and sanity
+- High degree of intelligence, creativity, and interest in spiritual matters
+- Develops early in life due to lack of sense of safety or wanting from mother
+- Marked by energetic statement of withdrawal from life
 
-Poor boundaries can lead to various negative outcomes such as interfering with embodiment, discouraging future self-forming, and even resulting in legal issues or health problems. According to Keleman, when our own boundaries are not functioning properly, the world will provide them for us through rejection, jail time, or illness. However, if lower chakra needs have been met, individuals can set appropriate boundaries and withdraw from unproductive relationships without fear of dependence on others.
+**The Unwanted Child**
 
-Keleman also highlights the impact of poor boundaries on codependency, which often stems from a childhood where a person had to care for their family members due to survival needs. In such cases, boundaries do not form, leading to a pragmatic contradiction in adulthood as survival requires boundaries.
+- Developed when mother's emotions are transmitted to the child in womb
+- Mother's fear, anger, or unwillingness to be pregnant impacts fetus
+- Lack of freedom, safety, and sense of being wanted leads to contraction as a normal way of being
 
-#### UPPER CHAKRA DOMINANCE
+**Characteristics of Schizoid/Creative**
 
-Experiences that threaten survival intensify the upward movement of energy in the body, leading to a disconnection from bodily sensations and an overemphasis on mental awareness.
+- Questioning right to exist, taking up space, and attending to physical needs
+- Ignoring signals of hunger, thirst, or fatigue
+- Difficulty experiencing body as whole organism
+- Blocked at throat, constantly clearing it while speaking
+- Hurtful speech, hurried and frightened
+- Highly sensitive and intelligent mind
+- Upper chakras highly developed, lower chakras have little energy
+- Out of touch with body, lack of sexual partners and close friends
+- Energetic process is fragmented, preferring to stay in realm of conversation
+- Fear-based, living in fear and unable to handle too much charge or excitement
 
-A person with upper chakra dominance may neglect basic needs like eating and resting, resulting in frequent illnesses.
+**Healing Schizoid/Creative Character Structure**
 
-*Mind-Body Split*: The disconnection from bodily sensations creates a profound mind-body split, making it difficult to identify and address underlying issues.
-
-A person with upper chakra dominance may have an unawareness of their own ground, leading to confusion for both the individual and any therapist working with them.
-
-To counteract upper chakra dominance, it is necessary to develop a downward current of energy and build a solid ground, similar to building a foundation brick by brick.
-
-#### OBJECTIFYING THE BODY
-
-* Neurotic ego dominates the body
-* Schizoid ego denies it
-* Schizophrenic ego dissociates from it
-
-First chakra damage leads to alienation from the body
-
-Objectification of self and others leads to seeing the body as a thing to control
-
-#### OTHER CHAKRA IMBALANCES
-
-* First Chakra Imbalances: Sexuality, personal power, relationships, communication affected; upper chakras intensified with elaborate imagination and intellect as defense against feeling.
-* Extreme intensification can cause confusion, vagueness, or a feeling of going crazy.
-* Answer lies in grounding and embodying consciousness.
-
-### CHARACTER STRUCTURE 
-
-1. **Schizoid Character Structure**: Creative and Intelligent - A defense mechanism developed early in life to cope with danger to life and sanity, involving absolute control of the body by the mind.
-2. **Unwanted Child**: Developed when a mother is fearful or resistant to pregnancy, leading to contraction as a normal way of being and withdrawal from life.
-3. **Creative Character Structure**: High degree of intelligence, creativity, and interest in spiritual matters; questions right to be here due to lack of body affirmation.
-4. **Schizoid/Creative Character**: Tall, thin, wiry, wide-open eyes, nervous, shaky, highly energized, manic attacks, anorexic, coiled rope around torso, blocked throat, hurried and frightened speech, highly sensitive mind, out of touch with body.
-
-**Self-Care Assignments**: Eating, sleeping, massage, walks, pleasurable activities, reclaiming body piece by piece through drawing and movement.
-
-**Boundary Adjustment**: Moving boundaries from withdrawn space to a feeling of safety; breaking the habit of contraction by pushing against a pillow.
-
-**Recovery Process**: Gradual learning to pay attention to her body, trust more people, value herself, reclaim right to be here, and participate in life.
+- Assignments in self-care: eating, sleeping, massage, baths
+- Reclaim body piece by piece through drawing, movement, and boundary work
+- Break habit of contraction with gentle physical exploration
+- Gradually trust more people, open up, value self, and participate in life.
 
 ### EXCESS AND DEFICIENCY
 
-Determining excess and deficiency within a chakra is necessary before using most exercises. An excessive chakra benefits from relaxing or discharging exercises, while a deficient chakra benefits from stimulating or charging exercises. 
+- Determining excess or deficiency in a chakra is necessary before using exercises
+- An excessive chakra benefits from relaxing or discharging exercises, while a deficient one benefits from stimulating or charging exercises
 
-Charge is the body's basic excitement, felt when we are angry, excited, sexually aroused, scared, in love, or experiencing intense emotional states. Issues from childhood hold charge, and overreacting or compulsively avoiding charged situations may occur. Positive experiences also hold charge, giving us energy.
+**Concept of Charge:**
+- Charge is a bioenergetic term for the body's basic excitement
+- It is felt during intense emotional states such as anger, excitement, love, fear, and spiritual connection
+- Issues from childhood can hold positive or negative charge
+- Charge can be invoked through grounding exercises, increased breathing, fantasy, visualization, talking about charged material, or experiencing truth
 
-1. **Increasing Charge**: increases body awareness by increasing its aliveness. Depression is a state of undercharge, lacking excitement or enthusiasm. Not all charge is pleasurable; when the body is rigidly compressed, increased charge may be felt as anxiety. Chronic muscular tension defends against charge to avoid unwanted feelings.
+**Characteristics of Charge:**
+- Can be felt as intensity, enthusiasm, or heightened awareness
+- Positive experiences also hold charge and can give a sense of well-being
+- Increasing charge increases body's aliveness and awareness
 
-2. **Deficiency**: _A deficient first chakra_ is contracted, vacant, weak, sloppy, or unformed. Contraction pulls inward and may center in the head, solar plexus, heart area, or downward into the ground. The person may be out of touch with feeling in this area. 
-- A deficient first chakra needs to discover its ground, respond well to working while standing, and use exercises that charge the body.
+**Depression and Undercharge:**
+- Depression is a state of undercharge, lack of excitement or enthusiasm
+- Increasing charge can help increase sense of well-being for those who are depressed or have weak bodies
 
-4. **Excess**: _An excessive first chakra _feels heavy, has solidity but with a sluggish and massive feeling. The person may be large and dense, with excess weight around hips, thighs, or buttocks. The body is solidly formed and resistant to change. 
-- Excessive first chakras need to discharge, let go, shift from excessive stability to movement and flow, and use physical movements like dancing, walking, swimming, or yoga for relaxation and subtle energy distribution.
+**Negative Effects of Charge:**
+- Not all charge is pleasurable; rigidity and chronic muscular tension defend against charge
+- Overcharging the body can lead to anxiety, restlessness, fear, or feeling out of control
+- Excessive charge is experienced as stress
 
-**Balance**: A balanced first chakra is solidly grounded yet dynamically alive, with both flexibility and consistency. It has a sense of form without rigidity, bodily comfort, and healthy energy distribution. This gives inner security, good self-care, an affirmed right to be here, and a strong sense of presence.
+**Images and Truth:**
+- Dream images may hold a lot of charge and discussing them can spontaneously arise in the body as one discusses his dream
+- Truth also has a charge, especially when it has been previously hidden.
 
-**Assessing History**: Uncovering developmental life experiences can reveal excessive or deficient strategies. Neglect and rejection usually result in deficiency, while stressful situations may lead to excess. Persistent problems can be sorted into problems of excess or deficiency.
+**Deficiencies in the First Chakra:**
 
-### RESTORING THE LOTUS 
-#### HEALING THE FIRST CHAKRA
+* A contracted and vacant first chakra may be recognizable by a person's physical posture and movements
+* Contraction can pull energy upward, backward, or downward, leading to various symptoms
+	+ Upward contraction: empty and vacant feeling, out of touch with feelings in the area
+	+ Backward contraction: difficulty concentrating, restlessness, shifting position constantly
+	+ Downward contraction: poor muscle tone, circulation, color, boundary formation, undernourished and undercharged
+* A deficient first chakra may result from neglect or rejection during developmental stages, leading to insufficient energy for a solid foundation
+* People with deficient first chakras respond well to grounding exercises and boundary work
 
-1. Determine state of connection with body, ground, and environment.
-2. Observe walking, talking, moving, breathing, sitting, and eye contact for clues about underlying patterns.
-3. Focus on energetic statements rather than emotions in first chakra work.
-4. Keep person in touch with bodily sensations to provide containment for difficult material.
-5. Use grounding suggestions like putting feet back down on the floor or standing up.
-6. Have clients draw their own body without trying to make a realistic picture.
-7. Analyze drawing for overlooked aspects and ask questions about it.
-8. Compare drawing with person's life and discuss any discrepancies.
-9. Make periodic drawings to track progress in healing.
+**Excesses in the First Chakra:**
 
-#### BODY DIALOG
+* An excessive first chakra feels heavy and solid, but with a sluggish and massive feeling
+* The body may be large and dense, with excess weight distributed around the hips, thighs, and buttocks
+* Movements are infrequent, eyes defensive, and head held steady
+* People with excessive first chakras like routine, security, and possessions, and may appear cynical about spiritual subjects
+* Excessive first chakra types need to discharge, let go, and shift from excessive stability to movement and flow through physical activities such as dancing, walking, swimming, or stretching
 
-* Body Dialog Exercise: First step out of dissociation is reestablishing communication with body. Client lays down, therapist sits beside, ready to write down everything said. Client pretends body is a corporation, interviewing each part about their feelings.
-* Each body part is a member of the corporation, client starts with "I am my feet and I..." and completes sentence with emotional experience.
-* After all parts have spoken, therapist reads back what was written without mentioning body parts. Client sees how the body is expressing life experience.
-* Dialog can then occur with significant parts of the body to understand their feelings and fears.
-* Goal is to develop a relationship through communication and acknowledgment, leading to action and change.
+**Balance in the First Chakra:**
 
-#### AFFIRM THE PHYSICAL
+* A balanced first chakra is both solidly grounded and dynamically alive
+* There is a sense of form without rigidity, bodily comfort, and healthy distribution of energy throughout
+* Integrating excessive and deficient strategies involves bringing extremes back toward a common center, anchored in the physical body
 
-1. When damaged, relationship with physical world is damaged; healing occurs through creating new relationship with body, earth, surroundings.
-2. Touch and nurturing crucial for developing affirming and pleasurable relationship with body. Regular massage and physical exercise are indispensable. Massage helps break down contracted body armor while simultaneously providing a nurturing and pleasurable experience. Exercise pumps energy through the body and develops strength, promoting a sense of connection and pride.
-3. Energized throughout by power of Dynamic Ground - Entire physical being is electrically charged; any bodily limbs, parts, or "zones" can become a seat of somatic ecstasy when caressed or manipulated.
-4. Encourage client to anchor feelings in body by describing physical sensations. Every feeling has a physical sensation; once clarified, feeling can be deepened or lessened through exaggeration or opposite movement.
-5. Body Numbness: Physical sensations have to be exaggerated in order to be noticed. Negative feelings can be lessened by instructing client in an opposite movement.
-6. Grounding and Cathartic Release: Change body movements may evoke cathartic release, but proceed carefully if trauma is severe.
-7. Emotional and Physical Structures Interdependence: Change in physical structure supports new emotional response; change in emotional expression supports new physical postures. Both sides must be worked simultaneously, but focus on the physical.
+**Assessing Your History:**
 
-#### WORK ON THE FEET
+* Developmental life experiences can reveal information about a chakra's structure
+* Neglect or rejection usually leads to deficiencies, while stressful situations and challenges result in excesses
+* Persistent problems can be sorted into problems of excess or deficiency by comparing statements with the chart at the beginning of the chapter.
 
-- Working directly with the feet themselves or 
-- Working while standing on the feet.
+### RESTORING THE LOTUS HEALING THE FIRST CHAKRA
 
-To open up the muscles in the feet, clients can stand on a tennis ball or footsie roller and press one foot into it while applying enough weight to loosen tension.
+**First Chakra Healing:**
+- Healing relationship with body, ground, and environment
+- Determine connection with body and surroundings through observation of:
+  - Walking, talking, moving, breathing, sitting, eye contact
+  - Energetic statements (contraction, expansion, conflict, freezing, collapse, activation, deadening, dissociation)
+  - Emotions secondary to energetic statements
 
-Doing psychological work while standing increases the body's energy, allows greater assertiveness, overcomes passivity, and supports independence.
+**First Chakra Work:**
+- Keep focus on bodily sensations instead of emotions for containment
+- Grounding techniques: putting feet back down, standing up
 
-#### GROUNDING EXERCISE
+**Body Drawing Exercise:**
+- Clients draw their own body on large newsprint with crayons
+- No need for realism; depict how body feels energetically
+- Therapist asks questions about the drawing and overlooked aspects
+- Provides graphic representation of internal schema and areas needing attention
+  - Helps track progress over time
 
-1. Grounding exercise: Place feet shoulder width apart, toes slightly inward, knees slightly bent; push into feet as if trying to part the floorboards, increasing leg solidity.
-2. Maintain position while partner pushes on sternum, dig feet into floor, increase energy in legs.
-3. Bend and straighten knees slowly, inhale while bending, exhale while straightening, push into floor; mild trembling in legs indicates new energy coming in.
-4. Continue exercise to increase energy flow and charge; be careful of anxiety that may arise.
-5. Anxiety can be curtailed by slowing down or stopping the exercise, kicking legs in front, sitting in a chair with head lowered.
-6. Process anxiety by working with material it illuminates; Sally got uncomfortable, tingling in hands and lips, confused about instinctual response to needing someone when they were not there.
-7. Allow person to grab your hands for solid contact, leading to feeling of calm.
-8. Resolve issues brought to light by exercises, grounding gains solidity, problems with jobs, housing, physical ailments begin to resolve.
+**Observations:**
+- Pencil-thin vs. puffy body
+- Rigid vs. fluid bodies
+- Fearful, contracted vs. overly expanded bodies
+- Underformed, collapsed bodies
 
-#### REGRESSIVE TECHNIQUES
+**Mirror Exercise:**
+- Have client hold drawing before full-length mirror for self-reflection
+- Provides insight into internal schema and areas needing attention
+- Helpful in identifying how the person sees themselves
 
-* Rebirthing: Lying down, simulates womb/birth experience
-* Holotropic breath work: Releases deep tensions in body
+**Home Assignment:**
+- If no mirror available, give as home assignment.
 
-**Exercise 1**: Client lies on back, legs raised and waved, pushing feet outward, kicking legs rapidly after building up charge
+**Benefits:**
+- Healing relationship with body and environment
+- Gaining relief from painful emotions through physical expression
+- Understanding inner process without intellectualization
+- Provides a visual representation of progress over time
 
-**Exercise 2**: Lying down, massage shoulder/back muscles, reaching forward with hands, suckling response (pushing lips outward)
-* Important to end with client feeling able to support himself in an adult way
-* Boundary implications, practitioner must establish clear boundaries and sense of safety/trust
+### BODY DIALOG
 
-### CONCLUSION
+**Body Dialog Exercise for Overcoming Dissociation:**
 
-* The first chakra is essential for healthy functioning and avoiding mundane existence.
-* Grounding is a slow, cumulative process that begins at the base of the chakras and changes as we build upon it.
-* Our culture's disconnection from the physical world weakens our connection to the first chakra.
-* Reclaiming our bodies and rights can be a joyful reunion with our grounded selves, leading to recovery through the chakras.
+1. **Reestablishing Communication with the Body:**
+   * The first step in overcoming dissociation is to reconnect with the body.
+   * Client lays down, comfortable position, therapist takes notes.
+   * Client personifies body parts as workers in a corporation.
+   * Client asks each part how they feel about their job and role (from feet to face).
+2. **The Body as a Corporation:**
+   * Client speaks as if they are a visiting consultant interviewing body parts.
+3. **Expressing Emotional Experiences:**
+   * Client completes sentence "I am my [body part] and I..." with emotional experience.
+4. **Whole Body Speaks:**
+   * Each body part has the opportunity to express its feelings and experiences.
+5. **Reading Back the Words:**
+   * Therapist reads back what was written, omitting body parts.
+   * Client sees how their body is expressing their life experience.
+6. **Dialoguing with Significant Parts:**
+   * After whole body has spoken, client can have dialog with significant parts.
+7. **Developing a Relationship:**
+   * Goal is to develop a relationship through communication and acknowledgment.
+   * Dialogue can occur between client and themselves or therapist and client.
+8. **Stanley Keleman Quote:**
+   * "When the whole body has had a chance to speak, I then read back what I have written, omitting the actual body parts. The client then gets a chance to see how the body is expressing her life experience." - Stanley Keleman
+9. **Understanding Body Experiences:**
+   * Body does not lie, it experiences truth for itself.
+10. **Continuing the Dialogue:**
+    * Client can continue dialog with significant parts to gain deeper understanding and facilitate change.
+
+### AFFIRM THE PHYSICAL
+
+**First Chakra:**
+- Represents our physical reality
+- Damage leads to a damaged relationship with the physical world
+- Healing through creating a new relationship with the body, earth, and surroundings
+- Affirming and pleasurable experiences are crucial for Schizoid structure with deficient first chakra
+- Regular massage and physical exercise essential
+- Massage breaks down contracted body armor and provides nurturing experience
+- Exercise pumps energy through body and develops strength
+- Body-ego is energized by the power of Dynamic Ground
+- Entire physical being is electrically charged, making any bodily part a potential seat of somatic ecstasy
+
+**Working with Bodily Experience:**
+- Encourage clients to connect feelings with physical sensations
+- Identify physical responses to emotions (e.g., butterflies in stomach, shallow breathing)
+- Deepen feelings by intensifying physical response or creating an opposite reaction
+- Help clients notice body numbness through exaggerating physical sensations
+- Lessen negative feelings through opposite movements and grounding techniques
+
+**Importance of Grounding:**
+- Necessary for emotional and physical healing
+- Encourages confrontation, saying no, getting angry, or defending
+- Supports new structure by making it harder to retreat energetically
+- Essential in maintaining a grounded position during emotional processing
+- Prevents overwhelming the system with cathartic release if trauma is severe
+
+**Interdependence of Emotional and Physical Structures:**
+- Changes in physical structure support new emotional responses
+- Changes in emotional expression support new physical postures
+- Both sides must be worked simultaneously, but focus on the physical for this text.
+
+### WORK ON THE FEET
+
+**Grounding Work with the Feet**
+
+* Connects us to the ground and grounding through feet and legs
+* Two types: working directly on feet or standing on them
+
+**Directly Working on the Feet:**
+
+* Foot massage, flexing, arching, kicking, pushing
+* Using tools like tennis balls or footsie rollers
+* Helps open up muscles and releases tension
+
+**Standing on the Feet:**
+
+* Maintains deeper energetic connection to the body
+* Essential for people with grounding problems
+* Encourages greater presence in therapy sessions
+
+**Simple Grounding Techniques while Sitting:**
+
+* Keeping feet on the ground, preferably barefoot
+* Pressing into feet reaffirms and strengthens grounding connection
+
+**Working Psychologically while Standing:**
+
+* Increases body's energy
+* Allows greater assertiveness, overcomes passivity
+* Supports independence and manifests autonomy
+
+**Attention to Client's Feet:**
+
+* Feeling feet holding up body's weight
+* Texture of floor beneath
+* Awareness of feet often increases, leading to greater grounding
+
+**Body Postures:**
+
+* Conscious: held in stomach, lifted shoulders and chest, straight spine
+* Unconscious: slumping, tightening, standing habitually on one leg
+
+**Client's Experience with Grounding:**
+
+* Jittery or secure?
+* Focus of tension or relaxation?
+* Emotional responses (fear, excitement, sadness)?
+* Sensations in the body and when they started
+* Inviting deeper experience through statements and questions
+
+**Body Postures and Energy Flow:**
+
+* Locking knees cuts down on energetic connection between legs and ground, deadens bodily sensations
+* Passive weight vs. alertness posture
+* Dead weight: collapses chest, pushes belly forward, head falls downward, lessens breathing
+* Alertness posture: holds knees slightly bent, keeps center of gravity low
+
+**Philosophical Implications:**
+
+* Having a client stand on their feet embodies concepts like autonomy, taking a stand, having a leg to stand on, etc.
+* It's not so much the meaning of life we seek but our aliveness
+
+### GROUNDING EXERCISE
+
+**Grounding Exercise:**
+- Client stands with feet shoulder width apart, toes slightly inward, knees slightly bent
+- Ask client to push into their feet as if trying to part the floorboards for leg solidity
+- Establish basic position and ask client to bend and straighten knees slowly while maintaining contact with the ground
+- Trembling in the legs is a sign of new energy coming into the body
+- Energy can be used to enliven deadened parts or passed upward to the rest of the body
+- Increased contact with the ground builds up charge, which can lead to anxiety
+
+**Dealing with Anxiety:**
+- Observe client's physical and emotional states
+- Curtail anxiety by slowing down or stopping the exercise, kicking legs in the air, or sitting in a chair
+- Process anxiety by working through the material it illuminates
+- Allow client to express feelings and find solid contact with someone
+
+**Benefits of Grounding:**
+- Increases energy flow in the body
+- Builds up charge
+- Helps resolve issues related to first chakra (jobs, housing, physical ailments)
+
+**Observations and Dialogue:**
+- Observe client's physical and emotional states during exercise
+- Keep in touch with client through constant dialog to determine if they can handle pushing deeper into the issue
+
+**Case Study:**
+- Sally experienced anxiety during her first grounding experience due to confusion about her instinctual response to needing someone when they were not there
+- Anxiety was resolved by allowing her to express feelings and find solid contact with someone, resulting in a feeling of calm.
+
+### REGRESSIVE TECHNIQUES
+
+**Regressive Techniques:**
+- Preambulatory stages of life require certain techniques for first chakra work
+- Rebirthing techniques involve laying down and simulate womb and birth experience
+- Holotropic breath work releases deep tensions held in the body
+- Not suitable for clients with serious trauma or unknown histories
+
+**Early Childhood Stages Techniques:**
+- Client lies down on back with bent knees
+- Facilitate relaxation and deeper breathing
+- Pushing the feet exercise: client raises legs, waves around, pushes outward with toes, kicks rapidly
+- Expressive charge-discharge cycle for basic anger release
+- Afterflow is important for feeling energy in body
+
+**Tenderer Emotions Techniques:**
+- Client begins lying down, works with hands and lips
+- Massage shoulders and back, encourage reaching forward
+- Encourage suckling response by pushing out lips
+- Rekindles oral experience, satisfies cravings
+
+**Considerations:**
+- Establish clear boundaries and safety before using these techniques
+- Aware of transference and countertransference issues
+- Describe exercises ahead of time, allow client to opt out
+- Not suitable for clients with extreme need to please or sexual abuse survivors
+- Caution and discretion are imperative
+
+**First Chakra:**
+- Important for grounding and building foundation for growth
+- Cultural programming weakens connection to first chakra
+- Reclaiming body as sacred temple, asserting right to survive.
 
 ## CHAKRA TWO
 
-The Second Chakra, also known as Svadhisthana, is located in the lower abdomen and is associated with the element of water. Its purpose is to facilitate movement and connection within oneself and with others. 
+**CHAKRA TWO: SECOND CHAKRA OVERVIEW**
 
-This chakra is responsible for emotions, sensations, sexuality, desire, need, and pleasure. The color orange represents this chakra, and its developmental stage ranges from 6 months to 2 years old.
+* Element: Water
+* Name: Svadhisthana (sweetness)
+* Purpose: Movement and connection
+* Location: Lower abdomen, sacral plexus
 
-The Second Chakra's balanced characteristics include graceful movement, emotional intelligence, the ability to experience pleasure, nurturance of self and others, and the ability to change. 
+**Characteristics of a Balanced Second Chakra**
 
-On the other hand, imbalances in this chakra can lead to rigidity in body and attitudes, frigidity or fear of sex, poor social skills, denial of pleasure, excessive boundaries, fear of change, lack of desire, passion, excitement, sexual acting out, pleasure addiction, excessively strong emotions, poor boundaries, seductive manipulation, emotional dependency, and obsessive attachment.
+* Graceful movement
+* Emotional intelligence
+* Ability to experience pleasure
+* Nurturance of self and others
+* Ability to change
+* Healthy boundaries
 
-Physical malfunctions associated with the Second Chakra include disorders of reproductive organs, spleen, urinary system, menstrual difficulties, sexual dysfunction, low back pain, knee trouble, lack of flexibility, deadened senses, loss of appetite for food, sex, and life. 
+**Developmental Stages and Tasks**
 
-Healing practices for this chakra involve movement therapy, emotional release or containment as appropriate, inner child work, boundary work, 12-step programs for addictions, assigning healthy pleasures, and developing sensate intelligence. 
+* Developmental Stage: 6 months to 2 years
+* Sensate exploration of the world
+* Locomotion
+* Basic Rights: To feel and have pleasure
 
-Affirmations that can help balance the Second Chakra include "I deserve pleasure in my life," "I absorb information from my feelings," "I embrace and celebrate my sexuality," "My sexuality is sacred," "I move easily and effortlessly," and "Life is pleasurable."
+**Challenges and Traumas**
 
-### BASIC ISSUES 
+* Issues: Movement, sensation, emotions, sexuality, desire, need, pleasure
+* Demon: Guilt
+* Traumas: Sexual abuse (covert or overt), emotional abuse, volatile situations, neglect, coldness, rejection, denial of child's feeling states, lack of
+mirroring, enmeshment, emotional manipulation, overuse of playpen or restricting normal movement, religious or moral severity, physical abuse, alcoholic
+families, inherited issues – parents who have not worked out their own issues around sexuality, untreated incest cases
 
-The second chakra, also known as the sacral chakra or svadhisthana, is located in the lower abdomen and is associated with change, movement, flow, sensation, pleasure, emotion, need, desire, the shadow, guilt, duality, and sexuality. It is the center of our emotional body and governs our ability to experience and express emotions, as well as our capacity for pleasure and sensuality.
+**Deficiency and Excess**
 
-- **Change**: The second chakra represents the ability to adapt and evolve in response to external stimuli.
-- **Movement**: This chakra is associated with fluidity, flexibility, and ease of movement.
-- **Flow**: The second chakra promotes a sense of balance and harmony within our emotional body.
-- **Sensation**: This chakra is responsible for our ability to experience pleasure through the senses.
-- **Pleasure**: The second chakra is associated with the pursuit of pleasure and fulfillment. 
-- **Emotion**: This chakra governs our emotional well-being and helps us process and express our emotions in a healthy way.
-- **Need**: The second chakra is connected to our basic needs for safety, security, and belonging. 
-- **Desire**: This chakra represents our innate desire for growth, expansion, and fulfillment. 
+* Deficiency: Rigidity in body and attitudes, frigidity, fear of sex, poor social skills, denial of pleasure, excessive boundaries, fear of change, lack
+of desire, passion, excitement
+* Excess: Sexual acting out, sexual addiction, pleasure addiction, excessively strong emotions, hysteria, bipolar mood swings, crisis junkies, 
+oversensitive, poor boundaries, invasion of others, seductive manipulation, emotional dependency, obsessive attachment
 
-The second chakra can also be associated with the shadow side of our personality, which includes negative emotions such as fear, guilt, and shame. By becoming aware of these shadows, we can work towards healing and integration.
+**Physical Malfunctions**
 
-This chakra is often linked to feelings of guilt and self-judgment. It encourages us to take responsibility for our actions and to develop a healthier relationship with ourselves and others.
+* Disorders of reproductive organs, spleen, urinary system
+* Menstrual difficulties
+* Sexual dysfunction: impotence, premature ejaculation, frigidity, nonorgasmic
+* Low back pain, knee trouble, lack of flexibility
+* Deadened senses, loss of appetite for food, sex, life
 
-The second chakra represents the dual nature of reality, which includes both light and dark, good and evil, pleasure and pain. By embracing this duality, we can cultivate a more balanced and integrated sense of self.
+**Healing Practices**
 
-This chakra is closely associated with sexual energy and desire. It encourages us to explore our sexuality in a healthy and fulfilling way, while also promoting greater intimacy and connection with others.
+* Movement therapy
+* Emotional release or containment as appropriate
+* Inner child work
+* Boundary work
+* 12-step programs for addictions
+* Assign healthy pleasures
+* Develop sensate intelligence
 
-### DIVING IN THE WATERS
+**Affirmations**
 
-* Diving into the waters represents a mythical journey of non-being and rebirth through baptism.
-* Entering the second chakra involves exploring emotions, sexuality, and shifting from earth to water as an element.
-* Change is essential for consciousness to find stimulation and expansion.
-* Emotional fulfillment comes from balancing emotional flow and containment within the body's sensate and structural forms.
-* The first chakra provides support and containment for the fluid essence of the second chakra, like a cup holding water.
-* Balance is key in the second chakra to allow for filling, holding, and emptying of emotions.
+* I deserve pleasure in my life.
+* I absorb information from my feelings.
+* I embrace and celebrate my sexuality.
+* My sexuality is sacred.
+* I move easily and effortlessly.
+* Life is pleasurable.
 
-#### LETTING GO TO MOVEMENT
+**Letting Go to Movement**
+- Opposite of grounding and focusing in first chakra
+- Challenge is to let go, feel, yield, and flow
+- Universe exists through consistency and change
+- Consistency provides meaning, change stimulates expansion
+- Movements get us up and expand our perception
+  * Increase sensory input
+  * Build muscle tissue and enhance flexibility
+  * Stimulate nervous system
 
-1. In the second chakra, our challenge is to let go and flow, move, feel, and yield. Movement and change stimulate consciousness. They stir the watery essence of feelings that flow through the body.
-2. On the physical plane, movement literally gets us up off our butts, where we rise from the anchor of chakra one and expand outward. Movement extends our field of perception, increasing our sensory input.
-3. Through our senses, we differentiate between pleasure and pain, expand or contract, move forward or backward, react or enact. When there is pain or emptiness, our senses shut down.
-4. Pleasure invites us to pay attention to our senses, live fully in the present, enjoy the experience of being alive. It dispels stress, makes us more receptive to new ideas, and enhances enthusiasm about life.
-5. Pleasure invites us to integrate something while pain pushes us to separate and disown. 
-6. Our culture equates maturity with the ability to deny pleasure. We are often told to put our pleasures away as we grow older—to sit still, work hard, deny or control our feelings.
-7. When pleasure is denied, an essential part of our second chakra program never gets installed. This creates a person who is missing a vital ingredient to wholeness but does not know what it is, how to find it, or even that it is missing. The result is rigidity in the body and disconnection from the outer world.
-8. Boundary issues are prevalent in each of the lower three chakras when primary, healthy pleasures are denied. Secondary pleasures take over, such as the pleasure of drinking, drugs, avoiding responsibility, sexually acting out, or overeating.
+**Movement:**
+- Invites pleasure and extends field of perception
+- Reveals hidden issues and feelings
+- Senses give clues to unconscious processes in second chakra
 
-#### EMOTIONS
+**Sensation:**
+- Gateway between internal and external world
+- Constantly changing inner matrix of the world around us
+- Data input for overall system
+- Connects and gives meaning to experience
+- Determines values based on perception and feeling
+- Loss of sensual connection leads to loss of values and distinctions
 
-1. Emotion is the chief source of all becoming conscious and transforming darkness into light and apathy into movement without emotion.
-2. Emotions are instinctual reactions to sensory data, feelings are unconscious reactions to this information, and emotions are the way we organize our feelings.
-3. Without consciousness, emotions govern our reactions; we may get angry, fall in or out of love, feel depressed or afraid, but these emotions generally arise from the depths of our psyche quite of their own accord.
-4. Emotions have a spiritual function as the language of the soul and are spoken through the body.
-5. Most therapies focus strongly on emotions; pervasive feelings of fear, frustration, shame, or anxiety initiate the quest for change and the beginnings of transformation.
-6. Emotions are subconscious organizations of impulses to move away from harm and toward pleasure; it is difficult to feel emotions without some kind of movement.
-7. Releasing emotions frees the body, while freeing emotions by consciously moving the body restores aliveness and motility.
+**Pleasure:**
+- Biological need after survival needs are met
+- Invites us to extend, expand, and tune in to senses
+- Guides the soul as logic guides the mind
+- Source of motivation and inspiration
+- Key to stimulating movement in second chakra
 
-#### THE SHADOW
+**Childhood:**
+- Source of pleasure comes from touch, closeness, play, and emotional validation.
+- Children take pleasure in being alive and reaching out to encounter the world.
+- Meeting life with love and encouragement creates a pleasurable experience.
 
-1. The second chakra produces the first major change of consciousness, representing duality and polarity.
-2. One of the tasks of second chakra adult development is to integrate previously polarized or one-sided aspects of our personality into an indivisible whole.
-3. The shadow represents repressed instinctual energies that are locked away in the realm of the unconscious, not dying but no longer part of conscious awareness.
-4. Repression of the shadow requires a great deal of energy and robs the whole of its grace and power.
-5. The shadow chases us in our dreams, sabotages work and relationships, and energizes compulsive activities when repressed.
-6. Repression will always call forth compensatory counter activity of the unconscious which will force upon us the very thing we are trying to repress.
-7. Reclaiming the shadow dissolves judgment and brings greater acceptance of self and others, restoring an essential wholeness.
-8. Repressed elements of our personality can degenerate into something unpleasant without expression, while reclaiming the shadow means channeling instinctual energies in appropriate ways.
+**Pleasure in Childhood and Its Impact on Adult Life:**
 
-#### GUILT
+* **Jennifer:**
+  + Grew up in a home where pleasure was frowned upon as an indulgence
+  + Expected to shoulder adult responsibilities, denying time for own pleasures
+  + Feels guilty about indulging in pleasures
+  + Struggles with buying clothes, taking vacations, and sexual pleasure
+  + Lives a grim life, looks older than her years
+* **Oliver:**
+  + Given treats of pleasure as rewards for good behavior
+  + Denied pleasures when sad or needy
+  + Learned to deny his own wants
+  + Feels guilty about having pleasures, wondering if he deserves them
+* **Samantha:**
+  + Grew up in a home where pleasure was provided in a healthy atmosphere
+  + Loved and respected body, positive and enthusiastic about life
+* **Impact of Family Attitudes on Pleasure:**
+  + Was pleasure regarded as important or discouraged?
+  + Were vacations taken, laughter shared, and play encouraged?
+  + Was hard work and self-sacrifice emphasized over pleasure?
+  + Were work and play, self-discipline and pleasure, balanced?
+* **Attitudes Towards Pleasure:**
+  + Pleasure invites us to live in the present, reduce stress, and extend awareness
+  + Denial of pleasure can lead to rigidity, brittleness, boundary issues, and addictions
+* **Culture's Perception of Maturity and Pleasure:**
+  + Maturity equated with ability to deny pleasure
+  + Guilt and rigidity around pleasures as we grow older
+  + Primary pleasures denied can result in secondary addictive pleasures
+* **Impact of Denied Pleasure on Chakras:**
+  + Constriction of life force, limiting the flow of energy
+  + Second chakra: importance of pleasure in inviting flow and installing essential programs for wholeness.
 
-1. Guilt is associated with the second chakra because it hinders the free flow of movement and takes pleasure out of experiences.
-2. When someone feels guilty about their actions, they do not fully enjoy them and cannot sense the experience as a whole.
-3. Compulsive activities are often driven by the pleasure principle, but guilt prevents satisfaction, leading to repetition.
-4. Guilt keeps the shadow in its dark and unconscious realm, making it more insistent and requiring tighter control from the prison guard.
-5. Guilt polarizes the personality, dividing light against dark and good against bad, resulting in either-or thinking.
-6. Developing the ability to feel is crucial in discerning subtle nuances between polarities, as numb feelings only allow for obvious differences.
-7. Guilt can be healthy when used as feedback to guide behavior and make changes, but it becomes a demon when excessive, habitual, internalized, and toxic.
+### EMOTIONS
 
-#### SEXUALITY
+**Emotions:**
+- Source of becoming conscious (Jung)
+- Instinctual reactions to sensory data
+- Unconscious reaction to information from senses
+- Organize our feelings and give meaning to experiences
+- Can arise from depths of psyche without conscious control
+- Have a spiritual function as language of the soul
+- Building blocks of experience, give meaning and integrates felt sense
+- Pervasive feelings initiate quest for change and transformation
+- Help unravel story of soul's journey
+- Subconscious organizations of impulses to move away from harm and toward pleasure
+- Difficult to feel emotions without some kind of movement
 
-1. Sexuality is the ultimate expression of the second chakra's issues: movement, sensation, pleasure, desire, emotions, and polarity. It is the resolution of difference, the union of opposites, and the connecting experience that transcends isolation and forms the foundation for the next chakra level: power.
-2. Sexuality incorporates Eros, the basic force of attraction, which is an ancient god in Hindu mythology (Kama). Eros unites and delights, bridges and soothes, holding the universe together.
-3. To embrace Eros is to have the capacity for surrender and flow with the biological nature of the instinctual/emotional body.
-4. Sexuality is the ecstatic expression of that force, but it has been massively misunderstood by our culture. The wounds of mismanaged sexuality are deep and pervasive, affecting the natural flow of excitation through the body.
-5. Guilt, as a demon of the second chakra, is a direct antidote to pleasure and self-esteem. It has been poured through the sexual gates, locking the essential gateway to pleasure and transformation.
-6. Sexuality is rejected and sent to the realm of the shadow, where it takes on its demonic form of dissociation and perpetration, desperately seeking connection at any cost.
-7. To reclaim the second chakra is to reclaim our right to feel and our right to healthy sexuality.
-8. A balanced second chakra has the capacity for sexual satisfaction, physical pleasure, general enjoyment of life, comfort with intimacy, and the ability to accept movement and change gracefully, including graceful physical movements. There is steadiness and clarity in emotional states.
-9. Balance involves the ability to nurture self and others while still maintaining healthy sexual and emotional boundaries. 
-10. The qualifications for healthy sexuality can only be decided by the persons in question; however, general guidelines include consenting adults, mutual enhancement, integration with one's life, and stimulation of growth.
+**Needs:**
+- Necessities, not idle longings
+- Basic requirements for healthy functioning
+- Nonnegotiable bottom line
+- Often shamed in childhood, leading to disowning needs
+- Can keep ourselves deprived and depleted by disowning needs
+- Reclaiming needs allows us to take responsibility for own fulfillment
 
-### GROWING THE LOTUS 
-#### DEVELOPMENTAL FORMATION OF THE SECOND CHAKRA
+**Desire:**
+- Spiritual/emotional impulse inspiring movement towards something greater
+- Soul's longing to move forward
+- Object of desire may not be necessary, but feeling of desire is essential
+- Desire fuels will and action
+- Can lead to frustration and growth
+- Combination of sensation and feeling
+- Essential for developing energy and power
+- Thrusting forward that leads us to action
+- Staying in touch with feelings allows us to know soul's desire
 
-1. Age range: 6 months to 2 years
-2. Tasks: Sensate exploration of the world; Locomotion; Separation from symbiotic fusion
-3. Needs and issues: Separation vs. attachment; Safety and support to explore; Emotional security; Stimulating environment; Self-gratification
-4. Second chakra stage development:   
- - Increased alertness at 6 months
- - Discovery of the external world shatters blissful psychic unity
- - Child is plunged into a world of duality
- - Delighting his senses becomes the child's driving interest
- - Important to have an environment that brings pleasure to the child as he explores
- - Touch, comfort, and nurturance give security and connectedness
- - Lack of touch is experienced as separation anxiety
- - Can the child learn to trust his own senses? Are his feelings mirrored appropriately? Is he protected from danger?
- - Emotional climate of the family is a crucial influence at this stage
- - Somatic experiences become hardwired into the system
- - Language of emotions is being programmed through responsive mirroring
+**Shadow:**
+- Unacknowledged aspects of personality, including desires and emotions
+- Can sabotage will by fighting against it
+- Denying shadow can lead to unhealthy repression or projection of unwanted traits onto others.
 
-Tasks of this developmental stage: Develop sensate connection between inner and outer world, provide bonding and supportive emotional environment for closeness and separation, create feeling of pleasure and connection with body, awaken developing consciousness through sensory stimulation.
+### THE SHADOW
 
-### TRAUMAS AND ABUSES 
+**C.G. Jung's Perspective on Enlightenment and the Second Chakra:**
+- Enlightenment is achieved by making the darkness conscious, not by focusing on figures of light.
+- The second chakra represents duality and polarity, and its task in adult development is to integrate previously polarized aspects of personality into an indivisible whole.
+- One essential step is reclaiming the shadow.
 
-#### TACTILE AND SENSATE DEPRIVATION
+**The Shadow:**
+- Repressed instinctual energies that are locked away in the unconscious.
+- They do not die but are no longer part of conscious awareness and are enacted unconsciously.
+- Keeping the shadow repressed requires a great deal of energy and robs us of grace and power.
+- It sabotages our work, relationships, and health.
+- We attract those who embody our rejected shadow in our lives.
+- Judgment arises out of resonance between the rejected self and behavior of others to remove stimuli that might awaken our shadow.
 
-1. Tactile and sensate deprivation can lead to soul wounds and difficulty connecting with oneself or understanding what one really wants in life.
-2. When body identity is not affirmed through touch, it may be replaced by a frozen image, leading to a split between the sixth and second chakra.
-3. Lack of touch can result in autoerotic stimulation such as habitual rocking, compulsive masturbation, and eating disorders.
-4. If the senses do not logically flow from experience, the child may learn to distrust her own senses.
-5. When we distrust our senses, we shut them down, leading to difficulty in telling whether one is hungry or full, tired or in danger, overstimulated or coming down with a cold.
+**Impact of Repressing the Shadow:**
+- Cut off from our wholeness and inner child's innocence and spontaneity.
+- Projected onto others, leading to intense criticism and judgment.
+- Compels us to attract individuals who embody our rejected aspects.
+- Causes an unhealthy guilt that rejects our worth as human beings.
 
-#### SEXUAL ABUSE
+**Reclaiming the Shadow:**
+- Bringing instinctual energies into consciousness instead of repressing them.
+- Eliminates judgment and restores wholeness.
+- Allows us to acknowledge and accept rejected aspects of ourselves.
+- Prevents the shadow from becoming demonic or taking over our conscious self.
 
-1. Sexual abuse hits at the very core of the second chakra and has long-lasting effects on all aspects of the second chakra.
-2. It affects our sense of trust, experience of power (or lack thereof), future relationships, ability to communicate, and more.
-3. Sexual abuse comprises anything that does not respect the natural development of a child's sexuality.
-4. The younger such an event occurs, the more devastating its effects.
-5. Stimulation of erogenous zones is meant to dissolve boundaries, but early childhood development is oriented toward developing an ego that can make boundaries and distinctions.
-6. Sexual abuse can produce emotional numbness, various addictions, eating disorders, phobias, sexual dysfunction, guilt and shame, depression, hostility, dependency, sleep disorders, psychosomatic disorders, and many other difficulties with life.
-7. Abortion halts the natural process of the body geared toward continuing the pregnancy, and it takes time to heal from this wound.
+**Examples:**
+- Repressed sexuality: seeing others' behavior as shameless, while remaining virtuous.
+- Suppression of emotions: intolerance for needy and expressive individuals.
 
-Anything that blocks development of the second chakra severs two essential connections: the internal connection between mind and body, and the external connection that joins inner and outer worlds, self and other, soul and environment.
+**Guilt and the Second Chakra:**
+- Guilt is referred to as the demon of the second chakra because it curtails free movement and takes pleasure out of experiences.
+- Feeling guilty prevents satisfaction and can lead to compulsive activities.
+- Guilt keeps the shadow, our hidden desires and instincts, caged in the unconscious realm.
+- Guilt polarizes the personality, dividing light against dark, good against bad.
+- A polarized personality is characterized by either-or thinking with no room for ambiguity or subtle nuances.
+- Morals taught in black-and-white terms to young children can lead to immature cognitive processes and either-or thinking.
+- Feeling trapped in either-or thinking can thwart the movement aspect of the second chakra.
+
+**Fuzzy Logic and Ambiguity:**
+- Fuzzy logic is being introduced into computers to make decisions based on approximations between polarities instead of clear black-and-white choices.
+- Ambiguity has a destabilizing effect, making it hard for some people to hold the tension between opposites and find new standpoints.
+
+**Healthy vs. Toxic Guilt:**
+- Guilt can be a healthy feeling that allows us to examine our behavior and make necessary changes.
+- Excessive, habitual, internalized, and toxic guilt dominates the free flow of movement and full sensate experience of life.
+
+**Effects of Guilt on the Second Chakra:**
+- Guilt can thwart the movement aspect of the second chakra by taking pleasure out of experiences and creating paralysis.
+- Developing the ability to feel emotions fully allows us to discern subtle nuances between polarities and make better decisions.
+- Healthy guilt acts as a guide, while toxic guilt dominates and binds us.
+
+### SEXUALITY
+
+**Sexuality:**
+- Ultimate expression of issues associated with second chakra
+- Incorporation of Eros, the connecting force of attraction
+- Expresses movement, sensation, pleasure, desire, emotions, polarity
+- Unites opposites, transcends isolation, forms foundation for next chakra level (power)
+- Brings us into contact with others, grounds for growth
+- Misunderstood in modern culture
+
+**Eros:**
+- Ancient god, connecting force that unites and delights
+- Hindu mythology: originator of all gods, binding power of allurement
+- Denial can lead to destructive activities
+- Unity of culture and nature, work and love, morality and sexuality
+- Embracing Eros: capacity for surrender, ability to flow with instinctual/emotional body
+- Ecstatic expression of life force in lower chakras
+
+**Effects of Mismanaged Sexuality:**
+- Denial can pull things apart, leads to destructive activities
+- Guilt as antidote to pleasure and self-esteem, locks essential gateway to pleasure and transformation
+- Rejection of sexuality sends it to shadow, takes on demonic form (dissociation and perpetration)
+- Essential for reclaiming second chakra, honoring Eros in every aspect of life
+
+**Balanced Second Chakra Characteristics:**
+- Capacity for sexual satisfaction and pleasure
+- Comfort with intimacy
+- Ability to accept movement and change gracefully
+- Steadiness and clarity in emotional states
+- Nurturing self and others while maintaining healthy boundaries
+- Healthy expression of intimacy, pleasure, and joy
+- Qualifications for healthy sexuality to be decided by individuals
+- Consenting adults, mutual enhancement, integration with life, stimulation of growth, enhances chakra system.
+
+### GROWING THE LOTUS. DEVELOPMENTAL FORMATION OF THE SECOND CHAKRA AT A GLANCE
+
+**Second Chakra Development:**
+
+* **Age:** 6 months to 2 years
+
+**Tasks:**
+
+* Sensate exploration of the world
+* Locomotion
+* Separation from symbiotic fusion
+
+**Needs and Issues:**
+
+* Separation vs. attachment
+* Safety and support for exploration
+* Emotional security
+* Stimulating environment
+* Self-gratification
+
+**Significant Milestones:**
+
+* Increased alertness at 6 months
+* Desire to explore the external world through senses
+* Development of locomotion
+* Shattering of blissful psychic unity
+* Connection of dualities through feelings
+
+**Challenges:**
+
+* Distinctions between inner and outer, self and other, pleasure and pain
+* Duality of "good mother" and "bad mother"
+* Security and emerging as a separate self
+
+**Importance of Touch:**
+
+* Provides security and connectedness
+* Helps develop trust in senses and emotions
+* Essential for emotional development
+* Promotes healthy emotional bonds between parents and child
+
+**Impact of Environment:**
+
+* Crucial influence on emotional climate and development
+* Somatic experiences hardwired into the system
+* Programming of emotional repertoire through responsive mirroring
+
+**Developing a Healthy Second Chakra:**
+
+* Sensate connection between inner and outer world
+* Supportive emotional environment for closeness and separation
+* Feeling of pleasure and connection with body
+* Awakening consciousness through sensory stimulation
+
+**Consequences of Neglect:**
+
+* Lack of touch or connection leads to anxiety and fear
+* Prevents appropriate development
+* Throws one back to the panic and fear of the first chakra.
+
+### TRAUMAS AND ABUSES
+
+* **Tactile and Sensate Deprivation**
+* David grew up without physical affection, leading to difficulty connecting with himself and understanding his wants (soul wound)
+* Lack of appropriate sensory input during infancy and childhood affects development of mind-body connection
+* Jean Liedloff: touch affirms body identity, absence leads to internal disconnection and possible narcissistic wound
+
+**Effects of Tactile Deprivation:**
+
+* Disconnect between feeling self and external image
+* Happiness becomes a goal instead of normal condition
+* Split between deeper, vulnerable feelings and shallower exterior self
+* Children need sensory input for proper development
+* Appropriate sensate stimulation increases intelligence and coordination
+* Lack of touch can result in autoerotic behaviors or eating disorders as attempts to fill the gap
+
+**Impact on Development:**
+
+* Sensory channels may shut down due to too much or too little stimulation
+* Children deprived of touch may distance themselves from others, denying their need for closeness
+* Lack of touch affects development of end organs in skin, leading to feedback deficiency
+* Failure to learn sensate language is like failing to learn to read, losing an essential channel of information
+* Sensations are building blocks of emotional intelligence and allow us to get along well with others
+
+**Development during Infancy:**
+
+* Baby learns to string together sensations, actions, and reactions into organized sense of self between ages 9-18 months
+* Linking different senses into a single gestalt marks primary connection between mind and body
+* If senses do not logically flow from experience, child may distrust them and shut them down
+
+**Consequences of Sensory Deprivation:**
+
+* Misjudgment of situations due to underdeveloped sensate function (Jung)
+* Overstimulation can create anxiety, while understimulation leaves the child disconnected
+* Child may not be able to trust her senses as reliable information gatherers in adulthood.
+
+**Emotional Environment**
+- Rebecca's experiences during her parents' divorce shaped her emotional identity
+- Witnessed violent fights between parents and learned anger as primary way of relating
+- Emotions reflect the emotional climate in which a child is immersed
+- Emotional energy moves us and has to go somewhere
+
+**Impact of Unhealthy Emotional Environments on Children**
+- Repression of emotions can affect physiological state, sense of self, and social relationships
+- Children may learn unhealthy emotional patterns from their environment
+- Punishment, rejection, or shame for expressing feelings can lead to emotional illiteracy
+
+**Emotional Identity and Emotional Literacy**
+- Child develops emotional identity during this stage
+- Emotions become core complex within the developing self
+- Effective mirroring and positive response to emotional expression promotes emotional literacy
+- Emotions can evolve into meaning and mature through the chakras
+
+**Consequences of Repressing Emotions**
+- Inhibiting emotions requires deadening sensations and aliveness
+- Alcohol or drugs may be used to create distance from experience
+- Behavior may be compulsive, devoid of feelings
+- Abusive parents are unable to feel the pain of the child
+
+**Importance of Emotional Literacy**
+- Emotions are the first language of the child
+- Effective mirroring and positive response help child understand emotions
+- Understanding emotions allows for more mature expression
+- Emotional literacy promotes connection and human experience.
+
+**Emotional Enmeshment:**
+- Children are not entirely belong to their parents; they develop their own identity (Gibran)
+- **Second Chakra Development:**
+  - Begins with mother-child fusion, ends with autonomy
+  - Child learns emotions as extension of family's but later develops own
+  - Enmeshment occurs when child is not allowed to express unique identity
+
+**Effects of Emotional Enmeshment:**
+- Guilt for pursuing one's needs and interests
+- False sense of self, defined by others' reactions
+- Outer persona at odds with inner needs (Narcissistic Personality - Miller)
+- Lack of individuation or authenticity
+
+**Characteristics of Enmeshed Child:**
+- Highly aware of others’ feelings
+- Clairsentience (ability to sense others’ emotions)
+- Other-directed second chakra, not grounded in bodily experience
+  - Can lead to tumultuous blend of others' emotions that one cannot control
+
+**Impact of Emotional Enmeshment:**
+- Victim experiences life as taken by someone else (Evangeline Kane)
+  - Imposed death experience for the victim.
+
+**Sexual Abuse:**
+- Hits the second chakra, affecting its development and function
+- Impacts free flow of energy, intimacy, pleasure, healthy sexuality, comfort with emotions, sense of boundaries, positive body image, trust, power, communication, and relationships
+- Can result in excess intuition and thinking in chakras six and seven as compensation
+- Includes any act that does not respect a child's natural sexual development
+- Forms of sexual abuse: slapping or punishing children for exploring their genitals, pushing sexuality onto unwilling or developmentally inappropriate children, exhibitionism, voyeurism, exposure to pornography, unwanted physical affection, age-inappropriate language, invasion of privacy, and sexual engagement with a child
+- Can be emotionally numbing, leading to addictions, eating disorders, phobias, sexual dysfunction, guilt, shame, depression, hostility, dependency, sleep disorders, psychosomatic disorders, repressed memories, intrusive memories, confusion between pleasure and pain, and emotional betrayal
+- Difficulty with boundaries may result in further traumas and high incidence of subsequent abuse
+- Effects can be lifelong and impact immune system function
+
+**Impact on Chakras:**
+- Second chakra: assaults feeling and sensate functions, affects ego development and boundary formation
+- Sixth and seventh chakras: compensate with excess intuition and thinking due to the assault on the second chakra
+
+**Childhood Sexual Abuse:**
+- Affects all aspects of the second chakra
+- The younger the event, the more devastating its effects
+- Stimulation of erogenous zones at sensitive ages may result in difficulty forming boundaries and protecting oneself from further invasions
+- Can lead to emotional numbness, addictions, eating disorders, phobias, sexual dysfunction, guilt, shame, depression, hostility, dependency, sleep disorders, psychosomatic disorders, repressed memories, intrusive memories, confusion between pleasure and pain, difficulty with intimacy and trust, and celibacy or promiscuity
+- Some untreated survivors may become perpetrators
+
+**Rape:**
+- Violates the second chakra on multiple levels: power, boundaries, dignity, emotion, body, spirit
+- Can force the entire chakra system to close due to the trauma
+- Effects can be similar to those of childhood sexual abuse when there are unhealed wounds from earlier experiences
+- Strong foundations in lower chakras aid recovery process.
+
+**Abortion:**
+- Abortion has emotional consequences for women, including moral struggle, emotional turmoil, guilt, fear, grief, and loss.
+- It interrupts the natural process of pregnancy and causes physical trauma to second chakra organs.
+- Women should treat themselves with tenderness after an abortion, similar to how they would treat a rape victim.
+- Dialogue or ritual around the possible spirit of the child is important, as well as dialoguing with the body before, during, and after the procedure.
+- Having support from friends and writing in a journal can help in healing.
+- Political climate around abortion can add to the pain and trauma for women, instead of love and support they need.
+
+**Effects of Abuses on Second Chakra:**
+- The wounds to the second chakra are profound due to societal confusion around sexuality and pleasure, mechanization, and disconnection between mind and body and self and environment.
+- Blocked development of the second chakra severs internal and external connections.
+- Lack of tactile stimulation and nurturing leads to fragmentation, isolation, and disconnection from feelings and others.
+- Denial of expression through movement results in rigidity, requiring great energy and leading to judgmental behavior.
+
+**General Effects of Abuses:**
+- In a world that denies pleasure and sensate experiences, we become out of touch with our bodies and feelings.
+- Lack of empathy and compassion results from disconnection from self and others.
+- Rigidity and lack of flexibility hinder new ideas and possibilities, leading to judgmental behavior.
 
 ### CHARACTER STRUCTURE THE ORAL: THE LOVER
+- Samantha's case study illustrates an individual with an Oral character structure or "Lover" type.
+- She experiences deep feelings of loss, despair, and abandonment following the end of a primary relationship.
+- Oral characters are undernourished emotionally, leading to chronic neediness and a dependency on external sources for validation and energy.
 
-The Oral character is a person who has experienced deprivation during their early developmental stages, particularly in terms of nourishment and physical contact. This can lead to an undernourished child who grows up to be dependent, addictive, and needy as an adult. 
+**Oral Characteristics:**
+- Fear of reaching out for what they want due to fear of disappointment.
+- Dependent, addictive, and needy behavior.
+- Soft and underformed body with possible collapse in the chest.
+- Chronically undercharged, prone to depression, and seeking nourishment from food or love.
+- Focus on service to others as a defense mechanism.
+- Clingy and hurt by rejection, which perpetuates the problem.
 
-The Oral character often seeks dependence and merging with others as a defense against deprivation, and their focus of energy is fixated outside themselves. They may struggle with low energy levels, depression, and difficulty forming boundaries.
+**Psychosexual Development:**
+- Correlates to the oral stage in Freud's psychosexual stages.
+- Emotional and physical deprivation during this stage can impact future development.
+- Affects the ability to ground and form, leading to excessive neediness in the second chakra.
 
-Oral Character - Lover Personality
-a. When loved, feels energized and whole; loyal partner who is perceptive and understanding.
- b. Bonds well and loves deeply, but can be hurt easily when relationships end.
- c. Clinging dependency drives people away, perpetuating the problem of rejection.
+**Impact of Deprivation:**
+- Oral character remains chronically undercharged, leading to emotional instability and low energy levels.
+- Struggles with the question of "Am I wanted?" rather than "Will I survive?"
+- Focus is on satisfying nourishment from food or love.
 
-Oral Character - Service to Others
-a. Perk up when interacting with others; find definition through service to others.
-b. This defense can be a trap as it may lead to codependence and exhaustion from constant giving.
-c. Breaking the cycle involves learning to nourish oneself physically, emotionally, and spiritually.
+**Defenses and Coping Mechanisms:**
+- Seeks dependence and merging as a defense against deprivation.
+- Fixated outside the self for energy and validation.
+- Prone to codependency.
+
+**Healing Oral Character Structure:**
+- Learning to nourish oneself physically, emotionally, and spiritually.
+- Developing boundaries and focusing on self-care and spiritual growth.
+- Encouraging aggression to build inner strength and assertiveness.
+- Balancing the second chakra by developing willpower and grounding.
 
 ### EXCESS AND DEFICIENCY
 
-**Excess**: intense emotional states, difficulty separating one's own feelings from those of others, social dependency, addiction to people and partying, craving constant stimulation, excessive sexuality, and a weak boundary container.
+**Second Chakra: Excess and Deficiency**
 
-**Deficiency**: restricted movement physically, emotionally, and sexually; rigid or jerky motions, stiff joints, and a rigid musculature that has trouble yielding to softness and feeling; difficulty bending the knees and pelvis; restricted flow of excitation through the body; low breathing and metabolic rate; diminished emotions; fear of change; monopolarization of ideas; rigidity in boundaries; belief that if we let feelings flow, we will fall down the rabbit hole with nothing to support us; difficulty sensing one's own needs; lack of pleasure; repressed, diminished, or nonexistent sexual feelings; shame around sex; contraction in the social realm.
+* Reflects amount of internal and external movement, emotional identification, and sexual expression
+* Balance essential for progress to third chakra center of power
+* Maintaining flexibility to expand to either pole as situations require
+* Holding one's center (grounding of chakra one) crucial for finding balance
 
-#### Addictions
+**Second Chakra Deficiency**
 
-Alcohol lessens inhibiting control of the conscious mind, allowing liberating current to move unhindered toward the crown, releasing energy and discharging the system. 
+* Restricted movement: physical, emotional, and sexual
+* Rigid or jerky motions, stiff joints, and inflexible musculature
+* Inhibits flow of excitation, lowers breathing and metabolic rate, diminishes emotions
+* Creates fear of change and monopolarization of ideas
+* Avoidance of pleasure, harsh inner critic, denial of self-pleasure
+* Emptiness, dullness about life, feeling stuck, isolation, resignation, apathy, or pessimism
+* Repressed, diminished, or nonexistent sexual feelings
+* Fear and judgment around sex, shame, shyness, intense awkwardness in social situations, perceived as having no feelings
 
-Excessive eating may be an attempt to ground, create pleasure, or block anger in the third chakra.
+**Physical Signs of Second Chakra Deficiency:**
 
-**Treatment of Addictions**: Reroute cyclic repetitive patterns, discharge underlying emotional force, reconnect with sensations of the body, discharge and/or learn to contain pervading emotions, complete blocked movements frozen by trauma, and learn to appropriately meet needs.
+* Stiff pelvis, inflexibility, difficulty bending knees and hips
+* Rigid musculature that has trouble yielding to softness and feeling
+* Restricted movement inhibits the flow of energy through the body
 
-### RESTORING THE LOTUS
+**Emotional Signs of Second Chakra Deficiency:**
 
-In order to heal the second chakra, one must first understand the nature of emotions and sexuality in our culture. It is important to recognize that healing this chakra involves more than just personal work; it also requires addressing societal issues and cultural norms.
+* Emptiness, dullness about life
+* Feeling stuck, resignation, apathy, or pessimism
+* Inability to sense one's own needs
+* Fear of change and monopolarization of ideas
+* Intense awkwardness in social situations
+* Perceived as having no feelings
+* Hidden emotions
 
-The second chakra is associated with emotions, sexuality, and creativity. It is located in the lower abdomen, near the genitals. When this chakra is balanced, one feels a sense of pleasure, joy, and creativity. However, when it is out of balance, one may experience feelings of guilt, shame, or fear around emotions and sexuality.
+**Sexual Signs of Second Chakra Deficiency:**
 
-One common technique for healing the second chakra is to encourage movement and emotion. When there is a blockage in this area, it can lead to stagnation and a lack of flow. By encouraging movement and emotion, one can help to restore balance and promote healing. This can be done through various forms of exercise or movement therapy, as well as through expressing emotions in a safe and healthy way.
+* Repressed, diminished, or nonexistent sexual feelings
+* Difficulty connecting emotionally during sex
+* Numbness in the lower body
+* Difficulty achieving arousal or climax
+* Shame around sex, judgment, or intense shyness
+* Fear and avoidance of sex due to past wounds or internalized shame about not being good enough.
 
-Another technique for healing the second chakra is to work on developing a sense of boundaries and self-worth. When there is an imbalance in this area, it can lead to feelings of guilt or shame around sexuality and emotions. 
+**Second Chakra Excesses**
 
-#### WORKING THROUGH GUILT
+* Dana's excessive second chakra: intense emotional states, social, sexual, and dramatic relationships
+* Difficulty separating feelings from realities, sensitive to emotions, and unable to let things go
+* Needs constant stimulation and connection, may be codependent or addicted to people and partying
+* Craves sensory stimulation and variety, has a weak container for emotions
+* Sexually responsive but can lead to addiction or neglect of other areas of life
 
-1. Identify the external factors that may have affected your actions.
-2. Understand what you were trying to accomplish or satisfy.
-3. Look for ways that the behavior was modeled for you.
-4. See how underlying needs can be more directly and appropriately filled.
-5. Take stock of any harm caused and find ways of making amends.
-6. Develop strategies to avoid repeating the same mistakes.
-7. Let go of guilt and focus on positive actions.
+**Characteristics:**
 
-If you struggle with guilt over innocent behaviors, examine your belief system by asking questions about the values behind those beliefs. Healthy guilt is an emotional response to behaving in a manner contrary to our beliefs and values.
+* Emotional volatility: anger, tears, excitement, fears
+* Inability to comprehend separateness, clairsentient, unable to distinguish own feelings from others'
+* Intense need for connection, social and emotional dependency
+* Highly sensitive to emotions, taking on others' feelings
+* Craving for stimulation, change, and excitement
+* Difficulty sitting still or focusing, impulsivity
+* Overwhelmed by intense emotions, difficulty containing and discharging them
+* Addictive behaviors as a compensation or avoidance strategy
 
-#### EMOTIONAL WORK: RECLAIMING OUR RIGHT TO FEEL
+**Effects:**
 
-Learn to see emotions as natural responses to situations that affect us.
+* Intense emotional experiences dictate behavior of others in the family
+* Excessive focus on others at the cost of self, creating codependent relationships
+* Difficulty setting boundaries, forming healthy relationships
+* Addiction to people and partying as a way to avoid deeper emotions
+* Sexual addiction or neglecting other aspects of life for intimacy
+* Inability to channel emotional energy into productive output
+* Feeling lost or alone in quieter states
+* Craving for constant stimulation hinders personal growth
 
-Emotions related to abuse can be overwhelming and conflicting, such as intense longing and betrayal, simultaneous urges to reach out and withdraw, expansive anger and contracting fear, and strong emotions at some times and numbness at others.
+**Implications:**
 
-The energy of an emotion can be channeled into appropriate movements or activities, such as using anger to clean house when angry and feeling grief through writing poetry.
+* Second chakra relates to water and emotions, with a weak container for emotional energy due to poor boundaries
+* Upward current is more active than downward current of conscious understanding
+* Excessive second chakra leads the rest of the system around by its gonads
+* Addictions are a compensation or avoidance strategy, often related to emotional needs and feelings of lack of control
+* Second chakra imbalances may result in addictive behaviors, creating a cycle that is never satisfied.
 
-Emotional release does not always bring healing, but can be beneficial in some cases where simple catharsis brings profound healing and transformation.
+**Healing:**
 
-Change is movement, and in order to create change there has to be both internal and external movement in the body.
+* Reconnecting with the sensations of the body
+* Discharging and containing pervading emotions
+* Completing blocked movements frozen by trauma
+* Learning to decipher and appropriately meet needs
+* Focusing on healthy boundaries, self-care, and personal growth.
 
-Blocked emotion is bound into the structure of the body; exaggerating unconscious movements and their attendant feelings can bring them into consciousness.
+### RESTORING THE LOTUS HEALING THE SECOND CHAKRA
 
-Containment means embracing our excitement bodily, letting feelings unfold within our containing body, and allowing ourselves to be formed by these feelings.
+**Healing the Second Chakra:**
 
-Energy follows habitual paths of expression, and containment invites the creation of alternative paths.
+* John Bradshaw: "We cannot heal what we cannot feel" (attitudes towards emotions and sexuality)
+* Healing second chakra is a complex task, involving various aspects of emotional and sexual health
+* Goal is to encourage movement in restricted areas or contain excess movement
+* Focus on paying attention to subtle currents and impulses
 
-Containment means allowing energy to fill up our tissues, expand our sensation, and build our excitement.
+**Natural Healing Process:**
 
-#### SEXUAL HEALING—COURTING EROS
+* The body has its own healing process
+* Wounds need cleaning and bandaging, but healing occurs naturally
+* Interrupted healing process upsets foundation and free flow of energy
+* Streaming of energy through the body restores balance and promotes healing
+* Act on behalf of natural healing process for optimal results
 
-**Sexual healing** - become intimate with the subtle nuances of the inner self; and addressing energy patterns in the body armor.
+**Healing Techniques:**
 
-**Eros** - Eros is the binding element par excellence that bridges fact and value together, and it binds being and becoming. It requires a balance between containment and flow to address mechanical sexual dysfunctions such as impotence, inability to reach orgasm, or premature ejaculation.
+* Encourage movement where it is restricted
+* Contain excess movement through releasing emotions or tolerating increased sensation
+* Pay attention to subtle currents and impulses
 
-**Sexual healing and Eros** - Sexual healing involves moving from the mechanical activity of sex into the numinous quality of Eros by reweaving the union of sexuality and Eros and bringing sex back into the realm of the divine. 
+**Challenges in Healing the Second Chakra:**
 
-**Sexual healing and chakras** - The relationship to the health of our bodies (chakra one), a healthy ego and sense of power (chakra three), healthy relationships with open hearts and clear communication (chakra five), imagination (chakra six), and experiencing sex as a spiritual union (seventh chakra) all play a role in sexual healing.
+* Cultural attitudes towards emotions and sexuality complicate healing
+* Difficulty defining healthy emotional responses and sexuality
+* Challenges in opening sensate channels in a stimulating world
+* Struggles with holding a healthy sexuality when others are wounded
 
-**Sexual healing and the sacred** - Sexual healing brings the sacred back into the sexual act, restoring wholeness through the unfolding of pleasure, and nourishing the soul in preparation for the journey across the Rainbow Bridge.
+**Importance of Balancing Second Chakra:**
 
-### CONCLUSION
+* Ability to embrace change without losing core stability is a touchstone for healing
+* Healing techniques focus on encouraging movement and containing excess movement within chakra theory
+* Integrating emotional energy towards constructive ends through the natural healing process.
 
-* The second chakra is the prime mover of energy in the chakra system.
-* As vital forces begin their journey upward, the soul is carried on the currents of emotion and desire toward growth.
-* A secure base allows us to yield to the inner flow of prana (vital energy) without losing our center.
-* The second chakra is analogous to the water element, which makes things grow, move, and change.
+### THAWING THE ICE— RESTORING THE FREE FLOW OF MOVEMENT
+
+**Thawing the Ice:** A process of restoring the free flow of movement and emotion in individuals with traumatic experiences.
+
+**Ray's Story:**
+- Complained of recurrent neck pain, tried various methods without success
+- Held body rigidly, energy contracted
+- Trauma response: inhibited fight or flight leading to frozen response
+
+**Trauma and the Freezing Response:**
+- Occurs when an individual adapts to threat but cannot adapt again or return to pre-threat functioning
+- Results in partial checkout from body and dissociation from painful sensations
+- Peter Levine's description: ongoing activation with inhibition, leading to frozen intensity (tonic immobility)
+- Natural response throughout the animal kingdom for survival against predators
+
+**Bioenergetic Work:**
+- Began favorably with Ray, releasing trapped energy through movement
+- Gradually integrated historical material and emotions into movements
+- Established boundaries and power to work more deeply on emotional content
+
+**The Freezing Response and Thawing:**
+- Increased energy flow in preparation for fight or flight during trauma
+- Repeated trauma forces living in contradiction of activation and inhibition
+- Frozen response produces immobility, rigidity, and uncoordinated movements
+- Thawing involves freeing up body's natural movement slowly and carefully
+- Anchoring energy to ground it and prevent overwhelming nervous system
+- Small pieces of traumatic experience integrated gradually (titration)
+
+**The Impact of Trauma:**
+- Universal imprint left by trauma: guilt
+- Individual may feel responsible for causing the trauma regardless of circumstances.
+
+**Additional Notes:**
+- Peter Levine's book, "Waking the Tiger: Healing Trauma through the Body" provides a more detailed description of the process.
+
+### WORKING THROUGH GUILT
+
+**Working Through Guilt:**
+
+* Examining past influences:
+  + Child with poor academic performance: acknowledge volatile family situations hindering focus on studies.
+  + Person feeling needy: determine if needs were met in the past.
+* Acknowledging past forces:
+  + Allows for change in present behavior.
+  + Does not mean avoiding responsibility, but understanding context.
+
+**Steps to Move Through Guilt:**
+1. **Put the guilty behavior in context:** Identify external factors acting on you at the time.
+2. **Examine motives and underlying needs:** Understand what you were trying to satisfy or accomplish.
+3. **Identify potential influences from upbringing:** Consider how your behavior was modeled for you.
+4. **Address underlying needs:** Seek ways to directly fulfill those needs in a healthy manner.
+5. **Make amends for any harm caused:** Find ways to make things right, or address the situation in a more global way.
+6. **Plan new behavior:** Set goals for healthier actions moving forward.
+7. **Forgive yourself and move on:** Allow yourself to let go of guilt and focus on growth.
+
+**Healthy Guilt:**
+
+* Emotional core of conscience: results from behaving against beliefs and values.
+* Questions to examine limiting belief systems:
+  + What belief system says certain behaviors are wrong (e.g., sex, self-care)?
+  + Where did you learn it?
+  + Who does the belief serve?
+  + What are the effects of those values on your life and relationships?
+  + What is your own belief, and what evidence supports it?
+  + What are the results of following that belief system?
+  + Is harm caused to yourself or others?
+  + Seek support for actions you believe in.
+
+### EMOTIONAL WORK: RECLAIMING OUR RIGHT TO FEEL
+
+**Healing the Second Chakra:**
+- Involves reclaiming the right to feel
+- Blocks to feelings: guilt and shame
+- Emotions related to abuse can be overwhelming and conflicting
+  * Intense longing and betrayal
+  * Expansive anger and contracting fear
+  * Simultaneous urge to reach out and withdraw
+
+**Reclaiming the Right to Feel:**
+- Emotions are natural responses
+- Precursors to action (chakra three)
+- Difficult to allow emotions if inspired action is dangerous or frightening
+
+**Managing Excessive Emotions:**
+- Create a safe way to lessen emotional force
+  * Channel emotion into appropriate movements or activities
+    + Anger: cleaning house, physical activity
+    + Grief: writing poetry
+    + Fear: heightened awareness
+    + Longing: creative activities
+
+**Understanding Emotions:**
+- Dimensional texture of experience
+- Without feelings, life is flat and meaning elusive
+- When emotions are excessive, shift awareness to body sensations
+- Consciously bringing attention inward softens emotions, brings richer information and connection.
+
+**Emotional Release:**
+- Goal of therapy to facilitate emotional release for healing and transformation
+- Catharsis can bring profound healing but not always the case
+- Emotional release involves body and movement, releasing energy vortex of emotion
+- Not enough for head to acknowledge emotions without bodily expression and movement
+- Can be overwhelming if trauma is severe or emotional patterns are deeply ingrained
+- Short-term relief without cognitive integration can lead to seeking repeated release
+- Emotional release completes actions that have been interrupted, makes energy available for new orientation
+
+**Containment:**
+- Alternative to emotional release when ground is not stable or safety and containment are needed
+- Learning to embrace feelings bodily and let them unfold within containing body
+- Prevent disintegration and retraumatization from severe past traumas
+- Balance for excessive second chakra, prevent addictive behaviors and understand motivation
+- Containment invites creation of alternative paths for energy expression
+- Not denying or negating experiences but consciously focusing on emotional process and where it is trying to go
+
+**Emotional Release Pros:**
+- Healing and transformation through releasing long-held emotions
+- Completing interrupted actions and gaining new orientation to situation
+- Reclaiming energy once emotion is released
+
+**Emotional Release Cons:**
+- Can be overwhelming if trauma is severe or emotional patterns are deeply ingrained
+- May simply discharge energy without cognitive integration, leading to repeat seeking of release
+
+**Containment Pros:**
+- Prevents disintegration and retraumatization from severe past traumas
+- Balances excessive second chakra and prevents addictive behaviors
+- Invites creation of alternative paths for energy expression
+
+**Containment Cons:**
+- Not advisable when ground is not stable or safe, as it can leave one disintegrated rather than integrated.
+
+### SEXUAL HEALING—COURTING EROS
+
+**Sexual Healing:**
+- Connection and expansion force that should not be separated from the rest of life
+- Involves emotional/sensate approach to life
+- Engage with yearning, poetry, texture, closeness
+- Requires balance between containment and flow
+- Cannot occur in isolation; tied to emotions, senses, desires, pleasure, needs
+
+**Sexual Healing and Eros:**
+- Eros is the binding element par excellence
+- Bridge between being and becoming
+- Binds fact and value together
+- Courting Eros requires surrender to the unknown
+- Requires emotional and physical security
+- Healing emotional wounds restores appropriate discrimination and trust
+- Infuses sexuality with the divine, enhancing and connecting
+
+**Mechanical Sexual Dysfunctions:**
+- Reflect failure to contain or surrender to excitement
+- Energetic issues reflected in personality
+- Addressing energy patterns in body armor may address sexual problems
+
+**Emotional Healing:**
+- Important for emotional confidence and trust
+- Allows full opening to the experience of Eros
+- Restores discrimination and trust
+- Grounding of the first chakra and emotional confidence of the second is necessary
+
+**Sexuality and Chakras:**
+- Second chakra: prime mover of energy in the system
+- Vital forces begin their journey upward, carrying the soul on currents of emotion and desire
+- Balanced second chakra has a deep emotional core that is grounded and open
+- Importance of body health (first chakra), ego and sense of power (third chakra), relationships (fourth chakra), imagination (sixth chakra), and spiritual union (seventh chakra) in sexual healing.
+
+**Sexual Healing and Intimacy:**
+- Involves another person, a sacred lover
+- Trust and patience required
+- Encourage processing emotions during sexual experience
+- Importance of clear communication and open hearts
+- Enhances and is affected by each chakra
 
 ## CHAKRA THREE
 
-Chakra Three, also known as Manipura or the Solar Plexus Chakra, is the center of personal power, transformation, and self-esteem. Located in the solar plexus region, it is associated with the element of fire and has a yellow color. 
+**Chakra Three:** Burning Our Way into Power (Third Chakra)
 
-The primary purpose of Chakra Three is transformation. It enables us to transform our energy into action and activity, allowing us to take control of our lives and make decisions independently. This chakra also helps us develop our willpower, which is essential for achieving our goals and overcoming obstacles. Additionally, it contributes to the development of self-esteem, as we learn to value ourselves and our abilities.
+**Third Chakra at a Glance:**
+- **Element:** Fire
+- **Name:** Manipura (lustrous gem)
+- **Purpose:** Transformation
+- **Issues:** Energy, activity, autonomy, individuation, will, self-esteem, proactivity, power
+- **Color:** Yellow
+- **Location:** Solar plexus
 
-However, imbalances in Chakra Three can lead to various issues, such as low energy, weak will, poor self-discipline, and low self-esteem. These deficiencies may result from traumatic experiences like shaming, authoritarianism, volatile situations, or physical abuse. Excessive activation of this chakra, on the other hand, can manifest as overly aggressive behavior, a need to be right, manipulative tendencies, and an unhealthy obsession with power.
+**Identity:**
+- **Ego identity:** Self-definition
 
-To maintain balance in Chakra Three, it is essential to engage in healing practices that promote self-esteem, willpower, and autonomy. This includes risk-taking activities (for deficiency), grounding and emotional contact, deep relaxation, stress control, vigorous exercise, martial arts, sit-ups, and psychotherapy focused on building ego strength, releasing or containing anger, working on shame issues, strengthening the will, and encouraging autonomy.
+**Orientation:** Self-definition
+
+- **Demon:** Shame
+
+**Developmental Stage:** 18 months to 4 years
+
+- **Developmental Tasks:** Realization of separateness, establishment of autonomy
+- **Basic Rights:** To act and be an individual
+
+**Balanced Characteristics:** Responsible, reliable, balanced, effective will, good self-esteem, balanced ego-strength, warmth in personality, confidence, spontaneity, playfulness, sense of humor, appropriate self-discipline, sense of one's personal power, able to meet challenges
+
+**Traumas and Abuses:**
+- **Deficiency:** Low energy, weak will, poor self-discipline, low self-esteem, cold (emotionally and/or physically), poor digestion, collapsed middle, attraction to stimulants, victim mentality, blaming of others, passive, unreliable
+- **Excess:** Overly aggressive, dominating, controlling, need to be right, have the last word, manipulative, power hungry, deceitful, attraction to sedatives, temper tantrums, violent outbursts, stubbornness, driving ambition (type A personality), competitive, arrogant, hyperactive
+- **Physical malfunctions:** Eating disorders, digestive disorders, ulcers, hypoglycemia, diabetes, muscle spasms, muscular disorders, chronic fatigue, hypertension, disorders of stomach, pancreas, gall bladder, liver
+
+**Healing Practices:**
+- **Deficiency:** Risk taking, grounding and emotional contact, deep relaxation, stress control
+- **Excess:** Vigorous exercise (running, aerobics), martial arts, sit-ups, psychotherapy: build ego strength, release or contain anger, work on shame issues, strengthen the will, encourage autonomy
+
+**Affirmations:**
+- I honor the power within me.
+- I accomplish tasks easily and effortlessly.
+- The fire within me burns through all blocks and fears.
+- I can do whatever I will to do.
 
 ### SHADES OF YELLOW
 
-1. **Where do we get power from?** We acquire power through various means such as training, education, and socialization, where it is often seen in terms of "eat or be eaten," "control or be controlled," "winners or losers," and "one up or one down.
+**Power and Powerlessness**
 
-2. **How do we use power?** Power can be used for both positive and negative purposes. In the inner world, people often think that gaining power involves fighting their inferior parts with the strength of their superior parts. 
+* Culture obsessed with power: headlines reveal conflict, dominance, and victimization
+* Strength defined as dominance, sensitivity seen as weakness
+* Political news reads like sports page: winners and losers, one up or one down
+* Fascinated by others' triumphs and struggles for control
 
-4. **Why do we need power?** People often seek power as a way to gain control over their lives. However, this pursuit of power can lead to a self-defeating cycle of conflict and struggle.
+**Questions about Power**
 
-5. **How can we avoid the unbalanced duality of power?** To reclaim our power, we need to enter into an entirely new dynamic and define it in terms of transformation, and embracing a more inclusive and multi-dimensional perspective that emphasizes combination and synergy between different aspects of ourselves.
+* What is power? Where does it come from?
+* How do we use it? Avoid its duality?
+* Empowerment without diminishing others?
+* Society of victims and controllers: obedience, cooperation with larger structures
 
-### UNFOLDING THE PETALS
+**Concepts of Power**
 
-The third chakra, also known as the solar plexus chakra or manipura, is a vital energy center in the human body that plays a significant role in our overall well-being and personal growth.
+* "Power-over" based on struggle and opposition between dualities
+* Found with guns and money, dominion to rule
+* Inner world: power gained by fighting inferior parts
+* Struggle becomes focus of life force
+* Winning inner battles leads to fragmentation
+* Reclaiming power: transformation, inspiration, empowerment
 
-**Activity**: The third chakra helps us to maintain a healthy balance between rest and activity, ensuring that we have the necessary energy to pursue our goals and aspirations.
+**Third Chakra and Power**
 
-**Autonomy**: When this chakra is balanced, we feel confident in making decisions for ourselves and taking responsibility for our actions. We are able to stand up for what we believe in and assert our boundaries without feeling guilty or ashamed.
+* Challenge of the third chakra: restructuring how we think about power
+* Duality emphasizes combination and synergy rather than separation
+* Combination of ascending and descending currents creates focused energy
+* Integrating both sides of polarity: reaching beyond duality, expanding choices
+* Exercising will: discovering strengths, individuation, building power
+* Leaving safety behind, meeting challenge, growing stronger
+* Purpose of third chakra: transforming inertia into conscious direction
+* Fire of chakra three: dynamic and light, rising upward, necessary to reach upper chakras
+* Willingness to leave passivity behind, confront uncertainty, individuate
 
-**Authority**: When this chakra is balanced, we have the confidence and self-assurance needed to take on leadership roles and make decisions that benefit ourselves and others. We are able to use our power wisely and ethically.
+**Basic Issues of the Third Chakra**
 
-**Individuation**: When this chakra is balanced, we have a strong sense of self-identity and are able to express ourselves authentically without fear of judgment or rejection.
+* Energy
+* Activity
+* Autonomy
+* Authority
+* Individuation
+* Will
+* Self-esteem
+* Shame
+* Proactivity
 
-**Will**: When this chakra is balanced, we have the strength and resilience needed to overcome adversity and achieve success.
+### ENERGY AND ACTIVITY
 
-**Self-Esteem**: When this chakra is balanced, we have a healthy sense of self-respect and confidence in our abilities. We are able to accept compliments and praise without feeling guilty or ashamed, and we are able to set boundaries with others without feeling guilty or ashamed.
+**Energy and Activity**
+- Grounding is essential for converting energy into action
+- Energy builds up and needs reorganization, expression, and discharge
+- Increased excitation leads to urge to organize feelings into action
 
-**Shame**: When this chakra is out of balance, we may feel ashamed or guilty about our actions, even when they were not our fault. We may also struggle with low self-esteem and a lack of confidence in ourselves and our abilities.
+**Natural Expression of Energy**
+- Expression of energy is through activity
+- Activity engages us with surroundings, teaches about world and self
+- Can result in delight or disaster
 
-**Proactivity**: When this chakra is balanced, we are able to take initiative and make things happen in our lives. We are not afraid to take risks or try new things, even if they may be challenging or uncomfortable.
+**Maturity and Personal Responsibility**
+- As we mature, choose which impulses to act upon and control
+- Emergence of conscious self where mind acts upon instincts
+- Birth of ego and personal responsibility
 
-**Power**: When this chakra is balanced, we have a healthy sense of personal power and are able to use it wisely and ethically. We are able to assert ourselves without being aggressive or domineering, and we are able to stand up for what we believe in without feeling guilty or ashamed.
+**Healthy Third Chakra**
+- Exhibits energetic vitality
+- Enjoyment and enthusiasm about life
+- Sense of personal power gives hope and positive outlook
+- Strength and will to face challenges
 
-#### ENERGY AND ACTIVITY
+**Impact of Shame and Disapproval**
+- Activity can diminish sense of power with shame and disapproval
+- Inhibition of impulses leads to self-consciousness and division within personality
+- Takes energy to maintain this division, robs us of basic vitality and wholeness
 
-A strong grounding allows for the conversion of energy into action.
+### AUTONOMY
 
-A healthy third chakra exhibits energetic vitality, enjoyment, and enthusiasm for life.
+**Autonomy and Chakras:**
 
-Personal power gives hope in making things viable for oneself.
+* Progression from lower to higher chakras: individuality to universality
+* Lower gears (first three chakras): grounded, engaged, motivated, active, preserve individual self
+* Upper chakras: connect to universal through communication, vision, understanding
+* Heart chakra: individual and universal meet in perfect balance
 
-Activity develops a sense of power through constant presentation of new challenges.
+**Importance of Autonomy:**
 
-#### AUTONOMY
+* Firm grasp of self essential for love and universal consciousness
+* Overcoming the vastness of the universal without a solid sense of self can lead to loss of identity
+* New Age and spiritual movement often overlook personal ego and autonomy
+* Essential step for obtaining universal consciousness: letting go of attachment and transcending smallness of ego
+* Autonomous individuals retain their individuality, follow own growth, and come together by choice
+* Balanced relationships allow separation and freedom
+* Autonomy essential for personal responsibility
 
-* Autonomy is essential for personal responsibility and taking ownership of one's actions.
+**Effects of Lack of Autonomy:**
 
-* Lack of autonomy leads to blaming others, preventing personal growth and change.
+* Loss of identity and sense of self
+* Overwhelmed by vastness of upper chakras
+* Blaming others for problems instead of taking responsibility
+* Enmeshed relationships with overreliance on partners for autonomy
+* Passive and irresponsible behavior
+* Waiting for others to change instead of taking action
 
-A balanced relationship involves separate beings who retain their individuality while coming together by choice and will, in freedom and wholeness. Lack of autonomy often leads to blaming others for one's problems, preventing individuals from taking responsibility for their lives and making necessary changes.
+**Grounding Exercises:**
 
-#### INDIVIDUATION
+* Simple grounding exercises can help reconnect individuals to themselves
+* Reconstruction takes time and effort
+* Grounding in autonomy allows for appropriate responsibility and power.
 
-Individuation: Carl Jung's term for the soul's journey towards realization and wholeness.
+### INDIVIDUATION
 
-- Reclaim shadow, inner masculine/feminine, mythic/archetypal energies: Integrate undeveloped aspects into a comprehensive Self.
-- Third chakra: Ego awakens, differentiates from outer expectations, becomes willed enactment.
-- Individuation process: Cannot be grasped in essence; includes mystery of transformation and secret of life.
-- Individuation unfolds unique destiny, unfolding of the soul; cannot change world without individuating.
-- C.G. Jung: Individuation begins in heart chakra with integration of inner masculine/feminine (animus/anima), but I believe it starts with third chakra birth of psychic autonomy.
-- Many people do not awaken this chakra, remain in less differentiated aspects of lower chakras, and lack true psychic freedom due to damage or lack of developmental completion.
+**Individuation:** A process of personal growth and self-realization described by Carl Jung. It is a journey towards wholeness and awakening, integrating previously undeveloped aspects of oneself into a comprehensive Self.
 
-#### EGO IDENTITY
+* Journey towards realization and embracing the larger world of the personal and collective unconscious
+* Awakens from small world to individuate and embrace unique, divine individuality
+* Cannot be fully grasped as it is part of the mystery of transformation
 
-The ego manages the division between conscious and unconscious, interior and exterior, and operates the gates between the many worlds of the Self.
+**Third Chakra and Individuation:**
 
-According to Carl Jung, the ego is the conscious element of the Self, which does not necessarily include our unconscious hopes and dreams, fantasies, and fears. Since the ego is by definition unaware of the unconscious, it is not the center of the whole Self but acts as an operating principle, combining inner and outer experience. 
+* Begins at third chakra, where ego awakens and differentiates from outer expectations
+* Overcoming unconscious habits defined by others
+* Daring to be unique and risking disapproval for personal truth
+* Unfolding of unique destiny and unfolding of the soul
+* Prevents changing the world if not individuated from societal expectations
+* Power cannot be truly claimed without willingness to individuate
 
-The ego functions as an executive identity or CEO of the Self, sorting out which impulses to express or repress and orienting the movement of our energy toward a goal. It creates defenses to protect the vulnerable core Self and develops strategies and behaviors to meet the needs of that core self as it grows and develops.
+**Jung's Concept of Individuation:**
 
-The ego also organizes consciousness towards self-definition, requiring ego strength to integrate diverse and difficult experiences while maintaining consistency in the Self. 
+* Parallels adult development process through chakras
+* Begins in third chakra with birth of psychic autonomy
+* Many people do not awaken this chakra, remaining less differentiated in lower chakras
+* Damage to or lack of completion in lower chakras keeps us from maturing and true psychic freedom.
 
-However, the ego divides as well as unites, creating a division between conscious and unconscious, between shadow elements of the lower chakras and the developing persona that emerges in the fourth chakra.
+### EGO IDENTITY
 
-Individuation is an expansion of the Self beyond the realms of the ego, yet the ego is necessary to anchor this growth. The word “ego” is a combination of the Greek roots for “I” (e) and “earth” (go), making it the grounded self, the individualized roots of consciousness. It is like a house that contains us, gives us a place to grow and change, and creates boundaries, which are necessary for forming ourselves as an entity.
+**Ego Identity:**
+- Formation of an autonomous new identity beyond physical body and emotional experience
+- Marks the birth of the ego as a conscious, self-determining separate entity
 
-Many spiritual disciplines advise us to transcend the ego, considering it something bad, limiting, or false. However, the problem with the ego is not that it is limiting but that we let ourselves be confined by it at all times. We stay confined out of fear, guilt, or shame and never go outside to the larger world, never open our windows and doors. It is not wrong to have a home, but it should be an anchor for experience, not a limitation. Keeping this in perspective enables us to both have a strong ego and transcend it as well.
+**Freud's Concept of Ego:**
+- One of three major components of personality
+- Mediates between id (instinctual drives) and superego (consciousness that controls these drives)
+- Manages division between conscious and unconscious, interior and exterior
+- Organizes instinctual energies and regulates their flow
 
-#### WILL
+**Jung's Concept of Ego:**
+- Represents conscious element of the Self
+- Facilitates interaction between inner and outer experience
+- Acts as an operating principle
 
-- Many people live their lives according to what they are "supposed" to do without questioning the source of these suppositions.
-- The human will is a combination of desire and consciousness, which gives it direction and form through intentionality.
-- Willfulness does not necessarily lead to selfishness; rather, it is important to maintain a balance between personal desires and cooperation with others.
-- The third chakra, located in the softest part of the torso, supports the body's alignment and vitality when self-esteem is high and the will is strong.
+**Pierrakos' Concept of Ego:**
+- Mediates energy flow into and out of the core of human being
+- Discriminates, analyzes, regulates energy and experience
+- Organizes instinctive energy coming up from chakras 1 & 2
 
-#### SELF-ESTEEM
+**Characteristics of a Well-Functioning Ego:**
+- Allows guidance by unconscious energies while considering spiritual energies
+- Maintains consistency in the Self
+- Protects core Self with defenses
+- Develops strategies and behaviors to meet core self's needs
+- Organizes consciousness toward self-definition
 
-* Self-esteem is essential for personal growth, energetic vitality, and healthy ego development.
-* High self-esteem allows individuals to make mistakes without feeling shame or paralysis.
-* Shame as a state of being can be toxic and dehumanizing if it becomes an identity.
-* Proactivity is the ability to choose one's actions and take responsibility for shaping the future, rather than reacting to circumstances.
+**Ego as a Container for Individuation:**
+- Divides between conscious and unconscious aspects of Self
+- Spurs growth through interaction with the world
+- Acts as a foundation for personal development
 
-#### POWER
+**The Importance of Ego:**
+- Grounded self and individualized roots of consciousness
+- Balances energy in the system and maintains homeostasis
+- Necessary to anchor growth beyond the realms of the ego (individuation)
 
-1. *Power* is the ability to make change and exists for one reason only—transformation. It is a process of becoming real.
-2. Power comes when we are willing to make mistakes, be responsible for them, learn from them, and correct them.
-3. Power is the expression of the sacred in its evolutionary unfolding; it is the awesome presence of the divine.
-4. Power is the mystery, the unknown, the confrontation with the other. It is the transition from the past to the future.
-5. To reclaim our power, we must approach the magnificent expanse of totality and determine our own destiny.
-6. Power begins with what is; it involves earth, water, movement, and emotions as fuel for transformation.
+**Transcending the Ego:**
+- Not a limiting or false concept, but a necessary foundation for growth
+- Should not confine us at all times, but serve as an anchor for experience
 
-### GROWING THE LOTUS
+**Love and Will in Modern Times:**
+- Once seen as answers to life's problems
+- Now considered the source of problems due to excessive focus on them
 
-The third chakra, also known as the solar plexus chakra, is responsible for personal power, self-esteem, and confidence. During the age range of 18 months to 4 years, children undergo significant development in their emotional, physical, and cognitive abilities. This stage is marked by the growth of the lotus formation of the third chakra, which involves several key tasks, needs, and issues.
+### WILL
 
-#### Tasks:
-1. Development of autonomy: Children at this age are learning to become more independent and assertive in their actions and decisions.
-2. Development of language: Language skills rapidly improve during this stage, as children learn to communicate their thoughts and feelings more effectively.
-3. Impulse control: Children at this age are learning to regulate their impulses and emotions, which is crucial for developing self-control and social skills.
-4. Mastery of holding on and letting go: As children learn to hold onto objects and let go of them when necessary, they develop fine motor skills and hand-eye coordination.
-5. Toilet training: This is a significant milestone in the development of autonomy and self-care skills. 
-6. Self-definition: During this stage, children begin to develop a sense of self and identity, which includes exploring their interests, talents, and preferences.
+**Chakra Therapy Session:** A woman in a therapy group volunteered to work on third chakra issues but lacked initiative.
 
-#### Needs and Issues:
-1. Appropriate discipline: Children at this age require consistent and appropriate discipline to help them learn self-control and respect for others.
-2. Support of autonomy: Encouraging children's independence and allowing them to make choices within reasonable limits is crucial for their development of a strong sense of self.
-3. Confidence and encouragement: Children at this age need positive feedback and support from caregivers to build confidence in their abilities and develop a healthy self-esteem.
-4. Play: Engaging in playful activities with children helps them develop social skills, creativity, and problem-solving abilities. It also provides an opportunity for bonding and learning through fun experiences.
+**Problem of External Dependence:**
+- She looked outside herself for direction instead of questioning her own needs and desires.
+- Believed there was a prescribed way of living and acting, without examining the source.
 
-#### I was a single mother when my son was in his third chakra stage 
+**The Importance of Personal Will:**
+- The will is the intensity of desire raised to action.
+- It's crucial to recognize and foster our personal will for authentic growth.
+- Questioning "What would I do if there was nothing I was supposed to do?" can lead to self-discovery.
 
-1. The challenge of this stage is to develop impulse control, which is crucial for self-esteem, personal autonomy, and a strong will.
-2. The child must now internalize appropriate limits, which occurs through internalization of language.
-3. As these concepts get established, there may be a lot of testing going on that helps the child establish the language-action connection.
-4. The ego becomes the mediator between the shadow and the developing persona, sorting through impulses and instincts coming up from the lower chakras.
-5. Toilet training involves learning to control muscles previously allowed to respond in the moment.
-6. Holding on and letting go are fundamental energetic principles that establish patterns for life.
-7. The successful handling of this stage gives us the distinctly third chakra characteristics of power and will.
-8. If autonomy is thwarted at this crucial stage, the individuation process gets bound up in either resistance or submission and never fully develops.
+**Childhood Conditioning:**
+- As children, we are rewarded for obeying societal expectations and punished for disobedience.
+- Our will becomes structured by external influences, neglecting our inner needs and direction.
+- Obedience is a form of disembodied will that can make us susceptible to manipulation.
+
+**Consequences of Suppressed Will:**
+- We become passive-aggressive or reactive in our actions instead of taking strategic steps.
+- We may lose touch with our emotions and become apathetic, unable to enter the heart chakra's love.
+
+**The Power of Intention:**
+- The will is rooted in desire (wish) and consciousness.
+- Our longing fuels the will, which brings future goals into reality.
+
+**Physical Manifestation of Will:**
+- The third chakra, located in the solar plexus, represents personal power and self-esteem.
+- A strong will keeps our body upright and our chakras aligned, providing vitality and grounding.
+
+**Exercises for Developing Will:**
+- Doing exercises like sit-ups can strengthen stomach muscles and support the vulnerable solar plexus area.
+- Practicing self-care and setting personal goals can help foster a strong will.
+
+### SELF-ESTEEM
+
+**Self-Esteem**
+- Low self-esteem can lead to avoidance of choices and decisions, stifling personal development (Whitmont)
+- Energetic vitality requires a healthy sense of self (Whitmont)
+- Making mistakes is necessary for growth and developing a sense of power (Whitmont)
+
+**Self-Worth and Shame**
+- **Self-worth**: essential for taking care of oneself and feeling confident (Bradshaw)
+- High self-worth leads to self-care and personal power (Bradshaw)
+- **Shame**: demon of the third chakra, blocks personal power and effective action (Bradshaw)
+- Shame transforms into a toxic identity when it takes over one's whole being (Bradshaw)
+- Shame-bound personalities feel stuck and engage in compulsive repetition and addiction (Bradshaw)
+
+**Proactivity**
+- Being proactive is an alternative to being reactive or inactive (Covey)
+- Proactive people choose their actions, take responsibility for shaping their future, and are a causative influence on their environment (Covey)
+
+**Power**
+- Power as the ability to make change and transform (Starhawk)
+- Power is not a thing but a process of becoming real (Starhawk)
+- Power comes from authenticity, taking risks, making mistakes, and being responsible for them (Starhawk)
+- Earth and water anchor us in reality, forming the container for transformation (Starhawk)
+
+### GROWING THE LOTUS. DEVELOPMENTAL FORMATION OF THE THIRD CHAKRA AT A GLANCE
+
+**Third Chakra Development (18 months to 4 years)**
+
+* **Tasks:**
+  + Development of autonomy
+  + Development of language
+  + Impulse control
+  + Mastery of holding on and letting go
+  + Toilet training
+  + Self-definition
+
+* **Needs and Issues:**
+  + Appropriate discipline
+  + Support of autonomy
+  + Confidence and encouragement
+  + Play
+
+* **Characteristics:**
+  + Emerging autonomy still immersed in dependency
+  + Feeling separate while wanting constant assurance from parents
+  + Desire for self-expression and willfulness
+  + Difficulty with impulse control
+
+* **Challenges:**
+  + Decisive stage for developing cooperation, self-esteem, and a strong will
+  + Transition from anxiety of separating from mother to independence
+  + Development of language instills concepts enabling mind to operate on impulses and behavior
+  + Establishing connection between language and action for impulse control
+  + Conceptualization of past, present, and future enabling control, planning, and reflection
+
+* **Milestones:**
+  + Anxiety of separating from mother decreases around 18-24 months
+  + Language abilities progress to simple two to three word sentences
+  + Child emerges as cooperative individual around three years
+
+* **Impact on Development:**
+  + Proper handling of third chakra stage crucial for self-esteem, personal autonomy, and a strong will
+  + Development of ego identity by sorting through impulses and instincts from lower chakras.
+
+**Ego's Role in Personality Development:**
+
+* Ego acts as mediator between shadow and persona
+* Decides which personality parts are "hired" or "fired" based on growing definition of Self
+* Struggle for control played out during toilet training
+
+**Toilet Training and Muscular Control:**
+
+* Involves learning to control muscles previously allowed to respond in the moment
+* Establishes patterns for life, becoming hardwired into character structure
+* Shame or early toilet training can lead to external regulation of holding on and letting go
+* Loss of spontaneity and joy if held on to or let go too readily
+
+**Autonomy vs. Shame and Doubt:**
+
+* Successful handling of this stage results in autonomy and power
+* Unfulfilled lower chakras may hinder individuation
+* Thwarting a child's autonomy can lead to resistance or submission
+* Lack of inner control diminishes personal power and responsibility
+
+**Implications for Parenting:**
+
+* Supply guidance without suppressing emerging ego
+* Allow child to assert herself as an autonomous being
+* Avoid excessive indulgence or overcontrol
+* Provide appropriate limits for growth
+* Encourage inner discipline for accomplishing difficult tasks.
 
 ### TRAUMAS AND ABUSES
 
-* Loss of Power: People are expected to accept treatment as an essential part of life without questioning it, leading to a culture obsessed with power outside themselves.
-* Numbness and Emptiness: The emptiness inside ourselves leads us to seek power externally through the approval of others, technological gadgets, or a distant god.
-* Regaining Power: To regain our power, we must understand how it was taken away and focus on thriving rather than curtailing our own expansion.
+**Traumas and Abuses: The Story of Carl**
 
-#### AUTHORITY
+* Claude Steiner's story about an ordinary man named Carl
+* Carl enjoyed sitting in the park basking in the sun
+* One day, a large uniformed man blocked the sun from Carl
+* Carl tried to move but the man followed, blocking the sun again
+* Carl asked the man to move but he refused
+* Carl became angry and tried to push him away
+* The man responded by stepping on Carl's foot with his boot
+* Carl screamed for help but no one came
+* He looked around and saw everyone in the park was being treated similarly
+* Most people were passive, some reading, others staring disapprovingly at Carl
 
-* Authority is a concept that has been passed down through generations, where individuals believed in the ultimate authority of God over man, man over woman, and parent over child. Children were seen as inferior and expected to be quiet and obedient.
-* People spend years in therapy trying to recover from self-negating beliefs they thought were true, such as their own badness or that they deserved such treatment.
-* Authority is present in everyone's life, influencing how we respond to it and shaping our concept of power. We need inner authority to command our lives and make decisions.
-* The inner King represents the part of us that knows what we want and makes it clear to ourselves and others. It can be influenced by the behavior of those who held authority over us, leading to either tyrannical or wimpish inner authority.
-* To examine the influence of authority in your own life, consider the central authority figure during childhood, their methods, how you felt about them, and whether you obeyed out of respect or fear. Reflect on how this has shaped your inner authority and how it can be brought into better alignment with your life.
+**The Loss of Personal Power**
 
-#### PUNISHMENT
+* People are held in places within a culture where personal power is epidemically lost
+* People are ostracized for acts of individuality or feared
+* To keep power over others, people often give up their freedom and authenticity
+* Examples: straight men offended by flamboyantly dressed gay men, obedient wives offended by militant feminism, war veterans offended by peace marchers
+* This loss results in a civilization obsessed with creating the shadow of power through warfare and technology
+* Numb to our pain, we deplete ourselves, our resources, and our planet
+* Cultural myth tells us that power lies outside of ourselves
 
-- When authority is won through respect, it resonates with our inner truth and invites us to willingly participate because we believe in the reason and purpose behind it. 
-- However, when authority tells us to go against our own nature, it resonates with something deeper—fear. 
-- Fear regresses our third chakra will to the first chakra level of survival, causing us to move backward in reaction rather than forward in action.
-- Punishment is used by authority for controlling behavior and robbing us of our free will.
-- Starhawk lists four basic ways we can respond to punishment: comply, rebel, withdraw, or manipulate. To habitually comply or withdraw is to be deficient; to automatically rebel or manipulate is to be excessive.
-- Compliance is a false citadel of power, while authenticity is the jewel. Denying our authenticity is antithetical to building healthy ego strength.
+**The Taking Away of Power**
 
-#### THE PARENTIFIED CHILD
+* It is natural for us to use our life energy to move forward
+* Instinctual to protect ourselves
+* Authority relieves us of the responsibility of independent action
+* We are depleted, numb, and emptied inside
+* Our cultural myth perpetuates this powerlessness by telling us that power lies outside of ourselves in approval, gadgets, or a distant god.
 
-1. The parentified child is a term used to describe a child who takes on adult responsibilities within the family due to various circumstances such as substance abuse, poverty, illness, death or divorce.
-2. This role can include emotional support for the remaining parent, raising younger siblings, earning money for the family, giving up childhood freedoms and social life with peers, and even relating with a parent sexually.
-3. The expectation that the child can fulfill these roles is often inappropriate due to their biological and emotional immaturity, leading to feelings of inadequacy.
-4. This sense of inadequacy not only affects future tasks but also one's concept of self, which can be turned around by recognizing the inappropriateness of these expectations and working through the associated feelings.
-5. The feelings of inadequacy can arise even when support seems adequate.
+**Possible Outcomes for Carl**
 
-#### OVERSTIMULATION AND SENSORY DEPRIVATION
+* Continued to yell and scream but was chained to his bench
+* Gave up rebellion and conformed to expectations
+* Rallied support and created an uprising in the park
+* Transformed his jailer
+* What would you have done?
 
-Overstimulation - Third chakra receives more energy than it can handle; children may become hypersensitive or hyperactive.
+**Poisonous Pedagogy and Authority:**
 
-Sensory deprivation - Understimulated child experiences emptiness, fear, and fatigue; feels most energized in situations with strong stimulation.
+* Previous generations believed in the ultimate authority of God, man over woman, parent over child.
+* Children were expected to be obedient and quiet, and punishment was believed to be for their own good.
+* Measures used to accomplish this ranged from rejection to physical beatings.
+* Children may be made an accomplice in their own punishment.
+* People spend years in therapy to recover from self-negating beliefs instilled during childhood.
+* These beliefs are passed down from generation to generation, denying basic instincts and causing division among individuals.
 
-#### SHAMING
+**Developing Inner Authority:**
 
-1. Shame intensifies both control and release dynamics, making them more rigidly demanding and self-destructive.
-2. Shame results from various forms of child abuse, leading the child to believe they are at fault for the abuse.
-3. Parental shaming can occur through statements like "You ought to be ashamed of yourself!" or failure to praise a child's accomplishments.
-4. Unacknowledged parental shame is passed down to children, causing them to feel ashamed when they fail to meet their parents' expectations.
-5. Shame collapses the third chakra and affects breathing, perception, understanding, and alignment of the head with the rest of the body.
-6. Shame creates a block between the mind and the body, splitting one off from the core self, leading to feelings of inferiority and self-fulfilling prophecies.
+* Children contend with various models of authority (parents, caretakers, teachers).
+* Inner authority is essential for organizing personal energy into an effective will.
+* To command our lives, we need inner authority to make decisions and resist or yield appropriately.
+* The absence or presence of inner authority shapes our concept of power and relationships with others.
 
-#### BROKEN WILL
+**Impact of Authority on Inner Authority:**
 
-1. The willful child is more challenging to raise than the obedient one due to their energy and desire to do many things.
-2. Parents' emotions can be disabled by shame, leading to a frozen energy that blocks the mind-will interaction.
+* Our inner authority is formed by those who held authority over us as children.
+* If our parent was authoritarian, our inner authority may be tyrannical or a wimp.
+* The gender of the authority figure also influences how we carry and project power.
+* Examine the influence of authority in your own life:
+  + Central authority figure during childhood?
+  + How did they establish their authority?
+  + Feelings towards this person and their authority?
+  + Obeyed out of respect or fear?
+  + Reactions to this authority (rebel, obey, or vary)?
+  + Current form and alignment with your life?
 
-John Bradshaw emphasizes the importance of parents providing guiding principles and final authority for the child's safety and well-being.
+**Inner Authority and Inner King:**
 
-Parents who are too busy may not be aware of their child's natural rhythms, leading to a smooth-running ship and breaking the child's will.
+* The inner King represents the vital and vigorous inner authority in childhood.
+* The inner King may be killed if not protected by inner warriors.
+* The absence of inner authority as a child results in its being formed by those who held authority over us.
+* Bringing inner authority into better alignment with your life involves recognizing its strengths, aligning it with your values, and making conscious decisions to cooperate willfully or resist with intention.
 
-Breaking the will of the child can create people who act without feeling, enthusiasm, or a healthy sense of power.
+**Understanding Authority and Punishment**
+- Respect for authority resonates with inner truth, invites participation, and increases power and skill (Starhawk)
+- Fear-based authority and punishment regress behavior to survival level (Starhawk)
+
+**Effects of Punishment**
+- Instills fear, controls behavior, robs free will, conditions automatic reactions (Starhawk)
+- Must take away something greater than what might be gained, can be physical or emotional, literal or symbolic
+
+**Impact of Physical and Emotional Abuse**
+- Forces acceptance of dictated actions, undermines self-definition and power
+- Creates a sense of smallness and vulnerability in the face of power (John Bradshaw)
+
+**Responses to Punishment**
+- Comply, rebel, withdraw, manipulate (Starhawk)
+- Can make third chakra dysfunctional if they characterize a pattern
+
+**Effects of Denying Authenticity**
+- Building power on compliance and living up to expectations instead of authenticity (Starhawk)
+- Developing sense of self based on external sources, leading to feelings of inadequacy and weakness if dominance is imposed
+
+**Starhawk's Ways of Responding to Punishment**
+1. Comply: being deficient in third chakra function
+2. Rebel: being excessive in third chakra function
+3. Withdraw: creating stumbling blocks to true effectiveness and responsibility
+4. Manipulate: initial rebellion followed by manipulation through withdrawal
+
+**Impact of Childhood Punishment**
+- Can lead to passive-aggressive behavior, feeling small, and seeing others as bigger or stronger
+
+**The Parentified Child:**
+- It is better for individuals to fulfill their own duties than take on those of others, even if successful.
+- Situations within families may require children to assume adult responsibilities prematurely.
+- Reasons for this include parental substance abuse, poverty, illness, death, or divorce.
+- Children in these situations often feel inadequate and powerless due to unrealistic expectations.
+- Recognizing the inappropriateness of these roles and working through feelings is essential for overcoming a sense of inadequacy.
+
+**Effects of Parental Responsibilities on Children:**
+- **Janet's Story:** Oldest child of an alcoholic mother and traveling father, took on role of substitute parent at a young age due to mother's substance abuse.
+  * Felt powerless and inadequate due to siblings' resentment and household chaos.
+  * Struggled academically and did not attend college as a result.
+- **Jack's Story:** Son of a prominent surgeon, excelled academically but experienced severe nervous breakdown upon entering college due to feeling inadequate.
+  * Constantly pushed beyond age-appropriate level, felt shyness and inferiority around peers.
+
+**Impact on Third Chakra:**
+- The third chakra handles raw energy throughout the system.
+- **Overstimulation:** Children's sensory systems are overwhelmed when exposed to adult intensity and may react with hypersensitivity or hyperactivity.
+- **Understimulation:** Lack of proper stimulation in early childhood can result in feelings of emptiness, fatigue, and fear of sexual inadequacy.
+
+**Effects on Child Development:**
+- **Janet and Jack's Stories:** Both children experienced a sense of inadequacy due to premature responsibilities, affecting their self-esteem and academic performance.
+- **Randy's Story:** Lack of stimulation during infancy led to feelings of emptiness, fear of sexual inadequacy, and fatigue.
+- Both overstimulation and understimulation can have damaging effects on a child's emotional, physical, and intellectual development.
+
+**Shame** and its Impact:
+- Intensifies control and release dynamics
+- Results from various forms of childhood abuse or excessive criticism
+- Creates a consciousness that scrutinizes and controls behavior
+- Collapses the third chakra, affecting breathing, alignment, and perception
+- Experienced as an inward spiral in the belly
+- Creates a block between mind and body, fuses sense of shame and self
+
+**Origins of Shame:**
+- Childhood abuse: physical, emotional, sexual, neglect, abandonment, excessive criticism
+- Parental statements like "You ought to be ashamed of yourself!"
+- Failure to praise accomplishments or teach self-care
+- Unacknowledged parental shame passed down to children
+
+**Effects of Shame:**
+- Divides ego from instinctual core
+- Reduces the size of the chest cavity and affects breathing
+- Displaces chakras six and seven (perception and understanding) from central column
+- Affects thoughts and perceptions, causing them to be out of kilter with reality
+- Creates a belief of being fatally flawed
+- Leads to self-fulfilling prophecy of inferiority
+
+**Shame and Chakras:**
+- Shame collapses the third chakra, affecting whole torso and alignment
+- Mind tries to run body beyond capabilities, ignoring messages for rest or food
+- Denies emotional needs and keeps system run-down.
+
+**Will and Child Raising:**
+- Willful children are more challenging to raise due to their energy and desire to make decisions.
+- Parents may find it difficult to tolerate this challenge due to being overworked, disengaged, or shame-bound.
+- The will is disabled when emotions get bound by shame, freezing the interaction of the mind and will.
+
+**Parental Guidance:**
+- Parents should provide guiding principles and final authority for the child's safety and well-being.
+- Struggling with a child's natural rhythms can lead parents to break their will, establishing complete authority.
+- A separate identity and individuation cannot take place without allowing the child to make decisions and express feelings.
+
+**Impact of Breaking the Will:**
+- Breaking the will of a child creates people who lack feeling, enthusiasm, and a healthy sense of power.
+- Such individuals are easily manipulated, controlled, and may resort to passive-aggressive behavior or violence.
+- Without a strong will, individuals struggle with self-control and personal freedom.
+
+**Rules of Poisonous Pedagogy:**
+- **Adults are the masters:** Parents hold all the power and determine what is right and wrong.
+- **Child is held responsible for parents' anger:** The child is blamed for adult emotions.
+- **Parents must be shielded:** Children should not express feelings that may upset their parents.
+- **Child's life-affirming feelings are a threat:** Parents suppress the child's positive emotions.
+- **Will must be broken as soon as possible:** Parental domination and control stifles individuality from an early age.
+
+**Impact on Chakra Development:**
+- These abusive rules impact the development of the third chakra, affecting will, self-esteem, personal responsibility, and personal freedom.
+- Domination and suppression can lead to a collapse at the core, requiring other chakras to compensate.
 
 ### CHARACTER STRUCTURE THE ENDURER
 
-- The Endurer's Dilemma: activity that cannot move forward turned against self, creating more frustration, tension, blockage; results in morose feeling of hopelessness and despair, disabled will, reduced energy level.
-- Since authority is forced at a time when autonomy is naturally emerging but not strong enough to stand alone, submission is the only possible recourse.
-- This results in pattern of outer compliance and inner defiance.
-- The Endurer feels both manipulated by and angry toward person he wants affection from; feels both need and anger simultaneously, unable to express either.
-- Greatest fear of Endurer is humiliation; when punished or criticized, often collapses into vicious self-recrimination known as shame attack.
-- This diminishes third chakra, making it more difficult to protect himself.
-- Becomes ashamed of what is inside, translates to shame about everything inside—feelings, thoughts, needs, essentially his very self.
-- Greatest fear of Endurer is exposure, certain will lead to humiliation and further shame.
-- Blocks in legs, hands, throat, genitals; unable to release energy, creates buildup inside, often making body dense and large with thick muscular padding between throat and buttocks.
-- To heal, Endurer needs to express both angry and tender feelings; movement breaks holding patterns, sexuality allows nurturance to come in.
-- Building self-esteem is underlying theme, so larger ego can stand up to inner critic and emerge into autonomy once again.
-
-### EXCESS AND DEFICIENCY EXCESS
-
-1. **Excessive third chakra**: A life dominated by doing and achievement, compensating for feelings of diminished or unrecognized power. Overcompensation with power, control, and bolstering one's self-esteem. Constant activity, human doing instead of being, chronic pushing leading to chronic fatigue.
-2. **Excessive will**: Rigid, lacks flexibility, may flare in anger or retreat in fear when challenged. Constant need for control over oneself, others, and situations. Extreme bully or manager who obsesses about every detail.
-3. **Deficient third chakra**: Lack of fire and vitality, poor self-discipline, weak will, lack of spontaneity. Easily manipulated by others, frequent depression, energy held back by feelings of shame. Passive, avoidance of confrontation, letting others take the lead.
-4. **Third chakra deficiency and stimulants**: Attracted to caffeine, amphetamines, or cocaine for feeling normal or continuing constant activity. Highly anxious personalities may be attracted to calming drugs like opiates, barbiturates, and alcohol.
-
-### RESTORING THE LOTUS
-
-In order to restore the Lotus Healing the Third Chakra, it is essential to address both internal energy management within the body and external expression of that energy in the outer world simultaneously. 
-
-This involves overcoming existing inertia, which can be achieved through various methods such as building up metabolic energy by paying attention to diet and engaging in frequent aerobic exercise. 
-
-Additionally, challenging oneself with activities that provide nourishment and support while also confronting fears and shame can help increase one's energy levels and overall sense of power and control. 
-
-#### deficient third chakras
-
-work on strengthening their will by increasing physical energy as well as paying conscious attention to their goals and desires. 
-
-#### excessive third chakras 
-
-may require relaxation techniques such as guided meditation or yoga to help dissolve blocks that bind tension and promote a deeper state of being. 
-
-#### OTHER GENERAL STRATEGIES FOR THIRD CHAKRA HEALING
-
-1. Give up being safe: To develop third chakra power, one must let go of the desire for safety and accept that there will be challenges, criticism, misunderstanding, rejection, or failure. 
-2. Work with anger: Blocked anger can lead to excessive or deficient conditions, but expressing it can improve metabolism and stabilize weight problems.
-3. Attack the shame demon: Shame often lurks in the shadows of the third chakra, undermining self-esteem. Compassion for one's inner child can also help dissipate shame.
-4. Inner child dialogues: Having an adult self talk to the child self in a compassionate manner can replace overly critical, shaming programs that run us ragged and steal joy from our lives.
-
-### CONCLUSION
-
-*Third chakra work* involves building ego strength through contact with the authentic self, raising self-esteem, creating a sense of power, and releasing inhibitions.
-
-To achieve this, one should make a list of goals and intentions, plan steps to bring them into manifestation, and apply energy to these goals or other routines that develop skills and physical energy.
-
-The results of efforts positively reinforce the process and ground third chakra power in tangible reality.
-
-Healing the third chakra brings a healthy sense of power with its limits, promoting a proactive and causative approach to life.
-
-This approach is confident, warm, responsible, and persevering, allowing one to take on challenges, follow through on tasks, confront opposition effectively, and take responsibility for their actions.
-
-A person with a healthy third chakra has good vitality and a playful ability to laugh at themselves.
-
-## CHAKRA FOUR 
-
-The Fourth Chakra, also known as the Heart Chakra or Anahata, is located at the center of the chest near the heart and cardiac plexus. It is associated with the element of air and has a green color. This chakra's primary purpose is to facilitate love and balance in our lives, both internally and externally.
-
-The Fourth Chakra deals with issues related to love, balance, self-love, relationships, intimacy, anima/animus, devotion, reaching out, and taking in. It is essential for individuals to maintain a healthy balance within this chakra to foster positive relationships and emotional well-being.
-
-The developmental stage of the Fourth Chakra typically occurs between 4 to 7 years old, during which children begin forming peer and family relationships while developing their persona. The basic rights associated with this chakra include the right to love and be loved.
-
-When balanced, the Fourth Chakra leads to compassionate, loving, empathetic, self-loving, altruistic, peaceful, and balanced individuals who have a good immune system. However, when imbalanced or traumatized, it can lead to antisocial, withdrawn, cold, critical, judgmental, intolerant, lonely, isolated, depressed, fearful of intimacy, lack of empathy, narcissistic, codependent, poor boundaries, demanding, clinging, jealous, overly sacrificing, and physical malfunctions such as disorders of the heart, lungs, thymus, breasts, arms, shortness of breath, sunken chest, circulation problems, asthma, immune system deficiency, tension between shoulder blades, and pain in the chest.
-
-Healing practices for the Fourth Chakra include breathing exercises, pranayama, working with arms, reaching out, taking in, journaling, self-discovery, psychotherapy, examining assumptions about relationships, emotional release of grief, forgiveness when appropriate, inner child work, and codependency work. Affirmations such as "I am worthy of love," "I am loving to myself and others," and "There is an infinite supply of love" can also be helpful in maintaining a balanced Fourth Chakra.
-
-### SHADES OF GREEN
-
-1. Love is a basic human right that is simple yet profound. It is essential for the heart chakra to function properly.
-2. Love is an archetypal experience that runs our lives and drives us to seek connection with others.
-3. The absence of healthy love can lead to travesties, such as child abuse, which are not complete absences of love but twisted versions of it.
-4. Without knowing what healthy love looks like, it is difficult to create it in one's life.
-5. Our culture has turned away from love and towards warfare and violence, which is reflected in television violence and gang behavior.
-6. The Great Mother archetype represents nurturance, nourishment, containment, and connection, but she has been forgotten in Western civilization's dominant mythology.
-7. The absence of the Great Mother archetype has led to a broken home mythos, where we are seen as motherless children living with an estranged father.
-8. Our predominant myth is one of separation, which creates divisions between individuals and groups based on race, class, gender, and age.
-9. Love is culturally restricted to limited heterosexual dyads and their offspring, leading to a flawed model that does not address the needs of all people.
-10. To heal the heart chakra and reconnect with love, we must recognize our own divine nature and integrate mind, body, mystical, and mundane aspects of ourselves.
-
-### UNFOLDING THE PETALS
-
-The Fourth Chakra, also known as the Heart Chakra, is a crucial aspect of human development and spiritual growth. It encompasses various themes such as love, balance, self-reflection, self-acceptance, relationships, intimacy, anima/animus, eros/thanatos, grief, compassion, and devotion.
-
-1. **Love**: The Fourth Chakra is primarily associated with the emotion of love. It encourages individuals to cultivate a deep sense of unconditional love for themselves and others.
-2. **Balance**: Maintaining balance in life is essential for overall well-being. The Fourth Chakra promotes harmony between the physical, emotional, mental, and spiritual aspects of an individual. 
-3. **Self-Reflection**: The Heart Chakra emphasizes self-reflection as a means of personal growth. By taking time for introspection, individuals can gain insight into their emotions, thoughts, and behaviors. 
-4. **Self-Acceptance**: The Fourth Chakra encourages individuals to embrace all aspects of themselves, including their strengths, weaknesses, and imperfections.
-5. **Relationships**: The Heart Chakra plays a significant role in forming and maintaining healthy relationships with others. It promotes empathy, compassion, and understanding, enabling individuals to connect deeply with their loved ones.
-6. **Intimacy**: The Fourth Chakra is associated with intimacy on both physical and emotional levels. It encourages individuals to explore their sexuality in a healthy and fulfilling manner while also fostering deep emotional connections with others.
-7. **Anima/Animus**: The Heart Chakra is connected to the archetypes of anima (feminine) and animus (masculine). These concepts represent the unconscious aspects of the psyche that influence our behavior and emotions. 
-8. **Eros/Thanatos**: These forces represent the duality of human nature, which includes both a desire for life and a fascination with death. By balancing these opposing forces, individuals can find harmony within themselves and their relationships.
-9. **Grief**: The Heart Chakra is closely linked to grief and loss. This includes learning to let go of negative emotions and finding solace in the present moment.
-10. **Compassion**: The Fourth Chakra promotes compassion as a means of connecting with others on a deeper level. By cultivating empathy and understanding, individuals can develop a sense of interconnectedness with all living beings.
-11. **Devotion**: The Heart Chakra encourages individuals to find meaning and purpose in their lives through devotion. This may involve dedicating oneself to a spiritual practice, a cause, or even a relationship. 
-
-#### THE MYSTERY OF LOVE
-
-Through balance we find a center from which we can love, through love we form relationships, and through relationships we have the opportunity to transform the self-centered ego of the lower chakras into awareness of the larger realm in which we are embedded.
-
-When we fall in love, we are suddenly stripped of our defenses, lifted out of our self-centered habits, and propelled into an enlarged view of the world. Love melts our rigid attitudes and alters our psychic structure.
-
-Intimacy is the foundation for that expression Being loved by another increases our experience of Self, as we are reflected in the eyes, words, and behavior of our lover.
-
-Ancient tantric diagrams depict the heart chakra as a lotus of twelve petals containing a six-pointed star made of two interlacing triangles. This represents the downward movement of spirit into matter and the upward liberation of matter into spirit, meeting in perfect balance in the heart. 
-
-More than just a meeting, this is an interpenetration whose final goal is integration of spirit and mind with body and soul.
-
-Balance is the underlying foundation of longevity in all things. Since the heart chakra is the middle point in a system of seven centers, balance is an essential principle at this level of integration. 
-
-To have intimacy we first need to have a sense of self. We need to be intimate with our own interior, to know our needs, wishes, fears, boundaries, and hopes. Through knowing the self within, we can honor the self that lives within another.
-
-We need to be able to love our own self enough to offer it openly to someone else. The most common block in the heart chakra is the absence of self-love. How can we have intimacy with others if we are distanced from our own self
-
-#### SELF-REFLECTIVE CONSCIOUSNESS
-
-1. The ability to observe oneself, including motives, actions, goals, hopes, and fears.
-2. *Self-examination* - A process that allows us to integrate our psychic pieces and create new patterns for growth and evolution.
-3. *Conscious attention* - The focus required to change patterns and create something new.
-4. *Balance* - The central principle of the heart chakra, achieved through self-examination.
-5. *Self-examination gives birth to a new integrated Self* - Through self-reflection, we can break free from past patterns and move towards personal growth.
-
-#### MIND AND BODY
-
-* Balance in the heart chakra involves learning to decipher the body's messages through inner listening.
-* This process leads to recovering memories, working through traumas, releasing stored tensions, and completing unresolved emotional transactions.
-* Various parts of our experience are reconnected: feelings with mental images, impulses with belief systems, sensation with meaning.
-* Self-reflection allows the mind to behold our experience in the body.
-* Integrating awareness from lower chakras into higher levels of complexity and understanding is possible after fully embodying ourselves.
-
-#### ANIMA AND ANIMUS
-
-1. Jungian Theory: Anima is the archetypal energy of the inner feminine, while animus represents the inner masculine. Both genders carry each archetype.
-2. Stereotypes: Cultural influences shape our images of masculinity and femininity, leading to polarization and repression of one's anima or animus.
-3. Projection: The unconscious anima or animus is often projected onto others, causing issues in relationships.
-4. Midlife Crisis: At midlife, individuals may experience a crisis that calls forth their repressed archetype, leading to personal growth and development.
-
-#### RELATIONSHIPS WITH OTHERS
-
-* Love unites living beings by completing and fulfilling them through what is deepest within themselves.
-* Balance is crucial for the success of personal relationships.
-* Imbalance leads to pressure, frustration, stress, resentment, and erosion of openness and goodwill.
-* Relationships must find an equitable balance to avoid failure.
-* Balance is a dynamic flexibility that fluctuates over time in various ways.
-
-#### REACHING OUT AND TAKING IN
-
-1. Fear and grief can block either or both of these responses, leading to heart chakra blockage.
-3. Reaching may become blocked if it proved fruitless in the past, leading to an energetic structure built around emptiness.
-4. One movement (reaching or taking in) is often more prevalent than the other in a relationship.
-5. The pursuer-distancer dynamic can be resolved when the pursuer stops chasing and the distancer reaches out.
-6. To avoid abandoning oneself and ensure mutual reaching, it is essential to practice pulling one's lover in while holding one's own ground.
-
-#### ATTACHMENT AND FREEDOM
-
-The heart chakra seeks to balance the lower chakras' pull for security with the upper chakras' attraction toward novelty. 
-
-A healthy relationship must honor both upward and downward energy movements, creating a balance between spirit and soul, expansion and constriction, freedom and commitment. 
-
-To decide on one or the other is to further the divide between transcendence and immanence.
-
-The more one kind of energy is allowed, the more the opposite can come through. 
-
-Once a commitment is made, it becomes easier to allow a partner their solitude or freedom; once we know our freedom is respected, we can more easily make a commitment. 
-
-Dynamic balance is a dance between attachment and freedom.
-
-#### EROS AND THANATOS
-
-**Eros** - The force of life that allures and unites; son of Aphrodite, goddess of love and beauty.
-**Thanatos** - The force of death that divides and destroys; born of the goddess Night, thrives on darkness of our lack of consciousness.
-
-When entering a relationship, we are swept up by Eros's wings, beckoned into union, merging, and dissolving.
-
-To love means to open ourselves to both positive and negative aspects - joy, fulfillment, grief, sorrow, disappointment.
-
-Our unconscious patterns sabotage relationships, pick fights, distance ourselves from our lover, and thrust behavior in directions the conscious mind deplores.
-
-Thanatos is a force we cannot control; it leaves us feeling helpless.
-
-Eros and Thanatos are inseparable forces in a single dance; one cannot exist without the other.
-
-Idealistic lovers may face great pain when their partner mistreats what they considered sacred.
-
-Denial of Thanatos invites its more unpleasant form to appear; we must be aware of our shadow and need for separateness.
-
-#### GRIEF: DEMON OF THE HEART
-
-1. Grief is a natural response to loss and can be seen as a demon that sits on the heart chakra.
-2. When grief is denied or suppressed, it can lead to numbness and a lack of aliveness.
-3. Acknowledging and expressing grief can help open the heart, allowing for deeper connections with others.
-4. Grief can also occur in situations where love is not reciprocated or when one feels abandoned.
-5. Codependency can result from unhealthy relationships, such as those characterized by smothering and possessiveness.
-6. Grief can be a mourning for the loss of authenticity and can lead to depression if not addressed.
-7. Compassion is an important healer in addressing grief and promoting well-being and spiritual growth.
-
-#### COMPASSION
-
-* Compassion means "to have passion with" and involves understanding another's needs beyond one's own.
-* The ability to have compassion for others depends on being in touch with one's yearnings and pain, which opens us up to deeper understanding of others and expands our limited being.
-* Compassion is an exquisite balance of upper and lower chakra expression, remaining centered yet open while holding the space for change to occur.
-* Chenrezig, a Buddhist deity, represents compassion and does not mean fixing things but rather offering empathy and understanding when solutions are not possible.
-
-#### DEVOTION
-
-* Devotion is an act of selfless love and conscious surrender to a greater force beyond oneself.
-* In yoga, it's the path of bhakti yoga, practiced through devotional service to a deity or teacher.
-* Devotion can also be experienced toward loved ones, political causes, or projects.
-* It allows the energy within the Self to flow beyond the Self, transcending perceived limitations.
-* When we become parents, we experience selfless devotion to our child.
-* Devotion is a spiritual act of egoless surrender; it expands the binding of the spirit by lifting us beyond ourselves.
-* The Self survives even without constant attention.
-* Devotion can keep us from conscious connection with the Self if ego-based reflective consciousness hasn't been achieved.
-
-### GROWING THE LOTUS
-
-The developmental formation of the heart chakra in children aged 4 to 7 years primarily focuses on the growth of social identity, gender roles, altruism, and peer relationships. 
-
-One of the key tasks during this period is the formation of social identity and gender roles. Children start to understand that they belong to a particular group or community and that they have specific roles within it. 
-
-They also begin to identify with certain gender norms and expectations, which can influence their behavior and interactions with others.
-
-Another important task is the development of altruism. At this age, children become more aware of the needs and feelings of others and start to show empathy and compassion towards them. This can be seen in their willingness to share toys or help a friend who is upset.
-
-Formation of peer relationships is another crucial aspect of the heart chakra development during this period. Children begin to form friendships with other children, which helps them develop social skills and learn how to interact with others. 
-
-However, along with these positive developments, there are also some challenges that children may face during this stage. One such challenge is the balance between initiative and guilt. Children may feel guilty for taking the lead or making decisions, which can hinder their ability to assert themselves and take responsibility for their actions.
+**Character Structure:** The Endurer (or Masochist)
+
+**Description:** Sam was described as a dense, muscular, and heavy character with a sad and plaintive expression. His voice did not match his powerful 
+body and seemed to come out in a modified whine. He began expressing feelings of fatigue, depression, and feeling stuck in his job.
+
+**Subversion of Muscular System:** In the development of this character structure, the muscular system of the growing child is subverted from its 
+natural function of movement to the neurotic function of holding.
+
+**Alexander Lowen's Analysis:** According to Alexander Lowen, Sam was an example of the Endurer character structure.
+
+**Endurer Dilemma:** The Endurer is locked in a holding pattern that binds the energy of the will, restrains autonomy, and compresses spontaneity, joy, 
+and optimism. They are caught in a vicious cycle where activity that cannot move forward is turned against the self.
+
+**Block in Energy:** A block in the energy is a place in the psychic and somatic realm where two or more opposing forces meet. The Endurer experiences 
+this as feeling stuck between needs that seem mutually exclusive.
+
+**Development of Endurer Structure:** The Endurer structure develops when the parent is overly controlling, squashing the child's emerging autonomy. The
+child submits to authority but resists on the inside, leading to passive-aggressive behavior and a tendency to sabotage.
+
+**Characteristics of Endurers:** Endurers are reliable, steady, hardworking, anxious to please, and able to endure. They can stick to business and 
+accomplish difficult or unpleasant tasks, but they also have a tendency to sabotage themselves. The ambivalence is between aggression and tender 
+feelings.
+
+**History of Sam:** Sam's mother was smothering, his father distant and passive, and his older brother picked on him. When he was just over two years 
+old, his sister was born, and his mother forced him into early toilet training to avoid having two children in diapers. He was punished for defending 
+himself so that he would not become like his brother. His mother doted on him but controlled him, usurping his autonomy. When he later dropped out of 
+college because of poor grades, she refused to speak to him for a number of years.
+
+**Effects of Endurer Structure:** The Endurer's life becomes grim, their energy bound, and their sexuality lukewarm. They feel stuck and have a reduced 
+energy level. This results in a deficient third chakra.
+
+**The Endurer Character:**
+* Desires approval and affection, leading to conflict between need for love and autonomy
+* Feels both manipulated and angry towards the source of affection
+* Accepts reality while fighting its demands, resulting in terrible inner conflict (Lowen)
+* Conditioned by conditional love as reward or punishment for behavior
+* Third and fourth chakras are at odds: love or autonomy but not both
+* Root cause is fear of shame and humiliation
+
+**Characteristics of Endurer:**
+
+* Experiences shame attacks when punished or criticized
+* Collapses third chakra, making it difficult to protect oneself
+* Fears exposure and humiliation, leading to holding in feelings, thoughts, needs, and self
+* Primary pattern is holding in, creating blocks in the chakra system (legs, hands, throat, genitals)
+* Body becomes dense and large with thick padding between thighs and chest
+* Posture reflects shame: tail tucked in, head lowered, third chakra collapsed
+* First and fifth chakras are blocked, leading to masochism
+* Anger arises but turns inward as energy builds up and is punished internally
+* Feelings of hopelessness and despair result from internal conflict between superego and id
+
+**Endurer's Experience:**
+
+* Experiences life as a series of "have-to's"
+* Unable to see proactive paths for change
+* Believes situations must be tolerated rather than altered
+* Liberating current cannot enter upper chakras due to will's submission and resistance
+* Inner critic dominates, fueled by shame and fear of exposure
+
+**Healing the Endurer:**
+
+* Expressing both angry and tender feelings
+* Releasing anger from self-criticism through externalization
+* Acknowledging needs and releasing them from shame
+* Movement breaks holding patterns and allows for nurturance
+* Building self-esteem to stand up to inner critic and reclaim autonomy
+
+### EXCESS AND DEFICIENCY
+
+**Excess and Deficiency in Third Chakra:**
+
+**Third Chakra Excess:**
+- Demand for a false self to hide the authentic self
+- Compensates for feelings of helplessness, abandonment, neglect, and abuse
+- Attachment to power, control, and self-esteem boosting
+- Human doing instead of human being
+- Constant activity and chronic stress
+- Rigid will that is inflexible and easily angered or fearful
+- Need to be in control of oneself, others, and situations
+- Physical control of body through rigorous regimens
+- Disengagement from experience and feelings
+- Robs vital energy from other chakras
+- Abuse of power, neglecting self-nurturance, compassion, patience, and understanding
+- High anxiety level leading to hyperactivity and muscle tension
+
+**Third Chakra Excess Signs:**
+- Constant activity and human doing instead of being
+- Rigid will and inflexibility
+- Need for control
+- Physical control of body through rigorous regimens
+- Disengagement from experience and feelings
+- Abuse of power
+- Neglect of self-nurturance, compassion, patience, and understanding
+- High anxiety level leading to hyperactivity and muscle tension
+
+**Third Chakra Deficiency:**
+- Underdeveloped will
+- Lack of vitality and motivation
+- Feeling helpless and powerless
+- Poor self-esteem
+- Lack of direction and purpose
+
+**Third Chakra Deficiency Signs:**
+- Lack of motivation and vitality
+- Helplessness and powerlessness
+- Poor self-esteem
+- Lack of direction and purpose
+
+**Excessive Attachment to Power:**
+- Compensates for feelings of helplessness, abandonment, neglect, and abuse
+- Constant need for approval from others
+- Human doing instead of human being
+- Rigid will that is inflexible and easily angered or fearful
+- Need to be in control of oneself, others, and situations
+- Physical control of body through rigorous regimens
+- Disengagement from experience and feelings
+- Abuse of power
+- Neglect of self-nurturance, compassion, patience, and understanding
+- High anxiety level leading to hyperactivity and muscle tension
+
+**Signs of Excessive Power:**
+- Dominating, aggressive, angry, and inflated personality
+- Need for constant control and perfectionism
+- Disregard for the feelings and needs of others
+- Neglect of self-care and nurturance
+- High anxiety level leading to hyperactivity and muscle tension
+
+**Flexible Will:**
+- Balanced approach to life
+- Adaptable and resilient
+- Ability to handle challenges with grace and ease
+- Openness to new experiences and perspectives
+
+**Signs of a Flexible Will:**
+- Adaptability and resilience
+- Graceful handling of challenges
+- Openness to new experiences and perspectives
+- Balanced approach to life.
+
+**Third Chakra Deficiency:**
+- Characterized by lack of fire and vitality, poor self-discipline, weak will, and lack of spontaneity
+- People may be easily manipulated, victimized, depressed, and appear cold or withdrawn
+- Fear, guilt, and shame dominate, contracting energy and binding it with shame
+- Passivity is a common coping mechanism to avoid vulnerability and risk
+- Relationships may be characterized by passive behavior and secret resentment
+- People may let others take the lead while experiencing frustration and control
+- Fear of confrontation and emotional risks, leading to isolation and depletion
+- Lack of willpower, poor follow-through, and avoidance of responsibility
+
+**Symptoms:**
+- Chronic fatigue syndrome
+- Depression
+- Victim mentality
+- Intensely shy or cold behavior
+- Passive-aggressiveness
+- Fear of isolation and engagement
+- Poor self-esteem
+
+**Causes:**
+- Excessive activity that runs out of fuel
+- Chronic holding that binds energy into exhaustion
+- Medical conditions such as candida overgrowth, Epstein-Barr syndrome, Lyme disease, and food allergies
+
+**Coping Mechanisms:**
+- Passivity and avoidance
+- Isolation and monotony
+- People pleasing
+- Following rules and letting others lead
+- Playing it safe
+
+**Upper Chakras:**
+- May be excessive by contrast, leading to a need for love and liberation
+- Love can increase energy of the third chakra and build self-esteem
+- Relationship failure can lead to contraction and return to beliefs of inadequacy
+
+**Stimulants:**
+- Attracted to stimulants like caffeine, amphetamines, or cocaine to feel normal or continue constant activity
+- Highly anxious personalities may be attracted to calming drugs such as opiates, barbiturates, and alcohol
+
+**Both Deficient and Excessive Strategies:**
+- May exhibit both deficient and excessive behaviors in dealing with underlying wounds of autonomy and self-esteem.
+
+### RESTORING THE LOTUS HEALING THE THIRD CHAKRA
+
+**Healing the Third Chakra (Manipura)**
+
+- Essential for healthy metabolism, energy distribution, and determining the course of our lives
+- Two levels of work: internal management of energy and external expression
+- Inner work comes first to overcome inertia and knots within the body
+
+**Overcoming Inertia (Healing Deficiency)**
+
+- First step in individuation process
+- Build up energy as if kindling a fire
+- Increase metabolic energy through:
+  * Attention to diet (complex carbs, sufficient protein, vegetables)
+  * Regular eating intervals and aerobic exercise
+  * Engage in activities that energize
+- Confronting challenges increases psychic voltage and reveals hidden reserves of power
+
+**Building the Fire (Deficient Third Chakras)**
+
+- Nourish body with proper fuel
+- Increase physical fitness to improve energy flow and self-esteem
+- Identify activities that provide nourishment and support
+- Embrace challenges to increase energy and aliveness
+
+**Strengthening the Will (Deficient Third Chakras)**
+
+- Create a long-term master plan for goals and desires
+- Stick to plans or routines to increase feelings of power and control
+- Balance energy distribution by engaging other chakras when needed
+
+**Managing Excess Energy (Excessive Third Chakras)**
+
+- Redirect excess energy to other chakras
+- Open channels for emotional expression and softening the heart
+- Practice relaxation techniques (guided meditation, yoga)
+- Allow downtime without expectations or goals
+
+**Maintaining Balance (Third Chakra Imbalances)**
+
+- Understand your individual energy patterns and needs
+- Cultivate awareness of emotions and thoughts
+- Practice self-acceptance and self-compassion
+- Seek professional guidance when needed.
+
+### OTHER GENERAL STRATEGIES FOR THIRD CHAKRA HEALING
+
+**Third Chakra Healing: General Strategies**
+
+* Give up attachment to being safe:
+  + Accept risks and challenges
+  + Face reality of an uncertain world
+  + Increase personal power by taking responsibility and proactively shaping future
+* Work with anger:
+  + Anger is relevant to third chakra as it expresses assertive energy
+  + Blocked anger can result in deficient or excessive conditions
+  + Deficient structures may not express anger, leading to frustration and weight problems
+  + Releasing blocked anger improves metabolism and stabilizes weight issues
+  + Address past abuses of power to free energy for present challenges
+
+**Give up Attachment to Being Safe**
+
+* Safety is a comforting illusion that limits personal growth
+* Clinging to safety keeps us powerless and wanting the world to be shaped for us
+* Increases personal power through facing challenges and taking risks
+* Need to accept responsibility and mature
+* Meeting challenges and resolving them successfully increases power
+
+**Work with Anger**
+
+* Anger is energy that expresses assertive, fiery emotion
+* Blocked anger can result in deficient or excessive conditions
+* Deficient structures may not be aware of their own anger
+* Allowing expression of anger gives permission to have this energizing and empowering emotion
+* Releasing blocked anger improves metabolism and helps stabilize weight problems
+* Address past issues that caused anger to free energy for present challenges
+* Inappropriate charge for present issues can be addressed by examining past abuses of power
+
+**Feelings, Needs, and Drives**
+
+* Core of human life is grounded in feelings, needs, and drives
+* Shame hounds us to the core when these are suppressed
+* Addressing shame frees up energy for personal growth.
+
+**Therapeutic Anger:**
+- Releasing anger towards parents helps prevent continuous badgering of partners.
+- Standing up to parents prevents resentment towards wives, girlfriends, or daughters.
+- Expressing anger at its source increases empowerment and decreases excessive harm.
+- Clients may fear expressing anger in therapy will make them horrible, angry people.
+- Expressing anger actually makes clients less angry and more effective in their lives.
+
+**Third Chakra and Shame:**
+- Imbalances in third chakra lead to shame demon attacks.
+- Shame foundations undermined by fear of making mistakes or not being "good enough."
+- Shame results from abuse, seeing the child self in context helps dissipate it.
+- Inner child dialogues replace critical, shaming programs with compassion and forgiveness.
+
+**Building Ego Strength:**
+- Third chakra work focuses on building ego strength.
+- Develop contact with authentic self through body and feelings/aspirations.
+- Raise self-esteem by attacking shame demon.
+- Create a sense of power through meeting challenges and engaging in stimulating activities.
+- Release inhibitions and fears to access spontaneous, playful energy.
+
+**Manifesting Goals:**
+- Honoring consciousness coming down from top chakra with goals and intentions.
+- Develop willpower by applying energy to goals or routines that develop skills/energy.
+- Results positively reinforce the process and ground third chakra power in reality.
+
+**Healthy Third Chakra:**
+- Healing third chakra brings a healthy sense of power.
+- Promotes proactive, causative approach to life.
+- Confident, warm, responsible, and persevering personality.
+- Able to confront opposition effectively without reactive retaliation.
+- Person with good vitality and playful ability to laugh at themselves.
+
+## CHAKRA FOUR
+
+**Chakra Four (Fourth Chakra) at a Glance**
+- **Element:** Air
+- **Name:** Anahata (unstruck)
+- **Purposes:** Love, balance
+- **Issues:** Love and relationship balance, self-love, intimacy, anima/animus, devotion, reaching out and taking in
+- **Color:** Green
+- **Location:** Chest, heart, cardiac plexus
+
+**Identity**
+- **Social Orientation:** Self-acceptance, acceptance of others
+
+**Characteristics (Balanced)**
+- Compassionate
+- Loving
+- Empathetic
+- Self-loving
+- Altruistic
+- Peaceful, balanced
+- Good immune system
+
+**Developmental Stage and Tasks**
+- Developmental Stage: 4 to 7 years
+- Developmental Tasks: Forming peer and family relationships. Developing persona
+
+**Basic Rights**
+- To love and be loved
+
+**Traumas and Abuses**
+- Rejection, abandonment, loss
+- Shaming, constant criticism
+- Abuses to any other chakras, especially lower chakras
+- Unacknowledged grief (including parents’ grief)
+- Divorce, death of loved one
+- Loveless, cold environment
+- Conditional love
+- Sexual or physical abuse
+- Betrayal
+
+**Deficiency**
+- Antisocial
+- Withdrawn, cold
+- Critical, judgmental, intolerant of self or others
+- Loneliness, isolation
+- Depression
+- Fear of intimacy, fear of relationships
+- Lack of empathy
+- Narcissism
+
+**Excess**
+- Codependency
+- Poor boundaries
+- Demanding
+- Clinging
+- Jealousy
+- Overly sacrificing
+
+**Physical Malfunctions**
+- Disorders of the heart, lungs, thymus, breasts, arms
+- Shortness of breath
+- Sunken chest
+- Circulation problems
+- Asthma
+- Immune system deficiency
+- Tension between shoulder blades, pain in chest
+
+**Healing Practices**
+- Breathing exercises (pranayama)
+- Work with arms: reaching out, taking in
+- Journaling, self-discovery
+- Psychotherapy
+- Examine assumptions about relationships
+- Emotional release of grief
+- Forgiveness when appropriate
+- Inner child work
+- Codependency work
+- Self-acceptance
+- Anima-animus integration
+
+**Affirmations**
+- I am worthy of love
+- I am loving to myself and others
+- There is an infinite supply of love
+- I live in balance with others
+
+**Shades of Green**
+- Our culture may be obsessed by power, but we are driven by the need for love
+- The basic right of the heart chakra—to love and be loved—is simple, profound, direct
+- Love is the force that runs our lives
+
+**We cannot live without love, yet it is lacking in the world**
+- All forms of child abuse are travesties of love, not a complete absence of love but an absence of healthy love
+
+**Travesties of Love**
+- Spanking, sexual molestation, severe punishment, smothering, overmanagement with the justification of "I love you"
+- Turning towards warfare and violence instead of love
+- Television violence modeling behavior for children
+- Gangs providing sense of belonging for youth with cruelty as a sign of manhood
+- Political agendas cutting funds for needy populations while defense budget soars
+
+**Mythology and Cultural Values**
+- Myths shape our lives, define what is possible, and influence relationships
+- In Western civilization, the Great Mother archetype has been forgotten
+- The Great Father has become sole protagonist in dominant mythology
+- We have inherited a myth of a broken home
+- Prevalent myth is one of separation from nature, each other, and the divine
+
+**Consequences of Separation**
+- Individuals endowed with moral right to further their own existence at the expense of environment and others
+- Vast separations between men and women, women and women, and men and men
+- Love culturally restricted to limited heterosexual dyads and their offspring
+- Resulting in abuse, divorce, isolation, and limitation
+
+**Healing the Heart and Crossing the Rainbow Bridge**
+- Reconnecting severed parts of the world and recognizing our divine nature as part of greater mystery of unfolding
+- Healing the heart through integration of mind and body, mystical and mundane, self and other into an integrated whole
+- Necessary for assuring the future of this world
+
+### UNFOLDING THE PETALS. BASIC ISSUES OF THE FOURTH CHAKRA
+
+**Fourth Chakra: Heart Chakra**
+
+* Enters the mystery of love and relationships
+* Basic issues: balance, self-reflection, self-acceptance, intimacy, love, compassion, devotion, grief, and self-expression
+
+**Balance**
+
+* Perfect balance between manifesting and liberating currents
+* Foundation for healthy and long-lasting relationships
+* Essential principle at the heart of the chakra system
+* Represents integration of spirit and mind with body and soul
+* Ancient tantric diagram depicts heart chakra as a lotus of twelve petals containing a six-pointed star made of interlacing triangles
+* Balance is essential for love relationships, both self and others
+
+**Love and Relationships**
+
+* Expands our horizons and brings us into deeper connection with ourselves
+* Falls in love: sees things anew, physical connection, confronts deepest nature, reveals shadow, and sets ground for chakra five expression
+* Being loved increases self-experience and divinity, reflects our own divinity, and forces us to examine ourselves in new light
+* Loss of love produces profound despair, throws us back to past, and forces confrontation and healing
+
+**Self-Reflection and Self-Acceptance**
+
+* Love melts rigid attitudes and alters psychic structure
+* Intimacy allows rejected parts of psyche to emerge safely and sets ground for self-expression
+* Being loved increases experience of Self and fosters self-care and pride
+* Loss of love brings vulnerability, confrontation, and healing
+
+**Intimacy**
+
+* Bringing forth deeply interior aspects of the self
+* Honoring self before offering it to another
+* Essential for healthy relationships
+* Blocked by absence of self-love
+* Self-love fosters respectful, honest, compassionate relationships
+
+**Anima/Animus and Eros/Thanatos**
+
+* Heart chakra deals with balance between opposites, feminine and masculine energies, and life and death forces (anima/animus and eros/thanatos)
+* Love unites opposites in perfect harmony
+
+**Grief and Compassion**
+
+* Love brings spiritual awakening, loss produces profound despair, and grief is a necessary part of the process
+* Grief leads to deeper understanding of self and others, fostering compassion and empathy
+* Balance between love and loss allows us to fully experience both
+
+**Devotion**
+
+* Heart chakra also deals with devotion, which deepens our connection to ourselves and others, as well as to the divine.
+
+### SELF-REFLECTIVE CONSCIOUSNESS
+* Clients may not truly establish or live fully in their "I" or Self
+* Beholding self is essential for healing and recognition of soul
+* Self-reflective consciousness = place of self-examination
+* Defines and comes into relationship with oneself
+* Essential for evolution and rising from third chakra obsession to fourth chakra integration and peace
+* Allows integration of psychic pieces and seeing how they relate, becoming whole
+* Requires conscious attention to change patterns and create something new
+* Without self-examination, repetition of past and neurotic patterns
+
+**Self-Examination**
+
+* Births a new integrated Self, not bound by the past
+* Essential for establishing balance in heart chakra
+* Involves mind listening to body's subtle communications
+* Leads to recovery of memories, working through traumas, releasing stored tensions, and completing unresolved emotional transactions
+* Reconnects feelings with mental images, impulses with belief systems, and sensation with meaning
+
+**Mind-Body Balance in Heart Chakra**
+
+* Prime area of balance in heart chakra
+* Involves learning to decipher body's messages
+* Mind listens to body's subtle communications
+* Leads to integration of various parts of experience
+* Love is a bodied truth and somatic reality
+* Work on lower chakras prepares for this higher-level understanding.
+
+### ANIMA AND ANIMUS
+
+- Concepts in Jungian psychology representing the inner feminine and inner masculine archetypes.
+- Help in continuing individuation process in heart chakra.
+- Men believed to carry anima more prominently, women animus, but both genders have both.
+
+**Characteristics:**
+
+- Archetypes also exist externally as cultural stereotypes.
+- First imprinting comes from parents and media, influencing our perceptions.
+- Culturally dictated images of masculine and feminine can lead to repression if polarized.
+
+**Repression and Projection:**
+
+- Repressed unconscious anima or animus gets projected onto others.
+- Can cause conflict in intimate relationships.
+- Both genders capable of carrying undeveloped archetype.
+
+**Impact on Relationships:**
+
+- In heterosexual and gay relationships, roles can be reversed.
+- Repressed side must be developed for wholeness and balanced relationships.
+
+**Hieros Gamos (Internal Sacred Marriage):**
+
+- Stage in individuation process where masculine and feminine energies within are balanced.
+- Occurs during midlife when earlier development favored one side over the other.
+- Balancing both archetypes leads to stable, respectful relationships with freedom.
+
+**Implications:**
+
+- Recognizing and developing undeveloped sides leads to personal growth.
+- No one else can live our unlived lives for us.
+- Avoid looking for someone to embody repressed qualities while remaining incomplete.
+
+### RELATIONSHIPS WITH OTHERS
+
+**Relationships and Balance:**
+- Love unites living beings and completes them (Teilhard de Chardin)
+- Importance of balance in personal relationships
+- Imbalances lead to pressure, frustration, and stress
+- Balance is a constantly fluctuating homeostasis
+
+**Heart's Desire for Balance:**
+- Reaching out and taking in (fourth chakra)
+- Fear and grief can block reaching out and taking in
+- Healthy relationships involve understanding each other through love, not just extreme stress
+
+**Reaching Out and Taking In:**
+- Blockages in heart chakra affect arms movement
+- Deficient chakras result in an inability to receive love
+- Imbalance leads to the pursuer-distancer dynamic
+
+**Case Studies:**
+- **David and Julie:** David mistrusts and defends; Julie reaches out
+  - David's mother's overly sweet love left him defensive
+  - Exercise to practice different dynamics
+- **Kathy:** Fear of abandonment and surrendering
+  - Focus on the sweetness in new relationship
+  - Practicing pulling her lover in while holding her ground
+
+### ATTACHMENT AND FREEDOM
+
+homas Moore's exploration of the struggle between the soul's need for attachment and the spirit's need for freedom in relationships.
+
+* Longing and fear of commitment in heart chakra
+* Lower chakras seek security, while upper chakras crave novelty
+* Soul finds security, spirit hates constriction and limitation
+
+**Balancing Attachment and Freedom:**
+
+* Healthy relationships honor both upward and downward movements of energy
+* Need to create balance between expansion and constriction, freedom and commitment
+* Quote: "Many people seem to live the pain of togetherness and fantasize the joys of separateness"
+
+**Impact of Childhood Experiences:**
+
+* Children of divorce search for refuge in attachment or freedom
+* Ignores dynamic balance that serves both liberation and manifestation
+* More we allow one kind of energy, more the other can come through
+
+**Commitment and Solitude:**
+
+* Once commitment is made, easier to respect partner's solitude/freedom
+* Once freedom is respected, easier to make a commitment
+* More a partner insists on one aspect, more his lover will yearn for its opposite
+
+**Dynamic Balance:**
+
+* Dance between attachment and freedom
+* Allowing both energies leads to fruitful relationships that don't settle down in one place.
+
+### EROS AND THANATOS
+
+**Eros and Thanatos:** the dynamic forces in love and relationships
+- Eros: force of life, allures and unites (son of Aphrodite)
+- Thanatos: force of death, divides and destroys (born of Night)
+
+**Entering a Relationship:**
+- Swept up by Eros
+- Expanded consciousness and merging with something greater
+- Longing for union and making living worthwhile
+
+**The Dark Side of Love:**
+- Our unconscious patterns sabotage relationships
+- Annoyance towards partner's lack of consciousness
+- Missed cues to partner's needs
+- Facing Thanatos: feeling helpless and powerless
+
+**Inseparable Steps in the Dance:**
+- Eros and Thanatos cannot be controlled
+- Not all relationships end in tragedy, but coming together and parting are necessary
+- Idealistic views of love may cause great pain when faced with Thanatos
+
+**Denial of Thanatos:**
+- Pain can be avoided by honoring Thanatos' presence
+- Claim, not deny, our need for separateness and understand partner's fear of engulfment
+
+### GRIEF: DEMON OF THE HEART
+
+**Grief:** the experience of loss and sorrow that sits on the heart chakra when Thanatos strikes. It makes the heart heavy and hard to open, leading to numbness, rigidity, and a sense of being dead inside if denied. When acknowledged and expressed, grief allows for opening of the heart, shedding tears, expressing truth, deepening breath, and creating spaciousness, reborn hope, and compassion (William Shakespeare).
+
+**Thanatos:** the Greek god of death.
+
+**Heart Chakra:** one of seven main energy centers in the body, located in the chest, associated with love, joy, and emotional connection.
+
+**Love:** an important element of well-being and spiritual growth.
+
+**Impairment in ability to find love:** a profound personal wound leading to codependency and inadequacy.
+
+**Collective situation:** serious issue affecting how we treat each other socially.
+
+**Grief in end of relationship:** puts us back in touch with primal abandonment, feeling powerless, but passing if acknowledged and expressed.
+
+**Subtle abandonment:** grief from less obvious situations, such as lack of independence or authenticity.
+
+**Susan's story:** a woman whose mother loved her too much, making her feel special and never alone, but also unable to be independent and leading to fear of inadequacy and codependency.
+
+**Mourning for loss of authenticity:** grief Susan carried from the loss of her own independence and ability to be herself.
+
+**Compassion:** healer of grief, allowing us to open our hearts and connect with others.
+
+**Abandonment:** feeling of being left alone or unloved, causing profound grief.
+
+**Powerlessness:** feeling unable to control a situation leading to grief and despair.
+
+**Codependency:** tendency to become excessively emotionally dependent on someone else for approval and identity.
+
+**Independence:** ability to be self-sufficient and autonomous.
+
+**Authenticity:** being true to oneself, expressing genuine emotions and thoughts.
+
+**Smothering and possessive relationships:** unhealthy relationships where one partner controls the other's actions and feelings.
+
+**Shallow definition of love:** inadequate understanding of love based on attachment and dependency rather than mutual respect, growth, and connection.
+
+**Personal problem:** grief affecting an individual's emotional well-being and relationships.
+
+**Collective situation:** societal impact of unresolved grief leading to misunderstandings, conflicts, and lack of empathy.
+
+### COMPASSION
+
+**Compassion:**
+- Defined as "to have passion with" and reaches beyond ourselves to understand the needs of others
+- Requires being in touch with our own yearnings and pain
+- Expands upper and lower chakra expression, balancing stability and openness
+- Penetrates deeply, providing support for all living beings (Great Compassion)
+- Practice deep compassion instead of fixing things when unable to do so
+
+**Nagarjuna:**
+- Indian philosopher who emphasized the importance of compassion
+- Pain opens us up to deeper understanding of others and expands our being
+
+**Quotes:**
+- "Whoever wishes to attain Buddhahood need not follow various practices but must only practice one thing and that is deep compassion."
+
+**Chenrezig:**
+- Compassion does not mean fixing things, but offering understanding instead
+- Importance of empathy and non-demanding listening when working with couples or others in need
+
+**Devotion:**
+- Selfless love and conscious surrender to a greater force beyond oneself
+- Path of bhakti yoga in various branches of yoga
+- Transcends perceived limitations and allows energy within the Self to flow beyond
+- Can lead to dependency on external sources if not balanced with self-connection and inner work
+- Importance of reconnecting responsibly to the self when the object of devotion leaves or falls from grace.
+
+**Additional thoughts:**
+- Compassion and devotion are interconnected, as compassion is a form of love for others
+- Devotion can also lead to expansion of the ego if not balanced with self-awareness and inner work.
+
+### GROWING THE LOTUS DEVELOPMENTAL FORMATION OF THE HEART CHAKRA AT A GLANCE AGE
+
+**Fourth Chakra Development:**
+- **Age 4 to 7 years**
+- **Tasks:** Formation of social identity and gender roles, development of altruism, formation of peer relationships
+- **Needs and Issues:**
+  - Initiative vs. guilt: Child begins to understand consequences of actions and develops a sense of responsibility
+  - Love vs. rejection: Seeking love and acceptance from peers and family
+  - Social acceptance: Desire to fit in and belong
+  - Self-acceptance: Developing a positive self-image
+
+**Fourth Chakra Development Stages:**
+- Begins between 3-4 years, after autonomy and basic impulse control are established
+- Marks the formation of social identity or persona
+- Child begins to see world beyond own needs
+- Relationships expand from one-on-one to larger family and social structures
+- Development may not be smooth
+
+**Parent-Child Relationship:**
+- Internalization of parent-child relationship is important
+- Context of relationship also matters, e.g., fear vs. love
+- Eric Berne's transactional analysis outlines internalized relationships as parent, adult, or child scripts
+
+**Impact on Life:**
+- We may find ourselves repeating these relationships with others
+- Inner critic and rebellious urges may both clamor for the driver's seat throughout life.
+
+**Child Development and Gender Identification:**
+- Children may imitate parents or peers through identification, forming relationship programs and internalizing gender roles.
+- Observing family members provides models for gender-oriented behavior.
+- Gender roles are reinforced during childhood with messages about masculinity and femininity.
+- Splitting and repression of masculine or feminine traits can lead to personal crises in midlife.
+
+**Impact of Family Dynamics on Social Identity:**
+- Children internalize not only their relationship with parents but also the family system as a whole.
+- Role assignments (e.g., eldest, youngest, middle child) shape social identity and influence behavior.
+- Childhood roles in the family are often reenacted in adult relationships and social arenas (school, work).
+
+**Social Identity Development:**
+- The development of a social identity prepares children for more complex interactions with the larger world.
+- Balancing autonomy and relinquishing it is essential during this stage.
+
+
+### For the child whose autonomy is weak, there is a tendency to be swept away by others, be defined by them, or live in fear of losing the self. A kinder
+
+**Early Childhood Development (Ages 3-6): Preoperational Period**
+
+* Autonomy: Weak for some children, leading to being swept away by others or living in fear of losing the self.
+* Behavior driven by external influences and lack of self-awareness.
+* Intellectual development takes a leap, moving from sensory-motor to conceptual-symbolic.
+* Children begin to understand relationships between people and components of the world around them.
+* Interest in concepts and creating larger ideas based on experiences.
+* Moral development: Good boy/nice girl stage described by Kohlberg.
+
+**Social Development and Emotional Needs**
+
+* Children form relationships as a basis for fourth chakra development.
+* Stable routines provide security and identity.
+* Disruptions in relationships can threaten security and developing social identity, affecting self-esteem.
+* Peer relationships begin to develop at this age.
+* Imaginary playmates common during this period as practice for real relationships.
+
+**Questions to Consider for Healthy Family Relationships**
+
+* Are family relationships based on fighting for rights or giving up oneself?
+* Is emotional expression and affection modeled?
+* Is communication open, and are problems worked through in a healthy way?
+* Is there consistency and equality among siblings?
+
+**Initiative vs. Guilt (Struggle of Fourth Chakra Development)**
+
+* Building on the previous stage of autonomy vs. shame.
+* Initiative leads to reaching out to others, love, and heart chakra development.
+* Shame inhibits reaching out and awakening of heart chakra.
+
+**Socialization and Ego Development**
+
+* Children learn behavior patterns and values that the culture deems important.
+* Social identity often develops at the cost of previous identities.
+* Denial of lower chakras for social acceptance and ego enhancement can lead to emotional emptiness.
+
+**Integration of Persona and Shadow**
+
+* Parts of ourselves that get ignored or rejected become part of our shadow, split off from the persona.
+* Balance and wholeness come from reuniting the persona with the rejected shadow.
+
+**Fourth Chakra Development**
+
+* Transcendence of ego and integration of higher and lower chakras.
+* Creation of sacred marriage of masculine and feminine.
+* Development of social empathy and altruism.
+* Achievement of balance within and expression through relationships with others.
+* Gateway to spiritual fulfillment and personal mastery.
+* Reward: Self-acceptance and self-love.
 
 ### TRAUMAS AND ABUSES
+* Lack of love is devastating and disrupts the heart chakra, which integrates and unifies us
+* Most abuses occur within family relationships, causing a distortion of the relationship and shutting down the connection to others
+* Abuse impacts development on three levels: the experience of abuse, interpretation of abuse, and fusion of abuse with love
 
-Lack of love is devastating as it disintegrates us from ourselves. Love integrates and lack of love disintegrates. Children are confronted by a tormenter they love, not one they hate, which has a tragic influence on their entire life.
+**Effects of Childhood Abuse:**
 
-**Abuse Traumatizes the Heart Chakra**: Most abuses occur within family relationships and happen at the hands of people we love. This distorts our relationship and causes us to shut down the connection, close off the heart, and pull back into ourselves.
+* A child's first understanding of love comes from fulfilling survival and dependency needs
+* Traumatic experiences can distort natural development in any chakra
+* The abuse-love link perpetuates abuse in adult relationships
+* Superficial attention leaves the child with a superficial capacity for love
+* Abuse can impact physical, emotional, and psychic development
+* Abuse undermines the natural developmental process and interferes with self-esteem and relationship to others
 
-**Relational Capacity**: When primary relationships are distorted, our ability to love and connect is diminished. We see the bigger picture less clearly, preventing us from rising into a larger sense of our own being.
+**Impact of Abuse on Self-Love:**
 
-**Childhood Abuse Effects**: A child's trust and love for caretakers can be used against them, causing simultaneous effects on three levels: 1) The experience of abuse, 2) Interpretation of the abuse, and 3) Fusion of abuse with love. This link perpetuates abuse in adult relationships.
+* Children identify with their caretakers and take on their attitudes towards themselves
+* Abuse makes us feel unlovable and convinces us of our intrinsic flaw
+* Loss of self-love results in seeking validation from others, which often drives them away
+* Giving everything to another leaves us bankrupted and without a center to attract others.
 
-**Superficial Love**: If a child is not touched or given specific attention, their love for others will be superficial. They suffer physically from lack of touch, emotionally from feelings of shame, and conceptually from a distorted concept of love.
+**Abuse as the Antithesis of Love:**
 
-**Sexual Abuse**: A father sexually abusing his daughter who loves and trusts him teaches her a distorted form of relating with no respect for boundaries. Adult survivors often feel disembodied, have poor boundaries in their relationships, and define their worth in sexual terms.
+* Abuse is the opposite of love and interferes with our love for life
+* If life is painful or lacking in connection, we no longer want to relate to it
+* Feeling unlovable makes us cut off from our divinity and specialness as human beings.
 
-**Internalized Criticism**: If a child is ignored or shamed by important people in their life, they internalize that distortion in their relationship to themselves. Their own internal voice carries that criticism, keeping them in a state of utter worthlessness.
+### INTERNALIZED RELATIONSHIPS
+**Internalized Relationships:**
+- Archetypal components of psyche shaped by early family experiences
+- **Mother:** if mistreated, affects understanding of feminine and relationship expectations
+  - Impaired: fear of control, expectation of withholding
+  - Projections on women in life lead to unhealthy relationships
+- **Father:** influences relationship with masculine qualities and all men
+  - Repeating patterns with same kind of person, expecting different results
 
-#### THE ABUSE ITSELF 
+**Concepts:**
+- Imago: composite picture of influential figures in early life, etched into nervous system
+- Programming reactions, defenses, behaviors, interpretations of events
+- Unraveling primary relationships necessary for self-reflective consciousness and growth
 
-1. Abuse teaches a form of love that undermines natural developmental processes and interferes with the internal wiring of the physical, emotional, and psychic system.
-2. Abuse makes individuals feel unlovable, defective, and ashamed, leading to a loss of self-love and connection to their divinity.
-3. Without relationship to the self, reflective consciousness is impossible, leaving individuals disconnected from their ground and seeking it through others.
-4. When individuals give everything to someone else, they become bankrupt and lack a center to attract others because no one is home within them.
+**Impact on Current Relationships:**
+- Provide training ground for personal growth
+- Mirror our hopes, fears, strengths, and weaknesses
+- Offer opportunities to reclaim rejected parts of ourselves
 
-#### INTERNALIZED RELATIONSHIPS
+**Challenges in Bonding:**
+- Unintegrated parts seek bonding elsewhere
+- Bonding patterns can be oppressive, leading to loss of fresh perspective on partner
+- Conscious awareness necessary to break unhealthy patterns
 
-Our relationship with our mother affects how we understand the archetypal symbol of Mother as well as the feminine in general. If mistreated, our internal relationship to the feminine will be impaired.
+**Family Impact:**
+- Mother's treatment affects relationship with feminine and all it represents
+- Father's treatment influences understanding of masculinity and relationships with men
 
-We project this impairment on women we meet in life, relating more to our damaged internal image of the feminine than to actual women.
+**Key Quotes:**
+- "Internalized relationships form archetypal components of our psyche."
+- "The way our father treated us affects our relationship with all men as well as our internal masculine."
+- "Our current relationships always provide the training ground for this process."
+- "Unintegrated parts of ourselves that are not bonded into the heart with love will seek bonding elsewhere."
 
-Our father's treatment affects our relationship with all men as well as our internal masculine qualities, such as aggression, authority, logic, or initiative.
+### TWISTED CONCEPTS OF LOVE
+* Conflicted relationships skew our conception of love
+* Children's dependency prevents recognition of contradiction between love and abuse
+* Children equate love with pain and mistreatment, feel duty to bear it
 
-The heart chakra is about bonding. Unintegrated parts of ourselves seek bonding elsewhere, leading to unhealthy relationships with partners who carry critical parents, needy children, or rejecting aspects of their personality.
+**Impact on Heart Chakra and Upper Three Chakras:**
 
-To break these patterns, we must become conscious of our internal relationships within ourselves by listening, discovering, and honoring the many aspects of our inner complexity.
+* Affects ability to speak truth, see clearly, and question
+* Acceptance of unhealthy relationships impacts heart chakra
 
-#### TWISTED CONCEPTS OF LOVE
+**Fantasy Bond:**
 
-1. *Conflicted relationships skew our conception of love.*
-2. *Children equate love with pain and mistreatment.*
-3. *Acceptance of abuse impacts the heart chakra, as well as the upper three chakras.*
-4. *The love a child has for his or her parents ensures that their conscious or unconscious acts of mental cruelty will go undetected.*
-5. *In adult relationships, we may be blind to abuse from our partner due to the fantasy bond illusion.*
+* Adults may be blind to abuse in relationships
+* Illusion of being loved keeps us accepting mistreatment
+* Make excuses for partners, continue unhealthy relationships
 
-#### REJECTION
+**Rejection:**
 
-1. Rejection is a universal experience that wounds all humans deeply.
-2. Fear of rejection causes people to hold back their love and close down their heart chakra.
-3. When rejection occurs, we feel helpless, our self-esteem plummets, and we may experience unfathomable depression and longing.
-4. Rejection magnifies basic shame and turns us against ourselves, creating the deepest wound of all.
-5. For young children, rejection is equivalent to death as they rely on their parents for survival.
-6. When we deeply love someone, we identify with them and share their feelings, so when rejected, we adopt the same stance and reject ourselves.
-7. Some people get angry instead of sad after being rejected, which can be a means of self-preservation.
-8. Rejection can uncover truths that need to be faced, but too much anger may obscure these lessons.
+* Universal experience that wounds deeply
+* Fear of rejection triggers feelings of helplessness and despair
+* Identification with rejector leads to self-rejection and grief
 
-### CHARACTER STRUCTURE RIGID \ Hysteric
+**Impact on Heart Chakra:**
 
-1. **The Rigid (Achiever)**
-  a. Henry was a highly successful CEO with a good-looking and personable appearance.
-  b. Henry's heart was blocked due to parental rejection during his fourth chakra developmental period.
-  c. His father had high expectations for him, leading to feelings of inadequacy.
-  d. He channeled his aggressive energy into achievement, hoping it would win love and recognition.
-  e. Despite being successful, he was unable to experience satisfaction or healing due to the rejection of his true self.
+* Rejection felt as death for a child
+* Loss of love triggers abandonment fears
+* Deeper the love, stronger identification with the other
 
-2. **The Hysteric**
-  a. Women tend toward this character structure more often than men due to cultural permission for emotional expression.
-  b. The original wound is similar to the Rigid type, with rejection from the father and high expectations for performance.
-  c. She focuses on family and relationships, seeking closeness but becoming demanding and possessive.
-  d. She identifies with her social and emotional identities, creating excess in chakra two.
-  e. On the positive side, she can be caring and supportive when her needs are met.
+**Effects of Rejection:**
 
-#### EXCESS AND DEFICIENCY EXCESS
+* Self-preservation: Anger instead of sadness
+* Uncovering truths and learning important lessons
+* Need for self-compassion during grief process
+* Reconnecting with core self once again.
 
-Excess in the heart chakra occurs when one overcompensates for their own wounds by using love excessively, which leads to others becoming victims in their drama of overcompensating. 
+### CHARACTER STRUCTURE THE RIGID (Achiever)
 
-Deficiency in the heart chakra occurs when one withdraws from love due to past wounds, leading to a closed system where love becomes conditional. The deficient heart chakra responds to wounds of love by waiting for someone to make the first move and fix their pain. 
+- **Henry's Character:** Good-looking, personable, successful CEO with radiating energy but lacking depth and unable to open to deeper feelings
+- **Body Language:** Arched back, tight chest, restricted breath, military posture
+- **Energy System:** Highly charged, trapped in a loop, blocked feelings
+- **Background:** Rejection during fourth chakra developmental period due to parental expectations and favoritism towards younger sibling
+- **Childhood Experiences:** Crying and clingy behavior scorned, forced to hide emotional needs, channeled energy into achievement
+- **Parental Influence:** Father had high expectations, mother supported rejection of authentic self
+- **Consequences:** Unable to experience satisfaction or healing from love, restlessly moves on, heart closed down
+- **Developmental Period:** Rejection of true self in favor of achieving self, energy shut down in second and fourth chakras, poured into third chakra for business success (Figure 4.2)
+- **Name:** Achiever character structure
 
-A combination of both excess and deficiency in the heart chakra can lead to oscillating between openness and closedness, depending on the individual's emotional state. It is important to examine one's basic stance in life and bring it into balance whenever possible.
+**Key Terms:** Character type, Rigid (Achiever), good-looking, personable, highly successful CEO, body language, energy system, blocked feelings, parental rejection, fourth chakra developmental period, childhood experiences, crying and clingy behavior, military posture, authentic self, achieving self, second chakra, fourth chakra, ego/activity center, love, satisfaction, healing.
+
+**C. G. JUNG**
+* **Rigid (Achiever):**
+  + Hold back energetically due to fear of own feelings and disconnected from inner child.
+  + Afraid to surrender and never feel enough, constantly seeking achievement.
+  + Prone to addiction or burnout.
+  + Healing requires meeting vulnerable child and expressing emotions.
+* **Hysteric:**
+  + Women more likely than men due to cultural permission to express feelings.
+  + Rejection from father leads to hysterical expression of emotions for attention.
+  + Focus on family and relationships, becoming demanding and possessive.
+  + Uneven and sporadic emotional expression.
+  + Pear-shaped body with rigidity in chest.
+  + Need for authenticity met through strong emotions.
+  + Can be caring, supportive, charming.
+  + Long for closeness but fear revealing shortcomings.
+* **Hurried Child:**
+  + Difficulty with reciprocating tenderness and often leave relationships first.
+  + Defended against rejection, unconsciously reject others.
+  + Hungry for real love directed towards authentic self.
+
+**Commonalities:**
+
+* Rejection from father during maturation.
+* Lack of empathy from parents.
+* High expectations for performance.
+* Difficulty with intimacy and authenticity.
+
+**Rigid (Achiever):**
+
+* Disconnected inner child.
+* Fear of feelings, unable to surrender.
+* Afraid they're never enough.
+* Prone to addiction or burnout.
+* Healing requires meeting vulnerable child and expressing emotions.
+* Energy is channeled into achievement without satisfaction, leaving in frustration.
+* Heart chakra is closed, energy ascends instead of descending.
+
+**Hysteric:**
+
+* Rejection met with hysterical expression of emotions for attention.
+* Focus on family and relationships, becoming demanding and possessive.
+* Uneven and sporadic emotional expression.
+* Longing for authenticity met through strong emotions.
+* Pear-shaped body with rigidity in chest.
+* Difficulty breathing when triggered emotionally.
+* Can be caring, supportive, charming.
+
+**Both:**
+
+* Heart chakra is closed or tentatively open.
+* Fear of revealing shortcomings and vulnerability.
+* Unconsciously reject others to protect themselves.
+* Hungry for real love directed towards authentic self.
+
+### EXCESS AND DEFICIENCY
+
+**Heart Chakra Excess:**
+
+* Disconcerting to think of an excess in the heart chakra as a problem
+* Not an excess of actual love, but excessive use of love for one's own needs
+* Occurs when we overcompensate for our own wounds
+* Others become victims in our drama of overcompensating
+* Love used like a drug to remove ourselves from responsibilities and unresolved pain
+* Compensating for the incompleteness within oneself or using another to go where one cannot or will not go
+* Codependent behavior: excessive caretaking and meddling, denying other's self-reliance
+* Love becomes an obsession, blurring the lines between oneself and the loved one
+* Jealousy: a projection of insecurities, product of the hungry heart
+* Craving connection, cannot tolerate separation
+* Needy behavior results in rejection, deepening underlying wound
+* Poor boundaries and poor discrimination
+* Idealistic thinking about love leading to unrealistic expectations
+* Addiction-like focus on love undermines clarity and judgment
+
+**Codependency:**
+
+* Excessive heart chakra where the emphasis on others is out of balance
+* Compulsive need to fixate on others with excessive caretaking and meddling
+* Behavior arises from denied needs for such care
+* Denies other's self-reliance
+* Not an act of love but an obsession disguised as love.
+
+**Effects of Heart Chakra Excess:**
+
+* Demanding and possessive love
+* Blindly connected love
+* Jealousy: projection of insecurities
+* Poor boundaries and poor discrimination
+* Idealistic thinking about perfection of love leading to unmet expectations
+* Addiction-like focus on love undermines clarity and judgment.
+
+**Alan's Reaction: Avoidant Response due to Deficient Heart Chakra**
+
+* Alan went through a painful divorce and declared he would never fall in love again
+* Friends encouraged him to find someone new, but he didn't want anyone else
+* He was reacting to the wound with an avoidant response, closing shop and avoiding risks
+* Known as deficient heart chakra, responses to wounds of love include:
+  * Withdrawal from love
+  * Love becomes conditional ("If you don't treat me better...")
+  * Playing games of coldness to manipulate others
+  * Waiting for rescue instead of taking risks
+  * Feeling depleted, unwilling to give or forgive
+  * Dwelling on old relationships and holding onto anger
+  * Judging others as a defense mechanism
+
+**Characteristics of Deficient Heart Chakra**
+
+* Basic stance is avoidant due to past hurt
+* Feels unlovable at the core, fears intimacy may reveal this core
+* Lacks empathy and compassion for self and others
+* Prone to bitterness, cynicism, and judgment as a defense mechanism
+* Feels unable to afford the risk of opening up and giving love
+* Stuck in anger and betrayal from past relationships
+* Deprived of love leads to depression and isolation
+
+**Combination of Deficient and Codependent Heart Chakra**
+
+* Common to oscillate between deficient and codependent heart chakra
+* When open, overflowing with love for everyone; when closed, pushing others away
+* Fears revealing unacceptable core in intimacy
+* Needs self-love to promote pride in one's interior
+* Cycle perpetuates itself based on fear of loneliness or rejection
+* Important to examine basic stance and bring it into balance whenever possible
 
 ### RESTORING THE LOTUS HEALING THE HEART CHAKRA
 
-1. Love is the essence that heals.
-2. Patience, skill, training, and talent all play their part, but without love they are merely techniques.
-3. All wounds cry for the universal medicine of love.
-4. The cosmic glue of the universe, love is the force that bridges the gaps that cut us asunder.
-5. Soulful love, as Thomas Moore has so aptly stated, is neither abstract nor empty, but worships the particular, the unique, the individuated self.
-6. Honoring our individuality, we honor the subtle relationships within ourselves.
-7. Our feelings are brought into relationship with our belief systems; our vulnerable child forms an alliance with our responsible adult; our inner masculine makes love with the inner feminine.
-8. As we reflect upon ourselves, we integrate more and more pieces of ourselves.
-9. Our sense of the whole becomes larger and stronger like an ecosystem whose stability and magnificence increases with diversity.
-10. We become more complex, more mature, and capable of greater and greater possibilities.
-11. This sets the ground for creativity in chakra five, and for penetrating insight and understanding in chakras six and seven.
-12. Reflective consciousness allows this integration and it is the task usually undertaken through psychotherapy.
-13. Our capacity for understanding and working with outer relationships is enhanced by the sophistication of our inner one.
-14. Instead of relating from a single part of ourselves, which makes us inflexible, we have a broader base from which to relate.
-15. There is simply more there for another to be attracted to, and more of us there to meet them.
-16. Self-acceptance sets the stage for our social identity.
-17. We can then see our role within the complex web of relationships around us, and can bring balance to the larger components of our culture.
+* Love acts as a healing force, bridging gaps and mending wounds (Shakespeare)
+* Honoring individuality essential for soulful love
+* Inner work of self-love: recognizing and reclaiming individual parts
 
-#### LOVE OPENS WITH FEELING
+**The Task of Self-Acceptance**
 
-* Love opens with feeling: Feelings are the antennae of the soul.
-* When our feelings are hurt, we react protectively and close down our feelings.
-* The realm of feelings is an internal flow of energy that moves through the body.
-* In the heart chakra, we access feelings by use of the breath.
-* Holding back feelings restricts vital nourishment to cells and muscles.
-* Deepening the breath allows repressed feelings to surface and be mobilized.
-* The first step in breath work is to feel your own breathing and have someone else watch you breathe.
-* Notice how you hold your breath, whether you hold it before exhaling or taking the next breath.
-* Notice what feelings, impulses, and desires arise during this process.
+* Honoring individuality: unique selves within us
+* Recognize and integrate various subpersonalities
+* Bring feelings into relationship with belief systems
+* Form alliances between inner child and responsible adult
+* Inner masculine makes love with inner feminine
+* Reclaiming parts with loving awareness of heart chakra
 
-#### REACHING OUT AND TAKING IN WITH THE BREATH
+**Benefits of Self-Integration**
 
-*Exercise for opening the heart*: Coordinate reaching out and taking in movement with breath exhale and inhale.
-1. Have friend lay down, notice breathing rhythms, gently encourage awareness of held parts, lightly massage shoulders/pectoral muscles/heart chakra area.
-2. Encourage partner to reach arms forward on exhale, pull them in toward heart chakra on inhale; slow and conscious motions.
-3. Think of things that make you feel loved, let go of fear of rejection, offer love from your own heart.
-3. Stand over partner, grab hands, offer resistance when pulling arms in/pushing away to increase energy flow and open blocked feelings; observe and provide feedback.
+* Increases complexity, maturity, and capabilities
+* Sets ground for creativity (chakra five)
+* Penetrating insight and understanding (chakras six and seven)
 
-#### GRIEF WORK
+**Inner Family Exercise**
 
-1. Grief work is essential for reclaiming lost parts of oneself after experiencing loss, especially when it comes to loved ones.
-2. The point of grief work is to regain connection with the self inside rather than increase attachment to what was lost.
-3. Forgiveness is an important step in healing and involves understanding situations in terms of the forces acting on both ourselves and others.
-4. To forgive oneself, one must look at their actions compassionately, separate their basic essence from the mistake made, and make amends if necessary.
-5. Forgiving others for harm they have caused is often more difficult but can be encouraged through understanding the forces acting on them at the time.
+1. List various parts of yourself: inner child, critic, lover, clown, parent, achiever, quiet one, etc.
+2. Describe each part with a few words: playful, wounded, needy, exhausted, driving, relentless, etc.
+3. Write down what each part wants: fun, perfection, approval, recognition, etc.
+4. Determine how often these parts succeed and the realism of their desires
+5. Explore relationships between parts: inner child and adult, critic and artist, clown and sad inner child, hero and others
+6. Write dialogs between parts to understand dynamics and seek resolution.
 
-#### LOVE MUST BE WILLED AND CREATED, AS WELL AS FELT
+### LOVE OPENS WITH FEELING
+- Feelings are the antennae of the soul, acting as sensory organs for emotional experiences.
+- Hurt feelings lead to protective reactions and closing off emotions.
+- The realm of feelings is located in the second chakra and accessed through breath in the heart chakra.
 
-- The feeling of love may not be present, but it can still be created through action.
-- Love is a daily commitment to behave in a loving and caring fashion towards oneself and others.
-- The purpose of the fourth chakra is to expand beyond one's limited ego into a wider sense of connection with all life.
-- It is important not to deny or neglect the smaller self, but to find joy in service and altruism.
+**Breath and Feelings:**
+- Holding back feelings results in holding the breath, restricting air flow, and deadening oneself.
+- Deepening the breath allows repressed feelings to surface and restore natural balance.
+- Practicing breath work with a trusted friend or therapist is beneficial.
+- Yoga breathing exercises (pranayama) can also be used to open the chest and charge the body with prana, the vital energy of air.
 
-Love Must Maintain a Balance of Energies:
-- The heart chakra should not be wide open in our crowded social milieu; it needs boundaries to feel protected.
-- Many people struggle with balancing intimacy and autonomy, favoring one side over the other.
+**Observing the Breath:**
+- Most people do not pay attention to their breathing patterns.
+- The first step in breath work is observing your own breathing and allowing someone else to observe you breathe.
+- Feedback from an observer can help identify when and how you hold the breath during the cycle.
+- Smooth and balanced breathing is the goal, with an emphasis on belly or chest breathing.
+- Consciously expanding restricted areas can bring forth feelings, impulses, and desires.
+- Try not to block these emotions during the practice.
 
-#### COME CLOSER, GO AWAY
+### REACHING OUT AND TAKING IN WITH THE BREATH
 
-Sit in front of your partner cross-legged or in a chair, with hands meeting at heart level. Allow your partner to pull your hands towards their heart while saying "Come closer." Offer some resistance but not enough to block the movement. When hands reach the heart, allow your partner to push them back away from their body, saying "Go away." Repeat this process, allowing feelings and resistances to arise.
+**Exercise for Opening the Heart:** A simple practice that coordinates arm movements with breath for facilitators.
 
-The exercise can reveal whether one or both partners want more closeness or distance, and how balanced the relationship is.
+**Step One:**
+- Have partner lay down with knees bent, feet in contact with ground
+- Observe their breathing patterns and aware of held areas
+- Encourage relaxation by gently touching constricted areas and massaging shoulders, pectoral muscles, and heart chakra area
+- Use props like a pillow to help open the heart area if needed
 
-* Healing the heart involves attending to vulnerable and sacred aspects within ourselves.
-* Manipulation, derision, criticisms, or command will not work in healing the heart; love is needed instead.
-* Through love, we can expose our instinctual core and evolve to expressing our truth.
-* Relationships further the evolution of individual souls and the collective soul of our planet.
+**Step Two:**
+- Encourage partner to reach arms forward on exhale and pull in toward heart on inhale
+- Suggest focusing on love during inhale and letting go or offering during exhale
+- Observe which direction (reaching or pulling) is more challenging for the partner
 
-## CHAKRA FIVE
+**Step Three:**
+- Stand behind partner and grab hands
+- Offer resistance during inhale when partner pulls arms in and during exhale when they push away
+- Increases energy flow and helps release blocked feelings.
 
-* Chakra Five, also known as Vissudha or the Throat Chakra, focuses on communication, creativity, and self-expression.
-* It is associated with the element of sound and located at the throat and pharyngeal plexus.
-* The color of this chakra is bright blue.
-* Key issues include communication, creativity, listening, resonance, and finding one's own voice.
-* Balanced characteristics include a resonant voice, good listening skills, good sense of timing and rhythm, clear communication, and living creatively.
-* Traumas and abuses associated with this chakra include lies, mixed messages, verbal abuse, excessive criticism, secrets, authoritarian parents, alcoholic or chemical-dependent families, and a lack of trust or feeling.
-* Deficiencies in the Throat Chakra can lead to fear of speaking, a small or weak voice, difficulty putting feelings into words, introversion, shyness, tone deafness, and poor rhythm.
-* Excessive talking, talking as a defense, inability to listen, poor auditory comprehension, gossiping, a dominating voice, interruptions, disorders of the throat, ears, voice, neck, tightness of the jaw, and toxicity are also associated with this chakra.
-* Healing practices include loosening the neck and shoulders, releasing one's voice through singing, chanting, toning, storytelling, journal writing, automatic writing, practicing silence (excess), non-goal-oriented creativity, psychotherapy, learning communication skills, completing communications, letter writing, inner child communication, and voice dialog.
-* Affirmations for the Throat Chakra include "I hear and speak the truth," "I express myself with clear intent," "Creativity flows in and through me," and "My voice is necessary."
+### GRIEF WORK 
 
-### SHADES OF BLUE
+* Unshed grief restricts breath; deep breathing releases grief
+* Grief based on loss, especially of loved ones
+* Loss may lead to loss of parts of self (inner child, tender self, etc.)
+* Important to regain connection with self rather than increasing attachment to what was lost
+* Asking questions: Why was this person special? What did they bring to us? What part of self was bonded?
+* Grieving reclaims sacred essence within ourselves
+* Triggers previous unhealed wounds
+* Cleaning wounds leads to wholeness
+* Remembering hope and looking for "pony" in manure (meaning finding positivity amidst pain)
 
-* Our modern world bombards us with dissonance—vibrations that we tune out of our conscious mind while our body and nervous system continue to endure. The result is a series of little stresses that can add up to larger stress with the potential to break down our entire system.
+**Forgiveness:**
 
-* Anyone who lives in a modern urban environment is assaulted by sound on a constant basis. Only recently in the span of human evolution are we as polluted by unwelcome sound as we are today. Two hundred years ago, in the city of Vienna, fire alarms could be given verbally by someone shouting from the top of a cathedral. 
+* Protecting heart from harm may barricade it against receiving and healing
+* Blame acts as a barrier to forgiveness
+* Forgiveness allows heart to lighten and move on
+* Importance of self-forgiveness: understanding our actions, separating mistake from essence, making amends if necessary
+* Treating activated part of self with compassion
+* Difficulty in forgiving others: working through feelings before forgiveness
+* Forgiveness an organic process, renews openness and awareness, frees up energy for positive future.
 
-* Unable to close our ears, this is a pollution against which we have very little defense. OSHA estimates that more than half of American production workers are exposed to an ongoing noise level of 80 dBA or higher, while the maximum intensity one can withstand over time without hearing loss is 75 dBA.
+### LOVE MUST BE WILLED AND CREATED, AS WELL AS FELT
 
-### UNFOLDING THE PETALS
+**Love as a Verb:**
+- Love is not just a feeling, but an action that requires commitment
+- Covey advised a man to "love her" even when feelings were not present
+- Love is created through serving, sacrificing, listening, empathizing, appreciating, and affirming others
+- Love is a daily commitment that requires effort and attention
 
-The fifth chakra, also known as the throat chakra, which is associated with various aspects of human experience such as symbolic thinking, resonance, etheric body, communication, voice, truth and lies, and creativity.
+**Fantasizing About Love:**
+- Imagining ideal relationships can help reprogram the heart chakra
+- Allowing feelings to fully permeate the body during fantasy helps nourish and heal
+- Visualizing supportive and loving relationships at various stages of life can help us grow and develop
 
-The fifth chakra is located at the base of the throat and is responsible for our ability to communicate effectively, both verbally and non-verbally. 
+**Expanding Beyond the Self:**
+- The fourth chakra encourages connection with all life beyond our own ego
+- Acts of selfless service and altruism can uplift both giver and receiver
+- Giving unexpected favors to others or even to ourselves can help us expand our sense of love
 
-It is also associated with symbolic thinking, which involves interpreting symbols and their meanings. Resonance, another aspect of the fifth chakra, refers to the vibrational energy that connects us to others and the universe as a whole.
+**Maintaining a Balance of Energies:**
+- The heart chakra requires balance between intimacy and autonomy
+- Neglecting boundaries can lead to unconscious shutting down and withdrawal
+- Engaging in active acts of love, such as reaching out and taking action, can help maintain a healthy balance of energies.
 
-The etheric body, which is closely linked to the fifth chakra, is an invisible energy field that surrounds our physical body and plays a crucial role in our overall health and well-being. The voice, another aspect of the fifth chakra, is not only a means of communication but also a powerful tool for self-expression and healing.
+### COME CLOSER, GO AWAY
 
-#### THE SUBTLE WORLD OF VIBRATIONS
+**Exercise: "Come Closer, Go Away"**
 
-1. Sound is the paradigm of creation and its dissolution is reabsorption into its source.
-2. Entering the etheric level of the throat chakra involves a paradoxical realm of great subtlety yet powerful influence.
-3. We leave behind the balanced middle ground of the green ray and reach into the etheric range of turquoise and blue that resonate with the throat chakra.
-4. The enveloping element of air still surrounds us, but we reach beyond it into the unknown ether—the realm of vibrations, sound, communication, and creativity.
-5. We have passed the halfway point in our rainbow journey, focusing more heavily on the upper chakras.
-6. In the dance between liberation and manifestation, we are now leaving the balance of the heart to focus more on the upper chakras.
-7. We are breaking free from gravity, free from the way things have always been and from the structure and restriction of manifested form.
-9. In chakra five, our attention moves to vibrations as the subtle, rhythmic pulsations that move through all things.
+* Sit in front of partner with hands meeting at heart level
+* Partner pulls hands towards his heart saying "Come closer"
+* Offer resistance but allow movement
+* Partner pushes hands back saying "Go away"
+* Offer resistance but allow movement
+* Repeat process, switching roles
+* Discuss how it mirrors relationship dynamics
+* Who initiates pulling/pushing/resisting?
+* What effect does it have?
+* Is it balanced?
 
-#### ENTERING THE SYMBOLIC
+**Healing the Heart Chakra**
 
-* Symbols originate from the deepest parts of the soul, while language only skims the surface of understanding.
-* Words, images, and thoughts (chakras five, six, and seven) represent the symbolic world of the mind.
-* Each word is a symbol for something real, each image in our mind is a mental symbol, and each thought is a combination of these symbols.
-* Symbols allow us to communicate more effectively with less effort; we can talk about things we cannot physically experience or describe.
-* Symbols are the building blocks of communication and consciousness, like packets of meaning that can be shared between minds.
-* When a symbol resonates with someone, it means they deeply connect with its essence.
+* Brings acceptance and openness for spirit to find peace
+* Fourth chakra allows letting go after third chakra's work
+* Being as opposed to doing is qualitative difference between fourth and third chakras
+* Healing heart involves attending to vulnerable aspects within
+* Cannot be forced with manipulation, derision, or command
+* Love exposes instinctual core and enables evolution
+* Embraces and heals larger world around us
+* Relationships further individual and collective soul evolution
 
-#### RESONANCE
+**Quote by Stephen Levine**
 
-- *Resonance is a state of __synchronization__ among vibrational patterns.*
-- *All vibrations can be thought of as __wavelike movements__ through space and time.*
-- *Each waveform has a characteristic __rhythm__ (known as frequency) that describes how frequently the waves rise and fall.*
-- *When two or more sounds from __different sources vibrate at the same frequency__, they are said to resonate together.*
-- *The rhythmic entrainment of various frequencies within our body and consciousness forms __a coherent, central vibration__ that we experience as a kind of resonant “hum” on good days.*
-- *Resonance requires a certain __balance of flexibility__ and tension.*
-- *In our bodies, we need to have enough flexibility to resonate with different frequencies, yet maintain enough tension to create a repeating pattern.*
+*"Love is not what we become but who we already are."*
 
-When we can’t resonate with the world around us, we can't link with it. We are unable to expand, respond, or receive.
+## CHAKRA FIVE: Throat Chakra
 
-Opening to resonance requires both grounding for the establishment of form, and an openness of breath that yields softness and flexibility.
+**At a Glance:**
+- Element: Sound
+- Name: Vissudha (purification)
+- Purpose: Communication and Creativity
 
-#### THE ETHERIC BODY
+**Characteristics:**
+- Identity: Self-expression
+- Orientation: Creative
+- Demonic Influence: Lies
+- Developmental Stage: 7 to 12 years
+- Basic Rights: To speak and be heard
 
-1. The etheric body is a subtler field generated by internal processes, including energy exchange, digestion, neuron firing, and emotional state.
-2. A resonant etheric field makes coherent connections with the outside world, while a fragmented field creates fragmented connections.
-3. Kirlian photography has revealed that the etheric body is more responsive to subtle vibrations of thoughts than major alterations in the physical body.
-4. The fifth chakra, vissudha, represents purification and refinement of vibrations through ridding the body of toxins, speaking truthfully, and working through lower chakras' issues.
+**Balanced Characteristics:**
+- Resonant voice
+- Good listener
+- Clear communication
+- Lives creatively
 
-#### COMMUNICATION
+**Traumas and Abuses:**
+- Lies, mixed messages
+- Verbal abuse, constant yelling
+- Excessive criticism (blocks creativity)
+- Secrets (threats for telling)
+- Authoritarian parents (don’t talk back)
+- Alcoholic, chemical-dependent family (don’t talk, don’t trust, don’t feel)
 
-* Communication is the essential function of the fifth chakra.
-* The throat chakra is the internal gateway between mind and body.
-* A healthy fifth chakra results in a resonant, rhythmic, truthful, clear, and concise voice.
-* Contraction in the body restricts the voice, while lack of feeling makes it mechanical.
-* Inner dialog between different voices helps with integration.
-* Integration creates resonance, and the process of individuation honors and integrates each voice.
-* Freedom to express ourselves is essential for full individuation.
+**Deficiency:**
+- Fear of speaking
+- Small, weak voice
+- Difficulty putting feelings into words
+- Introversion, shyness
+- Tone deaf
+- Poor rhythm
 
-#### TRUTH AND LIES
+**Excess:**
+- Too much talking, talking as a defense
+- Inability to listen, poor auditory comprehension
+- Gossiping
+- Dominating voice, interruptions
 
-- *To fully express individuality is to express one's truth.*
-- *A person without ego strength will be afraid of what others think and give up their authenticity.*
-- *If your lower chakras are in good order, you can safely express your own personal truth.*
-- *To live in truth is to be able to live in contradictions—to accept that each piece can be true without negating the other.*
-- *Negative experiences teach us to deny and withhold our truth, leading to a restriction of the natural resonance of the etheric field.*
-- *When we are out of our truth, we are living a lie, which forms the demon of the fifth chakra.*
+**Physical Malfunctions:**
+- Disorders of the throat, ears, voice, neck
+- Tightness of the jaw
+- Toxicity (due to the chakra’s name, which means “purification”)
 
-#### CREATIVITY
+**Healing Practices:**
+- Loosen neck and shoulders
+- Release voice
+- Singing, chanting, toning
+- Storytelling
+- Journal writing
+- Automatic writing
+- Practice silence (excess)
+- Non-goal-oriented creativity
+- Psychotherapy
+- Learn communication skills
+- Complete communications
+- Letter writing
+- Inner child communication
+- Voice dialog
 
-- *Communication is a creative expression of all that is within us.
-- *Situated between the third and seventh chakras, creativity combines will and consciousness to move us forward into the future.
-- *Creativity in the fifth chakra is consciously willed, shaping our reality through actions, expression, and communication.
-- *Creativity is a pure expression of the spirit within us, allowing the Self to give back to the world an assimilated form of what it has taken in.
+**Affirmations:**
+- I hear and speak the truth.
+- I express myself with clear intent.
+- Creativity flows in and through me.
+- My voice is necessary.
 
-### GROWING THE LOTUS
+**Additional Points:**
+- Vibration and Sound Pollution: Our modern world bombards us with dissonance, impacting our body and nervous system.
+- Mass Communication: Modern communication technologies give us faster access to more information than ever before but can also make it hard for us to 
+hear our own unique vibration and express our truth.
 
-Age 7-12 is the developmental formation stage for the fifth chakra.
+**Quote:** "If it is true that you are what you eat, it may just as accurately be said that you are what you listen to." - Steven Halpern
 
-Tasks include self-expression, symbolic reasoning, and communication skills.
+### THE SUBTLE WORLD OF VIBRATIONS
 
-Needs and issues include industry vs. inferiority, creativity, access to tools for learning and creativity, and exposure to a larger world.
+* Sounds identified as vocables from the cosmic drum of Shiva
+* Paradigm of creation and its dissolution is reabsorption into source
+* Enter etheric level of throat chakra
+* Realm of vibrations, sound, communication, and creativity
 
-Vibrations, pulsations, and streamings are essential for human relationships, freedom, and social concern.
+**Throat Chakra (Fifth Chakra)**
 
-Allowing a child's own streamings to develop and intensify leads to individuality and connectedness.
+* Transition from balanced middle ground of heart chakra
+* Focus on upper chakras for liberation and manifestation
+* Breaking free from gravity and structure
+* Abstract yet broader in scope
+* Concerned with vibrations as subtle, rhythmic pulsations
 
-1. Developmental stages are less clearly defined in higher chakras, especially in the development of communication.
-2. We begin receiving vibrational and chemical communication from our mothers in the womb.
-3. As infants, we are immersed in a field of language and react to noises, voice tone, and facial expression.
-4. At nine months, we realize that sounds represent real things and begin imitating sounds around us.
-5. By twelve months, we can speak a few words, respond to simple words like "no," or recognize our name.
-6. By two years, we can express ourselves in simple sentences with a vocabulary of about 300 words.
-7. By four or five years, there is an explosion of language and the child talks constantly to anybody who will listen!
-8. At six years old, a child has a general command of her language, understanding words that represent abstract concepts and phrases describing relationships between things.
-9. A seven-year-old can now look backward or forward in time, a process Piaget called reversibility.
-10. This stage marks the point where the intellect is able to separate itself from immediate experience long enough to consider alternate realities.
-11. Only with this realization is conscious creativity really possible and lies the seed of conscience.
-12. In the fourth chakra stage, a child wants to be helpful because helpfulness seems like a positive trait.
-13. During the fifth chakra stage, moral behavior has social as well as personal consequences.
-15. It is between the ages of seven and twelve (Piaget's period of concrete operations) that the fifth chakra flowers.
-16. This stage is marked by more sophisticated symbolic reasoning—the ability to create a mental representation of a series of actions.
-17. If the child feels secure in her relationships, then she is more likely to feel secure enough to speak her truth and experiment creatively.
-18. The system is maturing—physical growth slows down considerably and basic motor development is in place.
-19. The enormous input of energy that the child has required and hopefully received prior to this now begins to move outward through creative expression.
-20. With the building blocks of language and relationship in place, mental capacity now expands exponentially.
-21. We learn to use symbols to reach beyond our immediate experience.
-22. Through school, books, television, conversations, and experience, the child hungrily absorbs information about the world.
+**Symbols and the Upper Chakras**
+
+* Symbols root in depths of soul
+* Language skims surface of understanding
+* Words make infinite finite and carry mind beyond becoming
+* Upper chakras represent symbolic world of mind
+* Words, images, and thoughts are symbolic reflections of manifested plane
+* Each word, image, and thought is a packet of meaning
+* Symbols can be shared to enhance consciousness
+* Resonate with symbols for deeper understanding.
+
+**Resonance and Vibration:**
+- All life is rhythmic and resonating system
+- Each waveform has a frequency that describes how frequently waves rise and fall
+- Resonance is a state of synchronization among vibrational patterns
+- When two or more sounds from different sources vibrate at the same frequency, they resonate together
+- Rhythmic entrainment of various frequencies forms a coherent central vibration
+
+**Principles of Vibration and Resonance:**
+- Waves oscillate back and forth at the same rhythm when in resonance
+- Waves add height and lock into phase with each other
+- Oscillating waveforms tend to stabilize when they enter into resonance
+- Resonant frequencies bond together (rhythm entrainment or sympathetic vibration)
+
+**Experiencing Resonance:**
+- Immersed in a field of resonance when listening to music or being in love
+- Rhythmic movements stay in phase with music and becomes difficult to move out of phase
+- Feeling pleasure, expansiveness, and rhythmic connection with the pulse of life
+- Experiencing deep resonance during sleep, when heart rate, breathing, and brain waves settle into a deep, rhythmic entrainment
+
+**Resonance in the Body:**
+- The body is made of emptiness and rhythm at its ultimate heart
+- Needs both flexibility and tension to sound a note and resonate with different frequencies
+- Opening to resonance requires grounding and an openness of breath for softness and flexibility
+
+**Implications of Resonance:**
+- When we can't resonate with the world around us, we become isolated and ill
+- Sleep puts us back in harmony with our own resonance and helps us rejuvenate from distracting vibrations.
+
+### THE ETHERIC BODY
+- Level of fifth chakra where attention moves from physical plane into subtler etheric fields
+- Commonly known as aura, generated by internal processes including digestion, neuron firing, emotional state, and outer activities
+- Our life force is a stream of pulsating energy
+- When not fragmented, pulsation moves freely through body and out into world
+- Creates resonant etheric field around body for coherent connections with outside world
+
+**Interactions and Resonance:**
+- Etheric fields engage during interactions with others
+- Most rewarding connections occur with resonance between vibrational fields
+- Subtle resonance deepens feeling of connection
+- Kirlian photography reveals etheric body's sensitivity to thoughts and emotions
+
+**Kirlian Photography:**
+- Allows seeing of etheric field activity
+- Revealed remarkable things about etheric body
+- Cut leaf's etheric body remains similar despite physical changes
+- Human thought changes result in dramatic aura changes
+
+**Fifth Chakra and Vibrational Refinement:**
+- Work to refine vibrations in fifth chakra, vissudha, for subtlety
+- Purification is vibrational refinement through ridding body of toxins, truthful speech, and working lower chakras issues
+- Prepares entry into even more refined energies of higher chakras.
+
+### COMMUNICATION
+
+* Essential function of the fifth chakra
+* Self-expression: a gateway between inner world and outer world
+* Allows inner self to get out into the world
+* Counterpart to sensate reception in second chakra
+* Problems in one chakra often reflected in the other
+
+**Throat Chakra as Internal Gateway**
+
+* Narrowest passage within whole chakra system
+* Relay system connecting messages from body with brain information
+* Mind and body connection is crucial
+* Unconscious becomes conscious through throat chakra
+* Blockage in throat chakra hinders upward movement of energy
+* Impedes access to higher self
+* Mind-body incongruence leads to neck problems
+
+**Case Study: Sarah's Neck Issues**
+
+* Grew up in violent alcoholic family
+* Required to keep head in order to survive
+* Head out of alignment with torso, disconnected from body
+* Communication between mind and body blocked at throat chakra
+* Only possible to address the issue when able to take action
+
+**The Voice as a Manifestation of the Fifth Chakra**
+
+* Vehicle for mind's manifestations
+* Living expression of one's basic vibration
+* Health of fifth chakra indicated by voice quality
+* Constricted chakra: whiny, whispered, mumbled
+* Excessive chakra: loud, shrill, interrupting
+* Signs of healthy fifth chakra: resonant and rhythmic voice
+* Balanced conversation with others
+
+**Connection Between Voice and Other Chakras**
+
+* Contracted body (chakra one): restricts the voice
+* Lack of feeling (chakra two): makes voice seem mechanical
+* Too little will (chakra three): sounds pinched and whiny
+* Third chakra excess: dominating voice
+* Breath (chakra four) required for full voice
+* Unopen consciousness (chakras six and seven): repetitive and dull
+* Frozen in the past: voice does not seem present
+
+**Inner Dialogue and Integration**
+
+* Many voices within us
+* Inner dialog between various parts of self
+* Honors and integrates each voice through individuation process
+* Brings all voices together as a whole
+
+**Expression and Individuation**
+
+* Freedom to express ourselves essential for individuation
+* Blockage in fifth chakra: excessively introverted, unable to express or take in new information
+* Severe block negatively affects the whole system.
+
+### TRUTH AND LIES
+**Individuality and Truth:**
+- Expressing individuality equals expressing truth
+- A nonindividuated person may not speak their truth
+- Fearful or ego-weak individuals may deny their authenticity
+- Lower chakras' health impacts ability to live in truth
+
+**Lower Chakras and Self-Acceptance:**
+- Fourth chakra brings self-acceptance
+- Acceptance creates container for personal truths to emerge
+- Strong ego and will necessary to express truth despite opposition
+
+**Contradictions and Truth:**
+- Living with inner conflicts requires acknowledging conflicting truths
+- Resolution comes from accepting all pieces as true
+- Negative experiences can lead to denial of truth
+
+**Lies and the Fifth Chakra:**
+- Lies form the demon of the fifth chakra
+- Lies told with words, actions, or body language
+- Living a lie arrests personal progression
+
+**Creativity and Truth:**
+- Living in truth allows resonance with others
+- Creativity is a consciously willed process at the fifth chakra
+- Communication is creative expression of all within us
+- Creativity as a pure expression of self's individuation
+- Creativity the gateway between past and future.
+
+### GROWING THE LOTUS DEVELOPMENTAL FORMATION OF THE FIFTH CHAKRA AT A GLANCE
+
+**Fifth Chakra Development: Age 7 to 12**
+
+**Tasks:**
+- Self-expression
+- Symbolic reasoning
+- Communication skills
+
+**Needs and Issues:**
+- Industry vs. inferiority
+- Creativity
+- Access to tools for learning and creativity
+- Exposure to larger world
+
+**Developmental Stages:**
+- Allowance of child's streamings to develop leads to individuality and connectedness
+- Development of communication is less clearly defined
+- Language development begins in the womb
+- Child realizes sounds represent things at nine months and starts imitating them
+- Vocabulary growth and constant talking by age four or five
+- Understanding of time and reversibility around age seven
+- Moral behavior with social consequences during this stage
+
+**Piaget's Period of Concrete Operations:**
+- Marked by more sophisticated symbolic reasoning
+- Child can create mental representation of a series of actions
+- Shift in consciousness away from relationship-dominated fourth chakra towards creative expression and social identity
+
+**Erikson's Struggle between Industry and Inferiority:**
+- Child learns to win recognition by producing things
+- School environment becomes main focus for creative expression
+- Tools provide means of acting on the world and expanding creative possibilities
+- Child feels secure enough to speak her truth and experiment creatively
+- Importance of recognition and ego strength
+
+**Creative Identity:**
+- Expansion of mental capacity
+- Learning to use symbols to reach beyond immediate experience
+- Absorption of information about the world
+- Awakening of self-expression
+- Requires systemic fullness gained in previous stages for natural forward movement of communication and creativity.
 
 ### TRAUMAS AND ABUSES
+- Traumas do not make us emotionally ill, but the inability to express them does. (Alice Miller)
+- Trauma impacts us with a vibration that we are meant to express.
+- Restricting expression results in loss of resonance and disconnection from life.
+- Unexpressed trauma is stored in the body as stress.
+- Blockage in the throat chakra impedes energy flow and expression.
 
-Throat Chakra Blockage: A block in the throat chakra restricts energy flow, causing input to exceed output, leading to stress.
+**Impact of Trauma:**
+- Unacknowledged vibrations from external sources can cause stress.
+- Strong negative impacts or intolerable situations that cannot be expressed lead to frozen trauma at the core.
+- Hiding and blocking emotions is a form of protection against exposure, harm, or ridicule.
 
-Shame, Fear, and Self-Protection: Shame, fear for safety, or being out of touch with the core self can cause us to close down our throats and bottle up emotions.
+**Reasons for Blocking Expression:**
+- Shame, fear for safety, or disconnection from the core self can prevent expression.
+- Physical signs of hiding include tightened neck and shoulders, misaligned head, talking about anything except the real issue, stuffing food, and 
+inertia.
 
-Methods of Hiding: We hide by tightening neck and shoulders, throwing head out of alignment, talking incessantly about anything except what's bothering us, stuffing food down our throats, or posting a censor at the door.
+**Consequences of Blocked Expression:**
+- Hiding keeps us in isolation and prevents intimacy and evolution.
+- Long-term blockages make it harder to open up and express ourselves.
+- Breaking silence requires overcoming habits and demons from the lower chakras.
 
-Consequences of Hiding: Hiding leads to isolation, lack of intimacy, and stagnation, making it harder to open up and express ourselves.
+**Fear:**
 
-#### FEAR
-The author discusses how fear can lead to a biological instinct to remain quiet, as well as the freezing response that immobilizes the body and causes one to hold their breath. 
+* Biological instinct to keep quiet in danger
+* Instinctually hold breath and voice freezes
+* Throat chakra closes down due to fear and physiological response
+* Living in fear of exposing oneself
+* Silence instilled by external threats
+* Internalization of shame and guilt
 
-The author also highlights how chronic fear can cause the throat chakra to close down, making it difficult for individuals to communicate effectively.
+**Effects of Fear:**
 
-The author also addresses the impact of abuse, excessive criticism, or humiliation during childhood on one's ability to communicate openly. They argue that these experiences can instill a sense of fear in individuals, leading them to live in a state of self-imposed imprisonment and silence.
+* Cannot speak even if wanted to
+* Racing thoughts, mind unable to think clearly
+* Throat constricts and chokes on words
+* Critic internalized as vicious guardian
 
-#### GUILT AND SHAME
+**Causes of Fear:**
 
-1. Guilt and shame make us want to hide ourselves due to perceived flaws within.
-2. The outward expression of communication is blocked by guilt and shame, leading to internal voices that act as vicious guardians.
-3. Shame rises up as the incessant critic, telling us why no one wants to hear what we are going to say, how we don't know what we're talking about, or how stupid we look.
-4. The critic was originally created to protect against real humiliation but becomes overzealous and unrealistic in its criticism.
-5. Critics' words become self-fulfilling prophecies, creating fear and awkwardness when expressing oneself.
-6. Getting a second opinion from someone else can help challenge the critic and allow for more self-expression.
-7. The voice of the child that never talked back to the original critical parent can emerge when allowed, providing liberation.
+* Childhood experiences of abuse or humiliation
+* Inability to express what was done to them
+* Instilled silence through fear of consequences
 
-#### SECRETS
+**Guilt and Shame:**
 
-1. *When we keep a secret, we must monitor our body language, eyes, facial expressions, and speech to avoid revealing it.*
-2. *Keeping secrets separates us from our true selves and the spontaneous expression of our fifth chakra.*
-3. *Secrets can be kept from children regarding their parents' deaths or other family problems, making it difficult for them to ask questions and discuss problems later in life.*
-4. *Sexuality is often a taboo subject, leading to shame and guilt around natural sexual feelings and behaviors.*
-5. *Keeping secrets promotes ignorance and blocks the flow of energy through the fifth chakra, perpetuating negative behavior patterns.*
+* Desire to hide oneself due to perceived flaws
+* Internalized criticism and self-criticism
+* Critic protects vulnerable self from outer threats
 
-#### LIES AND MIXED MESSAGES
+**Effects of Guilt and Shame:**
 
-* Lies form the demon of the fifth chakra, which is associated with communication and self-expression.
-* Being told we have no right to feel a certain way or hearing "I love you" while experiencing abuse, neglect, or shame are examples of lies that scramble our programming in the fifth chakra.
-* These lies teach us to lie to ourselves, others, and our bodies, creating dissonance within our basic vibration of self.
-* The experience of one's own truth allows for a return to feelings at an adult level without paradise but with the ability to mourn.
+* Critic becomes overzealous and unrealistic
+* Self-fulfilling prophecies of inadequacy
+* Fear and awkwardness when expressing oneself
+* Monologue instead of dialogue
 
-#### YELLING AND SCREAMING
+**Challenging the Critic:**
 
-1. Children learn by imitation and are influenced by their surroundings.
-2. An atmosphere of hostility, such as constant arguing, yelling, or screaming, can negatively impact a child's development.
-3. When the home environment is unpleasant to see or hear, children may close down their aural and visual functions.
-4. Counter-dialogues often occur in the mind when someone is trying to block out negative stimuli.
-5. Authoritarianism, where rules cannot be questioned, limits communication skills and leaves no room for discussion.
-6. A child's inner voice must be nurtured in an environment of compassionate exploration to develop properly.
+* Getting a second opinion to challenge critic
+* Allowing voice of child to emerge and combat critic
+* Facilitating dialog instead of monologue
 
-#### NEGLECT
+**Secrets:**
 
-* Neglect can lead to poor communication skills and secrets kept from loved ones.
-* Children need conversations with caring adults to develop communication skills, reason, trust, and share.
-* Communication helps children gain new information, learn, and grow.
-* Learning to communicate is like learning to use a hammer; it's an invaluable tool for building lives and feeling connected, capable, and confident.
-* Giving children the gift of clear communication can help them overcome future impasses and difficulties.
+* All action is communication, keeping secrets requires constant vigilance over what we say and express non-verbally
+* Children who are forced to keep secrets may experience:
+  + Sexual abuse survivors: fear, terror, suicide, internalized silence
+  + Children with family secrets: guarded expression, difficulty in intimate relationships
+* Secrets kept from children can impede problem-solving skills and emotional exploration
+* Sexuality is another common forbidden subject, leading to shame and guilt
+* Secrets block the flow of energy through the fifth chakra, perpetuating negative patterns
 
-### CHARACTER STRUCTURE Challenger-Defender
+**Effects of Secrets:**
 
-1. Challenger-Defender is characterized by vulnerability, loneliness, and a strong focus on power and communication.
-It typically develops between the ages of two and a half to four years (later third chakra) due to deprivation experienced during this time.
-3. Challenger-Defenders are highly creative, brilliant communicators, and enjoy positions of power. They often have strong fifth chakras, which can make them charismatic and influential. However, they also tend to be vulnerable and insecure underneath their powerful personas.
-4. Challenger-Defenders may struggle with intimacy due to their fear of vulnerability and the need to maintain power. They often choose relationships where they are least likely to be challenged or questioned.
-5. Seduction and Manipulation - As children, Challenger-Defenders were often seduced and manipulated by a parent figure, leading them to develop a survival strategy based on deception and ignoring accepted ethics. This can result in a lack of trust and certainty in their relationships as adults.
-6. Authority and Trust Issues - Parents of Challenger-Defenders may have been inconsistent with authority, leading to a weak first chakra and openness but danger in the emotional center of the second chakra. This can contribute to their fear of vulnerability and need for power.
-7. Need for Love and Security - Despite their powerful personas, Challenger-Defenders still have needs for love, safety, and security. They may struggle to find loved ones who accept their imperfections and do not leave them when they attack.
-8. Empowerment through Relationships - In healthy relationships, Challenger-Defenders can gain a sense of true empowerment by being able to tell the truth without judgment. This can help them balance their upper chakra displacement and move toward psychological health.
+* Ignorance: secrets prevent new information from being gained
+* Emotional suppression: unable to express or acknowledge true feelings
+* Physical symptoms: terror, shame, guilt, addiction, compulsive behavior
+* Difficulties in relationships: intimacy, trust, communication
 
-#### EXCESS AND DEFICIENCY
+**Lies and Mixed Messages:**
 
-* The throat chakra is a gateway between inner and outer worlds, and its health can be determined by listening to someone's voice. Fast talkers discharge energy through their throat chakras, while quiet individuals are locked inside without enough energy to break free.
+* Lies create dissonance within the self
+* Being told to feel differently than we do: lies to ourselves and others
+* Experiencing love but being abused, neglected or shamed: lies about love
+* Asking for apologies or gratitude for unwanted situations: lies about feelings and experiences
+* Living a lie: unable to express true emotions and reactions.
 
-* A person with a deficient fifth chakra cannot get his words together; their voice may be weak, airy, pinched, or rhythmically erratic. They experience extreme self-consciousness and shyness, a need to hide, and a fear of humiliation.
+**Case Study:** Daniel's Experience
 
-* Excess in the Throat Chakra: An excessive fifth chakra uses talking as a defense mechanism to stay in control and discharge energy. This can lead to rapid talking with little real content or displaced rage.
+* Victim of his father's rage
+* Forced to endure punishment without reacting
+* Denied honest reaction to abuse: lived a lie
+* Inner critic guards fifth chakra, regulates speech
+* Resulting in vicious self-criticism and difficulty expressing emotions.
 
-* Combinations of Excess and Deficiency in the Throat Chakra: Lack of ground can produce either excess or deficiency within the throat chakra, leading to varying communication skills.
+**YELLING AND SCREAMING**
 
-* Balance in the Throat Chakra: A balanced fifth chakra allows for accurate communication, effective listening, resonant and pleasant voices, and a sense of timing and grace in activities and body movements.
+* Children learn by imitation, including language use and communication skills
+* Hostile home atmosphere (yelling, screaming, arguing) can negatively impact communication development
+* Unpleasant environment may lead to shutting down aural functions and inner counter-dialogue
+* Later in life, difficulty listening to others, entertaining new ideas, and being open to hearing truth
+
+**Authoritarianism:**
+
+* Rigid rules without room for discussion limit child's ability to learn communication skills
+* Lack of a safe space for children to express their truth may lead to feelings of devaluation
+* Inability to listen impairs clear communication
+
+**Neglect:**
+
+* Lack of conversation and questioning from caregivers hinders communication development
+* Children need caring adults to talk with, learn reasoning skills, question, think, trust, and share ideas
+* Neglected children may struggle with poor communication skills and keeping secrets in adulthood.
+
+### CHARACTER STRUCTURE THE CHALLENGER-DEFENDER 
+- Stella was a powerful and beautiful woman with a seductive smile and compelling eyes
+- She worked as a model, singer, and had aspirations of acting
+- Prone to short-lived, frustrating relationships due to rages and distrust
+- Created an outer persona of beauty and power, hiding vulnerability and insecurity
+- Had a strong fifth chakra and excessive will in the third chakra
+- Open but disconnected second chakra, weak sense of ground
+- Tended to be highly sexual but lacked emotional commitment
+- Fragile and lonely underneath
+
+**Character Structure Development:**
+- Set by age 6, but discussed in fifth chakra due to energy focus on upper chakras
+- Result of deprivation between ages 2.5-4 (third chakra development)
+- Creatives and brilliant communicators who enjoy power
+- Vulnerability is a problem and efforts are made to avoid it
+- Strong fifth chakra makes them charismatic and powerful
+- Broad shoulders, narrow hips, attractive, confident
+- Physically present but poorly grounded
+
+**Characteristics:**
+- Powerful and compassionate defenders of underdogs
+- Great supporters and nurturers, but can turn into attacking challengers when challenged
+- Seduction and manipulation may have been used against them as children
+- May ignore ethics to live by their own rules
+- Inconsistent parenting leads to lack of trust and weak first chakra
+- Open emotional center with power in third chakra, conditional love in fourth chakra, capable fifth chakra
+- High intelligence and piercing perceptiveness in sixth and seventh chakras
+
+**Needs:**
+- Recognition and meeting of vulnerable needs
+- Acceptance of imperfect self instead of powerful image
+- Learning to direct anger at perpetrators instead of loved ones
+- Loved ones who accept imperfections and do not leave during attacks.
+
+### EXCESS AND DEFICIENCY
+**Excess and Deficiency in Throat Chakra**
+
+* **Excess:**
+  * Rapid or incessant talking
+  * Controlling conversations and subject matter
+  * Discharging energy through excessive speech
+  * Displaced rage expression
+  * Lengthy descriptions without sharing feelings
+* Causes:
+  * Defense mechanism to discharge stress and energy
+  * Fear avoidance of feelings
+  * Need for attention and control
+* **Deficiency:**
+  * Difficulty getting words together
+  * Weak, airy, pinched, or rhythmically erratic voice
+  * Self-consciousness and shyness
+  * Fear of humiliation
+  * Communication restriction within
+  * Great separation between mind and body
+  * Difficulty communicating about feelings
+* Causes:
+  * Defense mechanism to hide emotions as a result of past interrogations or experiences
+  * Extreme self-consciousness
+
+* **Excess:** Void of real content, lacks balance, and may inhibit effective listening
+* **Deficiency:** Inability to communicate effectively, fear of speaking, and difficulty expressing emotions
+
+**Combination of Excessive and Deficient Throat Chakras**
+
+* Lack of ground can result in both excessive speech and difficulty communicating
+* Can communicate well in some situations but poorly in others
+
+**Balanced Throat Chakra**
+
+* Good communication skills, effective listening, and ability to accurately communicate emotions
+* Resonant voice with natural rhythms, appropriate tonality, and volume
+* Balance between speaking and listening
+* Graceful body movements and timing
+* Creative approach to life and expression of individuality
+* Openness to infinite possibilities and new ways of approaching life
 
 ### RESTORING THE LOTUS HEALING THE FIFTH CHAKRA
+- A friend offered voice lessons in exchange for bodywork, but discovered she couldn't project her voice fully without crying (Emotional Connection to Voice)
+- The human body is a living resonator of sound, and releasing bodily tensions essential for freeing the throat chakra
+- Process of getting in touch with basic pulsating vibration: holding breath, feeling contraction and release, experiencing streaming (Reclamation of Body)
+- Containing strong urges to move forward can result in poor timing and lack of energy (Proper Timing)
 
-1. The ability of a substance to resonate sympathetically is the result of its elasticity.
-2. Healing the fifth chakra involves a variety of levels simultaneously, ranging from physical to mental.
-3. Our bodies are the resonating chambers of the sounds we make, and it is essential to work through bodily tensions for the throat chakra to be free of constraints.
-4. The reclamation of the body is the restoration of our unique vibration.
-5. We can feel the streaming of energy pulsating through our bodies after physical exertion or emotional expression, such as after a good run, a good cry, or a powerful sexual experience.
+**Emotional Connection to Voice:**
+- Emotions are connected to the voice and cannot be hidden while singing or projecting voice
+- Healing involves letting out sound of grief and anger, as well as talking about feelings and putting them into intellectual context
 
-#### EXERCISE
+**The Vibrating Body:**
+- Human body is a living resonator of sound, affecting each atom and resonating with sounds we make
+- Release of bodily tensions necessary to restore natural reflexive and vibratory nature of the body
+- Process of getting in touch with basic pulsating vibration: holding breath, feeling contraction and release, experiencing streaming
 
-* Sound awareness is important because we cannot close our ears, and our environment has a significant impact on our vibrational field.
-* Reducing or eliminating toxic noise and people from your environment can help protect your vibrational field.
-* Taking time each day to be perfectly quiet is essential for maintaining a healthy vibrational field.
-* Periodic weekends in the country can help retune your vibrational field, similar to resetting a thermostat.
+**Proper Timing:**
+- Containing energy and expressing ourselves before our truth is fully ripened can result in poor timing and lack of energy
+- Financial pressure, emotional insecurity, fear, hunger for power, and excessive rule of the mind can push us out of sync with our natural rhythm
+- Lower chakras becoming strong allows proper timing to occur and dancing to the rhythm of our own personal vibration.
 
-#### DEEP LISTENING
+### EXERCISE
+- Move freely around the room with eyes closed
+- Let movements be instinctual rather than deliberate
+- Make abstract sounds as you move
+- Coordinate movement and sound for a vibrational experience
 
-* Deep listening involves inner silence and bonding of heart and mind.
-* Listening is essential for communication and self-awareness.
-* Inner quiet allows the chatter of the mind to subside, revealing the song of the heart.
-* Silence connects upper and lower chakras, uniting mind and body.
-* Exercise: Sit in a quiet place and listen to sounds around you, including your own breathing and heartbeat. Let all sounds blend into one general sound, and allow your body to move with this rhythm.
+**Cleaning Out The Field:**
+- Pay attention to outer vibrations (sound pollution, media, rhythms of daily life)
+- Identify sources of toxic noise and people
+- Eliminate or reduce exposure to toxic noise (soundproofing, earplugs, etc.)
+- Take regular periods of quiet time for self-reflection and consciousness expansion
 
-#### TONING
+**Importance of Sound Awareness:**
+- Ears remain open constantly
+- Important to pay attention to outer vibrations and their impact on our consciousness
+- Eliminating distracting patterns helps deepen communication with ourselves and others
 
-Toning encourages basic vibration within the throat as sound, without forcing specific words, melodies, or sounds. It works with both body and breath to create pure expression devoid of intellectual meaning or aesthetic appeal. When we move physically or emotionally, it's natural to make sound, but we often suppress these sounds due to embarrassment, closing down the throat chakra. 
+**Deep Listening:**
+- Inner listening connects heart and mind
+- Silence is essential for true communication and self-reflection
+- Practicing inner listening allows upper and lower chakras to resonate, connecting mind and body
 
-Notice where the sound originates in your body and try to let it come from your whole body at once. This exercise often releases creativity and makes one feel more present.
+**Exercise:**
+- Sit in a quiet place and listen to various sounds around you
+- Blend all sounds into one general sound
+- Allow your body to subtly move with the rhythm of the combined sound
+- Follow where the movement takes you while staying with the overall sound.
+
+### TONING
+
+**Toning** encourages natural expression of sound from the throat, unencumbered by intellectual meaning or aesthetic appeal. It is a spontaneous response to physical or emotional stimuli.
+
+* Toning is not forced into specific words, melodies, or sounds
+* Natural sounds emerge when we are moved physically or emotionally
+* Embarrassment often leads to stifling these sounds, closing down the throat chakra
+
+**Benefits of Toning:**
+
+* Relieves pain by releasing tension through groans and other sounds
+* Best done after warming up the body
+
+**Warm-up Exercise:**
+
+1. Stand erect and stretch body in all directions
+2. Shake out legs and swing arms to loosen up
+3. Close eyes, take deep breath, and let sound emerge
+4. Find a sustainable note that resonates with you
+5. Sing the note fully, feeling where it originates in your body
+6. Let go of the tone naturally and notice how you feel
+
+**Preparation for Toning:**
+
+* Stand with feet planted firmly on the ground
+* Close eyes and take deep breath
+* Open mouth and let sound emerge spontaneously
+
+**Toning Technique:**
+
+1. Find a sustainable note that resonates with you
+2. Sing this note fully, reaching for resonance and relaxation
+3. Feel where the sound originates in your body (throat, chest, belly, or head)
+4. Let it come from your whole body at once, integrating disconnected parts
+5. Release the tone naturally and notice how you feel
+
+**Post-Toning:**
+
+* Write or draw in a journal to release creativity
+* Notice feelings of presence and relaxation.
+
+### CHANTING AND USING MANTRAS 
+
+* Mantra: a state indicative of the presence of divinity, a more sophisticated form of toning
+* Chanting: rhythmic repetition of a simple phrase or sound lulls consciousness into resonance, bypasses conscious mind, allows for deeper resonance or trance state
+* Mantras are chants uttered silently in the mind, cleanses and orders the mind, expands individuated consciousness to merge with greater consciousness
+* Transcendental Meditation (TM): a meditation technique where one mentally repeats a given mantra to create meditative state and synchronize brain waves
 
-#### CHANTING AND USING MANTRAS
+**Benefits of Chanting Mantras:**
 
-1. Mantra is not just a technique for awakening; it is itself a state of being that indicates the presence of divinity.
-2. Chanting is a more sophisticated form of toning, which lulls the vibrations of our body and consciousness into resonance by rhythmic repetition of a simple phrase or sound.
-3. Mantras are chants uttered silently in the mind; they replace the ceaseless rhythm of busy thoughts, cleansing, simplifying, and ordering the mind.
-4. Transcendental Meditation (TM) is a meditation technique where one mentally repeats a certain sound given by a teacher or guru. Research shows that silently chanting mantras creates a meditative state by synchronizing brain waves between various lobes of the brain.
-5. Each chakra has a specific mantra sound, and there are seed sounds from ancient tantric texts believed to access elemental qualities of the chakras as well as vowel sounds that resonate in the body itself.
-6. Leah Garfield suggests chanting the seed sounds in a specific rhythm nine times each with a full minute of silence between each chakra.
-7. To create your own mantra, pick sounds from one to three chakras you want to improve and put them together in a pleasing way. Then sit in silent meditation mentally intoning the sound you have created, imagining the chakras expanding or clearing.
+* Synchronizes brain waves between various lobes of the brain
+* Recalibrates basic vibrational essence
+* Enter quiet and rhythmic state, free from mental garbage
+* Releases "liquid nectar" in the pineal gland, contributing to altered consciousness
+* Resonates with specific chakras (seed sounds and vowel sounds listed)
 
-#### COMMUNICATION
+**Chanting Techniques:**
 
-Techniques for toning the chakra in general allow sound to come through our bodies more easily.
-
-- *Need to be heard* - To be understood, seek first to understand. Steven R. Covey emphasizes that one of the most profound human needs is the need to be heard.
-- *Healing through listening* - When our story, feelings, or opinions are simply heard, we feel complete and ready to move onward. The need to be heard validates our truth, individuality, and existence.
-- *Importance of acknowledgment over solutions* - In some cases, the need to be heard is more important than finding solutions, especially in couples' dynamics.
-
-#### ACTIVE LISTENING
-
-1. Quiet self and focus energy on other person.
-2. Nod or say "mmhm" to let them know you're with them, but don't interrupt or make comments.
-3. When speaker is finished, ask if they are complete.
-4. Ask questions or clarify something without making comments, suggestions, arguments, or judgments.
-5. Repeat what you heard in your own words to ensure understanding.
-6. Avoid parroting exact words; phrase response in a way that communicates your understanding of what was said.
-7. Co-communicator has chance to let you know if you heard them correctly.
-8. If there is a correction, try again until you understand correctly.
-9. Only when the first speaker is satisfied are they ready for the second speaker to share their truth.
-10. Both people must be satisfied that they have been fully heard before creating a solution.
-
-#### Writing
-1. Use pen or computer keyboard to sit in silence and write down feelings without censoring them.
-2. Write about unexpressed and unresolved issues with someone, using any words desired.
-3. Read writing aloud to an active listener to experience being heard.
-4. Find ways to communicate the salient points without heat of emotion.
-5. Practice dialog between you and the person you're communicating with in real life.
-6. Writing can also be helpful when communicating with people who are unavailable or unwilling to respond.
-
-#### Music
-* Music has a profound effect on our mind-body system, affecting emotions, movement, and consciousness.
-* It can be used as a tool for healing, uniting the soul of the body with the mind and spirit.
-* Shamanic medicine works in part on the principle of resonance through music and drumming.
-* Music travels across auditory nerves to the thalamus in the brain, affecting emotions and involuntary processes.
-* The limbic system, surrounding the thalamus, is connected to emotions and the endocrine system, influencing chakras and involuntary processes.
-
-### CONCLUSION
-
-*Harmony* is essential for preventing tragedy in individual and multitude lives.
-
-In Indian philosophy, sound is considered a primordial ingredient of creation.
-
-Sound was given to Brahma and Saraswati, who rule over creation and beginnings.
-
-The fifth chakra facilitates a passage between abstract information and manifested reality.
-
-On the spiritual plane, sound brings us into resonance and harmony, providing information and understanding.
-
-#### Sound is the prime transmitter of consciousness itself.
-
-Although sound is a primordial ingredient of existence, it's consciousness that creates and maintains life.
-
-## CHAKRA SIX
-* Chakra Six, also known as the Ajna or Third Eye Chakra, is located at the forehead and brow area, and its color is indigo.
-* Its element is light, and its purpose is pattern recognition.
-* Issues related to this chakra include image, intuition, imagination, visualization, insight, dreams, and vision.
-* Balanced characteristics of a person with a healthy Third Eye Chakra include being intuitive, perceptive, imaginative, having good memory and dream recall, and the ability to think symbolically and visualize.
-* Traumas and abuses related to this chakra involve seeing things that don't align with what one is told, invalidation of intuition and psychic occurrences, and being in an ugly or frightening environment (e.g., war zone or violence).
-* Deficiencies in the Third Eye Chakra can lead to insensitivity, poor vision, difficulty seeing the future, lack of imagination, and difficulty visualizing.
-* Excessive energy in this chakra may result in hallucinations, delusions, obsessions, difficulty concentrating, nightmares, and physical malfunctions such as headaches and vision problems.
-* Healing practices for Chakra Six include creating visual art, visual stimulation, meditation, psychotherapy, coloring and drawing, working with memory, connecting image with feeling, dreamwork, hypnosis, guided visualizations, and past life regression therapy.
-* Affirmations related to this chakra are "I see all things in clarity" and "I am open to the wisdom within."
-
-### SHADES OF INDIGO
-
-People often base their self-image on societal standards and expectations, leading to feelings of loneliness and isolation when they cannot meet these ideals. The passage also highlights the importance of consciousness in shaping one's perception of reality and the need for individuals to break free from illusions created by images in order to see themselves and others more clearly. 
-
-### UNFOLDING THE PETALS
-
-- **Pattern Recognition**: The Sixth Chakra helps us identify patterns in our lives, relationships, and the world around us.
-- **Archetypes**: Universal symbols or themes that appear across different cultures and time periods, which can provide guidance and insight into our lives.
-- **Symbols**: The Sixth Chakra helps us understand the meaning behind symbols and use them effectively in our daily lives.
-- **Images**: The Sixth Chakra allows us to see beyond the surface level of an image, enabling us to connect with its deeper meaning and symbolism.
-- **Dreams**: The Sixth Chakra helps us interpret dreams and use them as a tool for personal growth and transformation.
-- **Intuition**: The Sixth Chakra enhances our intuitive abilities, allowing us to make better decisions and navigate life's challenges with greater ease.
-- **Transcendence**: The Sixth Chakra helps us achieve this state of transcendence, allowing us to experience a deeper connection with the universe.
-- **Vision**: The Sixth Chakra enhances our ability to see beyond the present moment and create a positive future for ourselves.
-- **Clairvoyance**: The Sixth Chakra helps us develop this psychic ability, allowing us to tap into our intuitive powers and gain a deeper understanding of ourselves and the world around us.
-- **Illusion**: The Sixth Chakra helps us recognize illusions and see through them, enabling us to live more authentically and connect with our true selves.
-
-#### OPENING THE THIRD EYE
-
-1. Psychic development requires attraction of symbol, not just intention and will (Jung).
-2. Brow chakra allows new vision, adding indigo to bridge; we can see where we've been, are now, and predict future.
-3. Sight gives guidance for actions, transforming impulses into creative acts of will.
-4. Element of this chakra is light, a higher vibration than sound in the chakra below.
-5. Light enables seeing from distance, perceiving shape and form; inner sight goes beyond physical perception.
-6. Third eye (sixth chakra) is organ of inner perception, witnessing internal screen with memory, fantasy, images, archetypes, intuition, imagination.
-7. Purpose of sixth chakra is to see the way and bring light of consciousness to all that exists within and around us.
-
-#### PATTERN RECOGNITION The eyes are the gateways to the soul. WILLIAM
-
-*Recognition of patterns allows us to predict future events based on past experiences, which can either shut off the possibility of new information or spare us from unwanted experiences.*
-*Once we recognize a pattern, we can intuit what it will become and guide our actions accordingly, leading to insight and wisdom.*
-*The third eye is associated with inner sight, allowing us to see beyond our egocentricity and find deeper meaning in all things.*
-*As inner sight develops, illusions are shattered, dreams are integrated, clarity begins, and consciousness extends beyond the lower five chakras alone.*
-
-#### ILLUSION
-
-When we fixate on an image, everything becomes food for its embellishment.
-
-If we think someone dislikes us, we take the slightest disharmony as proof.
-
-The more we are attached to an illusion, the more energy we need to invest.
-
-Illusion does not feed back the energy we invest and continues to lure us into its false promises.
-
-When illusion is fed by a sixth chakra excess, it becomes obsession or delusion.
-
-#### ARCHETYPES
-
-1. Archetypes are bits of information that assemble and reveal the identity of the whole.
-2. The archetype is a composite of images and experiences constellated by a common theme, like morphogenetic fields that shape our understanding. It lies in the unconscious and influences our life.
-3. Archetypes are like strange attractors of chaos theory, which cannot be seen directly but are apparent in the events of our lives. 
-4. The Hero archetype represents the quest to achieve something extraordinary, while the Great Mother archetype represents the quest for love and nurturing.
-5. Archetypes are embedded in a larger field, carrying a numinous energy that can be felt when we encounter them. They also carry a meaning and purpose that dictates smaller details within.
-6. The unconscious is the totality of all archetypes, which are embedded in a larger field and carry a numinous energy. When we encounter an archetype, we may feel a strong psychic charge imbuing everything around us with great significance.
-7. Archetypal energies not only give us meaning but also direction. 
-8. The archetype becomes an ally rather than an invisible dictator when we recognize it, allowing us to break the cycle of unconscious subroutines in our behavior and belief systems.
-9. Archetypes are simultaneously immanent and transcendent. They are immanent when we experience them as something inside that we bring forth from within ourselves, and transcendent in that they resonate with a larger meta-structure.
-10. Archetypal energies are found at the core of all mythology and religion, imbued with a powerful energy that resonates deep in our psyches. Over time, archetypes get invested with collective psychic energy, influencing culture.
-
-#### IMAGE AS SYMBOL
-
-* Symbols are a means of manifesting archetypes in the physical world.
-* We can never encounter an archetype directly; only its symbol is discernible.
-* Language, both verbal and visual, is composed of symbols that represent sounds or images.
-* Symbols communicate about deep archetypal energies through a whole-brain approach.
-* Archetypes are nonphysical templates for psychic energy, which become integrated into consciousness through symbols.
-* Symbols emerge when we recognize patterns and can be found in dreams, fantasies, art, and chance encounters.
-
-#### Dreams
-* Dreams link the conscious and unconscious mind, connecting the lower and upper chakras.
-* They symbolize the connection between our instincts, feelings, and impulses with larger archetypal energies of spirit.
-* Dreams unlock the mystery that unites soul and spirit, individual and universal, into a dynamic and synthesized whole.
-* They often present alternative realities and can provide answers to problems that the conscious mind cannot solve.
-* Dreams are representations of our inner world as it struggles with external demands.
-* The dream is a hidden door into the psyche's primordial night, where we connect with a more universal, truer, and eternal self.
-* Dreams maintain homeostasis by compensating for imbalances in our lives.
-* They are a primary experience of transcendent consciousness, allowing us to fly, travel through time, or explore the body beyond physical limitations.
-
-#### INTUITION
-1. Intuition is a leap towards wholeness from fragmentation.
-2. It is an unconscious recognition of pattern and one of the four functions in Jungian typology (sensation, feeling, thinking).
-3. Intuition relates to chakra six and is passive, requiring surrender.
-4. Living almost entirely in our conscious mind suppresses psychic abilities and makes intuition undeveloped.
-5. The rational mind thinks in pieces and is poorly suited for grasping larger wholes on an immediate, experiential level.
-6. Intuition is a flash of a match in the darkness that reveals underlying wholeness.
-7. Clairvoyance allows us to see auras and chakras, past and future events.
-8. It begins with the development of intuition and is a matter of learning to focus internal attention on something long enough to illuminate its patterns.
-
-#### TRANSCENDENT FUNCTION
-* The symbol maintains psychic life in a constant flux and carries it onward toward its destined goal by enabling tension and release as an expression of the living movement of the psychic process.
-* Chakra structure: 
-   - Chakras six and seven correspond to the supra conscious or transcendent, transpersonal, or cosmic consciousness.
-   - The lower two chakras are the realm of instincts and unconscious mind, while chakra three is the egoic consciousness.
-* Vision: The final outcome of working through chakra six is the emergence of a personal vision, which can address world problems or focus on one's own life. It uses imagination to create something new and shapes our behavior. 
-
-*A vision leads us forward, while an illusion holds us back.*
-
-### GROWING THE LOTUS 
-#### DEVELOPMENTAL FORMATION OF THE SIXTH CHAKRA
-
-1. *Lotus Developmental Formation* - The process through which individuals develop their sixth chakra during adolescence.
-2. *Independence and Originality* - Key tasks for individuals in this stage, as they strive to establish their own identity separate from their parents or caregivers.
-3. *Self-reflection* - An essential need for individuals at this stage, as they seek to understand themselves and their place in the world.
-4. *Freedom and Responsibility* - Balancing these two concepts is crucial during adolescence, as individuals learn to make decisions and take responsibility for their actions.
-5. *Identity vs. Role Confusion* - A common issue faced by adolescents, as they navigate between their own sense of self and the expectations placed upon them by society or their peers.
-6. *Symbolic Understanding* - The ability to interpret and understand the world symbolically is a key aspect of human development, particularly during adolescence when individuals are seeking meaning in their experiences.
-
-#### A child’s imagination is almost constantly engaged.
-
-1. Child's imagination is free from fixed knowledge, allowing exploration of possibilities.
-2. Pattern recognition develops throughout life, influencing self-perception and understanding.
-3. Sixth chakra awakening involves symbolic and abstract thinking (Piaget's formal operations).
-4. Adolescence marks a search for meaningful personal identity, often involving archetypal hero worship.
-5. Mental apparatus opens with an explosion of imagination during adolescence.
-6. The fourth chakra forms social personality unconsciously, while the sixth chakra reevaluates it consciously.
-
-#### ADULT DEVELOPMENT
-
-* Adult development involves symbolic communication and archetypal identity awakening after midlife crisis or adolescence.
-* Previously adopted roles no longer satisfy, leading to dissolution and unknown depths without clarity or certainty.
-* Attachment to a previous identity may have denied other important aspects of oneself that now emerge in dreams and fantasies.
-* Sixth chakra development is spiritual awakening, characterized by new eyesight, profound insight, perspective change, or vision reception.
-* It can happen at any time but often preceded by darkness, prompting exploration of the soul's depths for creating a new reality.
-
-### TRAUMAS AND ABUSES
-
-Visual memory is linked with our somatic experience, so abuses to any of the chakras can affect the opening of the sixth chakra. Repression or dissociation are ways to avoid unpleasant feelings associated with an image or memory.
-
-**Repressed Memories**: Closing down the sixth chakra due to repressed memories can lead to deficiency, while dissociation can cause excessive bombardment of images in the psyche without understanding.
-
-**Illusions and Contradictions**: Children may develop illusions or distrust their intuition due to family secrets or contradictions, which can affect their development of other functions.
-
-#### SHAME
-
-* Shame produces intense self-scrutiny in shame-based people.
-* They feel compelled to look and perform perfectly at all times, leading to a paralyzing cycle of self-monitoring.
-* The vision is turned inward, making it less available for looking outward.
-* When the eyes do look outward, they often search for clues about how they're doing, what's wanted of them, and whether they're safe.
-* This self-scrutiny program lodged in the sixth chakra takes up most of its "disk" space, blocking new information.
-* Severely shame-based people cannot look others in the eye due to their belief that their self is basically flawed.
-
-#### DEFICIENCY
-
-1. If the sixth chakra becomes deficient, its associated faculties remain undeveloped.
-2. There is poor intuitive ability, often with a compensating focus on the rational thought process.
-3. The person may seem psychically insensitive or "head-blind."
-4. This is the dinner guest who doesn't notice that his hosts are looking at their watches and clearing their throats, hinting that it's time to leave.
-5. This is the man who wants a date but cannot ask, and fails to see that the woman next to him is actually flirting.
-6. When head-blind, we fail to notice the subtle nuances of mood, often including our own.
-7. We might not notice until far too late that we had an intuition that something might not work out.
-8. With a deficient sixth chakra, we miss the subtleties of our own process
-
-If memory is poor in general, then the sixth chakra may have been closed down for protection.
-
-People with sixth chakra deficiency have difficulty visualizing or imagining things differently.
-
-They cannot imagine what the living room would look like painted blue, cannot imagine life other than the way it is, and cannot imagine themselves behaving differently.
-
-Difficulty with visualization is also frustrating when trying to follow guided meditations or creative visualizations.
-
-When contents of the unconscious are repressed, it may be difficult to remember one's dreams.
-
-We may think we have no dreams (when, in actuality, everyone dreams each night) or we may be unable to retain our dreams in waking consciousness.
-
-#### EXCESS
-1. When the image or memory of an event is disconnected from the rest of experience, the energy that is split off is invested in an image.
-2. Numerous dissociated images do not get grounded in experience, and an excessive condition develops in the sixth chakra.
-3. These elements may haunt the person in dreams, appear as obsessive fantasies, or become full-blown delusions or hallucinations.
-4. Such people appear to be laboring under the burden of too much psychic input.
-5. They may have many visions, but their visions are farsighted, blind to the realities close at hand.
-6. This is the person who is going to make a fortune with their new project when they can't even pay this month's rent, or the one who is already fantasizing about their wedding with a person they've only dated a few times.
-7. I call it "vision blindness," as if the image they see blinds them to everything else.
-8. Excess energy in the sixth chakra happens when energy is withdrawn from the lower chakras.
-9. Without the grounding that brings limitation and simplicity, a person can get lost in the boundlessness of the upper chakras
-
-#### RESTORING THE LOTUS HEALING THE SIXTH CHAKRA
-
-* Mythic consciousness is necessary for psychic and social integration.
-* Sixth chakra work focuses on development rather than healing.
-* Development requires overcoming bias and disbelief, then applying focus, practice, and discipline to develop awareness.
-* Learning to see involves learning how to look and having the patience to do so.
-* Each step in the healing process brings clarity to the larger picture.
-* Lack of grounding in earth and body makes it difficult to effectively open upper chakras.
-* Task at this level is to stimulate awakening for better integration of Self.
-
-#### DREAMWORK
-
-- Dreams teach us to think symbolically, to see and integrate what is hidden, and to access the archetypal realm that dwells both within and without.
-- The first step in working with dreams is to learn to remember them.
-- If we cannot pull our dreams into waking consciousness in the morning, then we are not successfully getting across this essential link in the bridge—the link between conscious and unconscious.
-
-#### Suggestions for remembering dreams
-1. Make an affirmation as you fall asleep each night that you will remember your dreams; 
-2. Before you go to sleep, review your day in reverse, starting with the most recent event and moving back through the day to its beginning; 
-3. When you wake, do not move your position before mentally reviewing the dream in your semiconscious state. Only when you have reviewed the dream entirely do you let your body move. If you have already rolled over, return to the position you were sleeping in and the dream may come back; 
-4. Keep writing implements by your bed and create the habit of writing down whatever you can remember, even fragments; Once the psyche knows that attention is being paid to dreams, recall usually improves dramatically; 
-5. Some say supplements such as vitamin B or melatonin increase dream activity and recall. Use of marijuana and alcohol tends to suppress it.
-
-#### FURTHER SUGGESTIONS
-
-1. Write dreams in present tense, using as much detail as possible.
-2. Regard the dream as a composite of one's own psyche, with each element representing an aspect of self.
-3. Share dreams with others and create art from them to develop a valuable language for communication.
-
-#### Study Mythology
-1. Understand archetypal elements in human consciousness through myths. 
-2. Knowledge of myths stimulates imagination, brings context and connectedness to healing process, and opens one up to spiritual realm.  
-3. Essential for finding deeper meaning in life and bridging internal and external during seventh chakra step into universal consciousness.
-
-#### Visual Art
-1. Non-artists can create art to stimulate visual thinking and tap unconscious. 
-2. Drawing chakras: Focus on each chakra's energy, draw abstract forms representing feelings, and analyze the resulting drawing for insights.
-3. Collages: Pick a theme, cut out relevant images from magazines, arrange them on paper, and glue down to create art reflecting personal growth.
-
-#### MANDALAS
-
-* **Mandala**: A symbol reflecting wholeness, consisting of geometric designs emanating from a center and colored in any way desired. Can be used for meditation on associated chakras.
-* **Visualization**: Process similar to seeing psychically; involves imagining or remembering elements not physically present. Helps develop psychic abilities.
-* **Creative visualization**: Technique for manifesting desired outcomes by focusing attention on forming images at will, aligning with natural principles of the universe.
-* **Guided visualizations and trance journeys**: Useful tools for exploring archetypal realms, seeking visions, healing, and exploration; can be facilitated by friends or guided by music and myths.
-
-#### DEVELOPING INTUITION
-
-* Intuition is available all the time but whether we listen to it or not depends on our belief in its potential to give us useful information.
-* To develop intuition, one must tune in deeply to their feelings, listen to their guts, and enter a state of openness and trust.
-* Clairvoyant abilities can be developed by anyone through meditation, visualization, and following intuition.
-* In workshops on the sixth chakra, participants begin with a combination of meditation and visualization exercises to read each other's chakras.
-* Information can come to us in various ways such as visual, kinesthetic, or aural impressions.
-
-#### VISION QUEST
-
-1. Native American religions have a tradition known as the Vision Quest, which is a ritual of purification and listening for spiritual teaching and guidance.
-2. It involves willingness to humble oneself, embrace personal ordeal, and undo connection to civilization that blinds our sight.
-3. The quester goes into the wilderness alone with minimum equipment for at least three days without food.
-4. During this time, they enter a sacred dimension outside the limitations of time and space, opening fully to spirit.
-5. They may encounter their own psychological demons, meet animal spirits, have experiences with wind or powerful dreams.
-6. There might be an experience of personal ego death followed by a psychological rebirth filled with vision and understanding.
-7. After the solo time is done, they thank the spirit of the place and return to share the vision and wisdom gained.
-
-#### Light Exposure
-
-Insufficient exposure to full-spectrum sunlight can cause symptoms such as depression, chronic fatigue, higher stress hormones, and cholesterol levels.
-
-Light enters the body through the eyes and sends signals directly to the hypothalamus, which regulates the body's autonomic nervous system and endocrine system.
-
-The pineal gland is a light-sensitive organ responsible for melatonin production, regulating sleep cycles and coordinating body functions with the external environment.
-
-Meditation improves focus and concentration, which is important for opening inner sight and requires calm and control of the mind.
-
-### CONCLUSION
-
-***Self*** is an inclusive term encompassing our entire living organism, containing past life experiences and serving as a point of departure for future growth.
-
-Ascending to the sixth chakra opens us up to transcendent realms beyond ordinary awareness, shifting perspective on daily situations and providing profound insight and vision.
-
-Expansion of consciousness through the sixth chakra leads to a world of colors, symbols, dreams, fantasy, archetypes, and images, stimulating creativity and increasing understanding.
-
-Chakra six prepares us for the final passage on the Rainbow Bridge by focusing on archetypes, laying the groundwork for understanding the intricate dance of divinity and consciousness in the next chakra.
+* Silently chant mantra given by teacher or create own mantra
+* Each chakra has a specific mantra sound (seed sound and vowel sound listed)
+* Experiment with both seed sounds and vowel sounds to find what works best
+* Sit or stand comfortably, deep breaths, let sound resonate fully in body for at least 1 minute when alone, longer with a group
+
+**Creating Your Own Mantra:**
+
+* Pick sounds that resonate with one, two, or three chakras needing attention
+* Put sounds together in a pleasing way
+* Sit in silent meditation and mentally intone the created sound
+* Imagine expanding or clearing the chosen chakras (best results with consistent use over time)
+
+### COMMUNICATION
+
+**Throat Chakra and Communication:**
+- Techniques for toning the chakra help sounds resonate easily through the body
+- Focus on effective communication with others, which includes understanding their perspective
+
+**The Need to be Heard:**
+- Quote from Steven R. Covey: "If you wish to be understood, seek first to understand"
+- Human need to be heard is profound and validates our truth, individuality, and existence
+- Inability to be heard can lead to feelings of insanity, doubt, and disconnection from reality
+- Sometimes more important than finding solutions is acknowledging the other person's feelings
+
+**Communication Dynamics:**
+- Example of couples not being able to effectively communicate due to unmet need to be heard
+- Karen needed George to acknowledge her struggles, even if he couldn't change them
+- George wanted Karen to understand his own difficulties with his job and absence from home
+- Neither was able to express or feel heard, leading to a strained connection
+
+**Importance of Listening:**
+- Deep listening can lead to healing and improved communication
+- Simple practice of acknowledging someone's feelings can go a long way toward resolving issues
+- Understanding the other person's perspective is crucial for effective communication.
+
+### ACTIVE LISTENING
+
+**Active Listening:**
+- Enables another person to feel heard
+- Quiet self and focus entire energy on speaker
+- Nod or say "mmhm" for acknowledgement, no interruptions or comments
+- Ask if speaker is complete before responding
+- Repeat what was heard in own words without parroting exact phrases
+- Co-communicator corrects misunderstandings, clarifying their perspective
+- Both parties must be satisfied that they have been truly heard before sharing own truth
+
+**Communication:**
+- Difficulties can be addressed by recording conversations or writing out feelings
+- Writing allows for finding one's voice and clarity in communication
+- Practice active listening during written communication to deepen understanding
+
+**David's Experience:**
+- Struggled to communicate effectively with wife due to personality differences
+- Encouraged to write down unexpressed feelings without censoring them
+- Read writing aloud for active listening and building trust in own voice
+- Practice sticking to truth in face of opposition through role-playing
+
+**Writing:**
+- A form of communication that transcends time
+- Allows for finding voice, clarity, and completion
+- Can be used for unresolved situations with unreachable or unresponsive people
+
+**Music:**
+- A cry of the soul and revelation of human emotion
+- Performances can serve as initiation into the mysteries of the human soul.
+
+**Frederick Delius and the Power of Music**
+
+* Music affects our entire mind-body system
+* Moves us emotionally, sells products, and unites communities
+* Combines upper and lower chakra experiences
+* Can put us in a trance for healing and spiritual growth
+
+**Emotional Effects of Music**
+
+* Affects emotions through the thalamus and limbic system
+* Can invoke specific emotional states (anger, depression, etc.)
+
+**Shamanic Use of Music and Drumming**
+
+* Works on principle of resonance for healing
+* Transcends ego and enters broader spiritual state
+
+**Science of Music's Impact on the Brain**
+
+* Thalamic reflex produces foot tapping, body swaying
+* Surrounded by limbic system, which affects emotions and endocrine system
+
+**Indian Philosophies on Sound and Music**
+
+* Sound is primordial ingredient of creation
+* Given to Brahma and Saraswati for creation and beginnings
+* Creator of consciousness that maintains the web of life
+* Fifth chakra facilitates passage between abstract information and manifested realm
+* Sound brings us into resonance and harmony on spiritual plane
+
+## CHAKRA SIX: Ajna (Third Eye)
+
+* **Element:** Light
+* **Name:** To perceive and command
+* **Purpose:** Pattern recognition
+* **Issues:** Image, Intuition, Imagination, Visualization, Insight, Dreams, Vision
+* **Color:** Indigo
+* **Location:** Forehead, brow, carotid plexus, third eye
+* **Identity:** Archetypal, Self-reflection
+* **Orientation:** Inward
+* **Demon:** Illusion
+* **Developmental Stage:** Adolescence
+* **Developmental Task:** Establishment of personal identity. Ability to perceive patterns
+* **Basic Rights:** To see
+* **Balanced Characteristics:** Intuitive, Perceptive, Imaginative, Good memory, Good dream recall, Able to think symbolically, Able to visualize
+
+**Traumas and Abuses:**
+
+* What you see doesn't go with what you’re told.
+* Invalidation of intuition and psychic occurrences.
+* Ugly or frightening environment (war zone, violence)
+
+**Deficiency:**
+
+* Insensitivity.
+* Poor vision.
+* Poor memory.
+* Difficulty seeing future.
+* Lack of imagination.
+* Difficulty visualizing.
+* Denial (can’t see what is going on).
+* Monopolarized (one true right and only way)
+
+**Excess:**
+
+* Hallucinations.
+* Delusions.
+* Obsessions.
+* Difficulty concentrating.
+* Nightmares
+
+**Physical Malfunctions:**
+
+* Headaches.
+* Vision problems.
+
+**Healing Practices:**
+
+* Create visual art.
+* Visual stimulation.
+* Meditation.
+* Psychotherapy.
+* Coloring and drawing, art therapy.
+* Working with memory.
+* Connecting image with feeling.
+* Dreamwork.
+* Hypnosis.
+* Guided visualizations.
+* Past life regression therapy
+
+**Affirmations:**
+
+* I see all things in clarity.
+* I am open to the wisdom within.
+* I can manifest my vision.
+
+**Stories of Image Syndrome:**
+
+* Monica: Lonely and isolated due to distorted self-image.
+* Stuart: Unable to see beauty beyond narrow image of an acceptable girlfriend.
+* William: Living a false life based on illusory images.
+
+**Quote by Aniela Jaffe:** Consciousness fails, the images sink back again into the dark, into nothingness, and everything remains as if unhappened. But
+if it succeeds in grasping the meaning of the images, a transformation takes place...
+
+**Sixth Chakra Issues:**
+
+* Pattern Recognition.
+* Archetypes.
+* Symbols.
+* Images.
+* Dreams.
+* Intuition.
+* Transcendence.
+* Vision.
+* Clairvoyance.
+* Illusion.
+
+### OPENING THE THIRD EYE
+
+**Psychic Development and the Third Eye (Sixth Chakra)**
+
+- Psychic development requires both intention and attraction of symbol (Jung)
+- Entering brow chakra, looking back with new vision and seeing pattern
+  - Building a rainbow bridge with colors of chakras
+  - Intuiting necessary steps to complete the pattern
+  - Guidance from sight for actions in transformation
+- Third eye: inner perception, organ of consciousness and creativity
+- Function: seeing the way, bringing light of consciousness to all
+
+**Pattern Recognition**
+
+- "Eyes are gateways to the soul" (Shakespeare)
+- Seeing patterns reveals identity and meaning
+  - Continue looking beyond initial recognition
+- Game of connect the dots analogy
+  - Forming incomplete pattern to see whole image
+- Chakra six's role: assembling information into meaningful patterns
+- Simultaneously seeing past, present, and future
+- Recognition can limit or expand possibilities based on interpretation
+- Finding insight through recognizing patterns within self
+  - Towards wholeness, clarity, extended consciousness.
+
+**Third Eye (Sixth Chakra) Specifics**
+
+- Gateway to soul
+- Higher vibration: light
+- Basic function: seeing and perceiving beyond physical sight
+- Organ of inner perception: third eye
+- Witnesses internal screen: memory, fantasy, images, archetypes, intuition, imagination.
+
+### ILLUSION
+**Illusion and Perception**
+- Illusion is a frozen image that disrupts open-minded perception
+- We see things based on our own perspective rather than reality (Anais Nin: "We don't see things as they are. We see things as we are")
+
+**Causes of Illusion**
+- Fixation on an image pulls us out of present time and authentic living
+- Investment of psychic energy keeps illusion in place
+- Obsession results from the more energy invested, the more deeply attached
+
+**Examples of Illusion**
+- **Anya**: Adopted illusion of "happily ever after" marriage model, investing all energy into husband and family, denying her own needs and hiding husband's abuse
+- **Maria**: Obsessed with fear of abandonment, interpreting present situations based on past experiences (father leaving)
+
+**Effects of Illusion**
+- Seals energy into illusion, making it difficult to let go
+- Repetitive cycles prevent true understanding
+- Illusions can become obsessions or delusions when excessively invested in
+
+**Illusion and Chakras**
+- Sixth chakra excess leads to obsession or delusion
+- Upper chakras spin wildly without grounded connection to first chakra, resulting in no forward movement
+
+### ARCHETYPES
+- Bits of information that reveal the identity of the whole
+- Images and experiences constellated by a common theme
+- Cannot be seen directly, but apparent in events of our lives
+- Influence our life from the unconscious
+- Can be symbolically represented by archetypal images
+- Lie in the unconscious and influence us through projections
+
+**Archetypes as Instinct:**
+- Psychological goal toward which whole nature of man strives
+- Composite of all human experience
+
+**Archetypal Categories:**
+- Cat: any feline creature
+- Great Mother: embodies nurturing and self-sacrificing benevolence or the terrible mother: fear of being devoured
+- Inner anima archetype: a fantasy woman that seduces a man
+- Hero: quest to achieve something extraordinary
+
+**Archetypes and Chakras:**
+- Each chakra associated with an archetype and an element
+- Chakra system is an archetypal pattern, similar to Jung's archetype of wholeness, the Self
+
+**Individuation:**
+- Archetypal process toward self-realization
+- Involves reclaiming shadow, establishing autonomy, integrating anima and animus, expressing individuality, recognizing archetypal influences, and integrating all elements into greater wholeness
+
+**Encountering Archetypes:**
+- Recognizing archetypal significance of symbols brings us into a larger spiritual framework
+- Understanding the pattern and meaning leads to insight and directed action
+
+**Unconscious:**
+- Deposit of all human experience, including archetypes
+- A living system of reactions and aptitudes that determine individual life in invisible ways
+- Archetypes carry numinous energy and meaning.
+
+**Archetypes:** bits of information that reveal the identity of the whole, psychologically representing instinct as a spiritual goal, composites of 
+images and experiences with common themes, shaping our understanding like morphogenetic fields, influencing our lives, cannot be seen directly but are 
+apparent in events.
+
+* Archetype as a spiritual goal: C.G. Jung's perspective, archetypes are the precipitate of all human experience, lying in the unconscious and 
+influencing life, releasing their projections is a duty.
+* Archetypal image: symbolic representation of an archetype, not fully integrated into the ego leads to illusion.
+* The Hero archetype: quest for extraordinary achievement, William's drive toward success but felt empty and left his soul thirsting for deeper meaning.
+* Chakras and archetypes: each chakra can be correlated to an archetype, has the archetypal energy of its associated element.
+* Archetypal pattern: totality of the Self as the central archetype of order in the psyche, formative principle of individuation.
+
+**Individuation:** archetypal process, common elements comprise the archetypal pattern, mirrors the unfolding of the chakras, reclaiming the shadow, 
+establishing autonomy, integrating anima and animus, expressing individuality, recognizing archetypal influences, integrating all elements into a 
+greater wholeness.
+
+* Recognizing archetypal energy: pattern and meaning bring understanding, guide action.
+* Archetypal identity: gained through recognition of images and symbols in dreams, imagination, art, relationships, or situations.
+* Journeying to the Underworld: metaphor for dealing with loss, acceptance as an inward journey with a sacred purpose.
+
+**Unconscious:** deposit of all human experience, living system of reactions and aptitudes that determine life invisibly, archetypes carry psychic 
+charge and meaning.
+
+* Archetypes and instincts: forms which the instincts assume, embedded in a larger field, carry numinous energy.
+
+**Image as Symbol:**
+
+* Archetypes are psychic energies that manifest through symbols (Edward Whitmont)
+* We encounter symbols of archetypes, not the archetypes themselves
+* Language is made up of sound symbols and visual representations
+* Symbols are a whole-brain way of communicating about deep archetypal energies
+* Archetypes become integrated into consciousness through symbols
+* Pattern recognition leads to emergence of symbols
+* Archetypes speak to us in an archetypal language through symbols
+
+**Symbols and the Unconscious:**
+
+* Symbols emerge from dreams, fantasies, art, and chance encounters
+* Dreams link conscious and unconscious mind
+* Dreams present alternatives to ordinary reality
+* Dreams unlock the mystery of soul and spirit connection
+* Dreams reveal hidden feelings and understandings
+* Dreams bring answers to problems and are spiritual teachers
+* Scientific discoveries have been made through dreams
+
+**Symbols and Archetypes:**
+
+* Archetypes are non-physical templates for psychic energy
+* Archetypes become integrated into consciousness through symbols
+* Symbols represent archetypal energies in the visual realm
+
+**Dreams:**
+
+* Dreams link lower and upper chakras
+* Dreams reveal hidden aspects of self and connection to universal archetypal world
+* Dreams present alternatives to ordinary reality
+* Dreams provide insights, imagination, vision, and understanding
+* Dreams communicate essential information about health, relationships, growth, etc.
+* Dreams are a primary experience of transcendent consciousness
+* Archetypes speak to us through symbols in dreams
+
+**Example of Working with Symbols:**
+
+* Snake skin appearing in life as a symbol of transformation and shedding old skin
+* Interpreting the symbol based on personal experiences, feelings, and beliefs
+* Honoring and bringing into life what is represented by the symbol
+
+### INTUITION
+- A leap towards wholeness from fragmentation
+- Unconscious recognition of pattern, one of four functions in Jungian typology
+- Passive function related to chakra six
+- Development enhances psychic abilities and embraces the mystery of the cosmic world
+- Suppressed in a culture that favors logic over intuition
+- Requires surrender and openness, not willpower
+- Reveals underlying wholeness of the psyche in a momentary illumination
+
+**Intuition vs. Rational Mind:**
+- Intuition reveals larger wholes on an immediate, experiential level
+- Rational mind thinks in pieces, poorly suited for grasping cosmic consciousness
+- Intuition is described as a flash of light in the darkness
+
+**Sixth Chakra and Clairvoyance:**
+- Development opens possibilities for clairvoyance or "clear seeing"
+- Allows perception of nonphysical planes, auras, chakras, past and future events
+- Develops through conscious surrender to unconscious mind
+- Learning to focus internal attention on something to illuminate patterns
+- Allows us to shine the light of awareness on what we wish to see
+
+**Intuition in Spiritual Growth:**
+- Helps maintain ground during transformation
+- Becomes the ground of the transpersonal psyche
+- Makes unknown territory knowable
+- Requires trust, practice, and opening to inner feelings, voices, and images.
+
+### TRANSCENDENT FUNCTION
+**Transcendent Function and Chakras:**
+- Transcendence: uniting opposites in oneself, maintaining psychic life in constant flux
+- Chakra structure: transition from physical to nonphysical realms
+- **Chakras six and seven:** realm of transpersonal consciousness, supraconscious or transcendent consciousness
+- Below chakra three: instinctual flow of unconscious mind
+- Chakra three: egoic consciousness, sense of separate self
+- Realm of transpersonal consciousness: beyond ego and instincts, reflects and combines both
+- **Chakras six and seven:** mental mirrors of lower and middle realms, respectively
+- Chakra six: symbolically reflects unconscious, realm of conscious understanding
+- Chakra seven: central processing unit (CPU), finds meaning in images from lower chakras
+
+**Tantric Texts and Nadis:**
+- Depict chakras as figure eight patterns with Ida and Pingala nadis
+- Ida and Pingala: polar opposites, solar and lunar, masculine and feminine
+- Meet in chakra six, ground for dualities to meet and transform
+
+**Vision:**
+- Outcome of working through sixth chakra
+- Emergence of personal vision
+- Expand internal picture into larger worldview
+- Addressing personal or global issues
+- Participating in shaping future
+- Vision uses imagination to create something new
+- Illusion vs. vision: pictures held in mind, but illusion binds energy and holds back progress
+- Vision leads forward, illusions hold back
+- Essential part of healing process
+- Changes begin with personal vision
+- Need an image to steer psychic energy toward new manifestation
+- Healing of sixth chakra allows for the formation of vision
+- Liberating from past grips and creating path to future.
+
+### GROWING THE LOTUS DEVELOPMENTAL FORMATION OF THE SIXTH CHAKRA AT A GLANCE
+
+**Sixth Chakra Development:** The ability to think symbolically and abstractly marks the specific development of the sixth chakra. This period is known as formal operations, which begins around age twelve. At this stage, a child can reason about things they have not experienced and live in the symbolic realm.
+
+**Adolescence:**
+- **Tasks:** Independence, originality
+- **Needs and Issues:** Self-reflection, freedom and responsibility, identity vs. role confusion
+- **Symbolic Understanding:** Man's need to understand the world and experiences symbolically as well as realistically begins early in childhood and is essential for imaginative creativity.
+- **Pattern Recognition:** Developing throughout life, recognition of patterns tells us something about ourselves and the world around us.
+
+**Sixth Chakra Development (continued):**
+- **Archetypal Hero Worship:** Adolescents search for a meaningful personal identity by engaging in hero worship and experimenting with new identities.
+- **Imagination:** The adolescent's imagination often clashes with the older generation's lack of imagination.
+- **Persona vs. Identity:** While a social persona is formed relatively unconsciously at the fourth chakra stage, personal identity becomes consciously sought during adolescence as part of the search for meaning in life.
+
+**Impact on Adolescent Development:**
+- **Archetypal Dramas:** Archetypal dramas have a significant impact on the creation of identity in adolescents, even if their symbolism is not consciously understood.
+- **Personal Identity:** The search for personal meaning and identity during adolescence can lead to experimentation with new roles, ideologies, and cultural icons.
+- **Identity vs. Role Confusion:** The dominant concern during adolescence is the search for a meaningful personal identity that resonates with the Self and provides direction for the powerful surge of energy that occurs as physical growth tapers off and sexual energy ripens.
+
+### ADULT DEVELOPMENT
+
+**Adult Development:**
+- Awakening of symbolic communication and archetypal identity usually occurs after a midlife crisis or in adolescence.
+- Previously adopted roles no longer satisfy, leading to exploration of new possibilities (Sixth chakra development).
+- Spiritual awakening brings clarity, insight, and perspective change.
+- Can occur at any time in life, often preceded by darkness and personal struggles.
+
+**Traumas and Abuses:**
+- Visual memory directly linked with somatic experience.
+- Abuses to any chakra can affect the opening of the sixth chakra.
+- Repression or dissociation are ways to avoid unpleasant feelings associated with memories.
+
+**Case Study: Sandra**
+- Witnessed father's violence towards her mother and repressed the memory, maintaining a false illusion of her father as loving and kind.
+- Failed to take action when husband became violent, unable to separate love from abuse.
+- Repressed memory affected her psychically, leading to body sensations, dreams, and visual symptoms (glasses).
+
+**Case Study: Tom**
+- Dissociated from childhood memories, unable to understand impact of words and actions on others.
+- Unacknowledged patterns in relationships led to excessive activation of the sixth chakra, cluttered psyche.
+
+**Impact of Environment:**
+- Daily scenes of suffering can close down the sixth chakra and impair physical sight.
+- Exploring family dynamics around vision problems can reveal underlying illusions.
+
+**Illusions in Recovery:**
+- Falsely remembering past as safe and secure might be an illusion of certainty.
+- Children's intuition can be hindered by denial of family secrets or contradictions.
+
+**Shame:**
+- Intense self-scrutiny can paralyze the sixth chakra, making it less available for outward vision.
+- Shame-based people may shield their eyes from others to prevent negative images from being seen.
+- Inability to meet another's gaze results in psychological blindness.
+
+### EXCESS AND DEFICIENCY
+
+**Sixth Chakra Deficiency**
+- Poor intuitive ability
+- Focus on rational thought process
+- Psychically insensitive or "head-blind"
+- Failure to notice subtle nuances of mood, including own intuitions
+- Difficulty visualizing or imagining things differently
+- Inability to remember dreams or recall them in waking consciousness
+- Strong belief in seeing only one true way
+- Monopolarized state of mind
+- Refusal to see differences, denial
+
+**Effects of Sixth Chakra Deficiency**
+- Undeveloped faculties associated with the sixth chakra
+- Missing subtle cues and nuances in social situations
+- Difficulty asking for what we want or noticing when others are hinting for us to leave
+- Inability to imagine change or visualize alternatives
+- Repression of unconscious contents, making it difficult to access deeper self
+- Monopolarized thinking, unable to see other perspectives
+- Refusal to acknowledge or address denial and unwillingness to take action in life.
+
+**Causes of Sixth Chakra Deficiency**
+- Poor memory in general, leading to closure of sixth chakra for protection
+- Difficulty visualizing or imagining things differently due to repressed memories using up storage capacity
+- Belief in seeing only one true way and refusal to see differences.
+
+**Impact of Sixth Chakra Deficiency on Lower Chakras**
+- If lower chakras have not provided security, person may prefer to stay within the familiar rather than expand into unknown.
+
+**Denial**
+- Personal and collective phenomenon
+- Refusal to acknowledge or address problems or differences, insisting they don't exist
+- Creates a fantasy world that keeps individuals from taking action in their lives.
+
+**Sixth Chakra: Excess**
+
+* Disconnected image or memory of an event leads to investment of energy in an image
+* Multiple dissociated images result in excessive condition in the sixth chakra
+* Elements may manifest as obsessive fantasies, delusions, or hallucinations
+* Can range from mild neurotic behavior to full-blown psychosis
+* Appearance of laboring under the burden of too much psychic input
+* Vision blindness: fixation on image prevents awareness of reality
+
+**Causes of Sixth Chakra Excess**
+
+* Withdrawn energy from lower chakras
+* Loss of limitation and simplicity in upper chakras
+* Overidentification with archetypal energies
+* Poor ego balance
+* Unresolved past life issues leading to fantasies (may reveal current issues)
+
+**Characteristics of Sixth Chakra Excess**
+
+* Obsession with psychic readings, past readings seen as gospel
+* Lack of discernment and discrimination
+* Inability to ground psychic energy
+* Prone to channeling, risk of receiving inaccurate information
+* Difficulty concentrating due to intrusive elements and anxiety
+* Unable to settle the mind or ground psychic energy
+
+**Dangers of Sixth Chakra Excess**
+
+* Impaired ability to discern truth from fantasy
+* Vastness of astral plane without testing ground of lower chakras
+* Risk of receiving inaccurate information during psychic activities
+* Desire to bypass sorting and testing process
+
+**Recurrent Nightmares**
+
+* Result from either excess or deficiency in sixth chakra
+* Dissociated fragments from unconscious that cannot be integrated into waking life
+* Compare presence of nightmares with other sixth chakra characteristics to determine state of the chakra
+
+**Balanced Sixth Chakra**
+
+* Intuitive perceptive abilities that enhance functioning
+* Imagination and creativity
+* Clear mind, ability to think symbolically
+* Calm mind, ability to see clearly without personal issues or lower identities in the way.
+
+### RESTORING THE LOTUS HEALING THE SIXTH CHAKRA 
+
+**Understanding Mythic Consciousness and the Sixth Chakra:**
+- Proper understanding of mythic consciousness is necessary for psychic and social integration.
+- In our culture, most people lack development in the sixth chakra due to lack of teaching in intuition, symbolic thinking, and belief in psychic 
+awareness.
+- Development of the sixth chakra requires overcoming bias and disbelief, focus, practice, and discipline.
+- Healing at any level brings clarity to the larger picture.
+- Lack of connection with earth and body hinders effective opening of upper chakras.
+- Partially awakened upper chakras hinder integration of the Self and resolution of contradictions between perception and experience.
+
+**Developing the Sixth Chakra:**
+- Begin development through **dreamwork**.
+- Dreams teach us to think symbolically, see what is hidden, and access archetypal realm.
+- Guidelines for dreamwork:
+  - Make an affirmation to remember dreams before sleep.
+  - Review day in reverse before sleeping.
+  - Do not move when waking until reviewing the dream completely.
+  - Keep writing implements by bed and write down fragments of dreams.
+  - Recall usually improves with attention paid to dreams.
+- Supplements like vitamin B or melatonin may increase dream activity and recall, while marijuana and alcohol suppress it.
+
+**Benefits of Developing the Sixth Chakra:**
+- Improved perception and integration.
+- Fluid and dynamic flow of psyche through chakra system.
+- Resolution of contradictions between perception and experience.
+
+### FURTHER SUGGESTIONS
+
+**Dream Journaling and Analysis:**
+- Write dreams in present tense with detailed descriptions, including feelings and senses
+- Each person, animal, or thing represents an aspect of self
+- Examine dream ego's state and intentions
+- Engage in dialog between dream elements
+- Share dreams with others for deeper understanding
+
+**Archetypal Understanding:**
+- Expand into archetypal identity through mythological knowledge
+- Myths reveal the dance of archetypes on collective consciousness
+- Knowledge of myths stimulates imagination and spiritual growth
+- Essential for bridging internal and external during universal consciousness step
+
+**Visual Art as a Tool:**
+- Use art to tap unconscious, stimulate visual thinking, and have fun
+- Draw chakras for self-exploration and understanding
+- Create collages as an alternative to traditional drawing for emotional expression and growth.
+
+**Additional Suggestions:**
+- Nonartists can create art through various methods
+- Meditative state helps in creating art and exploring emotions
+- Art is a valuable tool for communication with deepest self and spirit world.
+
+### MANDALAS
+
+**Jung and Mandalas**
+- Jung described mandalas as symbols reflecting wholeness
+- Geometric designs emanating from a center, created with compass and ruler
+- Can create one for each chakra for meditation
+
+**Visualization**
+- Involves imagining or remembering non-physically present elements
+- Similar to psychic seeing, but with different subjects
+- Developing visualization skills can help with psychic abilities
+- Simple exercise: imagine a glass of water with various properties
+
+**Creative Visualization**
+- Using imagination to manifest desires
+- Can embellish memories and dreams by asking detailed questions
+- Use symbols like a house or rose for deeper exploration
+- Lie down, relax, and engage fully with the visualization
+- Affirm trust in manifestation and let go when finished
+
+**Guided Visualizations and Trance Journeys**
+- Tapes or friends can guide journeys through archetypal realms
+- Allow yourself to fully experience the journey and its teachings
+- Can create own trance journeys with a theme and altered state techniques.
+
+### DEVELOPING INTUITION
+
+**Developing Intuition:**
+- Connecting to the higher power of the universe through intuition (Shakti Gawain)
+- Intuition is always available but needs validation and trust (Gawain, Clarissa Pinkola Estes)
+- Validate intuition by listening deeply and entering a state of openness
+- Beliefs about intuition's power and past experiences can impact trust in it
+- Create symbols or imaginary guides to help access intuition (Estes)
+
+**Intuition:**
+- Passive, largely unconscious experience
+- Cannot be forced but requires trust and deep listening
+- Belief in its viability is important
+- Validate hunches and follow in the right direction
+- Trust in oneself and surroundings essential for effective intuition
+
+**Clarissa Pinkola Estes' Story:**
+- Metaphor for intuition as a turbulent gut feeling
+- Imaginary symbols can help access intuition (dolls)
+- Visualize and ask questions to receive answers from within
+
+**Clairvoyance:**
+- Clear seeing beyond physical reality (French term)
+- Clears illusions and sees energies flowing around objects, people
+- Can be developed by anyone
+- Developed through meditation, visualization, and following intuition
+
+**Developing Clairvoyance:**
+- Combination of exercises: meditation, visualization, trusting intuition
+- Read each other's chakras in pairs to practice clairvoyance
+- Ask questions and report impressions back to partner (may not be visual)
+- Validation of abilities helps build confidence and strengthen "vision" muscle.
+
+### VISION QUEST 
+
+A spiritual practice involving a solo rite of purification and seeking guidance from the natural world. It is a deep embracing of Self, typically including three phases: separation, quest, and return.
+
+* **Separation:** Leaving the known world behind to psychologically sever oneself from mundane concerns. This usually involves traveling to a wilderness area with minimal equipment and abstaining from food during the heart of the quest.
+* **Quest:** Entering a sacred dimension outside time and space, opening fully to spirit. During this phase, one may encounter psychological demons, animal spirits, or have powerful dreams, and there may be an experience of ego death followed by psychological rebirth.
+* **Return:** Sharing the vision and wisdom gained with a group or friend upon returning from the solo time. The group or friend can help facilitate the transition back to civilization.
+
+**Light and Malillumination:**
+
+* Humans need exposure to full-spectrum sunlight for optimal health, but artificial lighting and indoor lifestyles decrease our exposure.
+* Jacob Liberman's book "Light: Medicine of the Future" discusses the importance of natural light and the negative effects of malillumination, including depression, fatigue, stress hormones, cholesterol levels, hyperactivity, learning disorders, visual difficulties, nutritional problems, tooth decay, and seasonal affective disorder.
+* Light enters the body through the eyes and affects the hypothalamus, pineal gland, and endocrine system, regulating vital functions and coordinating the body with the environment.
+
+**Meditation:** A practice that improves focus and concentration and is an important element in psychic development. It calms the mind, making it easier to open inner sight and perceive patterns beyond ordinary awareness.
+
+* The Self contains our past, present, and future life, and ascending to the sixth chakra opens us to transcendent realms, profound insight, and a larger system of being.
+* Chakra six expands consciousness through imagination and creativity, preparing us for the final passage on the Rainbow Bridge and understanding the dance of divinity and consciousness in the next chakra.
 
 ## CHAKRA SEVEN
 
-The Sahasrara chakra, also known as the thousandfold chakra, is a spiritual center located in the cerebral cortex. Its primary purpose is to facilitate understanding and transcendence through immanence, belief systems, higher power, divinity, union, and vision. The color associated with this chakra is violet, which symbolizes wisdom and spiritual connection.
+**Seventh Chakra: Opening to the Mystery of Heaven**
 
-The Sahasrara chakra helps individuals assimilate knowledge and develop their understanding of the world around them. However, imbalances in this chakra can lead to various issues such as attachment, learning difficulties, rigid belief systems, spiritual cynicism, and excess in lower chakras like materialism and greed.
+**Seventh Chakra at a Glance**
+- *Element*: Thought
+- *Name*: Sahasrara (thousandfold)
+- *Purpose*: Understanding
+- *Issues*: Transcendence, Immanence, Belief systems, Higher Power, Divinity, Union, Vision
 
-To maintain a balanced Sahasrara chakra, individuals should engage in healing practices that reestablish physical, emotional, and spiritual connections. This can include learning and study, spiritual discipline, meditation, psychotherapy, examining belief systems, developing an inner witness, and working with higher power. 
+**Characteristics**
+- *Color*: Violet
+- *Location*: Cerebral cortex
+- *Identity*: Universal
+- *Orientation*: Self-knowledge
+- *Developmental Stage*: Early adulthood and after
+- *Developmental Task*: Assimilation of knowledge. Development of wisdom
+- *Basic Rights*: To know and to learn
+- *Balanced Characteristics*: Ability to perceive, analyze, and assimilate information. Intelligent, thoughtful, aware. Open-minded, able to question. Spiritually connected. Wisdom and mastery, broad understanding
 
-Affirmations such as "Divinity resides within," "I am open to new ideas," and "Information I need comes to me" can also help maintain a balanced Sahasrara chakra.
+**Traumas and Abuses**
+- Withheld information
+- Education that thwarts curiosity
+- Forced religiosity
+- Invalidation of one’s beliefs
+- Blind obedience (no right to question or think for oneself)
+- Misinformation, lies
+- Spiritual abuse
 
-### SHADES OF VIOLET 
+**Deficiency**
+- Spiritual cynicism
+- Learning difficulties
+- Rigid belief systems
+- Apathy
+- Excess in lower chakras—materialism, greed, domination of others
 
-#### THE SEPARATION OF SPIRIT AND MATTER
+**Excess**
+- Overintellectualization
+- Spiritual addiction
+- Confusion
+- Dissociation from body
 
-Science examines the world rationally, avoiding spiritual issues.
+**Physical Malfunctions**
+- Coma
+- Migraines
+- Brain tumors
+- Amnesia
+- Cognitive delusions
 
-Corporations often prioritize economic growth over workers' well-being or environmental concerns.
+**Healing Practices**
+1. Reestablish physical, emotional connection (excess)
+2. Reestablish spirit connection (deficiency)
+3. Learning and study
+4. Spiritual discipline
+5. Meditation
+6. Psychotherapy
+7. Examine belief systems
+8. Develop inner witness
+9. Work with higher power
 
-Spirituality is sometimes considered fringe or antithetical to mundane existence.
+**Affirmations**
+- Divinity resides within
+- I am open to new ideas
+- Information I need comes to me
+- The world is my teacher
+- I am guided by higher power
+- I am guided by inner wisdom
 
-Monks and nuns renounce worldly pursuits for enlightenment, while New Age philosophy emphasizes transcending the body.
+**The Separation of Spirit and Matter**
+- Western civilization beliefs: spirit and matter are separate and distinct
+- Earth treated as an inanimate object
+- Science examines the world rationally, avoiding spiritual issues
+- Corporations focus on economic prowess with disregard for spiritual well-being and environment
+- People prioritizing spirituality considered fringe members of society
 
-Eastern philosophies encourage letting go of worldly attachments.
+**Merging with Divine Consciousness**
+- Need to disconnect from illusions and attachments between ourselves and the divine
+- Ultimate source of soul wounds: stripping ordinary existence of its spiritual meaning, leaving people without purpose or direction
+- Seventh chakra is about merging with divine consciousness and realizing our true nature
+- The Rainbow Bridge: connection between individual self and universal creation
+- Purpose: contact the divine and manifest divinity in bodies and actions to transform the world
+- Need to retain a home for the spirit to return, avoiding getting lost in the infinite.
 
-The separation of spirit from life leaves people spiritually homeless.
+### CONSCIOUSNESS
+- The final frontier and key to understanding existence
+- Allows us to perceive our own existence and the world around us
+- Act of individual consciousness reflecting on its own immensity is the mystery of the crown chakra
+- Realization that consciousness flows through all life forms and exists within our own consciousness is enlightenment
 
-Denying our basic nature to achieve unity is a contradiction in dualistic thinking.
+**Characteristics of Consciousness**
+- More than just thoughts or perceptions
+- Involves faculties such as memory, discrimination, and integration
+- A mystery that can only be experienced, not explained
 
-The seventh chakra is about merging with divine consciousness and realizing one's true nature.
+**Mystery of the Crown Chakra**
+- Witnessing one's own consciousness is a miracle
+- Human mind's ability to decipher language, learn, and create is miraculous
+- Consciousness is described as a unified field in which all existence is embedded
+- Sentient beings have the capacity to tap into this universal field of intelligence
+- Expanding awareness through meditation, spiritual practice, altered states of consciousness, study, education, and paying attention
 
-**The crown chakra represents the connection between the individual self and universal creation, which manifests through appropriate action, right relationship, and creative contributions.**
+**Limitations of Consciousness**
+- Human brain is more sophisticated than any machine we have created
+- Our ability to access consciousness depends on our apparatus or capacity
+- A monkey cannot access the same magnitude of consciousness as a human
 
-### UNFOLDING THE THOUSAND-PETALED LOTUS 
+**Expanding Consciousness**
+- Opening the crown chakra involves expanding awareness
+- Can be achieved through various means such as meditation, spiritual practice, altered states of consciousness, study, education, and paying attention.
 
-#### BASIC ISSUES OF THE SEVENTH CHAKRA
+**DIVING INTO THE RIVER OF CONSCIOUSNESS**
 
-- **Consciousness**: The state of being aware of one's surroundings and oneself.
-- **Awareness**: The ability to perceive, recognize, and respond to stimuli from the environment.
-- **Witness**: The observer or the self that is aware of the experience.
-- **Belief Systems**: The set of beliefs held by an individual or a group about the nature of reality and their place in it.
-- **Operating Systems**: The software that manages the interaction between computer hardware, software applications, and the user.
-- **Universal Identity**: The idea that all living beings share a common essence or identity.
-- **Attachment**: The emotional bond or connection to something or someone.
-- **Higher Power**: A spiritual or supernatural force believed to be greater than oneself.
-- **Transcendence**: The state of being beyond the limits of ordinary experience or understanding.
-- **Immanence**: The presence or manifestation of a divine power within the world.
-- **Divinity**: The quality of being divine, or having a godlike nature.
-- **Information**: Data that can be processed and understood by humans or machines.
-- **Intelligence**: The ability to acquire and apply knowledge and skills.
-- **Meaning**: The significance or purpose of something.
-- **Unity**: The state of being united or joined together as a whole.
+* Erich Jantsch's three levels of human consciousness: rational, mythical, and evolutionary
+* **Rational system**: observing and enacting from the riverbank using scientific methods and empirical means. Essential activities are observation and measurement.
+* **Mythical system**: immersing in the river, shifting from observation to experience, identifying with the force of the river and embracing a subject-subject relationship. Archetypal consciousness emerges.
+* **Evolutionary system**: merging with the river, transcending the rational system, and entering universal mind. I and thou become we. Realizing that divine consciousness is who the Self really is.
 
-#### CONSCIOUSNESS
+**Three System Levels of Human Consciousness by Erich Jantsch:**
 
-1. Consciousness is the final frontier, allowing us to perceive our own existence and reflect on its immensity.
-2. The crown chakra represents the mystery of individual consciousness.
-3. Enlightenment occurs when we realize that consciousness flows through every quantum of life around us and within ourselves.
-4. Consciousness is not just thoughts or perceptions; it also remembers, discriminates, and integrates our experiences.
-5. We feel the pull of consciousness on our emotions but must understand who or what feels those emotions.
-6. Becoming aware of our own consciousness is a miracle, as we can decipher words, learn vast quantities about any subject, and express ourselves creatively.
-7. Mystic sages describe consciousness as a unified field in which all of existence is embedded, and sentient beings have the capacity to tap into it.
-8. Opening the crown chakra involves expanding our awareness to embrace a larger portion of the universal field of consciousness through meditation, spiritual practice, mystical experiences, altered states of consciousness, study, and paying attention.
+1. **Rational system**:
+   * Sitting on the riverbank
+   * Knowledge comes through science and logical, empirical means
+   * Essential activities: observation and enactment
+   * I-it relationship: subject to object
+2. **Mythical system**:
+   * Immersed in the river
+   * Shift from observation to experience
+   * Identify with the river as a force greater than ourselves
+   * Archetypal consciousness emerges
+3. **Evolutionary system**:
+   * Merging with the river
+   * Transcending the rational system
+   * I and thou become we
+   * Universal mind, union with the divine
+   * Expansion into cosmic consciousness
 
-#### DIVING IN THE RIVER OF CONSCIOUSNESS
+**The Witness:**
 
-1. Erich Jantsch's three system levels of human consciousness: rational, mythical, and evolutionary.
-2. The river metaphor for life's complexity: the rational system (observation and enactment), the mythical system (experience and identification with the river), and the evolutionary system (becoming one with the divine).
-3. The importance of embracing all three levels of consciousness for a complete understanding of life and spirituality.
+* Consciousness within that silently observes emotions, thoughts, impulses, and attachments
+* Above and beyond body and experience but silently observes all events
+* Indestructible spark of divinity and eternal guide
+* Objective and subjective
+* Detaches from suffering and teaches us how to swim in the stream when we're flailing about.
 
-#### THE WITNESS
+**Exercises for Embracing the Witness:**
 
-1. The witness is the essence of that which is seeking.
-2. It sits behind our normal activity, observing without judgment.
-3. The witness is above and beyond the body and its experiences, memories, dreams, etc.
-4. It may be the soul essence living beyond this lifetime or a divine intelligence larger than the Self.
-5. To become aware of the witness is to embrace the essence within the Self.
-6. The witness is an indestructible spark of divinity and the core of our being.
-7. Embracing the witness allows us to swim in the stream when we are flailing about.
-8. It is an eternal guide, an invaluable friend, and deep inner awareness of the Self.
+1. Meditate on the present moment and observe the witness inside you.
+2. Practice detaching from your thoughts and emotions while remaining aware of the witness within.
+3. Cultivate self-awareness by observing your own reactions and responses to various situations.
+4. Engage in spiritual practices that help deepen your connection to the witness, such as prayer or meditation.
 
-#### BELIEF SYSTEMS
+### BELIEF SYSTEMS
+- The crown chakra can be seen as the operating system in the human psyche, interpreting instructions and deriving meaning from experiences.
+- Meaning gives purpose to life and influences how we interpret and react to events.
+- Beliefs are formed based on interpretations of experiences and become the operating system for other chakras.
+- Our beliefs shape our reality and are influenced by past experiences.
+- Reprogramming work in the crown chakra involves examining and questioning belief systems.
 
-- **Belief Systems**: The Crown Chakra as Operating System
-- **Meaning-Making**: Interpreting Instructions and Creating Purpose
-- **Conception**: Beginning Point of Manifestation
-- **Beliefs Shape Reality**: Influencing Interpretations and Behaviors
-- **Reprogramming Work**: Examining Belief Systems
+**Formation of Beliefs:**
+- Beliefs are made up of interpretations of experiences, forming a continual feedback system.
+- Conception is the beginning point of all that we manifest, including our beliefs and concepts.
+- DNA in biological conception contains "in-form-ation" that organizes tissue into a particular form.
+- Our beliefs act as ordering principles for information and guide behavior.
 
-#### UNIVERSAL IDENTITY
-1. **Physical Identity**: Identifies with the body and its needs and abilities, as well as the physical world around us.
-2. **Emotional Identity**: Feels sensations of the physical body and transforms them into value-oriented meaning. Sparks desire and motivation for self-gratification.
-3. **Will Identity**: Develops autonomous, separate self (ego) and is primarily concerned with self-definition.
-4. **Social Identity**: Expands ego identity to include relationships with others; reflexive quality of this identity is self-acceptance which is essential to acceptance of others.
-5. **Creative Identity**: Awareness of the world beyond ourselves, seeks to make a contribution to its culture and arts.
-6. **Archetypal Identity**: Identifies with transpersonal, mythic forces that guide our world and lives; transcends individuality and embraces universal connection.
-7. **Universal Identity**: Recognizes a unitary identity with the entire creation; transcends lower identities and realizes this universal identity.
+**Impact of Beliefs on Reality:**
+- The nature of our belief system determines our interpretation of events and influences the way we order our lives.
+- Different beliefs lead to different interpretations of the same event, which can affect behavior and interactions with others.
+- Our beliefs shape our reality and are shaped by it in a continual cycle.
 
-#### ATTACHMENT—DEMON OF THE CROWN CHAKRA
-1. Attachment inhibits our ability to expand in the crown chakra.
-2. Attachment denies the constantly fluid state of the universal system.
-3. In Eastern religions, attachment is seen as the basis of suffering.
-4. Pain and not getting what I want and expect teach us about our attachments and ourselves.
-5. Letting go of attachment is about how we direct our psychic energy.
-6. Attachment says we are certain we know what is best and does not allow humility that opens us to something larger.
-7. Attachment fixates our energy outside the Self.
+**Examining Belief Systems:**
+- The awakened crown chakra questions all belief systems, constantly reprogramming and upgrading the operating system of our lives.
+- It is easier to generate shifts in consciousness than applying insights to changing one's life, but outer changes are impossible without inner awakening.
+- Reprogramming work in the crown chakra involves examining and challenging limiting beliefs that no longer serve us.
 
-#### Higher Power
+### UNIVERSAL IDENTITY
 
-- Surrendering to a higher power involves releasing attachments, unworkable belief systems, addictive habits, and the need to control.
-- This allows individuals to experience their universal identity.
-- Our earliest experience with higher power came from parents as children; if childhood was safe, trusting and surrendering to parental love is comfortable for crown chakra. If not, it's difficult.
-- Surrendering to a higher power doesn't require relinquishing lower states but involves releasing that which separates us from creation.
-- It means letting go of attachments, trusting the universe, and being lifted into grace.
-- The crown chakra is a two-way gate to the beyond, opening outward to the infinite and inward/downward to visions, creation, and eventual manifestation.
-- Transcendence is a cleansing bath in the waters of spirit, providing relief from limitations.
-- The purpose of moving up through the chakras is constant transcendence, with each new plane encompassing the one below in a larger framework. This experience leads to liberation.
+- Each identity explored in the text represents a metaphoric layer of clothing that unfolds towards unity and recognition of the one. (C.G. Jung)
 
-#### Transcendence and Immanence
+**First Chakra: Physical Identity**
 
-- **Transcendence** is the path of liberation; **immanence** is the path of manifestation.
-- Embracing both allows seeing divine within and without as inseparable unity.
-- Light shining in our eyes can be blinding, but focused light on something that needs illumination is a blessing.
-- Immanence is the light of divine consciousness shining out from within; it manifests presence of divine within and divinity of Self in wholeness.
-- From immanence perspective, deity exists in everything living and nonliving.
-- A friend once asked why bother with creation when we can go straight to the source; love of creation and force behind it led to pondering this.
-- Ignoring beauty of rivers, lakes, oceans because they are not clouds is not advised.
-- Looking only at sun instead of delicate play of light in flowers is also not advised.
-- Creation is expression of divine; it can be more profound, refined, detailed than source itself (vast and abstract).
-- Difference between soul and spirit: soul is immanence within individual, while spirit seeks transcendence and universality.
-- Soul is like gatherer of spirit, forming abstract into composite being.
-- Spirit may or may not be individual; it can take on many forms.
-- Like consciousness, spirit seems to be field that encompasses all beings and connects them in a unified way.
+- Identification with the body and its needs and abilities, self-preservation.
 
-### GROWING THE LOTUS 
-#### DEVELOPMENTAL FORMATION OF THE SEVENTH CHAKRA
+**Second Chakra: Emotional Identity**
 
-1. Intellectual independence and spiritual connection are key tasks in seventh chakra development.
-2. Development of worldview, education, ego transcendence, and maturation are also important aspects.
-3. Spiritual freedom and intellectual stimulation are essential needs for seventh chakra growth.
-4. Seventh chakra development builds our cognitive structure, belief systems, understanding of the world, and ability to question and think for ourselves.
-5. Learning is a main activity in this stage, constantly adjusting what we know and upgrading our cognitive matrix.
-6. The orientation of learning changes at various stages depending on the individual, with a deeper thirsting for knowledge occurring during adolescence.
-7. Healthy seventh chakra development involves seeking knowledge throughout life, while unhealthy development may involve fixation in beliefs and require suffering or frustration to change.
-8. The difference between sixth and seventh chakra awakening is the shift beyond ego in the search for meaning.
-9. Parents can support seventh chakra development by stimulating intellect, organizing learning opportunities, encouraging questioning, modeling spirituality, and providing a broad range of choices.
+- Transforms physical sensations into value-oriented meaning, sparks desire and motivation, self-gratification.
 
-### TRAUMAS AND ABUSES
+**Third Chakra: Will Identity (Ego Identity)**
 
-Subtle but profound abuses to the crown chakra occur at any age and in many ways, limiting possibilities for focus and concentration (too open) or expansion (too closed). 
+- Birth of the executive element of the Self, separate from unconscious drives, primarily concerned with self-definition.
 
-Withholding information and invalidating beliefs can cause psychoneurosis.
+**Fourth Chakra: Social Identity**
 
-* **Withholding Information**: Children sense everything around them intuitively but lack understanding; parents often withhold information or shame their questions. This deprives children of proper mental nourishment, leading to poor education and a closed crown chakra.
-* **Spiritual Abuse**: Forcing unrealistic purity, strict practices, and insisting on perfection can close the crown chakra, producing shame and fear in children, making it harder for them to open to spirituality later in life. Structured religion is often age-inappropriate.
-* **Lack of Love and Respect**: Spiritual practice should include love and respectful regard for individuality; without these, it can be considered abusive. Children are defenseless against this abuse, living in fear, guilt, and shame. They need a variety of spiritual options to find their own fulfilling spirituality.
+- Expands ego identity to include relationships with others, serves toward service to others, self-acceptance essential for acceptance of others.
+
+**Fifth Chakra: Creative Identity**
+
+- Seeks to make a contribution to the world through art and creativity, self-expression.
+
+**Sixth Chakra: Archetypal Identity**
+
+- Identification with transpersonal, mythic forces that guide our world and lives, self-reflection on divine energies.
+
+**Seventh Chakra: Universal Identity**
+
+- Identification with all of creation, understanding of interconnectedness with the entire web of life, requires consciousness expansion.
+
+- Each identity is a belief system and a means of interpretation, influences how we relate to the world and others.
+- Realizing universal identity requires a foundation of lower identities in place.
+
+### ATTACHMENT—DEMON OF THE CROWN CHAKRA
+
+**Crown Chakra Demon: Attachment**
+
+* Inhibits expansion and growth in the crown chakra
+* Necessary for commitments but denies the fluid state of the universe
+* Keeps us anchored, unable to move forward
+* Sources of suffering in Eastern religions
+* Can learn about attachments through pain and loss
+
+**Characteristics of Attachment**
+
+* Slippery demon: necessary but can become a problem
+* Renouncing attachment may not be a spiritual act
+* Can lead to escapism instead of growth
+* About how we direct psychic energy
+* Defending against suffering rather than learning from it
+* Teaches us about ourselves
+* Empowers underlying needs and beliefs
+
+**Effects of Attachment**
+
+* Fixates energy outside the Self
+* Distracts us from inner witness
+* Closes down consciousness
+* Can lead to ignorance
+* Similar to addiction: avoidance in reverse
+
+**Addressing Attachment**
+
+* Address underlying factors
+* Redirect psychic energy to the Self
+* Question beliefs and their costs/benefits
+* Expand belief systems
+* Release through facing or letting go
+
+**Examples of Attachment**
+
+* Yogi abandoning family for enlightenment
+* Catholic church's attachment to earth-centered cosmology
+* Father's attachment to son's sinfulness
+
+**Impact of Avoidance and Relationships**
+
+* One person's avoidance becomes another's attachment
+* Both sides need willingness to release or face issues
+* Centers involved: third chakra (ego)
+
+**Meditation and Consciousness Expansion**
+
+* Silent mind widens consciousness
+* Turns towards any point in the universe for knowledge.
+
+### HIGHER POWER 
+**Higher Power and Twelve-Step Movement:**
+
+* Higher power is an essential aspect of the twelve-step movement for addiction and disorder recovery.
+* Connecting to a higher power involves surrendering attachments, belief systems, habits, and need for control.
+* Early experiences with higher power come from parents and shape our ability to trust and surrender.
+* Surrender does not require abandoning lower states but releasing defenses and attachments.
+
+**Transcendence and Immanence:**
+
+* The crown chakra is a gateway to the infinite and to creation.
+* Transcendence is the goal of moving up through the chakras, offering liberation.
+* Immanence is the path of manifestation, with the divine existing in everything living and nonliving.
+* Creation is an expression of the divine that is profound and refined.
+
+**Soul vs. Spirit:**
+
+* The soul gathers spirit, forming an individual's abstract being.
+* Spirit seeks transcendence and universality, while the soul focuses on manifestation and embodiment.
+
+**Embracing the Gods:**
+
+* We are all elements of the divine but often forget or contract our divinity.
+* Embracing deity within inspires greater consciousness and responsibility.
+* Becoming a god/goddess requires commitment to consciousness and attention to every moment.
+* Mythology embodies archetypal energies, offering infinite manifestations of the divine.
+
+**Quotes:**
+- "We are as Gods and might as well become good at it." - Stewart Brand
+- "Whoever worships another divinity than his self, knowing him not, knows not." - Brihadaranyaka Upanishad
+
+### GROWING THE LOTUS DEVELOPMENTAL FORMATION OF THE SEVENTH CHAKRA AT A GLANCE
+
+**Age:**
+- Early adulthood and throughout life
+
+**Tasks:**
+- Intellectual independence
+- Spiritual connection
+- Development of worldview
+- Education
+- Ego transcendence
+- Maturation
+- Wholeness
+
+**Needs and Issues:**
+
+**Spiritual Freedom:**
+- Desire for deeper understanding and connection to existence
+- Asking questions about the meaning of life, source, etc.
+
+**Intellectual Stimulation:**
+- Expanding horizons
+- Mastering relationships
+- Growing towards understanding and wisdom
+- Continuous learning and upgrading cognitive matrix
+
+**Spiritual Practice:**
+- Seeking answers to spiritual questions
+- Transcending ego in the search for meaning
+
+**Seventh Chakra Development:**
+- Builds cognitive structure, belief systems, and understanding of the world
+- Gradual awakening of consciousness throughout life
+- Deepening thirst for knowledge and connection in adolescence
+- Healthy foundation essential for healthy seventh chakra development
+
+**Challenges:**
+- Fixation on parents' beliefs
+- Limited opportunities for learning and information
+- Lack of encouragement and permission to question
+- Forcing spirituality upon children
+
+**Supporting Seventh Chakra Development:**
+- Stimulating intellect and organizing opportunities for learning
+- Encouraging questioning and providing discussions or resources to find answers
+- Modeling the value of learning, thinking, reading, and questioning
+- Allowing child to make choices, but making broad range available.
+
+### TRAUMAS AND ABUSE
+
+**Traumas and Abuses:**
+- Abuses to the crown chakra limit focus and concentration.
+- Withholding information can deprive children of proper mental nourishment and shut down their curiosity.
+
+**Withholding Information:**
+- Parents may withhold information from children, believing it's for their own good.
+- Children are naturally curious and seek knowledge, withholding it can limit their development.
+- Poor education can also hinder a child's natural hunger for knowledge.
+
+**Spiritual Abuse:**
+- Forcing unrealistic purity or spiritual belief systems on children can close the crown chakra and produce shame and fear.
+- Children should be allowed to explore spirituality at their own pace in a loving and respectful environment.
+- Exposure to a variety of spiritual options is important for healthy development.
+
+**Impact of Trauma:**
+- Untied ancient knowledge can return with slight variations until it's confronted.
+- Children who experience trauma or abuse may have a harder time opening to spirituality later in life.
+
+**Effects of Withholding Information:**
+- Can lead to doubt and shame, making children less likely to ask questions.
+- Can stunt their intellectual growth and limit their understanding of the world.
+
+**Impact of Poor Education:**
+- Fails to stimulate and support a child's natural curiosity and hunger for knowledge.
+- Makes learning a tedious and boring task instead of a joyous exploration.
+
+**Spiritual Abuse Examples:**
+- Forcing children to accompany parents in proselytizing can cause fear, shame, and negative experiences with spirituality.
+- Insisting on perfection or teaching that they are full of sin can also close the crown chakra.
+
+**Importance of Validation:**
+- Validating a child's questions and curiosity can help them understand the world around them.
+- Allows for healthy intellectual growth and an open crown chakra.
+
+Traumas and abuses to the crown chakra, including withholding information or spiritual abuse, can limit focus and concentration or produce shame and fear, making it harder for individuals to open up to their own personally fulfilling spirituality. Children are naturally curious and need proper mental nourishment through access to knowledge, a loving environment, and validation of their questions. Poor education can also hinder intellectual growth and curiosity, while spiritual abuse can cause negative experiences with spirituality and limit options for healthy exploration.
 
 ### EXCESS AND DEFICIENCY DEFICIENCY
 
-The intellect should be a competent servant instead of an incompetent master. If the crown chakra is closed down, the liberating current cannot finish its journey, leading to failure to achieve freedom.
+**Continuum Philosophy and Intellect**
+- Goal: Make intellect a competent servant instead of an incompetent master
+- Jean Liedloff: Closed crown chakra prevents realization of transformative energies and consciousness
 
-#### Deficient
-- **Closed Mindedness**: Jane's mother refused to read a book on her religion, claiming she already knew all about God and was not interested. This shows the opposite of infinite knowledge and possibility.
-- **Failure to Learn**: Learning is a process of incorporating change as a result of experience. If the crown chakra is closed down, it may be difficult to understand or retain new information.
-- **Belief in Limitations**: People often defend their belief in limitations, even when presented with situations where they have been broken. This can lead to self-fulfilling prophecies.
-- **Spiritual Skepticism**: Some people are attached to the belief that nothing exists outside of the tangible, material world. When extreme, it reveals a deficient seventh chakra.
+**Crown Chakra and Consciousness**
+- Important for achieving freedom and realizing transformative energies
+- Patterns of behavior repeat without awareness when crown chakra is closed
+- Closed chakra may result in being ruled by unconscious
 
-#### Excess
-- **Need to Be Right**: An extremely bright friend always tried to tell others what they were doing wrong and how to fix it. He was unhappy because few people wanted to be around him.
-- **Overintellectualism**: Frank rambled on about his latest insights, thinking he was charming everyone with his brilliant intellect. He failed to notice that no one was listening.
-- **Spiritual Addiction**: In some cases, spirituality becomes an addiction for the person with an excessive crown chakra. It can be used as an escape from lower chakras or lead to a high and ego-inflating righteousness.
-- **Feeling Overwhelmed**: When there is too much information without proper organization, it can lead to confusion, frustration, or dissociation. This can result in headaches and difficulty thinking straight.
-- **Psychosis**: Psychotic disturbances arise from a vast range of causes and are characterized by a break from reality and the grounded aspects of the lower chakras. They manifest as voices, hallucinations, or delusional belief systems.
+**The Know-it-All and Cognitive Closure**
+- Refusal to accept new knowledge and information
+- Rigid beliefs create cognitive closure
+- Opposite of infinite knowledge and possibility
+- Can lead to skepticism and unhappiness
+- John Bradshaw: Cultic authoritarian religion creates cognitive closure
+
+**Need to be Right**
+- Being right supports the ego and closes off new information
+- Separates individuals from unity and expansion
+- Question: What gives final authority on what's right?
+
+**Failure to Learn**
+- Learning is a process of incorporating change through experience
+- Difficulties in changing and understanding new information with closed crown chakra
+- Chronic condition may result in learning difficulties
+- New information resisted if it erodes belief systems
+- Question: Are you overly identified with your beliefs?
+
+### BELIEF IN LIMITATIONS
+
+**Belief in Limitations:**
+- People strongly defend beliefs about what they cannot achieve or change
+- These beliefs can become self-fulfilling prophecies
+- Infinite universe has endless possibilities, but we cannot know them all
+
+**Spiritual Skepticism:**
+- Disbelief that anything exists beyond the material world
+- A deficiency of the seventh chakra
+- Can lead to doubt and hinder trust in a higher power or unknown
+- A healthy amount of skepticism is necessary for discrimination
+
+**Excess in Crown Chakra:**
+- Overinvestment of energy as a defense mechanism
+- Pulling oneself up into the head to avoid feelings and worldly demands
+- Can result in confusion, frustration, or dissociation
+- Schizoid/Creative types often exhibit this pattern
+
+**Overintellectualism:**
+- Intellect can harm the soul when possessed
+- Building on strengths at the cost of other parts (body, emotions, heart)
+- Creates a safe, fascinating, and ego-inflating world
+- Can lead to elusiveness and distraction if not grounded in wisdom and understanding
+
+**Spiritual Addiction:**
+- Spirituality becomes an escape from lower chakra demands
+- Vows of poverty, chastity, obedience, or excessive meditation can be addictive
+- Can result in spiritual growth or arrest depending on application
+
+**Feeling Overwhelmed:**
+- Excess energy in the head leading to confusion and dissociation
+- Too much information without proper organization can be overwhelming
+- Grounding, meditation, or exercise can help calm or discharge excess energy
+
+**Psychosis:**
+- A severe and chronic state of feeling overwhelmed
+- Reveals an excess in the upper chakras (fifth, sixth, seventh)
+- Manifestations include voices, hallucinations, or delusional belief systems
+- Lack of focus and containment due to a breakdown of the operating system's organization.
 
 ### RESTORING THE LOTUS HEALING THE SEVENTH CHAKRA
 
-* Restoration of the seventh chakra involves awakening to our spiritual nature.
-* Eliminating fear, guilt, shame, grief, lies, illusions, and attachments leads to liberation from habitual thought patterns.
-* Healing involves removing ourselves from the demands of the outside world, ridding ourselves of false beliefs, and establishing a personal connection with divine source.
-* Meditation is an effective tool for developing stillness and concentration to open this chakra.
+* Awake to reality of spiritual nature by eliminating demons of fear, guilt, shame, grief, lies, illusions, and attachments
+* Develop capacity for stillness and concentration through meditation
+* Liberate from habitual patterns of thoughts and experience consciousness as infinite source
+* Open chakra by developing capacity for stillness and concentration
+* Healing involves removing demands of outside world, false beliefs, and experiencing personal connection with divine source
 
-#### MEDITATION
+**Meditation: Technique for Calming, Clarifying, and Energizing the Mind**
 
-Meditation is a technique for energizing, calming, and clarifying the mind. Its purpose is to train the mind to enter subtler states of consciousness and transcend petty concerns, allowing us to access a deeper, grander state of awareness.
+* Train mind to enter subtler states of consciousness
+* Access deeper, grander state of awareness
+* Order and clarity brought to mind affects everything else
+* Numerous techniques available, including:
+	+ Nonspecified, free-flowing movement (Authentic Movement or Rajneesh’s Chaotic Meditation)
+	+ Regulating and watching breath
+	+ Gazing at image, flame, mandala, or symbol
+	+ Uttering mantra, phrase, or affirmation
+	+ Observing witness or following thoughts
+	+ Walking silently and mindfully
+	+ Concentrating on concept or problem (Zen koan)
+	+ Intent listening to sounds or music
+	+ Visualizing moving energy up and/or down body
+	+ Guided visualizations or trance journeys
+	+ Simply relaxing and being receptive
+* Meditation leads to increased physical health, productivity, creativity, personal satisfaction, and mental silence
+* Access deeper wisdom and self-knowledge
+* Quiet mind disengages habitual responses and frees from patterns
+* Meditation can bring unconscious material into consciousness for processing
+* Serves both ascending (liberating) and descending (manifestation) currents
+* Can have profound results, including accessing deeper states of universal consciousness.
 
-Of all the methods for healing and developing the crown chakra, meditation is perhaps the most potent tool available.
+**Meditation Stages: Concentrative vs Receptive**
 
-If universal consciousness is the system in which we are all embedded, and the mind an organizer of its components, then a technique that brings calm, order, and clarity to that mind also brings order and clarity to everything else as well.
+* Yoga Sutras describe three stages in concentrative meditation:
+	+ Ydharana (concentration): focusing awareness on object
+	+ Dhyana (meditation or merging): allowing it to merge with the object
+	+ Samadhi (ecstasy): experiencing state of total absorption and no longer a sense of subject and object
+* Receptive meditation: opening to flow of thoughts, feelings, or impulses and following wherever it might lead.
 
-Those who practice meditation on a regular basis usually report an increased level of functioning in many aspects of their life, not just their thinking processes. Increased physical health and well-being, greater productivity in their work, better concentration, increased creativity, and more personal satisfaction are some of the effects that have been reported.
+### MINDFULNESS
 
-###### There are countless techniques that one can use to obtain a meditative state.
-- **Nonspecified, free-flowing movement**: 
-   -  regulating and watching one's breath
-   -  gazing at an image such as a flame, mandala, or symbol
-   -  uttering a mantra, phrase, or affirmation
-   -  observing the witness
-   -  following one's thoughts
-   -  walking silently and mindfully
-   -  concentrating on a concept or problem (such as the Zen koan "What is the sound of one hand clapping?")
-   -  intent listening to sounds or to music
-   -  visualizing moving energy up and/or down your body (running energy)
-   -  guided visualizations or trance journeys
-   -  simply relaxing and letting oneself be receptive to whatever comes through.
-- **Concentrative meditation, as described by Patanjali's Yoga Sutras**: 
-   - ydharana (concentration)
-   - dhyana (meditation or merging)
-   - samadhi (ecstasy).
+**Mindfulness:** essential key to conscious living; fundamental quality in the crown chakra; enables full experience of present moment; requires examining who we are and questioning our perspective; paying attention to subtle flavors and textures of each moment; brings past and future into present consciousness; underlies concept "Waiting Is"
 
-In concrete terms, this involves focusing awareness on an object, allowing it to merge with the object, and experiencing the state of mind that arises when total absorption occurs and there is no longer a sense of subject and object, but only a sense of being.
+**Characteristics of Mindfulness:**
+- **Paying Attention:** noticing every moment without attachment
+- **Present Moment Awareness:** enabling full experience and satisfaction
+- **Connection:** being in touch with experiences and emotions
+- **Avoiding Defenses:** no dissociation, presumptions, numbness, impatience, fear, or chakra demons
 
-#### Meditation can have profound results. 
+**Benefits of Mindfulness:**
+- **Open Attention:** new possibilities and freedom from unconsciousness
+- **Rich Information:** full information equals intelligence, avoids suffering
+- **State of Observation:** does not judge, value, negate, or applaud; simply witnesses
 
-As our thoughts often keep us engaged in repetitive patterns and limited beliefs, meditation can yield a mental silence that allows us to access a deeper wisdom, a deeper state of consciousness.
+**Enemies of Mindfulness:**
+- **Dissociation:** disconnecting from experience
+- **Presumptions:** not allowing present moment to unfold uniquely
+- **Numbness:** shutting off valuable information and robbing fullness of experience
+- **Impatience:** rushing to the future, not realizing richness of present
+- **Fear:** cannot fully engage, contracts attention
 
-As we quiet the mind, we have the option to disengage our habitual responses—anger or judgment, fear or desire—and free ourselves from these patterns. As we disengage, we become lighter, emptier, and more able to access the transcendental states of universal consciousness.
+**Quotes:**
+> Mindfulness means paying attention. It involves noticing the subtle flavors and textures of each moment and appreciating their many interwoven levels of meaning without getting attached to any particular one.
+> 
+> We keep [the past and future] consciously in sight as ways to enhance the meaning of the present.
+> 
+> In waiting, we are not putting our attention on the future, but experiencing the perfection of the unfolding present.
+> 
+> When we commit ourselves to paying attention in an open way, without falling prey to our own likes and dislikes, opinions and prejudices, projections and expectations, new possibilities open up and we have a chance to free ourselves from the straightjacket of unconsciousness.
 
-Meditation can bring previously buried unconscious material from the lower chakras into consciousness. Thus meditation also serves the ascending, liberating currents as it refines our vibrations chakra by chakra, yielding deeper understanding and self-knowledge.
+### EXERCISE TO DISCOVER THE WITNESS 
 
-Once we allow the constant chatter of the mind to subside, the deeper whisperings underneath emerge, just as dreams do when our conscious mind is asleep. What we have not conquered in the past returns again and again.
+**Exercise to Discover the Witness**
 
-We may be bombarded with feelings, sensations, or information we are not equipped to handle, or we might be freed of material that was unconsciously holding us back. 
+* Methods: Meditation or conversation with another
+* Purpose: Recognize the reality of essential self beneath normal vantage point
 
-If our work in the lower chakras has formed a foundation for higher consciousness, we will have the tools and context necessary for handling difficult material.
+**Meditation Method**
 
-Meditation can also serve the descending current of manifestation. This is the aspect that Sri Aurobindo called the transforming force. 
+* Choose emotionally charged scene, story, or situation
+* Watch drama from witness's perspective
+* Observe reactions and write down observations in a journal as if describing a third person
+* Repeat process with each charged part of the scene
+* Switch to first person to meet the witness and write its observations and insights about self
+* Remember, witness is not a judge
+* Witness may observe multiple layers until objective core Self is reached
+* Core Self has wisdom
 
-#### MINDFULNESS
+**With Another**
 
-* Mindfulness means paying attention to subtle flavors and textures of each moment.
-* It brings us satisfaction in life by immersing us in the richness of each moment.
-* Mindfulness does not forget the past or future but brings them together in the present.
-* Mindfulness has many enemies, including dissociation, presumptions, numbness, impatience, fear, and chakra demons.
-* When we operate by habit or on presumption, we are not fully engaged in the present.
-* Numbness shuts off valuable information and robs us of full experience.
-* If we are impatient or afraid, we cannot fully engage with the present.
-* Mindfulness brings an immensity of information and avoids suffering by living intelligently.
-* It is a state of observation that does not judge, value, negate, or applaud; it simply witnesses.
+* Share troubling scene, story, or situation with a friend or therapist in first person
+* Friend acknowledges but does not interrupt
+* Retell the story in third person from witness's perspective
+* Friend may ask witness for further observations or insights about self.
 
-#### EXERCISE TO DISCOVER THE WITNESS
+### HIGHER SELF 
+- Concept of connecting with a higher power for guidance and insight
+- Can be defined in various ways: communing with divine intelligence, God or Goddess, disembodied masters, or an unconscious aspect of our own mind
+- Important to receive information for healing and guidance towards wholeness
 
-1. Choose a scene, story, or situation that has an emotional charge for you.
-2. Observe your reactions to the drama using meditation techniques.
-3. Pause and observe your reaction when a part affects you strongly.
-4. Write down your observations as if describing a third person.
-5. Meet the witness by writing in first person about their observations.
-6. Remember that the witness is not the judge, and turn the witness on the critic.
-7. Witness your witnesses in multiple layers until you find an objective core Self.
-8. This core Self has much wisdom, which we know when we find it.
+**Communing with the Higher Self:**
+- Climbing metaphor for gaining perspective on difficult situations
+- Archetype that allows us to receive valuable information
+- Exercise for guidance: talking to a concept of deity (God or Goddess) for insight
 
-#### WITH ANOTHER:
-1. Pick a scene, story, or situation that troubles you.
-2. Tell the story to a friend or therapist in first person, sharing your feelings and thoughts.
-3. Retell the story from the perspective of an objective witness.
-4. The listener acknowledges but does not interrupt.
-5. As a final step, the friend can ask the witness for further observations or insights about the person.
+**Exercise for Guidance from the Higher Self:**
+- Create mental image of deity
+- Phrase concern as a question and describe it to a friend
+- Switch roles with friend, ask the question as the deity and answer as the deity would
+- If alone, play both parts and write or record answers
 
-#### HIGHER SELF
+**Talking to God or Goddess:**
+- Create mental image of deity, does not matter what it looks like as long as it carries wisdom and compassion
+- Phrase concern as a mature question, rather than petty questions
+- Describe the image and question to a friend
+- Change places, ask question as the deity and answer as the deity would
 
-The Higher Self is an archetype that allows us to receive information for healing and guidance towards wholeness. It can be defined as communing with divine intelligence, God or Goddess, disembodied masters who act as guides, or an unconscious aspect of our own mind.
+**Alone:**
+- Can also do exercise alone, play both parts and write or record answers
+- Image concept of God or Goddess
+- Write question on paper
+- Take on the God or Goddess form and read the question
+- Answer as the deity would, remember or record answer
+- Do journal writing on insights received.
 
-* **Exercise for Guidance from the Higher Self**: 
-   - Create a mental image of your concept of deity and describe it to a friend. 
-   - Pose a mature question about a difficult situation you're facing. 
-   - Switch roles with your friend, imagining yourself as the deity, and answer the question as if you were that higher being.
+### NONATTACHMENT
+- Practice to reduce suffering and become mindful
+- Difficulty detaching when deeply attached
+- Avoidance increases attachment
 
-* **Alone**: 
-   - Imagine your concept of God/dess, write down your question on paper, and allow yourself to take on the God/dess form while reading the question. 
-   - Answer as you would above, either remembering or recording the answer. 
-   - Journal about whatever comes through during the process.
+**Journal Exercise to Loosen Attachment:**
+- *Close eyes and drop into body- *
+- *Identify object of attachment and associated pain- *
+- *Observe feelings with witness consciousness- *
+- *Write down attachment details: person, qualities, benefits, parts of self affected- *
+- *Identify attached stories and assess accuracy- *
+- *List what attachment is costing (energy, time, health, etc.)- *
+- *Find reason for separation (higher wisdom, old wounds, compassion, etc.)
+- *Meditation: soak in feelings, make clear separation, call in positive energy sources, fill emptiness with new activities or practices
 
-#### NONATTACHMENT
+**Nonattachment Journal Exercise:** (Can be used for avoidance as well)
+- Identify object of avoidance and associated fear
+- Observe feelings with witness consciousness
+- Write down details: person, situation, benefits of avoidance, parts of self affected
+- Identify avoided stories and assess accuracy
+- List what avoidance is costing (energy, time, relationships, etc.)
+- Find reason for separation (growth, new opportunities, healing, etc.)
+- Meditation: soak in feelings, make clear separation, call in positive energy sources, fill emptiness with new activities or practices
 
-* **Journal Exercise**: Identify object of attachment, its levels, and benefits; listen to stories about loss; assess their accuracy; identify what it's costing you; find reasons for separation; apply lessons in meditation.
-* **Meditation**: Soak cells in desired feeling, separate from attachment, thank it for lessons, unhook energy chords, pull energy into appropriate areas, fill emptiness with activities or people.
+### TRANSCENDING THE LOWER EGOS
 
-#### TRANSCENDING THE LOWER EGOS
+**Transcending the Lower Egos:** a meditation exercise to open the crown chakra and drop sheaths of identity associated with lower chakras.
 
-Opening the crown chakra is like taking off our clothing and experiencing the joy of being naked. The following meditation helps us drop the sheaths of identity associated with the lower chakras and embrace our universal identity.
+**Step One: Let go of anything that is not your body:**
+- Sit comfortably and focus on your body.
+- Feel its length, width, edges, and boundaries.
+- Embrace the resident dweller inside your body.
+- Ask the resident to join you on a journey.
 
-1. Let go of anything that is not your body. Feel the presence of the resident dweller inside your body, embrace its energy, and thank the body for holding you.
-2. Allow yourself to feel the emotions inside your body. See how many of those reactions are automatic, based in emotions, or just physical habits.
-3. See yourself interacting with others. See the I that did the work of those creations, and acknowledge all you have done.
-4. See yourself as floating on a sea of archetypal energies, riding on the waves as each one peaks and falls. Feel how the culture has influenced the shape of this archetypal flow.
-5. Realize that there is still another presence within that has gone on this great ride—one that is separate from the archetypal energy, one that may have ridden many different waves over millennia of lifetimes, and one that can choose which ride to go on. A
+**Step Two: Allow yourself to feel emotions:**
+- Notice all emotions experienced.
+- Separate yourself from them.
+- Choose not to go on emotional rides if desired.
 
-llow yourself to expand beyond the earth, beyond the solar system, beyond the galaxy, and feel the connection with all of creation. Embrace the Self that still remains. This is your ultimate reality. Thou Art That.
+**Step Three: Observe your actions and reactions:**
+- See yourself in actions.
+- Recognize the ego's attachment.
+- Understand actions as choices.
 
-#### EXAMINING OUR BELIEF SYSTEMS
+**Step Four: See yourself interacting with others:**
+- Observe how they see you.
+- Understand the role you play.
+- Realize the puppet master behind the persona.
 
-As we expand our consciousness, our beliefs grow and evolve. The greatest enemy to this expansion is limiting beliefs such as "I can't do it," "It'll never happen," or "It is impossible." We discover that anything is possible when we explore the infinite potential of spirit.
+**Step Five: Acknowledge your creations:**
+- Recognize the I that created them.
+- Leave them behind and prepare to move on.
 
-Asking questions like "When did I first get this idea?" and "Where did those thoughts come from at the time?", we can uncover the influences that shaped our beliefs. We can then determine if these beliefs are truly our own or if they were constructed based on external factors.
+**Step Six: Observe archetypal energies:**
+- Understand cultural influences.
+- See yourself as part of an archetypal urge.
+- Realize there is a presence separate from archetypal energy.
 
-If we find ourselves confused, ignorant, or unable to think for ourselves, it may be time to seek more information. Information can come from various sources such as teachers, books, institutions, experience, and exploration.
+**Step Seven: Expand beyond identification:**
+- Feel the connection with all creation.
+- Embrace your ultimate reality as divine intelligence or pure awareness.
 
-To enhance our seventh chakra, we should feed it with information. This can be done by taking a new course of study or reading new books on subjects that interest us. By learning about ourselves and the world around us, we can master self-knowledge, which is the goal of the seventh chakra.
+### EXAMINING OUR BELIEF SYSTEMS
 
-#### RELIGION AND SPIRITUALITY
+**Examining Belief Systems:**
+- Expanding consciousness leads to growing belief systems.
+- Limiting beliefs hinder growth (e.g., "I can't do it," "It's impossible").
+- Anything is possible, and belief systems originate from experiences and influences.
 
-1. *Religion* is a psychic structure chosen by many as a vehicle for connection, similar to an over-arching operating system with instructions for dealing with the world.
-2. Religion can be the activity of the crown chakra and is one of the many petals of the seventh lotus, a powerful psychic structure that either liberates or imprisons our crown chakra.
-3. As a belief system, religion can obscure our experience or open us to wider vistas. The drive toward religion comes from each of the chakras.
-4. Religion negates spirituality when it becomes a structure for denying feelings, avoiding challenges, controlling others, or ego-inflating righteousness. These are the traps of religion.
-5. On the positive side, religion gives us a structure and practice that allows us to let go and open ourselves to deeper states of experience, awareness, and understanding. It also provides community support in times of crisis.
-6. Practices such as meditation, singing in a choir, rituals, puja (offering), yoga, or community service ground religious values in real life experience. 
+**Exploring the Origin of Beliefs:**
+- Trace beliefs back to their source by asking: When did I first get this idea? Where did those thoughts come from?
+- Identify outer influences (parents, peers, literature, loved ones).
+- Reach core experience and ask: Is this a belief I constructed?
+- Consider the beliefs that influenced previous experiences.
 
-Religion without practice is just a set of ideas and concepts; religion with practice is an active experience that can further the evolution of the soul and world.
+**The Role of Consciousness and Information:**
+- Consciousness brings us information to conduct our lives.
+- Each chakra has unique needs for growth (e.g., first chakra needs food and touch).
+- The seventh chakra feeds on information.
 
-## CONCLUSION 
+**Importance of Continuous Learning:**
+- Life force and evolution aim to become smarter and obtain more information.
+- Nourish the seventh chakra by feeding ourselves with new knowledge.
+- Choose subjects that interest us for learning, including self-exploration.
+- Gain knowledge of the world around us and within us for self-mastery.
 
-### Restoration of the Sacred 
+### RELIGION AND SPIRITUALITY
 
-#### THE MANY SHADES OF THE RAINBOW
+* C.G. Jung's perspective on psychic wholeness: energy withdrawal from external deities to psyche
+* Origin of the word religion: reconnecting with spirit, soul, and eternal aspects of life
+* Religion as a psychic structure for connecting with the world
+* Seven lotus metaphor: religion is one of many petals, impacts crown chakra
+* Drives towards religion: security (root chakra), emotional fulfillment (sacral chakra), power, community, creative expression (solar plexus, heart, throat, third eye)
+* Spiritual growth vs. religious obstacles: denial of feelings, avoidance, control, righteousness
+* Adapting religion as a defense
+* Religion's benefits: structure, practice, community, support, grounding practices (meditation, choir, rituals, puja, yoga, service)
+* Importance of religion with a practice vs. just ideas and concepts.
 
-The journey from birth to adulthood involves obstacles and difficulties that can lead to trauma, lack of consciousness, and cultural blind spots. However, the archetype of the Self contains a program for becoming whole, similar to how a seed becomes a flower.
+## CONCLUSION
+**Restoration of the Sacred** 
+**THE MANY SHADES OF THE RAINBOW**
 
-**Each piece we reclaim unfolds a petal of a chakra** - Working through past traumas allows us to return to our original pattern and pick up our evolutionary process where it was interrupted. This leads to the reclamation of pieces of our body's reality, which in turn contributes to the restoration of the temple.
+**Trauma and Difficulties:**
+- Obstacles we encounter in life, including childhood traumas and cultural blind spots
+- Shut down our evolutionary process
 
-**Breaking down barriers** - Breaking through illusions and barriers allows us to experience love and see the truth of our divine nature more clearly. Enlightenment or awakening is not about creating a new state of affairs but recognizing what already exists.
+**The Archetype of the Self:**
+- Contains the program to become whole
+- Each time we work through a past trauma, we reclaim a piece of our body's reality and temple
 
-**The goal is not to climb to the crown chakra** - The journey is not about reaching enlightenment quickly, but rather being as conscious as possible at every level and bringing depth and wisdom to each stage. 
+**Reclamation and Restoration:**
+- Breaking down barriers to love and divine nature
+- Recognition of what already is (Enlightenment or awakening)
+- Unfolding petals of chakras, bringing deeper meaning and richer life experiences
 
-The journey does not end with the realization of the soul; it is only the beginning of another voyage made in consciousness instead of ignorance.
+**The Journey Continues:**
+- Not about reaching a destination but being conscious throughout the journey
+- Bring depth and wisdom to every level
+- Uncovering obstacles is not the end, it's the beginning of another voyage in consciousness
 
-#### SRI AUROBINDO
+**The Return Trip:**
+- Psychic realization or discovery of the soul is just the start
+- Another voyage made in consciousness instead of ignorance
+- World still needs wisdom and guidance, even with enlightenment or awakening.
 
-1. **SRI AUROBINDO'S JOURNEY OF CONSCIOUSNESS**: The journey of consciousness begins with an ascent to the top, where pure awareness meets the body and allows us to operate it. As we unfold the chakras developmentally from the base to the crown, our energy evolves into more efficient and complex levels.
+**Sri Aurobindo's Teachings on Chakras: The Descent of Consciousness**
 
-2. **THE JOURNEY DOWNWARD**: In the journey downward, we bring higher awareness into lower chakra activities. Instead of forming decisions based on feelings, we can base them on principles and strategies. We create who we are rather than merely discovering it. 
+* Journey from top to bottom in consciousness development
+* Access to upper chakras is unconscious; we don't live there yet
+* As we grow, we encounter energy coming down from the top
+* Upper chakra energies filter down, but we don't operate from those levels fully
+* In the journey downward:
+	+ Instead of basing decisions on feelings, use principles
+	+ Devise strategies instead of repeating impulsive patterns
+	+ Create who we are instead of discovering who we are
+* Energy coming up from the ground is dynamic and expansive
+* Energy coming down from the top is systematic and calm
+* Chakras once fully realized:
+	+ Crown chakra: state of being, consciousness is an experience, not a thing
+	+ Illumination brings inspiration to creativity
+	+ Understanding necessary for compassion in heart chakra
+	+ Power becomes directed transformation with intelligence
+* Emotions and sexuality deepen and broaden understanding
+* Consciousness makes the body fully alive, and body gives consciousness a place to live
 
-3. **FULL REALIZATION**: When we have fully arrived at the seventh chakra, we have a fully conscious state of being. With understanding gained in the seventh chakra, we not only see the whole but also know what to make of it.
+**Ideas on Enlightenment:**
 
-4. **BRINGING CONSCIOUSNESS DOWN**: When we bring consciousness down to the heart chakra, we gain the understanding necessary for compassion. 
-
-5. **POWER AND TRANSFORMATION**: Instead of blindly acting through trial and error, we now use our intelligence to create a strategy. With vision, inspiration, communication, and love, we can energize that plan and direct it with clear intent.
-
-6. **EMOTIONS AND SEXUALITY**: We meet emotions with compassion and express our sexuality with love and communication. The impulse to reach out can now make solid connections with emotional rapport, sensate awareness, new levels of empathy.
-
-7. **MANIFESTATION**: At the base chakra, these qualities become a part of our ability to manifest, where our conception, vision, inspiration, compassion, transformation, and connection enter into physical reality. We bring an expansive awareness deep into the body with love, connection, feeling, and aliveness.
-
-8. **ENLIGHTENMENT**: Enlightenment comes in pieces, happening a little bit every day. Each time we have even a small insight, we gain a piece of wisdom that can be applied wherever it is needed. As we change ourselves, so do we change the world.
+* Enlightenment comes in pieces, it happens a little bit every day
+* We gain wisdom from insights, feelings, relationships, successes/failures
+* Change ourselves, change the world (we're a complete, indivisible system)
 
 ### PUTTING IT ALL TOGETHER
 
-1. **Assessing Chakras**: Divide a piece of paper into four columns labeled Issues, Strengths, Excess, and Deficiency. Go through each chapter's lists and write down applicable words. Have a friend do an assessment as well for comparison.
-2. **Analyzing Patterns**: Look at the assessment results to see which chakras are stronger or weaker. Use strengths from upper chakras to work on lower ones, and address issues in the heart chakra by strengthening lower ones.
-3. **Unbalanced Energy Patterns:** There are four basic patterns of unbalanced energy distribution through the chakras: *top-down* (excess in upper chakras), bottom-up (deficiency in lower chakras), inside-out (emotional issues), and outside-in (relationship issues). These patterns can be subtle.
-4. **Energy Flow**: Where attention goes, energy follows. Focus on the areas that need improvement to achieve balance.
+**Assessing Chakra Balance**
 
-Use excessive energy to build up deficient energy. If you're strong in the sixth chakra, use it to visualize a healthy body or better relationships. Use communication skills for power and relationships, and discipline for physical exercises or meditation.
+* Divide a piece of paper into four columns: Issues, Strengths, Excess, and Deficiency
+* Go through the chakra lists in the book and write down applicable words for each column
+* Have a friend assess you and compare results
+* Use strengths to address weaker areas
+* Consider journaling and healing activities
 
-#### TOP-DOWN SYSTEMS 
-People who live primarily in their heads and deal with the physical world when necessary. They have excessive upper chakras and deficient lower ones. Thinking-intuitive types who think first and act later (if at all), often struggle with spontaneity and playfulness. Growth comes from moving energy downward and connecting with the body.
+**Top-Down Approach**
 
-Top-down people: Suffer from early childhood difficulties that threw them out of their bodies and into their heads. Tend to pick jobs that are intellectual or analytical - teaching, computer programming, writing, counseling, nonperforming arts. They are oriented toward self-reflection and self-expression.
+* Use excessive energy to build up deficient energy
+* Excess in 6th chakra: visualize a healthy body or better relationship
+* Strong communicators: use skills to increase sense of power, improve relationships
+* Highly disciplined: use discipline for physical exercises, meditative practices
 
-Top-down systems: Result from a strict parent who curtails the natural expansiveness of the child. Parents may punish, ridicule, or restrict creative behavior and experimentation. Some families model this kind of structure, teaching that life's rewards are found only in hard work, obedient behavior, and minimizing expectations.
+**Five Basic Character Structures**
 
-#### BOTTOM-UP SYSTEMS
+* Each person's energy distribution through chakras is unique
+* Five basic structures: Overcontroller, Controller, Avoider, Compulsive, and Pleaser
 
-Energetically bottom-heavy, they tend to stay in repetitive, familiar patterns of the lower chakras while growth comes from moving energy upward. Feeling/sensate types who are more likely to be ruled by emotions and instincts than cognitive process. They enjoy physical activity such as exercise, sexuality, making things with their hands, cooking, or giving massage.
+**Four Basic Patterns of Unbalanced Energy Distribution**
 
-Bottom-up people: Generally enjoy physical activity such as exercise, sexuality, making things with their hands, cooking, or giving massage. Keep their nose to the grindstone, tend to conform, and are predictable and reliable. Concerned mostly with self-preservation and self-gratification, ruled by the unconscious, often do what they do by impulse, following the path of least resistance.
+* Top-down: excess moves down to deficiency
+	+ Excess in higher chakras, deficiency in lower ones
+* Bottom-up: deficiency moves up to excess
+	+ Deficient in lower chakras, excessive in upper ones
+* Inside-out: deficiency moves from core outward
+	+ Low self-esteem, poor boundaries, fear of intimacy
+* Outside-in: excess moves from external environment inward
+	+ Overstimulation, addiction, dependency on others
 
-#### INSIDE-OUT SYSTEMS
+**General Principles**
 
-* Inside-out systems are centered in the middle ego centers and grow by extending energy downward into the deeper self and upward toward the spirit and intellect. They have overall balance between upper and lower chakras but are poorly connected to either end.
-* If middle chakras are blocked, energy is held in the middle of the body and kept from the periphery, evident in Endurer structure.
-* Open middle chakras lead to ego- and action-oriented extroverts who like to engage life. They are not interested in their bodies or spiritual matters.
+* Use assessment to understand energy patterns
+* Use strengths to address weaknesses
+* Energy follows attention
 
-#### OUTSIDE-IN SYSTEMS
-Outside-in systems may be acutely aware of both head and body but have a great chasm of emptiness in the middle, especially at the heart. They can be highly sensitive physically with allergies, irritations, or chronic pains.
+### TOP-DOWN SYSTEMS
 
-Their upper chakras are highly developed, making them intelligent, creative, and intuitive. Disconnected from integrative middle, they tend toward introversion.
+* Characteristics: live primarily in their heads, excessive upper chakras, deficient lower ones, thinking-intuitive types, ponder before acting, often intellectual or analytical jobs
+* Growth and balance: comes from moving energy downward and connecting with the body
+* Suffer from early childhood difficulties that led to disconnection from the body
+* Tend to be complex and intelligent
+* Natural tendency is to move energy upward
+* Examples: Schizoid/Creative individuals, teachers, counselors, writers
 
-Traumas may be repressed from memory or serious wounds to the heart in outside-in systems. Growth comes from establishing deep relationships and opening up.
+**Bottom-Up Systems:**
 
-Oral structure can fall into this category as they are collapsed in the heart but can also fall into any of the above categories depending on their defense system. Extreme cases may signify serious dissociations, such as multiple personality disorders, obsessive-compulsive disorders, or borderline personality disorders.
+* Characteristics: energetically bottom-heavy, ruled by emotions and instincts, prefer repetitive patterns, simple expectations, satisfied with routines, oriented towards self-preservation and self-gratification
+* Growth and balance: comes from moving energy upward
+* Enjoy physical activity, keeping nose to the grindstone, predictable and reliable
+* Ruled by unconscious, often follow impulses and path of least resistance
+* May result from strict parenting that curtails natural expansiveness and punishes creative behavior
+* Examples: sports jocks, laborers, outdoorsmen, empty-headed ingenue, classic housewives
 
-#### BALANCED SYSTEMS
+**Commonalities:**
 
-It is possible to have a relatively balanced chakra system without being an enlightened master. A balanced person would be grounded, in touch with their body, and exhibit good health and vitality. 
+* Top-down and bottom-up systems refer to chakra systems and energy flow within individuals
+* Both types have growth and balance achieved through moving energy in opposite directions of their natural tendency
+* Childhood experiences play a significant role in shaping these energy systems
+* Both types have stereotypical examples and are not limited to those examples alone.
 
-They would also be aware of their feelings but not ruled by them, sexually content without being driven, confident and purposeful without dominating others, compassionate and loving yet centered and peaceful, able to communicate clearly and listen to others, and have imagination, wisdom, and a personal connection with spirit.
+### INSIDE-OUT SYSTEMS
 
-**When in Doubt, Work from the Ground Up**: Start with grounding exercises when working with someone new, as it helps establish boundaries and focus life energy into the present moment. If the person is too frightened to concentrate on the exercises, start with conversation and historical material gathering. Assign physical tasks like gardening or stretching exercises at home to help ground them.
+* Energetically centered in middle ego centers
+* Growth comes from extending energy downward to deeper self and upward toward spirit and intellect
+* Overall balance between upper and lower chakras
+* Poorly connected to either end
+* Take bodies for granted and avoid introspection
+* Middle chakras blocked, energy held in middle of body
+* Characteristics: Endurer structure, ego- and action-oriented extroverts, socialites, performers, middle managers, bureaucrats
+* Interested in outside world, politics, business, relationships, performing arts
+* May have no interest in inner life or spirituality
+* Common pattern in mainstream American culture
 
-**Emotions, Thoughts, and Sensations**: As work progresses, emotions may arise, thoughts may bring relevant associations from the past, bodily sensations may become apparent, and dreams during the week can provide direction. If in doubt, wait for these signs to emerge before forcing a healing agenda.
+**Outside-In Systems:**
 
-Remember that body, soul, mind, and spirit, along with the seven chakras, are all one indivisible whole. Even when working on a part, all other parts are present and participating. Keep the whole in mind as the guiding archetype of the Self throughout the process.
+* Energetically disconnected integrative middle
+* Aware of head and body, neither connected to other
+* Great chasm of emptiness in the middle, especially at heart
+* Highly sensitive physically with possible allergies, irritations, or chronic pains
+* Obsessed with body through dieting or hypochondria
+* Upper chakras highly developed, intelligent, creative, intuitive
+* Tend toward introversion
+* Repressed traumas or wounds to heart
+* Growth comes from establishing deep relationships and opening up
+* Can signify serious dissociations
+* Possible configurations: Oral structure, multiple personality disorders, obsessive-compulsive disorders, borderline personality disorders.
 
-### KUNDALINI AWAKENING
+### BALANCED SYSTEMS It is possible to be relatively balanced through the chakras without being an enlightened master. People who have worked on their own
 
-A yogi should open the gate to liberation with Kundalini, which gives liberation and bondage depending on the individual's state.
+**Balanced Systems:**
+- Achieving relative balance through chakras is possible without being an enlightened master
+- Characteristics of a balanced person:
+  - Well grounded and in touch with body
+  - Good health and vitality
+  - Aware of feelings without being ruled by them
+  - Sexually content without being driven
+  - Confident and purposeful (third chakra)
+  - Compassionate and loving heart
+  - Clear communication and listening skills
+  - Imagination, wisdom, and personal connection with spirit (upper chakras)
+- Achieving balance takes time, patience, dedication, and using strengths to counteract weaknesses
 
-**Kundalini in Hindu Mythology**: Kundalini is a serpent goddess who lies asleep at the base of the spine and represents the unfolding of divine energy.
+**Assessment:**
+- Assessing energy distribution for balance
+- Profound results from visualizing or moving energy
+- Starting work from the ground up recommended for ungrounded types
 
-**Circumstances that Stimulate Kundalini Awakening**: Various factors can trigger this awakening, such as meditation, yoga, fasting, stress, trauma, psychedelic drugs, or near-death experiences.
+**Grounding Exercises:**
+- Establishing boundaries
+- Sensing blocked energy
+- Focusing life energy in the present moment
+- Techniques: body dialog, drawings of the body
+- Contraindicated if person cannot concentrate on exercises
+- Alternative methods: conversation, historical material, dreams
 
-Kundalini energy can be experienced in various ways, including milder and shorter episodes.
+**Working with Clients:**
+- Following client's pattern of unfolding
+- Assisting and encouraging where needed
+- Whole self (body, soul, mind, spirit, chakras) must be kept in mind throughout the process.
 
-This energy is a condensed, primal force that creates a vertical connection between the chakras by opening subtle channels.
+### KUNDALINI AWAKENING As one opens the door with a key, so the yogi should open the gate to liberation with Kundalini. She gives liberation to the yogi 
 
-**Kundalini as Healing Force**: Although its effects may sometimes be unpleasant, Kundalini is essentially a healing force that can last for minutes, days, months, or years.
+**Kundalini Awakening**
 
-**Coping with Unpleasant Symptoms**: To manage these symptoms, one should attend to the body, reduce stress, find support, educate oneself, treat underlying psychological issues, examine spiritual practices, practice grounding, and consider yoga.
+* A spiritual experience described as the awakening of a dormant energy at the base of the spine in Hindu mythology
+* Kundalini is represented as a serpent goddess, Shakti, coiled three and a half times around the first chakra
+* Awakening occurs when the Kundalini energy begins to rise through the body, piercing and opening the chakras
+* Symptoms may include twitching, intense heat, shaking, emotional instability, hallucinations, and extreme mood swings
 
-**Shiva—Counterpart to Kundalini-Shakti**: Shiva is the Hindu god of destruction who brings realization of eternal consciousness within, while Kundalini-Shakti represents the upward current.
+**Classical Psychology Perspective**
 
-### Shiva
+* Marlena's symptoms could be mistakenly diagnosed as a psychotic break
+* However, these symptoms can also indicate Kundalini awakening
 
-1. Shiva is an archetype with both dark and light forces.
-2. In his active principle, he is called Rudra, a fierce destroyer who sears ignorance in a single glance.
-3. Rudra was also the lord of song, healing, sacrifices, and prosperity, simultaneously seen as the remover of pain.
-4. Later, Rudra was given the name Shiva, meaning Lord of Sleep, representing the "non-dual, undifferentiated state of peace."
-5. In this form, he is the ultimate transcendent deity of all knowledge, the merging of the individual with the divine, representing limitless bliss.
-6. When enlivened by Shakti, "The dance of Shiva suggests the primordial rhythm of the divine Heart whose pulsation initiates each and every motion on the universe."
-7. Together Shiva and Shakti are the primordial emanations of life itself, the cosmic parents inherent in all creation.
-8. Shiva is the pure consciousness that meets and tempers the raw, vital energy of Shakti.
-9. Shiva represents the piercing nature of consciousness that impregnates the seeker with potent awareness.
-10. Shiva can be a tempering force for the violent ravages of Kundalini-Shakti.
-11. When we deal with Kundalini, we are dealing with difficult, unrefined, and unconscious energies.
-12. As Kundalini rises, she "cooks" the grosser levels into the refinement of the higher chakras.
-13. Shiva brings order and peace to her restless wildness.
-14. To invoke the energy of Shiva is to call upon the transcendent bliss of the crown chakra and bring it down through the body.
-15. The union of these two forces synthesizes the cosmic principles of male and female, upper and lower, form and chaos, transcendence and immanence, into a single dynamic essence.
+**Causes of Kundalini Awakening**
+
+* Extended periods of meditation, yoga, fasting, stress, trauma, psychedelic drugs, or near-death experiences
+* Can be triggered by mundane experiences as well
+
+**Experience and Effects**
+
+* Intense energy undulates in the body as it rises through the chakras
+* Creates a vertical connection between the chakras by opening subtle channels, particularly the central channel (sushumna)
+* A healing force with sometimes unpleasant effects that can last for minutes, days, months, or even years
+
+**Handling Unpleasant Kundalini Symptoms**
+
+1. Attend to the body: Purify and nourish it by avoiding harmful substances, practicing massage and exercise, and eating well
+2. Reduce stress: Make time for spiritual transformation and find support
+3. Find support: Connect with others who have had similar experiences and seek spiritual companionship
+4. Educate yourself: Learn about Kundalini and the chakras to better understand the experience
+5. Treat underlying psychological issues: Address unresolved emotional baggage to facilitate a smoother journey
+6. Examine your spiritual practices: Adjust or discontinue practices that exacerbate symptoms, and consider beginning new ones if none are in use
+7. Practice grounding: Establish a strong foundation for the Kundalini energy through grounding exercises
+8. Practice yoga: Strengthen the body, purify subtle channels, and awaken chakras to facilitate a smooth passage of Kundalini energy
+
+**Shiva—Counterpart to Kundalini-Shakti**
+
+* Kundalini is the upward current that breaks out of restricted matter and moves toward the infinite
+* Shiva, her counterpart, represents the source of the downward current
+* Destroys ignorance, attachment, and illusion to bring realization of the eternal consciousness within
+* The axis of manifestation developing from the point-limit (bindu), the center of the universe.
+
+**Shiva:**
+- Archetype with both light and dark forces
+- Active principle: Rudra, destroyer and sealer of ignorance
+- Later aspects: Shiva, lord of sleep, ultimate transcendent deity, representing peace and bliss
+- Inactive form: corpse, symbolizing forgetfulness
+- Enlivened by Shakti, causes the dance of Shiva
+- Primal emanation of life, cosmic parents
+- Represents pure consciousness and form/order
+- Tempering force for Kundalini's chaotic energies
+- Symbolized as Shiva lingam (male symbol of creation)
+- Brings calm and order to Kundalini's wildness
+- Can temper the violent ravages of Kundalini
+
+**Shakti:**
+- Dynamic feminine principle, moving toward freedom and chaos
+- Raw, vital energy, needs Shiva for manifestation
+- Causes Shiva to move into manifestation as the dance (Shiva Nataraja)
+- In union with Shiva: primordial emanations of life
+
+**Cosmic Principles:**
+- Male and female, upper and lower, form and chaos, transcendence and immanence
+
+**Invoking Shiva's Energy:**
+- Calls upon the transcendent bliss of the crown chakra
+- Brings down through body, invokes manifesting current
+- Synthesizes cosmic principles into a single dynamic essence.
+
+**Yogin:**
+- Dwells steadfastly at the junction of emanation and resorption
+- Returned to primordial oneness, the universal heart.
 
 ### TANTRA—MEETING AT THE HEART
 
-1. Tantra is a spiritual practice focused on weaving together opposite energies, specifically Shakti (feminine energy) and Shiva (masculine energy).
-2. Sexuality is a subset of Tantra that embodies the union of these two forces on the physical plane.
-3. Enlightenment in Tantra is achieved through embracing the full experience of living, delighting in the senses, desires, and feelings.
-4. The heart chakra is the central integrating chamber of the chakra system, where all things find connection and wholeness.
-5. The world is currently immersed in power struggles and aggression, but it is time to shift focus from the third chakra (individuality) to the fourth (community).
-6. Only love can lift us out of violence, aggression, and individualism, and reweave the original fabric of wholeness that has been severed in ourselves and among each other.
-7. Each conscious, integrated individual must open their heart to create a living reality between Heaven and Earth through the Rainbow Bridge.
+**Tantra:** a spiritual practice that involves weaving together opposing energies (Shakti and Shiva) through all chakras, ultimately balancing them in the heart for enlightenment; not about renunciation but embracing life's experiences and expanding consciousness
+
+* Literally means "loom" or "to stretch"
+* Involves weaving together opposites: mortal and divine, male and female, spirit and matter, Heaven and Earth
+* Balancing Shakti (downward flow) and Shiva (upward flow) in heart results in ultimate balance
+
+**Tantra and Sexuality:**
+
+* Sacred act embodying union of Shiva and Shakti on physical plane
+* Tantra seeks enlightenment through experiencing life fully, embracing senses and emotions
+* Transforms acts into creative evolution rather than ceasing action
+
+**Chakras:**
+
+* Heart chakra is central integrating chamber
+* Bringing feelings to a place of wisdom and understanding at the heart
+* Realization comes from crown chakra, allowing us to embrace whole
+* Body is temple where all things come to rest and fruition; need integration for completeness
+
+**Union of Shiva and Shakti:**
+
+* Two triangles symbolize their union in objective universe
+* Separated triangles represent dissolution: time and space cease to exist
+
+**Bringing Ourselves into the Center at the Heart:**
+
+* Feeling bodies, needs, emotions, and considering effects on others
+* Embodying wisdom by not blindly accepting beliefs without testing with body's truth
+* Approaching life with compassion and love
+* Dwelling in a place of peace and balance
+
+**Current State of the World:**
+
+* Issues centered around power and aggression
+* Living in shadow of potential nuclear holocaust
+* Exaltation of individuality and worship of hero's quest
+* Technology prowess
+* Call to return from third chakra to fourth: benefit community with individual possibilities
+
+**Returning from the Hero's Quest:**
+
+* Emphasis on bringing home the fruits of individuality and power for community benefit
+* Limited possibilities as individuals, but unlimited potential as conscious members of larger community
+* Quest for enlightenment requires returning to world and becoming part of evolutionary system
+* Love is essential to lift us out of violence, aggression, and coldhearted individualism
+* Creating connection between Heaven and Earth as conscious, integrated individuals
+
+**Rainbow Bridge:**
+
+* Created by each conscious, integrated individual
+* Essential piece emphasized at this time for healing the original fabric of wholeness.
 
 ### TEMPLE FOR THE GODS
 
-- Spirituality is awakening divinity in consciousness.
-- In Norse mythology, giants built palace Valhalla as abode for gods; they requested payment (Frejya, goddess of love).
-- We cannot have others build our temple for us or pay for it by sacrificing love.
-- If we want divine energies to manifest within us, we must build our own temple.
-- Consciousness is universal field accessed through individual psyche; amount of consciousness depends on intelligence and state of mind.
-- Divinity is more than just consciousness; it includes beauty, sound, love, energy, feeling, and form (reflected in each chakra).
-- To tap into full spectrum of divinity, we need to build temple within ourselves capable of receiving/transmitting each frequency.
-- Each chakra represents essential chamber in temple of Self; houses aspect of sacred and is necessary for wholeness.
-- More we clean/properly decorate temple, more we court presence of divine.
-- Build temple to gods by creating, clearing, restoring each chakra's chamber.
-- Once we open to gods, our job is to bring them forward through sacred living and enhance journey for others.
-- Only by going on journey ourselves can we guide others; thus, journey across Rainbow Bridge becomes sacred quest for evolution of humanity.
+**Building a Temple for the Divine:**
 
-## Bibliography
-### CHAKRAS, ENERGY, AND YOGA
+* Spirituality is the awakening of divinity in consciousness (Harish Johari)
+* In Norse mythology, giants built Valhalla as gods' abode but asked for payment - Frejya, goddess of love
+* Cannot build our temple through external means or by sacrificing love
+* Need to build a temple within ourselves to access full spectrum of divinity
 
-- Aranya, H. Yoga Philosophies of Patanjali, 1983.
-- The Serpent Power, Avalon, Arthur. 1974.
-- Hands of Light: A Guide to Healing through the Human Energy Field. Brennan, Barbara Ann. 1987.
-- Light Emerging: The Journey of Personal Healing. 1993.
-- Wheels of Light: A Study of the Chakras, vol. Bruyere, Rosalyn L. 1 1989.
-- Beginning Yoga: The Runner’s Yoga Book. Couch, Jean. 1992.
-- Davis, Mikol, and Earle Lane. Rainbows of Life: The Promise of Kirlian Photography, 1978.
-- The Yoga of Power: Tantra, Shakti, and the Secret Way. Evola, Julius. Rochester, VT: Inner Traditions, 1992.
-- Yoga Mind, Body & Spirit: A Return to Wholeness. Farhi, Donna. 2000.
-- The Shambhala Encyclopedia of Yoga. Feuerstein, Georg. 1997.
-- Wholeness or Transcendence? Ancient Lessons for Emerging Global Civilization. 1992.
-- A Study of Structural Integration from Neuromuscular Energy Fields and Emotional Approaches. Hunt, Valerie. 1989.
-- Chakras: Energy Centers of Transformation. Johari, Harish. 1987.
-- Chakra Balancing: A Guide to Healing and Awakening Your Energy Body. Judith, Anodea. 2003.
-- The Chakra System: A Complete Course in Self-Diagnosis and Healing. 2000
-- The Illuminated Chakras: A Visionary Voyage into Your Inner World 2003
-- Wheels of Life: A User’s Guide to the Chakra System. 1987.
-- The Sevenfold Journey. Judith, Anodea, and Selene Vega. 1993.
-- The Web That Has No Weaver: Understanding Chinese Medicine. Kaptchuk, Ted J. 1983.
-- Yoga for Wellness: Healing with the Timeless Teachings of Viniyoga. Kraftsow, Gary. 1999.
-- Relax and Renew: Restful Yoga for Stressful Times. Lasater, Judith. 1995.
-- Your Aura and Your Chakras: The Owner’s Manual. McLaren, Karla. 1998.
-- The Tantric Way: Art, Science, Ritual. Mookerjee, Ajit. 1977.
-- A Chakra and Kundalini Workbook: Psycho-Spiritual Techniques for Health, Rejuvenation, Psychic Powers, and Spiritual Realization. Mumford, John. 1994.
-- Healing Yoga: A Guide to Integrating the Chakras with Your Yoga Practice. Saraswati, Swami Ambikananda. 2001.
-- Exploring Chakras: Awaken Your Untapped Energy. Shumsky, Susan G. 2003.
-- Kundalini, Evolution and Enlightenment. White, John, ed. 1979.
+**The Divine:**
 
-### Chakra One
-- Zen and the Art of Making a Living. Boldt, Lawrence. 1991.
-- Making Peace with Food. Kano, Susan. 1989.
-- The Continuum Concept. Liedloff, Jean. 1975.
-- Earth Prayers from Around the World. Roberts, Elizabeth, and Elia Amidon. 1991.
+* More than just consciousness
+* Includes beauty, sound, love, energy, feeling, and form
+* Accessing these frequencies requires a capable temple within
 
-### Chakra Two
-- The Art of Sexual Ecstasy: The Path of Sacred Sexuality for Western Lovers. Anand, Margo. 1989.
-- The Courage to Heal: A Guide for Women Survivors of Sexual Abuse. Bass, Ellen, and Laura Davis. 1988.
-- Guilt Is the Teacher, Love Is the Lesson. Borysenko, Joan. 1990.
-- Allies in Healing: When the Person You Love Was Sexually Abused as a Child. Davis, Laura. 1991.
-- The Courage to Heal Workbook: For Women and Men Survivors of Child Sexual Abuse. 1990.
-- Sacred Pleasure. Eisler, Riane. 1995.
-- Emotional Intelligence. Goleman, Daniel. 1995.
-- Sacred Sex: Ecstatic Techniques for Empowering Relationships. Jwala, with Robb Smith. 1994.
-- Recovering from Incest: Imagination and the Healing Process. Kane, Evangeline. 1989.
-- The Emotional Incest Syndrome: What to Do When a Parent’s Love Rules Your Life. Love, Patricia. 1990.
-- Touching: The Human Significance of the Skin. Montagu, Ashley. 1971.
-- Sexual Energy Ecstasy: A Practical Guide to Lovemaking Secrets of the East and West. Ransdale, David, and Ellen Ransdale. 1993.
-- Male Survivors: 12-Step Recovery Program for Survivors of Childhood Sexual Abuse. Sanders, Timothy L. 1991.
+**Chakras as Essential Chambers:**
 
-### Chakra Three
-- The Act of Will. Assagioli, Roberto. 1974.
-- Healing the Shame the Binds You. Bradshaw, John. 1988.
-- The Seven Habits of Highly Effective People. Covey, Steven R. 1989.
-- Love and Will. May, Rollo. 1969.
-- Truth or Dare: Encounters with Power, Authority, and Mystery. Starhawk. 1987.
-- The Other Side of Power: How to Become Powerful without Being Power Hungry. Steiner, Claude. 1981.
-- Anger: The Misunderstood Emotion. Tavris, Carol. 1982.
+* Each chakra represents an essential chamber in the temple of the Self
+* Houses an aspect of the sacred and is necessary for wholeness
+* Cleansing, decorating, and restoring each chamber allows access to more divinity
 
-### Chakra Four
-- Through the Gateway of the Heart. Adamson, Sophia. 1985.
-- Codependent No More: How to Stop Controlling Others and Start Caring for Yourself. Beattie, Melody. 1987.
-- Bradshaw on the Family: A Revolutionary Way of Self-Discovery. Bradshaw, John. 1988.
-- Creating Love: The Next Great Stage of Growth. 1992.
-- Homecoming: Reclaiming and Championing Your Inner Child. 1990.
-- Eros and Pathos: Shades of Love and Suffering. Carotenuto, Aldo. 1989.
-- Conscious Loving: The Journey to Co-Commitment. Hendricks, Gay, and Kathlyn Hendricks. 1990.
-- Getting the Love You Want. Hendrix, Harville. 1988.
-- Facing Codependence. Mellody, Pia. 1989.
-- Crossing the Bridge: Creating Ceremonies for Grieving and Healing from Life’s Losses. Metrick, Sydney Barbara. 1964.
-- Soul Mates: Honoring the Mysteries of Love and Relationship. Moore, Thomas. 1994.
-- The Spirit of Loving. Sell, Emily Hilburn. 1995.
-- Embracing Each Other: Relationship as Teacher, Healer & Guide. Stone, Hal, and Sidra Winkelman. 1989.
+**Building a Temple Step by Step:**
 
-### Chakra Five
-- Sounding the Inner Landscape: Music as Medicine. Gardner, Kay. 1990.
-- The Healing Voice: Traditional and Contemporary Toning, Chanting, and Singing. Gardner-Gordon, Joy. 1993.
-- Sound Medicine: Healing with Music, Voice, and Song. Garfield, Laeh Maggie. 1987.
-- Vibrational Medicine. Gerber, Richard. 1988.
-- Tuning the Human Instrument: An Owner’s Manual. Halpern, Steven. 1978.
-- Sound Health: The Music and Sounds That Make Us Whole. Halpern, Steven, with Louis Savary. 1985.
-- Through Music to the Self. Hamel, Peter Michael. 1979.
-- Toning: The Creative Power of the Voice. Keyes, Laurel Elizabeth. 1973.
-- The Silent Pulse. Leonard, George. 1978.
-- The Healing Energies of Music. Lingerman, Hal A. 1983.
-- Tuning In: A Guide to Effective Listening. Maidment, Robert. 1984.
-- The Healing Forces of Music: History, Theory, and Practice. McClellan, Randall. 1988.
-- Creativity, Spirituality, and Transcendence. Miller, Melvin E., and Susanne R. Cook-Greuter, eds. 2000.
-- Embracing Our Selves: The Voice Dialogue Manual. Stone, Hal. 1993.
+* Build foundation and reclaim life force (develop the seven chakras)
+* Open to the gods
+* Bring forth divinity through sacred living
+* Enhance journey for others by guiding them on their own quests
 
-### Chakra Six
-- Basic Concepts in Eidetic Psychotherapy. Ahsen, Akhter. 1973.
-- Personal Mythology: The Psychology of Your Evolving Self. Feinstein, David, and Stanley Krippner. 1988.
-- The Book of the Vision Quest. Foster, Stephen and Meredith Little. 1988.
-- Creative Visualization. Gawain, Shakti. 1979.
-- Living in the Light. 1993.
-- Lucid Dreaming: The Power of Being Awake & Aware in Your Dreams. LaBerge, Stephen. 1985.
-- Light: Medicine of the Future. Liberman, Jacob. 1991.
-- Man and His Symbols. Jung, Carl G. 1964.
-- Archetypes. Stevens, Anthony. 1983.
-- Dreamwork: Techniques for Discovering the Creation Power in Dreams. Taylor, Jeremy. 1983.
-- Where People Fly and Water Runs Uphill: Using Dreams to Tap the Wisdom of the Unconscious. 1992.
-- Chakras and Their Archetypes: Uniting Energy Awareness and Spiritual Growth. Wauters, Ambika.  1997.
-- Jungian-Senoi Dreamwork Manual. Williams, Strephon Kaplan. 1980.
+**The Rainbow Bridge as a Sacred Quest:**
 
-### Chakra Seven
-- The God Game: It’s Your Move. Booth, Leo. 1994.
-- The Experience of Insight: A Simple and Direct Guide to Buddhist Meditation. Goldstein, Joseph. 1983.
-- Wherever You Go, There You Are. Kabat-Zinn, Jon. 1994.
-- Yoga and Psychotherapy: The Evolution of Consciousness. Rama, Swami, Rudolph Ballantine, and Swami Ajaya. 1976.
-- Sri Aurobindo, or the Adventure of Consciousness. Satprem. 1968.
-- Frontiers of Consciousness: The Meeting Ground Between Inner and Outer Reality. White, John, ed. 1974.
-- The Highest State of Consciousness. 1972.
-
-### PSYCHOLOGY
-- Psychosynthesis. General and Transpersonal Psychology Assagioli, Roberto. 1976.
-- Transcending Psychoneurotic Disturbances: New Approaches in Psychospirituality and Personality Development. Bynum, Edward Brude. 1994.
-- Psychotherapy and Spirit: Theory and Practice in Transpersonal Psychotherapy. Cortwright, Brant. 
-- Shamanism. Eliade, Mircea. 1964.
-- Healing into Life and Death. Levine, Stephen. 1987.
-- Modern Psychology and Ancient Wisdom: Psychological Healing Practices from the World’s Religious Traditions. Mijares, Sharon G. 2003.
-- The Drama of the Gifted Child: The Search for the True Self. Translated by Ruth Ward. Miller, Alice. 1981.
-- For Your Own Good: Hidden Cruelty in Child-Rearing and the Roots of Violence. Translated by Hildegarde Hannum and Hunter Hannum. 1983.
-- The Psychology of Consciousness. Ornstein, Robert E. 1972.
-- Ratsch, Christian, ed. Gateway to Inner Space: Sacred Plants, Mysticism, and Psychotherapy.1989.
-- Transformers: The Therapists of the Future. Small, Jacquelyn. 1982.
-- An Introduction to the Psychology of Religion. Thouless, Robert H. 1971.
-- Beyond Ego: Transpersonal Dimensions in Psychology. Walsh, Roger N. and Frances Vaughan, Ph.D. 1980.
-- The Ego and the Dynamic Ground: A Transpersonal Theory of Human Development. Washburn, Michael. 1988.
-- The Atman Project: A Transpersonal View of Human Development. Wilber, Ken. 1980.
-- No Boundary: Eastern and Western Approaches to Personal Growth. Boston: Shambhala, 1985.
-- Sex, Ecology, and Spirituality: The Spirit of Evolution. Boston: Shambhala, 1995.
-
-### Somatic Psychology
-- The Body in Recovery: Somatic Psychotherapy and the Self. Conger, John P. 1994.
-- Jung & Reich: The Body as Shadow. 1988.
-- Somatics: Reawakening the Mind’s Control of Movement, Flexibility, and Health. Hanna, Thomas. 1988.
-- Emotional Anatomy. Keleman, Stanley.  1985.
-- The Human Ground: Sexuality, Self, and Survival. 1975.
-- Love: A Somatic View. 1994.
-- Patterns of Distress. 1989.
-- Your Body Speaks Its Mind. 1975.
-- Levine, Peter, with Ann Frederick. Waking the Tiger: Healing Trauma: The Innate Capacity to Transform Overwhelming Experiences ( 1997).
-- The Betrayal of the Body. Lowen, Alexander. 1967.
-- The Language of the Body. 1958.
-- The Way to Vibrant Health. Lowen, Alexander, and Leslie Lowen. 1977.
-- Touching: Body Therapy and Depth Psychology. McNeely, Deldon Anne. 1987.
-- Pierrakos, John. Core Energetics: Developing the Capacity to Love and Heal.
-- Mendocino, CA: Life Rhythm Publication, 1987.
-- Wolfe. Reich, Wilhelm. Character Analysis. Translated by Theodore P. 1949.
-- Children of the Future. 1983.
-- The Function of the Orgasm: The Discovery of the Orgone. 1971.
-
-### Jungian Psychology
-- The Vertical Labyrinth: Individuation in Jungian Psychology. Carotenuto, Aldo. 1985.
-- A Strategy for a Loss of Faith: Jung’s Proposal. Dourley, John P. 1992.
-- Masculine and Feminine: The Natural Flow of Opposites in the Psyche. Hill, Gareth. 1982.
-- Complex, Archetype, Symbol. Jacobi, Jolande. 1959.
-- Bash. The Psychology of C. G. Jung. Translated by K. W. 1951.
-- Hull. The Way of Individuation. Translated by R. C. F. 1967.
-- Axon: Researches into the Phenomenology of the Self. Jung, Carl Gustav. 1959.
-- The Archetypes and the Collective Unconscious (The Collected Works of C. G. 1959. Jung, Volume 9.1)
-- Dreams. 1974.
-- Edited by Aniela Jaffe. Memories, Dreams, Reflections. 1965.
-- The Practice of Psychotherapy (The Collected Works of C. G Jung, Volume 16). 1966.
-- Psychological Types (The Collected Works of C. G Jung, Volume 6). 1971.
-- Psychology and Religion: West and East (The Collected Works of C. G. Jung, Volume 11). 1958.
-- Psychology and the East. 1978.
-- The Structure and Dynamics of the Psyche (The Collected Works of C. G Jung, Volume 8). 1960.
-- Two Essays on Analytical Psychology (The Collected Works of C. G. Jung, Volume 7). 1966.
-- Animus and Anima. Jung, Emma. 1957.
-- Touching: Body Therapy and Depth Psychology. McNeely, Deldon Anne. 1987.
-- Care of the Soul: A Guide for Cultivating Depth and Sacredness in Everyday Life. Moore, Thomas. 1992.
-- Jung’s Quest for Wholeness: A Religious and Historical Perspective. Smith, Curtis D . 1990.
-- Hinduism and Jungian Psychology. Spiegelman, J. Marvin, and Arwind Vasavada. 1987.
-- The Symbolic Quest: Basic Concepts in Analytical Psychology. Whitmont, Edward. 1969.
-- Addiction to Perfection: The Still Unravished Bride. Woodman, Marion. 1982.
-
-### Developmental Psychology
-- Childhood and Society. Erikson, Erik. 1964.
-- The Psychological Birth of the Human Infant: Symbiosis and Individuation. Mahler, Margaret S., Fred Pine, and Anni Bergman. 1975.
-- Psychological Development: A Life-Span Approach. Mussen, Paul Henry, John Janeway Conger, Jerome Kagan, and James Geiwitz. 1979.
-- Development Through Life: A Psychosocial Approach. Newman, Barbara M., and Philip R. Newman. 1975.
-- A Child’s World: Infancy through Adolescence. Papalla, Diane E., and Sally Wendkos Olds. 1986.
-- Piaget, Jean. The Grasp of Consciousness: Action and Concept in the Young Child.
-- Translated by Susan Wedgewood. 1976.
-- Translated by Helen Weaver. Piaget, Jean, and Barbel Inhelder. The Psychology of the Child. 1969.
-
-###  Evolutionary Psychology and Systems Theory
-- Design for Evolution: Self-Organization and Planning in the Life of Human Systems. Jantsch, Erich. 1975.
-- The Self-Organizing Universe: Scientific and Human Implications of the Emerging Paradigm of Evolution. 1980.
-- Evolution and Consciousness: Human Systems in Transition. Jantsch, Erich, and Conrad H. Waddington. 1976.
-- The Origins and History of Consciousness. Neumann, Erich. 1954.
-- The Phenomenon of Man. Teilhard de Chardin, Pierre. 1959.
-
-### MISCELLANEOUS
-- The Reenchantment of the World. Berman, Morris. 1984.
-- Rhythms of Vision. Blair, Lawrence. 1976.
-- Iron John. Bly, Robert. 1990.
-- The Prophet. Gibran, Kahil. 1951.
-- Fuzzy Thinking: The New Science of Fuzzy Logic. Kosko, Bart. 1993.
-
-### Addictions
-- The Zen of Recovery. Ash, Mel.1993.
-- Mindful Recovery: A Spiritual Path to Healing from Addiction. Bien, Beverly, and Thomas Bien. 2002.
-- Further Dimensions of Healing Addictions. Cunningham, Donna, and Andrew Ramer. 1988.
-- The Thirst for Wholeness: Attachment, Addiction, and the Spiritual Path. Grof, Christina. 1993.
-- Women, Sex, and Addiction: A Search for Love and Power. Kasl, Charlotte. 1989.
-- Alcoholism and Spirituality: A Transpersonal Approach. Whitfield, Charles, L. 1985.
-
-### Kundalini
-- Energies of Transformation. Greenwell, Bonnie. 1995.
-- Kundalini: The Evolutionary Energy in Man. Krishna, Gopi. 1971.
-- Kundalini Research Network, c/o Lawrence Edwards, Ph.D. www.kundalininet.org.
-- Kundalini: The Arousal of Inner Energy. Mookerjee, Ajit. 1982.
-- The Kundalini Experience. Sannella, Lee. 1987.
-- Kundalini: Energy of the Depths. Silburn, Lilian. 1988.
+* Crossing bridge is a journey towards self-evolution and humanity's evolution.

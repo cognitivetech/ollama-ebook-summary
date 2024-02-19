@@ -3,8 +3,6 @@
 ## EDITORS NOTE
 **This is a summary** made with [PrivateGPT](https://github.com/imartinez/privateGPT) and [Mistral-7B-Instruct-v0.2](https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF). 
 
-It is meant to provide a detailed overview of the topics and materials presented in the book, but does not replace it.
-
 **If you appreciate this work, feel free to buy the original using my referral-link**
 
 * [The Psychology Major's Companion: Everything You Need to Know to Get You Where You Want to Go - Second Edition](https://www.amazon.com/Psychology-Majors-Companion-Everything-Where/dp/1319191479/?&tag=cognitivetech-20)
