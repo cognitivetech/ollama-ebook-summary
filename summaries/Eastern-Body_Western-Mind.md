@@ -79,7 +79,6 @@
     - [GRIEF: DEMON OF THE HEART](#grief-demon-of-the-heart)
     - [COMPASSION](#compassion)
     - [GROWING THE LOTUS DEVELOPMENTAL FORMATION OF THE HEART CHAKRA AT A GLANCE AGE](#growing-the-lotus-developmental-formation-of-the-heart-chakra-at-a-glance-age)
-    - [For the child whose autonomy is weak, there is a tendency to be swept away by others, be defined by them, or live in fear of losing the self. A kinder](#for-the-child-whose-autonomy-is-weak-there-is-a-tendency-to-be-swept-away-by-others-be-defined-by-them-or-live-in-fear-of-losing-the-self-a-kinder)
     - [TRAUMAS AND ABUSES](#traumas-and-abuses-3)
     - [INTERNALIZED RELATIONSHIPS](#internalized-relationships)
     - [TWISTED CONCEPTS OF LOVE](#twisted-concepts-of-love)
@@ -142,8 +141,8 @@
     - [PUTTING IT ALL TOGETHER](#putting-it-all-together)
     - [TOP-DOWN SYSTEMS](#top-down-systems)
     - [INSIDE-OUT SYSTEMS](#inside-out-systems)
-    - [BALANCED SYSTEMS It is possible to be relatively balanced through the chakras without being an enlightened master. People who have worked on their own](#balanced-systems-it-is-possible-to-be-relatively-balanced-through-the-chakras-without-being-an-enlightened-master-people-who-have-worked-on-their-own)
-    - [KUNDALINI AWAKENING As one opens the door with a key, so the yogi should open the gate to liberation with Kundalini. She gives liberation to the yogi](#kundalini-awakening-as-one-opens-the-door-with-a-key-so-the-yogi-should-open-the-gate-to-liberation-with-kundalini-she-gives-liberation-to-the-yogi)
+    - [BALANCED SYSTEMS](#balanced-systems)
+    - [KUNDALINI AWAKENING](#kundalini-awakening)
     - [TANTRA—MEETING AT THE HEART](#tantrameeting-at-the-heart)
     - [TEMPLE FOR THE GODS](#temple-for-the-gods)
 
@@ -3487,45 +3486,51 @@ homas Moore's exploration of the struggle between the soul's need for attachment
 
 ### GRIEF: DEMON OF THE HEART
 
-**Grief:** the experience of loss and sorrow that sits on the heart chakra when Thanatos strikes. It makes the heart heavy and hard to open, leading to numbness, rigidity, and a sense of being dead inside if denied. When acknowledged and expressed, grief allows for opening of the heart, shedding tears, expressing truth, deepening breath, and creating spaciousness, reborn hope, and compassion (William Shakespeare).
+**Grief: Demon of the Heart**
+* When Thanatos (death) strikes, we experience grief.
+* Grief is the resident demon that sits on the heart chakra.
+* A heavy heart with grief makes it hard to open and breathe.
 
-**Thanatos:** the Greek god of death.
+**Effects of Unacknowledged Grief:**
+* Numbness to feelings and aliveness
+* Hardened, cold, rigid, and distant
+* Feeling dead inside
 
-**Heart Chakra:** one of seven main energy centers in the body, located in the chest, associated with love, joy, and emotional connection.
+**Benefits of Acknowledging and Expressing Grief:**
+* Vital key to opening the heart
+* Shedding tears and expressing truth
+* Heart lightens, breath deepens
+* Sense of spaciousness emerges
+* Hope is reborn
+* Compassion for others
 
-**Love:** an important element of well-being and spiritual growth.
+**Love and Grief:**
+* We open ourselves in love and expand
+* Wounded at the core when hurt in matters of love
+* Deepest loss: feeling abandoned and losing authentic self
 
-**Impairment in ability to find love:** a profound personal wound leading to codependency and inadequacy.
+**Case Study: Client and Love Loss**
+* Shaky and tearful phone call
+* Fear of abandonment
+* Losing both lover and self
 
-**Collective situation:** serious issue affecting how we treat each other socially.
+**Grief from Relationship Ends:**
+* Primal abandonment and powerlessness
+* Passes with time but can carry unresolved grief
 
-**Grief in end of relationship:** puts us back in touch with primal abandonment, feeling powerless, but passing if acknowledged and expressed.
+**Case Study: Susan and Maternal Love**
+* Over-attentive, smothering mother
+* Lack of independence
+* Shaped definition of love
+* Feeling inadequate and codependent
+* Constricted chest and depression
+* Recognizing the grief for loss of authenticity
 
-**Subtle abandonment:** grief from less obvious situations, such as lack of independence or authenticity.
+**Impact of Love Impairment:**
+* Personal problem
+* Collective situation: affecting how we treat each other
 
-**Susan's story:** a woman whose mother loved her too much, making her feel special and never alone, but also unable to be independent and leading to fear of inadequacy and codependency.
-
-**Mourning for loss of authenticity:** grief Susan carried from the loss of her own independence and ability to be herself.
-
-**Compassion:** healer of grief, allowing us to open our hearts and connect with others.
-
-**Abandonment:** feeling of being left alone or unloved, causing profound grief.
-
-**Powerlessness:** feeling unable to control a situation leading to grief and despair.
-
-**Codependency:** tendency to become excessively emotionally dependent on someone else for approval and identity.
-
-**Independence:** ability to be self-sufficient and autonomous.
-
-**Authenticity:** being true to oneself, expressing genuine emotions and thoughts.
-
-**Smothering and possessive relationships:** unhealthy relationships where one partner controls the other's actions and feelings.
-
-**Shallow definition of love:** inadequate understanding of love based on attachment and dependency rather than mutual respect, growth, and connection.
-
-**Personal problem:** grief affecting an individual's emotional well-being and relationships.
-
-**Collective situation:** societal impact of unresolved grief leading to misunderstandings, conflicts, and lack of empathy.
+**Healing from Grief: Compassion**
 
 ### COMPASSION
 
@@ -3599,9 +3604,6 @@ homas Moore's exploration of the struggle between the soul's need for attachment
 **Social Identity Development:**
 - The development of a social identity prepares children for more complex interactions with the larger world.
 - Balancing autonomy and relinquishing it is essential during this stage.
-
-
-### For the child whose autonomy is weak, there is a tendency to be swept away by others, be defined by them, or live in fear of losing the self. A kinder
 
 **Early Childhood Development (Ages 3-6): Preoperational Period**
 
@@ -3751,17 +3753,46 @@ homas Moore's exploration of the struggle between the soul's need for attachment
 
 ### CHARACTER STRUCTURE THE RIGID (Achiever)
 
-- **Henry's Character:** Good-looking, personable, successful CEO with radiating energy but lacking depth and unable to open to deeper feelings
-- **Body Language:** Arched back, tight chest, restricted breath, military posture
-- **Energy System:** Highly charged, trapped in a loop, blocked feelings
-- **Background:** Rejection during fourth chakra developmental period due to parental expectations and favoritism towards younger sibling
-- **Childhood Experiences:** Crying and clingy behavior scorned, forced to hide emotional needs, channeled energy into achievement
-- **Parental Influence:** Father had high expectations, mother supported rejection of authentic self
-- **Consequences:** Unable to experience satisfaction or healing from love, restlessly moves on, heart closed down
-- **Developmental Period:** Rejection of true self in favor of achieving self, energy shut down in second and fourth chakras, poured into third chakra for business success (Figure 4.2)
-- **Name:** Achiever character structure
+**Character Structure: Rigid/Achiever**
+- Henry was a successful CEO with a highly charged energy system but lacked depth and openness to deeper feelings.
+- His body language showed a slightly arched back, tense muscles, and restricted breathing, indicating a blocked heart.
+- His inability to experience deep emotions was due to parental rejection during his fourth chakra developmental period.
 
-**Key Terms:** Character type, Rigid (Achiever), good-looking, personable, highly successful CEO, body language, energy system, blocked feelings, parental rejection, fourth chakra developmental period, childhood experiences, crying and clingy behavior, military posture, authentic self, achieving self, second chakra, fourth chakra, ego/activity center, love, satisfaction, healing.
+**Background:**
+- Henry's parents were originally loving and supportive but suddenly expected him to grow up and rejected his need for love and security.
+- He was no longer allowed to express vulnerability or seek comfort, leading him to stiffen his body and restrict his breath.
+- His father's high expectations and distant behavior, combined with his mother's silent support, left Henry feeling unloved and inauthentic.
+
+**Impact on Development:**
+- At a time when Henry's heart should have been open and inquisitive, he was told to shut down his feelings and perform.
+- This rejection of the true self in favor of the achieving self is what gives this character structure its more positive name of the Achiever.
+- Henry shut down both the second and fourth chakras while squeezing his life force tightly into the third chakra ego/activity center, resulting in successful business activity fueled by drive and ambition.
+
+**Symptoms:**
+- Inability to experience deeper emotions or satisfy the need for love and recognition.
+- Blocked heart due to parental rejection during fourth chakra developmental period.
+- Restricted breathing and tense body posture.
+- Channeling energy into achievement as a way to win approval and love.
+
+**Positive Aspects:**
+- Highly successful in business and other achievements.
+- Confident and driven personality.
+- Ability to focus and perform under pressure.
+
+**Negative Aspects:**
+- Inability to experience deeper emotions or form meaningful relationships.
+- Blocked heart leading to feelings of emptiness and unfulfillment.
+- Restless and always moving on to the next achievement in search of love and recognition.
+
+**Parental Rejection:**
+- Beginning during fourth chakra developmental period.
+- Originally loving and supportive parents suddenly expected Henry to grow up and rejected his need for love and security.
+- He was no longer allowed to express vulnerability or seek comfort, leading him to stiffen his body and restrict his breath.
+- Rejection of the true self in favor of the achieving self.
+
+**Impact on Energy Flow:**
+- Closing down of second and fourth chakras while squeezing life force into third chakra ego/activity center.
+- Highly charged energy system without depth or openness to deeper feelings.
 
 **C. G. JUNG**
 * **Rigid (Achiever):**
@@ -6095,7 +6126,7 @@ Traumas and abuses to the crown chakra, including withholding information or spi
 * Can signify serious dissociations
 * Possible configurations: Oral structure, multiple personality disorders, obsessive-compulsive disorders, borderline personality disorders.
 
-### BALANCED SYSTEMS It is possible to be relatively balanced through the chakras without being an enlightened master. People who have worked on their own
+### BALANCED SYSTEMS
 
 **Balanced Systems:**
 - Achieving relative balance through chakras is possible without being an enlightened master
@@ -6128,10 +6159,8 @@ Traumas and abuses to the crown chakra, including withholding information or spi
 - Assisting and encouraging where needed
 - Whole self (body, soul, mind, spirit, chakras) must be kept in mind throughout the process.
 
-### KUNDALINI AWAKENING As one opens the door with a key, so the yogi should open the gate to liberation with Kundalini. She gives liberation to the yogi 
-
+### KUNDALINI AWAKENING
 **Kundalini Awakening**
-
 * A spiritual experience described as the awakening of a dormant energy at the base of the spine in Hindu mythology
 * Kundalini is represented as a serpent goddess, Shakti, coiled three and a half times around the first chakra
 * Awakening occurs when the Kundalini energy begins to rise through the body, piercing and opening the chakras
