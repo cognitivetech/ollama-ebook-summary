@@ -10,7 +10,7 @@ Processes and Analysis, using Large Language Models for summarizing books and ot
 
 When i began testing various LLM variants, `mistral-7b-instruct-v0.1.Q4_K_M` came as part of PrivateGPT's default setup. Here, I've preferred the Q8_0 variants.
 
-While I've tried 50+ different LLM for this same task, I haven't found anything that beats [**Mistral-7B-Instruct-v0.2**](https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF) for bullet point notes summarization.
+While I've tried 50+ different LLM for this same task, I haven't found anything that beats [**Mistral-7B-Instruct-v0.2**](https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF) for bullet point notes summarization. (Actually [OpenChat 3.5 0106](https://huggingface.co/openchat/openchat-3.5-0106) is a contender)
 
 ## Contents
 - [Initial Rankings and Testing of Configuration Variables](#background-tests-with-configuration-variables)
