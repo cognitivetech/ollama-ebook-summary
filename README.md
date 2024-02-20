@@ -184,7 +184,7 @@ PARAMETER num_predict 4000
 ### Honorable Mentions
 
 - [omnibeagle-7b](https://huggingface.co/mlabonne/OmniBeagle-7B/) (ChatML) - This one is actually producing a decent format but no bolded text.
-- [neuralbeagle14-7b](https://huggingface.co/mlabonne/NeuralBeagle14-7B) (ChatML, Mistral) - Works better with the mistral template. "OK" results but too much confusion around prompt templates for my liking.
+- [neuralbeagle14-7b](https://huggingface.co/mlabonne/NeuralBeagle14-7B) (Mistral) - Decent results, deserves ruther research.
 - [WestLake-7B-v2](https://huggingface.co/senseable/WestLake-7B-v2/) (ChatML) - I've seen worse
 - [MBX-7B-v3-DPO](https://huggingface.co/macadeliccc/MBX-7B-v3-DPO) (ChatML) - No consistency in format.
 
