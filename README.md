@@ -198,11 +198,7 @@ Maybe things will change, and the world will realize that their "best" models st
 
 ### Am I missing something?
 
-If you want to tell me I'm just doing it wrong, using the wrong parameters, I'll happily be proven wrong. Send me a message cognitivetechniq at gmail dot com.
-
-### I'm Willing to Help
-
-I have data, I saved most of my source materials, I have a pipeline, and an endless desire to create bulleted note summaries. If you want to work with me, please reach out. 
+If you want to tell me I'm just doing it wrong, using the wrong parameters, just send me a message cognitivetechniq at gmail dot com.
 
 ## Walkthrough
 
