@@ -1,4 +1,4 @@
-# LLM for Book Summarization & Q\A : Walkthrough and Rankings
+# LLM for Book Summaries (Comprehensive Bulleted Notes) : Walkthrough and Model Rankings 
 
 Processes and Analysis, using Large Language Models for summarizing books and other long texts:
 - [Model Rankings](ranking-data)
