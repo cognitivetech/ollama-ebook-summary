@@ -107,7 +107,7 @@ In this small sample it gave bold headings 4/6 times. Later I will review it alo
 
 ### Snorkel Mistral Pairrm DPO Q8 GGUF
 
-Obviously I'm biased, here, as Snorkel was trained on Mistral 7b Instruct 0.2. I am cautiously optimistic and look forward to more releases from [Snorkel.ai](https://huggingface.co/snorkelai/Snorkel-Mistral-PairRM-DPO).
+Obviously I'm biased, here, as Snorkel is based on Mistral 7b Instruct 0.2. I am cautiously optimistic and look forward to more releases from [Snorkel.ai](https://huggingface.co/snorkelai/Snorkel-Mistral-PairRM-DPO).
 
 #### Modelfile
 
