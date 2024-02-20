@@ -76,14 +76,14 @@ PARAMETER num_predict 4000
 
 #### Mistral 7b Instruct v0.2 Result
 
-I won't say mistral does it perfect every single time, but more often than not, this is my result. And if you look back to GPT3.5 response, you might agree that this is better.
+I won't say mistral does it perfect every single time, but more often than not, this is my result. Even compared to GPT3.5 response, you might agree that this is better.
 
 ![https://cdn.hackernoon.com/images/Rk2O4CvaIxXhLpeRRXGUqtJXRKf1-g6b2mcy.webp](https://cdn.hackernoon.com/images/Rk2O4CvaIxXhLpeRRXGUqtJXRKf1-g6b2mcy.webp)\
 *7b GOAT?*
 
 ### OpenChat 3.5 0106 Q8 GGUF
 
-I was pleasantly surprised by [OpenChat's 0106](https://huggingface.co/openchat/openchat-3.5-0106). Here is a model that claims to have the best 7b model, and at least is competitive with Mistral 7b.
+I was pleasantly surprised by [OpenChat's 0106](https://huggingface.co/openchat/openchat-3.5-0106). Here is a model that claims to be the best 7b, and at least is competitive with Mistral 7b.
 
 #### Modelfile
 
