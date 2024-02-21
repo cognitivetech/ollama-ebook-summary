@@ -8,6 +8,9 @@ These are just my notes on prompt templates
 
 You can borrow from [their templates](https://github.com/oobabooga/text-generation-webui/tree/main/instruction-templates), but they have a [backend tokenizer](https://github.com/oobabooga/text-generation-webui/pull/5169).. so the entire template is not necessarily visible
 
+Good information about chat templates on HuggingFace
+https://huggingface.co/docs/transformers/main/en/chat_templating
+
 ## PGPT 
 by default privateGPT comes with the following prompt-styles
 
