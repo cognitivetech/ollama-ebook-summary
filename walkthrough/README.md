@@ -60,7 +60,7 @@ PARAMETER num_ctx 8000
 PARAMETER num_predict 4000
 PARAMETER num_gpu -1
 ```
-I don't use a system message with Mistral 0.2, because [it works better for summaries without](../configuration-variables.md) and I have no need for a custom persona. Regardless, my example shows how to use it.
+I don't use a system message with Mistral 0.2, because [it works better for summaries without](../configuration-variables.md). You can add a system prompt there if you want a custom persona, or to include few-shot prompting to teach the LLM how to work (but I am filling up context with the text for summary).
 
 Moreover, Mistral *expects* to see those `<s></s>` tags in the beginning of a session, so even if I don't use the system prompt, I still include those tags.
 
