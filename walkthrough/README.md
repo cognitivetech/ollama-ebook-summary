@@ -79,7 +79,7 @@ There you can see how to load the modelfile into ollama, and how to call it.
 This is my current prompt for *bulleted notes summaries*:
 
 ```
-Write bulleted notes summarizing the following text, with headings terms and key concepts in bold. \n\nTEXT: {content}
+Write bulleted notes summarizing the following text, with headings and terms in bold. \n\nTEXT: {content}
 ```
 
 Here is an example command for summarizing a single chunk of text:
