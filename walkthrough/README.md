@@ -131,6 +131,8 @@ To divide into chunks, I select the desired amount of text in and use **VS Code 
 
 Most importantly, escape any double quotes `\"` and surround each line with double quotes.
 
+**GOTCHA:** I have just discovered that an exclamation mark will screw up prediction and not just for that current try but until you restart ollama server. I will be adding a line in my script to remove `!` before feeding into ollama.
+
 When you are ready you should have a text file with each chunk for summary on its own line surrounded by double-quotes. 
 
 [Here is an example](summarize.txt)
