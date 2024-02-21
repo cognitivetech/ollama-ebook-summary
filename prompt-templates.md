@@ -1,5 +1,9 @@
 # prompt format
 
+These are just my notes on prompt templates
+
+---
+
 [oobabooga/text-generation-webui](https://github.com/oobabooga/text-generation-webui/) supports a ton of prompt styles.
 
 You can borrow from [their templates](https://github.com/oobabooga/text-generation-webui/tree/main/instruction-templates), but they have a tokenizer.. so the entire template is not necessarily visible
