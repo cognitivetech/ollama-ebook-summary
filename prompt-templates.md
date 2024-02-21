@@ -43,7 +43,7 @@ assistant: {{ assistant_message }}
 These are prompt styles I'm exploring.. but don't expect anything to beat Mistral for summarization.
 
 ### **None**
-some models don't have any format ( or may expect default prompt templates from llama )
+according to their model card, some models don't have any format ( or may expect default prompt templates from llama )
 
 Models:
 - [mosaicml-mpt-7b](https://huggingface.co/collections/maddes8cht/mpt-original-models-gguf-653ad10286b88947d5bc1937)
