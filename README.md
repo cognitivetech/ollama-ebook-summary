@@ -54,10 +54,14 @@ For the following rankings, I have moved to [Ollama.ai](https://ollama.ai). I ra
 
 Later, I'll take the leaders from this round and perform a more detailed analysis of their work. I'll also be following models from their creators, to see if future models perform better on these tasks.
 
-**NOTE: on the use of Ollama**
-[Ollama has a feature](https://github.com/ollama/ollama/blob/main/docs/modelfile.md) where you input the model location, template, and parameters to a Model file, which it uses to save a copy of your LLM using your specified configuration. This makes it easy to demo various models without having to always be fussing around with parameters.
+**Note on Ollama**\
+Ollama uses [Modelfiles](https://github.com/ollama/ollama/blob/main/docs/modelfile.md) where you input the model location, template, and parameters to a text file, which it uses to save a copy of your LLM using your specified configuration. This makes it easy to demo various models without having to always be fussing around with parameters.
 
-I've kept the parameters same for all models except chat template, but I will share you the template I'm using for each, so you can see precisely how I use the template. You can let me know if I'd get better results from the following models using a differently configured Modelfile.
+I've kept the parameters same for all models except chat template, but I will share you the template I'm using for each, so you can see precisely how I use the template. 
+
+You can let me know if I'd get better results from the following models using a differently configured Modelfile.
+
+For more information see my [Ollama Walkthrough](walkthrough).
 
 ### Mistral 7b Instruct 0.2 Q8 GGUF
 
@@ -196,9 +200,9 @@ Another thing to consider is that Mistral 7b Instruct v0.2 came out soon after M
 
 Maybe things will change, and the world will realize that their "best" models still can't top Mistral? Then again, maybe all those models are really good at all the other tasks I'm not targeting.
 
-### Am I missing something?
+### Contact
 
-If you want to tell me I'm just doing it wrong, using the wrong parameters, just send me a message cognitivetechniq at gmail dot com.
+If you want to tell me I'm just doing it wrong, or using the wrong parameters, just send me a message cognitivetechniq at gmail dot com.
 
 ## Walkthrough
 
