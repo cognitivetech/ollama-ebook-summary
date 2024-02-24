@@ -192,17 +192,9 @@ PARAMETER num_predict 4000
 
 ### Conclusion
 
-I wish I had better news to share. My ideal headline is that *there is an abundance of leading models that produce quality output when creating **comprehensive bulleted note summaries,** and it's just so hard for me to choose among them.* Unfortunately, that is not the case.
+I spent 4 months examining open GGUF models for the task of **comprehensive bulleted note summaries.**
 
-Maybe they outperform Mistral 0.2 in full form but only are trailing in GGUF format? I think it's quite likely that none of our existing evals target this type of output, but I would certainly argue that it's a task that any *leading* 7b Q8 gguf model should manage.
-
-Another thing to consider is that Mistral 7b Instruct v0.2 came out soon after Mixtral, amidst a bunch of fanfare. I think that release slipped under the radar. In fact, many of the models I've looked at are based on 0.1 Mistral.
-
-Maybe things will change, and the world will realize that their "best" models still can't top Mistral? Then again, maybe all those models are really good at all the other tasks I'm not targeting.
-
-### Contact
-
-If you want to tell me I'm just doing it wrong, or using the wrong parameters, just send me a message cognitivetechniq at gmail dot com.
+Time for me to create a dataset, and begin fine-tuning LLM, for myself.
 
 ## Walkthrough
 
