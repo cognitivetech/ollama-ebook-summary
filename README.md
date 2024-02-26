@@ -250,7 +250,7 @@ Especially considering that this is not for profit, but for educational purposes
 
 ### Completed Book Summaries
 
-1. [**Summary of Anodea Judith's Eastern Body Western Mind**](summaries/Eastern-Body_Western-Mind.md) (436 pages)
+1. [**Summary of Anodea Judith's Eastern Body Western Mind**](https://github.com/cognitivetech/Psychology-Book-Summaries/blob/main/Eastern-Body_Western-Mind.md) (436 pages)
    > **Adult Development**
    >  
    > The process of individuation involves becoming a single, homogeneous being and embracing one's innermost uniqueness. This journey begins in early adulthood when individuals leave home and start living independently.
@@ -262,7 +262,7 @@ Especially considering that this is not for profit, but for educational purposes
    > 5. Chakra Five: Creative and personal expression is emphasized in this stage, where individuals make their personal contribution to the community. It often occurs around midlife and may precede or dominate other activities for more creative personalities.
    > 6. Chakra Six: This introverted stage involves reflection and study of patterns through exploration of mythology, religion, and philosophy. It is a time of searching and spiritual interest, which intensifies when children are grown and adults have more freedom for contemplation and spiritual practice.
    > 7. Chakra Seven: The final stage is characterized by wisdom, spiritual understanding, knowledge, and teaching. Individuals bring together information gathered throughout life to pass it on to others or pursue a spiritual path.
-2. [**Summary of Stanley Rosenberg's Healing Power of the Vagus Nerve**](summaries/Healing-Power-Vagus-Nerve_Stanley-Rosenberg.md) (335 Pages)
+2. [**Summary of Stanley Rosenberg's Healing Power of the Vagus Nerve**](https://github.com/cognitivetech/Psychology-Book-Summaries/blob/main/Healing-Power-Vagus-Nerve_Stanley-Rosenberg.md) (335 Pages)
    > The ANS is an integral part of the human nervous system, monitoring and regulating the activity of visceral organs such as heart, lungs, liver, gall bladder, stomach, intestines, kidneys, and sexual organs. Problems with any of these organs can arise from dysfunction of the ANS.
    > 
    > - **Old understanding of the ANS**: The ANS functioned in two states - stress and relaxation. 
@@ -273,14 +273,14 @@ Especially considering that this is not for profit, but for educational purposes
    >   - **Ventral Vagal State**: This state is characterized by social engagement and safety. It is associated with feelings of calmness, connection, and trust.
    >   - **Dorsal Vagal State**: This state is characterized by immobilization or shutdown. It is associated with feelings of fear, helplessness, and hopelessness.
    >   - **Sympathetic Nervous System (SNS)**: This system is responsible for the fight-or-flight response. It is associated with feelings of anxiety, stress, and tension.
-3. [**Summary of Dr. David Frawley's Ayurveda and the Mind**](summaries/Ayurveda-and-the-Mind_David-Frawley.md) (181 Pages)
+3. [**Summary of Dr. David Frawley's Ayurveda and the Mind**](https://github.com/cognitivetech/Psychology-Book-Summaries/blob/main/Ayurveda-and-the-Mind_David-Frawley.md) (181 Pages)
    > 1. *Section 1*: Explores Ayurvedic view of mind-body relationship, including gunas (Sattva, Rajas, Tamas), doshas (Vata, Pitta, Kapha), and five elements.
    > 2. *Section 2*: In-depth examination of functions of awareness through consciousness, intelligence, mind, ego, and self.
    > 3. *Section 3*: Ayurvedic therapies for the mind: outer (diet, herbs, massage) and inner (color, aroma, mantra).
    > 4. *Section 4*: Spiritual and yogic practices from an Ayurvedic perspective, integrating all therapies.
    > 5. *Appendix*: Contains tables on functions of the mind and their correspondences.
    > 6. *Goals*: To provide sufficient knowledge for personal use and relevant to psychologists/therapists.
-4. [**Summary of Janina Fisher's Healing the Fragmented Selves of Trauma Survivors**](summaries/Healing-Fragmented-Selves-Trauma-Survivors_Janina-Fisher.md) (367 Pages)
+4. [**Summary of Janina Fisher's Healing the Fragmented Selves of Trauma Survivors**](https://github.com/cognitivetech/Psychology-Book-Summaries/blob/main/Healing-Fragmented-Selves-Trauma-Survivors_Janina-Fisher.md) (367 Pages)
    > 1. **Fragmentation and Internal Struggles**
    >    - Ten years ago, I observed a common pattern among traumatized clients: internal fragmentation.
    >    - Clients appeared integrated but showed signs of conflict between trauma-related perceptions and impulses versus present assessments.
@@ -301,22 +301,22 @@ Especially considering that this is not for profit, but for educational purposes
    >    - Both sides felt alienated from each other.
    > 6. **Functioning Self**
    >    - The functioning self carried on, trying to be "normal," but at the cost of feeling alienated or invaded by intrusive communications from parts.
-5. [**Summary of John Bowlby's "A Secure Base"**](summaries/a-secure-base_john-bowlby.md) (133 Pages)
+5. [**Summary of John Bowlby's "A Secure Base"**](https://github.com/cognitivetech/Psychology-Book-Summaries/blob/main/a-secure-base_john-bowlby.md) (133 Pages)
    > - **Attachment behavioral response** essential for protection from predation and foundation for psychological health.
    > - **Sensitive caregiving** crucial for secure attachment throughout the life cycle.
    > - **Real-life adversity** origin of subsequent psychopathology, opposed to endo-psychic entities.
    > - **Systematic scientific observation** important for understanding attachment phenomena.
    > - **Secure base for patients** therapists providing a safe space for emotional exploration.
-6. [**Summary of Bessel van der Kolk's The Body Keeps the Score**](summaries/Body-Keeps-Score_Bessel-van-der-Kolk.md) (454 Pages)
+6. [**Summary of Bessel van der Kolk's The Body Keeps the Score**](https://github.com/cognitivetech/Psychology-Book-Summaries/blob/main/Body-Keeps-Score_Bessel-van-der-Kolk.md) (454 Pages)
    > **The Importance of Trauma:**
    > * Trauma reveals our fragility and man's inhumanity but also our resilience.
    > * Visionaries and societies have made profound advances from dealing with trauma.
    > * **Trauma is now the most urgent public health issue, and we have the knowledge to respond effectively.**
-7. [**Summary of Yoga and Polyvagal Theory, from Steven Porges' Polyvagal Safety**](summaries/Yoga-Therapy+PolyVagal-Theory.md) (37 pages)
+7. [**Summary of Yoga and Polyvagal Theory, from Steven Porges' Polyvagal Safety**](https://github.com/cognitivetech/Psychology-Book-Summaries/blob/main/Yoga-Therapy+PolyVagal-Theory.md) (37 pages)
    > * **Top-down processes**: regulation of attention, intention, decreasing psychological stress, HPA axis and SNS activity, modulating immune function and inflammation
    > * **Bottom-up processes**: breathing techniques, movement practices, influencing musculoskeletal, cardiovascular, nervous system function, affecting HPA and SNS activity, emotional well-being
    > * **Self-regulation**: conscious ability to manage responses to threat or adversity, reducing symptoms of various conditions, mitigating allostatic load, shifting autonomic state
-8. [**Summary of Llewellyn's Complete Book of Chakras: Your Definitive Source of Energy Center Knowledge for Health, Happiness, and Spiritual Evolution**](summaries/llewen-complete-book-chakras_1.md) (999 pages)
+8. [**Summary of Llewellyn's Complete Book of Chakras: Your Definitive Source of Energy Center Knowledge for Health, Happiness, and Spiritual Evolution**](https://github.com/cognitivetech/Psychology-Book-Summaries/blob/main/llewen-complete-book-chakras_1.md) (999 pages)
    * SECTION 1. CHAKRA FUNDAMENTALS AND BASIC PRACTICES
      > * Chakras are metaphysical energy centers that organize subtle energy for human use 
      > * **Three main systems of subtle energy in the body**: chakras, meridians/nadis, and auric fields
@@ -324,11 +324,11 @@ Especially considering that this is not for profit, but for educational purposes
      > * Seven main chakras regulate vital physical, psychological, and spiritual concerns
      > * Each chakra assists in embracing physical needs while attaining wisdom for enlightenment
      > * Section 1 is a pocket guide to understanding all aspects of chakras
-   * [SECTION 2: CHAKRAS IN DEPTH. HISTORICAL, SCIENTIFIC, AND CROSS-CULTURAL UNDERSTANDINGS](summaries/llewen-complete-book-chakras_2.md)
+   * [SECTION 2: CHAKRAS IN DEPTH. HISTORICAL, SCIENTIFIC, AND CROSS-CULTURAL UNDERSTANDINGS](https://github.com/cognitivetech/Psychology-Book-Summaries/blob/main/llewen-complete-book-chakras_2.md)
      > * Recap of chakras as pulsing points of light and key to health, connection, and spiritual enlightenment
      > * Origin and history of chakra knowledge primarily from ancient India
      > * Chakras and their companions (subtle energies, body, energetic anatomies, kundalini) are explainable through scientific perspectives
-9. [**Summary of Fifty Years of Attachment Theory: The Donald Winnicott Memorial Lecture**](summaries/50-years-attachment-theory.md) (54 pages)
+9. [**Summary of Fifty Years of Attachment Theory: The Donald Winnicott Memorial Lecture**](https://github.com/cognitivetech/Psychology-Book-Summaries/blob/main/50-years-attachment-theory.md) (54 pages)
    > **Background of Attachment Theory**
    > - Developed by Sir Richard Bowlby's father, John Bowlby
    > - Based on research into parent-child attachment relationship
@@ -347,7 +347,7 @@ Especially considering that this is not for profit, but for educational purposes
     > - Part III: Treatment
     > - Part IV: Type-Specific Treatment
     > - Part V: A Treatment Guide and Expected Outcomes
-11. [**Summary of The Psychology Major's Companion**](summaries/Psychology_Majors_Companion.md) (308 Pages)
+11. [**Summary of The Psychology Major's Companion**](https://github.com/cognitivetech/Psychology-Book-Summaries/blob/main/Psychology_Majors_Companion.md) (308 Pages)
     > **Questions Addressed:**
     > 1. **What do psychologists do? Where do they work?**
     > 2. **Is majoring in psychology the right choice for me?**
@@ -362,10 +362,10 @@ Especially considering that this is not for profit, but for educational purposes
     >    * Choosing an area of psychology
     >    * Making a compelling application
     > 6. **Benefits of psychology beyond education and career**
-12. [**Summary of The Myth of Redemptive Violence**](summaries/myth-redemptive-violence.md) (5 Pages)
+12. [**Summary of The Myth of Redemptive Violence**](https://github.com/cognitivetech/Psychology-Book-Summaries/blob/main/myth-redemptive-violence.md) (5 Pages)
     > - Walter Wink's analysis of the pervasiveness of the belief that violence saves and brings peace in Western culture.
     > - Discussion on how this belief is rooted in ancient mythology and perpetuated through modern media, particularly cartoons.
-13. [**Psychology In Your Life**](summaries/Psychology-In-Your-Life.md) (1072 Pages)
+13. [**Psychology In Your Life**](https://github.com/cognitivetech/Psychology-Book-Summaries/blob/main/Psychology-In-Your-Life.md) (1072 Pages)
     > 1. **Biological Domain**: This domain focuses on the study of biological factors that influence behavior and mental processes. It includes research on genetics, neuroanatomy, physiology, and pharmacology.
     > 2. **Cognitive Domain**: The cognitive domain investigates mental processes such as perception, attention, memory, language, problem-solving, and decision-making.
     > 3. **Developmental Domain**: This domain examines the psychological and physical changes that occur throughout the human lifespan, from infancy to old age. It includes research on cognitive, social, emotional, and moral development.
