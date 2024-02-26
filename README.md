@@ -12,6 +12,24 @@ When i began testing LLM variants, `mistral-7b-instruct-v0.1.Q4_K_M` came as par
 
 While I've tried 50+ different LLM for this same task, I haven't found anything that beats [**Mistral-7B-Instruct-v0.2**](https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF) for bullet point notes summarization.
 
+## Big News!!!
+
+According to [*Same Task, More Tokens: the Impact of Input Length on the Reasoning Performance of Large Language Models*](https://huggingface.co/papers/2402.14848) (2024-02-19; Mosh Levy, Alon Jacoby, Yoav Goldberg) these models reasoning capacity drops off pretty sharply from 250 to 1000 tokens, and flattening out from 2000-3000 tokens.
+![](https://i.imgur.com/nyDkAzP.png)
+
+What I've learned from this paper, confirms my own experience in creating comprehensive bulleted notes, summarizing many long documents, and provides clarity in the context length required for proper use of the models.
+
+Moreover, it invalidates previous rankings I've done, unsure of the proper context limits for this task.
+
+### Furthermore
+
+I'm beginning to try some new methods, and will soon have new guides and scripts available.
+
+- **One-Shot Prompt**: I am getting better results by adding an example in the system context. This reduces the size of summaries I can create, but can save a lot of time in post-processing.
+- **Fine-tuning**: I've been creating a dataset for fine-tuning and looking into various methods for doing so. Its my intention to fine-tune some quantized models, so its easy to train and distribute models optimized for this task (and we don't have to fill up our context with examples).
+
+I'll be creating a few notebooks to share, so we can learn more and get deeper into this ecosystem, together.
+
 ## Contents
 - [Initial Rankings and Testing of Configuration Variables](#background-tests-with-configuration-variables)
   - [Q/A vs Summary](configuration-variables.md#round-1---qa-vs-summary)
