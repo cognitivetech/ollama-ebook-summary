@@ -14,7 +14,7 @@ While I've tried 50+ different LLM for this same task, I haven't found anything 
 
 ## Big News!!!
 
-According to [*Same Task, More Tokens: the Impact of Input Length on the Reasoning Performance of Large Language Models*](https://huggingface.co/papers/2402.14848) (2024-02-19; Mosh Levy, Alon Jacoby, Yoav Goldberg) these models reasoning capacity drops off pretty sharply from 250 to 1000 tokens, and flattening out from 2000-3000 tokens.
+According to [*Same Task, More Tokens: the Impact of Input Length on the Reasoning Performance of Large Language Models*](https://huggingface.co/papers/2402.14848) (2024-02-19; Mosh Levy, Alon Jacoby, Yoav Goldberg) these models reasoning capacity drops off pretty sharply from 250 to 1000 tokens, and begin flattening out from 2000-3000 tokens.
 ![](https://i.imgur.com/nyDkAzP.png)
 
 What I've learned from this paper, confirms my own experience in creating comprehensive bulleted notes, summarizing many long documents, and provides clarity in the context length required for proper use of the models.

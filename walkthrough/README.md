@@ -127,7 +127,7 @@ To divide into chunks, I select the desired amount of text in and use **VS Code 
 
 *Today, I am prefer from 2000-9000 characters (500-2250 tokens), per chunk, when processing whole books. I lose quality using larger context*
 
-According to [*Same Task, More Tokens: the Impact of Input Length on the Reasoning Performance of Large Language Models*](https://huggingface.co/papers/2402.14848) (2024-02-19; Mosh Levy, Alon Jacoby, Yoav Goldberg) these models reasoning capacity drops off pretty sharply from 250 to 1000 tokens, and flattening out from 2000-3000 tokens.
+According to [*Same Task, More Tokens: the Impact of Input Length on the Reasoning Performance of Large Language Models*](https://huggingface.co/papers/2402.14848) (2024-02-19; Mosh Levy, Alon Jacoby, Yoav Goldberg) these models reasoning capacity drops off pretty sharply from 250 to 1000 tokens, and begin flattening out from 2000-3000 tokens.
 ![](https://i.imgur.com/nyDkAzP.png)
 
 #### Gotchas
