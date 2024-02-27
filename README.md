@@ -18,7 +18,7 @@ According to [*Same Task, More Tokens: the Impact of Input Length on the Reasoni
 
 ![](https://i.imgur.com/nyDkAzP.png)
 
-What I've learned from this paper, confirms my own experience in creating comprehensive bulleted notes while summarizing many long documents, and provides clarity in the context length required for optimal use of the models.
+What I've learned from this paper confirms my own experience in creating comprehensive bulleted notes while summarizing many long documents, and provides clarity in the context length required for optimal use of the models.
 
 Moreover, it invalidates previous rankings I've done, unsure of the proper context limits for this task.
 
