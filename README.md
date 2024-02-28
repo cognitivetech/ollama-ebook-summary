@@ -99,7 +99,7 @@ PARAMETER num_predict 4000
 
 #### Mistral 7b Instruct v0.2 Result
 
-I won't say mistral does it perfect every single time, but more often than not, this is my result. Even compared to GPT3.5 response, you might agree that this is better.
+I won't say mistral does it perfect every single time, but more often than not, this is my result. Even compared to GPT3.5 response, you might agree that this is better. (Admittedly, now that I'm building a dataset for the task, I notice a lot more irregularities than I'd prefer.)
 
 ![https://cdn.hackernoon.com/images/Rk2O4CvaIxXhLpeRRXGUqtJXRKf1-g6b2mcy.webp](https://cdn.hackernoon.com/images/Rk2O4CvaIxXhLpeRRXGUqtJXRKf1-g6b2mcy.webp)\
 *7b GOAT?*
