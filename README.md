@@ -356,6 +356,7 @@ Especially considering that this is not for profit, but for educational purposes
 
 ## Additional Resources
 
+* [Summarizing Books](https://openai.com/research/summarizing-books) OpenAI
 * [HuggingFace - Open LLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard)
 * [Pressure-tested the most popular open-source LLMs (Large Language Models) for their Long Context Recall abilities](https://www.reddit.com/r/LocalLLaMA/comments/18s61fb/pressuretested_the_most_popular_opensource_llms/) u/ramprasad27 ([Part 2](https://www.reddit.com/r/LocalLLaMA/comments/190r59u/long_context_recall_pressure_test_batch_2/))
   * [LeonEricsson / llmcontext - Pressure testing the context window of open LLMs](https://github.com/LeonEricsson/llmcontext)

@@ -10,7 +10,17 @@ https://arxiv.org/abs/2401.14423
 
 https://www.promptingguide.ai/
 
+https://github.com/ReallyEasyAI/Mastering-Prompt-Engineering-Using-COESTAR---ChatGPT-4-Turbo/blob/main/Mastering%20Prompt%20Engineering%20Using%20COESTAR%20-%20ChatGPT%204%20Turbo.pdf
+
+- [A fun way to learn about good prompting in production is to read all the prompt templates in the @llama_index codebase](https://twitter.com/Dynathresh/status/1748235597880369344)
+  - https://github.com/search?q=repo%3Arun-llama%2Fllama_index+_PROMPT_TMPL+%3D&type=code
+
+[Take Your Prompt Engineering to the Next Level: A New Framework - Part 1](https://www.youtube.com/watch?v=zFlmdi8MP0w)
+
+
 ## https://twitter.com/aisolopreneur/status/1750997815260774603/
+
+https://twitter.com/aisolopreneur/status/1755319001314472105
 
 > I just discovered [a new research paper](https://arxiv.org/pdf/2312.16171v1.pdf) that identifies 26 principles to instantly 10x your prompt quality.
 > 
