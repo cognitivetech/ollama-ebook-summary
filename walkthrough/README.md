@@ -123,15 +123,22 @@ Although I prefer command-line tools, I find that [Okular](https://okular.kde.or
 
 #### Process Text
 
-One thing you want to be sure to check for is **Control Characters**. Scan your document for control characters (regex: `[\x00-\x1F\x7F-\x9F]`) because they can invalidate your json, and can be invisible.
-
 To divide into chunks, I select the desired amount of text in and use **VS Code function, "[join lines](https://superuser.com/questions/833079/visual-studio-keyboard-shortcut-for-joining-lines)," that I've mapped to a convenient key combo**.
 
-*Today, I am prefer between 9000 characters or less (2250 tokens), per chunk, when processing whole books. I lose quality using larger context*
+*Today, I am prefer from 2000-9000 characters (500-2250 tokens), per chunk, when processing whole books. I lose quality using larger context*
 
-Most importantly, escape any double quotes `\"` and surround each line with double quotes.
+According to [*Same Task, More Tokens: the Impact of Input Length on the Reasoning Performance of Large Language Models*](https://huggingface.co/papers/2402.14848) (2024-02-19; Mosh Levy, Alon Jacoby, Yoav Goldberg) these models reasoning capacity drops off pretty sharply from 250 to 1000 tokens, and begin flattening out from 2000-3000 tokens.
+![](https://i.imgur.com/nyDkAzP.png)
 
-**GOTCHA:** I have just discovered that an exclamation mark will screw up prediction and not just for that current try but until you restart ollama server. I will be adding a line in my script to remove `!` before feeding into ollama.
+#### Gotchas
+
+One thing you want to be sure to check for is **Control Characters**. Scan your document for control characters (regex: `[\x00-\x1F\x7F-\x9F]`) because they can invalidate your json, and can be invisible.
+
+**Importantly**, escape any double quotes `\"` and surround each line with double quotes. (Particularly for using the accompanying script)
+
+I have just discovered that an exclamation mark will screw up prediction and not just for that current try but until you restart ollama server. I will be adding a line in my script to remove `!` before feeding into ollama.
+
+---
 
 When you are ready you should have a text file with each chunk for summary on its own line surrounded by double-quotes. 
 

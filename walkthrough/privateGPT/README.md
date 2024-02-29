@@ -68,19 +68,25 @@ Check the options here: [Calibre Docs: Heuristic Processing](https://manual.cali
 
 I've used a chapter from [Eastern body, Western mind : psychology and the chakra system as a path to the self](https://www.amazon.com/Eastern-Body-Western-Mind-Psychology/dp/1587612259/?&tag=cognitivetech-20), by Anodea Judith, to test out summarization and Q/A for a few LLM.
 
+For this demonstration, I split a 73 page, 30k token, book chapter into 31 chunks of text, leaving an average of 850 tokens (3400 characters) per query. 
+
+To divide into chunks, I select the desired amount of text in and use **VS Code function, "[join lines](https://superuser.com/questions/833079/visual-studio-keyboard-shortcut-for-joining-lines)," that I've mapped to a convenient key combo**.
+
+*Today, I am prefer from 2000-9000 characters (500-2250 tokens), per chunk, when processing whole books. I lose quality using larger context*
+
+According to [*Same Task, More Tokens: the Impact of Input Length on the Reasoning Performance of Large Language Models*](https://huggingface.co/papers/2402.14848) (2024-02-19; Mosh Levy, Alon Jacoby, Yoav Goldberg) these models reasoning capacity drops off pretty sharply from 250 to 1000 tokens, and begin flattening out from 2000-3000 tokens.
+![](https://i.imgur.com/nyDkAzP.png)
+
+I also wrote 30 questions, one for each sub-heading within the chapter.
+
+#### Gotchas
+
 You may find, when converting PDF to text that there may be a lot of junk characters (epub usually convert best vs pdf), especially if the text was generated with OCR.
 
 Ask your favorite LLM for help with regex to remove that stuff.
 
 One thing you want to be sure to check for is **Control Characters**. Scan your document for control characters (regex: `[\x00-\x1F\x7F-\x9F]`) because they will invalidate your json, and can be invisible.
 
-Luckily, I began with a mostly clean document, so I just select as much text as I want (using a character counter extension, for guidance), and **VS Code function, "[join lines](https://superuser.com/questions/833079/visual-studio-keyboard-shortcut-for-joining-lines)," that I've mapped to a convenient key combo**.
-
-For this demonstration, I split a 73 page, 30k token, book chapter into 31 chunks of text, leaving an average of 850 tokens (3400 characters) per query. 
-
-*Today, I am prefer between 9000 characters or less (2250 tokens), per chunk, when processing whole books. I lose quality using larger context*
-
-I also wrote 30 questions, one for each sub-heading within the chapter.
 
 ## Automation
 
