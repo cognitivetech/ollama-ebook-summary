@@ -17,6 +17,7 @@ https://github.com/ReallyEasyAI/Mastering-Prompt-Engineering-Using-COESTAR---Cha
 
 [Take Your Prompt Engineering to the Next Level: A New Framework - Part 1](https://www.youtube.com/watch?v=zFlmdi8MP0w)
 
+https://github.com/ehartford/dolphin-system-messages
 
 ## https://twitter.com/aisolopreneur/status/1750997815260774603/
 
