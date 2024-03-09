@@ -19,12 +19,10 @@ Informative, not currently central to this project.
   > This notebook allows you to fine-tune your LLMs using Axolotl and Runpod (please consider using my referral link).    It can also use LLM AutoEval to automatically evaluate the trained model using Nous' benchmark suite.    You can find Axolotl YAML configurations (SFT or DPO) on GitHub or Hugging Face.
 - [Mastering PDFs: Extracting Sections, Headings, Paragraphs, and Tables with Cutting-Edge Parser](https://blog.llamaindex.ai/mastering-pdfs-extracting-sections-headings-paragraphs-and-tables-with-cutting-edge-parser-faea18870125)
 - [Fine-Tuning Pretrained Models](https://ludwig.ai/latest/user_guide/distributed_training/finetuning/)
-- [scipdf parser](https://github.com/titipata/scipdf_parser): Python PDF parser for scientific publications: content and figures 
-- [Science Parse](https://github.com/allenai/science-parse) parses scientific papers (in PDF form) and returns them in structured form. 
+- [scipdf parser [OLD Code]](https://github.com/titipata/scipdf_parser): Python PDF parser for scientific publications: content and figures 
+- [Science Parse [OLD Code]](https://github.com/allenai/science-parse) parses scientific papers (in PDF form) and returns them in structured form. 
 - [Chunk Visualizer](https://huggingface.co/spaces/m-ric/chunk_visualizer) 
 - https://github.com/topics/pdf-parsing
-  - https://github.com/py-pdf/pypdf
-  - https://github.com/jsvine/pdfplumber
 - https://github.com/AymenKallala/RAG_Maestro
 - [AirbyteLoader](https://python.langchain.com/docs/integrations/document_loaders/airbyte): Airbyte is a data integration platform for ELT pipelines from APIs, databases & files to warehouses & lakes. It has the largest catalog of ELT connectors to data warehouses and databases.
 - https://github.com/yuhuixu1993/qa-lora
