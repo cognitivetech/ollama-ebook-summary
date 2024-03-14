@@ -11,6 +11,8 @@ You can borrow from [their templates](https://github.com/oobabooga/text-generati
 Good information about chat templates on HuggingFace
 https://huggingface.co/docs/transformers/main/en/chat_templating
 
+https://david9dragon9.medium.com/the-right-way-to-do-few-shot-prompting-a7f48fde6298
+
 ## PGPT 
 by default privateGPT comes with the following prompt-styles
 

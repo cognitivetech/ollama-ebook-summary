@@ -36,3 +36,4 @@ Informative, not currently central to this project.
 - https://github.com/ggerganov/llama.cpp/tree/master/examples/finetune
 - https://towardsdatascience.com/fine-tune-a-mistral-7b-model-with-direct-preference-optimization-708042745aac
 - https://towardsdatascience.com/democratizing-llms-4-bit-quantization-for-optimal-llm-inference-be30cf4e0e34
+- https://www.interconnects.ai/p/llm-synthetic-data
