@@ -19,6 +19,9 @@ https://github.com/ReallyEasyAI/Mastering-Prompt-Engineering-Using-COESTAR---Cha
 
 https://github.com/ehartford/dolphin-system-messages
 
+- [Mistral Cookbook](https://github.com/mistralai/cookbook/): features examples contributed by our community and partners. If you have cool examples showcasing Mistral models, feel free to share them by submitting a PR to this repo.
+
+
 ## https://twitter.com/aisolopreneur/status/1750997815260774603/
 
 https://twitter.com/aisolopreneur/status/1755319001314472105
