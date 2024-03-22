@@ -13,15 +13,11 @@ When i began testing LLM variants, `mistral-7b-instruct-v0.1.Q4_K_M` came as par
 While I've tried 50+ different 7b GGUF for this same task, I haven't found anything that beats [**Mistral-7B-Instruct-v0.2**](https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF) for bullet point notes summarization.
 
 ## Contents
-- [Initial Rankings and Testing of Configuration Variables](#background-tests-with-configuration-variables)
-  - [Q/A vs Summary](configuration-variables.md#round-1---qa-vs-summary)
-  - [Prompt Style](configuration-variables.md#round-3-prompt-style)
-  - [System Prompt](configuration-variables.md#round-4-system-prompts)
-  - [User Prompt](configuration-variables.md#round-5-user-prompt)
-- [7b Q8 GGUF Model Rankings](#7b-q8-model-rankings)
-- [Walkthrough](#walkthrough)
-  - [Ollama Walkthrough](walkthrough/ollama/)
-  - [PrivateGPT Walkthrough](walkthrough/privateGPT)
+- [Background Tests with Configuration Variables](#background-tests-with-configuration-variables)
+- [Latest Updates](#latest-updates)
+  - [One Shot Prompting](#one-shot-prompting)
+  - [Samantha Mistral Instruct 7b - Comprehensive Bulleted Notes](#samantha-mistral-instruct-7b---comprehensive-bulleted-notes)
+- [Long-Text Summary Walkthrough](#long-text-summary-walkthrough)
 - [Result](#result)
   - [Plagiarism](#plagiarism)
   - [Completed Book Summaries](#completed-book-summaries)
