@@ -2,6 +2,26 @@
 
 Informative, not currently central to this project. 
 
+https://github.com/weaviate/recipes/blob/main/integrations/dspy/2.Writing-Blog-Posts-with-DSPy.ipynb
+
+[For LLM evaluations one tool I like is Uptrain.](https://twitter.com/rohanpaul_ai/status/1763184365238997124) Rohan Paul
+
+https://openai.com/research/summarizing-books
+
+https://github.com/oobabooga/text-generation-webui/wiki/05-%E2%80%90-Training-Tab
+
+https://github.com/huggingface/alignment-handbook
+
+https://github.com/jondurbin/bagel
+
+https://www.datacamp.com/tutorial/fine-tuning-llama-2
+
+https://github.com/bublint/ue5-llama-lora?tab=readme-ov-file
+
+https://zohaib.me/a-beginners-guide-to-fine-tuning-llm-using-lora/
+
+
+
 ## Parsing
 - [Surya](https://github.com/VikParuchuri/surya): OCR and line detection in 90+ languages
 - [Tonic Validate x LlamaIndex: Implementing integration tests for LlamaIndex](https://www.llamaindex.ai/blog/tonic-validate-x-llamaindex-implementing-integration-tests-for-llamaindex-43db50b76ed9)

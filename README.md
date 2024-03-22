@@ -10,26 +10,7 @@ Processes and Analysis, using Large Language Models for summarizing books and ot
 
 When i began testing LLM variants, `mistral-7b-instruct-v0.1.Q4_K_M` came as part of PrivateGPT's default setup. Here, I've preferred the Q8_0 variants.
 
-While I've tried 50+ different LLM for this same task, I haven't found anything that beats [**Mistral-7B-Instruct-v0.2**](https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF) for bullet point notes summarization.
-
-## Big News!!!
-
-According to [*Same Task, More Tokens: the Impact of Input Length on the Reasoning Performance of Large Language Models*](https://huggingface.co/papers/2402.14848) (2024-02-19; Mosh Levy, Alon Jacoby, Yoav Goldberg) these models reasoning capacity drops off pretty sharply from 250 to 1000 tokens, and begin flattening out from 2000-3000 tokens.
-
-![](https://i.imgur.com/nyDkAzP.png)
-
-What I've learned from this paper confirms my own experience in creating comprehensive bulleted notes while summarizing many long documents, and provides clarity in the context length required for optimal use of the models.
-
-Moreover, it invalidates previous rankings I've done, unsure of the proper context limits for this task.
-
-### Furthermore
-
-I've got some new tricks up my sleeve and I should test these models using some new methods, I will soon have guides and scripts available.
-
-- **One-Shot Prompt**: I am getting better results by adding an example in the system context. This reduces the size of summaries I can create, but can save a lot of time in post-processing.
-- **Fine-tuning**: I've been creating a dataset for fine-tuning and looking into various methods for doing so. Its my intention to fine-tune some quantized models, so its easy to train and distribute models optimized for this task (and we don't have to fill up our context with examples).
-
-I'll be creating a few notebooks to share, so we can learn more and get deeper into this ecosystem, together.
+While I've tried 50+ different 7b GGUF for this same task, I haven't found anything that beats [**Mistral-7B-Instruct-v0.2**](https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF) for bullet point notes summarization.
 
 ## Contents
 - [Initial Rankings and Testing of Configuration Variables](#background-tests-with-configuration-variables)
@@ -68,156 +49,51 @@ Based on learnings from above mentioned trials, I am conscious to check the orig
 
 If you use a tool (like PrivateGPT) that supports Transformers Autotokenizer, that's another way to ensure the use of a models most ideal conditions. 
 
-## 7b Q8 GGUF Model Rankings
-For the following rankings, I have moved to [Ollama.ai](https://ollama.ai). I rather like it for command line use, and it makes switching between models easy.
+## Latest Updates
+I've got some new tricks up my sleeve! I made a one-shot prompt that got my notes much closer to perfection, which enabled me to make a great dataset for fine-tuning. I'll keep adding more info here, but for now I'm just going to add the basics
 
-Later, I'll take the leaders from this round and perform a more detailed analysis of their work. I'll also be following models from their creators, to see if future models perform better on these tasks.
+### One Shot Prompting
 
-**Note on Ollama**\
-Ollama uses [Modelfiles](https://github.com/ollama/ollama/blob/main/docs/modelfile.md) where you input the model location, template, and parameters to a text file, which it uses to save a copy of your LLM using your specified configuration. This makes it easy to demo various models without having to always be fussing around with parameters.
-
-I've kept the parameters same for all models except chat template, but I will share you the template I'm using for each, so you can see precisely how I use the template. 
-
-You can let me know if I'd get better results from the following models using a differently configured Modelfile.
-
-For more information see my [Ollama Walkthrough](walkthrough).
-
-### Mistral 7b Instruct 0.2 Q8 GGUF
-
-I'm sure you realize by now that, in my opinion, [Mistral](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.2) has the 7b to beat.
-
-#### Modelfile
+I didn't think this would work for my use-case, because my document chunks already take up so much of the context, but I was convinced to try. I used a few different example instructions, but when I created this one demonstrating the task with content describing the task.. that was the magic, for me. Using this I can get 95-98% perfect results with Mistral 7b Instruct 0.2.
 
 ```
-TEMPLATE """
-<s></s>[INST] {{ .Prompt }} [/INST]
-"""
-PARAMETER num_ctx 8000
-PARAMETER num_gpu -1
-PARAMETER num_predict 4000
+<s>You are a bulleted notes specialist. [INST]```When creating comprehensive bulleted notes, you should follow these guidelines: Use multiple headings based on the referenced topics, not categories like quotes or terms. Headings should be surrounded by bold formatting and not be listed as bullet points themselves. Leave no space between headings and their corresponding list items underneath. Important terms within the content should be emphasized by setting them in bold font. Any text that ends with a colon should also be bolded. Before submitting your response, review the instructions, and make any corrections necessary to adhered to the specified format. Do not reference these instructions within the notes.``` \nBased on the content between backticks create comprehensive bulleted notes.[/INST]
+**Bulleted Note Creation Guidelines**
+
+**Headings**:
+- Based on referenced topics, not categories like quotes or terms
+- Surrounded by **bold** formatting 
+- Not listed as bullet points
+- No space between headings and list items underneath
+
+**Emphasis**:
+- **Important terms** set in bold font
+- **Text ending in a colon**: also bolded
+
+**Review**:
+- Ensure adherence to specified format
+- Do not reference these instructions in your response.</s>[INST] {{ .Prompt }} [/INST]
 ```
 
-#### Mistral 7b Instruct v0.2 Result
+That prompt is ~320 tokens. Based upon my experience and [*Same Task, More Tokens: the Impact of Input Length on the Reasoning Performance of Large Language Models*](https://huggingface.co/papers/2402.14848) I decided that I really wanted my max context (including one-shot prompt) to be ~2000 tokens.
 
-I won't say mistral does it perfect every single time, but more often than not, this is my result. Even compared to GPT3.5 response, you might agree that this is better. (Admittedly, now that I'm building a dataset for the task, I notice a lot more irregularities than I'd prefer.)
+Previously I was making chunks as large as 3750 trying to test out the supposed "long-context" llm dropping everywhere (they don't increase attantion span, only breath of attention). I also found that summarizing documents shorter than 500 tokens resulted in output the same size or longer than the original. So I split the chunks previously summarized books into proper sizes, soemtimes combining sections I previously left divided. Now my chunks average size is 1250 tokens.
 
-![https://cdn.hackernoon.com/images/Rk2O4CvaIxXhLpeRRXGUqtJXRKf1-g6b2mcy.webp](https://cdn.hackernoon.com/images/Rk2O4CvaIxXhLpeRRXGUqtJXRKf1-g6b2mcy.webp)\
-*7b GOAT?*
+### Samantha Mistral Instruct 7b - Comprehensive Bulleted Notes
 
-### OpenChat 3.5 0106 Q8 GGUF
+Using ~5000 example bulleted notes summaries, following the described format, I fine-tuned Samantha 7b Mistral Instruct for 5 epochs and ended up keeping a merge around 2500 steps (closer to 4 epochs).
 
-I was pleasantly surprised by [OpenChat's 0106](https://huggingface.co/openchat/openchat-3.5-0106). Here is a model that claims to be the best 7b, and at least is competitive with Mistral 7b.
+I made this fine-tune with an adaptation of the following notebook [ChatML + chat templates + Mistral 7b full example.ipynb](https://colab.research.google.com/drive/1Aau3lgPzeZKQ-98h69CCu1UJcvIBLmy2?usp=sharing) for RunPod.
 
-#### Modelfile
+![image/png](https://cdn-uploads.huggingface.co/production/uploads/657cca531e20870324f77ec7/cKk7nex2lV9YhZ_37XlWK.png)
 
-```
-TEMPLATE """
-GPT4 Correct User:  {{ .Prompt }}<|end_of_turn|>GPT4 Correct Assistant:
-"""
-PARAMETER num_ctx 8000
-PARAMETER num_gpu -1
-PARAMETER num_predict 4000
-```
+- [**HuggingFace Blog**: Samantha Mistral Instruct 7b Bulleted Notes](https://huggingface.co/blog/cognitivetech/samantha-mistral-instruct-7b-bulleted-notes/)
+- [cognitivetech/samantha-mistral-instruct-7b_bulleted-notes](https://huggingface.co/cognitivetech/samantha-mistral-instruct-7b_bulleted-notes/)
+- [cognitivetech/samantha-mistral-instruct-7b_bulleted-notes_GGUF](https://huggingface.co/cognitivetech/samantha-mistral-instruct-7b_bulleted-notes_GGUF/)
 
-#### OpenChat 3.5 0106 Result
+## Long-Text Summary Walkthrough
 
-In this small sample it gave bold headings 4/6 times. Later I will review it along with any other top contenders using a more detailed analysis.
-
-![https://cdn.hackernoon.com/images/Rk2O4CvaIxXhLpeRRXGUqtJXRKf1-wvg2mu3.webp](https://cdn.hackernoon.com/images/Rk2O4CvaIxXhLpeRRXGUqtJXRKf1-wvg2mu3.webp)\
-*I like what I see, but needs a deeper examination*
-
-### Snorkel Mistral Pairrm DPO Q8 GGUF
-
-Obviously I'm biased, here, as Snorkel is based on Mistral 7b Instruct 0.2. I am cautiously optimistic and look forward to more releases from [Snorkel.ai](https://huggingface.co/snorkelai/Snorkel-Mistral-PairRM-DPO).
-
-#### Modelfile
-
-```
-TEMPLATE """
-<s></s>[INST] {{ .Prompt }} [/INST]
-"""
-PARAMETER num_ctx 8000
-PARAMETER num_gpu -1
-PARAMETER num_predict 4000
-```
-
-#### Snorkel Mistral Pairrm DPO Result
-
-4/6 of these summaries are spot on, but others contain irregularities such as super long lists of key terms and headings instead of just bolding them inline as part of the summary.
-
-![https://cdn.hackernoon.com/images/Rk2O4CvaIxXhLpeRRXGUqtJXRKf1-weh2mf8.webp](https://cdn.hackernoon.com/images/Rk2O4CvaIxXhLpeRRXGUqtJXRKf1-weh2mf8.webp)\
-*The dark horse of this race.*
-
-### Dolphin 2.6 Mistral 7B Q8 GGUF
-
-Here is [another mistral derivative](https://huggingface.co/cognitivecomputations/dolphin-2.6-mistral-7b) that's well regarded.
-
-#### Modelfile
-
-```
-TEMPLATE """
-<|im_start|>system
-You are a helpful AI writing assistant.<|im_end|>
-<|im_start|>user
-{{ .Prompt }} <|im_end|>
-<|im_start|>assistant
-{{ .Response }}<|im_end|>
-"""
-PARAMETER num_ctx 8000
-PARAMETER num_gpu -1
-PARAMETER num_predict 4000
-```
-
-### Dolphin 2.6 Mistral 7B Result
-
-This is another decent model that's *almost* as good as Mistral 7b Instruct 0.2. Three out of 6 summaries gave proper format and bold headings, another had good format with no bold, but 2/6 were bad form all around.
-
-![https://cdn.hackernoon.com/images/Rk2O4CvaIxXhLpeRRXGUqtJXRKf1-86m2mnl.webp](https://cdn.hackernoon.com/images/Rk2O4CvaIxXhLpeRRXGUqtJXRKf1-86m2mnl.webp)\
-*Bad form*
-
-### OpenHermes 2.5 Mistral-7B Q8 GGUF
-
-[This model](https://huggingface.co/teknium/OpenHermes-2.5-Mistral-7B) is quite popular, both on leader-boards and among "the people" in unassociated discord chats. I want it to be a leader in this ranking, but it's just not.
-
-#### Modelfile
-
-```
-TEMPLATE """
-<|im_start|>system
-You are a helpful AI writing assistant.<|im_end|>
-<|im_start|>user
-{{ .Prompt }} <|im_end|>
-<|im_start|>assistant
-{{ .Response }}<|im_end|>
-"""
-PARAMETER num_ctx 8000
-PARAMETER num_gpu -1
-PARAMETER num_predict 4000
-```
-
-#### OpenHermes 2.5 Mistral Result
-
-3/6 results produce proper structure, but no bold text. One of them got both structure and bold text. The other two had more big blocks of text \ poor structure.
-
-![https://cdn.hackernoon.com/images/Rk2O4CvaIxXhLpeRRXGUqtJXRKf1-2gj2ml3.webp](https://cdn.hackernoon.com/images/Rk2O4CvaIxXhLpeRRXGUqtJXRKf1-2gj2ml3.webp)\
-*Just not "there", for me.*
-
-### Honorable Mentions
-
-- [omnibeagle-7b](https://huggingface.co/mlabonne/OmniBeagle-7B/) (ChatML) - This one is actually producing a decent format but no bolded text.
-- [neuralbeagle14-7b](https://huggingface.co/mlabonne/NeuralBeagle14-7B) (Mistral) - Decent results, deserves ruther research.
-- [WestLake-7B-v2](https://huggingface.co/senseable/WestLake-7B-v2/) (ChatML) - I've seen worse
-- [MBX-7B-v3-DPO](https://huggingface.co/macadeliccc/MBX-7B-v3-DPO) (ChatML) - No consistency in format.
-
-### Conclusion
-
-I spent 4 months examining open GGUF models for the task of **comprehensive bulleted note summaries.**
-
-Time for me to create a dataset, and begin fine-tuning LLM, for myself.
-
-## Walkthrough
-
-If you are interested in following my steps, in more detail, check out the detailed walkthroughs
+If you are interested in following my steps, in more detail, to see how I summarize entire books and other long-texts, check out the detailed walkthroughs
 
 * [Ollama Walkthrough](walkthrough)
 * [PrivateGPT Walkthrough](walkthrough/privateGPT/)
