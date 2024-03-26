@@ -81,11 +81,11 @@ Using ~5000 example bulleted notes summaries, following the described format, I 
 
 I made this fine-tune with an adaptation of the following notebook [ChatML + chat templates + Mistral 7b full example.ipynb](https://colab.research.google.com/drive/1Aau3lgPzeZKQ-98h69CCu1UJcvIBLmy2?usp=sharing) for RunPod.
 
-![image/png](https://cdn-uploads.huggingface.co/production/uploads/657cca531e20870324f77ec7/cKk7nex2lV9YhZ_37XlWK.png)
-
 - [**HuggingFace Blog**: Samantha Mistral Instruct 7b Bulleted Notes](https://huggingface.co/blog/cognitivetech/samantha-mistral-instruct-7b-bulleted-notes/)
-- [cognitivetech/cognitivetech/samantha-mistral-instruct-7b-bulleted-notes](https://huggingface.co/cognitivetech/samantha-mistral-instruct-7b-bulleted-notes/)
+- [cognitivetech/samantha-mistral-instruct-7b-bulleted-notes](https://huggingface.co/cognitivetech/samantha-mistral-instruct-7b-bulleted-notes/)
 - [cognitivetech/samantha-mistral-instruct-7b_bulleted-notes_GGUF](https://huggingface.co/cognitivetech/samantha-mistral-instruct-7b_bulleted-notes_GGUF/)
+
+![image/png](https://cdn-uploads.huggingface.co/production/uploads/657cca531e20870324f77ec7/cKk7nex2lV9YhZ_37XlWK.png)
 
 ## Long-Text Summary Walkthrough
 
