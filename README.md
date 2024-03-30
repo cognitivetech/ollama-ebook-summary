@@ -81,6 +81,8 @@ Using ~5000 example bulleted notes summaries, following the described format, I 
 
 I made this fine-tune with an adaptation of the following notebook [ChatML + chat templates + Mistral 7b full example.ipynb](https://colab.research.google.com/drive/1Aau3lgPzeZKQ-98h69CCu1UJcvIBLmy2?usp=sharing) for RunPod.
 
+\*Note: I have discovered some contamination of my original training data. This model still works well, but you may see signs of its contamination through improperly escaped asterisks. Impressive how well it does considering that mistake in the training, but I will have to run again to get the proper outcome.
+
 - [**HuggingFace Blog**: Samantha Mistral Instruct 7b Bulleted Notes](https://huggingface.co/blog/cognitivetech/samantha-mistral-instruct-7b-bulleted-notes/)
 - [cognitivetech/samantha-mistral-instruct-7b-bulleted-notes](https://huggingface.co/cognitivetech/samantha-mistral-instruct-7b-bulleted-notes/)
 - [cognitivetech/samantha-mistral-instruct-7b_bulleted-notes_GGUF](https://huggingface.co/cognitivetech/samantha-mistral-instruct-7b_bulleted-notes_GGUF/)
