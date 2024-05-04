@@ -124,7 +124,7 @@ Especially considering that this is not for profit, but for educational purposes
 | Psychology in Your Life | Mistral-7B-Instruct-v0.2 | -74% | 0.6% | 0.4% | 0.5% | 1.6% |
 
 ### Completed Book Summaries
-
+\* **NOTE**: These examples have not all been updated to reflect my most current processes. I'll give a nice remake of this documentation soon.
 1. [**Summary of Anodea Judith's Eastern Body Western Mind**](https://github.com/cognitivetech/Psychology-Book-Summaries/blob/main/Eastern-Body_Western-Mind.md) (436 pages)
    > **Adult Development**
    >  
