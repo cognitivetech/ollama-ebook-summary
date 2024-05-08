@@ -1,10 +1,9 @@
 # NOTES
 
-Informative, not currently central to this project. 
-
 https://github.com/weaviate/recipes/blob/main/integrations/dspy/2.Writing-Blog-Posts-with-DSPy.ipynb
 
 [For LLM evaluations one tool I like is Uptrain.](https://twitter.com/rohanpaul_ai/status/1763184365238997124) Rohan Paul
+https://github.com/EleutherAI/lm-evaluation-harness
 
 https://openai.com/research/summarizing-books
 
