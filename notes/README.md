@@ -1,6 +1,9 @@
 # NOTES
 
-Informative, not currently central to this project. 
+https://github.com/VikParuchuri/marker
+https://github.com/jakespringer/echo-embeddings/blob/master/README.md
+https://huggingface.co/blog/how-to-train-sentence-transformers
+
 
 https://github.com/weaviate/recipes/blob/main/integrations/dspy/2.Writing-Blog-Posts-with-DSPy.ipynb
 
