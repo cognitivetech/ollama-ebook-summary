@@ -6,6 +6,8 @@ Processes and Analysis, using Large Language Models for summarizing books and ot
 - Detailed Walkthrough for both [PrivateGPT](walkthrough/privateGPT) and [Ollama](walkthrough)
 - [Scripts](walkthrough/) and examples.
 
+## BIG NEWS COMING SHORTLY
+
 ## Intro
 
 When i began testing LLM variants, `mistral-7b-instruct-v0.1.Q4_K_M` came as part of PrivateGPT's default setup. Here, I've preferred the Q8_0 variants.
