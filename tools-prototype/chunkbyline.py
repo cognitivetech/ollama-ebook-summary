@@ -1,3 +1,4 @@
+# If you have a text file, where each section \ chapter is on a single line, then this will chunk each line, one at a time.
 import os
 import re
 import torch
