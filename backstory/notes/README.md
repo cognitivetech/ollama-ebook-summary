@@ -11,6 +11,7 @@ https://github.com/weaviate/recipes/blob/main/integrations/dspy/2.Writing-Blog-P
 https://huggingface.co/McGill-NLP/LLM2Vec-Mistral-7B-Instruct-v2-mntp-supervised/discussions
 
 [For LLM evaluations one tool I like is Uptrain.](https://twitter.com/rohanpaul_ai/status/1763184365238997124) Rohan Paul
+https://github.com/EleutherAI/lm-evaluation-harness
 
 https://openai.com/research/summarizing-books
 
