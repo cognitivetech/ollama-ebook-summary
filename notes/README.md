@@ -3,9 +3,12 @@
 https://github.com/VikParuchuri/marker
 https://github.com/jakespringer/echo-embeddings/blob/master/README.md
 https://huggingface.co/blog/how-to-train-sentence-transformers
-
-
+https://www.mercity.ai/blog-post/classify-long-texts-with-bert
+https://github.com/desgeeko/pdfsyntax/
+https://github.com/aminya/tocPDF
+https://huggingface.co/McGill-NLP/LLM2Vec-Mistral-7B-Instruct-v2-mntp-supervised/discussions
 https://github.com/weaviate/recipes/blob/main/integrations/dspy/2.Writing-Blog-Posts-with-DSPy.ipynb
+https://huggingface.co/McGill-NLP/LLM2Vec-Mistral-7B-Instruct-v2-mntp-supervised/discussions
 
 [For LLM evaluations one tool I like is Uptrain.](https://twitter.com/rohanpaul_ai/status/1763184365238997124) Rohan Paul
 
