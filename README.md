@@ -16,9 +16,7 @@ You can check [backstory](backstory/) for information on some of my learning pro
 `sum.py`:
 ```python
 def process_file(input_file, model):
-    #prompt = "Write a list of questions that can be answered by 3rd graders who are reading the provided text. Topics we like to focus on include: Main idea, supporting details, Point of view, Theme, Sequence, Elements of fictions (setting characters BME)"
     prompt = "Write comprehensive bulleted notes on the provided text."
-    #prompt = "In a bulleted notes format, relate any descriptions of the psychedelic experience found in the text. Include complete and comprehensive description of change in consciousness and sensory description, including every sense modality, as appropriate."
     ptitle = "Write a sub-title for the provided text, don't explain or provide the title, only provide a single sub-title."
 ```
 ### Modelfiles
