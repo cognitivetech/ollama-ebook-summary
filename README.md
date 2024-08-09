@@ -17,7 +17,7 @@ You can check [backstory](backstory/) for information on some of my learning pro
 ```python
 def process_file(input_file, model):
     prompt = "Write comprehensive bulleted notes on the provided text."
-    ptitle = "Write a sub-title for the provided text, don't explain or provide the title, only provide a single sub-title."
+    ptitle = "Write a sub-title for the provided text, don't explain, only provide a single sub-title."
 ```
 ### Modelfiles
 #### Mistral Bulleted Notes
