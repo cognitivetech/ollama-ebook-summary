@@ -17,7 +17,7 @@ You can check [backstory](backstory/) for information on some of my learning pro
 ```python
 def process_file(input_file, model):
     prompt = "Write comprehensive bulleted notes on the provided text."
-    ptitle = "write a fewer than 20 words to concisely describe this passage."
+    ptitle = "write fewer than 20 words to concisely describe this passage, without prefix or any further explanation"
 ```
 ### Modelfiles
 #### Mistral Bulleted Notes
