@@ -8,8 +8,8 @@ You can check [backstory](backstory/) for information on some of my learning pro
 
 
 1. `pip install requirements.txt`
-2. `python3 book2text.py ebook_name.{epub|pdf}` -> ebook_name_processed.csv
-3. `python3 sum.py model_name ebook_name_processed.csv` -> ebook_name_processed_sum.md
+2. `python3 book2text.py ebook_name.{epub|pdf}` -> `ebook_name_processed.csv`
+3. `python3 sum.py model_name ebook_name_processed.csv` -> `ebook_name_processed_sum.md`
 4. update `sum.py` to change the question and use your favorite non-bulleted-notes model
   - `python3 sum.py nemo ebook_name_processed.csv`
 
