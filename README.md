@@ -11,14 +11,34 @@ You can check [backstory](backstory/) for information on some of my learning pro
 2. `python3 book2text.py ebook_name.{epub|pdf}` -> `ebook_name_processed.csv`
 3. `python3 sum.py model_name ebook_name_processed.csv` -> `ebook_name_processed_sum.md`
 4. update `sum.py` to change the question and use your favorite non-bulleted-notes model
-  - `python3 sum.py nemo ebook_name_processed.csv`
+  - `python3 sum.py obook_summary ebook_name_processed.csv`
 
-`sum.py`:
+### `sum.py`:
 ```python
 def process_file(input_file, model):
     prompt = "Write comprehensive bulleted notes on the provided text."
     ptitle = "write fewer than 20 words to concisely describe this passage, without prefix or any further explanation"
 ```
+## Models
+You can get these right from ollama.
+
+example: `ollama pull obook_summary:q5_k_m`
+
+- [Mistral Instruct Bulleted Notes](https://huggingface.co/collections/cognitivetech/mistral-instruct-bulleted-notes-v02-66b6e2c16196e24d674b1940) - Collection on HuggingFace
+- [obook_summary](https://ollama.com/cognitivetech/obook_summary) - On Ollama.com
+  - `latest` • 7.7GB • Q_8
+  - `q2_k` • 2.7GB 
+  - `q3_k_m` • 3.5GB
+  - `q4_k_m` • 4.4GB
+  - `q5_k_m` • 5.1GB
+  - `q6_k` • 5.9GB
+- [obook_title](https://ollama.com/cognitivetech/obook_title) - On Ollama.com
+  - `latest` • 7.7GB • Q_8
+  - `q3_k_m` • 3.5GB
+  - `q4_k_m` • 4.4GB
+  - `q5_k_m` • 5.1GB
+  - `q6_k`   • 5.9GB 
+
 ### Modelfiles
 #### Mistral Bulleted Notes
 ```
@@ -45,8 +65,6 @@ PARAMETER num_ctx 8000
 PARAMETER num_predict 4000
 PARAMETER num_gpu -1
 ```
-
-
 
 ## Use Cases
 ### Bulleted Summaries
