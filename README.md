@@ -30,7 +30,7 @@ The main idea of this project is that we don't want to talk to the entire docume
 - [obook_title](https://ollama.com/cognitivetech/obook_title)
 
 **Huggingface.co**:
-- [Mistral Instruct Bulleted Notes](https://huggingface.co/collections/cognitivetech/mistral-instruct-bulleted-notes-v02-66b6e2c16196e24d674b1940) - Collection on HuggingFace\
+- [Mistral Instruct Bulleted Notes](https://huggingface.co/collections/cognitivetech/mistral-instruct-bulleted-notes-v02-66b6e2c16196e24d674b1940) - Collection on HuggingFace
 
 ## Instructions
 
