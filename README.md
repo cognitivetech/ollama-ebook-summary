@@ -9,6 +9,10 @@ This project creates bulleted notes summaries of books and other long texts, par
 
 When the ebooks contain approrpiate metadata, we are able to easily automate the extraction of chapters from most books, and splits them into ~2000 token chunks, with fallbacks in the case your document doesn't have that.
 
+### Main Idea
+
+The main idea of this project is that we don't want to talk to the entire document at once, but we split it into many small chunks and ask questions to those, for improved granularity of response.
+
 ## Contents
 
 - [Used with](#used-with)
