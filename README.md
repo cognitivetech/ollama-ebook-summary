@@ -14,7 +14,7 @@ When the ebooks contain approrpiate metadata, we are able to easily automate the
 - [Used with](#used-with)
 - [Instructions](#instructions)
 - [Models](#models)
-  - [Modelfiles](#modelfiles
+  - [Modelfiles](#modelfiles)
 - [Check your eBook for clickable ToC](#check-your-ebook-for-clickable-toc)
 - [Other Use Cases](#other-use-cases)
 - [Inspiration](#inspiration)
