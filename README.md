@@ -4,11 +4,29 @@ Built With: Python 3.11.9
 
 You can check [backstory](backstory/) for information on some of my learning process with LLM and how I came to certain decisions.
 
-## to be used with
+## Bulleted Notes Summaries
+This project creates bulleted notes summaries of books and other long texts, particularly epub and pdf which have ToC metadata available.
 
-- [Mistral Instruct Bulleted Notes](https://huggingface.co/collections/cognitivetech/mistral-instruct-bulleted-notes-v02-66b6e2c16196e24d674b1940) - Collection on HuggingFace
-- [obook_summary](https://ollama.com/cognitivetech/obook_summary) - On Ollama.com
-- [obook_title](https://ollama.com/cognitivetech/obook_title) - On Ollama.com
+When the ebooks contain approrpiate metadata, we are able to easily automate the extraction of chapters from most books, and splits them into ~2000 token chunks, with fallbacks in the case your document doesn't have that.
+
+## Contents
+
+- [Used with](#used-with)
+- [Instructions](#instructions)
+- [Models](#models)
+  - [Modelfiles](#modelfiles
+- [Check your eBook for clickable ToC](#check-your-ebook-for-clickable-toc)
+- [Other Use Cases](#other-use-cases)
+- [Inspiration](#inspiration)
+
+## Used with
+
+**Ollama.com**:
+- [obook_summary](https://ollama.com/cognitivetech/obook_summary) 
+- [obook_title](https://ollama.com/cognitivetech/obook_title)
+
+**Huggingface.co**:
+- [Mistral Instruct Bulleted Notes](https://huggingface.co/collections/cognitivetech/mistral-instruct-bulleted-notes-v02-66b6e2c16196e24d674b1940) - Collection on HuggingFace\
 
 ## Instructions
 
@@ -24,6 +42,7 @@ def process_file(input_file, model):
     prompt = "Write comprehensive bulleted notes on the provided text."
     ptitle = "write fewer than 20 words to concisely describe this passage, without prefix or any further explanation"
 ```
+
 ## Models
 You can get these right from ollama.
 
@@ -71,11 +90,17 @@ PARAMETER num_predict 4000
 PARAMETER num_gpu -1
 ```
 
-## Use Cases
-### Bulleted Summaries
-This project creates bulleted notes summaries of books and other long texts, particularly epub and pdf which have ToC metadata available.
+## Check your eBook for clickable ToC.
 
-When the ebooks contain approrpiate metadata, we are able to easily automate the extraction of chapters from most books, and splits them into ~2000 token chunks, with fallbacks in the case your document doesn't have that.
+Here you can see how to check whethere your eBook as the proper formatting, or not. **With ePub it should fail graceuflly**.
+
+### Firefox
+![image](https://github.com/user-attachments/assets/fc618e8c-d3e7-4bbd-aa16-1830fdc75b12)
+
+### Brave 
+![image](https://github.com/user-attachments/assets/c4491208-f66b-45cf-9095-f2f919d0fa49)
+
+## Other Use Cases
 
 ### Arbitrary Query
 Once the book is split into chunks, that our llm can reason around, we create a bulleted note summary of that section. The end result is a markdown document, that even for a book 1000 pages, its contents can be reviewed over a couple hours.
