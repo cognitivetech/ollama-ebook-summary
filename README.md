@@ -1,11 +1,16 @@
 # Bulleted Notes Book Summaries
+
 Built With: Python 3.11.9
 
-to be used with : [Mistral-7b-Inst-0.2-Bulleted-Notes_GGUF](https://huggingface.co/cognitivetech/Mistral-7b-Inst-0.2-Bulleted-Notes_GGUF)
-
 You can check [backstory](backstory/) for information on some of my learning process with LLM and how I came to certain decisions.
-## Instructions
 
+## to be used with
+
+- [Mistral Instruct Bulleted Notes](https://huggingface.co/collections/cognitivetech/mistral-instruct-bulleted-notes-v02-66b6e2c16196e24d674b1940) - Collection on HuggingFace
+- [obook_summary](https://ollama.com/cognitivetech/obook_summary) - On Ollama.com
+- [obook_title](https://ollama.com/cognitivetech/obook_title) - On Ollama.com
+
+## Instructions
 
 1. `pip install requirements.txt`
 2. `python3 book2text.py ebook_name.{epub|pdf}` -> `ebook_name_processed.csv`
