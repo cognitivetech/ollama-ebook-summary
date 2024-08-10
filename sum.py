@@ -74,7 +74,7 @@ def process_file(input_file, model):
                     used_titles.add(Title)
                 else:
                     # Generate a new title using ollama
-                    generated_title = subprocess.check_output(["ollama", "run", "mtitle", f"```{clean}``` {ptitle}"]).decode().strip()
+                    generated_title = subprocess.check_output(["ollama", "run", "obook_title", f"```{clean}``` {ptitle}"]).decode().strip()
                     heading = f"#### {generated_title}"
             else:
                 # Check if the title has been used before
@@ -89,7 +89,7 @@ def process_file(input_file, model):
                     used_titles.add(Title)
                 else:
                     # Generate a new title using ollama
-                    generated_title = subprocess.check_output(["ollama", "run", "mtitle", f"```{clean}```\n\n{ptitle}"]).decode().strip()
+                    generated_title = subprocess.check_output(["ollama", "run", "obook_title", f"```{clean}```\n\n{ptitle}"]).decode().strip()
                     heading = f"#### {generated_title}"
 
             # Append the output to the markdown file
