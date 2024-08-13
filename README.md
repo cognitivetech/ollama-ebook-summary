@@ -55,6 +55,9 @@ You can get these right from ollama.
 example: `ollama pull obook_summary:q5_k_m`
 
 - [Mistral Instruct Bulleted Notes](https://huggingface.co/collections/cognitivetech/mistral-instruct-bulleted-notes-v02-66b6e2c16196e24d674b1940) - Collection on HuggingFace
+  - [cognitivetech/Mistral-7B-Inst-0.2-Bulleted-Notes](https://huggingface.co/cognitivetech/Mistral-7B-Inst-0.2-Bulleted-Notes)
+  - [cognitivetech/Mistral-7b-Inst-0.2-Bulleted-Notes_GGUF](https://huggingface.co/cognitivetech/cognitivetech/Mistral-7b-Inst-0.2-Bulleted-Notes_GGUF)
+  - [cognitivetech/Mistral-7B-Inst-0.2_Bulleted-Notes_LoRA](https://huggingface.co/cognitivetech/cognitivetech/Mistral-7B-Inst-0.2_Bulleted-Notes_LoRA)
 - [obook_summary](https://ollama.com/cognitivetech/obook_summary) - On Ollama.com
   - `latest` • 7.7GB • Q_8
   - `q2_k` • 2.7GB 
