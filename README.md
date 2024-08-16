@@ -112,7 +112,7 @@ Here you can see how to check whethere your eBook as the proper formatting, or n
 ## Other Use Cases
 
 ### Arbitrary Query
-Once the book is split into chunks, that our llm can reason around, we create a bulleted note summary of that section. The end result is a markdown document, that even for a book 1000 pages, its contents can be reviewed over a couple hours.
+Once the book is split into chunks, that our llm can reason around, we create a bulleted note summary of each chunk. The end result is a markdown document, the contents of which, even for a book 1000 pages, can be reviewed over a couple hours.
 
 Furthermore, once chunked, arbitrary questions can be asked to the document, such as "What questions does this text answer?".\* This is very valuable in research when I want to review many research papers quickly, I can ask "what arguments does this text make?" and get directly to the point of the study.
 
