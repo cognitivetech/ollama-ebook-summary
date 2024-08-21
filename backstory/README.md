@@ -2,9 +2,9 @@
 
 Processes and Analysis, using Large Language Models for summarizing books and other long texts:
 - [Model Rankings](ranking-data)
-- Tests of [Configuration Variables](configuration-variables.md)
-- Detailed Walkthrough for both [PrivateGPT](walkthrough/privateGPT) and [Ollama](walkthrough)
-- [Scripts](walkthrough/) and examples.
+- Tests of [Configuration Variables](../walkthrough/configuration-variables.md)
+- Detailed Walkthrough for both [PrivateGPT](../walkthrough/privateGPT) and [Ollama](../walkthrough)
+- [Scripts](../walkthrough/) and examples.
 
 ## BIG NEWS COMING SHORTLY
 

@@ -1,6 +1,8 @@
 # Walkthrough
 
-This describes my journey exploring the use of privateGPT for summarization tasks.
+#### WARNING THIS IS OUT OF DATE REGARDING pGPT!!!!
+
+This describes my journey exploring the use of privateGPT for manual chunking summarization tasks. 
 
 If you don't care about my process, just skip ahead to [Making a complete book summary](#making-a-complete-book-summary).
 

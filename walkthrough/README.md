@@ -1,8 +1,8 @@
 # Ollama Summarization Walkthrough
 
-**This describes my process for summarizing books using Ollama.**
+#### manual chunking using Ollama, before the release of ollama-ebook-summary
 
-[**Click Here: If you are looking for the PrivateGPT walkthrough**](privatePGT)
+[**Click Here: If you are looking for the legacy PrivateGPT walkthrough**](privatePGT)
 
 ## System
 If you are working with a CPU only, use default ollama models. (eg 'ollama pull mistral:7b-instruct-v0.2-q4_0') This can take a few minutes per query. 
