@@ -27,6 +27,19 @@ def generate_title(api_base, model, clean, ptitle):
         print(f"Error decoding API response: {response.text}")
         return None
 
+def get_unique_title(Title, clean, used_titles, api_base, ptitle):
+    if Title not in used_titles:
+        used_titles.add(Title)
+        return Title, None
+    else:
+        generated_title = generate_title(api_base, "cognitivetech/obook_title:q3_k_m", clean, ptitle)
+        if generated_title:
+            return generated_title, generated_title
+        else:
+            fallback_title = clean[:150].strip() + "..."
+            print(f"Title generation failed. Using fallback title: {fallback_title}")
+            return fallback_title, fallback_title
+
 def process_file(input_file, model):
     prompt = "Write comprehensive bulleted notes on the provided text."
     ptitle = "write a fewer than 20 words to concisely describe this passage."
@@ -48,9 +61,18 @@ def process_file(input_file, model):
         # Get model information
         response = requests.post(f"{api_base}/show", json={
             "name": model,
-            "stream": False
         })
-        f.write(response.json()["response"].strip() + "\n\n")
+        model_info = response.json()
+        
+        # Write relevant model information
+        f.write("### Model Information\n\n")
+        if 'details' in model_info:
+            for key, value in model_info['details'].items():
+                f.write(f"- {key}: {value}\n")
+        if 'parameters' in model_info:
+            f.write("\n### Parameters\n\n")
+            f.write(model_info['parameters'].replace('\n', '\n- '))
+        f.write("\n\n")
 
     # CSV file
     csv_file = f"{filename_no_ext}_summ.csv"
@@ -86,8 +108,6 @@ def process_file(input_file, model):
             # Calculate the processing time
             elapsed_time = end_time - start_time
 
-            generated_title = None
-            
             # Check if the title has '|'
             if "|" in Title:
                 # Split the title by '|'
@@ -97,37 +117,14 @@ def process_file(input_file, model):
                 # The rest of the parts after the last '|' are joined together to form the h3 title
                 h3_title = "|".join(title_parts[1:])
                 
-                # Check if the title has been used before
-                if Title not in used_titles:
+                unique_title, generated_title = get_unique_title(Title, clean, used_titles, api_base, ptitle)
+                if generated_title:
+                    heading = f"#### {unique_title}"
+                else:
                     heading = f"## {h2_title}\n### {h3_title}"
-                    used_titles.add(Title)
-                else:
-                    # Generate a new title using ollama
-                    generated_title = generate_title(api_base, "mtitle", clean, ptitle)
-                    if generated_title:
-                        heading = f"#### {generated_title}"
-                    else:
-                        # Fallback to first 150 characters if title generation fails
-                        fallback_title = clean[:150].strip() + "..."
-                        heading = f"#### {fallback_title}"
-                        generated_title = fallback_title
-                        print(f"Title generation failed. Using fallback title: {fallback_title}")
             else:
-                # Check if the title has been used before
-                if Title not in used_titles:
-                    heading = f"### {Title}"
-                    used_titles.add(Title)
-                else:
-                    # Generate a new title using ollama
-                    generated_title = generate_title(api_base, "cognitivetech/obook_title:latest", clean, ptitle)
-                    if generated_title:
-                        heading = f"#### {generated_title}"
-                    else:
-                        # Fallback to first 150 characters if title generation fails
-                        fallback_title = clean[:150].strip() + "..."
-                        heading = f"#### {fallback_title}"
-                        generated_title = fallback_title
-                        print(f"Title generation failed. Using fallback title: {fallback_title}")
+                unique_title, generated_title = get_unique_title(Title, clean, used_titles, api_base, ptitle)
+                heading = f"### {unique_title}" if not generated_title else f"#### {unique_title}"
 
             # Append the output to the markdown file
             with open(markdown_file, "a") as f:
