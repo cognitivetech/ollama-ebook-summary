@@ -12,7 +12,7 @@ def preprocess_text(text):
     text = text.replace('%', ' percent')  # Replace percent signs with 'percent'
     return text
 
-def semantic_chunking(text, min_chunk_size=6000, max_chunk_size=7500):
+def semantic_chunking(text, min_chunk_size=6000, max_chunk_size=9200):
     sentences = [sent.strip() for sent in re.split(r'(?<=[.!?])\s+', text) if sent.strip()]
     model = SentenceTransformer('all-MiniLM-L6-v2')
     embeddings = model.encode(sentences, convert_to_tensor=True)

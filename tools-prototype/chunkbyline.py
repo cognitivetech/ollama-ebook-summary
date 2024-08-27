@@ -22,7 +22,7 @@ def calculate_similarity(sentence1, sentence2, model):
     return similarity
 
 # Function to split text into chunks using dynamic chunking
-def split_text(text, min_chunk_size=6500, max_chunk_size=8000):
+def split_text(text, min_chunk_size=6500, max_chunk_size=9200):
     chunks = []
     current_chunk = ''
 
