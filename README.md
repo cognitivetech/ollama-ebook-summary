@@ -2,7 +2,7 @@
 
 Built With: Python 3.11.9
 
-You can check [backstory](backstory/) for information on some of my learning process with LLM and how I came to certain decisions.
+You can check the [depreciated](depreciated/) walkthroughs and rakings for information on some of my learning process with LLM and how I came to certain decisions.
 
 **\*Note**: This code is a prototype I forked off from when beginning to develop the web app (coming soon). Therefore, its not very polished, it just works!
 

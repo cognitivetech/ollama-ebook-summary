@@ -6,7 +6,13 @@ Processes and Analysis, using Large Language Models for summarizing books and ot
 - Detailed Walkthrough for both [PrivateGPT](../walkthrough/privateGPT) and [Ollama](../walkthrough)
 - [Scripts](../walkthrough/) and examples.
 
-## BIG NEWS COMING SHORTLY
+## Backstory
+
+A year ago I began learning about Developmental Psychology and Trauma which tied together a number of ideas that I was becoming familiar with including Attachment Theory, Polyvagal Theory, Internal Family Systems Theory, EMDR, various traditional practices becoming increasingly popular in a therapeutic setting.
+
+After having read a dozen books that bring together these themes, I felt that I had unearthed the mysteries of my own psychology (after a decades long quest) and became inspired by a common thread which binds them.
+
+My intention was to organize the information found in these books in a cohesive fashion so could write about this idea. But I quickly realized it could take me as long as a year at the rate I was going and wanted tools to simplify the process of organizing this body of work into a cohesive framework.
 
 ## Intro
 
