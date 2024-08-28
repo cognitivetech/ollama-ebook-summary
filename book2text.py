@@ -12,12 +12,11 @@ import shutil
 
 def epub_to_text(epub_path):
     book = epub.read_epub(epub_path)
-    text = []
+    chapters = []
     for item in book.get_items():
         if item.get_type() == ebooklib.ITEM_DOCUMENT:
-            soup = BeautifulSoup(item.get_content(), 'html.parser')
-            text.append(soup.get_text())
-    return '\n'.join(text)
+            chapters.append(item.get_content())
+    return b'\n'.join(chapters).decode('utf-8')
 
 def html_to_text(html_path):
     with open(html_path, 'r', encoding='utf-8') as file:
@@ -47,9 +46,10 @@ def process_files(directory, file_type):
             text = html_to_text(filepath)
             title = os.path.splitext(filename)[0]
         elif file_type == 'epub':
-            text = epub_to_text(filepath)
-            book = epub.read_epub(filepath)
-            title = book.get_metadata('DC', 'title')[0][0]
+            try:
+                text = epub_to_text(filepath)
+            except Exception as e:
+                print(f"Error processing {filename}: {str(e)}")
         elif file_type == 'pdf' and filename.endswith('.pdf'):
             text = pdf_to_text(filepath)
             title = os.path.splitext(filename)[0]
@@ -86,10 +86,12 @@ def main(input_file, output_dir, output_csv):
     file_type = os.path.splitext(input_file)[1][1:]
     if file_type == 'epub':
         result = subprocess.run(f"python epubsplit.py --split-by-section \"{input_file}\" --output-dir \"{output_dir}\"",
-                                shell=True, text=True, stderr=subprocess.PIPE)
+                                shell=True, text=True, capture_output=True)
         if result.returncode != 0:
-            print("Error detected while splitting EPUB. Attempting alternative method with epubunz.py.")
-            subprocess.run(f"python epubunz.py \"{input_file}\"", shell=True)
+            print("Error detected while splitting EPUB. Error output:")
+            print(result.stderr)
+            print("Attempting alternative method with epubunz.py.")
+            subprocess.run(f"python epubunz.py \"{input_file}\" \"{output_dir}\"", shell=True)
             file_type = 'html'
     elif file_type == 'pdf':
         result = os.system(f"python3 pdf_splitter.py \"{input_file}\"")
