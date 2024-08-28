@@ -10,13 +10,34 @@ import ebooklib
 from ebooklib import epub
 import shutil
 
+def get_title_from_html(filepath):
+    try:
+        with open(filepath, 'r', encoding='utf-8') as file:
+            soup = BeautifulSoup(file, 'html.parser')
+            
+            # Try to get the title from the <title> tag
+            title_tag = soup.find('title')
+            if title_tag and title_tag.string:
+                return title_tag.string.strip()
+            
+            # If no title tag, try to get the first <h1> tag
+            h1_tag = soup.find('h1')
+            if h1_tag and h1_tag.string:
+                return h1_tag.string.strip()
+    except Exception as e:
+        print(f"Error reading HTML file: {e}")
+    
+    # If no title found in HTML, use the filename as backup
+    return os.path.splitext(os.path.basename(filepath))[0]
+
 def epub_to_text(epub_path):
     book = epub.read_epub(epub_path)
-    chapters = []
+    text = []
     for item in book.get_items():
         if item.get_type() == ebooklib.ITEM_DOCUMENT:
-            chapters.append(item.get_content())
-    return b'\n'.join(chapters).decode('utf-8')
+            soup = BeautifulSoup(item.get_content(), 'html.parser')
+            text.append(soup.get_text())
+    return '\n'.join(text)
 
 def html_to_text(html_path):
     with open(html_path, 'r', encoding='utf-8') as file:
@@ -44,7 +65,9 @@ def process_files(directory, file_type):
         filepath = os.path.join(directory, filename)
         if file_type == 'html' and filename.endswith('.html'):
             text = html_to_text(filepath)
-            title = os.path.splitext(filename)[0]
+            title = get_title_from_html(filepath)
+            if title is None:
+                title = os.path.splitext(filename)[0]
         elif file_type == 'epub':
             try:
                 text = epub_to_text(filepath)
