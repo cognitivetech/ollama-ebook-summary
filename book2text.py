@@ -32,12 +32,11 @@ def get_title_from_html(filepath):
 
 def epub_to_text(epub_path):
     book = epub.read_epub(epub_path)
-    text = []
+    chapters = []
     for item in book.get_items():
         if item.get_type() == ebooklib.ITEM_DOCUMENT:
-            soup = BeautifulSoup(item.get_content(), 'html.parser')
-            text.append(soup.get_text())
-    return '\n'.join(text)
+            chapters.append(item.get_content())
+    return b'\n'.join(chapters).decode('utf-8')
 
 def html_to_text(html_path):
     with open(html_path, 'r', encoding='utf-8') as file:
