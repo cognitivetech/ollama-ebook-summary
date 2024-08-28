@@ -12,7 +12,7 @@ def generate_title(api_base, model, clean, ptitle):
             "model": model,
             "prompt": f"```{clean}```\n\n{ptitle}",
             "stream": False
-        }, timeout=10)  # Add a timeout to prevent hanging
+        }, timeout=60)  # Add a timeout to prevent hanging
         response.raise_for_status()  # Raise an exception for bad status codes
         result = response.json()
         if "response" in result:

@@ -21,6 +21,18 @@ from six import string_types, text_type as unicode
 from six import unichr
 
 from bs4 import BeautifulSoup
+import re
+import os
+
+def sanitize_filename(filename):
+    # Remove or replace unsafe characters
+    filename = re.sub(r'[<>:"/\\|?*]', '_', filename)
+    # Trim spaces and periods from the end
+    filename = filename.rstrip('. ')
+    # Ensure the filename isn't empty and doesn't exceed max length
+    filename = filename[:255] or 'untitled'
+    return filename
+
 
 ## font decoding code lifted from
 ## calibre/src/calibre/ebooks/conversion/plugins/epub_input.py
@@ -1310,31 +1322,24 @@ generate an epub with each of the "lines" given included.''')
 
         filecount = 1
         for sectionlist, title in splitslist:
-            outputfile = "%0.4d-%s"%(filecount,options.outputopt)
-
+            if title is None:
+                filename = f"{filecount:04d}-none.epub"
+            else:
+                safe_title = sanitize_filename(title)
+                filename = f"{filecount:04d}-{safe_title}.epub"
+            
             if options.outputdiropt:
                 # Ensure the output directory exists
                 os.makedirs(options.outputdiropt, exist_ok=True)
-                
-                # Construct the filename
-                filename = f"{filecount:04d}-{title.replace(' ', '_')}.epub"
-                
-                # Join the directory and filename
                 outputfile = os.path.join(options.outputdiropt, filename)
             else:
-                # If no output directory specified, use current directory
-                filename = f"{filecount:04d}-{title.replace(' ', '_')}.epub"
                 outputfile = filename
-
+            
             print("output file: " + outputfile)
-            epubO.write_split_epub(outputfile,
-                                   sectionlist,
-                                   authoropts=options.authoropts,
-                                   titleopt=title,
-                                   descopt=options.descopt,
-                                   tags=options.tagopts,
-                                   languages=options.languageopts,
-                                   coverjpgpath=options.coveropt)
+            epubO.write_split_epub(outputfile, sectionlist, authoropts=options.authoropts, 
+                                titleopt=title, descopt=options.descopt, 
+                                tags=options.tagopts, languages=options.languageopts, 
+                                coverjpgpath=options.coveropt)
             filecount+=1
         return
     elif len(args) == 1:
