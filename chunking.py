@@ -53,6 +53,7 @@ def process_csv(input_file):
 
             short_text = ""
             short_title = ""
+            previous_chunk = None
 
             for row in reader:
                 if short_text:
@@ -77,10 +78,37 @@ def process_csv(input_file):
                 elif char_count > 8000:
                     processed_text = preprocess_text(text)
                     chunks = semantic_chunking(processed_text)
-                    for chunk in chunks:
-                        writer.writerow({'Title': title, 'Text': chunk, 'Character Count': len(chunk)})
+                    
+                    for i, chunk in enumerate(chunks):
+                        if i == len(chunks) - 1 and len(chunk) < 2300 and previous_chunk:
+                            # Append the last small chunk to the previous chunk
+                            combined_chunk = previous_chunk['Text'] + " " + chunk
+                            writer.writerow({
+                                'Title': previous_chunk['Title'],
+                                'Text': combined_chunk,
+                                'Character Count': len(combined_chunk)
+                            })
+                            previous_chunk = None
+                        elif i == len(chunks) - 1 and len(chunk) < 2300:
+                            # If it's the last chunk and small, but no previous chunk, write it as is
+                            writer.writerow({'Title': title, 'Text': chunk, 'Character Count': len(chunk)})
+                        else:
+                            # Write the current chunk and update previous_chunk
+                            if previous_chunk:
+                                writer.writerow(previous_chunk)
+                            previous_chunk = {'Title': title, 'Text': chunk, 'Character Count': len(chunk)}
+                    
+                    # Write the last chunk if it wasn't combined
+                    if previous_chunk:
+                        writer.writerow(previous_chunk)
+                        previous_chunk = None
+                    
                     short_text = ""
                     short_title = ""
+
+            # Handle any remaining short text
+            if short_text:
+                writer.writerow({'Title': short_title.rstrip(' | '), 'Text': short_text.strip(), 'Character Count': len(short_text)})
 
 input_csv = sys.argv[1]
 process_csv(input_csv)
