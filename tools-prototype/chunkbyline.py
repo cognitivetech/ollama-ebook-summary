@@ -1,4 +1,3 @@
-# If you have a text file, where each section \ chapter is on a single line, then this will chunk each line, one at a time.
 import os
 import re
 import torch
@@ -22,7 +21,7 @@ def calculate_similarity(sentence1, sentence2, model):
     return similarity
 
 # Function to split text into chunks using dynamic chunking
-def split_text(text, min_chunk_size=6500, max_chunk_size=9200):
+def split_text(text, min_chunk_size=6500, max_chunk_size=7500):
     chunks = []
     current_chunk = ''
 
@@ -40,7 +39,7 @@ def split_text(text, min_chunk_size=6500, max_chunk_size=9200):
 
 # Function to write chunks and their lengths to a CSV file
 def write_to_csv(chunks, output_file):
-    with open(output_file, 'w', newline='') as csvfile:
+    with open(output_file, 'w', newline='', encoding='utf-8') as csvfile:
         fieldnames = ["title", "text", "length"]
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
         writer.writeheader()
@@ -68,13 +67,20 @@ def main():
     model = SentenceTransformer('mixedbread-ai/mxbai-embed-large-v1')
     chunks = []
 
-    with open(input_file, 'r') as f:
+    with open(input_file, 'r', encoding='utf-8') as f:
         for line in f:
             line = line.strip().replace('!', '.')
             line = line.replace('%', ' percent')  # Replace '%' with ' percent'
             line = line.replace('"', '')  # Remove double quotes from the line
             title = extract_title(line)
             line_chunks = split_text(line)
+            
+            # Check if the last chunk is below 2200 characters
+            if len(line_chunks) > 1 and len(line_chunks[-1]) < 2200:
+                # Combine the last two chunks
+                combined_chunk = line_chunks[-2] + ' ' + line_chunks[-1]
+                line_chunks = line_chunks[:-2] + [combined_chunk]
+            
             for chunk in line_chunks:
                 chunks.append({"title": title, "text": chunk, "length": len(chunk)})
 
