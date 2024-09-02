@@ -41,7 +41,7 @@ def semantic_chunking(text, min_chunk_size=6000, max_chunk_size=9200):
     return chunks
 
 def process_csv(input_file):
-    output_file = os.path.splitext(input_file)[0] + '_processed.csv'
+    output_file = os.path.join(os.getcwd(), os.path.splitext(os.path.basename(input_file))[0] + '_processed.csv')
 
     with open(input_file, 'r', encoding='utf-8') as file:
         reader = csv.DictReader(file)
@@ -110,5 +110,13 @@ def process_csv(input_file):
             if short_text:
                 writer.writerow({'Title': short_title.rstrip(' | '), 'Text': short_text.strip(), 'Character Count': len(short_text)})
 
-input_csv = sys.argv[1]
-process_csv(input_csv)
+#input_csv = sys.argv[1]
+#process_csv(input_csv)
+
+# To this:
+if __name__ == '__main__':
+    import sys
+    if len(sys.argv) > 1:
+        input_csv = sys.argv[1]
+        process_csv(input_csv)
+

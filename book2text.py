@@ -9,6 +9,7 @@ from PyPDF2 import PdfReader
 import ebooklib
 from ebooklib import epub
 import shutil
+from chunking import process_csv  # Import process_csv from chunking.py
 
 def get_title_from_html(filepath):
     try:
@@ -59,17 +60,18 @@ def natural_sort_key(s):
 
 def process_files(directory, file_type):
     data = []
+    print(directory)
     files = sorted(os.listdir(directory), key=natural_sort_key)
     for filename in files:
         filepath = os.path.join(directory, filename)
         if file_type == 'html' and filename.endswith('.html'):
             text = html_to_text(filepath)
             title = get_title_from_html(filepath)
-            if title is None:
-                title = os.path.splitext(filename)[0]
         elif file_type == 'epub':
             try:
                 text = epub_to_text(filepath)
+                book = epub.read_epub(filepath)
+                title = book.get_metadata('DC', 'title')[0][0]
             except Exception as e:
                 print(f"Error processing {filename}: {str(e)}")
         elif file_type == 'pdf' and filename.endswith('.pdf'):
@@ -79,12 +81,9 @@ def process_files(directory, file_type):
             continue
 
         text = text.replace('\t', ' ').strip().replace('\n', '\\n')
-        char_count = len(text)
-        if file_type == 'epub':
-            book = epub.read_epub(filepath)
-            title = book.get_metadata('DC', 'title')[0][0]
-        else:
+        if title is None:
             title = os.path.splitext(filename)[0]
+        char_count = len(text)
         data.append([filename, title, text, char_count])
     return data
 
@@ -94,21 +93,15 @@ def save_to_csv(data, output_file):
         writer.writerow(['Filename', 'Title', 'Text', 'Character Count'])
         writer.writerows(data)
 
-def run_chunking_script(csv_file):
-    # Construct the command to run the second script
-    command = f"python chunking.py \"{csv_file}\""
-    # Execute the command
-    subprocess.run(command, shell=True, check=True)
-
 def main(input_file, output_dir, output_csv):
     if os.path.exists(output_dir):
         shutil.rmtree(output_dir)
     os.makedirs(output_dir, exist_ok=True)
 
-    file_type = os.path.splitext(input_file)[1][1:]
+    file_type = os.path.splitext(input_file)[1][1:]  # Remove the dot
+
     if file_type == 'epub':
-        result = subprocess.run(f"python epubsplit.py --split-by-section \"{input_file}\" --output-dir \"{output_dir}\"",
-                                shell=True, text=True, capture_output=True)
+        result = subprocess.run(f"python epubsplit.py --split-by-section \"{input_file}\" --output-dir \"{output_dir}\"", shell=True, text=True, capture_output=True)
         if result.returncode != 0:
             print("Error detected while splitting EPUB. Error output:")
             print(result.stderr)
@@ -124,7 +117,10 @@ def main(input_file, output_dir, output_csv):
     file_data = process_files(output_dir, file_type)
     save_to_csv(file_data, output_csv)
     print(f"CSV file created: {output_csv}")
-    run_chunking_script(output_csv)
+
+    # Now that the CSV is created, we can run the chunking script
+    process_csv(output_csv)
+    print("Chunking process completed.")
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description="Convert books to text and process them.")
@@ -134,6 +130,9 @@ if __name__ == '__main__':
     input_file = args.input_file
     file_name = os.path.splitext(os.path.basename(input_file))[0].replace(" ", "-")
     file_name = re.sub(r'[^\w\-_]', '', file_name)
-    output_dir = f"out/{file_name}/"
-    output_csv = f"out/{file_name}.csv"
+    output_dir = os.path.join(os.getcwd(), f"out/{file_name}/")
+    output_csv = os.path.join(os.getcwd(), f"out/{file_name}.csv")
+    print(output_dir)
+    print(output_csv)
+
     main(input_file, output_dir, output_csv)
