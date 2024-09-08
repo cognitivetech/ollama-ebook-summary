@@ -35,24 +35,62 @@ The main idea of this project is that we don't want to talk to the entire docume
 - [Mistral Instruct Bulleted Notes](https://huggingface.co/collections/cognitivetech/mistral-instruct-bulleted-notes-v02-66b6e2c16196e24d674b1940) - Collection on HuggingFace
 
 ## Instructions
-**Built With**: Python 3.11.9
+### Python Environment
 
-1. `pip install -r requirements.txt`
-2. `python3 book2text.py ebook-name.{epub|pdf}` (2 outputs)
-   - `out/ebook-name.csv` (split by chapter or section)
-   - `out/ebook-name_processed.csv` (chunked)
-3. `python3 sum.py model_name out/ebook-name_processed.csv` (2 outputs)
-   - `ebook-name_processed_sum.md` (rendered markdown)
-   - `ebook-name_processed_sum.csv` (csv with: input text, flattened md output, generation time, output length 
-4. update `sum.py` to change the question and use your favorite non-bulleted-notes model
-   - `python3 sum.py obook_summary out/ebook_name_processed.csv`
+Before starting, ensure you have Python 3.11.9 installed. If not, you can use conda or pyenv to manage Python versions:
 
-### `sum.py`:
-```python
-def process_file(input_file, model):
-    prompt = "Write comprehensive bulleted notes on the provided text."
-    ptitle = "write fewer than 20 words to concisely describe this passage, without prefix or any further explanation"
+**Using conda:**
+1. Install Miniconda from: https://docs.conda.io/en/latest/miniconda.html
+2. Create a new environment: `conda create -n book_summary python=3.11.9`
+3. Activate the environment: `conda activate book_summary`
+
+**Using pyenv:**
+1. Install pyenv: https://github.com/pyenv/pyenv#installation
+2. Install Python 3.11.9: `pyenv install 3.11.9`
+3. Set local version: `pyenv local 3.11.9`
+
+**Install Dependencies**
+
 ```
+pip install -r requirements.txt
+```
+
+### eBook Summary
+**Convert E-book to chunked CSV**
+
+```
+python3 book2text.py ebook-name.{epub|pdf}
+```
+
+This step produces two outputs:
+- `out/ebook-name.csv` (split by chapter or section)
+- `out/ebook-name_processed.csv` (chunked)
+
+**Generate Summary**
+
+```
+python3 sum.py model_name out/ebook-name_processed.csv
+```
+
+This step generates two outputs:
+- `ebook-name_processed_sum.md` (rendered markdown)
+- `ebook-name_processed_sum.csv` (csv with: input text, flattened md output, generation time, output length)
+
+**Customize Summary Generation (Optional)**
+
+_I need to improve the UX here, but for now this is it_
+
+To change the question or use a different model:
+1. Update `sum.py` with your preferred question and model (line 43)
+   ```
+   def process_file(input_file, model):
+      prompt = "Write comprehensive bulleted notes on the provided text."
+      ptitle = "write a fewer than 20 words to concisely describe this passage."
+   ```
+2. Run the following command:
+   ```
+   python3 sum.py obook_summary out/ebook_name_processed.csv
+   ```
 
 ## Models
 You can get these right from ollama.
