@@ -2,10 +2,6 @@
 
 Built With: Python 3.11.9
 
-You can check the [depreciated](depreciated/) walkthroughs and rakings for information on some of my learning process with LLM and how I came to certain decisions.
-
-**\*Note**: This code is a prototype I forked off from when beginning to develop the web app (coming soon). Therefore, its not very polished, it just works! However, I'm continuing to improve the CLI as I use it every day.
-
 ## Bulleted Notes Summaries
 This project creates bulleted notes summaries of books and other long texts, particularly epub and pdf which have ToC metadata available.
 
@@ -14,6 +10,10 @@ When the ebooks contain approrpiate metadata, we are able to easily automate the
 ### Main Idea
 
 The main idea of this project is that we don't want to talk to the entire document at once, but we split it into many small chunks and ask questions to those, for improved granularity of response. We don't want a one page summary of the book, we want a summary of each of the book's subsections. Furthermore, we can ask arbitrary questions to those parts. Asking the same question to every part of the text, rather than one question to the whole thing at once.
+
+You can check the [depreciated walkthroughs and rakings](depreciated/) for information on some of my learning process with LLM and how I came to certain decisions.
+
+**\*Note**: This code is a prototype I forked off from when beginning to develop the web app (coming soon). Therefore, its not very polished, it just works! However, I'm continuing to improve the CLI as I use it every day.
 
 ## Contents
 
