@@ -35,6 +35,8 @@ The main idea of this project is that we don't want to talk to the entire docume
 - [Mistral Instruct Bulleted Notes](https://huggingface.co/collections/cognitivetech/mistral-instruct-bulleted-notes-v02-66b6e2c16196e24d674b1940) - Collection on HuggingFace
 
 ## Instructions
+**Built With**: Python 3.11.9
+
 1. `pip install -r requirements.txt`
 2. `python3 book2text.py ebook-name.{epub|pdf}` (2 outputs)
    - `out/ebook-name.csv` (split by chapter or section)
