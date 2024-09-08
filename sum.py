@@ -95,12 +95,26 @@ def process_file(input_file, model):
             start_time = time.time()
 
             # Run the command for each line
-            response = requests.post(f"{api_base}/generate", json={
-                "model": model,
-                "prompt": f"```{clean}```\n\n{prompt}",
-                "stream": False
-            })
-            output = response.json()["response"].strip()
+            try:
+                response = requests.post(f"{api_base}/generate", json={
+                    "model": model,
+                    "prompt": f"```{clean}```\n\n{prompt}",
+                    "stream": False
+                })
+                response.raise_for_status()  # This will raise an exception for HTTP errors
+                
+                response_json = response.json()
+                if "response" in response_json:
+                    output = response_json["response"].strip()
+                else:
+                    print(f"Unexpected API response format: {response_json}")
+                    output = "Error: Unexpected API response format"
+            except requests.RequestException as e:
+                print(f"Error making request to API: {str(e)}")
+                output = f"Error: {str(e)}"
+            except json.JSONDecodeError:
+                print(f"Error decoding API response: {response.text}")
+                output = "Error: Invalid JSON response from API"
 
             # Record the end time
             end_time = time.time()
