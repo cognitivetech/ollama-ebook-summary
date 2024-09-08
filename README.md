@@ -37,13 +37,13 @@ The main idea of this project is that we don't want to talk to the entire docume
 ## Instructions
 1. `pip install -r requirements.txt`
 2. `python3 book2text.py ebook-name.{epub|pdf}` (2 outputs)
-  - `out/ebook-name.csv` (split by chapter or section)
-  - `out/ebook-name_processed.csv` (chunked)
+   - `out/ebook-name.csv` (split by chapter or section)
+   - `out/ebook-name_processed.csv` (chunked)
 3. `python3 sum.py model_name out/ebook-name_processed.csv` (2 outputs)
-  - `ebook-name_processed_sum.md` (rendered markdown)
-  - `ebook-name_processed_sum.csv` (csv with: input text, flattened md output, generation time, output length 
+   - `ebook-name_processed_sum.md` (rendered markdown)
+   - `ebook-name_processed_sum.csv` (csv with: input text, flattened md output, generation time, output length 
 4. update `sum.py` to change the question and use your favorite non-bulleted-notes model
-  - `python3 sum.py obook_summary out/ebook_name_processed.csv`
+   - `python3 sum.py obook_summary out/ebook_name_processed.csv`
 
 ### `sum.py`:
 ```python
