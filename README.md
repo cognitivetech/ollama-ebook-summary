@@ -4,7 +4,7 @@ Built With: Python 3.11.9
 
 You can check the [depreciated](depreciated/) walkthroughs and rakings for information on some of my learning process with LLM and how I came to certain decisions.
 
-**\*Note**: This code is a prototype I forked off from when beginning to develop the web app (coming soon). Therefore, its not very polished, it just works!
+**\*Note**: This code is a prototype I forked off from when beginning to develop the web app (coming soon). Therefore, its not very polished, it just works! However, I'm continuing to improve the CLI as I use it every day.
 
 ## Bulleted Notes Summaries
 This project creates bulleted notes summaries of books and other long texts, particularly epub and pdf which have ToC metadata available.
@@ -35,12 +35,15 @@ The main idea of this project is that we don't want to talk to the entire docume
 - [Mistral Instruct Bulleted Notes](https://huggingface.co/collections/cognitivetech/mistral-instruct-bulleted-notes-v02-66b6e2c16196e24d674b1940) - Collection on HuggingFace
 
 ## Instructions
-
-1. `pip install requirements.txt`
-2. `python3 book2text.py ebook_name.{epub|pdf}` -> `ebook_name_processed.csv`
-3. `python3 sum.py model_name ebook_name_processed.csv` -> `ebook_name_processed_sum.md`
+1. `pip install -r requirements.txt`
+2. `python3 book2text.py ebook-name.{epub|pdf}` (2 outputs)
+  - `out/ebook-name.csv` (split by chapter or section)
+  - `out/ebook-name_processed.csv` (chunked)
+3. `python3 sum.py model_name out/ebook-name_processed.csv` (2 outputs)
+  - `ebook-name_processed_sum.md` (rendered markdown)
+  - `ebook-name_processed_sum.csv` (csv with: input text, flattened md output, generation time, output length 
 4. update `sum.py` to change the question and use your favorite non-bulleted-notes model
-  - `python3 sum.py obook_summary ebook_name_processed.csv`
+  - `python3 sum.py obook_summary out/ebook_name_processed.csv`
 
 ### `sum.py`:
 ```python
