@@ -1,5 +1,7 @@
 # NOTES
 
+https://paperswithcode.com/paper/detect-order-construct-a-tree-construction
+
 https://github.com/jannisborn/paperscraper
 
 https://github.com/VikParuchuri/marker
