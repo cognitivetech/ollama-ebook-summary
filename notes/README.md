@@ -1,5 +1,6 @@
 # NOTES
 
+https://paperswithcode.com/paper/detect-order-construct-a-tree-construction
 https://github.com/VikParuchuri/marker
 https://github.com/jakespringer/echo-embeddings/blob/master/README.md
 https://huggingface.co/blog/how-to-train-sentence-transformers
