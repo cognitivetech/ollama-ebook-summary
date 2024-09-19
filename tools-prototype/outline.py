@@ -1,26 +1,49 @@
 import os
+import sys
 from PyPDF2 import PdfReader
 
 def check_pdf_outline(pdf_path):
     """
     Check if a PDF file has an outline (table of contents).
-    Returns True if an outline is present, False otherwise.
+    Returns the outline if present, None otherwise.
     """
     try:
         reader = PdfReader(pdf_path)
-        outline = reader.outline  # Changed from 'outlines' to 'outline'
-        if outline:
-            return True
-        else:
-            return False
+        outline = reader.outline
+        return outline if outline else None
     except Exception as e:
         print(f"Error processing {pdf_path}: {e}")
-        return False  # Assuming no outline if an error occurs
+        return None
 
-def main(directory):
+def print_outline_tree(outline, level=0):
     """
-    Check all PDF files in the specified directory for an outline.
-    Print the names of files that do not contain an outline.
+    Recursively print the outline as a tree structure with indentation for levels.
+    """
+    if isinstance(outline, list):
+        for item in outline:
+            print_outline_tree(item, level)
+    elif isinstance(outline, dict):
+        prefix = "  " * level + ("└─ " if level > 0 else "")
+        print(f"{prefix}{outline.get('/Title', 'Untitled')}")
+        if '/First' in outline:
+            print_outline_tree(outline['/First'], level + 1)
+    if isinstance(outline, dict) and '/Next' in outline:
+        print_outline_tree(outline['/Next'], level)
+
+def process_single_pdf(pdf_path):
+    """
+    Process a single PDF file, checking for an outline and printing it if present.
+    """
+    outline = check_pdf_outline(pdf_path)
+    if outline:
+        print(f"{pdf_path} has the following outline structure:")
+        print_outline_tree(outline)
+    else:
+        print(f"{pdf_path} does not have an outline.")
+
+def process_directory(directory):
+    """
+    Process all PDF files in the specified directory, checking for outlines.
     """
     pdf_files = [f for f in os.listdir(directory) if f.endswith('.pdf')]
     no_outline_files = []
@@ -37,6 +60,19 @@ def main(directory):
     else:
         print("All PDF files have an outline.")
 
+def main():
+    if len(sys.argv) != 2:
+        print("Usage: python script.py <pdf_file_or_directory>")
+        sys.exit(1)
+
+    path = sys.argv[1]
+    if os.path.isdir(path):
+        process_directory(path)
+    elif os.path.isfile(path) and path.lower().endswith('.pdf'):
+        process_single_pdf(path)
+    else:
+        print("The provided path is neither a directory nor a PDF file.")
+        sys.exit(1)
+
 if __name__ == '__main__':
-    directory = input("Enter the directory path containing PDF files: ")
-    main(directory)
+    main()
