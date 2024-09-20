@@ -45,6 +45,10 @@ Before starting, ensure you have Python 3.11.9 installed. If not, you can use co
 ```
 pip install -r requirements.txt
 ```
+- [Install Ollama](https://github.com/ollama/ollama?tab=readme-ov-file#ollama)
+  - `ollama pull cognitivetech/obook_summary:q5_k_m` (download summary fine-tune)
+  - `ollama pull cognitivetech/obook_title:q3_k_m`
+    - for your convenience Mistral 7b 0.3 is packaged with the necessary propmt for title creation, feel free to move [this prompt](#title-prompt) to the template of your favorite local model.
 
 ### eBook Summary
 **Convert E-book to chunked CSV**
@@ -58,9 +62,9 @@ This step produces two outputs:
 - `out/ebook-name_processed.csv` (chunked)
 
 **Generate Summary**
-
+I've put the q5 model assuming you pulled exactly as the directions stated, otherwise feel free to use the version you prefer. 
 ```
-python3 sum.py model_name out/ebook-name_processed.csv
+python3 sum.py cognitivetech/obook_summary:q5_k_m out/ebook-name_processed.csv
 ```
 
 This step generates two outputs:
@@ -78,9 +82,9 @@ To change the question or use a different model:
       prompt = "Write comprehensive bulleted notes on the provided text."
       ptitle = "write a fewer than 20 words to concisely describe this passage."
    ```
-2. Run the following command:
+2. Run the following command (substitute llama3 with your favorite):
    ```
-   python3 sum.py obook_summary out/ebook_name_processed.csv
+   python3 sum.py llama3 out/ebook_name_processed.csv
    ```
 
 ## Models
