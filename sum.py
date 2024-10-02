@@ -51,8 +51,11 @@ def process_file(input_file, model):
     filename = os.path.basename(input_file)
     filename_no_ext, _ = os.path.splitext(filename)
 
+    # Sanitize the model name to be valid filename char
+    sanitized_model = re.sub(r'[\\/:"*?<>|]+', "_", model)
+
     # Markdown file
-    markdown_file = f"{filename_no_ext}_{model}.md"
+    markdown_file = f"{filename_no_ext}_{sanitized_model}.md"
     with open(markdown_file, "w") as f:
         f.write(f"# {filename_no_ext}\n\n")
         f.write(f"{prompt}\n\n")
