@@ -75,8 +75,8 @@ def make_api_request(api_base: str, endpoint: str, payload: Dict[str, Any]) -> O
 
 def sanitize_text(text: str) -> str:
     """Sanitize the input text by replacing unwanted characters."""
-    text = re.sub(r'!', '.', text)
-    text = re.sub(r'%', ' percent', text)
+    #text = re.sub(r'!', '.', text)
+    #text = re.sub(r'%', ' percent', text)
     return text.strip()
 
 # -----------------------------
