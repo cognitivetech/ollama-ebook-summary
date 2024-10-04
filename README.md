@@ -1,8 +1,8 @@
 # Bulleted Notes Book Summaries
 
-Built With: Python 3.11.9
+_Built With: Python 3.11.9_
 
-## Bulleted Notes Summaries
+## Introduction
 This project creates bulleted notes summaries of books and other long texts, particularly epub and pdf which have ToC metadata available.
 
 When the ebooks contain approrpiate metadata, we are able to easily automate the extraction of chapters from most books, and splits them into ~2000 token chunks, with fallbacks in the case your document doesn't have that.
