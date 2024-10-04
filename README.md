@@ -62,6 +62,7 @@ pip install -r requirements.txt
 ### Download Models
 
 1. **Download a copy of Mistral Instruct v0.2 Bulleted Notes Fine-Tune**
+
 `ollama pull cognitivetech/obook_summary:q5_k_m`
 
 2. **Set up a title model**
