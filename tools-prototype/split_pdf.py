@@ -81,8 +81,11 @@ def extract_pdf_to_csv_and_images(pdf_path):
     else:
         print("No outline found in the PDF. Proceeding with page-based splitting only.")
 
+
     def replace_quotes(text):
-        return re.sub(r'"', '"', text)
+        text = re.sub(r'""', '“', text)
+        text = re.sub(r'"', '“', text)
+        return text
 
     # Open the CSV file for writing
     try:
@@ -170,7 +173,7 @@ def replace_quotes(text):
 
 def main():
     if len(sys.argv) != 2:
-        print("Usage: python enhanced_split_pdf.py <path_to_pdf>")
+        print("Usage: python split_pdf.py <path_to_pdf>")
         sys.exit(1)
 
     pdf_path = sys.argv[1]

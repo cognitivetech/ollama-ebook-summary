@@ -262,7 +262,7 @@ def process_text_input(input_file: str, config: Config, api_base: str, model: st
 def display_help():
     """Display help message."""
     help_message = """
-    Usage: python enhanced_sum.py [OPTIONS] input_file
+    Usage: python sum.py [OPTIONS] input_file
 
     Options:
     -c, --csv        Process a CSV file. Expected columns: Title, Text
@@ -275,7 +275,7 @@ def display_help():
     - Ensure your CSV has 'Title' and 'Text' columns.
 
     For Text input:
-    - Each line should be a chunk of text surrounded by parentheses.
+    - Each line should be a chunk of text surrounded by double quote.
 
     The output CSV will include:
     - Title: Final title chosen or generated

@@ -22,16 +22,25 @@ Similar to Retrieval Augmented Generation (RAG), we split the document into many
 Its very important towards unlocking the full capabilities of LLM without relying on a multitude of 3rd party apps.
 
 ## Contents
-
-- [Instructions](#instructions)
+- [Setup](#setup)
+  - [Python Environment](#python-environment)
+  - [Install Dependencies](#install-dependencies)
+  - [Download Models](#download-models)
+  - [Change model names](#change-model-names)
+  - [Update Config File `_config.yaml`](#update-config-file-_configyaml)
+- [Usage](#usage)
+  - [Convert E-book to chunked CSV or TXT](#convert-e-book-to-chunked-csv-or-txt)
+  - [Generate Summary](#generate-summary)
 - [Models](#models)
-  - [Modelfiles](#modelfiles)
+  - [Ollama](#ollama)
+  - [HuggingFace](#huggingface)
 - [Check your eBook for clickable ToC](#check-your-ebook-for-clickable-toc)
+  - [Firefox](#firefox)
+  - [Brave](#brave)
 - [Disclaimer](#disclaimer)
-- [Other Use Cases](#other-use-cases)
 - [Inspiration](#inspiration)
 
-## Instructions
+## Setup
 ### Python Environment
 
 Before starting, ensure you have Python 3.11.9 installed. If not, you can use conda or pyenv to manage Python versions:
@@ -46,63 +55,153 @@ Before starting, ensure you have Python 3.11.9 installed. If not, you can use co
 2. Install Python 3.11.9: `pyenv install 3.11.9`
 3. Set local version: `pyenv local 3.11.9`
 
-**Install Dependencies**
-
+### Install Dependencies
 ```
 pip install -r requirements.txt
 ```
 - [Install Ollama](https://github.com/ollama/ollama?tab=readme-ov-file#ollama)
-  - `ollama pull cognitivetech/obook_summary:q5_k_m` (download summary fine-tune)
-  - `ollama pull cognitivetech/obook_title:q3_k_m`
-    - for your convenience Mistral 7b 0.3 is packaged with the necessary propmt for title creation, feel free to move [this prompt](#title-prompt) to the template of your favorite local model.
 
-### eBook Summary
-**Convert E-book to chunked CSV**
+### Download Models
+
+1. **Download a copy of Mistral Instruct v0.2 Bulleted Notes Fine-Tune**
+`ollama pull cognitivetech/obook_summary:q5_k_m`
+
+2. **Set up a title model**
+
+a) *Download a preconfigured model*
+
+`ollama pull cognitivetech/obook_title:q3_k_m`
+
+For your convenience Mistral 7b 0.3 is packaged with the necessary message history for title creation. 
+
+***or***
+
+b) *Append this* [message history](Modelfile) *to the Modelfile of your choice *
+
+### Change model names
 
 ```
-python3 book2text.py ebook-name.{epub|pdf}
+ollama cp cognitivetech/obook_summary:q5_k_m mbn;
+ollama rm cognitivetech/obook_summary:q5_k_m;
+ollama cp cognitivetech/obook_title:q3_k_m mtitle;
+ollama rm cognitivetech/obook_title:q3_k_m;
+```
+I have you change the model name manually, otherwise the special characters will mess up the script.
+
+I'm working on a setup script to automate that, but... Its not quite ready.
+
+### Update Config File `_config.yaml`
+
+Ensure the defaults are set accordingly 
+
+```yaml
+defaults:
+  prompt: bnotes # default prompt
+  summary: mbn   # default model for summary
+  title: mtitle  # default model for title generation
+prompts:
+  bnotes: # Only this prompt should go into the summary fine-tune. 
+    prompt: Write comprehensive bulleted notes summarizing the provided text, with
+      headings and terms in bold.
+  clean:  # Other prompts from here forward go into a general purpose model
+    prompt: Repeat back this text exactly, remove only garbage characters that do
+      not contribute to the flow of text. Output only the main text content, condensed
+      onto a single line. If you encounter any chapter boundaries or subheadings,
+      start a new line beginning with its title.
+  concise:
+    prompt: Repeat the provided passage, with Concision.
+  md:
+    prompt: 'Print these notes in proper markdown format, with headings marked as
+      bold with double asterisks and terms in bold also, and bullet points as `-`.
+      Print the notes exactly, word-for-word, do not elaborate, do not add headings
+      with #'
+  research:
+    prompt: Does this text make any arguments? If so, list them here.
+  sum:
+    prompt: Comprehensive bulleted notes with headings and terms in bold.
+  teacher:
+    prompt: 'Write a list of questions that can be answered by 3rd graders who are
+      reading the provided text. Topics we like to focus on include: Main idea, supporting
+      details, Point of view, Theme, Sequence, Elements of fiction (setting, characters,
+      BME)'
+title_generation:
+  prompt: Write a title with fewer than 11 words to concisely describe this selection.
 ```
 
-This step produces two outputs:
-- `out/ebook-name.csv` (split by chapter or section)
-- `out/ebook-name_processed.csv` (chunked)
+## Usage 
+### Convert E-book to chunked CSV or TXT
 
-**Generate Summary**
-I've put the q5 model assuming you pulled exactly as the directions stated, otherwise feel free to use the version you prefer. 
-```
-python3 sum.py cognitivetech/obook_summary:q5_k_m out/ebook-name_processed.csv
+1. Use automated script to split your `pdf` or `epub`.
+```bash
+python3 book2text.py ebook-name.epub # or ebook-name.pdf (Epub is preferred)
 ```
 
-This step generates two outputs:
-- `ebook-name_processed_sum.md` (rendered markdown)
-- `ebook-name_processed_sum.csv` (csv with: input text, flattened md output, generation time, output length)
+**This step produces two outputs**:
+a) `out/ebook-name.csv` (split by chapter or section)\
+b) `out/ebook-name_processed.csv` (chunked)
 
-**Customize Summary Generation (Optional)**
+***or***
 
-_I need to improve the UX here, but for now this is it_
+2. Place each chunk compressed to a single line of a text file, surrounded by double quotes.
 
-To change the question or use a different model:
-1. Update `sum.py` with your preferred question and model (line 43)
-   ```
-   def process_file(input_file, model):
-      prompt = "Write comprehensive bulleted notes on the provided text."
-      ptitle = "write a fewer than 20 words to concisely describe this passage."
-   ```
-2. Run the following command (substitute llama3 with your favorite):
-   ```
-   python3 sum.py llama3 out/ebook_name_processed.csv
-   ```
+### Generate Summary
+
+5. **This is what the help message would read** (if that worked right now)
+
+`$``python3 sum.py --help`
+
+```bash
+Usage: python sum.py [OPTIONS] input_file
+
+Options:
+-c, --csv        Process a CSV file. Expected columns: Title, Text
+-t, --txt        Process a text file. Each line should be a separate text chunk.
+-m, --model      Model name to use for generation (default from config)
+-p, --prompt     Alias of the prompt to use from config (default from config)
+--help           Show this help message and exit.
+
+For CSV input:
+- Ensure your CSV has 'Title' and 'Text' columns.
+
+For Text input:
+- Each line should be a chunk of text surrounded by double quote.
+
+The output CSV will include:
+- Title: Final title chosen or generated
+- Gen: Boolean indicating if the title was generated
+- Text: Original input text
+- model_name: Generated output
+- Time: Processing time in seconds
+- Len: Length of the output
+```    
+
+If you have your defaults set, then all you need is to specify which type of input, manual `text`, or automated `csv`.
+```
+python3 sum.py -c ebook-name_processed.csv
+```
+
+***or*** 
+
+In the following example, I've used `tools-prototype/split_pdf.py` to split the pdf not only by chapter but also subsection (producing `ebook-name_extracted.csv`), then manually process that output.
+
+```
+python3 sum.py -t ebook-name_extracted.csv
+```
+
+**This step generates two outputs**:
+- `ebook-name_extracted_processed_sum.md` (rendered markdown)
+- `ebook-name_extracted_processed_sum.csv` (csv with: input text, flattened md output, generation time, output length)
+
 
 ## Models
 Download from one of two sources:
 
 ### Ollama
-You can get them right from ollama, template in all.
+You can get any of them them right from ollama, template in all.
 example: `ollama pull obook_summary:q5_k_m`
 
 - [obook_summary](https://ollama.com/cognitivetech/obook_summary) - On Ollama.com
   - `latest` • 7.7GB • Q_8
-  - `q2_k` • 2.7GB 
   - `q3_k_m` • 3.5GB
   - `q4_k_m` • 4.4GB
   - `q5_k_m` • 5.1GB
@@ -121,38 +220,11 @@ There is also complete weights, lora and ggguf on huggingface
   - [cognitivetech/Mistral-7b-Inst-0.2-Bulleted-Notes_GGUF](https://huggingface.co/cognitivetech/cognitivetech/Mistral-7b-Inst-0.2-Bulleted-Notes_GGUF)
   - [cognitivetech/Mistral-7B-Inst-0.2_Bulleted-Notes_LoRA](https://huggingface.co/cognitivetech/cognitivetech/Mistral-7B-Inst-0.2_Bulleted-Notes_LoRA)
 
-### Modelfiles
-#### Mistral Bulleted Notes
-
-```
-FROM cognitivetech/obook_summary:q4_k_m
-TEMPLATE """
-<|im_start|>system
-<|im_start|>user
-{{ .Prompt }} <|im_end|>
-<|im_start|>assistant
-{{ .Response }}<|im_end|>
-"""
-PARAMETER num_ctx 8000
-PARAMETER num_gpu -1
-PARAMETER num_predict 4000
-PARAMETER stop <|im_start|>
-PARAMETER stop <|im_end|>
-```
-
-#### Title Prompt
-You can see I'm generating titles with mistral 7b instruct 0.3. You may have another model preferred for the task, simply adapt this template to whichever model you prefer.
-```
-FROM mistral:7b-instruct-v0.3-q6_K
-TEMPLATE """<s>[INST]```This new understanding of the multifaceted roles of the cranial nerves, and particularly their connection with the state of social engagement, enabled me to consistently help more people with an even wider range of health issues. All I had to do was to determine whether these five cranial nerves functioned well and, if not, to use a technique to get them to function better. This made it possible for me to achieve far greater success in my practice and to treat intransigent conditions such as migraine headaches, depression, fibromyalgia, COPD, post-traumatic stress, forward head posture, and neck and shoulder problems, among others. This book is an introduction to the theory and practice of Polyvagal healing. After describing basic neurological structures, I will list some of the physical, psychological, and social issues caused by dysfunctions of those five cranial nerves. According to the Polyvagal Theory, the autonomic nervous system has two other functions in addition to those of the ventral branch of the vagus nerve: the activity of the dorsal branch of the vagus nerve, and sympathetic activity from the spinal chain. This multiple (poly-) nature of the vagus nerve gives the theory its name. The differences between the functions of the ventral and dorsal branches of the vagus nerve have profound implications for physical and behavioral health and healing. Throughout the book, I propose a new approach to healing that includes self-help exercises and hands-on therapeutic techniques that are simple to learn and easy to use. It is my hope that this knowledge will continue to spread and enable many more people to help themselves and others. RESTORING SOCIAL ENGAGEMENT I have written this book to make the benefits of restoring vagal function available to a broad range of people, even if they have no prior experience with craniosacral or other forms of hands-on therapy. Readers can acquire a unique set of easy-to-learn and easy-to-do self-help exercises and hands-on techniques that should enable them to improve the function of these five nerves in themselves and others. I used the principles behind Alain Gehin's work to develop these techniques. The exercises and techniques restore flexibility to the functioning of the autonomic nervous system. They can help eliminate the general adverse conditions of chronic stress, which arises from the overstimulation of the spinal sympathetic chain, and depressive behavior and shut-down, which arise from activity in the dorsal vagal circuit. The exercises are noninvasive and do not involve medicine or surgery.``` \nThe content between backticks is a subsection of a book-chapter, write a short title. Write only a single title without prefix or explanation.[/INST]Restoring Autonomic Balance Through Cranial Nerve Techniques</s>[INST] {{ .Prompt }} [/INST]"""
-PARAMETER num_ctx 8000
-PARAMETER num_predict 4000
-PARAMETER num_gpu -1
-```
-
 ## Check your eBook for clickable ToC.
 
 Here you can see how to check whethere your eBook as the proper formatting, or not. **With ePub it should fail gracefully**.
+
+\* In some rare occasion, even with clickable toc the script will not find that.
 
 ### Firefox
 ![image](https://github.com/user-attachments/assets/fc618e8c-d3e7-4bbd-aa16-1830fdc75b12)
@@ -166,7 +238,7 @@ You are responsible for verifying that the summary tool creates an accurate summ
 
 **1. References:**
 
-Personally, I don't trust references from an AI model without verifying them manually. Maybe this is solved in newer models, but during my testing phase I noticed some bad references with 7b models I was using. I never tested this out to see the quality of the app on references, my personal preference is to remove any long references sections before summarizing, and deal with those separate. I don't think this is a permenant blocker, just an area that I haven't fully dealt with or understood, yet.
+Personally, I don't trust references from my fine-tuned model without verifying them manually. Maybe this is solved in newer models, but during my testing phase I noticed some bad references with 7b models I was using. I never tested this out to see the quality of the app on references, my personal preference is to remove any long references sections before summarizing, and deal with those separate. I don't think this is a permenant blocker, just an area that I haven't fully dealt with or understood, yet.
 
 **2. Other:**
 
@@ -176,14 +248,6 @@ One of the reasons I keep the length of the input and output on CSV is that make
 
 when the structure of the summary greatly deviates from the others, this can indicate issues with the summary. Some of these can be realated to special characters, or if the input is too long and the AI just doesn't grasp it all.
 
-## Other Use Cases
-
-### Arbitrary Query
-Once the book is split into chunks, that our llm can reason around, we create a bulleted note summary of each chunk. The end result is a markdown document, the contents of which, even for a book 1000 pages, can be reviewed over a couple hours.
-
-Furthermore, once chunked, arbitrary questions can be asked to the document, such as "What questions does this text answer?".\* This is very valuable in research when I want to review many research papers quickly, I can ask "what arguments does this text make?" and get directly to the point of the study.
-
-Once I have run this app on a hundred or so papers then I can quickly filter those which aren't useful to me.
 
 ## Inspiration
 
