@@ -13,8 +13,6 @@ The main idea of this project is that we don't want to talk to the entire docume
 
 You can check the [depreciated walkthroughs and rakings](depreciated/) for information on some of my learning process with LLM and how I came to certain decisions.
 
-**\*Note**: This code is a prototype I forked off from when beginning to develop the web app (coming soon). Therefore, its not very polished, it just works! However, I'm continuing to improve the CLI as I use it every day.
-
 ### Comparison with RAG
 
 Similar to Retrieval Augmented Generation (RAG), we split the document into many parts, so they fit into the context. The difference is that RAG systems try to determine what is the best chunk to ask their question to. Instead, we ask the same questions to *every part of the document*.
