@@ -102,7 +102,7 @@ def get_unique_title(original_title: str, clean_text: str, used_titles: set, api
         return original_title, False
 
     for _ in range(5):
-        generated_title = generate_title(api_base, config.defaults.get('title_model', 'DEFAULT_TITLE_MODEL'), clean_text, title_prompt, config)
+        generated_title = generate_title(api_base, config.defaults.get('title', 'DEFAULT_TITLE_MODEL'), clean_text, title_prompt, config)
         if generated_title and generated_title not in used_titles:
             used_titles.add(generated_title)
             return generated_title, True
@@ -205,8 +205,8 @@ def process_csv_input(input_file: str, config: Config, api_base: str, model: str
 
             with open(markdown_file, "a", encoding='utf-8') as md_out:
                 for row in reader:
-                    original_title = row.get("title", "").strip()
-                    text = row.get("text", "").strip()
+                    original_title = row.get("Title", "").strip()
+                    text = row.get("Text", "").strip()
                     clean = sanitize_text(text)
 
                     unique_title, was_generated, output, elapsed_time, size = process_entry(clean, original_title, config, used_titles, api_base, model, prompt_alias, ptitle)
