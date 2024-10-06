@@ -1,3 +1,6 @@
 [submodule "Psychology-Book-Summaries"]
 	path = Psychology-Book-Summaries
 	url = https://github.com/cognitivetech/Psychology-Book-Summaries
+[submodule "llm-research-summaries"]
+	path = llm-research-summaries
+	url = https://github.com/cognitivetech/llm-research-summaries
