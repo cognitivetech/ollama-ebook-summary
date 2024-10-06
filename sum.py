@@ -237,7 +237,7 @@ def process_text_input(input_file: str, config: Config, api_base: str, model: st
 
                     # Remove the title and the '+' from the text
                     title_pattern = re.escape(unique_title)
-                    title_plus_pattern = f'(?:"{title_pattern}"|{title_pattern})\s*\+\s*'
+                    title_plus_pattern = f'(?:"{title_pattern}"|{title_pattern})\\s*\\+\\s*'
                     clean_text = re.sub(f'^{title_plus_pattern}', '', clean, count=1).strip()
 
                     prompt = config.get_prompt(prompt_alias)
