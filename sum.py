@@ -125,11 +125,10 @@ def bold_text_before_colon(text: str) -> str:
 # -----------------------------
 # Output Writing
 # -----------------------------
-
-def write_markdown_header(md_out, filename_no_ext: str, model: str, api_base: str):
+def write_markdown_header(md_out, filename_no_ext: str, model: str, sanitized_model: str, api_base: str):
     """Write the initial headers and model information to the Markdown file."""
     md_out.write(f"# {filename_no_ext}\n\n")
-    md_out.write(f"## {model}\n\n")
+    md_out.write(f"## {model}\n\n")  # Use the original model name for display
     
     payload = {"name": model}
     model_info = make_api_request(api_base, "show", payload)
@@ -192,6 +191,13 @@ def process_entry(clean_text: str, title: str, config: Config, used_titles: set,
     size = len(output)
     
     return unique_title, was_generated, output, elapsed_time, size
+
+def sanitize_model_name(model: str) -> str:
+    # Truncate everything before '/' if present
+    model = model.split('/')[-1]
+    # Remove special characters without replacement, except '_'
+    return re.sub(r'[^a-zA-Z0-9_]+', '', model)
+
 
 def process_csv_input(input_file: str, config: Config, api_base: str, model: str, prompt_alias: str, ptitle: str, markdown_file: str, csv_file: str):
     """Process CSV input files."""
@@ -324,11 +330,12 @@ def main():
 
     filename = os.path.basename(input_file)
     filename_no_ext, _ = os.path.splitext(filename)
-    markdown_file = f"{filename_no_ext}_{model}.md"
-    csv_file = f"{filename_no_ext}_{model}.csv"
+    sanitized_model = sanitize_model_name(model)
+    markdown_file = f"{filename_no_ext}_{sanitized_model}.md"
+    csv_file = f"{filename_no_ext}_{sanitized_model}.csv"
 
     with open(markdown_file, "w", encoding='utf-8') as md_out:
-        write_markdown_header(md_out, filename_no_ext, model, api_base)
+        write_markdown_header(md_out, filename_no_ext, model, sanitized_model, api_base)
 
     if processing_mode == 'csv':
         process_csv_input(input_file, config, api_base, model, prompt_alias, ptitle, markdown_file, csv_file)
