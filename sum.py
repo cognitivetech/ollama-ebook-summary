@@ -299,12 +299,8 @@ def display_help():
 
 def main():
     config = Config()
-
     parser = argparse.ArgumentParser(description="Process and summarize text or CSV files using a specified model.", add_help=False)
-    
-    # Positional Arguments
-    parser.add_argument('input_file', help='Input file path')
-    
+
     # Optional Arguments
     parser.add_argument('-m', '--model', default=config.defaults.get('summary', 'DEFAULT_SUMMARY_MODEL'), help='Model name to use for generation')
     parser.add_argument('-c', '--csv', action='store_true', help='Process a CSV file')
@@ -312,11 +308,18 @@ def main():
     parser.add_argument('--help', action='store_true', help='Show help message and exit')
     parser.add_argument('-p', '--prompt', default=config.defaults.get('prompt', 'DEFAULT_PROMPT_ALIAS'), help='Alias of the prompt to use from config')
 
+    # Make input_file optional
+    parser.add_argument('input_file', nargs='?', help='Input file path')
+
     args = parser.parse_args()
 
     if args.help:
         display_help()
         sys.exit(0)
+
+    # Check if input_file is provided when not using --help
+    if not args.input_file:
+        handle_error("Error: Input file is required when not using --help.")
 
     if not (args.csv ^ args.txt):
         handle_error("Error: You must specify either --csv or --txt.")
