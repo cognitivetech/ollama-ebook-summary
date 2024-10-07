@@ -77,18 +77,6 @@ For your convenience Mistral 7b 0.3 is packaged with the necessary message histo
 
 b) *Append this* [message history](Modelfile) *to the Modelfile of your choice *
 
-### Change model names
-
-```
-ollama cp cognitivetech/obook_summary:q5_k_m mbn;
-ollama rm cognitivetech/obook_summary:q5_k_m;
-ollama cp cognitivetech/obook_title:q3_k_m mtitle;
-ollama rm cognitivetech/obook_title:q3_k_m;
-```
-I have you change the model name manually, otherwise the special characters will mess up the script.
-
-I'm working on a setup script to automate that, but... Its not quite ready.
-
 ### Update Config File `_config.yaml`
 
 Ensure the defaults are set accordingly 
@@ -96,8 +84,8 @@ Ensure the defaults are set accordingly
 ```yaml
 defaults:
   prompt: bnotes # default prompt
-  summary: mbn   # default model for summary
-  title: mtitle  # default model for title generation
+  summary: cognitivetech/obook_summary:q5_k_m   # default model for summary
+  title: cognitivetech/obook_title:q3_k_m  # default model for title generation
 prompts:
   bnotes: # Only this prompt should go into the summary fine-tune. 
     prompt: Write comprehensive bulleted notes summarizing the provided text, with
