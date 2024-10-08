@@ -211,8 +211,8 @@ def process_csv_input(input_file: str, config: Config, api_base: str, model: str
 
             with open(markdown_file, "a", encoding='utf-8') as md_out:
                 for row in reader:
-                    original_title = row.get("Title", "").strip()
-                    text = row.get("Text", "").strip()
+                    original_title = next((row[key] for key in row if key.lower() == "title"), "").strip()
+                    text = next((row[key] for key in row if key.lower() == "text"), "").strip()
                     clean = sanitize_text(text)
 
                     unique_title, was_generated, output, elapsed_time, size = process_entry(clean, original_title, config, used_titles, api_base, model, prompt_alias, ptitle)
