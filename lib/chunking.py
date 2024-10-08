@@ -69,7 +69,7 @@ def process_csv(input_file):
 
                 if char_count < 2300:
                     short_text += text + " "
-                    short_title += title + " | "
+                    short_title += title + " - "
                 elif char_count < 8000:
                     processed_text = preprocess_text(text)
                     writer.writerow({'Title': title, 'Text': processed_text, 'Character Count': len(processed_text)})

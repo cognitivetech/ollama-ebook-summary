@@ -9,7 +9,7 @@ from PyPDF2 import PdfReader
 import ebooklib
 from ebooklib import epub
 import shutil
-from chunking import process_csv  # Import process_csv from chunking.py
+from lib.chunking import process_csv  # Import process_csv from chunking.py
 
 def get_title_from_html(filepath):
     try:
@@ -101,15 +101,15 @@ def main(input_file, output_dir, output_csv):
     file_type = os.path.splitext(input_file)[1][1:]  # Remove the dot
 
     if file_type == 'epub':
-        result = subprocess.run(f"python epubsplit.py --split-by-section \"{input_file}\" --output-dir \"{output_dir}\"", shell=True, text=True, capture_output=True)
+        result = subprocess.run(f"python lib/epubsplit.py --split-by-section \"{input_file}\" --output-dir \"{output_dir}\"", shell=True, text=True, capture_output=True)
         if result.returncode != 0:
             print("Error detected while splitting EPUB. Error output:")
             print(result.stderr)
             print("Attempting alternative method with epubunz.py.")
-            subprocess.run(f"python epubunz.py \"{input_file}\" \"{output_dir}\"", shell=True)
+            subprocess.run(f"python lib/epubunz.py \"{input_file}\" \"{output_dir}\"", shell=True)
             file_type = 'html'
     elif file_type == 'pdf':
-        result = os.system(f"python3 pdf_splitter.py \"{input_file}\"")
+        result = os.system(f"python3 lib/pdf_splitter.py \"{input_file}\"")
     else:
         print("Unsupported file type. Please provide an EPUB or PDF file.")
         sys.exit(1)
