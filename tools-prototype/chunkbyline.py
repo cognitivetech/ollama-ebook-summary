@@ -24,7 +24,7 @@ def calculate_similarity(sentence1, sentence2, model):
     return similarity
 
 # Function to split text into chunks using dynamic chunking
-def split_text(text, min_chunk_size=6500, max_chunk_size=7500):
+def split_text(text, min_chunk_size, max_chunk_size):
     chunks = []
     current_chunk = ''
 
@@ -124,10 +124,15 @@ def main():
     parser = argparse.ArgumentParser(description="Process text or Markdown file and output chunks with their lengths.")
     parser.add_argument('input_file', type=str, help='Path to the input text or Markdown file')
     parser.add_argument('--md', type=int, default=3, help='Markdown heading level to split on (default: 3)')
+    parser.add_argument('--raw', action='store_true', help='Process the entire file as raw text and chunk it')
+    parser.add_argument('-m', '--min', type=int, default=6500, help='Minimum chunk size (default: 6500)')
+    parser.add_argument('-x', '--max', type=int, default=7500, help='Maximum chunk size (default: 7500)')
     args = parser.parse_args()
 
     input_file = args.input_file
     md_level = args.md
+    min_chunk_size = args.min
+    max_chunk_size = args.max
     output_file = os.path.join(os.getcwd(), os.path.splitext(os.path.basename(input_file))[0] + '_chunkd2.csv')
 
     # Initialize the sentence transformer model
@@ -137,32 +142,54 @@ def main():
     with open(input_file, 'r', encoding='utf-8') as f:
         lines = f.readlines()
 
-    # Determine if the file is Markdown based on file extension
-    if input_file.lower().endswith('.md'):
-        # Process Markdown
-        title_content_pairs = process_markdown(lines, md_level)
+    if args.raw:
+        # Process the entire file as a single continuous block of text
+        content = ' '.join([line.strip() for line in lines])
+        content = preprocess(content)
+
+        # Split the raw content into chunks
+        line_chunks = split_text(content, min_chunk_size, max_chunk_size)
+
+        for idx, chunk in enumerate(line_chunks, start=1):
+            chunks.append({
+                "title": f"Raw Chunk {idx}",
+                "text": chunk,
+                "length": len(chunk)
+            })
     else:
-        # Process as plain text, treating each line as a separate entry
-        title_content_pairs = []
-        for line in lines:
-            line = line.strip().replace('!', '.')
-            line = line.replace('%', ' percent')  # Replace '%' with ' percent'
-            line = line.replace('"', '')  # Remove double quotes from the line
-            title = extract_title(line)
-            title_content_pairs.append((title, line))
+        # Determine if the file is Markdown based on file extension
+        if input_file.lower().endswith('.md'):
+            # Process Markdown
+            title_content_pairs = process_markdown(lines, md_level)
+        else:
+            # Process as plain text, treating each line as a separate entry
+            title_content_pairs = []
+            for line in lines:
+                line = line.strip().replace('!', '.')
+                line = line.replace('%', ' percent')  # Replace '%' with ' percent'
+                line = line.replace('"', '')  # Remove double quotes from the line
+                title = extract_title(line)
+                title_content_pairs.append((title, line))
 
-    for title, content in title_content_pairs:
-        # Split the content into chunks
-        line_chunks = split_text(content)
+        for title, content in title_content_pairs:
+            # Preprocess the content
+            content = preprocess(content)
 
-        # Check if the last chunk is below 2200 characters
-        if len(line_chunks) > 1 and len(line_chunks[-1]) < 2200:
-            # Combine the last two chunks
-            combined_chunk = line_chunks[-2] + ' ' + line_chunks[-1]
-            line_chunks = line_chunks[:-2] + [combined_chunk]
+            # Split the content into chunks
+            line_chunks = split_text(content, min_chunk_size, max_chunk_size)
 
-        for chunk in line_chunks:
-            chunks.append({"title": preprocess(title), "text": preprocess(chunk), "length": len(chunk)})
+            # Check if the last chunk is below 2200 characters
+            if len(line_chunks) > 1 and len(line_chunks[-1]) < 2200:
+                # Combine the last two chunks
+                combined_chunk = line_chunks[-2] + ' ' + line_chunks[-1]
+                line_chunks = line_chunks[:-2] + [combined_chunk]
+
+            for chunk in line_chunks:
+                chunks.append({
+                    "title": preprocess(title),
+                    "text": chunk,
+                    "length": len(chunk)
+                })
 
     write_to_csv(chunks, output_file)
     print(f"Chunking complete. Output saved to {output_file}")
