@@ -65,7 +65,7 @@ def process_markdown(lines, md_level):
     parent_title = ""
     parent_content = ""
     current_level = 0
-
+    
     for line in lines:
         stripped_line = line.strip()
         heading_match = re.match(r'^(#{1,6})\s+(.*)', stripped_line)
@@ -73,51 +73,56 @@ def process_markdown(lines, md_level):
         if heading_match:
             hashes, heading_text = heading_match.groups()
             level = len(hashes)
-
+            
             # If we have content to save
             if current_title and current_content:
-                # Save previous section if not a child needing concatenation
-                if level <= md_level or (current_level == md_level and len(parent_content) >= 1000):
-                    title_content_pairs.append((current_title, current_content.strip()))
-                elif current_level > md_level and len(parent_content) < 1000:
-                    # Concatenate with parent
-                    combined_title = f"{parent_title}. {current_title}"
-                    combined_content = f"{parent_content} {current_content}"
-                    title_content_pairs.append((combined_title, combined_content.strip()))
-                
-                # Reset parent content after saving
-                parent_title = ""
-                parent_content = ""
-
+                # Always save h2 sections or higher level sections based on md_level
+                if level <= 2 or level <= md_level:
+                    if len(parent_content) < 1000 and current_level > 2:
+                        # Combine with parent if parent content is less than 1000 characters
+                        combined_title = f"{parent_title}. {current_title}" if parent_title else current_title
+                        combined_content = f"{parent_content} {current_content}"
+                        title_content_pairs.append((combined_title, combined_content.strip()))
+                    else:
+                        title_content_pairs.append((current_title, current_content.strip()))
+                    
+                    # Reset parent content after saving
+                    parent_title = ""
+                    parent_content = ""
+            
             # Update current title and content
-            if level < md_level:
-                parent_title = heading_text
-                parent_content = ""
+            if level == 2:
                 current_title = heading_text
                 current_content = ""
-            elif level == md_level:
+                parent_title = ""
+                parent_content = ""
+            elif level > 2 and level <= md_level:
                 current_title = f"{parent_title}. {heading_text}" if parent_title else heading_text
                 current_content = ""
             else:
                 current_content += f" {heading_text}"
-
+            
             current_level = level
+            
+            if level == 2:
+                parent_title = heading_text
+                parent_content = ""
         else:
-            if current_level < md_level:
+            if current_level <= 2:
                 parent_content += f" {stripped_line}"
-            else:
-                current_content += f" {stripped_line}"
-
-    # Add the last section correctly
+            current_content += f" {stripped_line}"
+    
+    # Add the last section
     if current_title and current_content:
-        if len(parent_content) < 1000 and current_level > md_level:
-            combined_title = f"{parent_title}. {current_title}"
+        if len(parent_content) < 1000 and current_level > 2:
+            combined_title = f"{parent_title}. {current_title}" if parent_title else current_title
             combined_content = f"{parent_content} {current_content}"
             title_content_pairs.append((combined_title, combined_content.strip()))
         else:
             title_content_pairs.append((current_title, current_content.strip()))
-
+    
     return title_content_pairs
+
 
 # Main function to process the input text and output chunks with their lengths
 def main():
