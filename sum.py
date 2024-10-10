@@ -168,7 +168,13 @@ def process_entry(clean_text: str, title: str, config: Config, previous_original
     """Process a single text entry and return the processed data."""
     unique_title, was_generated = get_unique_title(title, clean_text, previous_original_title, api_base, ptitle, config)
     
-    prompt = config.get_prompt(prompt_alias)
+    # Choose the appropriate prompt based on text length
+    if len(clean_text) < 1000:
+        prompt = config.get_prompt("concise")
+        model = "mq83"
+    else:
+        prompt = config.get_prompt(prompt_alias)
+
     payload = {
         "model": model,
         "prompt": f"```{clean_text}```\n\n{prompt}",
