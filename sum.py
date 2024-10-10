@@ -95,16 +95,14 @@ def generate_title(api_base: str, model: str, clean_text: str, title_prompt: str
         return result.get("response", "").strip()
     return None
 
-def get_unique_title(original_title: str, clean_text: str, used_titles: set, api_base: str, title_prompt: str, config: Config) -> Tuple[str, bool]:
+def get_unique_title(original_title: str, clean_text: str, previous_original_title: str, api_base: str, title_prompt: str, config: Config) -> Tuple[str, bool]:
     """Ensure the title is unique, generate a new one if necessary."""
-    if original_title and original_title not in used_titles:
-        used_titles.add(original_title)
+    if original_title and original_title != previous_original_title:
         return original_title, False
 
     for _ in range(5):
         generated_title = generate_title(api_base, config.defaults.get('title', 'DEFAULT_TITLE_MODEL'), clean_text, title_prompt, config)
-        if generated_title and generated_title not in used_titles:
-            used_titles.add(generated_title)
+        if generated_title and generated_title != previous_original_title:
             return generated_title, True
 
     # Fallback if all attempts fail
@@ -166,9 +164,9 @@ def write_csv_entry(writer, unique_title: str, was_generated: bool, text: str, o
 # Processing Logic
 # -----------------------------
 
-def process_entry(clean_text: str, title: str, config: Config, used_titles: set, api_base: str, model: str, prompt_alias: str, ptitle: str) -> Tuple[str, bool, str, float, int]:
+def process_entry(clean_text: str, title: str, config: Config, previous_original_title: str, api_base: str, model: str, prompt_alias: str, ptitle: str) -> Tuple[str, bool, str, float, int, str]:
     """Process a single text entry and return the processed data."""
-    unique_title, was_generated = get_unique_title(title, clean_text, used_titles, api_base, ptitle, config)
+    unique_title, was_generated = get_unique_title(title, clean_text, previous_original_title, api_base, ptitle, config)
     
     prompt = config.get_prompt(prompt_alias)
     payload = {
@@ -189,8 +187,7 @@ def process_entry(clean_text: str, title: str, config: Config, used_titles: set,
     output = bold_text_before_colon(output)
     elapsed_time = end_time - start_time
     size = len(output)
-    
-    return unique_title, was_generated, output, elapsed_time, size
+    return unique_title, was_generated, output, elapsed_time, size, title  # Return the original title as well
 
 def sanitize_model_name(model: str) -> str:
     # Truncate everything before '/' if present
@@ -207,7 +204,7 @@ def process_csv_input(input_file: str, config: Config, api_base: str, model: str
 
         with open(input_file, "r", encoding='utf-8') as csv_in:
             reader = csv.DictReader(csv_in)
-            used_titles = set()
+            previous_original_title = ""
 
             with open(markdown_file, "a", encoding='utf-8') as md_out:
                 for row in reader:
@@ -215,12 +212,14 @@ def process_csv_input(input_file: str, config: Config, api_base: str, model: str
                     text = next((row[key] for key in row if key.lower() == "text"), "").strip()
                     clean = sanitize_text(text)
 
-                    unique_title, was_generated, output, elapsed_time, size = process_entry(clean, original_title, config, used_titles, api_base, model, prompt_alias, ptitle)
+                    unique_title, was_generated, output, elapsed_time, size, _ = process_entry(clean, original_title, config, previous_original_title, api_base, model, prompt_alias, ptitle)
                     
                     heading = f"#### {unique_title}" if was_generated else f"### {unique_title}"
                     write_markdown_entry(md_out, heading, output)
                     
                     write_csv_entry(writer, unique_title, was_generated, text, output, elapsed_time)
+
+                    previous_original_title = original_title
 
 def process_text_input(input_file: str, config: Config, api_base: str, model: str, prompt_alias: str, ptitle: str, markdown_file: str, csv_file: str):
     """Process plain text input files."""
@@ -229,16 +228,15 @@ def process_text_input(input_file: str, config: Config, api_base: str, model: st
         write_csv_header(writer, model)
 
         with open(input_file, "r", encoding='utf-8') as txt_in:
-            used_titles = set()
+            previous_original_title = ""
 
             with open(markdown_file, "a", encoding='utf-8') as md_out:
                 for line in txt_in:
                     trimmed = line.strip().strip('()')
                     clean = sanitize_text(trimmed)
-                    input_length = len(clean)
                     
                     extracted_title = clean[:150].strip().split('+')[0].strip()
-                    unique_title, was_generated = get_unique_title(extracted_title, clean, used_titles, api_base, ptitle, config)
+                    unique_title, was_generated, output, elapsed_time, size, original_title = process_entry(clean, extracted_title, config, previous_original_title, api_base, model, prompt_alias, ptitle)
                     unique_title = unique_title.strip('"')
 
                     # Remove the title and the '+' from the text
@@ -246,20 +244,12 @@ def process_text_input(input_file: str, config: Config, api_base: str, model: st
                     title_plus_pattern = f'(?:"{title_pattern}"|{title_pattern})\\s*\\+\\s*'
                     clean_text = re.sub(f'^{title_plus_pattern}', '', clean, count=1).strip()
 
-                    prompt = config.get_prompt(prompt_alias)
-                    payload = {
-                        "model": model,
-                        "prompt": f"```{clean_text}```\n\n{prompt}",
-                        "stream": False
-                    }
-
-                    # Process the entry
-                    unique_title, was_generated, output, elapsed_time, size = process_entry(clean_text, unique_title, config, used_titles, api_base, model, prompt_alias, ptitle)
-                    
                     heading = f"#### {unique_title}" if was_generated else f"### {unique_title}"
                     write_markdown_entry(md_out, heading, output)
                     
                     write_csv_entry(writer, unique_title, was_generated, clean_text, output, elapsed_time)
+
+                    previous_original_title = original_title
 
 # -----------------------------
 # Help Display
