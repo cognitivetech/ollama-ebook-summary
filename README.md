@@ -61,13 +61,13 @@ pip install -r requirements.txt
 
 ### Download Models
 
-1. **Download a copy of Mistral Instruct v0.2 Bulleted Notes Fine-Tune**
+#### 1. **Download a copy of Mistral Instruct v0.2 Bulleted Notes Fine-Tune**
 
 `ollama pull cognitivetech/obook_summary:q5_k_m`
 
-2. **Set up a title model**
+#### 2. **Set up a title model**
 
-a) *Download a preconfigured model*
+##### a) *Download a preconfigured model*
 
 `ollama pull cognitivetech/obook_title:q3_k_m`
 
@@ -75,7 +75,7 @@ For your convenience Mistral 7b 0.3 is packaged with the necessary message histo
 
 ***or***
 
-b) *Append this* [message history](Modelfile) *to the Modelfile of your choice *
+##### b) *Append this* [message history](Modelfile) *to the Modelfile of your choice *
 
 ### Update Config File `_config.yaml`
 
@@ -118,7 +118,7 @@ title_generation:
 ## Usage 
 ### Convert E-book to chunked CSV or TXT
 
-1. Use automated script to split your `pdf` or `epub`.
+#### 1. Use automated script to split your `pdf` or `epub`.
 ```bash
 python3 book2text.py ebook-name.epub # or ebook-name.pdf (Epub is preferred)
 ```
@@ -129,11 +129,9 @@ b) `out/ebook-name_processed.csv` (chunked)
 
 ***or***
 
-2. Place each chunk compressed to a single line of a text file, surrounded by double quotes.
+#### 2. Place each chunk compressed to a single line of a text file, surrounded by double quotes.
 
 ### Generate Summary
-
-5. **This is what the help message would read** (if that worked right now)
 
 `$``python3 sum.py --help`
 
@@ -162,14 +160,14 @@ The output CSV will include:
 - Len: Length of the output
 ```    
 
-If you have your defaults set, then all you need is to specify which type of input, manual `text`, or automated `csv`.
+If you have your defaults set, then all you need is to specify which type of input, manual `text`, or automated `csv`. 
 ```
 python3 sum.py -c ebook-name_processed.csv
 ```
 
 ***or*** 
 
-In the following example, I've used `tools-prototype/split_pdf.py` to split the pdf not only by chapter but also subsection (producing `ebook-name_extracted.csv`), then manually process that output.
+In the following example, I've used `tools-prototype/split_pdf.py` to split the pdf not only by chapter but also subsection (producing `ebook-name_extracted.csv`), then manually process that output to place each chunk on a single line surrounded by double quote.
 
 ```
 python3 sum.py -t ebook-name_extracted.csv

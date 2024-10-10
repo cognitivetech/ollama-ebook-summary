@@ -1,7 +1,7 @@
 defaults:
   prompt: bnotes
-  summary: mbn
-  title: mtitle
+  summary: cognitivetech/obook_summary:q5_k_m   # default model for summary
+  title: cognitivetech/obook_title:q3_k_m  # default model for title generation
 prompts:
   bnotes:
     prompt: Write comprehensive bulleted notes summarizing the provided text, with
