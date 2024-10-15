@@ -201,6 +201,23 @@ def sanitize_model_name(model: str) -> str:
     # Remove special characters without replacement, except '_'
     return re.sub(r'[^a-zA-Z0-9_]+', '', model)
 
+def determine_header_level(row, default_level=3):
+    """Determine the header level based on the 'level' column if present."""
+    level = row.get('level')
+    if level:
+        try:
+            return int(level)
+        except ValueError:
+            print(f"Warning: Invalid level value '{level}'. Using default level {default_level}.")
+    return default_level
+
+def process_title_with_split(title, level):
+    """Process titles containing ` > `, creating appropriate headers."""
+    if ' > ' in title:
+        parts = title.split(' > ', 1)
+        return f"{'#' * level} {parts[0]}\n\n{'#' * (level + 1)} {parts[1]}"
+    return f"{'#' * level} {title}"
+
 
 def process_csv_input(input_file: str, config: Config, api_base: str, model: str, prompt_alias: str, ptitle: str, markdown_file: str, csv_file: str):
     """Process CSV input files."""
@@ -210,6 +227,7 @@ def process_csv_input(input_file: str, config: Config, api_base: str, model: str
 
         with open(input_file, "r", encoding='utf-8') as csv_in:
             reader = csv.DictReader(csv_in)
+            has_level_column = 'level' in reader.fieldnames
             previous_original_title = ""
 
             with open(markdown_file, "a", encoding='utf-8') as md_out:
@@ -218,14 +236,31 @@ def process_csv_input(input_file: str, config: Config, api_base: str, model: str
                     text = next((row[key] for key in row if key.lower() == "text"), "").strip()
                     clean = sanitize_text(text)
 
-                    unique_title, was_generated, output, elapsed_time, size, _ = process_entry(clean, original_title, config, previous_original_title, api_base, model, prompt_alias, ptitle)
+                    # Check if the current title is the same as the previous original title
+                    if original_title == previous_original_title:
+                        unique_title, was_generated, output, elapsed_time, size, _ = process_entry(clean, "", config, previous_original_title, api_base, model, prompt_alias, ptitle)
+                    else:
+                        unique_title, was_generated, output, elapsed_time, size, _ = process_entry(clean, original_title, config, previous_original_title, api_base, model, prompt_alias, ptitle)
+
+                    if has_level_column:
+                        level = determine_header_level(row)
+                        if was_generated:
+                            level += 1  # Increase level for generated titles
+                        heading = process_title_with_split(unique_title, level)
+                    else:
+                        if was_generated:
+                            heading = f"#### {unique_title}"  # Use level 4 for generated titles
+                        else:
+                            heading = f"### {unique_title}"  # Use level 3 for original titles
                     
-                    heading = f"#### {unique_title}" if was_generated else f"### {unique_title}"
                     write_markdown_entry(md_out, heading, output)
                     
                     write_csv_entry(writer, unique_title, was_generated, text, output, elapsed_time)
 
-                    previous_original_title = original_title
+                    # Update previous_original_title only if the current title wasn't generated
+                    if not was_generated:
+                        previous_original_title = original_title
+
 
 def process_text_input(input_file: str, config: Config, api_base: str, model: str, prompt_alias: str, ptitle: str, markdown_file: str, csv_file: str):
     """Process plain text input files."""
