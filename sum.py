@@ -218,7 +218,6 @@ def process_title_with_split(title, level):
         return f"{'#' * level} {parts[0]}\n\n{'#' * (level + 1)} {parts[1]}"
     return f"{'#' * level} {title}"
 
-
 def process_csv_input(input_file: str, config: Config, api_base: str, model: str, prompt_alias: str, ptitle: str, markdown_file: str, csv_file: str):
     """Process CSV input files."""
     with open(csv_file, "w", newline="", encoding='utf-8') as csv_out:
@@ -229,6 +228,7 @@ def process_csv_input(input_file: str, config: Config, api_base: str, model: str
             reader = csv.DictReader(csv_in)
             has_level_column = 'level' in reader.fieldnames
             previous_original_title = ""
+            current_level = 2  # Start with level 2 (##)
 
             with open(markdown_file, "a", encoding='utf-8') as md_out:
                 for row in reader:
@@ -243,15 +243,21 @@ def process_csv_input(input_file: str, config: Config, api_base: str, model: str
                         unique_title, was_generated, output, elapsed_time, size, _ = process_entry(clean, original_title, config, previous_original_title, api_base, model, prompt_alias, ptitle)
 
                     if has_level_column:
-                        level = determine_header_level(row)
-                        if was_generated:
-                            level += 1  # Increase level for generated titles
-                        heading = process_title_with_split(unique_title, level)
+                        base_level = determine_header_level(row)
                     else:
-                        if was_generated:
-                            heading = f"#### {unique_title}"  # Use level 4 for generated titles
-                        else:
-                            heading = f"### {unique_title}"  # Use level 3 for original titles
+                        base_level = 3  # Default to level 3 if no level column
+
+                    if was_generated:
+                        current_level = base_level + 1
+                    else:
+                        current_level = base_level
+
+                    # Handle split titles
+                    if ' > ' in unique_title:
+                        parts = unique_title.split(' > ', 1)
+                        heading = f"{'#' * current_level} {parts[0]}\n\n{'#' * (current_level + 1)} {parts[1]}"
+                    else:
+                        heading = f"{'#' * current_level} {unique_title}"
                     
                     write_markdown_entry(md_out, heading, output)
                     
@@ -260,7 +266,6 @@ def process_csv_input(input_file: str, config: Config, api_base: str, model: str
                     # Update previous_original_title only if the current title wasn't generated
                     if not was_generated:
                         previous_original_title = original_title
-
 
 def process_text_input(input_file: str, config: Config, api_base: str, model: str, prompt_alias: str, ptitle: str, markdown_file: str, csv_file: str):
     """Process plain text input files."""
