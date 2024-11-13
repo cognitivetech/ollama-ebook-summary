@@ -7,9 +7,9 @@ import requests
 import json
 
 # Add your OpenRouter API key here
-OPENROUTER_API_KEY = "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"
+OPENROUTER_API_KEY = ""
 model="nousresearch/hermes-3-llama-3.1-405b"
-
+ 
 def generate_title(clean, ptitle):
     try:
         messages = [
