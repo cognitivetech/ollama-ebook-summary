@@ -13,10 +13,19 @@ from typing import Dict, Any, Tuple, Optional
 # Configuration Management
 # -----------------------------
 
+import os
+
 class Config:
     """Centralized access to configuration parameters."""
 
-    def __init__(self, config_path: str = "_config.yaml"):
+    def __init__(self, config_path: str = None):
+        # Determine the directory of the current script
+        script_dir = os.path.dirname(os.path.abspath(__file__))
+        
+        # Default config path is in the same directory as the script
+        if config_path is None:
+            config_path = os.path.join(script_dir, "_config.yaml")
+        
         self.config = self.load_config(config_path)
         self.prompts = self.config.get('prompts', {})
         self.title_prompt = self.config.get('title_generation', {}).get('prompt', "Default title prompt.")
@@ -127,24 +136,6 @@ def write_markdown_header(md_out, filename_no_ext: str, model: str, sanitized_mo
     """Write the initial headers and model information to the Markdown file."""
     md_out.write(f"# {filename_no_ext}\n\n")
     md_out.write(f"## {model}\n\n")  # Use the original model name for display
-    
-    payload = {"name": model}
-    model_info = make_api_request(api_base, "show", payload)
-    
-    if model_info:
-        md_out.write("### Model Information\n\n")
-        details = model_info.get('details', {})
-        for key, value in details.items():
-            md_out.write(f"- **{key}**: {value}\n")
-        
-        parameters = model_info.get('parameters', "")
-        if parameters:
-            md_out.write("\n### Parameters\n\n")
-            parameters_formatted = parameters.replace('\n', '\n- ')
-            md_out.write(f"{parameters_formatted}\n\n")
-    else:
-        md_out.write("### Model Information\n\n")
-        md_out.write("Error retrieving model information.\n\n")
 
 def write_markdown_entry(md_out, heading: str, content: str):
     """Write a single entry to the Markdown file."""
