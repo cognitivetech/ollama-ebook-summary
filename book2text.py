@@ -10,6 +10,7 @@ import ebooklib
 from ebooklib import epub
 import shutil
 from lib.chunking import process_csv  # Import process_csv from chunking.py
+from lib.epubunz import extract_html_files
 
 def get_title_from_html(filepath):
     try:
@@ -106,7 +107,7 @@ def main(input_file, output_dir, output_csv):
             print("Error detected while splitting EPUB. Error output:")
             print(result.stderr)
             print("Attempting alternative method with epubunz.py.")
-            subprocess.run(f"python lib/epubunz.py \"{input_file}\" \"{output_dir}\"", shell=True)
+            extract_html_files(epub_path, output_directory)
             file_type = 'html'
     elif file_type == 'pdf':
         result = os.system(f"python3 lib/pdf_splitter.py \"{input_file}\"")
