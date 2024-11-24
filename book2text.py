@@ -11,6 +11,31 @@ from ebooklib import epub
 import shutil
 from lib.chunking import process_csv  # Import process_csv from chunking.py
 from lib.epubunz import extract_html_files
+from lib.epubsplit import SplitEpub
+
+def split_epub_by_sections(input_file, output_dir):
+    try:
+        # Create SplitEpub instance
+        splitter = SplitEpub(input_file)
+        
+        # Get all possible split points
+        split_lines = splitter.get_split_lines()
+        
+        # Split at all possible points when no specific lines provided
+        line_numbers = list(range(len(split_lines)))
+        
+        # Write split epub files to output directory
+        splitter.write_split_epub(
+            os.path.join(output_dir, "split.epub"),
+            line_numbers,
+            titleopt="Split Book"
+        )
+        return True
+        
+    except Exception as e:
+        print(f"Error splitting EPUB: {str(e)}")
+        return False
+
 
 def get_title_from_html(filepath):
     try:
@@ -101,13 +126,12 @@ def main(input_file, output_dir, output_csv):
 
     file_type = os.path.splitext(input_file)[1][1:]  # Remove the dot
 
+
     if file_type == 'epub':
-        result = subprocess.run(f"python lib/epubsplit.py --split-by-section \"{input_file}\" --output-dir \"{output_dir}\"", shell=True, text=True, capture_output=True)
-        if result.returncode != 0:
-            print("Error detected while splitting EPUB. Error output:")
-            print(result.stderr)
-            print("Attempting alternative method with epubunz.py.")
-            extract_html_files(epub_path, output_directory)
+        success = split_epub_by_sections(input_file, output_dir)  # Changed from output_directory to output_dir
+        if not success:
+            print("Error detected while splitting EPUB. Attempting alternative method with epubunz.py.")
+            extract_html_files(epub_path, output_dir)  # Make sure this matches too
             file_type = 'html'
     elif file_type == 'pdf':
         result = os.system(f"python3 lib/pdf_splitter.py \"{input_file}\"")
