@@ -5,13 +5,13 @@ _Built With: Python 3.11.9_
 ## Introduction
 This project creates bulleted notes summaries of books and other long texts, particularly epub and pdf which have ToC metadata available.
 
-When the ebooks contain approrpiate metadata, we are able to easily automate the extraction of chapters from most books, and splits them into ~2000 token chunks, with fallbacks in the case your document doesn't have that.
+When the ebooks contain approrpiate metadata, we are able to easily automate the extraction of chapters from most books, and split them into ~2000 token chunks, with fallbacks in the case your document doesn't have that.
 
 ### Main Idea
 
 The main idea of this project is that we don't want to talk to the entire document at once, but we split it into many small chunks and ask questions to those, for improved granularity of response. We don't want a one page summary of the book, we want a summary of each of the book's subsections. Furthermore, we can ask arbitrary questions to those parts. Asking the same question to every part of the text, rather than one question to the whole thing at once.
 
-You can check the [depreciated walkthroughs and rakings](notes/depreciated/) for information on some of my learning process with LLM and how I came to certain decisions.
+You can check the [depreciated walkthroughs and rankings](notes/depreciated/) for information on some of my learning process with LLM and how I came to certain decisions.
 
 ### Comparison with RAG
 
