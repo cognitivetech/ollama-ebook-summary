@@ -1,7 +1,4 @@
-import os
-import re
-import csv
-import sys
+import os, re, csv, sys, pypdf
 import subprocess
 import argparse  # Import argparse for command-line parsing
 from bs4 import BeautifulSoup
@@ -12,6 +9,7 @@ import shutil
 from lib.chunking import process_csv  # Import process_csv from chunking.py
 from lib.epubunz import extract_html_files
 from lib.epubsplit import SplitEpub
+from lib.pdf_splitter import split_pdf  # Add this import
 
 def split_epub_by_sections(input_file, output_dir):
     try:
@@ -134,7 +132,15 @@ def main(input_file, output_dir, output_csv):
             extract_html_files(epub_path, output_dir)  # Make sure this matches too
             file_type = 'html'
     elif file_type == 'pdf':
-        result = os.system(f"python3 lib/pdf_splitter.py \"{input_file}\"")
+        from lib.pdf_splitter import split_pdf, get_toc, prepare_page_ranges
+
+        pdf = pypdf.PdfReader(input_file)
+        toc = get_toc(pdf)
+        page_count = len(pdf.pages)
+        page_ranges = prepare_page_ranges(toc, regex=None, overlap=False, page_count=page_count)
+        output_dir = f"out/{os.path.splitext(os.path.basename(input_file))[0]}/"
+        os.makedirs(output_dir, exist_ok=True)
+        result = split_pdf(pdf, page_ranges, prefix=None, output_dir=output_dir)
     else:
         print("Unsupported file type. Please provide an EPUB or PDF file.")
         sys.exit(1)
