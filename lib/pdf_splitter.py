@@ -21,10 +21,23 @@ def main(dry_run: bool, regex: str, overlap: bool, prefix: str, file: str):
         sys.exit(0)
     logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
     try:
-        pdf = pypdf.PdfReader(file)
+        pdf = pypdf.PdfReader(input_file)
+        
+        # Check if the PDF is encrypted
+        if pdf.is_encrypted:
+            logging.error(f"Error: PDF file '{input_file}' is encrypted.")
+            return
+        
+        # Process the PDF (e.g., extract TOC, pages, etc.)
+        logging.info(f"Successfully loaded PDF: {input_file}")
+        # Add further processing logic here
+        
+    except pypdf.errors.PdfReadError as e:
+        logging.error(f"Error reading PDF: {str(e)}", exc_info=True)
+        sys.exit(1)
     except Exception as e:
-        logging.error("Error: File is not a valid PDF.", exc_info=True)
-        sys.exit(0)
+        logging.error("Unexpected error occurred.", exc_info=True)
+        sys.exit(1)
 
     if len(pdf.outline) == 0:
         print("Error: File does not contain an outline.")
@@ -57,32 +70,64 @@ class OutlineItem(TypedDict):
     page: int
 
 def get_toc(pdf: pypdf.PdfReader) -> List[OutlineItem]:
+    """
+    Extracts the table of contents (TOC) from a PDF file and handles potential errors gracefully.
+
+    Args:
+        pdf (pypdf.PdfReader): The PDF reader object.
+
+    Returns:
+        List[OutlineItem]: A list of outline items with their names and page numbers.
+    """
     toc_list = []
 
-    def extract_toc(toc):
-        for item in toc:
-            if isinstance(item, list):
-                extract_toc(item)
-            else:
-                if item["/Title"] is None:
-                    continue
+    try:
+        # Check if the PDF has an outline
+        if not hasattr(pdf, "outline") or not pdf.outline:
+            logging.warning("The PDF does not contain an outline.")
+            return []
 
-                item_obj = {
-                    "name": unicodedata.normalize(
-                        "NFKD",
-                        item["/Title"]
-                        .strip()
-                        .replace("\r", " ")
-                        .replace("\t", " ")
-                        .replace("\n", " "),
-                    ),
-                    "page": pdf.get_destination_page_number(item),
-                }
+        def extract_toc(toc):
+            for item in toc:
+                if isinstance(item, list):
+                    extract_toc(item)
+                else:
+                    # Safely handle missing or malformed title and page information
+                    title = item.get("/Title", "").strip()
+                    if not title:
+                        logging.warning("Skipping TOC item with no title.")
+                        continue
 
-                toc_list.append(item_obj)
+                    try:
+                        page_number = pdf.get_destination_page_number(item)
+                        if page_number is None:
+                            logging.warning(f"Skipping TOC item '{title}' with no valid page number.")
+                            continue
+                    except Exception as e:
+                        logging.error(f"Error retrieving page number for TOC item '{title}': {e}")
+                        continue
 
-    extract_toc(pdf.outline)
-    toc_list = sorted(toc_list, key=lambda k: k["page"])
+                    # Normalize and clean up the title
+                    title = unicodedata.normalize("NFKD", title).replace("\r", " ").replace("\n", " ").replace("\t", " ")
+
+                    toc_list.append({"name": title, "page": page_number})
+
+        # Extract the TOC recursively
+        extract_toc(pdf.outline)
+
+        # Filter out entries with invalid or missing page numbers
+        toc_list = [item for item in toc_list if item["page"] is not None]
+
+        # Sort the TOC items by page number, handling None values safely
+        toc_list = sorted(toc_list, key=lambda k: k["page"])
+
+    except KeyError as e:
+        logging.error(f"KeyError while processing TOC: {e}")
+    except AttributeError as e:
+        logging.error(f"AttributeError while processing TOC: {e}")
+    except Exception as e:
+        logging.error(f"Unexpected error occurred while extracting TOC: {e}")
+
     return toc_list
 
 class PageRange(TypedDict):
@@ -184,8 +229,11 @@ def dry_run_toc_split(page_ranges: List[PageRange], prefix: str, output_dir: str
                 )
             )
 
-def safe_filename(filename: str) -> str:
-    return "".join(c for c in filename if c.isalnum() or c in (" ", ".", "_", "-"))
+def safe_filename(filename: str, max_length: int = 100) -> str:
+    # Remove invalid characters
+    sanitized = "".join(c for c in filename if c.isalnum() or c in (" ", ".", "_", "-"))
+    # Truncate to a maximum length
+    return sanitized[:max_length].strip()
 
 def filter_by_regex(input_list: List[PageRange], regex: str) -> List[PageRange]:
     return [item for item in input_list if re.search(r"{}".format(regex), item["name"])]
