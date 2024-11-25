@@ -54,8 +54,6 @@ def extract_title(line):
     title = title.strip('"')  # Remove any existing double quotes
     return title
 
-# ... (previous imports and functions remain the same)
-
 def process_markdown(lines, md_level):
     title_content_pairs = []
     current_title = ""
@@ -119,8 +117,6 @@ def main():
     max_chunk_size = args.max
     output_file = os.path.join(os.getcwd(), os.path.splitext(os.path.basename(input_file))[0] + '_chunkd2.csv')
 
-    # Initialize the sentence transformer model
-    # Initialize the sentence transformer model
     model_name_or_path = 'mixedbread-ai/mxbai-embed-large-v1'
 
     # Load the model
