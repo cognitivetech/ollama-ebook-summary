@@ -45,9 +45,8 @@ def get_outline_sections(outline, reader, sections=None, level=0):
 def extract_pdf_to_csv_and_images(pdf_path):
     """
     Extract text and images from the PDF. Split text by page and by sections defined in the PDF outline.
+    If no outline is present, print each page on a single line with newlines replaced by double spaces.
     """
-    import re
-
     # Check if the PDF file exists
     if not os.path.exists(pdf_path):
         print(f"Error: The file '{pdf_path}' does not exist.")
@@ -79,19 +78,17 @@ def extract_pdf_to_csv_and_images(pdf_path):
             # Sort sections by starting page number
             sections = sorted(sections, key=lambda x: x[1])
     else:
-        print("No outline found in the PDF. Proceeding with page-based splitting only.")
-
-
-    def replace_quotes(text):
-        text = re.sub(r'""', '“', text)
-        text = re.sub(r'"', '“', text)
-        return text
+        print("No outline found in the PDF. Proceeding with page-based extraction.")
 
     # Open the CSV file for writing
     try:
         with open(csv_path, 'w', newline='', encoding='utf-8') as csvfile:
             csv_writer = csv.writer(csvfile)
-            csv_writer.writerow(['title', 'level', 'page', 'text'])  # Updated header
+            
+            if sections:
+                csv_writer.writerow(['title', 'level', 'page', 'text'])
+            else:
+                csv_writer.writerow(['page', 'text'])
 
             total_pages = len(reader.pages)
             current_section = "No Section"
@@ -102,26 +99,29 @@ def extract_pdf_to_csv_and_images(pdf_path):
             for page_num in range(total_pages):
                 page = reader.pages[page_num]
                 
-                # Check if current page is the start of a new section
-                if next_section_page is not None and page_num >= next_section_page:
+                # Check if current page is the start of a new section (only if outline exists)
+                if sections and next_section_page is not None and page_num >= next_section_page:
                     current_section, _, current_level = sections[section_index]
                     section_index += 1
                     next_section_page = sections[section_index][1] if section_index < len(sections) else None
 
                 # Extract text from the page
                 text = page.extract_text() or ""
-                # Remove newlines and extra whitespace
-                text = ' '.join(text.split())
+                # Replace newlines with double spaces
+                text = re.sub(r'\n', r'\\n', text)
 
-                # Write the content to the CSV with replaced quotes
-                csv_writer.writerow([
-                    replace_quotes(current_section),
-                    current_level,
-                    page_num + 1,
-                    replace_quotes(text)
-                ])
+                # Write the content to the CSV
+                if sections:
+                    csv_writer.writerow([
+                        replace_quotes(current_section),
+                        current_level,
+                        page_num + 1,
+                        replace_quotes(text)
+                    ])
+                else:
+                    csv_writer.writerow([page_num + 1, replace_quotes(text)])
 
-                # Extract images from the page
+                # Extract images from the page (image extraction code remains unchanged)
                 if '/XObject' in page['/Resources']:
                     xobjects = page['/Resources']['/XObject'].get_object()
                     for obj_name in xobjects:
