@@ -3,7 +3,25 @@ import sys
 import re
 import csv
 from sentence_transformers import SentenceTransformer, util
-csv.field_size_limit(sys.maxsize)
+from pathlib import Path
+
+try:
+    max_int = sys.maxsize
+    while True:
+        # Attempt to set the maximum field size limit, reducing if necessary
+        csv.field_size_limit(max_int)
+        break
+except OverflowError:
+    max_int = int(max_int / 10)  # Reduce the size and retry
+    csv.field_size_limit(max_int)
+
+
+def setup_transformer_cache():
+    # Set up cache directory in user's home folder
+    cache_dir = os.path.join(str(Path.home()), '.cache', 'transformers')
+    os.environ['TRANSFORMERS_CACHE'] = cache_dir
+    os.makedirs(cache_dir, exist_ok=True)
+    return cache_dir
 
 def preprocess_text(text):
     text = text.replace('\\n', ' ')  # Remove newlines
@@ -12,11 +30,20 @@ def preprocess_text(text):
     text = text.replace('%', ' percent')  # Replace percent signs with 'percent'
     return text
 
+# Add this at the global scope, outside of any function
+_model = None
+
+def get_model():
+    global _model
+    if _model is None:
+        setup_transformer_cache()  # Set up cache before loading model
+        _model = SentenceTransformer('all-MiniLM-L6-v2')
+    return _model
+
 def semantic_chunking(text, min_chunk_size=6000, max_chunk_size=9200):
     sentences = [sent.strip() for sent in re.split(r'(?<=[.!?])\s+', text) if sent.strip()]
-    model = SentenceTransformer('all-MiniLM-L6-v2')
-    embeddings = model.encode(sentences, convert_to_tensor=True)
-    
+    model = get_model()  # Use the cached model
+    embeddings = model.encode(sentences, convert_to_tensor=True)    
     chunks = []
     current_chunk = []
     current_chunk_size = 0
