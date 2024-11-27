@@ -14,7 +14,7 @@ When the ebooks contain approrpiate metadata, we are able to easily automate the
 
 This corresponds my own experience while summarizing many long documents using local llm.
 
-You can check the [depreciated walkthroughs and rankings](notes/depreciated/) for information on some of my learning process with LLM and how I came to certain decisions.
+You can check the [depreciated walkthroughs and rankings](notes/depreciated/) for more background on how I got here.
 
 ### Comparison with RAG
 
