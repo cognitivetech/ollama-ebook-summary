@@ -75,7 +75,7 @@ For your convenience Mistral 7b 0.3 is packaged with the necessary message histo
 
 ***or***
 
-##### b) *Append this* [message history](Modelfile) *to the Modelfile of your choice *
+##### b) *Append this* [message history](Modelfile) *to the Modelfile of your choice*
 
 ### Update Config File `_config.yaml`
 
@@ -102,7 +102,7 @@ prompts:
       bold with double asterisks and terms in bold also, and bullet points as `-`.
       Print the notes exactly, word-for-word, do not elaborate, do not add headings
       with #'
-  research:
+  research: # The research prompt works well with the bulleted notes model
     prompt: Does this text make any arguments? If so, list them here.
   sum:
     prompt: Comprehensive bulleted notes with headings and terms in bold.
@@ -143,6 +143,7 @@ Options:
 -t, --txt        Process a text file. Each line should be a separate text chunk.
 -m, --model      Model name to use for generation (default from config)
 -p, --prompt     Alias of the prompt to use from config (default from config)
+-v, --verbose    Print markdown output additionally to terminal
 --help           Show this help message and exit.
 
 For CSV input:
