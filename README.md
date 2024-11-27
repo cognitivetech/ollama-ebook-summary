@@ -5,11 +5,14 @@ _Built With: Python 3.11.9_
 ## Introduction
 This project creates bulleted notes summaries of books and other long texts, particularly epub and pdf which have ToC metadata available.
 
-When the ebooks contain approrpiate metadata, we are able to easily automate the extraction of chapters from most books, and split them into ~2000 token chunks, with fallbacks in the case your document doesn't have that.
+When the ebooks contain approrpiate metadata, we are able to easily automate the extraction of chapters from most books, and split them into ~2000 token chunks, with fallbacks in case we are unable to access a document outline.
 
-### Main Idea
+### Why ~2000 tokens?
+[*Same Task, More Tokens: the Impact of Input Length on the Reasoning Performance of Large Language Models*](https://huggingface.co/papers/2402.14848) (2024-02-19; Mosh Levy, Alon Jacoby, Yoav Goldberg) which suggests that reasoning capacity drops off pretty sharply from 250 to 1000 tokens, and starting to flatten out between 2000-3000 tokens.
 
-The main idea of this project is that we don't want to talk to the entire document at once, but we split it into many small chunks and ask questions to those, for improved granularity of response. We don't want a one page summary of the book, we want a summary of each of the book's subsections. Furthermore, we can ask arbitrary questions to those parts. Asking the same question to every part of the text, rather than one question to the whole thing at once.
+![](https://i.imgur.com/nyDkAzP.png)
+
+This corresponds my own experience while summarizing many long documents using local llm.
 
 You can check the [depreciated walkthroughs and rankings](notes/depreciated/) for information on some of my learning process with LLM and how I came to certain decisions.
 
@@ -24,7 +27,6 @@ Its very important towards unlocking the full capabilities of LLM without relyin
   - [Python Environment](#python-environment)
   - [Install Dependencies](#install-dependencies)
   - [Download Models](#download-models)
-  - [Change model names](#change-model-names)
   - [Update Config File `_config.yaml`](#update-config-file-_configyaml)
 - [Usage](#usage)
   - [Convert E-book to chunked CSV or TXT](#convert-e-book-to-chunked-csv-or-txt)
