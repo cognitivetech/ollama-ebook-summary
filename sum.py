@@ -137,9 +137,12 @@ def write_markdown_header(md_out, filename_no_ext: str, model: str, sanitized_mo
     md_out.write(f"# {filename_no_ext}\n\n")
     md_out.write(f"## {model}\n\n")  # Use the original model name for display
 
-def write_markdown_entry(md_out, heading: str, content: str):
-    """Write a single entry to the Markdown file."""
-    md_out.write(f"{heading}\n\n{content}\n\n")
+def write_markdown_entry(md_out, heading: str, content: str, verbose: bool = False):
+    """Write a single entry to the Markdown file and optionally print to console."""
+    markdown_text = f"{heading}\n\n{content}\n\n"
+    md_out.write(markdown_text)
+    if verbose:
+        print(markdown_text)
 
 def write_csv_header(writer, model: str):
     """Write the header row to the CSV file."""
@@ -209,7 +212,10 @@ def process_title_with_split(title, level):
         return f"{'#' * level} {parts[0]}\n\n{'#' * (level + 1)} {parts[1]}"
     return f"{'#' * level} {title}"
 
-def process_csv_input(input_file: str, config: Config, api_base: str, model: str, prompt_alias: str, ptitle: str, markdown_file: str, csv_file: str):
+
+def process_csv_input(input_file: str, config: Config, api_base: str, model: str, 
+                     prompt_alias: str, ptitle: str, markdown_file: str, 
+                     csv_file: str, verbose: bool = False):
     """Process CSV input files."""
     with open(csv_file, "w", newline="", encoding='utf-8') as csv_out:
         writer = csv.writer(csv_out)
@@ -249,8 +255,8 @@ def process_csv_input(input_file: str, config: Config, api_base: str, model: str
                         heading = f"{'#' * current_level} {parts[0]}\n\n{'#' * (current_level + 1)} {parts[1]}"
                     else:
                         heading = f"{'#' * current_level} {unique_title}"
-                    
-                    write_markdown_entry(md_out, heading, output)
+
+                    write_markdown_entry(md_out, heading, output, verbose)
                     
                     write_csv_entry(writer, unique_title, was_generated, text, output, elapsed_time)
 
@@ -258,7 +264,9 @@ def process_csv_input(input_file: str, config: Config, api_base: str, model: str
                     if not was_generated:
                         previous_original_title = original_title
 
-def process_text_input(input_file: str, config: Config, api_base: str, model: str, prompt_alias: str, ptitle: str, markdown_file: str, csv_file: str):
+def process_text_input(input_file: str, config: Config, api_base: str, model: str, 
+                      prompt_alias: str, ptitle: str, markdown_file: str, 
+                      csv_file: str, verbose: bool = False):
     """Process plain text input files."""
     with open(csv_file, "w", newline="", encoding='utf-8') as csv_out:
         writer = csv.writer(csv_out)
@@ -282,7 +290,7 @@ def process_text_input(input_file: str, config: Config, api_base: str, model: st
                     clean_text = re.sub(f'^{title_plus_pattern}', '', clean, count=1).strip()
 
                     heading = f"#### {unique_title}" if was_generated else f"### {unique_title}"
-                    write_markdown_entry(md_out, heading, output)
+                    write_markdown_entry(md_out, heading, output, verbose)
                     
                     write_csv_entry(writer, unique_title, was_generated, clean_text, output, elapsed_time)
 
@@ -334,6 +342,7 @@ def main():
     parser.add_argument('-t', '--txt', action='store_true', help='Process a text file')
     parser.add_argument('--help', action='store_true', help='Show help message and exit')
     parser.add_argument('-p', '--prompt', default=config.defaults.get('prompt', 'DEFAULT_PROMPT_ALIAS'), help='Alias of the prompt to use from config')
+    parser.add_argument('-v', '--verbose', action='store_true', help='Display markdown output as it is generated')
 
     # Make input_file optional
     parser.add_argument('input_file', nargs='?', help='Input file path')
@@ -368,9 +377,11 @@ def main():
         write_markdown_header(md_out, filename_no_ext, model, sanitized_model, api_base)
 
     if processing_mode == 'csv':
-        process_csv_input(input_file, config, api_base, model, prompt_alias, ptitle, markdown_file, csv_file)
+        process_csv_input(input_file, config, api_base, model, prompt_alias, 
+                         ptitle, markdown_file, csv_file, args.verbose)
     else:
-        process_text_input(input_file, config, api_base, model, prompt_alias, ptitle, markdown_file, csv_file)
+        process_text_input(input_file, config, api_base, model, prompt_alias, 
+                          ptitle, markdown_file, csv_file, args.verbose)
 
     print(f"Processing completed. Output saved to {markdown_file} and {csv_file}.")
 
