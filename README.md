@@ -7,7 +7,7 @@ This project creates bulleted notes summaries of books and other long texts, par
 
 When the ebooks contain approrpiate metadata, we are able to easily automate the extraction of chapters from most books, and split them into ~2000 token chunks, with fallbacks in case we are unable to access a document outline.
 
-### Why ~2000 tokens?
+### Why 2000 tokens?
 [*Same Task, More Tokens: the Impact of Input Length on the Reasoning Performance of Large Language Models*](https://huggingface.co/papers/2402.14848) (2024-02-19; Mosh Levy, Alon Jacoby, Yoav Goldberg) suggests that reasoning capacity drops off pretty sharply from 250 to 1000 tokens, starting to flatten out between 2000-3000 tokens.
 
 ![](https://i.imgur.com/nyDkAzP.png)
@@ -131,7 +131,8 @@ b) `out/ebook-name_processed.csv` (chunked)
 
 ***or***
 
-#### 2. Place each chunk compressed to a single line of a text file, surrounded by double quotes.
+#### 2. Remove or escape all newlines within each chunk, so they may be placed line by line [in a text file](notes/depreciated/summarize.txt), with each line surrounded by double quotes.
+<a href="notes/depreciated/summarize.txt"><img width="1163" alt="image" src="https://github.com/user-attachments/assets/6621d209-35ab-40a5-ab7c-3f8324909e43"></a>
 
 ### Generate Summary
 
