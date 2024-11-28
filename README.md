@@ -134,6 +134,8 @@ b) `out/ebook-name_processed.csv` (chunked)
 #### 2. Remove or escape all newlines within each chunk, so they may be placed line by line [in a text file](notes/depreciated/summarize.txt), with each line surrounded by double quotes.
 <a href="notes/depreciated/summarize.txt"><img width="1163" alt="image" src="https://github.com/user-attachments/assets/6621d209-35ab-40a5-ab7c-3f8324909e43"></a>
 
+\*_Note to be cautious of properly escaping or replacing double quotes from within each chunk._
+
 ### Generate Summary
 
 `$``python3 sum.py --help`
