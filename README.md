@@ -171,10 +171,18 @@ If you have your defaults set, then all you need is to specify which type of inp
 python3 sum.py -c ebook-name_processed.csv
 ```
 
-***or*** 
+## Semi-Manual with Prototypes
 
-In the following example, I've used `tools-prototype/split_pdf.py` to split the pdf not only by chapter but also subsection (producing `ebook-name_extracted.csv`), then manually process that output to place each chunk on a single line surrounded by double quote.
+In this example, I've used a prototype [split_pdf,py](tools-prototype/slit_pdf.py) to split the pdf not only by chapter but subsections (producing `ebook-name_extracted.csv`), then manually process that output (using [vscode](https://code.visualstudio.com/)) to place each chunk [on a single line](notes/depreciated/summarize.txt) surrounded by double quotes.
 
+Eventually that will be automated but provides challenges, which you will notice, that have prevented me from finishing that tool.
+
+**Split**:
+```
+tools-prototype/split_pdf.py ebook-name.pdf # produces ebook-name_extracted.csv
+```
+
+**Process**:
 ```
 python3 sum.py -t ebook-name_extracted.csv
 ```
@@ -182,7 +190,6 @@ python3 sum.py -t ebook-name_extracted.csv
 **This step generates two outputs**:
 - `ebook-name_extracted_processed_sum.md` (rendered markdown)
 - `ebook-name_extracted_processed_sum.csv` (csv with: input text, flattened md output, generation time, output length)
-
 
 ## Models
 Download from one of two sources:
