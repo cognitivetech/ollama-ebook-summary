@@ -173,7 +173,7 @@ python3 sum.py -c ebook-name_processed.csv
 
 ## Semi-Manual with Prototypes
 
-In this example, I've used a prototype [split_pdf,py](tools-prototype/slit_pdf.py) to split the pdf not only by chapter but subsections (producing `ebook-name_extracted.csv`), then manually process that output (using [vscode](https://code.visualstudio.com/)) to place each chunk [on a single line](notes/depreciated/summarize.txt) surrounded by double quotes.
+In this example, I've used a prototype [split_pdf.py](tools-prototype/split_pdf.py) to split the pdf not only by chapter but subsections (producing `ebook-name_extracted.csv`), then manually process that output (using [vscode](https://code.visualstudio.com/)) to place each chunk [on a single line](notes/depreciated/summarize.txt) surrounded by double quotes.
 
 Eventually that will be automated but provides challenges, which you will notice, that have prevented me from finishing that tool.
 
