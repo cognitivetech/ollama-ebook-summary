@@ -46,7 +46,7 @@ Its very important towards unlocking the full capabilities of LLM without relyin
 Before starting, ensure you have Python 3.11.9 installed. If not, you can use conda or pyenv to manage Python versions:
 
 **Using conda:**
-1. Install Miniconda from: https://docs.conda.io/en/latest/miniconda.html
+1. Install Anaconda from: https://www.anaconda.com/download/success
 2. Create a new environment: `conda create -n book_summary python=3.11.9`
 3. Activate the environment: `conda activate book_summary`
 
