@@ -86,14 +86,16 @@ Ensure the defaults are set accordingly
 
 ```yaml
 defaults:
-  prompt: bnotes # default prompt
+  prompt: bnotes # Default Prompt
   summary: cognitivetech/obook_summary:q5_k_m   # default model for summary
-  title: cognitivetech/obook_title:q3_k_m  # default model for title generation
+  title: cognitivetech/obook_title:q4_k_m  # default model for title generation
 prompts:
-  bnotes: # Only this prompt should go into the summary fine-tune. 
+  bnotes: # Default Prompt
     prompt: Write comprehensive bulleted notes summarizing the provided text, with
       headings and terms in bold.
-  clean:  # Other prompts from here forward go into a general purpose model
+  research: # Also for use with summary model
+    prompt: List any arguments made in this text. Include a quote demonstrating where its made.
+  clean:  # The following prompts should be used with a general purpose model.
     prompt: Repeat back this text exactly, remove only garbage characters that do
       not contribute to the flow of text. Output only the main text content, condensed
       onto a single line. If you encounter any chapter boundaries or subheadings,
@@ -105,15 +107,15 @@ prompts:
       bold with double asterisks and terms in bold also, and bullet points as `-`.
       Print the notes exactly, word-for-word, do not elaborate, do not add headings
       with #'
-  research: # The research prompt works well with the bulleted notes model
-    prompt: Does this text make any arguments? If so, list them here.
-  sum:
+  sum: # basic
     prompt: Comprehensive bulleted notes with headings and terms in bold.
   teacher:
     prompt: 'Write a list of questions that can be answered by 3rd graders who are
       reading the provided text. Topics we like to focus on include: Main idea, supporting
       details, Point of view, Theme, Sequence, Elements of fiction (setting, characters,
       BME)'
+  quotes:
+    prompt: 'write a few dozen quotes inspired by the provided text'
 title_generation:
   prompt: Write a title with fewer than 11 words to concisely describe this selection.
 ```
@@ -127,8 +129,8 @@ python3 book2text.py ebook-name.epub # or ebook-name.pdf (Epub is preferred)
 ```
 
 **This step produces two outputs**:
-a) `out/ebook-name.csv` (split by chapter or section)\
-b) `out/ebook-name_processed.csv` (chunked)
+- `out/ebook-name.csv` (split by chapter or section)
+- `out/ebook-name_processed.csv` (chunked)
 
 ***or***
 
