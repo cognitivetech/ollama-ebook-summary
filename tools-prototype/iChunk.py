@@ -19,20 +19,38 @@ def calculate_similarity(sentence1, sentence2, model):
     similarity = torch.dot(embeddings[0], embeddings[1]).item()
     return similarity
 
-# Function to split text into chunks using dynamic chunking
 def split_text(text, min_chunk_size, max_chunk_size):
     chunks = []
     current_chunk = ''
 
+    # Split by sentence
     for sentence in sent_tokenize(text):
-        if len(current_chunk) + len(sentence) <= max_chunk_size:
-            current_chunk += ' ' + sentence
-        else:
-            chunks.append(current_chunk.strip())
-            current_chunk = sentence
+        # If a single sentence is too large, split it further
+        while len(sentence) > max_chunk_size:
+            split_point = sentence[:max_chunk_size].rfind(' ')  # Find the last space before max_chunk_size
+            if split_point == -1:  # No spaces found, force split at max_chunk_size
+                split_point = max_chunk_size
+            chunks.append(sentence[:split_point].strip())
+            sentence = sentence[split_point:].strip()
 
+        # Add sentence to current chunk
+        if len(current_chunk) + len(sentence) > max_chunk_size:
+            # Finish the current chunk if it exceeds max_chunk_size
+            if len(current_chunk) >= min_chunk_size:
+                chunks.append(current_chunk.strip())
+                current_chunk = sentence
+            else:
+                # If current_chunk is too small, combine it with the next sentence
+                current_chunk += ' ' + sentence
+        else:
+            current_chunk += ' ' + sentence
+
+    # Add the last chunk if it exists
     if current_chunk:
         chunks.append(current_chunk.strip())
+
+    # Debug: Display chunk sizes for verification
+    print(f"Chunks created: {[len(chunk) for chunk in chunks]}")
 
     return chunks
 
@@ -42,6 +60,9 @@ def write_to_csv(chunks, output_file):
         fieldnames = ["title", "level", "text", "length"]
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
         writer.writeheader()
+        # Debug: Print final chunk details
+        for i, chunk in enumerate(chunks):
+            print(f"Final Chunk {i+1}: Title={chunk['title']}, Length={chunk['length']}")
         for chunk in chunks:
             writer.writerow(chunk)
 
@@ -154,35 +175,43 @@ def main():
             # Process Markdown
             title_content_pairs = process_markdown(lines, md_level)
         else:
-            # Process as plain text,treating each line as separate entry 
-            title_content_pairs=[]
+            # Process as plain text, treating each line as separate entry 
             for line in lines: 
-                line=line.strip().replace('!','.')
-                line=line.replace('%',' percent')# Replace '%' with ' percent' 
-                line=line.replace('"','')# Remove double quotes from line 
-                title=extract_title(line)
-                title_content_pairs.append((title,line,"N/A"))
- 
-        for title,content,current_level in title_content_pairs: 
-            # Preprocess content 
-            content=preprocess(content)
- 
-            # Split content into chunks 
-            line_chunks=split_text(content,min_chunk_size,max_chunk_size)
- 
-            # Check if last chunk is below 2200 characters 
-            if len(line_chunks)>1 and len(line_chunks[-1])<2200: 
-                # Combine last two chunks 
-                combined_chunk=line_chunks[-2]+' '+line_chunks[-1]
-                line_chunks=line_chunks[:-2]+[combined_chunk]
- 
-            for chunk in line_chunks: 
-                chunks.append({
-                    "title":preprocess(title),
-                    "text":chunk,
-                    "length":len(chunk),
-                    "level":current_level,
-                })
+                line = line.strip().replace('!','.').replace('%',' percent').replace('"','')
+                
+                # Extract title and content
+                if '+' in line[:150]:
+                    title, content = line.split('+', 1)
+                    title = title.strip()
+                else:
+                    title = line[:150].strip()
+                    content = line
+                    
+                # Debug prints
+                print(f"Title: {title}")
+                print(f"Content length before chunking: {len(content)}")
+                
+                # Preprocess content 
+                content = preprocess(content)
+                
+                # Split content into chunks 
+                line_chunks = split_text(content, min_chunk_size, max_chunk_size)
+                print(f"Number of chunks created: {len(line_chunks)}")
+                
+                # Check if last chunk is below 2200 characters 
+                if len(line_chunks) > 1 and len(line_chunks[-1]) < 2200: 
+                    print("Combining small last chunk")
+                    # Combine last two chunks 
+                    combined_chunk = line_chunks[-2] + ' ' + line_chunks[-1]
+                    line_chunks = line_chunks[:-2] + [combined_chunk]
+                
+                for chunk in line_chunks: 
+                    chunks.append({
+                        "title": preprocess(title),
+                        "text": chunk,
+                        "length": len(chunk),
+                        "level": "N/A"
+                    })
  
     write_to_csv(chunks,output_file)
     print(f"Chunking complete. Output saved to {output_file}")
