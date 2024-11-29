@@ -27,14 +27,15 @@ Its very important towards unlocking the full capabilities of LLM without relyin
   - [Python Environment](#python-environment)
   - [Install Dependencies](#install-dependencies)
   - [Download Models](#download-models)
-  - [Update Config File `_config.yaml`](#update-config-file-_configyaml)
+  - [Update Config File](#update-config-file-_configyaml)
 - [Usage](#usage)
   - [Convert E-book to chunked CSV or TXT](#convert-e-book-to-chunked-csv-or-txt)
   - [Generate Summary](#generate-summary)
+- [Semi-Manual with Prototypes](#semi-manual-with-prototypes)
 - [Models](#models)
   - [Ollama](#ollama)
   - [HuggingFace](#huggingface)
-- [Check your eBook for clickable ToC](#check-your-ebook-for-clickable-toc)
+- [Check your Document Outline](#check-your-ebook-for-document-outline)
   - [Firefox](#firefox)
   - [Brave](#brave)
 - [Disclaimer](#disclaimer)
@@ -218,7 +219,7 @@ There is also complete weights, lora and ggguf on huggingface
   - [cognitivetech/Mistral-7b-Inst-0.2-Bulleted-Notes_GGUF](https://huggingface.co/cognitivetech/cognitivetech/Mistral-7b-Inst-0.2-Bulleted-Notes_GGUF)
   - [cognitivetech/Mistral-7B-Inst-0.2_Bulleted-Notes_LoRA](https://huggingface.co/cognitivetech/cognitivetech/Mistral-7B-Inst-0.2_Bulleted-Notes_LoRA)
 
-## Check your eBook for clickable ToC.
+## Check your eBook for Document Outline
 
 Here you can see how to check whethere your eBook as the proper formatting, or not. **With ePub it should fail gracefully**.
 
