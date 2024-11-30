@@ -76,52 +76,97 @@ def extract_title(line):
     return title
 
 def process_markdown(lines, md_level):
+    """
+    Process markdown content and create title-content pairs based on heading levels.
+    
+    Args:
+        lines (list): List of strings containing markdown content
+        md_level (int): Maximum heading level to process (2-6)
+    
+    Returns:
+        list: List of tuples (title, content, level)
+    """
     title_content_pairs = []
     current_title = ""
     current_content = ""
-    parent_info = []
+    parent_info = []  # Tracks (heading_text, level, has_content, used_as_parent)
     current_level = 0
-
-    for line in lines:
-        stripped_line = line.strip()
-        heading_match = re.match(r'^(#{2,6})\s+(.*)', stripped_line)
-        
-        if heading_match:
-            hashes, heading_text = heading_match.groups()
-            level = len(hashes)
+    
+    # Input validation
+    if not isinstance(md_level, int) or not (2 <= md_level <= 4):
+        raise ValueError(f"md_level must be between 2 and 6, got {md_level}")
+    
+    try:
+        for line_num, line in enumerate(lines, 1):
+            stripped_line = line.strip()
+            heading_match = re.match(r'^(#{2,6})\s+(.*)', stripped_line)
             
-            # Only process headings at or above the specified md_level
-            if level <= md_level:
-                # Save previous section if exists
-                if current_title:
-                    title_content_pairs.append((current_title, current_content.strip(), current_level))
-                    if current_content.strip():
-                        parent_info[-1] = (parent_info[-1][0], parent_info[-1][1], True, parent_info[-1][3])
+            if heading_match:
+                hashes, heading_text = heading_match.groups()
+                level = len(hashes)
                 
-                # Update current title and level
-                while parent_info and parent_info[-1][1] >= level:
-                    parent_info.pop()
-                
-                if parent_info and not parent_info[-1][2] and not parent_info[-1][3]:
-                    current_title = f"{parent_info[-1][0]} > {heading_text}"
-                    current_level = parent_info[-1][1]
-                    parent_info[-1] = (parent_info[-1][0], parent_info[-1][1], parent_info[-1][2], True)
+                # Only process headings at or above the specified md_level
+                if level <= md_level:
+                    # Save previous section if exists
+                    if current_title and current_content.strip():
+                        title_content_pairs.append((
+                            current_title,
+                            current_content.strip(),
+                            current_level
+                        ))
+                        if parent_info:
+                            parent_info[-1] = (
+                                parent_info[-1][0],
+                                parent_info[-1][1],
+                                True,  # Mark as having content
+                                parent_info[-1][3]
+                            )
+                    
+                    # Update parent_info stack based on heading level
+                    while parent_info and parent_info[-1][1] >= level:
+                        parent_info.pop()
+                    
+                    # Handle nested headings
+                    if parent_info and not parent_info[-1][2] and not parent_info[-1][3]:
+                        # Create hierarchical title with parent
+                        current_title = f"{parent_info[-1][0]} > {heading_text}"
+                        current_level = parent_info[-1][1]
+                        # Mark parent as used
+                        parent_info[-1] = (
+                            parent_info[-1][0],
+                            parent_info[-1][1],
+                            parent_info[-1][2],
+                            True
+                        )
+                    else:
+                        current_title = heading_text
+                        current_level = level
+                    
+                    # Add new heading to parent_info
+                    parent_info.append((heading_text, level, False, False))
+                    current_content = ""
                 else:
-                    current_title = heading_text
-                    current_level = level
-                
-                parent_info.append((heading_text, level, False, False))
-                current_content = ""
+                    current_content += f" {stripped_line}"
             else:
                 current_content += f" {stripped_line}"
-        else:
-            current_content += f" {stripped_line}"
+        
+        # Add the final section if it exists
+        if current_title and current_content.strip():
+            title_content_pairs.append((
+                current_title,
+                current_content.strip(),
+                current_level
+            ))
+        
+        # Debug information
+        print(f"Processed {len(lines)} lines")
+        print(f"Created {len(title_content_pairs)} title-content pairs")
+        
+        return title_content_pairs
     
-    # Add the last section
-    if current_title:
-        title_content_pairs.append((current_title, current_content.strip(), current_level))
-    
-    return title_content_pairs
+    except Exception as e:
+        print(f"Error processing markdown at line {line_num}: {str(e)}")
+        raise
 
 def main():
     parser = argparse.ArgumentParser(description="Process text or Markdown file and output chunks with their lengths.")
@@ -168,12 +213,33 @@ def main():
                 "level":"N/A"
             })
     else:
-        # Determine if file is Markdown based on file extension
-        if input_file.lower().endswith('.md'):
-            if not args.md:
-                raise ValueError("Markdown file detected. Please specify the --md flag with the desired heading level.")
+        # In the main function, replace the current markdown processing with:
+        if args.md:
             # Process Markdown
             title_content_pairs = process_markdown(lines, md_level)
+            
+            # Add this section to properly create chunks from title_content_pairs
+            for title, content, level in title_content_pairs:
+                # Preprocess content
+                content = preprocess(content)
+                
+                # Split content into chunks if needed
+                if len(content) > max_chunk_size:
+                    line_chunks = split_text(content, min_chunk_size, max_chunk_size)
+                    for idx, chunk in enumerate(line_chunks):
+                        chunks.append({
+                            "title": f"{title} (part {idx+1})",
+                            "text": chunk,
+                            "length": len(chunk),
+                            "level": str(level)
+                        })
+                else:
+                    chunks.append({
+                        "title": title,
+                        "text": content,
+                        "length": len(content),
+                        "level": str(level)
+                    })
         else:
             # Process as plain text, treating each line as separate entry 
             for line in lines: 
