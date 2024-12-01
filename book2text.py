@@ -23,6 +23,7 @@ def sanitize_filename(filename):
     
     return filename
 
+
 def split_epub_by_sections(input_file, output_dir):
     """
     Split an EPUB file into multiple EPUBs by sections/chapters.
@@ -50,7 +51,10 @@ def split_epub_by_sections(input_file, output_dir):
                 
                 # Create sanitized filename
                 section_filename = sanitize_filename(section_title)
-                output_path = os.path.join(output_dir, f"{section_filename}.epub")
+                
+                # Prepend with four-digit sequential number
+                sequence_number = f"{i+1:04}"
+                output_path = os.path.join(output_dir, f"{sequence_number}_{section_filename}.epub")
                 
                 # Create new EPUB with just this section
                 with open(output_path, 'wb') as out_file:
