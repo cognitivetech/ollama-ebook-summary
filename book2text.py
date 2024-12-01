@@ -11,28 +11,60 @@ from lib.epubunz import extract_html_files
 from lib.epubsplit import SplitEpub
 from lib.pdf_splitter import split_pdf  # Add this import
 
+def sanitize_filename(filename):
+    # Remove or replace unsafe characters  
+    filename = re.sub(r'[<>:"/\\|?*]', '_', filename)
+    
+    # Trim spaces and periods from the end
+    filename = filename.rstrip('. ')
+    
+    # Ensure the filename isn't empty and doesn't exceed max length
+    filename = filename[:255] or 'untitled'
+    
+    return filename
+
 def split_epub_by_sections(input_file, output_dir):
-    try:
-        # Create SplitEpub instance
-        splitter = SplitEpub(input_file)
+    """
+    Split an EPUB file into multiple EPUBs by sections/chapters.
+    
+    Args:
+        input_file: Path to input EPUB file
+        output_dir: Directory to save split EPUB files
+    """
+    # Create output directory if it doesn't exist
+    os.makedirs(output_dir, exist_ok=True)
+    
+    # Initialize SplitEpub with input file
+    with open(input_file, 'rb') as epub_file:
+        splitter = SplitEpub(epub_file)
         
-        # Get all possible split points
+        # Get all split points/lines
         split_lines = splitter.get_split_lines()
         
-        # Split at all possible points when no specific lines provided
-        line_numbers = list(range(len(split_lines)))
-        
-        # Write split epub files to output directory
-        splitter.write_split_epub(
-            os.path.join(output_dir, "split.epub"),
-            line_numbers,
-            titleopt="Split Book"
-        )
-        return True
-        
-    except Exception as e:
-        print(f"Error splitting EPUB: {str(e)}")
-        return False
+        # Iterate through split lines to create individual EPUBs
+        for i, line in enumerate(split_lines):
+            # Only split if there's TOC text available
+            if line['toc'] and len(line['toc']) > 0:
+                # Get title from first TOC entry for this split point
+                section_title = line['toc'][0]
+                
+                # Create sanitized filename
+                section_filename = sanitize_filename(section_title)
+                output_path = os.path.join(output_dir, f"{section_filename}.epub")
+                
+                # Create new EPUB with just this section
+                with open(output_path, 'wb') as out_file:
+                    # Write split EPUB
+                    splitter.write_split_epub(
+                        out_file,
+                        linenums=[i],  # Just this section
+                        titleopt=section_title,  # Use section title
+                        authoropts=splitter.origauthors,  # Keep original authors
+                        descopt=f"Split section from {splitter.origtitle}"
+                    )
+                
+                print(f"Created: {output_path}")
+    return True
 
 
 def get_title_from_html(filepath):
@@ -57,11 +89,15 @@ def get_title_from_html(filepath):
 
 def epub_to_text(epub_path):
     book = epub.read_epub(epub_path)
-    chapters = []
+    text_content = []
     for item in book.get_items():
         if item.get_type() == ebooklib.ITEM_DOCUMENT:
-            chapters.append(item.get_content())
-    return b'\n'.join(chapters).decode('utf-8')
+            # Parse the HTML content using BeautifulSoup
+            soup = BeautifulSoup(item.get_content(), 'html.parser')
+            # Extract just the text, removing HTML tags
+            chapter_text = soup.get_text(separator=' ', strip=True)
+            text_content.append(chapter_text)
+    return '\n'.join(text_content)
 
 def html_to_text(html_path):
     with open(html_path, 'r', encoding='utf-8') as file:
@@ -129,7 +165,7 @@ def main(input_file, output_dir, output_csv):
         success = split_epub_by_sections(input_file, output_dir)  # Changed from output_directory to output_dir
         if not success:
             print("Error detected while splitting EPUB. Attempting alternative method with epubunz.py.")
-            extract_html_files(epub_path, output_dir)  # Make sure this matches too
+            extract_html_files(input_file, output_dir)  # Make sure this matches too
             file_type = 'html'
     elif file_type == 'pdf':
         from lib.pdf_splitter import split_pdf, get_toc, prepare_page_ranges
