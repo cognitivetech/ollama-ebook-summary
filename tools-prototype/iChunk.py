@@ -228,7 +228,7 @@ def main():
                     line_chunks = split_text(content, min_chunk_size, max_chunk_size)
                     for idx, chunk in enumerate(line_chunks):
                         chunks.append({
-                            "title": f"{title} (part {idx+1})",
+                            "title": f"{title})",
                             "text": chunk,
                             "length": len(chunk),
                             "level": str(level)
