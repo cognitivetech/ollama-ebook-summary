@@ -40,9 +40,9 @@ def get_model():
         _model = SentenceTransformer('all-MiniLM-L6-v2')
     return _model
 
-def semantic_chunking(text, min_chunk_size=6000, max_chunk_size=9200):
+def semantic_chunking(text, min_chunk_size=3000, max_chunk_size=9200):
     sentences = [sent.strip() for sent in re.split(r'(?<=[.!?])\s+', text) if sent.strip()]
-    model = get_model()  # Use the cached model
+    model = get_model()
     embeddings = model.encode(sentences, convert_to_tensor=True)    
     chunks = []
     current_chunk = []
@@ -52,62 +52,73 @@ def semantic_chunking(text, min_chunk_size=6000, max_chunk_size=9200):
         current_chunk.append(sentences[i])
         current_chunk_size += len(sentences[i])
         
-        if i == len(sentences) - 1 or current_chunk_size >= min_chunk_size:
-            chunk = ' '.join(current_chunk)
-            if len(chunk) < 1700 and i < len(sentences) - 1:
-                continue
-            elif i < len(sentences) - 1:
-                similarity = util.cos_sim(embeddings[i], embeddings[i+1]).item()
-                if similarity < 0.4 or current_chunk_size >= max_chunk_size:
-                    chunks.append(chunk)
-                    current_chunk = []
-                    current_chunk_size = 0
-            else:
-                chunks.append(chunk)
+        # If we haven't reached minimum size, continue adding sentences
+        if current_chunk_size < min_chunk_size:
+            continue
+            
+        # Once we reach minimum size, start looking for natural break points
+        if i < len(sentences) - 1:
+            similarity = util.cos_sim(embeddings[i], embeddings[i+1]).item()
+            
+            # Create dynamic threshold based on chunk size
+            # As we get closer to max_size, we become more willing to split
+            size_factor = (current_chunk_size - min_chunk_size) / (max_chunk_size - min_chunk_size)
+            dynamic_threshold = 0.4 + (size_factor * 0.2)  # Threshold increases from 0.4 to 0.6
+            
+            # Split if either condition is met:
+            # 1. Natural semantic break (similarity < threshold)
+            # 2. Reached maximum size
+            if similarity < dynamic_threshold or current_chunk_size >= max_chunk_size:
+                chunks.append(' '.join(current_chunk))
+                current_chunk = []
+                current_chunk_size = 0
+                
+    # Add any remaining text as the final chunk
+    if current_chunk:
+        chunks.append(' '.join(current_chunk))
     
     return chunks
 
 def process_csv(input_file):
     output_file = os.path.join(os.getcwd(), os.path.splitext(os.path.basename(input_file))[0] + '_processed.csv')
-
+    
     with open(input_file, 'r', encoding='utf-8') as file:
         reader = csv.DictReader(file)
-
+        
         with open(output_file, 'w', encoding='utf-8', newline='') as outfile:
             fieldnames = ['Title', 'Text', 'Character Count']
             writer = csv.DictWriter(outfile, fieldnames=fieldnames)
             writer.writeheader()
-
+            
+            accumulated_titles = []  # Store empty row titles
             short_text = ""
             short_title = ""
             previous_chunk = None
-
+            
             for row in reader:
-                if short_text:
-                    title = short_title + row['Title']
-                    text = short_text + row['Text']
-                    char_count = len(text)
-                    short_text = ""
-                    short_title = ""
-                else:
-                    title = row['Title']
-                    text = row['Text']
-                    char_count = int(row['Character Count'])
+                title = re.sub(r'^[0-9]+-', '', row['Title'])
+                text = row['Text']
+                char_count = len(text)
 
-                if char_count < 2300:
-                    short_text += text + " "
-                    short_title += title + " - "
-                elif char_count < 8000:
+                # If text is empty, store title and continue
+                if not text.strip():
+                    accumulated_titles.append(title)
+                    continue
+                    
+                # If we have accumulated titles, prepend them to current title
+                if accumulated_titles:
+                    title = '. '.join(accumulated_titles + [title])
+                    accumulated_titles = []  # Reset accumulated titles
+
+                if char_count < 9000:
                     processed_text = preprocess_text(text)
                     writer.writerow({'Title': title, 'Text': processed_text, 'Character Count': len(processed_text)})
-                    short_text = ""
-                    short_title = ""
-                elif char_count > 8000:
+                elif char_count > 9000:
                     processed_text = preprocess_text(text)
                     chunks = semantic_chunking(processed_text)
                     
                     for i, chunk in enumerate(chunks):
-                        if i == len(chunks) - 1 and len(chunk) < 2300 and previous_chunk:
+                        if i == len(chunks) - 1 and len(chunk) < 1900 and previous_chunk:
                             # Append the last small chunk to the previous chunk
                             combined_chunk = previous_chunk['Text'] + " " + chunk
                             writer.writerow({
@@ -116,7 +127,7 @@ def process_csv(input_file):
                                 'Character Count': len(combined_chunk)
                             })
                             previous_chunk = None
-                        elif i == len(chunks) - 1 and len(chunk) < 2300:
+                        elif i == len(chunks) - 1 and len(chunk) < 1900:
                             # If it's the last chunk and small, but no previous chunk, write it as is
                             writer.writerow({'Title': title, 'Text': chunk, 'Character Count': len(chunk)})
                         else:
@@ -135,10 +146,7 @@ def process_csv(input_file):
 
             # Handle any remaining short text
             if short_text:
-                writer.writerow({'Title': short_title.rstrip(' | '), 'Text': short_text.strip(), 'Character Count': len(short_text)})
-
-#input_csv = sys.argv[1]
-#process_csv(input_csv)
+                writer.writerow({'Title': short_title.rstrip('. '), 'Text': short_text.strip(), 'Character Count': len(short_text)})
 
 # To this:
 if __name__ == '__main__':
