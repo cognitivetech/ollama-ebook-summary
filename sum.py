@@ -144,15 +144,24 @@ def write_markdown_entry(md_out, heading: str, content: str, verbose: bool = Fal
     if verbose:
         print(markdown_text)
 
-def write_csv_header(writer, model: str):
-    """Write the header row to the CSV file."""
-    writer.writerow(["title", "gen", "text", model, "time", "len"])
+def write_csv_header(writer):
+    """Write the CSV header with the specified format."""
+    writer.writerow(["Chapter", "Heading", "Title", "Text", "Text.len", "Summary", "Summary.len", "Time"])
 
-def write_csv_entry(writer, unique_title: str, was_generated: bool, text: str, output: str, elapsed_time: float):
-    """Write a single row to the CSV file."""
-    cout = re.sub(r'\n', '\\\\n', output)
-    size = len(cout)
-    writer.writerow([unique_title, was_generated, text, cout, elapsed_time, size])
+def write_csv_entry(writer, unique_title: str, text: str, summary: str, elapsed_time: float, is_chapter: bool, heading_level: int):
+    """Write entry with the specified format."""
+    # Replace newlines with escaped newlines
+    escaped_summary = summary.replace('\n', '\\n')
+    writer.writerow([
+        is_chapter, 
+        heading_level, 
+        unique_title, 
+        text, 
+        len(text), 
+        escaped_summary, 
+        len(summary), 
+        elapsed_time
+    ])
 
 # -----------------------------
 # Processing Logic
@@ -212,28 +221,59 @@ def process_title_with_split(title, level):
         return f"{'#' * level} {parts[0]}\n\n{'#' * (level + 1)} {parts[1]}"
     return f"{'#' * level} {title}"
 
-
 def process_csv_input(input_file: str, config: Config, api_base: str, model: str, 
                      prompt_alias: str, ptitle: str, markdown_file: str, 
-                     csv_file: str, verbose: bool = False):
-    """Process CSV input files."""
-    with open(csv_file, "w", newline="", encoding='utf-8') as csv_out:
+                     csv_file: str, verbose: bool = False, continue_processing: bool = False):
+    """Process CSV input files with continuation support."""
+    
+    last_processed_title = ""
+    csv_mode = "w"
+    md_mode = "w"
+    
+    if continue_processing:
+        last_processed_title = get_last_processed_title(csv_file)
+        if last_processed_title:
+            csv_mode = "a"
+            md_mode = "a"
+    
+    with open(csv_file, csv_mode, newline="", encoding='utf-8') as csv_out:
         writer = csv.writer(csv_out)
-        write_csv_header(writer, model)
-
+        seen_titles = set()
+        if csv_mode == "w":
+            write_csv_header(writer)
+            
+        skip_until_found = continue_processing and last_processed_title
+        
         with open(input_file, "r", encoding='utf-8') as csv_in:
             reader = csv.DictReader(csv_in)
             has_level_column = 'level' in reader.fieldnames
             previous_original_title = ""
-            current_level = 2  # Start with level 2 (##)
+            current_level = 2
 
-            with open(markdown_file, "a", encoding='utf-8') as md_out:
+            with open(markdown_file, md_mode, encoding='utf-8') as md_out:
+                if md_mode == "w":
+                    # Get filename without extension for markdown header
+                    filename_no_ext = os.path.splitext(os.path.basename(input_file))[0]
+                    sanitized_model = sanitize_model_name(model)
+                    write_markdown_header(md_out, filename_no_ext, model, sanitized_model, api_base)
+                    
                 for row in reader:
                     original_title = next((row[key] for key in row if key.lower() == "title"), "").strip()
+                    
+                    # Skip rows until we find the last processed title
+                    if skip_until_found:
+                        if original_title == last_processed_title:
+                            skip_until_found = False
+                        continue
+                    
+                    # Process row as normal
                     text = next((row[key] for key in row if key.lower() == "text"), "").strip()
                     clean = sanitize_text(text)
 
-                    # Check if the current title is the same as the previous original title
+                    # Determine if this is a chapter BEFORE title generation
+                    is_chapter = original_title and original_title != previous_original_title
+
+                    # Process the entry
                     if original_title == previous_original_title:
                         unique_title, was_generated, output, elapsed_time, size, _ = process_entry(clean, "", config, previous_original_title, api_base, model, prompt_alias, ptitle)
                     else:
@@ -258,7 +298,18 @@ def process_csv_input(input_file: str, config: Config, api_base: str, model: str
 
                     write_markdown_entry(md_out, heading, output, verbose)
                     
-                    write_csv_entry(writer, unique_title, was_generated, text, output, elapsed_time)
+                    # Add title to seen titles
+                    seen_titles.add(unique_title)
+                    
+                    write_csv_entry(
+                        writer,
+                        unique_title,
+                        clean,
+                        output,
+                        elapsed_time,
+                        is_chapter,
+                        current_level
+                    )
 
                     # Update previous_original_title only if the current title wasn't generated
                     if not was_generated:
@@ -295,6 +346,23 @@ def process_text_input(input_file: str, config: Config, api_base: str, model: st
                     write_csv_entry(writer, unique_title, was_generated, clean_text, output, elapsed_time)
 
                     previous_original_title = original_title
+
+# -----------------------------
+# Continuation logic
+# -----------------------------
+
+def get_last_processed_title(csv_file: str) -> str:
+    """Get the title of the last processed row from output CSV."""
+    try:
+        with open(csv_file, "r", encoding='utf-8') as f:
+            reader = csv.reader(f)
+            next(reader)  # Skip header
+            last_title = ""
+            for row in reader:
+                last_title = row[2]  # Title is in column index 2
+            return last_title
+    except FileNotFoundError:
+        return ""
 
 # -----------------------------
 # Help Display
@@ -341,6 +409,7 @@ def main():
     parser.add_argument('-c', '--csv', action='store_true', help='Process a CSV file')
     parser.add_argument('-t', '--txt', action='store_true', help='Process a text file')
     parser.add_argument('--help', action='store_true', help='Show help message and exit')
+    parser.add_argument('--continue', action='store_true', help='Continue processing from last processed row')
     parser.add_argument('-p', '--prompt', default=config.defaults.get('prompt', 'DEFAULT_PROMPT_ALIAS'), help='Alias of the prompt to use from config')
     parser.add_argument('-v', '--verbose', action='store_true', help='Display markdown output as it is generated')
 
@@ -378,7 +447,8 @@ def main():
 
     if processing_mode == 'csv':
         process_csv_input(input_file, config, api_base, model, prompt_alias, 
-                         ptitle, markdown_file, csv_file, args.verbose)
+                         ptitle, markdown_file, csv_file, args.verbose, 
+                         getattr(args, 'continue', False))
     else:
         process_text_input(input_file, config, api_base, model, prompt_alias, 
                           ptitle, markdown_file, csv_file, args.verbose)
