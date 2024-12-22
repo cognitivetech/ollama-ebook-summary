@@ -222,8 +222,8 @@ def process_title_with_split(title, level):
     return f"{'#' * level} {title}"
 
 def process_csv_input(input_file: str, config: Config, api_base: str, model: str, 
-                     prompt_alias: str, ptitle: str, markdown_file: str, 
-                     csv_file: str, verbose: bool = False, continue_processing: bool = False):
+                    prompt_alias: str, ptitle: str, markdown_file: str, 
+                    csv_file: str, verbose: bool = False, continue_processing: bool = False):
     """Process CSV input files with continuation support."""
     
     last_processed_title = ""
@@ -316,12 +316,12 @@ def process_csv_input(input_file: str, config: Config, api_base: str, model: str
                         previous_original_title = original_title
 
 def process_text_input(input_file: str, config: Config, api_base: str, model: str, 
-                      prompt_alias: str, ptitle: str, markdown_file: str, 
-                      csv_file: str, verbose: bool = False):
+                    prompt_alias: str, ptitle: str, markdown_file: str, 
+                    csv_file: str, verbose: bool = False):
     """Process plain text input files."""
     with open(csv_file, "w", newline="", encoding='utf-8') as csv_out:
         writer = csv.writer(csv_out)
-        write_csv_header(writer, model)
+        write_csv_header(writer)
 
         with open(input_file, "r", encoding='utf-8') as txt_in:
             previous_original_title = ""
@@ -447,11 +447,11 @@ def main():
 
     if processing_mode == 'csv':
         process_csv_input(input_file, config, api_base, model, prompt_alias, 
-                         ptitle, markdown_file, csv_file, args.verbose, 
-                         getattr(args, 'continue', False))
+                        ptitle, markdown_file, csv_file, args.verbose, 
+                        getattr(args, 'continue', False))
     else:
         process_text_input(input_file, config, api_base, model, prompt_alias, 
-                          ptitle, markdown_file, csv_file, args.verbose)
+                        ptitle, markdown_file, csv_file, args.verbose)
 
     print(f"Processing completed. Output saved to {markdown_file} and {csv_file}.")
 
