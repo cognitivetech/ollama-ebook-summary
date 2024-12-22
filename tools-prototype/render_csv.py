@@ -1,6 +1,30 @@
 import csv
 import sys
 import os
+import re
+
+def sanitize_anchor(text):
+    """
+    Sanitize text to create valid markdown anchors:
+    - Convert to lowercase
+    - Replace special characters and spaces with hyphens
+    - Remove any non-alphanumeric characters (except hyphens)
+    - Remove multiple consecutive hyphens
+    - Remove leading/trailing hyphens
+    """
+    # Convert to lowercase
+    text = text.lower()
+    
+    # Replace spaces and special characters with hyphens
+    text = re.sub(r'[^a-z0-9]+', '-', text)
+    
+    # Remove multiple consecutive hyphens
+    text = re.sub(r'-+', '-', text)
+    
+    # Remove leading/trailing hyphens
+    text = text.strip('-')
+    
+    return text
 
 def generate_markdown(input_file):
     # Determine output filename
@@ -10,8 +34,8 @@ def generate_markdown(input_file):
     # Read CSV file
     with open(input_file, 'r', newline='', encoding='utf-8') as csvfile:
         reader = csv.DictReader(csvfile)
-        if 'Title' not in reader.fieldnames or 'Summary' not in reader.fieldnames:
-            raise ValueError("CSV must contain 'Title' and 'Summary' columns")
+        if 'title' not in reader.fieldnames or 'summary' not in reader.fieldnames:
+            raise ValueError("CSV must contain 'title' and 'summary' columns")
 
         # Generate TOC and content
         toc = ["## Table of Contents"]
@@ -19,23 +43,22 @@ def generate_markdown(input_file):
         content.append("")
 
         for i, row in enumerate(reader, start=1):
-            title = row['Title']
-            summary = row['Summary']
+            title = row['title']
+            summary = row['summary']
             
-            # Generate anchor for TOC
-            anchor = title.lower().replace(' ', '-')
+            # Generate sanitized anchor for TOC
+            anchor = sanitize_anchor(title)
             toc.append(f"- [{title}](#{anchor})")
 
-            # Add content
+            # Add content with a single heading
             content.append(f"### {title}")
-            content.append(f"#### {anchor}")
             content.append("")
             content.append(summary)
             content.append("")
 
         # Write to output file
         with open(output_file, 'w', encoding='utf-8') as outfile:
-            outfile.write('\n'.join(toc + content))
+            outfile.write('\n'.join(toc + [""] + content))
 
     print(f"Markdown file generated: {output_file}")
 
