@@ -1,5 +1,4 @@
-import os
-import re
+import re, os
 import torch
 import nltk
 import csv
@@ -14,6 +13,107 @@ import pdfplumber  # For PDF handling
 # Ensure NLTK resources are available
 nltk.download('punkt')
 
+from pylatexenc.latex2text import LatexNodes2Text
+import requests
+from pathlib import Path
+from urllib.parse import urlparse
+
+def replace_latex_with_text(content):
+    """Replace LaTeX math expressions with their text representations wrapped in special delimiters."""
+    converter = LatexNodes2Text()
+
+    def clean_text(text):
+        """Clean up LaTeX artifacts after conversion."""
+        text = re.sub(r'%\s*$', '', text, flags=re.MULTILINE)
+        text = re.sub(r'\$\s*Mathematical Expression:\s*\$\s*', '', text)
+        text = text.replace('\\top', '^T')
+        text = text.replace('×', 'x')
+        text = text.replace('∈', 'in')
+        text = text.replace('ℝ', 'R')
+        text = text.replace('\\', '')
+        text = re.sub(r'\^{?(.*?)}?', r'^\1', text)
+        text = re.sub(r'_{?(.*?)}?', r'_\1', text)
+        text = re.sub(r'$\)', '', text)
+        text = re.sub(r'\^T$$\($⊤', r'^T', text)
+        text = re.sub(r'^\\$', '', text, flags=re.MULTILINE)
+        return text.strip()
+
+    def replace_math(match):
+        latex = match.group(1)
+        try:
+            converted = converter.latex_to_text(latex)
+            cleaned = clean_text(converted)
+            # Wrap mathematical expressions in special delimiters
+            return f'«math»{cleaned}«/math»'
+        except Exception as e:
+            print(f"Error converting LaTeX: {latex} - {str(e)}")
+            return f'«math»{clean_text(latex)}«/math»'
+
+    # Replace display math ($...$) with extra newlines for block equations
+    content = re.sub(r'\$\$(.*?)\$\$', lambda m: '\n' + replace_math(m) + '\n', content, flags=re.DOTALL)
+
+    # Replace inline math ($...$)
+    content = re.sub(r'\$(.*?)\$', replace_math, content)
+
+    # Final cleanup of the entire content
+    content = clean_text(content)
+
+    return content
+
+def download_and_remove_images(content, base_output_dir):
+    """Download remote images to output directory and remove image references from content."""
+    
+    # Create output directory if it doesn't exist
+    output_dir = Path(base_output_dir)
+    output_dir.mkdir(parents=True, exist_ok=True)
+    
+    def download_image(url, filename):
+        """Helper function to download image"""
+        try:
+            response = requests.get(url, timeout=10)
+            response.raise_for_status()
+            
+            output_path = output_dir / filename
+            with open(output_path, 'wb') as f:
+                f.write(response.content)
+            return True
+        except Exception as e:
+            print(f"Failed to download {url}: {str(e)}")
+            return False
+
+    # Handle markdown images ![alt](url) - MODIFIED REGEX
+    def process_md_image(match):
+        url = match.group(2)
+        if url.startswith(('http://', 'https://')):
+            # Check if the URL likely points to an image
+            if any(url.lower().endswith(ext) for ext in ('.jpg', '.jpeg', '.png', '.gif', '.bmp', '.svg')):
+                filename = os.path.basename(urlparse(url).path)
+                if download_image(url, filename):
+                    print(f"Downloaded: {url} -> {filename}")
+                return ''  # Remove the image reference if downloaded
+            else:
+                return match.group(0) # Return the original link if not an image
+        return match.group(0) # Return the original link if not an external URL
+
+    # More standard markdown image regex
+    content = re.sub(r'!$(.*?)$$(https?://.*?)$', process_md_image, content)
+
+    # Handle HTML img tags
+    def process_html_image(match):
+        src_match = re.search(r'src=["\'](https?://[^\'"]+)["\']', match.group(0))
+        if src_match:
+            url = src_match.group(1)
+            filename = os.path.basename(urlparse(url).path)
+            if download_image(url, filename):
+                print(f"Downloaded: {url} -> {filename}")
+        return ''  # Remove the img tag
+    
+    content = re.sub(r'<img\s+[^>]*>', process_html_image, content)
+    
+    # Remove SVG tags and content (since these are typically inline)
+    content = re.sub(r'<svg.*?</svg>', '', content, flags=re.DOTALL)
+    
+    return content
 
 def safe_file_operations(func):
     """Decorator to handle common file operation exceptions."""
@@ -31,7 +131,6 @@ def safe_file_operations(func):
             print(f"Error occurred at:\n{traceback.format_exc()}")
         return None
     return wrapper
-
 
 @safe_file_operations
 def read_file(file_path):
@@ -112,14 +211,15 @@ def split_text(text, min_chunk_size, max_chunk_size):
 
 
 class FileChunkProcessor:
-    """Class to process files and chunk the content."""
-
-    def __init__(self, input_file, md_level=3, use_raw=False, min_chunk_size=6500, max_chunk_size=7500):
+    def __init__(self, input_file, md_level=3, use_raw=False, min_chunk_size=6500, 
+                 max_chunk_size=7500, process_latex=True, process_images=True):
         self.input_file = input_file
         self.md_level = md_level
         self.use_raw = use_raw
         self.min_chunk_size = min_chunk_size
         self.max_chunk_size = max_chunk_size
+        self.process_latex = process_latex
+        self.process_images = process_images
         self.output_file = os.path.join(
             os.getcwd(),
             os.path.splitext(os.path.basename(input_file))[0] + '_chunked.csv'
@@ -267,6 +367,21 @@ class FileChunkProcessor:
 
     def process_markdown_text(self, lines):
         """Handle markdown processing and chunking."""
+        # Join lines into a single content string for preprocessing
+        content = '\n'.join(lines)
+
+        # Create images directory if processing images
+        if self.process_images:
+            images_dir = os.path.join(os.path.dirname(self.output_file), 'images')
+            content = download_and_remove_images(content, images_dir)
+
+        # Process LaTeX if enabled
+        if self.process_latex:
+            content = replace_latex_with_text(content)
+
+        # Split back into lines for markdown processing
+        lines = content.split('\n')
+
         title_content_pairs = self.process_markdown(lines)
 
         for title, content, level in title_content_pairs:
@@ -374,8 +489,9 @@ def parse_arguments():
     parser.add_argument('--raw', action='store_true', help='Process the entire file as raw text and chunk it')
     parser.add_argument('-m', '--min', type=int, default=6500, help='Minimum chunk size (default: 6500)')
     parser.add_argument('-x', '--max', type=int, default=7500, help='Maximum chunk size (default: 7500)')
+    parser.add_argument('--no-latex', action='store_true', help='Disable LaTeX conversion')
+    parser.add_argument('--no-images', action='store_true', help='Disable image downloading and removal')
     return parser.parse_args()
-
 
 def main():
     args = parse_arguments()
@@ -385,11 +501,12 @@ def main():
         md_level=args.md,
         use_raw=args.raw,
         min_chunk_size=args.min,
-        max_chunk_size=args.max
+        max_chunk_size=args.max,
+        process_latex=not args.no_latex,
+        process_images=not args.no_images
     )
 
     processor.run()
-
 
 if __name__ == '__main__':
     main()
