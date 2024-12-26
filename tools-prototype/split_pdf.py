@@ -91,7 +91,7 @@ def extract_pdf_to_csv_and_images(pdf_path):
                 csv_writer.writerow(['page', 'text'])
 
             total_pages = len(reader.pages)
-            current_section = "No Section"
+            current_section = ""
             current_level = 0
             section_index = 0
             next_section_page = sections[section_index][1] if sections else None

@@ -7,7 +7,7 @@ prompts:
     prompt: Write comprehensive bulleted notes summarizing the provided text, with
       headings and terms in bold.
   research: # Also for use with summary model
-    prompt: List any arguments made in this text. Include a quote demonstrating where its made.
+    prompt: Does this text make any arguments? If so list them here.
   clean:  # The following prompts should be used with a general purpose model.
     prompt: Repeat back this text exactly, remove only garbage characters that do
       not contribute to the flow of text. Output only the main text content, condensed
