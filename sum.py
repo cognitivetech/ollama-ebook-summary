@@ -225,55 +225,59 @@ def process_csv_input(input_file: str, config: Config, api_base: str, model: str
                     prompt_alias: str, ptitle: str, markdown_file: str, 
                     csv_file: str, verbose: bool = False, continue_processing: bool = False):
     """Process CSV input files with continuation support."""
-    
-    last_processed_title = ""
-    csv_mode = "w"
-    md_mode = "w"
-    
+
+    last_processed_text = ""
+    mode = "w"
+
     if continue_processing:
-        last_processed_title = get_last_processed_title(csv_file)
-        if last_processed_title:
-            csv_mode = "a"
-            md_mode = "a"
-    
-    with open(csv_file, csv_mode, newline="", encoding='utf-8') as csv_out:
+        last_processed_text = get_last_processed_text(csv_file, 'csv')  # Changed from title to text
+        if last_processed_text:
+            mode = "a"
+            print(f"Continuing from text: {last_processed_text[:50]}...")  # Debug line, showing first 50 chars
+
+    with open(csv_file, mode, newline="", encoding='utf-8') as csv_out:
         writer = csv.writer(csv_out)
         seen_titles = set()
-        if csv_mode == "w":
+        if mode == "w":
             write_csv_header(writer)
-            
-        skip_until_found = continue_processing and last_processed_title
-        
+
+        skip_until_found = continue_processing and last_processed_text
+        found_last_text = not skip_until_found  # Changed from title to text
+
         with open(input_file, "r", encoding='utf-8') as csv_in:
             reader = csv.DictReader(csv_in)
             has_level_column = 'level' in reader.fieldnames
             previous_original_title = ""
             current_level = 2
 
-            with open(markdown_file, md_mode, encoding='utf-8') as md_out:
-                if md_mode == "w":
-                    # Get filename without extension for markdown header
+            with open(markdown_file, mode, encoding='utf-8') as md_out:
+                if mode == "w":
                     filename_no_ext = os.path.splitext(os.path.basename(input_file))[0]
                     sanitized_model = sanitize_model_name(model)
                     write_markdown_header(md_out, filename_no_ext, model, sanitized_model, api_base)
-                    
+
                 for row in reader:
-                    original_title = next((row[key] for key in row if key.lower() == "title"), "").strip()
-                    
-                    # Skip rows until we find the last processed title
-                    if skip_until_found:
-                        if original_title == last_processed_title:
-                            skip_until_found = False
-                        continue
-                    
-                    # Process row as normal
                     text = next((row[key] for key in row if key.lower() == "text"), "").strip()
                     clean = sanitize_text(text)
+
+                    # Skip rows until we find the last processed text
+                    if skip_until_found:
+                        if clean == last_processed_text:
+                            skip_until_found = False
+                            found_last_text = True
+                            print(f"Found last processed text: {last_processed_text[:50]}...")  # Debug line
+                            continue
+                        continue
+
+                    if not found_last_text:
+                        continue
+
+                    # Process row as normal
+                    original_title = next((row[key] for key in row if key.lower() == "title"), "").strip()
 
                     # Determine if this is a chapter BEFORE title generation
                     is_chapter = original_title and original_title != previous_original_title
 
-                    # Process the entry
                     if original_title == previous_original_title:
                         unique_title, was_generated, output, elapsed_time, size, _ = process_entry(clean, "", config, previous_original_title, api_base, model, prompt_alias, ptitle)
                     else:
@@ -316,23 +320,49 @@ def process_csv_input(input_file: str, config: Config, api_base: str, model: str
                         previous_original_title = original_title
 
 def process_text_input(input_file: str, config: Config, api_base: str, model: str, 
-                    prompt_alias: str, ptitle: str, markdown_file: str, 
-                    csv_file: str, verbose: bool = False):
-    """Process plain text input files."""
-    with open(csv_file, "w", newline="", encoding='utf-8') as csv_out:
+                      prompt_alias: str, ptitle: str, markdown_file: str, 
+                      csv_file: str, verbose: bool = False, 
+                      continue_processing: bool = False):
+    """Process plain text input files with continuation support."""
+    mode = "a" if continue_processing else "w"
+    last_processed_text = ""
+
+    if continue_processing:
+        last_processed_text = get_last_processed_text(csv_file, 'txt')  # Changed from title to text
+        print(f"DEBUG: Continuing from text: {last_processed_text[:50]}...")
+
+    with open(csv_file, mode, newline="", encoding='utf-8') as csv_out:
         writer = csv.writer(csv_out)
-        write_csv_header(writer)
+        if mode == "w":
+            write_csv_header(writer)
 
         with open(input_file, "r", encoding='utf-8') as txt_in:
             previous_original_title = ""
+            looking_for_start = bool(continue_processing and last_processed_text)
+            print(f"DEBUG: looking_for_start initial state: {looking_for_start}")
 
-            with open(markdown_file, "a", encoding='utf-8') as md_out:
+            with open(markdown_file, mode, encoding='utf-8') as md_out:
+                if mode == "w":
+                    filename_no_ext = os.path.splitext(os.path.basename(input_file))[0]
+                    sanitized_model = sanitize_model_name(model)
+                    write_markdown_header(md_out, filename_no_ext, model, sanitized_model, api_base)
+
                 for line in txt_in:
                     trimmed = line.strip().strip('()')
                     clean = sanitize_text(trimmed)
-                    
                     extracted_title = clean[:150].strip().split('+')[0].strip()
-                    unique_title, was_generated, output, elapsed_time, size, original_title = process_entry(clean, extracted_title, config, previous_original_title, api_base, model, prompt_alias, ptitle)
+                    if looking_for_start:
+                        if clean == last_processed_text:
+                            print("DEBUG: Found matching text, resuming processing")
+                            looking_for_start = False
+                        else:
+                            print("DEBUG: Skipping this text")
+                        continue
+
+                    unique_title, was_generated, output, elapsed_time, size, original_title = process_entry(
+                        clean, extracted_title, config, previous_original_title, 
+                        api_base, model, prompt_alias, ptitle
+                    )
                     unique_title = unique_title.strip('"')
 
                     # Remove the title and the '+' from the text
@@ -342,8 +372,7 @@ def process_text_input(input_file: str, config: Config, api_base: str, model: st
 
                     heading = f"#### {unique_title}" if was_generated else f"### {unique_title}"
                     write_markdown_entry(md_out, heading, output, verbose)
-                    
-                    write_csv_entry(writer, unique_title, was_generated, clean_text, output, elapsed_time)
+                    write_csv_entry(writer, unique_title, clean_text, output, elapsed_time, False, 3)
 
                     previous_original_title = original_title
 
@@ -351,17 +380,21 @@ def process_text_input(input_file: str, config: Config, api_base: str, model: st
 # Continuation logic
 # -----------------------------
 
-def get_last_processed_title(csv_file: str) -> str:
-    """Get the title of the last processed row from output CSV."""
+def get_last_processed_text(csv_file: str, file_type: str) -> str:
+    """Get the text of the last processed entry from the CSV file."""
     try:
-        with open(csv_file, "r", encoding='utf-8') as f:
+        with open(csv_file, 'r', newline='', encoding='utf-8') as f:
             reader = csv.reader(f)
-            next(reader)  # Skip header
-            last_title = ""
+            headers = next(reader)  # Skip header row
+            text_col_idx = 3
+
+            last_row = None
             for row in reader:
-                last_title = row[2]  # Title is in column index 2
-            return last_title
-    except FileNotFoundError:
+                if row:  # Skip empty rows
+                    last_row = row
+
+            return last_row[text_col_idx] if last_row else ""
+    except (FileNotFoundError, IndexError):
         return ""
 
 # -----------------------------
@@ -412,8 +445,6 @@ def main():
     parser.add_argument('--continue', action='store_true', help='Continue processing from last processed row')
     parser.add_argument('-p', '--prompt', default=config.defaults.get('prompt', 'DEFAULT_PROMPT_ALIAS'), help='Alias of the prompt to use from config')
     parser.add_argument('-v', '--verbose', action='store_true', help='Display markdown output as it is generated')
-
-    # Make input_file optional
     parser.add_argument('input_file', nargs='?', help='Input file path')
 
     args = parser.parse_args()
@@ -422,7 +453,6 @@ def main():
         display_help()
         sys.exit(0)
 
-    # Check if input_file is provided when not using --help
     if not args.input_file:
         handle_error("Error: Input file is required when not using --help.")
 
@@ -435,6 +465,7 @@ def main():
     prompt_alias = args.prompt
     api_base = "http://localhost:11434/api"
     ptitle = config.title_prompt
+    should_continue = getattr(args, 'continue', False)
 
     filename = os.path.basename(input_file)
     filename_no_ext, _ = os.path.splitext(filename)
@@ -442,18 +473,20 @@ def main():
     markdown_file = f"{filename_no_ext}_{sanitized_model}.md"
     csv_file = f"{filename_no_ext}_{sanitized_model}.csv"
 
-    with open(markdown_file, "w", encoding='utf-8') as md_out:
-        write_markdown_header(md_out, filename_no_ext, model, sanitized_model, api_base)
+    # Only write fresh markdown header if not continuing
+    if not should_continue:
+        with open(markdown_file, "w", encoding='utf-8') as md_out:
+            write_markdown_header(md_out, filename_no_ext, model, sanitized_model, api_base)
 
     if processing_mode == 'csv':
         process_csv_input(input_file, config, api_base, model, prompt_alias, 
                         ptitle, markdown_file, csv_file, args.verbose, 
-                        getattr(args, 'continue', False))
+                        should_continue)
     else:
         process_text_input(input_file, config, api_base, model, prompt_alias, 
-                        ptitle, markdown_file, csv_file, args.verbose)
+                        ptitle, markdown_file, csv_file, args.verbose,
+                        should_continue)
 
     print(f"Processing completed. Output saved to {markdown_file} and {csv_file}.")
-
 if __name__ == "__main__":
     main()
