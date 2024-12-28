@@ -34,8 +34,9 @@ def generate_markdown(input_file):
     # Read CSV file
     with open(input_file, 'r', newline='', encoding='utf-8') as csvfile:
         reader = csv.DictReader(csvfile)
-        if 'title' not in reader.fieldnames or 'summary' not in reader.fieldnames:
-            raise ValueError("CSV must contain 'title' and 'summary' columns")
+        fieldnames_lower = [field.lower() for field in reader.fieldnames]
+        if 'title' not in fieldnames_lower or 'summary' not in fieldnames_lower:
+            raise ValueError("CSV must contain 'title' and 'summary' columns (case-insensitive)")
 
         # Generate TOC and content
         toc = ["## Table of Contents"]
@@ -43,8 +44,8 @@ def generate_markdown(input_file):
         content.append("")
 
         for i, row in enumerate(reader, start=1):
-            title = row['title']
-            summary = row['summary']
+            title = next(row[k] for k in row if k.lower() == 'title')
+            summary = next(row[k] for k in row if k.lower() == 'summary')
             
             # Generate sanitized anchor for TOC
             anchor = sanitize_anchor(title)
