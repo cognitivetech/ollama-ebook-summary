@@ -44,14 +44,26 @@ def get_outline_sections(outline, reader, sections=None, level=0):
 
 def get_document_title(reader, pdf_path):
     """
-    Attempt to get the document title from PDF metadata or filename.
-    Returns cleaned filename if no metadata title is found.
+    Attempt to get the document title in order of preference:
+    1. PDF metadata title
+    2. First outline item if it appears on page 1
+    3. Cleaned filename as fallback
     """
     # Try to get title from PDF metadata
-    if reader.metadata and '/Title' in reader.metadata and reader.metadata['/Title']:
-        return reader.metadata['/Title'].strip()
+    try:
+        if reader.metadata and reader.metadata.get('/Title'):
+            return reader.metadata['/Title'].strip()
 
-    # Fall back to filename, cleaned of special characters
+        # Check if there's an outline and its first item is on page 1
+        outline = check_pdf_outline(pdf_path)
+        if outline:
+            sections = get_outline_sections(outline, reader)
+            if sections and sections[0][1] == 0:  # page 0 is first page
+                return sections[0][0].strip()
+    except Exception as e:
+        print(f"Warning: Error accessing PDF metadata: {e}")
+
+    # Fall back to filename if no title found in metadata or outline
     base_name = os.path.splitext(os.path.basename(pdf_path))[0]
     clean_name = re.sub(r'[-_]', ' ', base_name).strip()
     return clean_name
