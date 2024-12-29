@@ -42,78 +42,96 @@ def get_outline_sections(outline, reader, sections=None, level=0):
 
     return sections
 
+def get_document_title(reader, pdf_path):
+    """
+    Attempt to get the document title from PDF metadata or filename.
+    Returns cleaned filename if no metadata title is found.
+    """
+    # Try to get title from PDF metadata
+    if reader.metadata and '/Title' in reader.metadata and reader.metadata['/Title']:
+        return reader.metadata['/Title'].strip()
+
+    # Fall back to filename, cleaned of special characters
+    base_name = os.path.splitext(os.path.basename(pdf_path))[0]
+    clean_name = re.sub(r'[-_]', ' ', base_name).strip()
+    return clean_name
+
 def extract_pdf_to_csv_and_images(pdf_path):
     """
     Extract text and images from the PDF. Split text by page and by sections defined in the PDF outline.
     If no outline is present, print each page on a single line with newlines replaced by double spaces.
     """
-    # Check if the PDF file exists
     if not os.path.exists(pdf_path):
         print(f"Error: The file '{pdf_path}' does not exist.")
         return
 
-    # Create output CSV filename based on input PDF name
     base_name = os.path.splitext(os.path.basename(pdf_path))[0]
     csv_path = f"{base_name}_extracted.csv"
 
-    # Prepare image extraction
-    images_extracted = False
     images_folder = os.path.join('out', base_name, 'images')
     os.makedirs(images_folder, exist_ok=True)
     image_count = 0
+    images_extracted = False
 
-    # Open the PDF file
     try:
         reader = PdfReader(pdf_path)
     except Exception as e:
         print(f"Error reading PDF file: {e}")
         return
 
-    # Extract and process outline
+    # Get document title
+    document_title = get_document_title(reader, pdf_path)
+
     outline = check_pdf_outline(pdf_path)
     sections = []
     if outline:
         sections = get_outline_sections(outline, reader)
         if sections:
-            # Sort sections by starting page number
             sections = sorted(sections, key=lambda x: x[1])
     else:
         print("No outline found in the PDF. Proceeding with page-based extraction.")
 
-    # Open the CSV file for writing
     try:
         with open(csv_path, 'w', newline='', encoding='utf-8') as csvfile:
             csv_writer = csv.writer(csvfile)
-            
+
+            # Headers
             if sections:
-                csv_writer.writerow(['title', 'level', 'page', 'text'])
+                csv_writer.writerow(['titles', 'levels', 'page', 'text'])
             else:
                 csv_writer.writerow(['page', 'text'])
 
             total_pages = len(reader.pages)
-            current_section = ""
-            current_level = 0
             section_index = 0
-            next_section_page = sections[section_index][1] if sections else None
+            current_title = document_title
+            current_level = "0"  # Root level for document title
 
             for page_num in range(total_pages):
                 page = reader.pages[page_num]
-                
-                # Check if current page is the start of a new section (only if outline exists)
-                if sections and next_section_page is not None and page_num >= next_section_page:
-                    current_section, _, current_level = sections[section_index]
+
+                # Collect all sections that start on this page
+                current_sections_for_page = []
+                while (sections and 
+                       section_index < len(sections) and 
+                       page_num >= sections[section_index][1]):
+                    current_sections_for_page.append(sections[section_index])
                     section_index += 1
-                    next_section_page = sections[section_index][1] if section_index < len(sections) else None
+
+                # Update current title and level if new sections are found
+                if current_sections_for_page:
+                    current_title = "; ".join(replace_quotes(section[0]) 
+                                           for section in current_sections_for_page)
+                    current_level = "; ".join(str(section[2]) 
+                                           for section in current_sections_for_page)
 
                 # Extract text from the page
                 text = page.extract_text() or ""
-                # Replace newlines with double spaces
                 text = re.sub(r'\n', r'\\n', text)
 
                 # Write the content to the CSV
                 if sections:
                     csv_writer.writerow([
-                        replace_quotes(current_section),
+                        current_title,
                         current_level,
                         page_num + 1,
                         replace_quotes(text)
@@ -121,7 +139,7 @@ def extract_pdf_to_csv_and_images(pdf_path):
                 else:
                     csv_writer.writerow([page_num + 1, replace_quotes(text)])
 
-                # Extract images from the page (image extraction code remains unchanged)
+                # Image extraction code (unchanged)
                 if '/XObject' in page['/Resources']:
                     xobjects = page['/Resources']['/XObject'].get_object()
                     for obj_name in xobjects:
@@ -131,7 +149,7 @@ def extract_pdf_to_csv_and_images(pdf_path):
                             if '/Filter' in obj:
                                 filter_type = obj['/Filter']
                                 if isinstance(filter_type, list):
-                                    filter_type = filter_type[0]  # Handle array filters
+                                    filter_type = filter_type[0]
                                 if filter_type == '/DCTDecode':
                                     ext = 'jpg'
                                 elif filter_type == '/JPXDecode':
@@ -145,11 +163,9 @@ def extract_pdf_to_csv_and_images(pdf_path):
                             else:
                                 ext = 'bin'
 
-                            # Name the image with page number before base name
                             image_filename = f"{page_num + 1:03d}_{base_name}_img{image_count + 1:02d}.{ext}"
                             image_path = os.path.join(images_folder, image_filename)
 
-                            # Write image data to file
                             try:
                                 with open(image_path, 'wb') as img_file:
                                     img_file.write(obj.get_data())
