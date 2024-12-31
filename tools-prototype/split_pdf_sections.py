@@ -194,7 +194,8 @@ def process_intermediate_csv(input_csv: str, output_csv: str, unwind_pages: bool
                             'titles': heading,
                             'levels': str(level),
                             'page': page_num,
-                            'text': remaining_content
+                            'text': remaining_content,
+                            'len': get_text_length(remaining_content)  # Add length here
                         })
                         accumulated_length += content_length
                         current_section_idx += 1
@@ -207,7 +208,8 @@ def process_intermediate_csv(input_csv: str, output_csv: str, unwind_pages: bool
                             'titles': heading,
                             'levels': str(level),
                             'page': page_num,
-                            'text': remaining_content[:split_point]
+                            'text': remaining_content[:split_point],
+                            'len': get_text_length(remaining_content[:split_point])  # Add length here
                         })
                         current_section_offset += split_point
                         break
@@ -222,7 +224,8 @@ def process_intermediate_csv(input_csv: str, output_csv: str, unwind_pages: bool
                     'titles': heading,
                     'levels': str(level),
                     'page': f"{group_pages[0]}-{group_pages[-1]}" if len(group_pages) > 1 else str(group_pages[0]),
-                    'text': content
+                    'text': content,
+                    'len': get_text_length(content)  # Add length here                    
                 })
 
     # Create final DataFrame and save
