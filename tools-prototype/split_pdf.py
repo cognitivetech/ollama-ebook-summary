@@ -474,15 +474,30 @@ def process_pdf_to_sections(pdf_path: str, unwind_pages: bool = False):
     # Step 1: Extract PDF content
     extract_pdf_to_csv_and_images(pdf_path)
 
-    # Step 2: Process sections
-    process_intermediate_csv(intermediate_csv, final_csv, unwind_pages=unwind_pages)
-
-    # Clean up intermediate file
+    # Step 2: Check if 'titles' column exists in the intermediate CSV
     try:
-        os.remove(intermediate_csv)
-        print(f"Cleaned up intermediate file: {intermediate_csv}")
+        df = pd.read_csv(intermediate_csv)
     except Exception as e:
-        print(f"Warning: Could not remove intermediate file: {e}")
+        print(f"Error reading intermediate CSV file '{intermediate_csv}': {e}")
+        return
+
+    if 'titles' in df.columns and 'levels' in df.columns:
+        # Proceed with intermediate processing
+        process_intermediate_csv(intermediate_csv, final_csv, unwind_pages=unwind_pages)
+
+        # Clean up intermediate file
+        try:
+            os.remove(intermediate_csv)
+            print(f"Cleaned up intermediate file: {intermediate_csv}")
+        except Exception as e:
+            print(f"Warning: Could not remove intermediate file: {e}")
+    else:
+        # No 'titles' column; skip intermediate processing and rename intermediate CSV to final CSV
+        try:
+            print(f"No outline found. Skipped intermediate processing.")
+            print(f"Final CSV is the same as the extracted CSV: '{intermediate_csv}'")
+        except Exception as e:
+            print(f"Error renaming intermediate CSV to final CSV: {e}")
 
 def main():
     import argparse
