@@ -8,13 +8,15 @@ from pathlib import Path
 try:
     max_int = sys.maxsize
     while True:
-        # Attempt to set the maximum field size limit, reducing if necessary
-        csv.field_size_limit(max_int)
-        break
-except OverflowError:
-    max_int = int(max_int / 10)  # Reduce the size and retry
-    csv.field_size_limit(max_int)
-
+        try:
+            # Attempt to set the maximum field size limit
+            csv.field_size_limit(max_int)
+            break  # Break the loop if successful
+        except OverflowError:
+            # Reduce max_int and retry
+            max_int = int(max_int / 10)
+except Exception as e:
+    print(f"Unexpected error while setting field size limit: {e}")
 
 def setup_transformer_cache():
     # Set up cache directory in user's home folder
