@@ -1,47 +1,41 @@
-import os
-import sys
-import csv
-import time
-import re
-import json
-import requests
-import argparse
-import yaml
+import os, sys, csv, time, re, json, yaml
+import requests, argparse, traceback
 from typing import Dict, Any, Tuple, Optional
-
-# -----------------------------
-# Configuration Management
-# -----------------------------
-
-import os
+from urllib.parse import urljoin
+from pathlib import Path
 
 class Config:
     """Centralized access to configuration parameters."""
 
     def __init__(self, config_path: str = None):
-        # Determine the directory of the current script
-        script_dir = os.path.dirname(os.path.abspath(__file__))
-        
-        # Default config path is in the same directory as the script
+        # Use Path for cross-platform path handling
+        script_dir = Path(__file__).parent.absolute()
+
+        # Default config path using Path for proper path joining
         if config_path is None:
-            config_path = os.path.join(script_dir, "_config.yaml")
-        
+            config_path = script_dir / "_config.yaml"
+        else:
+            config_path = Path(config_path)
+
         self.config = self.load_config(config_path)
         self.prompts = self.config.get('prompts', {})
         self.title_prompt = self.config.get('title_generation', {}).get('prompt', "Default title prompt.")
         self.defaults = self.config.get('defaults', {})
 
     @staticmethod
-    def load_config(config_path: str) -> dict:
+    def load_config(config_path: Path) -> dict:
         """Load configuration from a YAML file."""
         try:
-            with open(config_path, 'r', encoding='utf-8') as file:
+            with config_path.open('r', encoding='utf-8') as file:
                 return yaml.safe_load(file)
         except FileNotFoundError:
             print(f"Configuration file {config_path} not found.")
             sys.exit(1)
         except yaml.YAMLError as e:
             print(f"Error parsing the configuration file: {e}")
+            sys.exit(1)
+        except PermissionError:
+            print(f"Permission denied when accessing {config_path}")
             sys.exit(1)
 
     def get_prompt(self, alias: str) -> str:
@@ -56,9 +50,25 @@ class Config:
 # Error Handling
 # -----------------------------
 
-def handle_error(message: str, exit: bool = True):
-    """Handle errors by printing a message and optionally exiting."""
-    print(message)
+def handle_error(message: str, details: Dict[str, Any] = None, exit: bool = True):
+    """
+    Handle errors by printing a detailed message and optionally exiting.
+
+    Args:
+        message: Main error message
+        details: Dictionary containing additional error details
+        exit: Whether to exit the program
+    """
+    print("\n=== ERROR DETAILS ===")
+    print(f"Error: {message}")
+
+    if details:
+        print("\n--- Additional Details ---")
+        for key, value in details.items():
+            print(f"{key}: {value}")
+
+    print("=====================\n")
+
     if exit:
         sys.exit(1)
 
@@ -67,15 +77,53 @@ def handle_error(message: str, exit: bool = True):
 # -----------------------------
 
 def make_api_request(api_base: str, endpoint: str, payload: Dict[str, Any]) -> Optional[Dict[str, Any]]:
-    """Make a POST request to the specified API endpoint with error handling."""
+    """Make a POST request to the specified API endpoint with detailed error handling."""
+    full_url = urljoin(api_base + "/", endpoint)
+
     try:
-        response = requests.post(f"{api_base}/{endpoint}", json=payload)
+        response = requests.post(full_url, json=payload)
         response.raise_for_status()
         return response.json()
+
     except requests.RequestException as e:
-        handle_error(f"API request error: {e}", exit=False)
-    except json.JSONDecodeError:
-        handle_error(f"Invalid JSON response: {response.text}", exit=False)
+        error_details = {
+            "Request URL": full_url,
+            "Request Method": "POST",
+            "Request Headers": dict(response.request.headers),
+            "Request Payload": payload,
+            "Response Status": getattr(response, 'status_code', None),
+            "Response Headers": getattr(response, 'headers', {}),
+            "Response Body": getattr(response, 'text', ''),
+            "Exception Type": type(e).__name__,
+            "Exception Message": str(e)
+        }
+        handle_error("API request failed", error_details, exit=False)
+
+    except json.JSONDecodeError as e:
+        error_details = {
+            "Request URL": full_url,
+            "Request Method": "POST",
+            "Request Headers": dict(response.request.headers),
+            "Request Payload": payload,
+            "Response Status": response.status_code,
+            "Response Headers": dict(response.headers),
+            "Raw Response": response.text,
+            "JSON Error": str(e),
+            "JSON Error Position": f"line {e.lineno}, column {e.colno}"
+        }
+        handle_error("Failed to parse JSON response", error_details, exit=False)
+
+    except Exception as e:
+        error_details = {
+            "Request URL": full_url,
+            "Request Method": "POST",
+            "Request Payload": payload,
+            "Exception Type": type(e).__name__,
+            "Exception Message": str(e),
+            "Traceback": traceback.format_exc()
+        }
+        handle_error("Unexpected error during API request", error_details, exit=False)
+
     return None
 
 # -----------------------------
@@ -174,7 +222,7 @@ def process_entry(clean_text: str, title: str, config: Config, previous_original
     # Choose the appropriate prompt based on text length
     if len(clean_text) < 1000:
         prompt = config.get_prompt("concise")
-        model = "mq83"
+        model = config.defaults.get('general', model)  # Falls back to passed model if 'general' not found
     else:
         prompt = config.get_prompt(prompt_alias)
 
