@@ -1,6 +1,7 @@
 defaults:
   prompt: bnotes
-  summary: cognitivetech/obook_summary:q5_k_m   # default model for summary
+  summary: cognitivetech/obook_summary:q5_k_m # default model for summary
+  general: llama3.1
   title: cognitivetech/obook_title:q4_k_m  # default model for title generation
 prompts:
   bnotes: # Default Prompt
