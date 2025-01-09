@@ -5,6 +5,18 @@ import os, sys, csv, re, pandas as pd
 from PyPDF2 import PdfReader
 from difflib import SequenceMatcher
 from typing import List, Dict, Tuple, Optional
+import logging
+
+# Configure logging at the beginning of your script
+logging.basicConfig(
+    level=logging.DEBUG,  # Set to DEBUG to capture all levels of log messages
+    format='%(asctime)s - %(levelname)s - %(message)s',
+    handlers=[
+        logging.StreamHandler(sys.stdout),  # Logs will be output to the console
+        # You can also log to a file by uncommenting the next line
+        # logging.FileHandler('debug.log'),
+    ]
+)
 
 def split_text_by_headings(text: str, row_headings: List[str]) -> List[Tuple[str, str]]:
     """
@@ -18,6 +30,7 @@ def split_text_by_headings(text: str, row_headings: List[str]) -> List[Tuple[str
     Returns:
         List[Tuple[str, str]]: A list of (heading, text) pairs.
     """
+    logging.debug("Starting split_text_by_headings")
     lines = text.replace('\\n', '\n').split('\n')
     sections: List[Tuple[str, str]] = []
     found_any_heading = False
@@ -31,18 +44,21 @@ def split_text_by_headings(text: str, row_headings: List[str]) -> List[Tuple[str
         Handles empty sections by combining with next section's heading.
         """
         nonlocal current_heading, current_content_lines, pending_empty_headings
+        logging.debug(f"Finalizing section: Heading='{current_heading}', Content Lines Count={len(current_content_lines)}")
 
         if current_heading is not None:
             joined_content = '\\n'.join(current_content_lines)
 
             if not joined_content.strip():
                 # If current section is empty, add to pending headings
+                logging.debug(f"Empty content detected for heading '{current_heading}'. Adding to pending_empty_headings.")
                 pending_empty_headings.append(current_heading)
             else:
                 # If we have pending empty headings, combine them with current heading
                 if pending_empty_headings:
                     combined_heading = ' > '.join(pending_empty_headings + [current_heading])
-                    pending_empty_headings = []  # Clear pending headings
+                    logging.debug(f"Combining pending headings {pending_empty_headings} with current heading '{current_heading}' into '{combined_heading}'.")
+                    pending_empty_headings.clear()  # Clear pending headings
                 else:
                     combined_heading = current_heading
 
@@ -50,12 +66,15 @@ def split_text_by_headings(text: str, row_headings: List[str]) -> List[Tuple[str
                 if sections and sections[-1][0] == combined_heading:
                     prev_heading, prev_text = sections[-1]
                     sections[-1] = (prev_heading, prev_text + '\\n' + joined_content)
+                    logging.debug(f"Appending content to existing section '{combined_heading}'.")
                 else:
                     sections.append((combined_heading, joined_content))
+                    logging.debug(f"Adding new section: Heading='{combined_heading}', Content Length={len(joined_content)}")
 
         current_content_lines = []
 
-    for line in lines:
+    for line_num, line in enumerate(lines, start=1):
+        original_line = line  # Keep the original line for debugging
         line = line.strip()
         if not line:
             continue
@@ -85,16 +104,19 @@ def split_text_by_headings(text: str, row_headings: List[str]) -> List[Tuple[str
 
     # Handle any remaining pending empty headings
     if pending_empty_headings and sections:
-        # Combine remaining empty headings with the last section
+        combined_heading = ' > '.join(pending_empty_headings + [sections[-1][0]])
+        logging.debug(f"Remaining pending_empty_headings {pending_empty_headings}. Combining with last section heading '{sections[-1][0]}' into '{combined_heading}'.")
         last_heading, last_content = sections[-1]
-        combined_heading = ' > '.join(pending_empty_headings + [last_heading])
         sections[-1] = (combined_heading, last_content)
+        pending_empty_headings.clear()
 
     # If no headings were found at all, return entire text as one section
     if not found_any_heading and row_headings:
         full_text = '\\n'.join(lines)
         sections = [(row_headings[0], full_text)]
+        logging.debug(f"No headings found in text. Returning single section with heading '{row_headings[0]}'.")
 
+    logging.debug(f"Completed split_text_by_headings with {len(sections)} sections.")
     return sections
 
 def get_text_length(text: str) -> int:
@@ -116,21 +138,21 @@ def process_intermediate_csv(input_csv: str, output_csv: str, unwind_pages: bool
     i = 0
     while i < len(df):
         # Start a new group
-        current_titles = df.iloc[i]['titles']
-        current_levels = df.iloc[i]['levels']
+        current_titles = df.iloc[i]['title']
+        current_levels = df.iloc[i]['level']
         group_pages = []
         group_text = []
         original_lengths = []
 
         # Collect all consecutive rows with same headings
-        while i < len(df) and df.iloc[i]['titles'] == current_titles:
+        while i < len(df) and df.iloc[i]['title'] == current_titles:
             # [existing code for collecting group data]
             current_text = df.iloc[i]['text']
 
             if i + 1 < len(df):
                 next_row = df.iloc[i + 1]
                 next_text = next_row['text']
-                next_titles = next_row['titles'].split(';')
+                next_titles = next_row['title'].split(';')
 
                 # Find first heading occurrence in next_text
                 first_heading_pos = -1
@@ -192,8 +214,8 @@ def process_intermediate_csv(input_csv: str, output_csv: str, unwind_pages: bool
 
                     if is_last_page or accumulated_length + content_length <= target_length:
                         page_sections.append({
-                            'titles': heading,
-                            'levels': str(level),
+                            'title': heading,
+                            'level': str(level),
                             'page': page_num,
                             'text': remaining_content,
                             'len': get_text_length(remaining_content)  # Add length here
@@ -206,8 +228,8 @@ def process_intermediate_csv(input_csv: str, output_csv: str, unwind_pages: bool
                         split_point = find_split_point(remaining_content, available_length)
 
                         page_sections.append({
-                            'titles': heading,
-                            'levels': str(level),
+                            'title': heading,
+                            'level': str(level),
                             'page': page_num,
                             'text': remaining_content[:split_point],
                             'len': get_text_length(remaining_content[:split_point])  # Add length here
@@ -222,8 +244,8 @@ def process_intermediate_csv(input_csv: str, output_csv: str, unwind_pages: bool
                 first_heading = heading.split(' > ')[0].strip()
                 level = row_levels[row_headings.index(first_heading)]
                 final_sections.append({
-                    'titles': heading,
-                    'levels': str(level),
+                    'title': heading,
+                    'level': str(level),
                     'page': f"{group_pages[0]}-{group_pages[-1]}" if len(group_pages) > 1 else str(group_pages[0]),
                     'text': content,
                     'len': get_text_length(content)  # Add length here                    
@@ -367,7 +389,7 @@ def extract_pdf_to_csv_and_images(pdf_path):
 
             # Headers
             if sections:
-                csv_writer.writerow(['titles', 'levels', 'page', 'text'])
+                csv_writer.writerow(['title', 'level', 'page', 'text'])
             else:
                 csv_writer.writerow(['page', 'text'])
 
@@ -481,7 +503,7 @@ def process_pdf_to_sections(pdf_path: str, unwind_pages: bool = False):
         print(f"Error reading intermediate CSV file '{intermediate_csv}': {e}")
         return
 
-    if 'titles' in df.columns and 'levels' in df.columns:
+    if 'title' in df.columns and 'level' in df.columns:
         # Proceed with intermediate processing
         process_intermediate_csv(intermediate_csv, final_csv, unwind_pages=unwind_pages)
 
