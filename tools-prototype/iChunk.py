@@ -169,7 +169,7 @@ def read_csv_file(file_path):
     with open(file_path, 'r', encoding='utf-8') as csvf:
         reader = csv.DictReader(csvf)
         # Basic sanity check for expected columns
-        expected_cols = {"title", "level", "page", "text", "len"}
+        expected_cols = {"title", "level", "text"}
         if not expected_cols.issubset(reader.fieldnames):
             raise ValueError("CSV must contain columns: title, level, page, text, len.")
         for row in reader:
@@ -340,19 +340,24 @@ class FileChunkProcessor:
         current_content = ""
         parent_info = []  # Tracks (heading_text, level, has_content, used_as_parent)
         current_level = 0
-
-        # Input validation
-        if not isinstance(self.md_level, int) or not (2 <= self.md_level <= 6):
-            raise ValueError(f"md_level must be between 2 and 6, got {self.md_level}")
+        first_h1_found = False  # Flag to track if we've seen the first H1
 
         try:
             for line_num, line in enumerate(lines, 1):
                 stripped_line = line.strip()
-                heading_match = re.match(r'^(#{2,6})\s+(.*)', stripped_line)
+                # Modified regex to capture H1-H6 headings
+                heading_match = re.match(r'^(#{1,6})\s+(.*)', stripped_line)
 
                 if heading_match:
                     hashes, heading_text = heading_match.groups()
                     level = len(hashes)
+                    
+                    # Special handling for H1
+                    if level == 1:
+                        if not first_h1_found:
+                            level = 2  # Treat first H1 as H2
+                            first_h1_found = True
+                        # else: keep it as H1
 
                     if level <= self.md_level:
                         if current_title and current_content.strip():
@@ -500,7 +505,7 @@ class FileChunkProcessor:
                     self.chunks.append({
                         "title": row["title"],
                         "level": row["level"],
-                        "page": row["page"],
+                        "page": row.get("page", ""),
                         "text": chunk,
                         "len": len(chunk)
                     })
@@ -508,7 +513,7 @@ class FileChunkProcessor:
                 self.chunks.append({
                     "title": row["title"],
                     "level": row["level"],
-                    "page": row["page"],
+                    "page": row.get("page", ""),
                     "text": content,
                     "len": len(content)
                 })
