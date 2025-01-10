@@ -9,14 +9,25 @@ from sentence_transformers import SentenceTransformer
 from nltk.tokenize import sent_tokenize
 import chardet
 import pdfplumber  # For PDF handling
-
-# Ensure NLTK resources are available
-nltk.download('punkt')
-
 from pylatexenc.latex2text import LatexNodes2Text
 import requests
 from pathlib import Path
 from urllib.parse import urlparse
+
+# Check and handle NLTK resources
+def check_nltk_resources():
+    """Check if NLTK punkt tokenizer is available and download if needed."""
+    try:
+        # Get the NLTK data path
+        nltk_data_path = nltk.data.find('tokenizers/punkt')
+        print(f"NLTK punkt tokenizer found at: {nltk_data_path}")
+    except LookupError:
+        print("NLTK punkt tokenizer not found. Downloading...")
+        nltk.download('punkt')
+        print("Download complete.")
+
+# Call the function
+check_nltk_resources()
 
 def replace_latex_with_text(content):
     """Replace LaTeX math expressions with their text representations wrapped in special delimiters."""
@@ -151,6 +162,19 @@ def read_file(file_path):
         with open(file_path, 'r', encoding=encoding) as f:
             return f.readlines()
 
+@safe_file_operations
+def read_csv_file(file_path):
+    """Reads CSV input with columns: title, level, page, text, len."""
+    rows = []
+    with open(file_path, 'r', encoding='utf-8') as csvf:
+        reader = csv.DictReader(csvf)
+        # Basic sanity check for expected columns
+        expected_cols = {"title", "level", "page", "text", "len"}
+        if not expected_cols.issubset(reader.fieldnames):
+            raise ValueError("CSV must contain columns: title, level, page, text, len.")
+        for row in reader:
+            rows.append(row)
+    return rows
 
 def preprocess(text):
     """Remove extra spaces and trim the text."""
@@ -209,10 +233,18 @@ def split_text(text, min_chunk_size, max_chunk_size):
 
     return cleaned_chunks
 
-
 class FileChunkProcessor:
-    def __init__(self, input_file, md_level=3, use_raw=False, min_chunk_size=6500, 
-                 max_chunk_size=7500, process_latex=True, process_images=True):
+    def __init__(
+        self,
+        input_file,
+        md_level=3,
+        use_raw=False,
+        min_chunk_size=6500,
+        max_chunk_size=7500,
+        process_latex=True,
+        process_images=True,
+        csv_mode=False
+    ):
         self.input_file = input_file
         self.md_level = md_level
         self.use_raw = use_raw
@@ -220,10 +252,23 @@ class FileChunkProcessor:
         self.max_chunk_size = max_chunk_size
         self.process_latex = process_latex
         self.process_images = process_images
-        self.output_file = os.path.join(
-            os.getcwd(),
-            os.path.splitext(os.path.basename(input_file))[0] + '_chunked.csv'
-        )
+        self.csv_mode = csv_mode
+
+        # Output file name
+        base_filename = os.path.splitext(os.path.basename(input_file))[0]
+        if not csv_mode:
+            # Non-CSV outputs keep the old style
+            self.output_file = os.path.join(
+                os.getcwd(),
+                base_filename + '_chunked.csv'
+            )
+        else:
+            # For CSV mode, also create a similarly named file with _chunked suffix
+            self.output_file = os.path.join(
+                os.getcwd(),
+                base_filename + '_chunked.csv'
+            )
+
         self.chunks = []
         self.model = self.load_model()
 
@@ -238,12 +283,7 @@ class FileChunkProcessor:
     def determine_processing_mode(self, lines):
         """
         Determine whether to process raw or markdown based on file type and user flags.
-
-        Args:
-            lines (list): List of lines from the input file.
-
-        Returns:
-            str: 'raw' or 'markdown'
+        Only called for non-CSV modes.
         """
         if self.use_raw:
             return 'raw'
@@ -440,35 +480,102 @@ class FileChunkProcessor:
                     "level": "N/A"
                 })
 
+    def process_csv_file(self, csv_rows):
+        """
+        Processes CSV rows with columns [title, level, page, text, len]. 
+        Splits text as needed
+        """
+        for row in csv_rows:
+            # We'll do the same chunk splitting approach used elsewhere:
+            original_text = row["text"]
+            content = preprocess(original_text)
+
+            # Clean up math tags from CSV input if present
+            content = self.remove_math_tags(content)
+
+            # If text is bigger than max_chunk_size, we chunk it
+            if len(content) > self.max_chunk_size:
+                line_chunks = split_text(content, self.min_chunk_size, self.max_chunk_size)
+                for chunk in line_chunks:
+                    self.chunks.append({
+                        "title": row["title"],
+                        "level": row["level"],
+                        "page": row["page"],
+                        "text": chunk,
+                        "len": len(chunk)
+                    })
+            else:
+                self.chunks.append({
+                    "title": row["title"],
+                    "level": row["level"],
+                    "page": row["page"],
+                    "text": content,
+                    "len": len(content)
+                })
+
     def write_output(self):
-        """Write the processed chunks to a CSV file."""
+        """Write the processed data to a CSV file with standardized columns."""
+        fieldnames = ["title", "level", "page", "text", "len"]
+
         with open(self.output_file, 'w', newline='', encoding='utf-8') as csvfile:
-            fieldnames = ["title", "level", "text", "length"]
             writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
             writer.writeheader()
-            for idx, chunk in enumerate(self.chunks, start=1):
-                print(f"Final Chunk {idx}: Title={chunk['title']}, Length={chunk['length']}")
-                writer.writerow(chunk)
-        print(f"Chunking complete. Output saved to {self.output_file}")
+
+            if self.csv_mode:
+                # CSV input - already in correct format
+                for chunk in self.chunks:
+                    writer.writerow(chunk)
+
+            elif self.use_raw:
+                # Raw text mode - simple output
+                for chunk in self.chunks:
+                    writer.writerow({
+                        "title": "",
+                        "level": "",
+                        "page": "1",  # Default page number
+                        "text": chunk["text"],
+                        "len": chunk["length"]
+                    })
+
+            else:
+                # PDF with outline or Markdown mode
+                for chunk in self.chunks:
+                    writer.writerow({
+                        "title": chunk.get("title", ""),
+                        "level": chunk.get("level", ""),
+                        "page": chunk.get("page", "1"),  # Default to page 1 if not specified
+                        "text": chunk.get("text", ""),
+                        "len": chunk.get("length", len(chunk.get("text", "")))
+                    })
+
+            print(f"Processing complete. Output saved to {self.output_file}")
 
     def run(self):
         """Execute the processing workflow."""
         try:
-            lines = read_file(self.input_file)
-            if lines is None:
-                print("Failed to read the input file.")
-                sys.exit(1)
-
-            mode = self.determine_processing_mode(lines)
-            print(f"Processing mode determined: {mode}")
-
-            if mode == 'raw':
-                self.process_raw_text(lines)
-            elif mode == 'markdown':
-                self.process_markdown_text(lines)
+            if self.csv_mode:
+                # We read CSV differently
+                csv_rows = read_csv_file(self.input_file)
+                if not csv_rows:
+                    print("Failed to read or parse the CSV input.")
+                    sys.exit(1)
+                self.process_csv_file(csv_rows)
             else:
-                print(f"Unknown processing mode: {mode}")
-                sys.exit(1)
+                lines = read_file(self.input_file)
+                if lines is None:
+                    print("Failed to read the input file.")
+                    sys.exit(1)
+
+                mode = self.determine_processing_mode(lines)
+                print(f"Processing mode determined: {mode}")
+
+                if mode == 'raw':
+                    self.process_raw_text(lines)
+                elif mode == 'markdown':
+                    self.process_markdown_text(lines)
+                else:
+                    print(f"Unknown processing mode: {mode}")
+                    sys.exit(1)
 
             self.write_output()
 
@@ -480,17 +587,17 @@ class FileChunkProcessor:
             print(f"Stack trace:\n{traceback.format_exc()}")
             sys.exit(1)
 
-
 def parse_arguments():
     """Parse command-line arguments."""
-    parser = argparse.ArgumentParser(description="Process text or Markdown file and output chunks with their lengths.")
-    parser.add_argument('input_file', type=str, help='Path to the input text or Markdown file')
+    parser = argparse.ArgumentParser(description="Process text, Markdown, PDF, or CSV files and output chunks.")
+    parser.add_argument('input_file', type=str, help='Path to the input file (text, MD, PDF, or CSV)')
     parser.add_argument('--md', type=int, default=3, help='Markdown heading level to split on (default: 3)')
     parser.add_argument('--raw', action='store_true', help='Process the entire file as raw text and chunk it')
     parser.add_argument('-m', '--min', type=int, default=6500, help='Minimum chunk size (default: 6500)')
     parser.add_argument('-x', '--max', type=int, default=7500, help='Maximum chunk size (default: 7500)')
     parser.add_argument('--no-latex', action='store_true', help='Disable LaTeX conversion')
     parser.add_argument('--no-images', action='store_true', help='Disable image downloading and removal')
+    parser.add_argument('--csv', action='store_true', help='Process the input as a CSV file with certain columns')
     return parser.parse_args()
 
 def main():
@@ -503,7 +610,8 @@ def main():
         min_chunk_size=args.min,
         max_chunk_size=args.max,
         process_latex=not args.no_latex,
-        process_images=not args.no_images
+        process_images=not args.no_images,
+        csv_mode=args.csv
     )
 
     processor.run()
