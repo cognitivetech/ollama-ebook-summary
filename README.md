@@ -66,13 +66,13 @@ pip install -r requirements.txt
 
 #### 1. **Download a copy of Mistral Instruct v0.2 Bulleted Notes Fine-Tune**
 
-`ollama pull cognitivetech/obook_summary:q5_k_m`
+`ollama pull cognitivetech/obook_summary:q6_k`
 
-#### 2. **Set up a title model**
+#### 2. **Download up a title model**
 
 ##### a) *Download a preconfigured model*
 
-`ollama pull cognitivetech/obook_title:q3_k_m`
+`ollama pull cognitivetech/obook_title:q4_k_m`
 
 For your convenience Mistral 7b 0.3 is packaged with the necessary message history for title creation. 
 
@@ -80,21 +80,27 @@ For your convenience Mistral 7b 0.3 is packaged with the necessary message histo
 
 ##### b) *Append this* [message history](Modelfile) *to the Modelfile of your choice*
 
+#### 3. **Download a general-purpose model**
+`ollama pull gemma2`
+
 ### Update Config File `_config.yaml`
 
-Ensure the defaults are set accordingly 
+Ensure the defaults are set accordingly! 
+
+> This is an area subject to change which may differ from the documentation. **Make sure you have the models on your system as noted in `summary`, `general`, and `title` in the current [_config.yaml](./_config.yaml).** I have to clean up this aspect of the code, but I'm still working on that.
 
 ```yaml
 defaults:
-  prompt: bnotes # Default Prompt
-  summary: cognitivetech/obook_summary:q5_k_m   # default model for summary
+  prompt: bnotes
+  summary: cognitivetech/obook_summary:q6_k
+  general: gemma2
   title: cognitivetech/obook_title:q4_k_m  # default model for title generation
 prompts:
   bnotes: # Default Prompt
     prompt: Write comprehensive bulleted notes summarizing the provided text, with
       headings and terms in bold.
   research: # Also for use with summary model
-    prompt: List any arguments made in this text. Include a quote demonstrating where its made.
+    prompt: Does this text make any arguments? If so list them here.
   clean:  # The following prompts should be used with a general purpose model.
     prompt: Repeat back this text exactly, remove only garbage characters that do
       not contribute to the flow of text. Output only the main text content, condensed
