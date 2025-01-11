@@ -92,9 +92,9 @@ Ensure the defaults are set accordingly!
 ```yaml
 defaults:
   prompt: bnotes
-  summary: cognitivetech/obook_summary:q6_k
-  general: gemma2
-  title: cognitivetech/obook_title:q4_k_m  # default model for title generation
+  summary: cognitivetech/obook_summary:q6_k # default model for summaries
+  general: gemma2                           # default model for basic summary
+  title: cognitivetech/obook_title:q4_k_m   # default model for title generation
 prompts:
   bnotes: # Default Prompt
     prompt: Write comprehensive bulleted notes summarizing the provided text, with
