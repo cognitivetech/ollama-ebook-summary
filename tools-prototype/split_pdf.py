@@ -126,136 +126,167 @@ def get_text_length(text: str) -> int:
 def process_intermediate_csv(input_csv: str, output_csv: str, unwind_pages: bool = False):
     """
     Process the intermediate CSV, grouping consecutive rows with same headings.
-
-    Args:
-        input_csv (str): Path to input CSV file
-        output_csv (str): Path to output CSV file
-        unwind_pages (bool): If True, unwind sections back to original pages. If False, keep sections combined.
+    Added type checking and enhanced logging.
     """
-    df = pd.read_csv(input_csv)
-    final_sections = []
+    logging.info(f"Starting to process CSV: {input_csv}")
+    
+    try:
+        df = pd.read_csv(input_csv)
+        logging.info(f"Successfully loaded CSV with {len(df)} rows")
+        final_sections = []
 
-    i = 0
-    while i < len(df):
-        # Start a new group
-        current_titles = df.iloc[i]['title']
-        current_levels = df.iloc[i]['level']
-        group_pages = []
-        group_text = []
-        original_lengths = []
+        i = 0
+        while i < len(df):
+            try:
+                # Start a new group
+                current_titles = str(df.iloc[i]['title'])  # Ensure string type
+                current_levels = df.iloc[i]['level']
+                logging.debug(f"Processing group starting at row {i} with titles: {current_titles}")
+                
+                group_pages = []
+                group_text = []
+                original_lengths = []
 
-        # Collect all consecutive rows with same headings
-        while i < len(df) and df.iloc[i]['title'] == current_titles:
-            # [existing code for collecting group data]
-            current_text = df.iloc[i]['text']
+                # Collect all consecutive rows with same headings
+                while i < len(df) and str(df.iloc[i]['title']) == current_titles:
+                    current_text = str(df.iloc[i]['text'])  # Ensure string type
+                    
+                    if i + 1 < len(df):
+                        next_row = df.iloc[i + 1]
+                        next_text = str(next_row['text'])  # Ensure string type
+                        next_titles = str(next_row['title']).split(';')
+                        
+                        logging.debug(f"Checking next row {i+1} for heading matches")
+                        
+                        # Find first heading occurrence in next_text
+                        first_heading_pos = -1
 
-            if i + 1 < len(df):
-                next_row = df.iloc[i + 1]
-                next_text = next_row['text']
-                next_titles = next_row['title'].split(';')
+                        # In process_intermediate_csv function, modify the heading matching section:
+                        for heading in next_titles:
+                            heading = heading.strip()
+                            pattern = r'(?:\d+(?:\.\d+)*\s*)?' + re.escape(heading)
+                            try:
+                                # Add detailed type checking and logging
+                                if not isinstance(next_text, str):
+                                    logging.error(f"TypeError: next_text is type {type(next_text)} with value: {next_text}")
+                                    logging.error(f"Current row: {i}, Next row: {i+1}")
+                                    logging.error(f"Current heading being processed: {heading}")
+                                    # Convert to string to continue processing
+                                    next_text = str(next_text)
+                                
+                                match = re.search(pattern, next_text, re.IGNORECASE)
+                                if match:
+                                    first_heading_pos = match.start()
+                                    logging.debug(f"Found heading '{heading}' at position {first_heading_pos}")
+                                    break
+                            except Exception as e:
+                                logging.error(f"Error processing heading '{heading}' with text type {type(next_text)}")
+                                logging.error(f"Text value causing error: {next_text}")
+                                logging.error(f"Full error: {str(e)}")
+                                logging.error(f"Stack trace:", exc_info=True)
+                                continue
 
-                # Find first heading occurrence in next_text
-                first_heading_pos = -1
-                for heading in next_titles:
-                    heading = heading.strip()
-                    pattern = r'(?:\d+(?:\.\d+)*\s*)?' + re.escape(heading)
-                    match = re.search(pattern, next_text, re.IGNORECASE)
-                    if match:
-                        first_heading_pos = match.start()
-                        break
+                        # Handle text before first heading
+                        if first_heading_pos > 0:
+                            preceding_text = next_text[:first_heading_pos].strip()
+                            if preceding_text:
+                                logging.debug(f"Found preceding text of length {len(preceding_text)}")
+                                current_text = current_text + '\\n' + preceding_text
+                                df.at[i + 1, 'text'] = next_text[first_heading_pos:].strip()
 
-                # If text appears before first heading, it belongs to previous section
-                if first_heading_pos > 0:
-                    preceding_text = next_text[:first_heading_pos].strip()
-                    if preceding_text:
-                        current_text = current_text + '\\n' + preceding_text
-                        # Update next row's text to remove the preceding portion
-                        df.at[i + 1, 'text'] = next_text[first_heading_pos:].strip()
+                    group_pages.append(df.iloc[i]['page'])
+                    text_length = get_text_length(current_text)
+                    logging.debug(f"Added text of length {text_length} from page {df.iloc[i]['page']}")
+                    original_lengths.append(text_length)
+                    group_text.append(current_text)
+                    i += 1
 
-            group_pages.append(df.iloc[i]['page'])
-            original_lengths.append(get_text_length(current_text))
-            group_text.append(current_text)
-            i += 1
+                # Combine text from all pages in group
+                combined_text = '\\n'.join(group_text)
 
-        # Combine text from all pages in group
-        combined_text = '\n'.join(group_text)
+                # Get headings and levels for this group
+                row_headings = [t.strip() for t in current_titles.split(';')]
+                if isinstance(current_levels, str):
+                    row_levels = [int(l) for l in current_levels.split(';')]
+                else:
+                    row_levels = [int(current_levels)] * len(row_headings)
 
-        # Get headings and levels for this group
-        row_headings = [t.strip() for t in current_titles.split(';')]
-        if isinstance(current_levels, str):
-            row_levels = [int(l) for l in current_levels.split(';')]
-        else:
-            row_levels = [int(current_levels)] * len(row_headings)
+                # Split combined text into sections
+                sections = split_text_by_headings(combined_text, row_headings)
 
-        # Split combined text into sections
-        sections = split_text_by_headings(combined_text, row_headings)
+                if unwind_pages:
+                    # Redistribute sections back to original pages
+                    current_section_idx = 0
+                    current_section_offset = 0
 
-        if unwind_pages:
-            # Redistribute sections back to original pages
-            current_section_idx = 0
-            current_section_offset = 0
+                    for page_idx, page_num in enumerate(group_pages):
+                        page_sections = []
+                        accumulated_length = 0
+                        target_length = original_lengths[page_idx]
+                        is_last_page = page_idx == len(group_pages) - 1
 
-            for page_idx, page_num in enumerate(group_pages):
-                page_sections = []
-                accumulated_length = 0
-                target_length = original_lengths[page_idx]
+                        while (current_section_idx < len(sections) and 
+                               (is_last_page or accumulated_length < target_length)):
+                            heading, content = sections[current_section_idx]
+                            first_heading = heading.split(' > ')[0].strip()
+                            level = row_levels[row_headings.index(first_heading)]
 
-                # [existing unwinding logic]
-                is_last_page = page_idx == len(group_pages) - 1
+                            remaining_content = content[current_section_offset:]
+                            content_length = get_text_length(remaining_content)
 
-                while (current_section_idx < len(sections) and 
-                       (is_last_page or accumulated_length < target_length)):
-                    heading, content = sections[current_section_idx]
-                    first_heading = heading.split(' > ')[0].strip()
-                    level = row_levels[row_headings.index(first_heading)]
+                            if is_last_page or accumulated_length + content_length <= target_length:
+                                page_sections.append({
+                                    'title': heading,
+                                    'level': str(level),
+                                    'page': page_num,
+                                    'text': remaining_content,
+                                    'len': get_text_length(remaining_content)
+                                })
+                                accumulated_length += content_length
+                                current_section_idx += 1
+                                current_section_offset = 0
+                            else:
+                                available_length = target_length - accumulated_length
+                                split_point = find_split_point(remaining_content, available_length)
 
-                    remaining_content = content[current_section_offset:]
-                    content_length = get_text_length(remaining_content)
+                                page_sections.append({
+                                    'title': heading,
+                                    'level': str(level),
+                                    'page': page_num,
+                                    'text': remaining_content[:split_point],
+                                    'len': get_text_length(remaining_content[:split_point])
+                                })
+                                current_section_offset += split_point
+                                break
 
-                    if is_last_page or accumulated_length + content_length <= target_length:
-                        page_sections.append({
+                        final_sections.extend(page_sections)
+                else:
+                    # Keep sections combined (don't unwind to pages)
+                    for heading, content in sections:
+                        first_heading = heading.split(' > ')[0].strip()
+                        level = row_levels[row_headings.index(first_heading)]
+                        final_sections.append({
                             'title': heading,
                             'level': str(level),
-                            'page': page_num,
-                            'text': remaining_content,
-                            'len': get_text_length(remaining_content)  # Add length here
+                            'page': f"{group_pages[0]}-{group_pages[-1]}" if len(group_pages) > 1 else str(group_pages[0]),
+                            'text': content,
+                            'len': get_text_length(content)
                         })
-                        accumulated_length += content_length
-                        current_section_idx += 1
-                        current_section_offset = 0
-                    else:
-                        available_length = target_length - accumulated_length
-                        split_point = find_split_point(remaining_content, available_length)
 
-                        page_sections.append({
-                            'title': heading,
-                            'level': str(level),
-                            'page': page_num,
-                            'text': remaining_content[:split_point],
-                            'len': get_text_length(remaining_content[:split_point])  # Add length here
-                        })
-                        current_section_offset += split_point
-                        break
+            except Exception as e:
+                logging.error(f"Error processing row {i}: {e}")
+                i += 1  # Move to next row
+                continue
 
-                final_sections.extend(page_sections)
-        else:
-            # Keep sections combined (don't unwind to pages)
-            for heading, content in sections:
-                first_heading = heading.split(' > ')[0].strip()
-                level = row_levels[row_headings.index(first_heading)]
-                final_sections.append({
-                    'title': heading,
-                    'level': str(level),
-                    'page': f"{group_pages[0]}-{group_pages[-1]}" if len(group_pages) > 1 else str(group_pages[0]),
-                    'text': content,
-                    'len': get_text_length(content)  # Add length here                    
-                })
+        # Create final DataFrame and save
+        final_df = pd.DataFrame(final_sections)
+        final_df.to_csv(output_csv, index=False)
+        logging.info(f"Successfully created final sections CSV: {output_csv}")
+        logging.info(f"Total sections processed: {len(final_sections)}")
 
-    # Create final DataFrame and save
-    final_df = pd.DataFrame(final_sections)
-    final_df.to_csv(output_csv, index=False)
-    print(f"Created final sections CSV: {output_csv}")
-    print(f"Total sections: {len(final_sections)}")
+    except Exception as e:
+        logging.error(f"Fatal error processing CSV: {e}")
+        raise
 
 def find_split_point(text: str, target_length: int) -> int:
     """Find appropriate point to split text, preferring natural breaks"""
