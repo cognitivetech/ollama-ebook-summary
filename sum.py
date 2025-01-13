@@ -194,7 +194,7 @@ def write_markdown_entry(md_out, heading: str, content: str, verbose: bool = Fal
 
 def write_csv_header(writer):
     """Write the CSV header with the specified format."""
-    writer.writerow(["Chapter", "Heading", "Title", "Text", "Text.len", "Summary", "Summary.len", "Time"])
+    writer.writerow(["chapter", "level", "title", "text", "text.len", "summary", "summary.len", "time"])
 
 def write_csv_entry(writer, unique_title: str, text: str, summary: str, elapsed_time: float, is_chapter: bool, heading_level: int):
     """Write entry with the specified format."""
@@ -248,7 +248,7 @@ def process_entry(clean_text: str, title: str, config: Config, previous_original
 
 def sanitize_model_name(model: str) -> str:
     # Truncate everything before '/' if present
-    model = model.split('/')[-1]
+    model = model.split(':')[-1]
     # Remove special characters without replacement, except '_'
     return re.sub(r'[^a-zA-Z0-9_]+', '', model)
 
