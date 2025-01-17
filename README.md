@@ -213,13 +213,13 @@ example: `ollama pull obook_summary:q5_k_m`
   - `q3_k_m` • 3.5GB
   - `q4_k_m` • 4.4GB
   - `q5_k_m` • 5.1GB
-  - `q6_k` • 5.9GB
+  - `q6_k` • 5.9GB (preferred)
 - [obook_title](https://ollama.com/cognitivetech/obook_title) - On Ollama.com
   - `latest` • 7.7GB • Q_8
   - `q3_k_m` • 3.5GB
   - `q4_k_m` • 4.4GB
   - `q5_k_m` • 5.1GB
-  - `q6_k`   • 5.9GB 
+  - `q6_k`   • 5.9GB (preferred)
 
 ### HuggingFace
 There is also complete weights, lora and ggguf on huggingface
