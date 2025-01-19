@@ -1,8 +1,8 @@
 defaults:
   prompt: bnotes
   summary: cognitivetech/obook_summary:q6_k
-  general: gemma2
-  title: cognitivetech/obook_title:q4_k_m  # default model for title generation
+  general: notes
+  title: notes # cognitivetech/obook_title:q4_k_m  # default model for title generation
 prompts:
   bnotes: # Default Prompt
     prompt: Write comprehensive bulleted notes summarizing the provided text, with
@@ -31,4 +31,4 @@ prompts:
   quotes:
     prompt: 'write a few dozen quotes inspired by the provided text'
 title_generation:
-  prompt: Write a title with fewer than 11 words to concisely describe this selection.
+  prompt: Write 8-11 words describing this text.

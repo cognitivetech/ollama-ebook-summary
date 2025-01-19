@@ -144,7 +144,7 @@ def generate_title(api_base: str, model: str, clean_text: str, title_prompt: str
     """Generate a unique title using the specified API and return only the first line."""
     payload = {
         "model": model,
-        "prompt": f"``````\n\n{title_prompt}",
+        "prompt": f"```{clean_text}```\n\n{title_prompt}",
         "stream": False
     }
     result = make_api_request(api_base, "generate", payload)
