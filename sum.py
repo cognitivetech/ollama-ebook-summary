@@ -1,6 +1,6 @@
 import os, sys, csv, time, re, json, yaml
 import requests, argparse, traceback
-from typing import Dict, Any, Tuple, Optional
+from typing import Dict, Any, Tuple, Optional, List
 from urllib.parse import urljoin
 from pathlib import Path
 
@@ -141,15 +141,16 @@ def sanitize_text(text: str) -> str:
 # -----------------------------
 
 def generate_title(api_base: str, model: str, clean_text: str, title_prompt: str, config: Config) -> Optional[str]:
-    """Generate a unique title using the specified API."""
+    """Generate a unique title using the specified API and return only the first line."""
     payload = {
         "model": model,
-        "prompt": f"```{clean_text}```\n\n{title_prompt}",
+        "prompt": f"``````\n\n{title_prompt}",
         "stream": False
     }
     result = make_api_request(api_base, "generate", payload)
     if result:
-        return result.get("response", "").strip()
+        # Split response by newlines and return only first line, stripped of whitespace
+        return result.get("response", "").strip().split('\n')[0]
     return None
 
 def get_unique_title(original_title: str, clean_text: str, previous_original_title: str, api_base: str, title_prompt: str, config: Config) -> Tuple[str, bool]:
@@ -185,8 +186,29 @@ def write_markdown_header(md_out, filename_no_ext: str, model: str, sanitized_mo
     md_out.write(f"# {filename_no_ext}\n\n")
     md_out.write(f"## {model}\n\n")  # Use the original model name for display
 
+# -----------------------------
+# Global or External Variables for ToC
+# -----------------------------
+toc_entries = []  # Will collect (level, heading_text) as we go
+
 def write_markdown_entry(md_out, heading: str, content: str, verbose: bool = False):
     """Write a single entry to the Markdown file and optionally print to console."""
+    # Sniff the heading level: count '#' characters from the left
+    # e.g. "### Some Heading" => heading_level = 3
+    heading_level = 0
+    for ch in heading:
+        if ch == '#':
+            heading_level += 1
+        else:
+            break
+
+    # Extract the actual heading text (after the '#' characters and space)
+    heading_text = heading.lstrip('#').strip()
+
+    # Store heading and level to build the ToC later
+    toc_entries.append((heading_level, heading_text))
+
+    # Write out the heading + content
     markdown_text = f"{heading}\n\n{content}\n\n"
     md_out.write(markdown_text)
     if verbose:
@@ -257,7 +279,11 @@ def determine_header_level(row, default_level=3):
     level = row.get('level')
     if level:
         try:
-            return int(level)
+            level_num = int(level)
+            # Add 2 to each level if first level is 0
+            if level_num == 0:
+                return level_num + 2
+            return level_num
         except ValueError:
             print(f"Warning: Invalid level value '{level}'. Using default level {default_level}.")
     return default_level
@@ -272,16 +298,18 @@ def process_title_with_split(title, level):
 def process_csv_input(input_file: str, config: Config, api_base: str, model: str, 
                     prompt_alias: str, ptitle: str, markdown_file: str, 
                     csv_file: str, verbose: bool = False, continue_processing: bool = False):
-    """Process CSV input files with continuation support."""
+    """Process CSV input files with continuation support and ToC generation."""
 
     last_processed_text = ""
     mode = "w"
+    markdown_lines = []  # Store markdown content in memory
+    toc_entries = []    # Store ToC entries
 
     if continue_processing:
-        last_processed_text = get_last_processed_text(csv_file, 'csv')  # Changed from title to text
+        last_processed_text = get_last_processed_text(csv_file, 'csv')
         if last_processed_text:
             mode = "a"
-            print(f"Continuing from text: {last_processed_text[:50]}...")  # Debug line, showing first 50 chars
+            print(f"Continuing from text: {last_processed_text[:50]}...")
 
     with open(csv_file, mode, newline="", encoding='utf-8') as csv_out:
         writer = csv.writer(csv_out)
@@ -290,7 +318,7 @@ def process_csv_input(input_file: str, config: Config, api_base: str, model: str
             write_csv_header(writer)
 
         skip_until_found = continue_processing and last_processed_text
-        found_last_text = not skip_until_found  # Changed from title to text
+        found_last_text = not skip_until_found
 
         with open(input_file, "r", encoding='utf-8') as csv_in:
             reader = csv.DictReader(csv_in)
@@ -298,74 +326,126 @@ def process_csv_input(input_file: str, config: Config, api_base: str, model: str
             previous_original_title = ""
             current_level = 2
 
-            with open(markdown_file, mode, encoding='utf-8') as md_out:
-                if mode == "w":
-                    filename_no_ext = os.path.splitext(os.path.basename(input_file))[0]
-                    sanitized_model = sanitize_model_name(model)
-                    write_markdown_header(md_out, filename_no_ext, model, sanitized_model, api_base)
+            # Process each row
+            for row in reader:
+                text = next((row[key] for key in row if key.lower() == "text"), "").strip()
+                clean = sanitize_text(text)
 
-                for row in reader:
-                    text = next((row[key] for key in row if key.lower() == "text"), "").strip()
-                    clean = sanitize_text(text)
-
-                    # Skip rows until we find the last processed text
-                    if skip_until_found:
-                        if clean == last_processed_text:
-                            skip_until_found = False
-                            found_last_text = True
-                            print(f"Found last processed text: {last_processed_text[:50]}...")  # Debug line
-                            continue
+                # Skip rows until we find the last processed text
+                if skip_until_found:
+                    if clean == last_processed_text:
+                        skip_until_found = False
+                        found_last_text = True
+                        print(f"Found last processed text: {last_processed_text[:50]}...")
                         continue
+                    continue
 
-                    if not found_last_text:
-                        continue
+                if not found_last_text:
+                    continue
 
-                    # Process row as normal
-                    original_title = next((row[key] for key in row if key.lower() == "title"), "").strip()
+                # Process row as normal
+                original_title = next((row[key] for key in row if key.lower() == "title"), "").strip()
 
-                    # Determine if this is a chapter BEFORE title generation
-                    is_chapter = original_title and original_title != previous_original_title
+                # Determine if this is a chapter BEFORE title generation
+                is_chapter = original_title and original_title != previous_original_title
 
-                    if original_title == previous_original_title:
-                        unique_title, was_generated, output, elapsed_time, size, _ = process_entry(clean, "", config, previous_original_title, api_base, model, prompt_alias, ptitle)
-                    else:
-                        unique_title, was_generated, output, elapsed_time, size, _ = process_entry(clean, original_title, config, previous_original_title, api_base, model, prompt_alias, ptitle)
-
-                    if has_level_column:
-                        base_level = determine_header_level(row)
-                    else:
-                        base_level = 3  # Default to level 3 if no level column
-
-                    if was_generated:
-                        current_level = base_level + 1
-                    else:
-                        current_level = base_level
-
-                    # Handle split titles
-                    if ' > ' in unique_title:
-                        parts = unique_title.split(' > ', 1)
-                        heading = f"{'#' * current_level} {parts[0]}\n\n{'#' * (current_level + 1)} {parts[1]}"
-                    else:
-                        heading = f"{'#' * current_level} {unique_title}"
-
-                    write_markdown_entry(md_out, heading, output, verbose)
-                    
-                    # Add title to seen titles
-                    seen_titles.add(unique_title)
-                    
-                    write_csv_entry(
-                        writer,
-                        unique_title,
-                        clean,
-                        output,
-                        elapsed_time,
-                        is_chapter,
-                        current_level
+                if original_title == previous_original_title:
+                    unique_title, was_generated, output, elapsed_time, size, _ = process_entry(
+                        clean, "", config, previous_original_title, api_base, model, prompt_alias, ptitle
+                    )
+                else:
+                    unique_title, was_generated, output, elapsed_time, size, _ = process_entry(
+                        clean, original_title, config, previous_original_title, api_base, model, prompt_alias, ptitle
                     )
 
-                    # Update previous_original_title only if the current title wasn't generated
-                    if not was_generated:
-                        previous_original_title = original_title
+                if has_level_column:
+                    base_level = determine_header_level(row)
+                else:
+                    base_level = 3  # Default to level 3 if no level column
+
+                if was_generated:
+                    current_level = base_level + 1
+                else:
+                    current_level = base_level
+
+                # Handle split titles and create heading
+                if ' > ' in unique_title:
+                    parts = unique_title.split(' > ', 1)
+                    heading = f"{'#' * current_level} {parts[0]}\n\n{'#' * (current_level + 1)} {parts[1]}"
+                    # Add both parts to ToC
+                    toc_entries.append((current_level, parts[0]))
+                    toc_entries.append((current_level + 1, parts[1]))
+                else:
+                    heading = f"{'#' * current_level} {unique_title}"
+                    # Add to ToC
+                    toc_entries.append((current_level, unique_title))
+
+                # Store markdown content
+                markdown_block = f"{heading}\n\n{output}\n\n"
+                markdown_lines.append(markdown_block)
+                
+                if verbose:
+                    print(markdown_block)
+
+                # Add title to seen titles
+                seen_titles.add(unique_title)
+                
+                write_csv_entry(
+                    writer,
+                    unique_title,
+                    clean,
+                    output,
+                    elapsed_time,
+                    is_chapter,
+                    current_level
+                )
+
+                # Update previous_original_title only if the current title wasn't generated
+                if not was_generated:
+                    previous_original_title = original_title
+
+    # Generate ToC
+    toc_content = generate_toc(toc_entries)
+
+    # Read existing content if in append mode
+    existing_content = ""
+    if mode == "a":
+        try:
+            with open(markdown_file, 'r', encoding='utf-8') as md_in:
+                existing_content = md_in.read()
+        except FileNotFoundError:
+            pass
+
+    # Write final markdown file
+    with open(markdown_file, 'w', encoding='utf-8') as md_out:
+        if mode == "w":
+            filename_no_ext = os.path.splitext(os.path.basename(input_file))[0]
+            sanitized_model = sanitize_model_name(model)
+            write_markdown_header(md_out, filename_no_ext, model, sanitized_model, api_base)
+            # Write ToC
+            md_out.write(toc_content + "\n\n")
+            # Write content
+            md_out.write("\n".join(markdown_lines))
+        else:
+            # In append mode, preserve existing content
+            md_out.write(existing_content)
+            # Add new content
+            md_out.write("\n".join(markdown_lines))
+
+def generate_toc(toc_entries: List[Tuple[int, str]]) -> str:
+    """Generate Table of Contents from collected entries."""
+    toc_lines = ["## Table of Contents"]
+    
+    for level, text in toc_entries:
+        # Create anchor-friendly slug
+        slug = re.sub(r'[^a-z0-9]+', '-', text.lower()).strip('-')
+        # Calculate indentation (2 spaces per level)
+        indent = " " * ((level - 2) * 2)  # Subtract 2 since we start at ## level
+        # Add ToC entry
+        toc_lines.append(f"{indent}- [{text}](#{slug})")
+    
+    return "\n".join(toc_lines) + "\n\n"
+
 
 def process_text_input(input_file: str, config: Config, api_base: str, model: str, 
                       prompt_alias: str, ptitle: str, markdown_file: str, 
