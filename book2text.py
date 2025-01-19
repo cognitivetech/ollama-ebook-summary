@@ -154,7 +154,7 @@ def process_files(directory, file_type):
 def save_to_csv(data, output_file):
     with open(output_file, 'w', newline='', encoding='utf-8') as csvfile:
         writer = csv.writer(csvfile)
-        writer.writerow(['Filename', 'Title', 'Text', 'Character Count'])
+        writer.writerow(['filename', 'title', 'text', 'len'])
         writer.writerows(data)
 
 def main(input_file, output_dir, output_csv):
