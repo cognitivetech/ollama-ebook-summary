@@ -164,17 +164,60 @@ def read_file(file_path):
 
 @safe_file_operations
 def read_csv_file(file_path):
-    """Reads CSV input with columns: title, level, page, text, len."""
+    # Increase CSV field size limit
+    csv.field_size_limit(sys.maxsize)
+    """
+    Reads CSV input that must have at least 'title' and 'text' columns. 
+    Columns like 'level', 'page', or 'len' are optional.
+    """
     rows = []
     with open(file_path, 'r', encoding='utf-8') as csvf:
         reader = csv.DictReader(csvf)
-        # Basic sanity check for expected columns
-        expected_cols = {"title", "level", "text"}
-        if not expected_cols.issubset(reader.fieldnames):
-            raise ValueError("CSV must contain columns: title, level, page, text, len.")
+        # Require only 'title' and 'text' 
+        required_cols = {"title", "text"}
+        if not required_cols.issubset(reader.fieldnames):
+            raise ValueError("CSV must contain at least the columns: 'title' and 'text'.")
         for row in reader:
             rows.append(row)
     return rows
+
+def process_csv_file(self, csv_rows):
+    """
+    Process each row in the CSV file.
+    If a row has no text, copy it as-is to output.
+    If it has text, process it according to chunking rules.
+    """
+    processed_rows = []
+    
+    for row in csv_rows:
+        original_text = row.get("text")
+        
+        # If no text, copy row as-is
+        if original_text is None or original_text.strip() == "":
+            processed_rows.append(row)
+            continue
+            
+        # Process text if it exists
+        content = preprocess(original_text)
+        sentences = self.sent_tokenize(content)
+        chunks = self.create_chunks(sentences)
+        
+        # Create new rows for each chunk
+        for i, chunk in enumerate(chunks, 1):
+            new_row = row.copy()  # Create a copy of original row
+            new_row["text"] = chunk
+            new_row["chunk_id"] = f"{row.get('id', '')}_chunk_{i}"
+            processed_rows.append(new_row)
+            
+    # Write all processed rows to output CSV
+    output_file = self.input_file.replace('.csv', '_chunked.csv')
+    with open(output_file, 'w', newline='', encoding='utf-8') as f:
+        if processed_rows:
+            writer = csv.DictWriter(f, fieldnames=processed_rows[0].keys())
+            writer.writeheader()
+            writer.writerows(processed_rows)
+    
+    print(f"Processing complete. Output saved to {output_file}")
 
 def preprocess(text):
     """Remove extra spaces and trim the text."""
@@ -491,8 +534,10 @@ class FileChunkProcessor:
         Splits text as needed
         """
         for row in csv_rows:
-            # We'll do the same chunk splitting approach used elsewhere:
-            original_text = row["text"]
+            original_text = row.get("text", "")  # Default to empty string if None
+            if original_text is None:
+                original_text = ""
+
             content = preprocess(original_text)
 
             # Clean up math tags from CSV input if present
@@ -504,7 +549,7 @@ class FileChunkProcessor:
                 for chunk in line_chunks:
                     self.chunks.append({
                         "title": row["title"],
-                        "level": row["level"],
+                        "level": row.get("level", ""),
                         "page": row.get("page", ""),
                         "text": chunk,
                         "len": len(chunk)
@@ -512,7 +557,7 @@ class FileChunkProcessor:
             else:
                 self.chunks.append({
                     "title": row["title"],
-                    "level": row["level"],
+                    "level": row.get("level", ""),
                     "page": row.get("page", ""),
                     "text": content,
                     "len": len(content)
