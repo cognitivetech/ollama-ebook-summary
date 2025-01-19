@@ -40,6 +40,7 @@ Its very important towards unlocking the full capabilities of LLM without relyin
   - [Brave](#brave)
 - [Disclaimer](#disclaimer)
 - [Inspiration](#inspiration)
+- [Resources](#resources)
 
 ## Setup
 ### Python Environment
@@ -212,13 +213,13 @@ example: `ollama pull obook_summary:q5_k_m`
   - `q3_k_m` • 3.5GB
   - `q4_k_m` • 4.4GB
   - `q5_k_m` • 5.1GB
-  - `q6_k` • 5.9GB
+  - `q6_k` • 5.9GB (preferred)
 - [obook_title](https://ollama.com/cognitivetech/obook_title) - On Ollama.com
   - `latest` • 7.7GB • Q_8
   - `q3_k_m` • 3.5GB
   - `q4_k_m` • 4.4GB
   - `q5_k_m` • 5.1GB
-  - `q6_k`   • 5.9GB 
+  - `q6_k`   • 5.9GB (preferred)
 
 ### HuggingFace
 There is also complete weights, lora and ggguf on huggingface
@@ -270,3 +271,11 @@ Now with this tool, I'm able to review a lot more material more quickly. This is
 
 Moreover, it can be used to create custom datasets based on whatever source materials you throw at it.
 
+## Resources
+* [Summarizing Books](https://openai.com/research/summarizing-books) OpenAI
+
+### Leaderboards
+* [Small LLM Leaderboard](https://huggingface.co/spaces/w601sxs/SLM-Leaderboard) HuggingFace
+* [HuggingFace - Open LLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard)
+* [Chatbox Arena Leaderboard](https://chat.lmsys.org/)
+* [Hallucination leaderboard](https://github.com/vectara/hallucination-leaderboard/) Vectara
